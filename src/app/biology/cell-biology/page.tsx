@@ -263,12 +263,27 @@ export default function CellBiologyPage() {
             </section>
 
             {/* Subtopic cards */}
-            <SubtopicGrid
-              metadata={cellBiologyMetadata}
-              questions={cellBiologyQuestions}
-              completedQuestions={completedIds}
-              onSubtopicSelect={handleSubtopicSelect}
-            />
+            {(() => {
+              // Runtime-safe normalisation: ensure completedQuestions is a Set<string>
+              const completedQuestionIds =
+                completedIds instanceof Set
+                  ? completedIds
+                  : new Set<string>(
+                      Array.isArray(completedIds)
+                        ? completedIds.filter(
+                            (value): value is string => typeof value === "string"
+                          )
+                        : []
+                    );
+              return (
+                <SubtopicGrid
+                  metadata={cellBiologyMetadata}
+                  questions={cellBiologyQuestions}
+                  completedQuestions={completedQuestionIds}
+                  onSubtopicSelect={handleSubtopicSelect}
+                />
+              );
+            })()}
 
             {/* Practice modes section */}
             <section className="mt-12">

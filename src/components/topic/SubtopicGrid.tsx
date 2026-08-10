@@ -95,6 +95,18 @@ export default function SubtopicGrid({
   completedQuestions,
   onSubtopicSelect,
 }: SubtopicGridProps) {
+  // Runtime-safe normalisation: ensure completedQuestions is a Set<string>
+  const completedQuestionIds: Set<string> =
+    completedQuestions instanceof Set
+      ? completedQuestions
+      : new Set<string>(
+          Array.isArray(completedQuestions)
+            ? completedQuestions.filter(
+                (value): value is string => typeof value === "string"
+              )
+            : []
+        );
+
   // Calculate question counts per subtopic
   const subtopicCounts = new Map<string, number>();
   metadata.subtopics.forEach((subtopic) => {
@@ -106,7 +118,7 @@ export default function SubtopicGrid({
   const getSubtopicCompletion = (subtopic: string): boolean => {
     const subtopicQuestions = questions.filter((q) => q.subtopic === subtopic);
     if (subtopicQuestions.length === 0) return false;
-    return subtopicQuestions.every((q) => completedQuestions.has(q.id));
+    return subtopicQuestions.every((q) => completedQuestionIds.has(q.id));
   };
 
   const subtopicDescriptions: Record<string, string> = {
