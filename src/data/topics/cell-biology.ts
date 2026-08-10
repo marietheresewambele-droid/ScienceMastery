@@ -1,5 +1,5 @@
 import cellBiologyQuestionBank from "@/data/biology/cell-biology-questions.json";
-import type { MasteryQuestion, TopicMetadata } from "@/types/questions";
+import type { BiologyTopicConfig, BiologySubtopicConfig, MasteryQuestion, TopicMetadata } from "@/types/questions";
 
 interface RawCellBiologyQuestion {
   id: string;
@@ -175,3 +175,35 @@ export const cellBiologyMetadata: TopicMetadata = {
 export const cellBiologyQuestions: MasteryQuestion[] = cellBiologyData.questions.map(
   mapCellBiologyRecord
 );
+
+const cellBiologySubtopics: BiologySubtopicConfig[] = [
+  {
+    id: "cell-structure",
+    title: "Cell Structure",
+    description: "Study the structure and function of cells and organelles.",
+  },
+  {
+    id: "cell-division",
+    title: "Cell Division",
+    description: "Review cell division, chromosomes and mitosis.",
+  },
+  {
+    id: "transport-in-cells",
+    title: "Transport in Cells",
+    description: "Explore diffusion, osmosis and active transport.",
+  },
+];
+
+export const cellBiologyConfig: BiologyTopicConfig = {
+  id: "cell-biology",
+  title: "Cell Biology",
+  description:
+    "Master the fundamentals of cell biology through focused practice questions. Compare your answers with marking points and use active recall to build lasting understanding.",
+  route: "/biology/cell-biology",
+  storageNamespace: "sciencemastery_cellbiology",
+  questions: cellBiologyQuestions,
+  subtopics: cellBiologySubtopics,
+  subject: "biology",
+  examBoard: "AQA",
+  topicNumber: "Topic 1",
+};
