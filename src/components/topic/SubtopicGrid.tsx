@@ -85,7 +85,7 @@ function SubtopicCard({
 interface SubtopicGridProps {
   metadata: TopicMetadata;
   questions: MasteryQuestion[];
-  completedQuestions: Set<string>;
+  completedQuestions?: Set<string> | string[];
   onSubtopicSelect: (subtopic: string) => void;
 }
 
@@ -95,6 +95,18 @@ export default function SubtopicGrid({
   completedQuestions,
   onSubtopicSelect,
 }: SubtopicGridProps) {
+  const completedQuestionSet = new Set<string>();
+
+  if (completedQuestions instanceof Set) {
+    completedQuestions.forEach((id) => completedQuestionSet.add(id));
+  } else if (Array.isArray(completedQuestions)) {
+    completedQuestions.forEach((id) => {
+      if (typeof id === "string") {
+        completedQuestionSet.add(id);
+      }
+    });
+  }
+
   // Calculate question counts per subtopic
   const subtopicCounts = new Map<string, number>();
   metadata.subtopics.forEach((subtopic) => {
@@ -106,7 +118,7 @@ export default function SubtopicGrid({
   const getSubtopicCompletion = (subtopic: string): boolean => {
     const subtopicQuestions = questions.filter((q) => q.subtopic === subtopic);
     if (subtopicQuestions.length === 0) return false;
-    return subtopicQuestions.every((q) => completedQuestions.has(q.id));
+    return subtopicQuestions.every((q) => completedQuestionSet.has(q.id));
   };
 
   const subtopicDescriptions: Record<string, string> = {
@@ -149,8 +161,8 @@ export default function SubtopicGrid({
               "Practice questions for this subtopic."
             }
             questionCount={subtopicCounts.get(subtopic) || 0}
-            isCompleted={getSubtopicCompletion(subtopic)}
             onPractise={() => onSubtopicSelect(subtopic)}
+            isCompleted={getSubtopicCompletion(subtopic)}
           />
         ))}
       </div>

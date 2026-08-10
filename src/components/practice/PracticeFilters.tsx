@@ -9,11 +9,13 @@ interface PracticeFiltersProps {
   selectedDifficulty: "Foundation" | "Higher" | "Both" | null;
   showBookmarkedOnly: boolean;
   showNeedsPracticeOnly: boolean;
+  showDueOnly: boolean;
   onSubtopicChange: (subtopic: string | null) => void;
   onAOChange: (ao: "AO1" | "AO2" | "AO3" | null) => void;
   onDifficultyChange: (difficulty: "Foundation" | "Higher" | "Both" | null) => void;
   onBookmarkedToggle: () => void;
   onNeedsPracticeToggle: () => void;
+  onDueToggle: () => void;
 }
 
 export default function PracticeFilters({
@@ -23,11 +25,13 @@ export default function PracticeFilters({
   selectedDifficulty,
   showBookmarkedOnly,
   showNeedsPracticeOnly,
+  showDueOnly,
   onSubtopicChange,
   onAOChange,
   onDifficultyChange,
   onBookmarkedToggle,
   onNeedsPracticeToggle,
+  onDueToggle,
 }: PracticeFiltersProps) {
   // Get unique subtopics from questions
   const subtopics = Array.from(
@@ -178,6 +182,29 @@ export default function PracticeFilters({
               <path d="M12 16h.01" />
             </svg>
             Needs practice
+          </button>
+
+          <button
+            type="button"
+            onClick={onDueToggle}
+            className={`flex items-center justify-center gap-2 rounded-xl px-3 py-2 text-sm font-bold transition focus:outline-none focus:ring-2 focus:ring-[#00a551] ${
+              showDueOnly
+                ? "bg-[#00a551] text-white"
+                : "border border-[#dce2e7] bg-white text-[#5a6b7f] hover:border-[#00a551]"
+            }`}
+            aria-pressed={showDueOnly}
+          >
+            <svg
+              className="h-4 w-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <rect x="3" y="4" width="18" height="18" rx="3" />
+              <path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Due now
           </button>
         </div>
       </div>

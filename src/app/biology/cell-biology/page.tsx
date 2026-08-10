@@ -7,20 +7,202 @@ import SubtopicGrid from "@/components/topic/SubtopicGrid";
 import QuestionPractice from "@/components/practice/QuestionPractice";
 import PracticeFilters from "@/components/practice/PracticeFilters";
 import { cellBiologyMetadata, cellBiologyQuestions } from "@/data/topics/cell-biology";
+import type { ReviewMap, ReviewRating, ReviewRecord } from "@/types/questions";
 
 type PracticeMode = "mastery" | "flashcards" | "mixed" | "bookmarked";
 
-// Lazy initializer for localStorage state - safe for SSR
-function loadFromStorage<T>(key: string, initialValue: T): T {
+function loadStoredStringArray(key: string): string[] {
   if (typeof window === "undefined") {
-    return initialValue;
+    return [];
   }
+
   try {
     const stored = localStorage.getItem(key);
-    return stored ? (JSON.parse(stored) as T) : initialValue;
+    if (!stored) {
+      return [];
+    }
+
+    const parsed = JSON.parse(stored);
+    if (!Array.isArray(parsed)) {
+      return [];
+    }
+
+    return parsed.filter((value): value is string => typeof value === "string");
   } catch {
-    return initialValue;
+    return [];
   }
+}
+
+function loadStoredReviewMap(): ReviewMap {
+  if (typeof window === "undefined") {
+    return {};
+  }
+
+  try {
+    const stored = localStorage.getItem("sciencemastery_cellbiology_reviews");
+    if (!stored) {
+      return {};
+    }
+
+    const parsed = JSON.parse(stored);
+
+    const reviews: ReviewMap = {};
+
+    if (Array.isArray(parsed)) {
+      parsed.forEach((entry) => {
+        if (typeof entry !== "object" || entry === null) {
+          return;
+        }
+
+        const candidate = entry as {
+          id?: unknown;
+          questionId?: unknown;
+          rating?: unknown;
+          reviewedAt?: unknown;
+          dueAt?: unknown;
+          intervalDays?: unknown;
+          repetitions?: unknown;
+        };
+
+        const idValue = typeof candidate.id === "string"
+          ? candidate.id
+          : typeof candidate.questionId === "string"
+            ? candidate.questionId
+            : "";
+
+        if (!idValue) {
+          return;
+        }
+
+        const validRating =
+          candidate.rating === "again" ||
+          candidate.rating === "hard" ||
+          candidate.rating === "good" ||
+          candidate.rating === "easy";
+
+        if (validRating && typeof candidate.rating === "string") {
+          if (
+            candidate.reviewedAt &&
+            typeof candidate.reviewedAt === "string" &&
+            candidate.dueAt &&
+            typeof candidate.dueAt === "string" &&
+            typeof candidate.intervalDays === "number" &&
+            typeof candidate.repetitions === "number"
+          ) {
+            reviews[idValue] = {
+              rating: candidate.rating as ReviewRating,
+              reviewedAt: candidate.reviewedAt,
+              dueAt: candidate.dueAt,
+              intervalDays: candidate.intervalDays,
+              repetitions: candidate.repetitions,
+            };
+          } else {
+            const fallbackDate = new Date().toISOString();
+            reviews[idValue] = {
+              rating: candidate.rating as ReviewRating,
+              reviewedAt: fallbackDate,
+              dueAt: new Date(Date.now() + 10 * 60 * 1000).toISOString(),
+              intervalDays: 0,
+              repetitions: 0,
+            };
+          }
+        }
+      });
+    } else if (parsed && typeof parsed === "object") {
+      Object.entries(parsed as Record<string, unknown>).forEach(([id, value]) => {
+        if (typeof value === "string") {
+          const candidateValue = value as "again" | "hard" | "good" | "easy";
+          if (
+            candidateValue === "again" ||
+            candidateValue === "hard" ||
+            candidateValue === "good" ||
+            candidateValue === "easy"
+          ) {
+            const reviewedAt = new Date().toISOString();
+            reviews[id] = {
+              rating: candidateValue,
+              reviewedAt,
+              dueAt: new Date(Date.now() + 10 * 60 * 1000).toISOString(),
+              intervalDays: 0,
+              repetitions: 0,
+            };
+          }
+        }
+      });
+    }
+
+    return reviews;
+  } catch {
+    return {};
+  }
+}
+
+function scheduleNextReview(
+  previous: ReviewRecord | undefined,
+  rating: ReviewRating,
+  now: Date = new Date()
+): ReviewRecord {
+  const reviewedAt = now.toISOString();
+
+  if (!previous) {
+    const firstSchedule = {
+      again: { dueAt: new Date(now.getTime() + 10 * 60 * 1000).toISOString(), intervalDays: 0, repetitions: 0 },
+      hard: { dueAt: new Date(now.getTime() + 24 * 60 * 60 * 1000).toISOString(), intervalDays: 1, repetitions: 1 },
+      good: { dueAt: new Date(now.getTime() + 3 * 24 * 60 * 60 * 1000).toISOString(), intervalDays: 3, repetitions: 1 },
+      easy: { dueAt: new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000).toISOString(), intervalDays: 7, repetitions: 1 },
+    };
+
+    const due = firstSchedule[rating];
+
+    return {
+      rating,
+      reviewedAt,
+      dueAt: due.dueAt,
+      intervalDays: due.intervalDays,
+      repetitions: due.repetitions,
+    };
+  }
+
+  if (rating === "again") {
+    return {
+      rating,
+      reviewedAt,
+      dueAt: new Date(now.getTime() + 10 * 60 * 1000).toISOString(),
+      intervalDays: 0,
+      repetitions: 0,
+    };
+  }
+
+  if (rating === "hard") {
+    const intervalDays = Math.max(1, Math.round(previous.intervalDays * 1.2));
+    return {
+      rating,
+      reviewedAt,
+      dueAt: new Date(now.getTime() + intervalDays * 24 * 60 * 60 * 1000).toISOString(),
+      intervalDays,
+      repetitions: previous.repetitions + 1,
+    };
+  }
+
+  if (rating === "good") {
+    const intervalDays = Math.max(3, Math.round(previous.intervalDays * 2));
+    return {
+      rating,
+      reviewedAt,
+      dueAt: new Date(now.getTime() + intervalDays * 24 * 60 * 60 * 1000).toISOString(),
+      intervalDays,
+      repetitions: previous.repetitions + 1,
+    };
+  }
+
+  const intervalDays = Math.max(7, Math.round(previous.intervalDays * 3));
+  return {
+    rating,
+    reviewedAt,
+    dueAt: new Date(now.getTime() + intervalDays * 24 * 60 * 60 * 1000).toISOString(),
+    intervalDays,
+    repetitions: previous.repetitions + 1,
+  };
 }
 
 export default function CellBiologyPage() {
@@ -37,25 +219,20 @@ export default function CellBiologyPage() {
   >(null);
   const [showBookmarkedOnly, setShowBookmarkedOnly] = useState(false);
   const [showNeedsPracticeOnly, setShowNeedsPracticeOnly] = useState(false);
+  const [showDueOnly, setShowDueOnly] = useState(false);
 
   // localStorage state - using lazy initialisers for SSR safety
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(() =>
-    loadFromStorage(
-      "sciencemastery_cellbiology_bookmarks",
-      new Set<string>()
-    )
+    new Set(loadStoredStringArray("sciencemastery_cellbiology_bookmarks"))
   );
   const [needsPracticeIds, setNeedsPracticeIds] = useState<Set<string>>(() =>
-    loadFromStorage(
-      "sciencemastery_cellbiology_needspractice",
-      new Set<string>()
-    )
+    new Set(loadStoredStringArray("sciencemastery_cellbiology_needspractice"))
   );
   const [completedIds, setCompletedIds] = useState<Set<string>>(() =>
-    loadFromStorage(
-      "sciencemastery_cellbiology_completed",
-      new Set<string>()
-    )
+    new Set(loadStoredStringArray("sciencemastery_cellbiology_completed"))
+  );
+  const [reviewMap, setReviewMap] = useState<ReviewMap>(() =>
+    loadStoredReviewMap()
   );
 
   // Save to localStorage when state changes
@@ -98,6 +275,24 @@ export default function CellBiologyPage() {
     }
   }, [completedIds]);
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      try {
+        const serialisedReviews = Object.entries(reviewMap).map(([id, record]) => ({
+          id,
+          ...record,
+        }));
+
+        localStorage.setItem(
+          "sciencemastery_cellbiology_reviews",
+          JSON.stringify(serialisedReviews)
+        );
+      } catch (e) {
+        console.error("Failed to save reviews:", e);
+      }
+    }
+  }, [reviewMap]);
+
   const handleBookmark = (questionId: string) => {
     setBookmarkedIds((prev) => {
       const next = new Set(prev);
@@ -110,15 +305,34 @@ export default function CellBiologyPage() {
     });
   };
 
-  const handleNeedsPractice = (questionId: string) => {
-    setNeedsPracticeIds((prev) => new Set(prev).add(questionId));
-  };
-
   const handleComplete = (questionId: string, gotIt: boolean) => {
     setCompletedIds((prev) => new Set(prev).add(questionId));
     if (!gotIt) {
       setNeedsPracticeIds((prev) => new Set(prev).add(questionId));
     }
+  };
+
+  const handleReview = (questionId: string, rating: ReviewRating) => {
+    setCompletedIds((prev) => new Set(prev).add(questionId));
+
+    if (rating === "again" || rating === "hard") {
+      setNeedsPracticeIds((prev) => new Set(prev).add(questionId));
+    } else {
+      setNeedsPracticeIds((prev) => {
+        const next = new Set(prev);
+        next.delete(questionId);
+        return next;
+      });
+    }
+
+    const nextReview = scheduleNextReview(reviewMap[questionId], rating);
+
+    setReviewMap((prev) => {
+      return {
+        ...prev,
+        [questionId]: nextReview,
+      };
+    });
   };
 
   const handleSubtopicSelect = (subtopic: string) => {
@@ -135,6 +349,7 @@ export default function CellBiologyPage() {
     setFilterDifficulty(null);
     setShowBookmarkedOnly(false);
     setShowNeedsPracticeOnly(false);
+    setShowDueOnly(false);
   };
 
   // Calculate topic progress
@@ -382,6 +597,7 @@ export default function CellBiologyPage() {
               selectedDifficulty={filterDifficulty}
               showBookmarkedOnly={showBookmarkedOnly}
               showNeedsPracticeOnly={showNeedsPracticeOnly}
+              showDueOnly={showDueOnly}
               onSubtopicChange={setFilterSubtopic}
               onAOChange={setFilterAO}
               onDifficultyChange={setFilterDifficulty}
@@ -391,6 +607,7 @@ export default function CellBiologyPage() {
               onNeedsPracticeToggle={() =>
                 setShowNeedsPracticeOnly(!showNeedsPracticeOnly)
               }
+              onDueToggle={() => setShowDueOnly(!showDueOnly)}
             />
 
             {/* Question practice interface */}
@@ -403,11 +620,13 @@ export default function CellBiologyPage() {
                 filterDifficulty={filterDifficulty}
                 showBookmarkedOnly={showBookmarkedOnly}
                 showNeedsPracticeOnly={showNeedsPracticeOnly}
+                showDueOnly={showDueOnly}
                 onComplete={handleComplete}
+                onReview={handleReview}
                 onBookmark={handleBookmark}
-                onNeedsPractice={handleNeedsPractice}
                 bookmarkedIds={bookmarkedIds}
                 needsPracticeIds={needsPracticeIds}
+                reviewMap={reviewMap}
                 onBackToTopic={handleBackToTopic}
               />
             </div>

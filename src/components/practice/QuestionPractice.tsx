@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo, useCallback } from "react";
-import { MasteryQuestion } from "@/types/questions";
+import { MasteryQuestion, ReviewMap, ReviewRating } from "@/types/questions";
 
 interface QuestionPracticeProps {
   questions: MasteryQuestion[];
@@ -11,11 +11,13 @@ interface QuestionPracticeProps {
   filterDifficulty?: "Foundation" | "Higher" | "Both" | null;
   showBookmarkedOnly?: boolean;
   showNeedsPracticeOnly?: boolean;
+  showDueOnly?: boolean;
   onComplete: (questionId: string, gotIt: boolean) => void;
+  onReview: (questionId: string, rating: ReviewRating) => void;
   onBookmark: (questionId: string) => void;
-  onNeedsPractice: (questionId: string) => void;
   bookmarkedIds: Set<string>;
   needsPracticeIds: Set<string>;
+  reviewMap: ReviewMap;
   onBackToTopic: () => void;
 }
 
@@ -27,16 +29,18 @@ export default function QuestionPractice({
   filterDifficulty = null,
   showBookmarkedOnly = false,
   showNeedsPracticeOnly = false,
+  showDueOnly = false,
   onComplete,
+  onReview,
   onBookmark,
-  onNeedsPractice,
   bookmarkedIds,
   needsPracticeIds,
+  reviewMap,
   onBackToTopic,
 }: QuestionPracticeProps) {
+  const [currentTime] = useState(() => Date.now());
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [showMarkingPoints, setShowMarkingPoints] = useState(false);
-  const [studentAnswer, setStudentAnswer] = useState("");
+  const [showAnswer, setShowAnswer] = useState(false);
 
   // Derive filtered questions using useMemo - no state sync needed
   const filteredQuestions = useMemo(() => {
@@ -60,6 +64,16 @@ export default function QuestionPractice({
     if (showNeedsPracticeOnly) {
       result = result.filter((q) => needsPracticeIds.has(q.id));
     }
+    if (showDueOnly) {
+      result = result.filter((q) => {
+        const review = reviewMap[q.id];
+        if (!review) {
+          return false;
+        }
+
+        return new Date(review.dueAt).getTime() <= currentTime;
+      });
+    }
 
     return result;
   }, [
@@ -70,8 +84,11 @@ export default function QuestionPractice({
     filterDifficulty,
     showBookmarkedOnly,
     showNeedsPracticeOnly,
+    showDueOnly,
+    currentTime,
     bookmarkedIds,
     needsPracticeIds,
+    reviewMap,
   ]);
 
   // Reset currentIndex when filtered questions change significantly
@@ -88,30 +105,55 @@ export default function QuestionPractice({
   const handleNext = useCallback(() => {
     if (safeCurrentIndex < filteredQuestions.length - 1) {
       setCurrentIndex(safeCurrentIndex + 1);
-      setShowMarkingPoints(false);
-      setStudentAnswer("");
+      setShowAnswer(false);
     }
   }, [safeCurrentIndex, filteredQuestions.length]);
 
   const handlePrevious = useCallback(() => {
     if (safeCurrentIndex > 0) {
       setCurrentIndex(safeCurrentIndex - 1);
-      setShowMarkingPoints(false);
-      setStudentAnswer("");
+      setShowAnswer(false);
     }
   }, [safeCurrentIndex]);
 
-  const handleGotIt = () => {
-    if (currentQuestion) {
-      onComplete(currentQuestion.id, true);
-      handleNext();
+  const getRatingPreview = (rating: ReviewRating) => {
+    const previous = reviewMap[currentQuestion?.id ?? ""];
+
+    if (!previous) {
+      if (rating === "again") {
+        return "10 minutes";
+      }
+
+      if (rating === "hard") {
+        return "1 day";
+      }
+
+      if (rating === "good") {
+        return "3 days";
+      }
+
+      return "7 days";
     }
+
+    if (rating === "again") {
+      return "10 minutes";
+    }
+
+    if (rating === "hard") {
+      return `${Math.max(1, Math.round(previous.intervalDays * 1.2))} ${Math.max(1, Math.round(previous.intervalDays * 1.2)) === 1 ? "day" : "days"}`;
+    }
+
+    if (rating === "good") {
+      return `${Math.max(3, Math.round(previous.intervalDays * 2))} ${Math.max(3, Math.round(previous.intervalDays * 2)) === 1 ? "day" : "days"}`;
+    }
+
+    return `${Math.max(7, Math.round(previous.intervalDays * 3))} ${Math.max(7, Math.round(previous.intervalDays * 3)) === 1 ? "day" : "days"}`;
   };
 
-  const handleNeedsMorePractice = () => {
+  const handleRating = (rating: ReviewRating) => {
     if (currentQuestion) {
-      onNeedsPractice(currentQuestion.id);
-      onComplete(currentQuestion.id, false);
+      onReview(currentQuestion.id, rating);
+      onComplete(currentQuestion.id, true);
       handleNext();
     }
   };
@@ -215,78 +257,119 @@ export default function QuestionPractice({
           </h2>
         </div>
 
-        {/* Student answer textarea */}
         <div className="mt-6">
-          <label
-            htmlFor="student-answer"
-            className="block text-sm font-semibold text-[#5a6b7f]"
-          >
-            Your answer
-          </label>
-          <textarea
-            id="student-answer"
-            value={studentAnswer}
-            onChange={(e) => setStudentAnswer(e.target.value)}
-            placeholder="Type your answer here from memory..."
-            rows={5}
-            className="mt-2 w-full rounded-xl border border-[#dce2e7] bg-[#f7f9fa] px-4 py-3 text-[#0b1d33] placeholder:text-[#9ca3af] focus:border-[#00a551] focus:outline-none focus:ring-2 focus:ring-[#00a551]"
-          />
-        </div>
-
-        {/* Reveal marking points button */}
-        <div className="mt-6">
-          {!showMarkingPoints ? (
+          {!showAnswer ? (
             <button
               type="button"
-              onClick={() => setShowMarkingPoints(true)}
+              onClick={() => setShowAnswer(true)}
               className="w-full rounded-xl bg-[#0b1d33] px-6 py-4 font-bold text-white transition hover:bg-[#1a3a52] focus:outline-none focus:ring-2 focus:ring-[#0b1d33]"
             >
-              Reveal marking points
+              Reveal answer
             </button>
           ) : (
             <div className="space-y-4">
-              {/* Marking points */}
               <div className="rounded-2xl border border-[#00a551] bg-[#f0fdf4] p-6">
                 <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-[#02753a]">
-                  Marking points
+                  Answer guidance
                 </h3>
-                <ul className="space-y-2">
-                  {currentQuestion.markingPoints.map((point, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#00a551] text-xs font-bold text-white">
-                        {index + 1}
+
+                {currentQuestion.modelAnswer ? (
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-widest text-[#5a6b7f]">
+                      Model answer
+                    </p>
+                    <p className="mt-2 text-[#0b1d33]">{currentQuestion.modelAnswer}</p>
+                  </div>
+                ) : (
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-widest text-[#5a6b7f]">
+                      Guidance points
+                    </p>
+                    <ul className="mt-2 space-y-2">
+                      {currentQuestion.markingPoints.map((point, index) => (
+                        <li key={index} className="flex items-start gap-3">
+                          <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#00a551] text-xs font-bold text-white">
+                            {index + 1}
+                          </span>
+                          <span className="text-[#0b1d33]">{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+
+                <div className="mt-4 rounded-2xl border border-[#dce2e7] bg-white p-4">
+                  <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-[#5a6b7f]">
+                    Marking points
+                  </h3>
+                  <ul className="space-y-2">
+                    {currentQuestion.markingPoints.map((point, index) => (
+                      <li key={index} className="flex items-start gap-3">
+                        <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#00a551] text-xs font-bold text-white">
+                          {index + 1}
+                        </span>
+                        <span className="text-[#0b1d33]">{point}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    <span className="rounded-full bg-[#0b1d33] px-3 py-1 text-xs font-bold text-white">
+                      {currentQuestion.marks} {currentQuestion.marks === 1 ? "mark" : "marks"}
+                    </span>
+                    {currentQuestion.commandWord && (
+                      <span className="rounded-full bg-[#dbeafe] px-3 py-1 text-xs font-bold text-[#1e40af]">
+                        {currentQuestion.commandWord}
                       </span>
-                      <span className="text-[#0b1d33]">{point}</span>
-                    </li>
-                  ))}
-                </ul>
+                    )}
+                    {currentQuestion.assessmentObjective && (
+                      <span className="rounded-full bg-[#f1f5f9] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
+                        {currentQuestion.assessmentObjective}
+                      </span>
+                    )}
+                  </div>
+                </div>
               </div>
 
-              {/* Model answer (if available) */}
-              {currentQuestion.modelAnswer && (
-                <div className="rounded-2xl border border-[#dce2e7] bg-[#f7f9fa] p-6">
-                  <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-[#5a6b7f]">
-                    Model answer
-                  </h3>
-                  <p className="text-[#0b1d33]">{currentQuestion.modelAnswer}</p>
-                </div>
-              )}
-
-              {/* Self-assessment buttons */}
-              <div className="flex flex-wrap gap-3">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                 <button
                   type="button"
-                  onClick={handleGotIt}
-                  className="flex-1 rounded-xl bg-[#00a551] px-6 py-4 font-bold text-white transition hover:bg-[#028f46] focus:outline-none focus:ring-2 focus:ring-[#00a551]"
+                  onClick={() => handleRating("again")}
+                  className="rounded-xl bg-[#dc2626] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#b91c1c] focus:outline-none focus:ring-2 focus:ring-[#dc2626]"
                 >
-                  I got it
+                  <span className="block">Again — Review soon</span>
+                  <span className="mt-1 block text-xs font-semibold opacity-90">
+                    {getRatingPreview("again")}
+                  </span>
                 </button>
                 <button
                   type="button"
-                  onClick={handleNeedsMorePractice}
-                  className="flex-1 rounded-xl border border-[#dce2e7] bg-white px-6 py-4 font-bold text-[#5a6b7f] transition hover:border-[#f59e0b] hover:text-[#b45309] focus:outline-none focus:ring-2 focus:ring-[#f59e0b]"
+                  onClick={() => handleRating("hard")}
+                  className="rounded-xl bg-[#d97706] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#b45309] focus:outline-none focus:ring-2 focus:ring-[#d97706]"
                 >
-                  I need more practice
+                  <span className="block">Hard — Short interval</span>
+                  <span className="mt-1 block text-xs font-semibold opacity-90">
+                    {getRatingPreview("hard")}
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleRating("good")}
+                  className="rounded-xl bg-[#00a551] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#028f46] focus:outline-none focus:ring-2 focus:ring-[#00a551]"
+                >
+                  <span className="block">Good — Normal interval</span>
+                  <span className="mt-1 block text-xs font-semibold opacity-90">
+                    {getRatingPreview("good")}
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleRating("easy")}
+                  className="rounded-xl bg-[#1e40af] px-4 py-3 text-sm font-bold text-white transition hover:bg-[#1e3a8a] focus:outline-none focus:ring-2 focus:ring-[#1e40af]"
+                >
+                  <span className="block">Easy — Longer interval</span>
+                  <span className="mt-1 block text-xs font-semibold opacity-90">
+                    {getRatingPreview("easy")}
+                  </span>
                 </button>
               </div>
             </div>
@@ -294,7 +377,7 @@ export default function QuestionPractice({
         </div>
 
         {/* Navigation and bookmark */}
-        {showMarkingPoints && (
+        {showAnswer && (
           <div className="mt-6 flex items-center justify-between border-t border-[#e6eaee] pt-6">
             <div className="flex gap-2">
               <button

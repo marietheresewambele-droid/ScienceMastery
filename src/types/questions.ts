@@ -1,3 +1,15 @@
+export type ReviewRating = "again" | "hard" | "good" | "easy";
+
+export type ReviewRecord = {
+  rating: ReviewRating;
+  reviewedAt: string;
+  dueAt: string;
+  intervalDays: number;
+  repetitions: number;
+};
+
+export type ReviewMap = Record<string, ReviewRecord>;
+
 export interface MasteryQuestion {
   id: string;
   subject: "biology" | "chemistry" | "physics";
