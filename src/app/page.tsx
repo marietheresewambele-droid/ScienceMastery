@@ -1,4 +1,11 @@
 import Link from "next/link";
+import { cellBiologyConfig } from "@/data/topics/cell-biology";
+import { organisationConfig } from "@/data/topics/organisation";
+import { infectionAndResponseConfig } from "@/data/topics/infection-and-response";
+import { bioenergeticsConfig } from "@/data/topics/bioenergetics";
+import { homeostasisAndResponseConfig } from "@/data/topics/homeostasis-and-response";
+import { inheritanceVariationAndEvolutionConfig } from "@/data/topics/inheritance-variation-and-evolution";
+import { ecologyConfig } from "@/data/topics/ecology";
 
 const FlaskIcon = ({ className = "h-5 w-5" }) => (
   <svg
@@ -57,6 +64,16 @@ const features = [
     description:
       "Connect questions by scientific concept, assessment objective and common exam wording.",
   },
+];
+
+const biologyTopics = [
+  cellBiologyConfig,
+  organisationConfig,
+  infectionAndResponseConfig,
+  bioenergeticsConfig,
+  homeostasisAndResponseConfig,
+  inheritanceVariationAndEvolutionConfig,
+  ecologyConfig,
 ];
 
 const steps = [
@@ -240,54 +257,48 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-bold uppercase tracking-widest text-[#00a551]">
-              Biology prototype
+              AQA GCSE Biology
             </p>
 
             <h2 className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
-              Begin with Cell Biology
+              Choose a Biology topic
             </h2>
 
             <p className="mt-4 leading-7 text-[#5a6b7f]">
-              The first working version will use Cell Biology to establish the
-              question, marking and progress systems before more topics are
-              added.
+              Practise all seven AQA Biology topics with structured mastery questions,
+              marking points and progress tracking.
             </p>
           </div>
 
-          <div className="mx-auto mt-10 max-w-4xl rounded-3xl border border-[#e6eaee] bg-white p-6 shadow-sm sm:p-8">
-            <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-center">
-              <div>
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-[#e9f8f0] px-3 py-1 text-xs font-bold text-[#02753a]">
-                    Topic 1
-                  </span>
+          <div className="mx-auto mt-10 grid max-w-6xl gap-5 md:grid-cols-2">
+            {biologyTopics.map((topic) => (
+              <article
+                key={topic.id}
+                className="flex flex-col justify-between rounded-3xl border border-[#e6eaee] bg-white p-6 shadow-sm sm:p-7"
+              >
+                <div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full bg-[#e9f8f0] px-3 py-1 text-xs font-bold text-[#02753a]">
+                      {topic.topicNumber}
+                    </span>
+                    <span className="rounded-full bg-[#f1f5f9] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
+                      {topic.questions.length} questions
+                    </span>
+                  </div>
 
-                  <span className="rounded-full bg-[#f1f5f9] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
-                    AQA Biology
-                  </span>
+                  <h3 className="mt-4 text-2xl font-extrabold">{topic.title}</h3>
+                  <p className="mt-2 leading-7 text-[#5a6b7f]">{topic.description}</p>
                 </div>
 
-                <h3 className="mt-4 text-2xl font-extrabold">Cell Biology</h3>
-
-                <p className="mt-2 max-w-2xl leading-7 text-[#5a6b7f]">
-                  Review cell structure, microscopy, cell division, stem cells
-                  and transport in cells through structured mastery practice.
-                </p>
-              </div>
-
-              <Link
-                href="/biology/cell-biology"
-                className="shrink-0 rounded-xl bg-[#00a551] px-6 py-3 font-bold text-white transition hover:bg-[#028f46]"
-              >
-                Start Cell Biology
-              </Link>
-            </div>
+                <Link
+                  href={topic.route}
+                  className="mt-6 inline-flex w-fit rounded-xl bg-[#00a551] px-6 py-3 font-bold text-white transition hover:bg-[#028f46]"
+                >
+                  Start {topic.title}
+                </Link>
+              </article>
+            ))}
           </div>
-
-          <p className="mt-6 text-center text-sm font-semibold text-[#5a6b7f]">
-            More Biology topics will be introduced after the prototype has been
-            tested.
-          </p>
         </div>
       </section>
 
