@@ -23,11 +23,17 @@ export default function SubtopicGrid({
   completedQuestions,
   onQuestionComplete,
 }: SubtopicGridProps) {
-  // Defensive normalisation at component boundary
+  // Safe defensive normalisation at component boundary for legacy/malformed data
   const completedQuestionIds =
     completedQuestions instanceof Set
       ? completedQuestions
-      : new Set(completedQuestions);
+      : new Set<string>(
+          Array.isArray(completedQuestions)
+            ? completedQuestions.filter(
+                (value): value is string => typeof value === "string"
+              )
+            : []
+        );
 
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

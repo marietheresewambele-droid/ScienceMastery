@@ -54,12 +54,16 @@ export default function CellBiologyPage() {
     const storedValue = localStorage.getItem(STORAGE_KEY);
     if (storedValue) {
       try {
-        const parsed = JSON.parse(storedValue);
-        // Reconstruct Set from array
-        const completedSet = new Set<string>(parsed);
-        setCompletedQuestions(completedSet);
+        const parsed: unknown = JSON.parse(storedValue);
+        // Safely migrate existing localStorage data: convert valid stored values into a Set
+        const completedQuestionIds = Array.isArray(parsed)
+          ? new Set(
+              parsed.filter((value): value is string => typeof value === "string")
+            )
+          : new Set<string>();
+        setCompletedQuestions(completedQuestionIds);
       } catch {
-        // If parsing fails, keep empty Set
+        // If parsing fails (malformed JSON), keep empty Set
         setCompletedQuestions(new Set());
       }
     }
