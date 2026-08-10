@@ -221,77 +221,89 @@ export default function CellBiologyPage() {
   const [showNeedsPracticeOnly, setShowNeedsPracticeOnly] = useState(false);
   const [showDueOnly, setShowDueOnly] = useState(false);
 
-  // localStorage state - using lazy initialisers for SSR safety
-  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(() =>
-    new Set(loadStoredStringArray("sciencemastery_cellbiology_bookmarks"))
-  );
-  const [needsPracticeIds, setNeedsPracticeIds] = useState<Set<string>>(() =>
-    new Set(loadStoredStringArray("sciencemastery_cellbiology_needspractice"))
-  );
-  const [completedIds, setCompletedIds] = useState<Set<string>>(() =>
-    new Set(loadStoredStringArray("sciencemastery_cellbiology_completed"))
-  );
-  const [reviewMap, setReviewMap] = useState<ReviewMap>(() =>
-    loadStoredReviewMap()
-  );
-
-  // Save to localStorage when state changes
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        localStorage.setItem(
-          "sciencemastery_cellbiology_bookmarks",
-          JSON.stringify(Array.from(bookmarkedIds))
-        );
-      } catch (e) {
-        console.error("Failed to save bookmarks:", e);
-      }
-    }
-  }, [bookmarkedIds]);
+  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(() => new Set());
+  const [needsPracticeIds, setNeedsPracticeIds] = useState<Set<string>>(() => new Set());
+  const [completedIds, setCompletedIds] = useState<Set<string>>(() => new Set());
+  const [reviewMap, setReviewMap] = useState<ReviewMap>({});
+  const [hasHydrated, setHasHydrated] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        localStorage.setItem(
-          "sciencemastery_cellbiology_needspractice",
-          JSON.stringify(Array.from(needsPracticeIds))
-        );
-      } catch (e) {
-        console.error("Failed to save needs practice:", e);
-      }
+    if (typeof window === "undefined") {
+      return;
     }
-  }, [needsPracticeIds]);
+
+    setBookmarkedIds(new Set(loadStoredStringArray("sciencemastery_cellbiology_bookmarks")));
+    setNeedsPracticeIds(new Set(loadStoredStringArray("sciencemastery_cellbiology_needspractice")));
+    setCompletedIds(new Set(loadStoredStringArray("sciencemastery_cellbiology_completed")));
+    setReviewMap(loadStoredReviewMap());
+    setHasHydrated(true);
+  }, []);
+
+  // Save to localStorage when state changes. These are guarded until hydration completes.
+  useEffect(() => {
+    if (!hasHydrated || typeof window === "undefined") {
+      return;
+    }
+
+    try {
+      localStorage.setItem(
+        "sciencemastery_cellbiology_bookmarks",
+        JSON.stringify(Array.from(bookmarkedIds))
+      );
+    } catch (e) {
+      console.error("Failed to save bookmarks:", e);
+    }
+  }, [bookmarkedIds, hasHydrated]);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        localStorage.setItem(
-          "sciencemastery_cellbiology_completed",
-          JSON.stringify(Array.from(completedIds))
-        );
-      } catch (e) {
-        console.error("Failed to save completed:", e);
-      }
+    if (!hasHydrated || typeof window === "undefined") {
+      return;
     }
-  }, [completedIds]);
+
+    try {
+      localStorage.setItem(
+        "sciencemastery_cellbiology_needspractice",
+        JSON.stringify(Array.from(needsPracticeIds))
+      );
+    } catch (e) {
+      console.error("Failed to save needs practice:", e);
+    }
+  }, [needsPracticeIds, hasHydrated]);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        const serialisedReviews = Object.entries(reviewMap).map(([id, record]) => ({
-          id,
-          ...record,
-        }));
-
-        localStorage.setItem(
-          "sciencemastery_cellbiology_reviews",
-          JSON.stringify(serialisedReviews)
-        );
-      } catch (e) {
-        console.error("Failed to save reviews:", e);
-      }
+    if (!hasHydrated || typeof window === "undefined") {
+      return;
     }
-  }, [reviewMap]);
+
+    try {
+      localStorage.setItem(
+        "sciencemastery_cellbiology_completed",
+        JSON.stringify(Array.from(completedIds))
+      );
+    } catch (e) {
+      console.error("Failed to save completed:", e);
+    }
+  }, [completedIds, hasHydrated]);
+
+  useEffect(() => {
+    if (!hasHydrated || typeof window === "undefined") {
+      return;
+    }
+
+    try {
+      const serialisedReviews = Object.entries(reviewMap).map(([id, record]) => ({
+        id,
+        ...record,
+      }));
+
+      localStorage.setItem(
+        "sciencemastery_cellbiology_reviews",
+        JSON.stringify(serialisedReviews)
+      );
+    } catch (e) {
+      console.error("Failed to save reviews:", e);
+    }
+  }, [reviewMap, hasHydrated]);
 
   const handleBookmark = (questionId: string) => {
     setBookmarkedIds((prev) => {

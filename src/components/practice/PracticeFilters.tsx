@@ -43,7 +43,7 @@ export default function PracticeFilters({
     questions.filter((q) => q.subtopic === subtopic).length;
 
   const getAOCount = (ao: "AO1" | "AO2" | "AO3") =>
-    questions.filter((q) => q.assessmentObjective === ao).length;
+    questions.filter((q) => q.assessmentObjective.includes(ao)).length;
 
   const getDifficultyCount = (diff: "Foundation" | "Higher" | "Both") =>
     questions.filter((q) => q.difficulty === diff).length;

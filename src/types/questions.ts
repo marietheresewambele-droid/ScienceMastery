@@ -10,19 +10,32 @@ export type ReviewRecord = {
 
 export type ReviewMap = Record<string, ReviewRecord>;
 
+export type AssessmentObjective =
+  | "AO1"
+  | "AO2"
+  | "AO3"
+  | "AO1/AO2"
+  | "AO2/AO3"
+  | "AO1/AO2/AO3";
+
 export interface MasteryQuestion {
   id: string;
   subject: "biology" | "chemistry" | "physics";
   topicSlug: string;
+  topic?: string;
   subtopic: string;
   question: string;
   marks: number;
-  assessmentObjective: "AO1" | "AO2" | "AO3";
+  assessmentObjective: AssessmentObjective;
   difficulty?: "Foundation" | "Higher" | "Both";
   commandWord?: string;
   specificationReference?: string;
   markingPoints: string[];
   modelAnswer?: string;
+  tier?: "Foundation" | "Higher" | "Both";
+  gradeDemand?: string;
+  questionFamily?: string;
+  originalSubtopic?: string;
 }
 
 export interface TopicMetadata {

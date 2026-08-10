@@ -53,7 +53,7 @@ export default function QuestionPractice({
       result = result.filter((q) => q.subtopic === effectiveSubtopic);
     }
     if (filterAO) {
-      result = result.filter((q) => q.assessmentObjective === filterAO);
+      result = result.filter((q) => q.assessmentObjective.includes(filterAO));
     }
     if (filterDifficulty) {
       result = result.filter((q) => q.difficulty === filterDifficulty);
