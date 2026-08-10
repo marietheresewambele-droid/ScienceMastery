@@ -1,11 +1,16 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useMemo, useCallback } from "react";
 import { MasteryQuestion } from "@/types/questions";
 
 interface QuestionPracticeProps {
   questions: MasteryQuestion[];
   initialSubtopic?: string | null;
+  filterSubtopic?: string | null;
+  filterAO?: "AO1" | "AO2" | "AO3" | null;
+  filterDifficulty?: "Foundation" | "Higher" | "Both" | null;
+  showBookmarkedOnly?: boolean;
+  showNeedsPracticeOnly?: boolean;
   onComplete: (questionId: string, gotIt: boolean) => void;
   onBookmark: (questionId: string) => void;
   onNeedsPractice: (questionId: string) => void;
@@ -17,6 +22,11 @@ interface QuestionPracticeProps {
 export default function QuestionPractice({
   questions,
   initialSubtopic,
+  filterSubtopic = null,
+  filterAO = null,
+  filterDifficulty = null,
+  showBookmarkedOnly = false,
+  showNeedsPracticeOnly = false,
   onComplete,
   onBookmark,
   onNeedsPractice,
@@ -27,37 +37,69 @@ export default function QuestionPractice({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showMarkingPoints, setShowMarkingPoints] = useState(false);
   const [studentAnswer, setStudentAnswer] = useState("");
-  const [filteredQuestions, setFilteredQuestions] =
-    useState<MasteryQuestion[]>(questions);
 
-  // Filter questions by subtopic if provided
-  useEffect(() => {
-    if (initialSubtopic) {
-      const filtered = questions.filter((q) => q.subtopic === initialSubtopic);
-      setFilteredQuestions(filtered);
-      setCurrentIndex(0);
-    } else {
-      setFilteredQuestions(questions);
+  // Derive filtered questions using useMemo - no state sync needed
+  const filteredQuestions = useMemo(() => {
+    let result = questions;
+
+    // Apply initialSubtopic filter if provided and no explicit filterSubtopic
+    const effectiveSubtopic = filterSubtopic ?? initialSubtopic;
+
+    if (effectiveSubtopic) {
+      result = result.filter((q) => q.subtopic === effectiveSubtopic);
     }
-  }, [initialSubtopic, questions]);
-
-  const currentQuestion = filteredQuestions[currentIndex];
-
-  const handleNext = useCallback(() => {
-    if (currentIndex < filteredQuestions.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-      setShowMarkingPoints(false);
-      setStudentAnswer("");
+    if (filterAO) {
+      result = result.filter((q) => q.assessmentObjective === filterAO);
     }
+    if (filterDifficulty) {
+      result = result.filter((q) => q.difficulty === filterDifficulty);
+    }
+    if (showBookmarkedOnly) {
+      result = result.filter((q) => bookmarkedIds.has(q.id));
+    }
+    if (showNeedsPracticeOnly) {
+      result = result.filter((q) => needsPracticeIds.has(q.id));
+    }
+
+    return result;
+  }, [
+    questions,
+    initialSubtopic,
+    filterSubtopic,
+    filterAO,
+    filterDifficulty,
+    showBookmarkedOnly,
+    showNeedsPracticeOnly,
+    bookmarkedIds,
+    needsPracticeIds,
+  ]);
+
+  // Reset currentIndex when filtered questions change significantly
+  // Only reset if current index is out of bounds
+  const safeCurrentIndex = useMemo(() => {
+    if (currentIndex >= filteredQuestions.length) {
+      return Math.max(0, filteredQuestions.length - 1);
+    }
+    return currentIndex;
   }, [currentIndex, filteredQuestions.length]);
 
-  const handlePrevious = useCallback(() => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
+  const currentQuestion = filteredQuestions[safeCurrentIndex];
+
+  const handleNext = useCallback(() => {
+    if (safeCurrentIndex < filteredQuestions.length - 1) {
+      setCurrentIndex(safeCurrentIndex + 1);
       setShowMarkingPoints(false);
       setStudentAnswer("");
     }
-  }, [currentIndex]);
+  }, [safeCurrentIndex, filteredQuestions.length]);
+
+  const handlePrevious = useCallback(() => {
+    if (safeCurrentIndex > 0) {
+      setCurrentIndex(safeCurrentIndex - 1);
+      setShowMarkingPoints(false);
+      setStudentAnswer("");
+    }
+  }, [safeCurrentIndex]);
 
   const handleGotIt = () => {
     if (currentQuestion) {
@@ -120,13 +162,13 @@ export default function QuestionPractice({
 
         <div className="flex items-center gap-3">
           <span className="text-sm font-semibold text-[#5a6b7f]">
-            Question {currentIndex + 1} of {filteredQuestions.length}
+            Question {safeCurrentIndex + 1} of {filteredQuestions.length}
           </span>
           <div className="h-2 w-40 rounded-full bg-[#e6eaee]">
             <div
               className="h-2 rounded-full bg-[#00a551] transition-all"
               style={{
-                width: `${((currentIndex + 1) / filteredQuestions.length) * 100}%`,
+                width: `${((safeCurrentIndex + 1) / filteredQuestions.length) * 100}%`,
               }}
               aria-hidden="true"
             />
@@ -258,9 +300,9 @@ export default function QuestionPractice({
               <button
                 type="button"
                 onClick={handlePrevious}
-                disabled={currentIndex === 0}
+                disabled={safeCurrentIndex === 0}
                 className={`flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-bold transition focus:outline-none focus:ring-2 focus:ring-[#00a551] ${
-                  currentIndex === 0
+                  safeCurrentIndex === 0
                     ? "cursor-not-allowed bg-[#dce2e7] text-[#9ca3af]"
                     : "bg-white text-[#5a6b7f] hover:bg-[#f7f9fa]"
                 }`}
@@ -279,9 +321,9 @@ export default function QuestionPractice({
               <button
                 type="button"
                 onClick={handleNext}
-                disabled={currentIndex === filteredQuestions.length - 1}
+                disabled={safeCurrentIndex === filteredQuestions.length - 1}
                 className={`flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-bold transition focus:outline-none focus:ring-2 focus:ring-[#00a551] ${
-                  currentIndex === filteredQuestions.length - 1
+                  safeCurrentIndex === filteredQuestions.length - 1
                     ? "cursor-not-allowed bg-[#dce2e7] text-[#9ca3af]"
                     : "bg-[#00a551] text-white hover:bg-[#028f46]"
                 }`}

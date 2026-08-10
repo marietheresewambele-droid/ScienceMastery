@@ -1,14 +1,27 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import TopicHeader from "@/components/topic/TopicHeader";
 import SubtopicGrid from "@/components/topic/SubtopicGrid";
 import QuestionPractice from "@/components/practice/QuestionPractice";
 import PracticeFilters from "@/components/practice/PracticeFilters";
 import { cellBiologyMetadata, cellBiologyQuestions } from "@/data/topics/cell-biology";
-import type { MasteryQuestion } from "@/types/questions";
 
 type PracticeMode = "mastery" | "flashcards" | "mixed" | "bookmarked";
+
+// Lazy initializer for localStorage state - safe for SSR
+function loadFromStorage<T>(key: string, initialValue: T): T {
+  if (typeof window === "undefined") {
+    return initialValue;
+  }
+  try {
+    const stored = localStorage.getItem(key);
+    return stored ? (JSON.parse(stored) as T) : initialValue;
+  } catch {
+    return initialValue;
+  }
+}
 
 export default function CellBiologyPage() {
   // View state: 'topic' or 'practice'
@@ -25,41 +38,25 @@ export default function CellBiologyPage() {
   const [showBookmarkedOnly, setShowBookmarkedOnly] = useState(false);
   const [showNeedsPracticeOnly, setShowNeedsPracticeOnly] = useState(false);
 
-  // localStorage state - guarded for SSR
-  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
-  const [needsPracticeIds, setNeedsPracticeIds] = useState<Set<string>>(
-    new Set()
+  // localStorage state - using lazy initialisers for SSR safety
+  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(() =>
+    loadFromStorage(
+      "sciencemastery_cellbiology_bookmarks",
+      new Set<string>()
+    )
   );
-  const [completedIds, setCompletedIds] = useState<Set<string>>(new Set());
-
-  // Load from localStorage on mount
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        const storedBookmarks = localStorage.getItem(
-          "sciencemastery_cellbiology_bookmarks"
-        );
-        const storedNeedsPractice = localStorage.getItem(
-          "sciencemastery_cellbiology_needspractice"
-        );
-        const storedCompleted = localStorage.getItem(
-          "sciencemastery_cellbiology_completed"
-        );
-
-        if (storedBookmarks) {
-          setBookmarkedIds(new Set(JSON.parse(storedBookmarks)));
-        }
-        if (storedNeedsPractice) {
-          setNeedsPracticeIds(new Set(JSON.parse(storedNeedsPractice)));
-        }
-        if (storedCompleted) {
-          setCompletedIds(new Set(JSON.parse(storedCompleted)));
-        }
-      } catch (e) {
-        console.error("Failed to load from localStorage:", e);
-      }
-    }
-  }, []);
+  const [needsPracticeIds, setNeedsPracticeIds] = useState<Set<string>>(() =>
+    loadFromStorage(
+      "sciencemastery_cellbiology_needspractice",
+      new Set<string>()
+    )
+  );
+  const [completedIds, setCompletedIds] = useState<Set<string>>(() =>
+    loadFromStorage(
+      "sciencemastery_cellbiology_completed",
+      new Set<string>()
+    )
+  );
 
   // Save to localStorage when state changes
   useEffect(() => {
@@ -148,35 +145,6 @@ export default function CellBiologyPage() {
   const progressPercentage =
     totalQuestions > 0 ? Math.round((completedCount / totalQuestions) * 100) : 0;
 
-  // Apply filters to questions for practice mode
-  let filteredQuestions: MasteryQuestion[] = cellBiologyQuestions;
-
-  if (filterSubtopic) {
-    filteredQuestions = filteredQuestions.filter(
-      (q) => q.subtopic === filterSubtopic
-    );
-  }
-  if (filterAO) {
-    filteredQuestions = filteredQuestions.filter(
-      (q) => q.assessmentObjective === filterAO
-    );
-  }
-  if (filterDifficulty) {
-    filteredQuestions = filteredQuestions.filter(
-      (q) => q.difficulty === filterDifficulty
-    );
-  }
-  if (showBookmarkedOnly) {
-    filteredQuestions = filteredQuestions.filter((q) =>
-      bookmarkedIds.has(q.id)
-    );
-  }
-  if (showNeedsPracticeOnly) {
-    filteredQuestions = filteredQuestions.filter((q) =>
-      needsPracticeIds.has(q.id)
-    );
-  }
-
   return (
     <div className="min-h-screen bg-white text-[#0b1d33]">
       <TopicHeader metadata={cellBiologyMetadata} />
@@ -189,12 +157,12 @@ export default function CellBiologyPage() {
               <nav aria-label="Breadcrumb" className="mb-4">
                 <ol className="flex items-center gap-2 text-sm font-semibold text-[#5a6b7f]">
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="transition hover:text-[#0b1d33]"
                     >
                       Biology
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <span className="text-[#dce2e7]">/</span>
@@ -428,8 +396,13 @@ export default function CellBiologyPage() {
             {/* Question practice interface */}
             <div className="mt-6">
               <QuestionPractice
-                questions={filteredQuestions}
+                questions={cellBiologyQuestions}
                 initialSubtopic={selectedSubtopic || filterSubtopic}
+                filterSubtopic={filterSubtopic}
+                filterAO={filterAO}
+                filterDifficulty={filterDifficulty}
+                showBookmarkedOnly={showBookmarkedOnly}
+                showNeedsPracticeOnly={showNeedsPracticeOnly}
                 onComplete={handleComplete}
                 onBookmark={handleBookmark}
                 onNeedsPractice={handleNeedsPractice}
