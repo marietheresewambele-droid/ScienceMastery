@@ -464,8 +464,11 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
   const progressPercentage =
     totalQuestions > 0 ? Math.round((completedCount / totalQuestions) * 100) : 0;
 
+  const subject = config.subject ?? "biology";
+  const subjectLabel = subject.charAt(0).toUpperCase() + subject.slice(1);
+
   const topicMetadata = {
-    subject: config.subject ?? "biology",
+    subject,
     title: config.title,
     slug: config.id,
     examBoard: config.examBoard ?? "AQA",
@@ -486,7 +489,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                 <ol className="flex items-center gap-2 text-sm font-semibold text-[#5a6b7f]">
                   <li>
                     <Link href="/" className="transition hover:text-[#0b1d33]">
-                      Biology
+                      {subjectLabel}
                     </Link>
                   </li>
                   <li>
@@ -505,7 +508,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                       {topicMetadata.topicNumber}
                     </span>
                     <span className="rounded-full bg-[#f1f5f9] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
-                      {topicMetadata.examBoard} GCSE Biology
+                      {topicMetadata.examBoard} GCSE {subjectLabel}
                     </span>
                   </div>
 
