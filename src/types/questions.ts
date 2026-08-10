@@ -15,6 +15,7 @@ export type AssessmentObjective =
   | "AO2"
   | "AO3"
   | "AO1/AO2"
+  | "AO1/AO3"
   | "AO2/AO3"
   | "AO1/AO2/AO3";
 
@@ -36,6 +37,25 @@ export interface MasteryQuestion {
   gradeDemand?: string;
   questionFamily?: string;
   originalSubtopic?: string;
+}
+
+export interface BiologySubtopicConfig {
+  id: string;
+  title: string;
+  description?: string;
+}
+
+export interface BiologyTopicConfig {
+  id: string;
+  title: string;
+  description?: string;
+  route: string;
+  storageNamespace: string;
+  questions: MasteryQuestion[];
+  subtopics: BiologySubtopicConfig[];
+  subject?: "biology" | "chemistry" | "physics";
+  examBoard?: string;
+  topicNumber?: string;
 }
 
 export interface TopicMetadata {
