@@ -119,6 +119,9 @@ export default function Home() {
             <a href="#subjects" className="transition hover:text-[#0b1d33]">
               Biology
             </a>
+            <Link href="/chemistry" className="transition hover:text-[#0b1d33]">
+              Chemistry
+            </Link>
             <a href="#features" className="transition hover:text-[#0b1d33]">
               How it works
             </a>
@@ -270,6 +273,15 @@ export default function Home() {
             </p>
           </div>
 
+          <div className="mx-auto mt-8 flex justify-center">
+            <Link
+              href="/chemistry"
+              className="rounded-xl bg-[#0b1d33] px-6 py-3 font-bold text-white transition hover:-translate-y-0.5"
+            >
+              Explore all 10 Chemistry topics
+            </Link>
+          </div>
+
           <div className="mx-auto mt-10 grid max-w-6xl gap-5 md:grid-cols-2">
             {biologyTopics.map((topic) => (
               <article
@@ -415,10 +427,10 @@ export default function Home() {
             <div className="sm:text-right">
               <p className="text-sm font-bold text-white">Prototype scope</p>
               <p className="mt-3 text-sm text-slate-400">
-                AQA GCSE Biology · Cell Biology
+                AQA GCSE Biology and Chemistry
               </p>
               <p className="mt-2 text-sm text-slate-400">
-                Additional topics and subjects will follow.
+                17 topics and more than 1,000 mastery questions available.
               </p>
             </div>
           </div>
