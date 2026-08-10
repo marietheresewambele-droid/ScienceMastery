@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FlaskIcon = ({ className = "h-5 w-5" }) => (
   <svg
     className={className}
@@ -273,13 +275,12 @@ export default function Home() {
                 </p>
               </div>
 
-              <button
-                type="button"
-                className="shrink-0 cursor-not-allowed rounded-xl bg-[#dce2e7] px-6 py-3 font-bold text-[#5a6b7f]"
-                aria-label="Cell Biology practice is coming soon"
+              <Link
+                href="/biology/cell-biology"
+                className="shrink-0 rounded-xl bg-[#00a551] px-6 py-3 font-bold text-white transition hover:bg-[#028f46]"
               >
-                Coming soon
-              </button>
+                Start Cell Biology
+              </Link>
             </div>
           </div>
 
