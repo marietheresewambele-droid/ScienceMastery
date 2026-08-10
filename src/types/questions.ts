@@ -15,6 +15,7 @@ export type AssessmentObjective =
   | "AO2"
   | "AO3"
   | "AO1/AO2"
+  | "AO1/AO3"
   | "AO2/AO3"
   | "AO1/AO2/AO3";
 
