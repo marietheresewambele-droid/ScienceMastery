@@ -17,7 +17,15 @@ function loadFromStorage<T>(key: string, initialValue: T): T {
   }
   try {
     const stored = localStorage.getItem(key);
-    return stored ? (JSON.parse(stored) as T) : initialValue;
+    if (stored) {
+      const parsed = JSON.parse(stored) as string[];
+      // Convert array back to Set for Set-type initial values
+      if (initialValue instanceof Set) {
+        return new Set(parsed) as unknown as T;
+      }
+      return parsed as T;
+    }
+    return initialValue;
   } catch {
     return initialValue;
   }
