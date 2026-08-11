@@ -122,6 +122,9 @@ export default function Home() {
             <Link href="/chemistry" className="transition hover:text-[#0b1d33]">
               Chemistry
             </Link>
+            <Link href="/physics" className="transition hover:text-[#0b1d33]">
+              Physics
+            </Link>
             <a href="#features" className="transition hover:text-[#0b1d33]">
               How it works
             </a>
@@ -274,12 +277,14 @@ export default function Home() {
           </div>
 
           <div className="mx-auto mt-8 flex justify-center">
-            <Link
-              href="/chemistry"
-              className="rounded-xl bg-[#0b1d33] px-6 py-3 font-bold text-white transition hover:-translate-y-0.5"
-            >
-              Explore all 10 Chemistry topics
-            </Link>
+            <div className="flex flex-wrap justify-center gap-3">
+              <Link href="/chemistry" className="rounded-xl bg-[#0b1d33] px-6 py-3 font-bold text-white transition hover:-translate-y-0.5">
+                Explore all 10 Chemistry topics
+              </Link>
+              <Link href="/physics" className="rounded-xl bg-[#0b1d33] px-6 py-3 font-bold text-white transition hover:-translate-y-0.5">
+                Explore all 8 Physics topics
+              </Link>
+            </div>
           </div>
 
           <div className="mx-auto mt-10 grid max-w-6xl gap-5 md:grid-cols-2">
@@ -427,10 +432,10 @@ export default function Home() {
             <div className="sm:text-right">
               <p className="text-sm font-bold text-white">Prototype scope</p>
               <p className="mt-3 text-sm text-slate-400">
-                AQA GCSE Biology and Chemistry
+                AQA GCSE Biology, Chemistry and Physics
               </p>
               <p className="mt-2 text-sm text-slate-400">
-                17 topics and more than 1,000 mastery questions available.
+                25 topics and more than 1,200 mastery questions available.
               </p>
             </div>
           </div>
