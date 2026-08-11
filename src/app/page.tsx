@@ -50,12 +50,13 @@ export default function Home() {
 
     <section id="features" className="bg-[#f7f9fb] py-20"><div className="mx-auto max-w-7xl px-4 sm:px-6">
       <div className="mx-auto max-w-2xl text-center"><p className="text-sm font-bold uppercase tracking-widest text-[#00a551]">What we offer</p><h2 className="mt-3 text-3xl font-black sm:text-4xl">Everything you need to master GCSE Science</h2></div>
-      <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">{[
-        ["1,211","Mastery questions","Self-contained questions with concise marking points."],
-        ["AQA","Specification mapped","Organised by topic, subtopic, objective and demand."],
-        ["Smart","Progress tracking","Bookmark and return to difficult questions later."],
-        ["Free","Built for students","Complete practice without a subscription or paywall."]
-      ].map(([value,title,copy])=><article key={title} className="rounded-3xl border border-[#e7eaf0] bg-white p-6 shadow-sm"><p className="text-3xl font-black text-[#00a551]">{value}</p><h3 className="mt-3 text-lg font-extrabold">{title}</h3><p className="mt-2 text-sm leading-6 text-[#5a6b82]">{copy}</p></article>)}</div>
+      <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-5">{[
+        ["Recall","Active recall","Flip questions into flashcards and rate every answer.","/practice?mode=flashcards"],
+        ["Mix","Targeted practice","Combine subjects, topics, tiers and assessment objectives.","/practice?mode=mixed"],
+        ["Review","Spaced review","Clear questions due today in one cross-science queue.","/practice?mode=due"],
+        ["Save","Bookmarking","Save difficult questions and revisit them whenever needed.","/practice?mode=bookmarks"],
+        ["Track","Progress tracking","See completion, weak topics and your recommended next step.","/dashboard"]
+      ].map(([value,title,copy,route])=><Link href={route} key={title} className="rounded-3xl border border-[#e7eaf0] bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"><p className="text-xl font-black text-[#00a551]">{value}</p><h3 className="mt-3 text-lg font-extrabold">{title}</h3><p className="mt-2 text-sm leading-6 text-[#5a6b82]">{copy}</p><span className="mt-4 inline-block text-sm font-bold text-[#00a551]">Open →</span></Link>)}</div>
     </div></section>
 
     <section id="how" className="bg-[#0f1f3d] py-20 text-white"><div className="mx-auto max-w-7xl px-4 sm:px-6">
