@@ -618,10 +618,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                   </span>
                 </button>
 
-                <article
-                  className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-[#f7f9fa] p-5 opacity-70"
-                  aria-labelledby="flashcards-title"
-                >
+                <Link href={`/practice?mode=flashcards&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
                   <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#dce2e7] font-black text-[#5a6b7f]">
                     2
                   </div>
@@ -631,15 +628,10 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                   <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">
                     Use active recall with flip cards for key concepts.
                   </p>
-                  <span className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#dce2e7] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
-                    Coming soon
-                  </span>
-                </article>
+                  <span className="mt-3 text-sm font-bold text-[#00a551]">Start flashcards →</span>
+                </Link>
 
-                <article
-                  className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-[#f7f9fa] p-5 opacity-70"
-                  aria-labelledby="mixed-title"
-                >
+                <Link href={`/practice?mode=mixed&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
                   <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#dce2e7] font-black text-[#5a6b7f]">
                     3
                   </div>
@@ -649,15 +641,10 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                   <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">
                     Random questions across all subtopics for comprehensive review.
                   </p>
-                  <span className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#dce2e7] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
-                    Coming soon
-                  </span>
-                </article>
+                  <span className="mt-3 text-sm font-bold text-[#00a551]">Start mixed practice →</span>
+                </Link>
 
-                <article
-                  className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-[#f7f9fa] p-5 opacity-70"
-                  aria-labelledby="bookmarked-title"
-                >
+                <Link href={`/practice?mode=bookmarks&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
                   <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#dce2e7] font-black text-[#5a6b7f]">
                     4
                   </div>
@@ -667,10 +654,8 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                   <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">
                     Revisit questions you have bookmarked for later review.
                   </p>
-                  <span className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#dce2e7] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
-                    Coming soon
-                  </span>
-                </article>
+                  <span className="mt-3 text-sm font-bold text-[#00a551]">Review bookmarks →</span>
+                </Link>
               </div>
             </section>
           </>
