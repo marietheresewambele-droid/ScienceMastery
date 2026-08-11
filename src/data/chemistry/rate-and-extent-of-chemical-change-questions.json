@@ -1,0 +1,904 @@
+{
+  "metadata": {
+    "topicId": "rate-and-extent-of-chemical-change",
+    "topic": "Rate and Extent of Chemical Change",
+    "sourceWorkbook": "AQA_GCSE_Chemistry_Complete_Mastery_Questions_Topics_1_to_10_with_Practical_and_Disciplinary_Knowledge.xlsx",
+    "questionCount": 41,
+    "subtopics": [
+      {
+        "title": "Rate of Reaction",
+        "questionCount": 26
+      },
+      {
+        "title": "Factors Affecting Equilibrium",
+        "questionCount": 9
+      },
+      {
+        "title": "Reversible Reactions and Dynamic Equilibrium",
+        "questionCount": 5
+      },
+      {
+        "title": "Working Scientifically",
+        "questionCount": 1
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "6.1",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A reaction produces 72 cm3 of gas in 90 s. Calculate the mean rate. Give the unit. The tangent to the curve at 20 s passes through (10 s, 18 cm3) and (40 s, 57 cm3). Calculate the instantaneous rate at 20 s.",
+      "marks": 6,
+      "modelAnswer": "Mean = 72/90 = 0.80 cm3/s. Instantaneous rate = gradient = (57-18)/(40-10) = 1.30 cm3/s. Use points on the tangent, not the curve.",
+      "markingPoints": [
+        "Mean = 72/90 = 0.80 cm3/s. Instantaneous rate = gradient = (57-18)/(40-10) = 1.30 cm3/s. Use points on the tangent, not the curve."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.2",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain, using collision theory, why powdered calcium carbonate reacts faster than equal-mass lumps with the same acid, but produces the same final gas volume when acid is in excess.",
+      "marks": 5,
+      "modelAnswer": "Powder has greater surface area; more particles are exposed; collision frequency and successful collisions per second increase. Same moles of limiting calcium carbonate produce the same moles/final volume of CO2.",
+      "markingPoints": [
+        "Powder has greater surface area",
+        "more particles are exposed",
+        "collision frequency and successful collisions per second increase. Same moles of limiting calcium carbonate produce the same moles/final volume of CO2."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.3",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain fully why increasing temperature increases reaction rate. Include both changes to particle behaviour required for full marks.",
+      "marks": 4,
+      "modelAnswer": "Particles move faster, so collide more frequently; collisions have greater energies; a larger fraction have energy at least equal to activation energy; more successful collisions per second.",
+      "markingPoints": [
+        "Particles move faster, so collide more frequently",
+        "collisions have greater energies",
+        "a larger fraction have energy at least equal to activation energy",
+        "more successful collisions per second."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.4",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A student investigates concentration using sodium thiosulfate and acid and times how long a cross takes to disappear. Give a valid method, variables, one safety control and two improvements.",
+      "marks": 8,
+      "modelAnswer": "Measure fixed volumes; vary thiosulfate concentration while keeping total volume/acid volume and concentration/temperature/depth constant; mix and start timer; stop when cross disappears; rate proxy 1/time. Wear eye protection. Repeat and mean; use light sensor/colorimeter or same observer/end point; water bath; systematic concentration series.",
+      "markingPoints": [
+        "Measure fixed volumes",
+        "vary thiosulfate concentration while keeping total volume/acid volume and concentration/temperature/depth constant",
+        "mix and start timer",
+        "stop when cross disappears",
+        "rate proxy 1/time. Wear eye protection. Repeat and mean",
+        "use light sensor/colorimeter or same observer/end point",
+        "water bath",
+        "systematic concentration series."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "6.5",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Design an investigation of catalyst concentration on hydrogen peroxide decomposition using a gas syringe. State how to obtain initial rate and how to decide whether catalyst changes final yield.",
+      "marks": 8,
+      "modelAnswer": "Fixed H2O2 volume/concentration/temperature; vary catalyst amount or concentration; airtight gas syringe; start together; record gas volume at short regular intervals; repeats/mean. Initial rate from initial gradient. Compare plateau gas volumes; catalyst should not alter final yield if starting limiting reagent unchanged.",
+      "markingPoints": [
+        "Fixed H2O2 volume/concentration/temperature",
+        "vary catalyst amount or concentration",
+        "airtight gas syringe",
+        "start together",
+        "record gas volume at short regular intervals",
+        "repeats/mean. Initial rate from initial gradient. Compare plateau gas volumes",
+        "catalyst should not alter final yield if starting limiting reagent unchanged."
+      ],
+      "commandWord": "Design",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "6.6",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Two gas-volume curves reach 60 cm3. Curve A reaches the plateau in 40 s and B in 85 s. State what can and cannot be concluded about rate, limiting amount and possible conditions.",
+      "marks": 5,
+      "modelAnswer": "A has greater initial/mean rate. Equal plateaux show equal final gas amount and likely same moles of limiting reactant. Difference could be temperature, concentration, pressure, surface area or catalyst; curve alone cannot identify which.",
+      "markingPoints": [
+        "A has greater initial/mean rate. Equal plateaux show equal final gas amount and likely same moles of limiting reactant. Difference could be temperature, concentration, pressure, surface area or catalyst",
+        "curve alone cannot identify which."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.7",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain how a catalyst changes a reaction profile and reaction rate, and state two quantities it does not change.",
+      "marks": 5,
+      "modelAnswer": "Alternative pathway; lower activation energy; greater fraction of collisions successful; faster rate. Does not change overall energy change, equilibrium position/equilibrium yield, or get used up.",
+      "markingPoints": [
+        "Alternative pathway",
+        "lower activation energy",
+        "greater fraction of collisions successful",
+        "faster rate. Does not change overall energy change, equilibrium position/equilibrium yield, or get used up."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.8",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.4; 4.6.3.5",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "For N2O4(g) <=> 2NO2(g), the forward reaction is endothermic. Predict and explain effects of increasing temperature and increasing pressure on equilibrium yield of NO2.",
+      "marks": 6,
+      "modelAnswer": "Higher temperature favours endothermic forward reaction, increasing NO2. Higher pressure favours fewer gas moles, shifting left to N2O4, decreasing NO2.",
+      "markingPoints": [
+        "Higher temperature favours endothermic forward reaction, increasing NO2. Higher pressure favours fewer gas moles, shifting left to N2O4, decreasing NO2."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.4; 4.6.3.5",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.9",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A reversible reaction reaches dynamic equilibrium in a sealed flask. Explain dynamic equilibrium and why reactant and product concentrations stay constant although reactions continue.",
+      "marks": 4,
+      "modelAnswer": "Closed system; forward and reverse reactions continue; rates equal; substances formed and used at equal rates; concentrations constant, not necessarily equal.",
+      "markingPoints": [
+        "Closed system",
+        "forward and reverse reactions continue",
+        "rates equal",
+        "substances formed and used at equal rates",
+        "concentrations constant, not necessarily equal."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.10",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.2–4.6.3.5",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "Evaluate using low temperature, high pressure and a catalyst for an exothermic industrial equilibrium with fewer gas molecules on the product side.",
+      "marks": 8,
+      "modelAnswer": "Low T raises equilibrium yield but slows rate; moderate compromise and heating cost. High pressure raises yield/rate but compression and strong vessels cost/raise risk. Catalyst speeds attainment and lowers operating energy but does not change yield; include overall economic/safety judgement.",
+      "markingPoints": [
+        "Low T raises equilibrium yield but slows rate",
+        "moderate compromise and heating cost. High pressure raises yield/rate but compression and strong vessels cost/raise risk. Catalyst speeds attainment and lowers operating energy but does not change yield",
+        "include overall economic/safety judgement."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.2–4.6.3.5",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "6.11",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A solid loses 1.84 g in 230 s. The balance reads to 0.01 g and time to 1 s. Calculate mean mass-loss rate and explain which change would reduce percentage uncertainty in the mass change.",
+      "marks": 5,
+      "modelAnswer": "Rate = 1.84/230 = 0.0080 g/s. Measure a larger mass change/use balance with finer resolution; larger measured change makes fixed absolute uncertainty a smaller percentage. Repeats do not remove systematic error.",
+      "markingPoints": [
+        "Rate = 1.84/230 = 0.0080 g/s. Measure a larger mass change/use balance with finer resolution",
+        "larger measured change makes fixed absolute uncertainty a smaller percentage. Repeats do not remove systematic error."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2/AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "6.12",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain why doubling concentration does not always exactly double measured rate in a school experiment.",
+      "marks": 4,
+      "modelAnswer": "Collision frequency expected to rise, but relationship may not be directly proportional; temperature may change; mixing/timing/end-point limitations; gas leakage; concentration uncertainty; other reactant or surface becomes controlling.",
+      "markingPoints": [
+        "Collision frequency expected to rise, but relationship may not be directly proportional",
+        "temperature may change",
+        "mixing/timing/end-point limitations",
+        "gas leakage",
+        "concentration uncertainty",
+        "other reactant or surface becomes controlling."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.13",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A reaction time falls from 120 s to 48 s for the same fixed change. Calculate the rate-factor increase using 1/time.",
+      "marks": 3,
+      "modelAnswer": "Factor = (1/48)/(1/120) = 120/48 = 2.5; rate is 2.5 times greater.",
+      "markingPoints": [
+        "Factor = (1/48)/(1/120) = 120/48 = 2.5",
+        "rate is 2.5 times greater."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.14",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.5",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "For A(g)+B(g)<=>2C(g), predict the effect of pressure on equilibrium and explain whether pressure could still affect how quickly equilibrium is reached.",
+      "marks": 4,
+      "modelAnswer": "Equal total gas moles on both sides, so no shift/yield change. Higher pressure raises concentrations/collision frequency, so both rates can increase and equilibrium can be reached sooner.",
+      "markingPoints": [
+        "Equal total gas moles on both sides, so no shift/yield change. Higher pressure raises concentrations/collision frequency, so both rates can increase and equilibrium can be reached sooner."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.5",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.15",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Identify the limiting evidence needed before claiming that a changed condition altered yield rather than only rate in a gas-producing experiment.",
+      "marks": 4,
+      "modelAnswer": "Need complete curves/plateau values; same starting moles and limiting reactant; airtight apparatus/same conditions; compare final gas amount after reaction completion, not volume at a fixed early time.",
+      "markingPoints": [
+        "Need complete curves/plateau values",
+        "same starting moles and limiting reactant",
+        "airtight apparatus/same conditions",
+        "compare final gas amount after reaction completion, not volume at a fixed early time."
+      ],
+      "commandWord": "Identify",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "6.16",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "State two ways the rate of a reaction can be measured.",
+      "marks": 2,
+      "modelAnswer": "Measure the quantity of reactant used or product formed per unit time; examples include gas volume, mass loss, concentration or precipitate formation.",
+      "markingPoints": [
+        "Measure the quantity of reactant used or product formed per unit time",
+        "examples include gas volume, mass loss, concentration or precipitate formation."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.17",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Write the equation used to calculate the mean rate of a reaction.",
+      "marks": 1,
+      "modelAnswer": "Mean rate = quantity of reactant used or quantity of product formed divided by time.",
+      "markingPoints": [
+        "Mean rate = quantity of reactant used or quantity of product formed divided by time."
+      ],
+      "commandWord": "Write",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.18",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "The concentration of a reactant falls from 0.80 mol/dm3 to 0.32 mol/dm3 in 40 s. Calculate the mean rate at which it is used.",
+      "marks": 3,
+      "modelAnswer": "Change = 0.48 mol/dm3. Rate = 0.48/40 = 0.012 mol/dm3/s.",
+      "markingPoints": [
+        "Change = 0.48 mol/dm3. Rate = 0.48/40 = 0.012 mol/dm3/s."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.19",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1; 4.6.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Why is the gradient of a product–time graph usually steepest near the start of a reaction?",
+      "marks": 3,
+      "modelAnswer": "Reactant concentrations are highest initially, so collisions are most frequent and there are most successful collisions per second.",
+      "markingPoints": [
+        "Reactant concentrations are highest initially, so collisions are most frequent and there are most successful collisions per second."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1; 4.6.1.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.20",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2–4.6.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain why increasing the concentration of a solution increases reaction rate.",
+      "marks": 3,
+      "modelAnswer": "There are more reactant particles per unit volume, collisions occur more frequently, and so there are more successful collisions per second.",
+      "markingPoints": [
+        "There are more reactant particles per unit volume, collisions occur more frequently, and so there are more successful collisions per second."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2–4.6.1.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.21",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2–4.6.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain why increasing the pressure of reacting gases increases reaction rate.",
+      "marks": 3,
+      "modelAnswer": "Gas particles are closer together/more particles occupy each unit volume, so collision frequency and successful collisions per second increase.",
+      "markingPoints": [
+        "Gas particles are closer together/more particles occupy each unit volume, so collision frequency and successful collisions per second increase."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2–4.6.1.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.22",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Define activation energy.",
+      "marks": 1,
+      "modelAnswer": "The minimum energy particles must have when they collide for a reaction to occur.",
+      "markingPoints": [
+        "The minimum energy particles must have when they collide for a reaction to occur."
+      ],
+      "commandWord": "Define",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.23",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A catalyst is recovered unchanged after a reaction. Explain why this observation is expected.",
+      "marks": 2,
+      "modelAnswer": "A catalyst increases rate but is not chemically changed or used up overall in the reaction.",
+      "markingPoints": [
+        "A catalyst increases rate but is not chemically changed or used up overall in the reaction."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.24",
+      "questionFamily": "Reversible Reactions and Dynamic Equilibrium",
+      "subtopic": "Reversible Reactions and Dynamic Equilibrium",
+      "sourceSubtopic": "4.6.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "What does the symbol ⇌ show in a chemical equation?",
+      "marks": 2,
+      "modelAnswer": "The reaction is reversible: products can react to form the original reactants as well as the forward reaction occurring.",
+      "markingPoints": [
+        "The reaction is reversible: products can react to form the original reactants as well as the forward reaction occurring."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.2.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.25",
+      "questionFamily": "Reversible Reactions and Dynamic Equilibrium",
+      "subtopic": "Reversible Reactions and Dynamic Equilibrium",
+      "sourceSubtopic": "4.6.2.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Hydrated copper sulfate is heated. State the colour change and name the products.",
+      "marks": 3,
+      "modelAnswer": "Blue hydrated copper sulfate forms white anhydrous copper sulfate and water.",
+      "markingPoints": [
+        "Blue hydrated copper sulfate forms white anhydrous copper sulfate and water."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.2.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.26",
+      "questionFamily": "Reversible Reactions and Dynamic Equilibrium",
+      "subtopic": "Reversible Reactions and Dynamic Equilibrium",
+      "sourceSubtopic": "4.6.2.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "If the forward direction of a reversible reaction transfers 75 kJ to the surroundings, state the energy change of the reverse reaction.",
+      "marks": 2,
+      "modelAnswer": "The reverse reaction takes in 75 kJ; it has the same magnitude but opposite sign/direction.",
+      "markingPoints": [
+        "The reverse reaction takes in 75 kJ",
+        "it has the same magnitude but opposite sign/direction."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.2.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.27",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.1",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "State the two conditions needed for dynamic equilibrium to be established.",
+      "marks": 2,
+      "modelAnswer": "The reaction must be reversible and occur in a closed system.",
+      "markingPoints": [
+        "The reaction must be reversible and occur in a closed system."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.28",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.3",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "For A(aq) ⇌ B(aq), predict the effect of removing B from an equilibrium mixture.",
+      "marks": 2,
+      "modelAnswer": "The equilibrium shifts to the right to replace B, so more B is formed.",
+      "markingPoints": [
+        "The equilibrium shifts to the right to replace B, so more B is formed."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.29",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.4",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "For an exothermic forward reaction, predict the effect of decreasing temperature on product yield.",
+      "marks": 3,
+      "modelAnswer": "The equilibrium shifts in the exothermic forward direction to oppose the decrease, so product yield increases.",
+      "markingPoints": [
+        "The equilibrium shifts in the exothermic forward direction to oppose the decrease, so product yield increases."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.4",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "6.30",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.2",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "Explain why a catalyst does not change the position of equilibrium.",
+      "marks": 3,
+      "modelAnswer": "It lowers activation energy and speeds both forward and reverse reactions equally. Equilibrium is reached sooner but equilibrium concentrations/yield are unchanged.",
+      "markingPoints": [
+        "It lowers activation energy and speeds both forward and reverse reactions equally. Equilibrium is reached sooner but equilibrium concentrations/yield are unchanged."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T6-EX1",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why increasing temperature often changes rate more than a similar increase in concentration.",
+      "marks": 5,
+      "modelAnswer": "Both increase collision frequency, but higher temperature also shifts the energy distribution so a much larger fraction of particles has energy at least equal to activation energy; successful collisions rise substantially.",
+      "markingPoints": [
+        "Both increase collision frequency, but higher temperature also shifts the energy distribution so a much larger fraction of particles has energy at least equal to activation energy",
+        "successful collisions rise substantially."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T6-EX2",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A gas-volume graph reaches 48 cm³ after 80 s. Draw-tangent information gives points (30 s, 20 cm³) and (50 s, 34 cm³). Calculate rate at 40 s.",
+      "marks": 3,
+      "modelAnswer": "Gradient = change in volume ÷ change in time = (34−20) ÷ (50−30) = 14 ÷ 20 = 0.70 cm³/s.",
+      "markingPoints": [
+        "Gradient = change in volume ÷ change in time = (34−20) ÷ (50−30) = 14 ÷ 20 = 0.70 cm³/s."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T6-EX3",
+      "questionFamily": "Reversible Reactions and Dynamic Equilibrium",
+      "subtopic": "Reversible Reactions and Dynamic Equilibrium",
+      "sourceSubtopic": "4.6.2.6, 4.6.3.1",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "For N₂ + 3H₂ ⇌ 2NH₃, explain the effects of increasing pressure and adding an iron catalyst.",
+      "marks": 5,
+      "modelAnswer": "Higher pressure shifts equilibrium right because gas moles fall from 4 to 2, increasing ammonia yield and collision frequency. Iron lowers activation energy and speeds both directions equally, reaching equilibrium faster without changing yield.",
+      "markingPoints": [
+        "Higher pressure shifts equilibrium right because gas moles fall from 4 to 2, increasing ammonia yield and collision frequency. Iron lowers activation energy and speeds both directions equally, reaching equilibrium faster without changing yield."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.2.6, 4.6.3.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T6-EX4",
+      "questionFamily": "Factors Affecting Equilibrium",
+      "subtopic": "Factors Affecting Equilibrium",
+      "sourceSubtopic": "4.6.3.2",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Evaluate the 450 °C compromise temperature used in the Haber process.",
+      "marks": 5,
+      "modelAnswer": "Forward reaction is exothermic, so lower temperature gives higher equilibrium yield but a slower rate. Higher temperature speeds rate but lowers yield. 450 °C provides an economically acceptable rate and yield; catalyst improves rate without shifting equilibrium.",
+      "markingPoints": [
+        "Forward reaction is exothermic, so lower temperature gives higher equilibrium yield but a slower rate. Higher temperature speeds rate but lowers yield. 450 °C provides an economically acceptable rate and yield",
+        "catalyst improves rate without shifting equilibrium."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.3.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T6-EX5",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain two systematic errors in a gas-syringe rate experiment and how each affects results.",
+      "marks": 4,
+      "modelAnswer": "Gas escaping before stopper insertion makes recorded volumes/rate too low; leaking apparatus also lowers volume. A sticking plunger can delay/under-record volume. Fit stopper promptly, test seals and ensure syringe moves freely.",
+      "markingPoints": [
+        "Gas escaping before stopper insertion makes recorded volumes/rate too low",
+        "leaking apparatus also lowers volume. A sticking plunger can delay/under-record volume. Fit stopper promptly, test seals and ensure syringe moves freely."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T6-PD01",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Plan an investigation of the effect of hydrochloric acid concentration on the rate of reaction with marble chips using a gas syringe.",
+      "marks": 6,
+      "modelAnswer": "Use equal masses and surface areas of marble; use equal acid volumes at several concentrations; connect rapidly to a gas syringe; record gas volume at regular times; keep temperature constant; repeat; calculate initial rate from the early gradient.",
+      "markingPoints": [
+        "Use equal masses and surface areas of marble",
+        "use equal acid volumes at several concentrations",
+        "connect rapidly to a gas syringe",
+        "record gas volume at regular times",
+        "keep temperature constant",
+        "repeat",
+        "calculate initial rate from the early gradient."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical + disciplinary"
+    },
+    {
+      "id": "T6-PD02",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why inserting the bung slowly causes a systematic error in a gas-volume rate experiment.",
+      "marks": 3,
+      "modelAnswer": "The reaction begins before sealing, so gas escapes unmeasured. Volumes are consistently too low, especially early readings; practise or use apparatus that can be sealed before mixing.",
+      "markingPoints": [
+        "The reaction begins before sealing, so gas escapes unmeasured. Volumes are consistently too low, especially early readings",
+        "practise or use apparatus that can be sealed before mixing."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T6-PD03",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe how to determine the initial rate from a product-volume graph.",
+      "marks": 3,
+      "modelAnswer": "Draw a tangent to the curve at time zero; choose two well-separated points on the tangent; calculate gradient = change in volume ÷ change in time; include units.",
+      "markingPoints": [
+        "Draw a tangent to the curve at time zero",
+        "choose two well-separated points on the tangent",
+        "calculate gradient = change in volume ÷ change in time",
+        "include units."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T6-PD04",
+      "questionFamily": "Rate of Reaction",
+      "subtopic": "Rate of Reaction",
+      "sourceSubtopic": "4.6.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Compare the strengths and limitations of mass-loss and gas-syringe methods for measuring reaction rate.",
+      "marks": 5,
+      "modelAnswer": "Mass loss gives continuous objective readings but only works when gas escapes and can be affected by evaporation/draughts. A gas syringe directly measures gas volume but may leak, stick or have limited capacity. Choice depends on reaction and required resolution.",
+      "markingPoints": [
+        "Mass loss gives continuous objective readings but only works when gas escapes and can be affected by evaporation/draughts. A gas syringe directly measures gas volume but may leak, stick or have limited capacity. Choice depends on reaction and required resolution."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T6-PD05",
+      "questionFamily": "Working Scientifically",
+      "subtopic": "Working Scientifically",
+      "sourceSubtopic": "WS 3.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why repeating a rate experiment does not fix gas leaking from the same loose connection every time.",
+      "marks": 3,
+      "modelAnswer": "The leak is systematic and biases every repeat low. Repeats reveal random scatter but the connection must be sealed or apparatus changed to remove the cause.",
+      "markingPoints": [
+        "The leak is systematic and biases every repeat low. Repeats reveal random scatter but the connection must be sealed or apparatus changed to remove the cause."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "WS 3.4",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T6-PD06",
+      "questionFamily": "Reversible Reactions and Dynamic Equilibrium",
+      "subtopic": "Reversible Reactions and Dynamic Equilibrium",
+      "sourceSubtopic": "4.6.2.4",
+      "tier": "Higher",
+      "contentEligibility": "Higher",
+      "question": "Design an experiment to test whether a catalyst changes equilibrium yield as well as time to equilibrium.",
+      "marks": 6,
+      "modelAnswer": "Run identical closed systems at the same temperature, pressure and starting concentrations, with and without catalyst; monitor concentration over time; compare time to constant concentrations and final equilibrium concentrations; repeat. Catalyst should shorten time but not change final composition.",
+      "markingPoints": [
+        "Run identical closed systems at the same temperature, pressure and starting concentrations, with and without catalyst",
+        "monitor concentration over time",
+        "compare time to constant concentrations and final equilibrium concentrations",
+        "repeat. Catalyst should shorten time but not change final composition."
+      ],
+      "commandWord": "Design",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T6 Rates and Equilibrium mastery workbook",
+      "specificationReference": "4.6.2.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Practical + disciplinary"
+    }
+  ]
+}

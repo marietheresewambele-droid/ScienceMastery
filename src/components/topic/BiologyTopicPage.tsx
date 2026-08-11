@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useReducer, useState } from "react";
+import { useEffect, useReducer, useRef, useState } from "react";
 import Link from "next/link";
 import PracticeFilters from "@/components/practice/PracticeFilters";
 import QuestionPractice from "@/components/practice/QuestionPractice";
@@ -341,7 +341,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
   const [showDueOnly, setShowDueOnly] = useState(false);
 
   const [progress, dispatchProgress] = useReducer(progressReducer, emptyProgressState);
-  const [hasHydrated, setHasHydrated] = useState(false);
+  const hasHydrated = useRef(false);
 
   useEffect(() => {
     if (typeof window === "undefined") {
@@ -359,11 +359,11 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
       type: "hydrate",
       payload: hydratedProgress,
     });
-    setHasHydrated(true);
+    hasHydrated.current = true;
   }, [bookmarksKey, completedKey, needsPracticeKey, reviewsKey]);
 
   useEffect(() => {
-    if (!hasHydrated || typeof window === "undefined") {
+    if (!hasHydrated.current || typeof window === "undefined") {
       return;
     }
 
@@ -372,10 +372,10 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
     } catch (e) {
       console.error("Failed to save bookmarks:", e);
     }
-  }, [bookmarksKey, hasHydrated, progress.bookmarkedIds]);
+  }, [bookmarksKey, progress.bookmarkedIds]);
 
   useEffect(() => {
-    if (!hasHydrated || typeof window === "undefined") {
+    if (!hasHydrated.current || typeof window === "undefined") {
       return;
     }
 
@@ -384,10 +384,10 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
     } catch (e) {
       console.error("Failed to save needs practice:", e);
     }
-  }, [hasHydrated, needsPracticeKey, progress.needsPracticeIds]);
+  }, [needsPracticeKey, progress.needsPracticeIds]);
 
   useEffect(() => {
-    if (!hasHydrated || typeof window === "undefined") {
+    if (!hasHydrated.current || typeof window === "undefined") {
       return;
     }
 
@@ -396,10 +396,10 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
     } catch (e) {
       console.error("Failed to save completed:", e);
     }
-  }, [completedKey, hasHydrated, progress.completedIds]);
+  }, [completedKey, progress.completedIds]);
 
   useEffect(() => {
-    if (!hasHydrated || typeof window === "undefined") {
+    if (!hasHydrated.current || typeof window === "undefined") {
       return;
     }
 
@@ -413,7 +413,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
     } catch (e) {
       console.error("Failed to save reviews:", e);
     }
-  }, [hasHydrated, progress.reviewMap, reviewsKey]);
+  }, [progress.reviewMap, reviewsKey]);
 
   const handleBookmark = (questionId: string) => {
     dispatchProgress({
@@ -464,8 +464,11 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
   const progressPercentage =
     totalQuestions > 0 ? Math.round((completedCount / totalQuestions) * 100) : 0;
 
+  const subject = config.subject ?? "biology";
+  const subjectLabel = subject.charAt(0).toUpperCase() + subject.slice(1);
+
   const topicMetadata = {
-    subject: config.subject ?? "biology",
+    subject,
     title: config.title,
     slug: config.id,
     examBoard: config.examBoard ?? "AQA",
@@ -486,7 +489,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                 <ol className="flex items-center gap-2 text-sm font-semibold text-[#5a6b7f]">
                   <li>
                     <Link href="/" className="transition hover:text-[#0b1d33]">
-                      Biology
+                      {subjectLabel}
                     </Link>
                   </li>
                   <li>
@@ -505,7 +508,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                       {topicMetadata.topicNumber}
                     </span>
                     <span className="rounded-full bg-[#f1f5f9] px-3 py-1 text-xs font-bold text-[#5a6b7f]">
-                      {topicMetadata.examBoard} GCSE Biology
+                      {topicMetadata.examBoard} GCSE {subjectLabel}
                     </span>
                   </div>
 

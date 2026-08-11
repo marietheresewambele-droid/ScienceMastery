@@ -1,0 +1,890 @@
+{
+  "metadata": {
+    "topicId": "bonding-structure-and-properties-of-matter",
+    "topic": "Bonding, Structure and Properties of Matter",
+    "sourceWorkbook": "AQA_GCSE_Chemistry_Complete_Mastery_Questions_Topics_1_to_10_with_Practical_and_Disciplinary_Knowledge.xlsx",
+    "questionCount": 41,
+    "subtopics": [
+      {
+        "title": "Chemical Bonds",
+        "questionCount": 6
+      },
+      {
+        "title": "Structure and Properties",
+        "questionCount": 16
+      },
+      {
+        "title": "Carbon Structures",
+        "questionCount": 9
+      },
+      {
+        "title": "Bulk and Surface Properties",
+        "questionCount": 8
+      },
+      {
+        "title": "Conservation of Mass",
+        "questionCount": 1
+      },
+      {
+        "title": "Working Scientifically",
+        "questionCount": 1
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "T2-MQ001",
+      "questionFamily": "Chemical Bonds",
+      "subtopic": "Chemical Bonds",
+      "sourceSubtopic": "4.2.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain fully how magnesium and chlorine form magnesium chloride, MgCl₂. Include electron transfer, ion charges and electrostatic attraction.",
+      "marks": 7,
+      "modelAnswer": "Mg (2,8,2) loses two electrons to form Mg²⁺. Each of two chlorine atoms (2,8,7) gains one electron to form two Cl⁻ ions. Oppositely charged ions attract strongly in all directions by electrostatic forces, forming a giant ionic lattice. Formula MgCl₂ balances charge.",
+      "markingPoints": [
+        "Mg (2,8,2) loses two electrons to form Mg²⁺. Each of two chlorine atoms (2,8,7) gains one electron to form two Cl⁻ ions. Oppositely charged ions attract strongly in all directions by electrostatic forces, forming a giant ionic lattice. Formula MgCl₂ balances charge."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ002",
+      "questionFamily": "Chemical Bonds",
+      "subtopic": "Chemical Bonds",
+      "sourceSubtopic": "4.2.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe what a correct dot-and-cross diagram for sodium oxide, Na₂O, must show.",
+      "marks": 5,
+      "modelAnswer": "Two Na atoms each transfer one outer electron to O. Diagram shows [Na]⁺, [O]²⁻, [Na]⁺ in brackets with charges; oxide has a complete outer shell of eight electrons, including one electron from each sodium. Only outer electrons need be shown.",
+      "markingPoints": [
+        "Two Na atoms each transfer one outer electron to O. Diagram shows [Na]⁺, [O]²⁻, [Na]⁺ in brackets with charges",
+        "oxide has a complete outer shell of eight electrons, including one electron from each sodium. Only outer electrons need be shown."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ003",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why sodium chloride has a high melting point, does not conduct electricity when solid, but conducts when molten or dissolved.",
+      "marks": 8,
+      "modelAnswer": "Giant ionic lattice; strong electrostatic attractions between oppositely charged ions in all directions require much energy to overcome, giving high melting point. In a solid, ions are fixed and cannot carry charge. When molten/dissolved, ions are free to move and carry current.",
+      "markingPoints": [
+        "Giant ionic lattice",
+        "strong electrostatic attractions between oppositely charged ions in all directions require much energy to overcome, giving high melting point. In a solid, ions are fixed and cannot carry charge. When molten/dissolved, ions are free to move and carry current."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ004",
+      "questionFamily": "Chemical Bonds",
+      "subtopic": "Chemical Bonds",
+      "sourceSubtopic": "4.2.1.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain covalent bonding and describe what dot-and-cross diagrams for H₂, HCl, H₂O and CH₄ must show.",
+      "marks": 6,
+      "modelAnswer": "A covalent bond is a shared pair of electrons; electrostatic attraction exists between the shared electrons and both nuclei. H₂: one shared pair. HCl: one shared pair, Cl has three lone pairs. H₂O: two O–H shared pairs, O has two lone pairs. CH₄: four C–H shared pairs.",
+      "markingPoints": [
+        "A covalent bond is a shared pair of electrons",
+        "electrostatic attraction exists between the shared electrons and both nuclei. H₂: one shared pair. HCl: one shared pair, Cl has three lone pairs. H₂O: two O–H shared pairs, O has two lone pairs. CH₄: four C–H shared pairs."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ005",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why simple molecular substances usually have low melting and boiling points, do not conduct electricity, and why boiling point tends to increase with molecular size.",
+      "marks": 8,
+      "modelAnswer": "Strong covalent bonds inside molecules are not broken during melting/boiling. Weak intermolecular forces between molecules require little energy to overcome, so mp/bp are low. No mobile charged particles, so no conduction. Larger molecules have stronger intermolecular forces, so more energy is required and bp increases.",
+      "markingPoints": [
+        "Strong covalent bonds inside molecules are not broken during melting/boiling. Weak intermolecular forces between molecules require little energy to overcome, so mp/bp are low. No mobile charged particles, so no conduction. Larger molecules have stronger intermolecular forces, so more energy is required and bp increases."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ006",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.5",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain the structure of a polymer and why most polymers are solid at room temperature even though individual chains are covalently bonded.",
+      "marks": 5,
+      "modelAnswer": "Polymers are very large molecules made from repeating monomer units. Strong covalent bonds hold atoms within each chain. Intermolecular forces act between long chains; many contact points make these attractions relatively strong, so more energy is needed to separate chains.",
+      "markingPoints": [
+        "Polymers are very large molecules made from repeating monomer units. Strong covalent bonds hold atoms within each chain. Intermolecular forces act between long chains",
+        "many contact points make these attractions relatively strong, so more energy is needed to separate chains."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.5",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ007",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.6",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why giant covalent structures have very high melting points and usually do not conduct electricity.",
+      "marks": 6,
+      "modelAnswer": "A giant network contains very many strong covalent bonds. Much energy is required to break enough bonds to melt it. Most have no delocalised electrons or mobile ions, so cannot conduct electricity; graphite and graphene are exceptions.",
+      "markingPoints": [
+        "A giant network contains very many strong covalent bonds. Much energy is required to break enough bonds to melt it. Most have no delocalised electrons or mobile ions, so cannot conduct electricity",
+        "graphite and graphene are exceptions."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.6",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ008",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Relate the bonding and structure of diamond to its hardness, high melting point and inability to conduct electricity.",
+      "marks": 6,
+      "modelAnswer": "Each carbon forms four strong covalent bonds in a rigid three-dimensional giant lattice. Many strong bonds make it hard and give a high melting point. All four outer electrons are localised in bonds, so there are no delocalised electrons to carry charge.",
+      "markingPoints": [
+        "Each carbon forms four strong covalent bonds in a rigid three-dimensional giant lattice. Many strong bonds make it hard and give a high melting point. All four outer electrons are localised in bonds, so there are no delocalised electrons to carry charge."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ009",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Relate the bonding and structure of graphite to its high melting point, softness and electrical conductivity.",
+      "marks": 8,
+      "modelAnswer": "Each carbon bonds covalently to three others in hexagonal layers. Many strong covalent bonds give high mp. One electron per carbon is delocalised and can move along layers, so graphite conducts. Weak forces between layers allow layers to slide, making graphite soft/slippery.",
+      "markingPoints": [
+        "Each carbon bonds covalently to three others in hexagonal layers. Many strong covalent bonds give high mp. One electron per carbon is delocalised and can move along layers, so graphite conducts. Weak forces between layers allow layers to slide, making graphite soft/slippery."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ010",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3.3",
+      "tier": "Higher",
+      "contentEligibility": "Higher",
+      "question": "Describe graphene and explain why it is strong, light and electrically conductive.",
+      "marks": 6,
+      "modelAnswer": "A single layer of graphite, one atom thick, with each carbon bonded to three others in hexagons. Strong covalent bonds make it strong; one-atom thickness makes it light; delocalised electrons move through the sheet and carry charge.",
+      "markingPoints": [
+        "A single layer of graphite, one atom thick, with each carbon bonded to three others in hexagons. Strong covalent bonds make it strong",
+        "one-atom thickness makes it light",
+        "delocalised electrons move through the sheet and carry charge."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ011",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe the structures of fullerenes and carbon nanotubes and link them to two uses each.",
+      "marks": 7,
+      "modelAnswer": "Fullerenes are hollow carbon molecules, often cages such as C₆₀; uses include drug delivery because molecules can be enclosed, and catalysts/lubricants due to large surface/shape. Nanotubes are cylindrical fullerenes; high tensile strength suits reinforcement, conductivity suits electronics, and large surface area suits catalysts.",
+      "markingPoints": [
+        "Fullerenes are hollow carbon molecules, often cages such as C₆₀",
+        "uses include drug delivery because molecules can be enclosed, and catalysts/lubricants due to large surface/shape. Nanotubes are cylindrical fullerenes",
+        "high tensile strength suits reinforcement, conductivity suits electronics, and large surface area suits catalysts."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ012",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe metallic bonding and use it to explain why metals conduct electricity and heat, have high melting points and are malleable.",
+      "marks": 8,
+      "modelAnswer": "Giant lattice of positive metal ions in a sea of delocalised electrons. Strong electrostatic attraction between ions and electrons requires much energy to overcome, giving high mp. Delocalised electrons move and transfer charge/thermal energy. Layers of ions can slide while attraction to electrons remains, so metals are malleable.",
+      "markingPoints": [
+        "Giant lattice of positive metal ions in a sea of delocalised electrons. Strong electrostatic attraction between ions and electrons requires much energy to overcome, giving high mp. Delocalised electrons move and transfer charge/thermal energy. Layers of ions can slide while attraction to electrons remains, so metals are malleable."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ013",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why pure metals are usually more malleable than alloys and why alloys are often harder.",
+      "marks": 5,
+      "modelAnswer": "In a pure metal, equal-sized atoms form regular layers that slide. An alloy contains different-sized atoms that distort the layers and obstruct their movement, so more force is needed and the alloy is harder.",
+      "markingPoints": [
+        "In a pure metal, equal-sized atoms form regular layers that slide. An alloy contains different-sized atoms that distort the layers and obstruct their movement, so more force is needed and the alloy is harder."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ014",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Compare the arrangement, movement and energy of particles in a solid, liquid and gas. Explain changes of state.",
+      "marks": 8,
+      "modelAnswer": "Solid: close, regular, vibrate about fixed positions. Liquid: close, irregular, move past each other. Gas: far apart, rapid random motion. Heating transfers energy to particles; at melting/boiling energy overcomes attractions without changing chemical identity. Cooling reverses the changes. Mass is conserved.",
+      "markingPoints": [
+        "Solid: close, regular, vibrate about fixed positions. Liquid: close, irregular, move past each other. Gas: far apart, rapid random motion. Heating transfers energy to particles",
+        "at melting/boiling energy overcomes attractions without changing chemical identity. Cooling reverses the changes. Mass is conserved."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ015",
+      "questionFamily": "Chemical Bonds",
+      "subtopic": "Chemical Bonds",
+      "sourceSubtopic": "4.2.1.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Write the state symbols for solid sodium chloride, liquid water, oxygen gas and sodium chloride dissolved in water. Explain the difference between (l) and (aq).",
+      "marks": 4,
+      "modelAnswer": "NaCl(s), H₂O(l), O₂(g), NaCl(aq). (l) means the pure substance is liquid; (aq) means the substance is dissolved in water.",
+      "markingPoints": [
+        "NaCl(s), H₂O(l), O₂(g), NaCl(aq). (l) means the pure substance is liquid",
+        "(aq) means the substance is dissolved in water."
+      ],
+      "commandWord": "Write",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ016",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Give two limitations of the common particle model that shows particles as solid spheres, and explain why models are still useful.",
+      "marks": 4,
+      "modelAnswer": "Particles are not solid coloured spheres; sizes/distances and forces are often not to scale; model may not show movement or bonds/electrons. Models remain useful because they simplify invisible structures and help explain/predict properties.",
+      "markingPoints": [
+        "Particles are not solid coloured spheres",
+        "sizes/distances and forces are often not to scale",
+        "model may not show movement or bonds/electrons. Models remain useful because they simplify invisible structures and help explain/predict properties."
+      ],
+      "commandWord": "Give",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T2-MQ017",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.7",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Substance A has mp 801 °C and conducts only when molten. B has mp −98 °C and never conducts. C has mp 3550 °C and conducts as a solid; it is soft. D has mp 1710 °C and never conducts. Identify the most likely structure type of each and justify.",
+      "marks": 8,
+      "modelAnswer": "A giant ionic: high mp; mobile ions only molten. B simple molecular: low mp; no mobile charge. C graphite/giant covalent layered carbon: very high mp, delocalised electrons, soft layers. D giant covalent such as SiO₂: very high mp and no mobile charge.",
+      "markingPoints": [
+        "A giant ionic: high mp",
+        "mobile ions only molten. B simple molecular: low mp",
+        "no mobile charge. C graphite/giant covalent layered carbon: very high mp, delocalised electrons, soft layers. D giant covalent such as SiO₂: very high mp and no mobile charge."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.7",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ018",
+      "questionFamily": "Chemical Bonds",
+      "subtopic": "Chemical Bonds",
+      "sourceSubtopic": "4.2.1.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Determine the formulae of aluminium oxide, calcium chloride and magnesium nitride from Al³⁺, O²⁻, Ca²⁺, Cl⁻, Mg²⁺ and N³⁻. Explain the rule used.",
+      "marks": 6,
+      "modelAnswer": "Al₂O₃, CaCl₂, Mg₃N₂. Total positive charge must equal total negative charge so the compound is electrically neutral; use the smallest whole-number ratio of ions.",
+      "markingPoints": [
+        "Al₂O₃, CaCl₂, Mg₃N₂. Total positive charge must equal total negative charge so the compound is electrically neutral",
+        "use the smallest whole-number ratio of ions."
+      ],
+      "commandWord": "Determine",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ019",
+      "questionFamily": "Conservation of Mass",
+      "subtopic": "Conservation of Mass",
+      "sourceSubtopic": "4.3.1.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Using Ar: Mg = 24, N = 14 and O = 16, calculate Mr of Mg(NO₃)₂ and the percentage by mass of oxygen.",
+      "marks": 5,
+      "modelAnswer": "Mr = 24 + 2(14 + 3×16) = 148. Oxygen mass = 6×16 = 96. Percentage oxygen = 96/148 × 100 = 64.9%.",
+      "markingPoints": [
+        "Mr = 24 + 2(14 + 3×16) = 148. Oxygen mass = 6×16 = 96. Percentage oxygen = 96/148 × 100 = 64.9%."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.3.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ020",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A particle has diameter 4.0 × 10⁻⁸ m. Convert this to nanometres and classify it as a nanoparticle, fine particle or coarse particle. State the usual nanoparticle size range.",
+      "marks": 6,
+      "modelAnswer": "4.0 × 10⁻⁸ m × 10⁹ nm/m = 40 nm. It is a nanoparticle. Nanoparticles are approximately 1–100 nm in diameter.",
+      "markingPoints": [
+        "4.0 × 10⁻⁸ m × 10⁹ nm/m = 40 nm. It is a nanoparticle. Nanoparticles are approximately 1–100 nm in diameter."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ021",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why nanoparticles can be more effective catalysts than the same mass of larger particles and why only a small mass may be needed.",
+      "marks": 6,
+      "modelAnswer": "Smaller particles have a much larger surface-area-to-volume ratio. For the same mass, more atoms are exposed at the surface, providing more active sites and increasing collision frequency/rate. Therefore a smaller mass can give the required effect.",
+      "markingPoints": [
+        "Smaller particles have a much larger surface-area-to-volume ratio. For the same mass, more atoms are exposed at the surface, providing more active sites and increasing collision frequency/rate. Therefore a smaller mass can give the required effect."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ022",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Evaluate the use of nanoparticles in medicine, cosmetics and catalysts. Give a justified conclusion.",
+      "marks": 7,
+      "modelAnswer": "Benefits may include targeted drug delivery, improved sun protection without white coating, high catalytic activity and reduced material use. Risks: tiny particles may enter cells/blood, long-term toxicity/environmental effects are uncertain, large surface makes them reactive. Conclusion must weigh the named benefit against uncertain evidence and propose testing/regulation; ‘unknown risk’ is not proof of harm.",
+      "markingPoints": [
+        "Benefits may include targeted drug delivery, improved sun protection without white coating, high catalytic activity and reduced material use. Risks: tiny particles may enter cells/blood, long-term toxicity/environmental effects are uncertain, large surface makes them reactive. Conclusion must weigh the named benefit against uncertain evidence and propose testing/regulation",
+        "‘unknown risk’ is not proof of harm."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T2-MQ023",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Magnesium oxide has a higher melting point than sodium chloride. Suggest why using ion charges.",
+      "marks": 5,
+      "modelAnswer": "Mg²⁺ and O²⁻ have greater charges than Na⁺ and Cl⁻, producing stronger electrostatic attractions in the lattice; more energy is needed to overcome them.",
+      "markingPoints": [
+        "Mg²⁺ and O²⁻ have greater charges than Na⁺ and Cl⁻, producing stronger electrostatic attractions in the lattice",
+        "more energy is needed to overcome them."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ024",
+      "questionFamily": "Chemical Bonds",
+      "subtopic": "Chemical Bonds",
+      "sourceSubtopic": "4.2.1.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A molecule contains two nitrogen atoms and four oxygen atoms. Write its molecular formula and state why this does not show its structure.",
+      "marks": 5,
+      "modelAnswer": "N₂O₄. A molecular formula gives only numbers/types of atoms, not their arrangement or which atoms are bonded.",
+      "markingPoints": [
+        "N₂O₄. A molecular formula gives only numbers/types of atoms, not their arrangement or which atoms are bonded."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ025",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.4",
+      "tier": "Higher",
+      "contentEligibility": "Higher",
+      "question": "Methane boils at −162 °C and octane at 126 °C. Explain the difference without saying that covalent bonds break.",
+      "marks": 5,
+      "modelAnswer": "Octane molecules are larger and have stronger intermolecular forces, so more energy is needed to separate molecules. Covalent bonds within molecules remain intact during boiling.",
+      "markingPoints": [
+        "Octane molecules are larger and have stronger intermolecular forces, so more energy is needed to separate molecules. Covalent bonds within molecules remain intact during boiling."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ026",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3.5",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why silicon dioxide is hard, has a high melting point and does not conduct electricity.",
+      "marks": 5,
+      "modelAnswer": "It has a rigid giant covalent network with many strong covalent bonds, requiring much energy to break; no mobile ions or delocalised electrons carry charge.",
+      "markingPoints": [
+        "It has a rigid giant covalent network with many strong covalent bonds, requiring much energy to break",
+        "no mobile ions or delocalised electrons carry charge."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3.5",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ027",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.5",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Poly(ethene) is solid at room temperature but ethene is a gas. Explain using structure and forces.",
+      "marks": 5,
+      "modelAnswer": "Ethene is small/simple molecular with weak intermolecular forces. Poly(ethene) has long chains and stronger intermolecular attractions across many contact points, so more energy is needed to separate chains.",
+      "markingPoints": [
+        "Ethene is small/simple molecular with weak intermolecular forces. Poly(ethene) has long chains and stronger intermolecular attractions across many contact points, so more energy is needed to separate chains."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.5",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ028",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A sunscreen containing nanoparticles is transparent and blocks UV. Explain why these benefits alone are insufficient to conclude it is completely safe.",
+      "marks": 5,
+      "modelAnswer": "Performance evidence shows benefit but not long-term safety. Nanoparticles may enter cells/environment and effects may be uncertain; toxicity, dose, exposure and long-term studies must be assessed before a justified conclusion.",
+      "markingPoints": [
+        "Performance evidence shows benefit but not long-term safety. Nanoparticles may enter cells/environment and effects may be uncertain",
+        "toxicity, dose, exposure and long-term studies must be assessed before a justified conclusion."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ029",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.4.1; 4.2.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Substance X conducts as a solid and is malleable. Y is brittle, has a high melting point and conducts only when molten. Identify the bonding in X and Y and justify.",
+      "marks": 6,
+      "modelAnswer": "X metallic: delocalised electrons conduct and layers can slide. Y ionic: strong lattice gives high melting point; ions fixed in solid but mobile when molten; brittleness is consistent with shifted like charges repelling.",
+      "markingPoints": [
+        "X metallic: delocalised electrons conduct and layers can slide. Y ionic: strong lattice gives high melting point",
+        "ions fixed in solid but mobile when molten",
+        "brittleness is consistent with shifted like charges repelling."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.1; 4.2.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-MQ030",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A ball-and-stick model shows atoms far apart connected by sticks. Give two ways it can misrepresent a real solid.",
+      "marks": 4,
+      "modelAnswer": "Atoms/electron clouds are not separated by large empty gaps at the model scale; sticks are not literal bonds; atom sizes/bond lengths may not be to scale; model does not show electron density or movement. Any two explained.",
+      "markingPoints": [
+        "Atoms/electron clouds are not separated by large empty gaps at the model scale",
+        "sticks are not literal bonds",
+        "atom sizes/bond lengths may not be to scale",
+        "model does not show electron density or movement. Any two explained."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-EX1",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.6",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Graphite conducts electricity but diamond does not. Explain using bonding and structure.",
+      "marks": 5,
+      "modelAnswer": "Each graphite carbon bonds to three others, leaving one delocalised electron per atom that can move and carry charge. Each diamond carbon bonds to four others, so all outer electrons are localised in covalent bonds.",
+      "markingPoints": [
+        "Each graphite carbon bonds to three others, leaving one delocalised electron per atom that can move and carry charge. Each diamond carbon bonds to four others, so all outer electrons are localised in covalent bonds."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.6",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-EX2",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why solid sodium chloride does not conduct electricity but molten sodium chloride does.",
+      "marks": 4,
+      "modelAnswer": "In the solid, ions are fixed in a lattice and cannot carry charge through it. When molten, ions are free to move and carry electrical charge.",
+      "markingPoints": [
+        "In the solid, ions are fixed in a lattice and cannot carry charge through it. When molten, ions are free to move and carry electrical charge."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-EX3",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.2",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "A nanoparticle cube has side 10 nm and a larger cube has side 1 μm. Explain why the nanoparticle has a larger surface-area-to-volume ratio.",
+      "marks": 4,
+      "modelAnswer": "Surface area scales with length squared while volume scales with length cubed; as size decreases, volume falls faster than surface area, so surface area per unit volume increases.",
+      "markingPoints": [
+        "Surface area scales with length squared while volume scales with length cubed",
+        "as size decreases, volume falls faster than surface area, so surface area per unit volume increases."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-EX4",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3.2",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Compare the properties of thermosetting and thermosoftening polymers in terms of their structures.",
+      "marks": 5,
+      "modelAnswer": "Thermosofteners have separate chains with weak intermolecular forces, so chains slide when heated and the polymer softens. Thermosets have strong cross-links between chains, preventing sliding, so they do not soften readily.",
+      "markingPoints": [
+        "Thermosofteners have separate chains with weak intermolecular forces, so chains slide when heated and the polymer softens. Thermosets have strong cross-links between chains, preventing sliding, so they do not soften readily."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-EX5",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3.3",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Explain why graphene is both strong and able to conduct electricity.",
+      "marks": 4,
+      "modelAnswer": "Strong covalent bonds extend across the carbon sheet, giving strength. Each carbon forms three bonds, leaving delocalised electrons that move across the sheet and carry charge.",
+      "markingPoints": [
+        "Strong covalent bonds extend across the carbon sheet, giving strength. Each carbon forms three bonds, leaving delocalised electrons that move across the sheet and carry charge."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T2-PD01",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Plan a fair test to compare the electrical conductivity of sodium chloride as a solid and when molten or dissolved.",
+      "marks": 5,
+      "modelAnswer": "Use the same conductivity circuit and electrode spacing; test solid sodium chloride and a fixed-concentration solution or molten sample; keep potential difference and temperature controlled where appropriate; rinse electrodes; record current; use eye protection and avoid unsafe school melting if unsuitable.",
+      "markingPoints": [
+        "Use the same conductivity circuit and electrode spacing",
+        "test solid sodium chloride and a fixed-concentration solution or molten sample",
+        "keep potential difference and temperature controlled where appropriate",
+        "rinse electrodes",
+        "record current",
+        "use eye protection and avoid unsafe school melting if unsuitable."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical + disciplinary"
+    },
+    {
+      "id": "T2-PD02",
+      "questionFamily": "Structure and Properties",
+      "subtopic": "Structure and Properties",
+      "sourceSubtopic": "4.2.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain how conductivity observations provide evidence for the ionic bonding model.",
+      "marks": 4,
+      "modelAnswer": "Solid ionic compounds do not conduct because ions are fixed. Molten or dissolved ionic compounds conduct because ions can move and carry charge. The change supports a lattice of charged particles rather than neutral molecules.",
+      "markingPoints": [
+        "Solid ionic compounds do not conduct because ions are fixed. Molten or dissolved ionic compounds conduct because ions can move and carry charge. The change supports a lattice of charged particles rather than neutral molecules."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2/AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.2.3",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Substantive + disciplinary"
+    },
+    {
+      "id": "T2-PD03",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Design measurements that could distinguish a simple molecular substance from a giant covalent substance.",
+      "marks": 5,
+      "modelAnswer": "Compare melting point, solubility and electrical conductivity using equal samples and controlled methods. Simple molecules generally melt at low temperatures; giant covalent structures have very high melting points. Graphite conducts, so several properties are needed rather than one result.",
+      "markingPoints": [
+        "Compare melting point, solubility and electrical conductivity using equal samples and controlled methods. Simple molecules generally melt at low temperatures",
+        "giant covalent structures have very high melting points. Graphite conducts, so several properties are needed rather than one result."
+      ],
+      "commandWord": "Design",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical + disciplinary"
+    },
+    {
+      "id": "T2-PD04",
+      "questionFamily": "Carbon Structures",
+      "subtopic": "Carbon Structures",
+      "sourceSubtopic": "4.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why testing only one physical property may be insufficient to identify an unknown bonding type.",
+      "marks": 3,
+      "modelAnswer": "Different structures can share a property and exceptions exist, such as graphite conducting. A conclusion based on several independent properties is better supported.",
+      "markingPoints": [
+        "Different structures can share a property and exceptions exist, such as graphite conducting. A conclusion based on several independent properties is better supported."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T2-PD05",
+      "questionFamily": "Bulk and Surface Properties",
+      "subtopic": "Bulk and Surface Properties",
+      "sourceSubtopic": "4.2.4.2",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Evaluate the use of nanoparticles when evidence about long-term health effects is incomplete.",
+      "marks": 5,
+      "modelAnswer": "Balance benefits such as high surface-area applications against uncertain toxicity and environmental persistence. Consider dose, exposure route and particle size; use controlled studies and regulation. A qualified conclusion is justified rather than claiming they are safe or unsafe in all uses.",
+      "markingPoints": [
+        "Balance benefits such as high surface-area applications against uncertain toxicity and environmental persistence. Consider dose, exposure route and particle size",
+        "use controlled studies and regulation. A qualified conclusion is justified rather than claiming they are safe or unsafe in all uses."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "4.2.4.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T2-PD06",
+      "questionFamily": "Working Scientifically",
+      "subtopic": "Working Scientifically",
+      "sourceSubtopic": "WS 2.2; WS 3.7",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A material sample contains visible cracks and gives widely scattered strength results. Explain how sampling and repeats should be improved.",
+      "marks": 4,
+      "modelAnswer": "Use standardised samples from several parts of the material, repeat each test and compare means and spread. Cracks cause sample variation; a larger representative sample reduces the effect of unrepresentative specimens.",
+      "markingPoints": [
+        "Use standardised samples from several parts of the material, repeat each test and compare means and spread. Cracks cause sample variation",
+        "a larger representative sample reduces the effect of unrepresentative specimens."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T2 Bonding and Structure mastery workbook",
+      "specificationReference": "WS 2.2; WS 3.7",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    }
+  ]
+}

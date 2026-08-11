@@ -1,0 +1,888 @@
+{
+  "metadata": {
+    "topicId": "chemistry-of-the-atmosphere",
+    "topic": "Chemistry of the Atmosphere",
+    "sourceWorkbook": "AQA_GCSE_Chemistry_Complete_Mastery_Questions_Topics_1_to_10_with_Practical_and_Disciplinary_Knowledge.xlsx",
+    "questionCount": 41,
+    "subtopics": [
+      {
+        "title": "Evolution of the Atmosphere",
+        "questionCount": 12
+      },
+      {
+        "title": "Carbon Dioxide and Methane",
+        "questionCount": 20
+      },
+      {
+        "title": "Atmospheric Pollutants",
+        "questionCount": 8
+      },
+      {
+        "title": "Working Scientifically",
+        "questionCount": 1
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "9.1",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "State the approximate composition of dry air and calculate the oxygen volume in 2.40 dm3 of air.",
+      "marks": 5,
+      "modelAnswer": "78% N2, 21% O2, ~0.9% Ar, ~0.04% CO2. Oxygen = 0.21x2.40 = 0.504 dm3.",
+      "markingPoints": [
+        "78% N2, 21% O2, ~0.9% Ar, ~0.04% CO2. Oxygen = 0.21x2.40 = 0.504 dm3."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.2",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Describe the likely early atmosphere and explain why scientists use cautious language about it.",
+      "marks": 5,
+      "modelAnswer": "Volcanic gases; mainly CO2 and water vapour, small methane/ammonia, little/no O2. Formed billions of years ago, limited direct evidence; models inferred and revised.",
+      "markingPoints": [
+        "Volcanic gases",
+        "mainly CO2 and water vapour, small methane/ammonia, little/no O2. Formed billions of years ago, limited direct evidence",
+        "models inferred and revised."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1/AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.3",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain three processes that decreased atmospheric carbon dioxide over geological time.",
+      "marks": 6,
+      "modelAnswer": "Dissolved in oceans; photosynthesis removed CO2; carbonate shells/sediments formed limestone; carbon buried in fossil fuels/rocks. Explain storage/removal.",
+      "markingPoints": [
+        "Dissolved in oceans",
+        "photosynthesis removed CO2",
+        "carbonate shells/sediments formed limestone",
+        "carbon buried in fossil fuels/rocks. Explain storage/removal."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.4",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain how atmospheric oxygen increased and why it did not immediately accumulate when photosynthesis began.",
+      "marks": 5,
+      "modelAnswer": "Algae/plants photosynthesised, releasing O2; initially reacted with iron/rocks and other reducing materials/respiration; accumulated only after sinks became saturated/production exceeded removal.",
+      "markingPoints": [
+        "Algae/plants photosynthesised, releasing O2",
+        "initially reacted with iron/rocks and other reducing materials/respiration",
+        "accumulated only after sinks became saturated/production exceeded removal."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.5",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain the greenhouse effect as an energy-transfer sequence without saying greenhouse gases trap sunlight.",
+      "marks": 6,
+      "modelAnswer": "Short-wave solar radiation passes/absorbed by surface; Earth warms; emits long-wave IR; greenhouse gases absorb IR and re-emit in all directions; less net energy escapes, increasing surface temperature.",
+      "markingPoints": [
+        "Short-wave solar radiation passes/absorbed by surface",
+        "Earth warms",
+        "emits long-wave IR",
+        "greenhouse gases absorb IR and re-emit in all directions",
+        "less net energy escapes, increasing surface temperature."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.6",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Link human activities to increases in carbon dioxide and methane, giving at least two sources of each.",
+      "marks": 6,
+      "modelAnswer": "CO2: fossil-fuel combustion, deforestation, cement. CH4: cattle, rice, landfill, fossil-fuel extraction. Explain release/reduced uptake where relevant.",
+      "markingPoints": [
+        "CO2: fossil-fuel combustion, deforestation, cement. CH4: cattle, rice, landfill, fossil-fuel extraction. Explain release/reduced uptake where relevant."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.7",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Evaluate the claim that correlation between CO2 and global temperature proves CO2 causes warming.",
+      "marks": 6,
+      "modelAnswer": "Correlation alone not proof; confounders/feedback possible. But known IR mechanism, lab evidence, historical data, models and multiple independent observations support causation. Balanced evidence-based conclusion.",
+      "markingPoints": [
+        "Correlation alone not proof",
+        "confounders/feedback possible. But known IR mechanism, lab evidence, historical data, models and multiple independent observations support causation. Balanced evidence-based conclusion."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "9.8",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain why climate predictions have uncertainty but are still useful.",
+      "marks": 5,
+      "modelAnswer": "Future emissions unknown; complex feedback/cloud/ocean behaviour; model resolution/data limits; natural variation. Models tested against observations and give ranges/scenarios useful for risk decisions.",
+      "markingPoints": [
+        "Future emissions unknown",
+        "complex feedback/cloud/ocean behaviour",
+        "model resolution/data limits",
+        "natural variation. Models tested against observations and give ranges/scenarios useful for risk decisions."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "9.9",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Define carbon footprint and evaluate three ways a school could reduce it, including one limitation for each.",
+      "marks": 8,
+      "modelAnswer": "Total direct+indirect greenhouse gases as CO2e. Measures such as insulation/efficiency, renewable electricity, transport change, lower consumption/food waste; evaluate cost, intermittency, behaviour, embodied impacts, feasibility and data.",
+      "markingPoints": [
+        "Total direct+indirect greenhouse gases as CO2e. Measures such as insulation/efficiency, renewable electricity, transport change, lower consumption/food waste",
+        "evaluate cost, intermittency, behaviour, embodied impacts, feasibility and data."
+      ],
+      "commandWord": "Define",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "9.10",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.1–4.9.3.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "For coal combustion, identify sources, formation and effects of sulfur dioxide, nitrogen oxides, carbon monoxide and particulates.",
+      "marks": 8,
+      "modelAnswer": "S impurity burns -> SO2, acid rain/respiratory. High T N2+O2 -> NOx, acid rain/smog/respiratory. Limited O2 -> CO toxic. Soot/unburnt carbon -> particulates, lung damage/global dimming.",
+      "markingPoints": [
+        "S impurity burns -> SO2, acid rain/respiratory. High T N2+O2 -> NOx, acid rain/smog/respiratory. Limited O2 -> CO toxic. Soot/unburnt carbon -> particulates, lung damage/global dimming."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.1–4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.11",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.1; 4.9.3.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Distinguish a greenhouse gas from an atmospheric pollutant and explain why a substance may be both or mainly one.",
+      "marks": 5,
+      "modelAnswer": "Greenhouse classification concerns IR absorption/climate; pollutant concerns harmful concentration/effects. CO2 greenhouse gas, CO toxic pollutant not major greenhouse gas; effects depend on chemistry/lifetime/concentration.",
+      "markingPoints": [
+        "Greenhouse classification concerns IR absorption/climate",
+        "pollutant concerns harmful concentration/effects. CO2 greenhouse gas, CO toxic pollutant not major greenhouse gas",
+        "effects depend on chemistry/lifetime/concentration."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1/AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.1; 4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.12",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.2–4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A policy reduces methane emissions quickly but CO2 only slowly. Explain why methane reduction can affect near-term warming while long-lived CO2 still matters.",
+      "marks": 4,
+      "modelAnswer": "Methane strong greenhouse gas but shorter atmospheric lifetime; cuts can reduce near-term forcing. CO2 accumulates/persists, so long-term warming depends on cumulative emissions.",
+      "markingPoints": [
+        "Methane strong greenhouse gas but shorter atmospheric lifetime",
+        "cuts can reduce near-term forcing. CO2 accumulates/persists, so long-term warming depends on cumulative emissions."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.2–4.9.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.13",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain how particulates can cause both health effects and global dimming.",
+      "marks": 4,
+      "modelAnswer": "Fine particles enter lungs/airways causing disease; scatter/absorb incoming sunlight so less reaches surface, producing cooling/dimming effect.",
+      "markingPoints": [
+        "Fine particles enter lungs/airways causing disease",
+        "scatter/absorb incoming sunlight so less reaches surface, producing cooling/dimming effect."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.14",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Compare carbon capture and storage with reforestation as carbon-footprint strategies.",
+      "marks": 6,
+      "modelAnswer": "CCS captures concentrated CO2, potential large scale but energy/cost/storage leakage/infrastructure. Trees remove CO2 and aid habitats but require land/time and carbon can be re-released by fire/felling. Contextual judgement.",
+      "markingPoints": [
+        "CCS captures concentrated CO2, potential large scale but energy/cost/storage leakage/infrastructure. Trees remove CO2 and aid habitats but require land/time and carbon can be re-released by fire/felling. Contextual judgement."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.15",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A graph shows temperature rising while solar output has no matching long-term rise. Explain how this evidence should be used in an argument.",
+      "marks": 4,
+      "modelAnswer": "Weakens solar-output explanation for trend; does not alone prove sole cause; combine with greenhouse mechanism, gas records and other forcings; distinguish correlation/evidence strength.",
+      "markingPoints": [
+        "Weakens solar-output explanation for trend",
+        "does not alone prove sole cause",
+        "combine with greenhouse mechanism, gas records and other forcings",
+        "distinguish correlation/evidence strength."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "9.16",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "State the approximate percentages of nitrogen, oxygen and other gases in present-day dry air.",
+      "marks": 3,
+      "modelAnswer": "About 78% nitrogen, 21% oxygen and about 1% other gases including argon and approximately 0.04% carbon dioxide.",
+      "markingPoints": [
+        "About 78% nitrogen, 21% oxygen and about 1% other gases including argon and approximately 0.04% carbon dioxide."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.17",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Name the main gas believed to have formed Earth’s early atmosphere.",
+      "marks": 1,
+      "modelAnswer": "Carbon dioxide.",
+      "markingPoints": [
+        "Carbon dioxide."
+      ],
+      "commandWord": "Name",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.2",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.18",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.2–4.9.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Why was there little or no oxygen in Earth’s early atmosphere?",
+      "marks": 2,
+      "modelAnswer": "There were no photosynthesising organisms initially, and any oxygen produced reacted with rocks/minerals.",
+      "markingPoints": [
+        "There were no photosynthesising organisms initially, and any oxygen produced reacted with rocks/minerals."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.2–4.9.1.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.19",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "How did oceans help reduce the concentration of atmospheric carbon dioxide?",
+      "marks": 2,
+      "modelAnswer": "Carbon dioxide dissolved in the oceans and became locked into carbonate sediments and rocks.",
+      "markingPoints": [
+        "Carbon dioxide dissolved in the oceans and became locked into carbonate sediments and rocks."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.4",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.20",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.3–4.9.1.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "How did photosynthetic algae and plants change Earth’s atmosphere?",
+      "marks": 3,
+      "modelAnswer": "They absorbed carbon dioxide and released oxygen by photosynthesis, decreasing CO2 and increasing O2 over time.",
+      "markingPoints": [
+        "They absorbed carbon dioxide and released oxygen by photosynthesis, decreasing CO2 and increasing O2 over time."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.3–4.9.1.4",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.21",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Name three greenhouse gases.",
+      "marks": 3,
+      "modelAnswer": "Carbon dioxide, methane and water vapour.",
+      "markingPoints": [
+        "Carbon dioxide, methane and water vapour."
+      ],
+      "commandWord": "Name",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.22",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain how greenhouse gases warm Earth’s surface.",
+      "marks": 4,
+      "modelAnswer": "Short-wave solar radiation reaches Earth; the surface emits infrared radiation; greenhouse gases absorb outgoing infrared and re-emit it in all directions, including back toward the surface.",
+      "markingPoints": [
+        "Short-wave solar radiation reaches Earth",
+        "the surface emits infrared radiation",
+        "greenhouse gases absorb outgoing infrared and re-emit it in all directions, including back toward the surface."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.23",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Give two human activities that increase atmospheric methane.",
+      "marks": 2,
+      "modelAnswer": "Examples: cattle/rice farming, landfill and leaks during fossil-fuel extraction.",
+      "markingPoints": [
+        "Examples: cattle/rice farming, landfill and leaks during fossil-fuel extraction."
+      ],
+      "commandWord": "Give",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.2",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.24",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Give two human activities that increase atmospheric carbon dioxide.",
+      "marks": 2,
+      "modelAnswer": "Burning fossil fuels and deforestation/land-use change.",
+      "markingPoints": [
+        "Burning fossil fuels and deforestation/land-use change."
+      ],
+      "commandWord": "Give",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.2",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.25",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "State three possible consequences of global climate change.",
+      "marks": 3,
+      "modelAnswer": "Examples: sea-level rise, changing rainfall, more extreme weather, habitat loss, migration changes and reduced biodiversity/food security.",
+      "markingPoints": [
+        "Examples: sea-level rise, changing rainfall, more extreme weather, habitat loss, migration changes and reduced biodiversity/food security."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.26",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Why is peer review important when scientists publish climate research?",
+      "marks": 2,
+      "modelAnswer": "Other experts check the methods, evidence and reasoning, helping identify errors and improve confidence in conclusions.",
+      "markingPoints": [
+        "Other experts check the methods, evidence and reasoning, helping identify errors and improve confidence in conclusions."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.27",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.4",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "What is a carbon footprint?",
+      "marks": 2,
+      "modelAnswer": "The total amount of carbon dioxide and other greenhouse gases emitted over the full life cycle of a product, service or event.",
+      "markingPoints": [
+        "The total amount of carbon dioxide and other greenhouse gases emitted over the full life cycle of a product, service or event."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.4",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.28",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "How is sulfur dioxide formed when fossil fuels burn?",
+      "marks": 2,
+      "modelAnswer": "Sulfur impurities in the fuel react with oxygen during combustion.",
+      "markingPoints": [
+        "Sulfur impurities in the fuel react with oxygen during combustion."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.29",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "How are nitrogen oxides formed in a vehicle engine?",
+      "marks": 2,
+      "modelAnswer": "At high temperatures, nitrogen and oxygen from the air react.",
+      "markingPoints": [
+        "At high temperatures, nitrogen and oxygen from the air react."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "9.30",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "State one environmental effect of sulfur dioxide and one of nitrogen oxides.",
+      "marks": 2,
+      "modelAnswer": "Sulfur dioxide causes acid rain; nitrogen oxides cause acid rain and photochemical smog/respiratory problems.",
+      "markingPoints": [
+        "Sulfur dioxide causes acid rain",
+        "nitrogen oxides cause acid rain and photochemical smog/respiratory problems."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.2",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T9-EX1",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain how the early atmosphere changed as oceans and sedimentary carbonate rocks formed.",
+      "marks": 5,
+      "modelAnswer": "Earth cooled and water vapour condensed to oceans. CO₂ dissolved in oceans and was used by marine organisms; carbon became locked in shells/skeletons and carbonate sediments/rocks, reducing atmospheric CO₂.",
+      "markingPoints": [
+        "Earth cooled and water vapour condensed to oceans. CO₂ dissolved in oceans and was used by marine organisms",
+        "carbon became locked in shells/skeletons and carbonate sediments/rocks, reducing atmospheric CO₂."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T9-EX2",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Evaluate the statement: “A correlation between atmospheric CO₂ and global temperature proves CO₂ is the only cause.”",
+      "marks": 6,
+      "modelAnswer": "Correlation alone does not prove causation and other factors affect climate. However, greenhouse mechanism is established and multiple independent records/models support a CO₂ contribution. Data uncertainties and confounding variables should be considered; “only cause” is unjustified.",
+      "markingPoints": [
+        "Correlation alone does not prove causation and other factors affect climate. However, greenhouse mechanism is established and multiple independent records/models support a CO₂ contribution. Data uncertainties and confounding variables should be considered",
+        "“only cause” is unjustified."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T9-EX3",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain how sulfur dioxide and nitrogen oxides cause environmental harm and how their emissions can be reduced.",
+      "marks": 6,
+      "modelAnswer": "They form acidic solutions/acid rain, damaging ecosystems/buildings; NOx also contributes to respiratory problems/smog. Use low-sulfur fuels/flue-gas desulfurisation, catalytic converters, lower combustion temperatures and reduced fossil-fuel use.",
+      "markingPoints": [
+        "They form acidic solutions/acid rain, damaging ecosystems/buildings",
+        "NOx also contributes to respiratory problems/smog. Use low-sulfur fuels/flue-gas desulfurisation, catalytic converters, lower combustion temperatures and reduced fossil-fuel use."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T9-EX4",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why carbon monoxide is produced in a faulty gas heater and why it is dangerous.",
+      "marks": 4,
+      "modelAnswer": "Insufficient oxygen causes incomplete combustion, forming CO. CO is colourless/odourless and binds strongly to haemoglobin, reducing blood oxygen transport and potentially causing death.",
+      "markingPoints": [
+        "Insufficient oxygen causes incomplete combustion, forming CO. CO is colourless/odourless and binds strongly to haemoglobin, reducing blood oxygen transport and potentially causing death."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.1",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T9-EX5",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain how photosynthetic organisms altered atmospheric gases and enabled complex animal life.",
+      "marks": 4,
+      "modelAnswer": "Photosynthesis removed CO₂ and released O₂. Oxygen accumulated, enabling efficient aerobic respiration; it also enabled ozone formation, reducing harmful UV at Earth’s surface.",
+      "markingPoints": [
+        "Photosynthesis removed CO₂ and released O₂. Oxygen accumulated, enabling efficient aerobic respiration",
+        "it also enabled ozone formation, reducing harmful UV at Earth’s surface."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T9-PD01",
+      "questionFamily": "Evolution of the Atmosphere",
+      "subtopic": "Evolution of the Atmosphere",
+      "sourceSubtopic": "4.9.1.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain how ice-core and sediment evidence can be used to reconstruct past atmospheric composition and climate.",
+      "marks": 5,
+      "modelAnswer": "Trapped air bubbles preserve samples of past atmosphere; isotope ratios and sediment/pollen records act as climate proxies; layers can be dated. Agreement between independent records increases confidence, but resolution and dating uncertainty limit conclusions.",
+      "markingPoints": [
+        "Trapped air bubbles preserve samples of past atmosphere",
+        "isotope ratios and sediment/pollen records act as climate proxies",
+        "layers can be dated. Agreement between independent records increases confidence, but resolution and dating uncertainty limit conclusions."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.1.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T9-PD02",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Evaluate the claim that a short period of cooler weather disproves global warming.",
+      "marks": 4,
+      "modelAnswer": "Weather is short-term and local; climate is a long-term global pattern. Natural variability can cause cool periods within a warming trend. Use long-term global datasets rather than one event.",
+      "markingPoints": [
+        "Weather is short-term and local",
+        "climate is a long-term global pattern. Natural variability can cause cool periods within a warming trend. Use long-term global datasets rather than one event."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T9-PD03",
+      "questionFamily": "Atmospheric Pollutants",
+      "subtopic": "Atmospheric Pollutants",
+      "sourceSubtopic": "4.9.3.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe how to compare particulate pollution at two roadside locations using deposited particles.",
+      "marks": 5,
+      "modelAnswer": "Expose equal-area collection surfaces for the same time and height; use several samples at each site; keep weather period comparable; count particles or measure covered area with a microscope/image analysis; calculate means; record traffic and weather as possible confounders.",
+      "markingPoints": [
+        "Expose equal-area collection surfaces for the same time and height",
+        "use several samples at each site",
+        "keep weather period comparable",
+        "count particles or measure covered area with a microscope/image analysis",
+        "calculate means",
+        "record traffic and weather as possible confounders."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical + disciplinary"
+    },
+    {
+      "id": "T9-PD04",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why correlation between atmospheric carbon dioxide and global temperature is not, by itself, complete proof of causation.",
+      "marks": 4,
+      "modelAnswer": "Correlation can be influenced by other variables and feedbacks. Causal confidence comes from mechanism, controlled/physical evidence, modelling and multiple independent datasets, not correlation alone.",
+      "markingPoints": [
+        "Correlation can be influenced by other variables and feedbacks. Causal confidence comes from mechanism, controlled/physical evidence, modelling and multiple independent datasets, not correlation alone."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T9-PD05",
+      "questionFamily": "Working Scientifically",
+      "subtopic": "Working Scientifically",
+      "sourceSubtopic": "WS 3.4",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A pollution sensor is calibrated incorrectly and reads 5 ppm too high. Explain why taking more readings does not improve accuracy.",
+      "marks": 3,
+      "modelAnswer": "All readings have the same systematic positive bias. More readings may improve precision of the mean but it remains about 5 ppm too high; recalibration is needed.",
+      "markingPoints": [
+        "All readings have the same systematic positive bias. More readings may improve precision of the mean but it remains about 5 ppm too high",
+        "recalibration is needed."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "WS 3.4",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T9-PD06",
+      "questionFamily": "Carbon Dioxide and Methane",
+      "subtopic": "Carbon Dioxide and Methane",
+      "sourceSubtopic": "4.9.2.3",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why climate models should be tested against historical data before being used for projections.",
+      "marks": 4,
+      "modelAnswer": "Historical data provide outcomes not used or partly used in development. If a model reproduces observed patterns within uncertainty, confidence increases; failures reveal assumptions or processes needing revision.",
+      "markingPoints": [
+        "Historical data provide outcomes not used or partly used in development. If a model reproduces observed patterns within uncertainty, confidence increases",
+        "failures reveal assumptions or processes needing revision."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T9 Atmosphere mastery workbook",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    }
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "metadata": {
+    "topicId": "using-resources",
+    "topic": "Using Resources",
+    "sourceWorkbook": "AQA_GCSE_Chemistry_Complete_Mastery_Questions_Topics_1_to_10_with_Practical_and_Disciplinary_Knowledge.xlsx",
+    "questionCount": 41,
+    "subtopics": [
+      {
+        "title": "Using Earth's Resources",
+        "questionCount": 20
+      },
+      {
+        "title": "Life-Cycle Assessment and Recycling",
+        "questionCount": 11
+      },
+      {
+        "title": "Using Materials",
+        "questionCount": 8
+      },
+      {
+        "title": "The Haber Process and Fertilisers",
+        "questionCount": 2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "10.1",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Define finite, renewable and sustainable resources, and explain why renewable does not automatically mean impact-free.",
+      "marks": 5,
+      "modelAnswer": "Finite used faster than formed; renewable replenished on human timescale; sustainable meets present needs without compromising future needs. Renewable extraction/land/energy/ecosystem impacts remain and rate of use must not exceed replacement.",
+      "markingPoints": [
+        "Finite used faster than formed",
+        "renewable replenished on human timescale",
+        "sustainable meets present needs without compromising future needs. Renewable extraction/land/energy/ecosystem impacts remain and rate of use must not exceed replacement."
+      ],
+      "commandWord": "Define",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.2",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Describe treatment of freshwater to make potable water and explain why potable does not mean pure.",
+      "marks": 6,
+      "modelAnswer": "Choose source; sedimentation/filtration remove solids; sterilise by chlorine/ozone/UV to kill microbes; test/adjust. Potable has safe levels of dissolved substances/microbes but contains minerals.",
+      "markingPoints": [
+        "Choose source",
+        "sedimentation/filtration remove solids",
+        "sterilise by chlorine/ozone/UV to kill microbes",
+        "test/adjust. Potable has safe levels of dissolved substances/microbes but contains minerals."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.3",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Compare distillation and reverse osmosis for desalination, including mechanism, energy/cost and environmental issue.",
+      "marks": 7,
+      "modelAnswer": "Distillation evaporates/condenses; high heat energy. RO high pressure through membrane; electrical energy/membrane. Both costly; concentrated brine/ecosystem and carbon impacts; suitability depends on energy/water scarcity.",
+      "markingPoints": [
+        "Distillation evaporates/condenses",
+        "high heat energy. RO high pressure through membrane",
+        "electrical energy/membrane. Both costly",
+        "concentrated brine/ecosystem and carbon impacts",
+        "suitability depends on energy/water scarcity."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO1/AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.4",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Describe sewage treatment from screening to discharge, including sludge and effluent pathways.",
+      "marks": 7,
+      "modelAnswer": "Screen grit/large objects; sedimentation separates sludge/effluent; anaerobic digestion of sludge produces biogas; aerobic microbes treat effluent/organic matter; discharge after treatment; industrial toxins may need removal.",
+      "markingPoints": [
+        "Screen grit/large objects",
+        "sedimentation separates sludge/effluent",
+        "anaerobic digestion of sludge produces biogas",
+        "aerobic microbes treat effluent/organic matter",
+        "discharge after treatment",
+        "industrial toxins may need removal."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.5",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Design the AQA water-analysis and purification practical, including pH, dissolved solids, distillation and safety.",
+      "marks": 8,
+      "modelAnswer": "Measure pH consistently; evaporate known volume in preweighed dish, dry/cool/reweigh for solids; distil with anti-bumping, condenser water flow, collect distillate; eye protection/heat care; repeats, same volumes, avoid contamination.",
+      "markingPoints": [
+        "Measure pH consistently",
+        "evaporate known volume in preweighed dish, dry/cool/reweigh for solids",
+        "distil with anti-bumping, condenser water flow, collect distillate",
+        "eye protection/heat care",
+        "repeats, same volumes, avoid contamination."
+      ],
+      "commandWord": "Design",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "10.6",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A dish is 42.36 g empty and 42.61 g after evaporating 50.0 cm3 water. Calculate dissolved-solids concentration in g/dm3.",
+      "marks": 5,
+      "modelAnswer": "Solids=0.25 g; volume=0.0500 dm3; concentration=0.25/0.0500=5.0 g/dm3.",
+      "markingPoints": [
+        "Solids=0.25 g",
+        "volume=0.0500 dm3",
+        "concentration=0.25/0.0500=5.0 g/dm3."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.7",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Explain the four main LCA stages and why two published LCAs of the same product may disagree.",
+      "marks": 7,
+      "modelAnswer": "Raw extraction/processing; manufacture/packaging; use; disposal/end of life. Different boundaries, data, assumptions, transport, electricity mix, number of reuses and subjective weighting/omissions.",
+      "markingPoints": [
+        "Raw extraction/processing",
+        "manufacture/packaging",
+        "use",
+        "disposal/end of life. Different boundaries, data, assumptions, transport, electricity mix, number of reuses and subjective weighting/omissions."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.8",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "A reusable bottle causes five times the manufacture impact of a disposable bottle but one-fifth the impact per wash/use after manufacture. Explain how to determine the break-even number of uses and what extra data are needed.",
+      "marks": 6,
+      "modelAnswer": "Set total impacts equal: manufacture + n(use/end impacts); solve using actual numerical values. Need disposal, washing energy/water, transport, loss/replacement and recycling rates; relative statement alone may be insufficient for exact n.",
+      "markingPoints": [
+        "Set total impacts equal: manufacture + n(use/end impacts)",
+        "solve using actual numerical values. Need disposal, washing energy/water, transport, loss/replacement and recycling rates",
+        "relative statement alone may be insufficient for exact n."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO2/AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.9",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Compare reducing, reusing and recycling aluminium cans using energy, raw materials, transport and material quality.",
+      "marks": 7,
+      "modelAnswer": "Reduce avoids production; reuse avoids remelting but cleaning/transport/design; recycle saves ore and usually energy but collection/sorting/remelting needed. Aluminium recyclable with little quality loss; balanced context conclusion.",
+      "markingPoints": [
+        "Reduce avoids production",
+        "reuse avoids remelting but cleaning/transport/design",
+        "recycle saves ore and usually energy but collection/sorting/remelting needed. Aluminium recyclable with little quality loss",
+        "balanced context conclusion."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.10",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.1",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Explain rusting requirements and evaluate painting, galvanising and sacrificial protection when a coating is scratched.",
+      "marks": 7,
+      "modelAnswer": "Rust needs O2+water. Paint barrier fails at scratch. Galvanising zinc barrier and zinc oxidises preferentially if scratched. Sacrificial metal must be more reactive and replaced; choose for environment/cost.",
+      "markingPoints": [
+        "Rust needs O2+water. Paint barrier fails at scratch. Galvanising zinc barrier and zinc oxidises preferentially if scratched. Sacrificial metal must be more reactive and replaced",
+        "choose for environment/cost."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "10.11",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.2–4.10.3.4",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Explain why alloys are often harder than pure metals and select between ceramic, polymer and composite for a bicycle component.",
+      "marks": 6,
+      "modelAnswer": "Different-sized alloy atoms distort layers and stop sliding. Selection must use stated property: ceramic hard/heat-resistant but brittle; polymer light/flexible but may soften; composite high strength-to-mass/designable but costly/recycling difficult.",
+      "markingPoints": [
+        "Different-sized alloy atoms distort layers and stop sliding. Selection must use stated property: ceramic hard/heat-resistant but brittle",
+        "polymer light/flexible but may soften",
+        "composite high strength-to-mass/designable but costly/recycling difficult."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.2–4.10.3.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.12",
+      "questionFamily": "The Haber Process and Fertilisers",
+      "subtopic": "The Haber Process and Fertilisers",
+      "sourceSubtopic": "4.10.4.1",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "For N2+3H2<=>2NH3, explain the Haber conditions and the function of the iron catalyst.",
+      "marks": 8,
+      "modelAnswer": "~450 C compromise: lower favours exothermic yield, higher rate. ~200 atm: favours fewer gas moles and rate but costly/risky. Iron lowers activation energy/speeds both directions, reaches equilibrium sooner, no yield-position change. Unreacted gases recycled.",
+      "markingPoints": [
+        "~450 C compromise: lower favours exothermic yield, higher rate. ~200 atm: favours fewer gas moles and rate but costly/risky. Iron lowers activation energy/speeds both directions, reaches equilibrium sooner, no yield-position change. Unreacted gases recycled."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.4.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.13",
+      "questionFamily": "The Haber Process and Fertilisers",
+      "subtopic": "The Haber Process and Fertilisers",
+      "sourceSubtopic": "4.10.4.2–4.10.4.3",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Explain how ammonia is converted into useful fertilisers and why NPK fertilisers are formulations.",
+      "marks": 5,
+      "modelAnswer": "Ammonia reacts with acids to make ammonium salts; nitric acid gives ammonium nitrate; phosphorus/potassium compounds added. NPK contains measured proportions of nitrogen, phosphorus and potassium compounds for plant needs.",
+      "markingPoints": [
+        "Ammonia reacts with acids to make ammonium salts",
+        "nitric acid gives ammonium nitrate",
+        "phosphorus/potassium compounds added. NPK contains measured proportions of nitrogen, phosphorus and potassium compounds for plant needs."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.4.2–4.10.4.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.14",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.4",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "Compare phytomining and bioleaching for low-grade copper ores and state how copper can be recovered from the resulting material.",
+      "marks": 7,
+      "modelAnswer": "Plants absorb ions then harvested/burned, metal from ash; bacteria produce leachate. Lower-grade/less landscape damage and energy than conventional mining but slow/land/process issues. Recover by displacement with iron or electrolysis; purity differs.",
+      "markingPoints": [
+        "Plants absorb ions then harvested/burned, metal from ash",
+        "bacteria produce leachate. Lower-grade/less landscape damage and energy than conventional mining but slow/land/process issues. Recover by displacement with iron or electrolysis",
+        "purity differs."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO1/AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.15",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Evaluate replacing a metal car panel with a carbon-fibre composite using a life-cycle approach.",
+      "marks": 8,
+      "modelAnswer": "Compare raw materials, manufacture energy/emissions, mass/fuel savings during use, durability/repair, transport, recyclability/end of life and cost. Lighter use phase may offset high manufacture; conclusion depends on lifetime, energy mix and reuse/recycling data.",
+      "markingPoints": [
+        "Compare raw materials, manufacture energy/emissions, mass/fuel savings during use, durability/repair, transport, recyclability/end of life and cost. Lighter use phase may offset high manufacture",
+        "conclusion depends on lifetime, energy mix and reuse/recycling data."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "10.16",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "What is sustainable development?",
+      "marks": 2,
+      "modelAnswer": "Meeting the needs of current generations without compromising the ability of future generations to meet their needs.",
+      "markingPoints": [
+        "Meeting the needs of current generations without compromising the ability of future generations to meet their needs."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.17",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Why is most potable water in the UK obtained from fresh water rather than seawater?",
+      "marks": 2,
+      "modelAnswer": "Fresh water needs less treatment and far less energy than desalination, so it is usually cheaper.",
+      "markingPoints": [
+        "Fresh water needs less treatment and far less energy than desalination, so it is usually cheaper."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.18",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "State the main stages used to produce potable water from fresh water.",
+      "marks": 3,
+      "modelAnswer": "Choose a suitable source; pass through filter beds to remove solids; sterilise using chlorine, ozone or ultraviolet light.",
+      "markingPoints": [
+        "Choose a suitable source",
+        "pass through filter beds to remove solids",
+        "sterilise using chlorine, ozone or ultraviolet light."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.19",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "What is the purpose of screening and grit removal during sewage treatment?",
+      "marks": 2,
+      "modelAnswer": "To remove large objects and solid grit before later treatment stages.",
+      "markingPoints": [
+        "To remove large objects and solid grit before later treatment stages."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.20",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "What happens during aerobic biological treatment of sewage effluent?",
+      "marks": 2,
+      "modelAnswer": "Aerobic microorganisms break down/digest organic matter in the presence of oxygen.",
+      "markingPoints": [
+        "Aerobic microorganisms break down/digest organic matter in the presence of oxygen."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.21",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.3",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "What happens to sewage sludge during anaerobic digestion?",
+      "marks": 2,
+      "modelAnswer": "Anaerobic microorganisms digest it without oxygen, producing biogas and treated sludge.",
+      "markingPoints": [
+        "Anaerobic microorganisms digest it without oxygen, producing biogas and treated sludge."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.22",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.4",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "What is a low-grade ore?",
+      "marks": 2,
+      "modelAnswer": "An ore containing a small percentage/concentration of the desired metal compound.",
+      "markingPoints": [
+        "An ore containing a small percentage/concentration of the desired metal compound."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.4",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.23",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.4",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "How does phytomining produce a metal-rich material?",
+      "marks": 3,
+      "modelAnswer": "Plants absorb metal ions from soil; plants are harvested and burned; the ash contains a higher concentration of metal compounds.",
+      "markingPoints": [
+        "Plants absorb metal ions from soil",
+        "plants are harvested and burned",
+        "the ash contains a higher concentration of metal compounds."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.4",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.24",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.4",
+      "tier": "Higher",
+      "contentEligibility": "HT",
+      "question": "How does bioleaching extract metals from low-grade ores?",
+      "marks": 3,
+      "modelAnswer": "Bacteria convert metal compounds into soluble metal ions, producing a leachate from which the metal can be recovered.",
+      "markingPoints": [
+        "Bacteria convert metal compounds into soluble metal ions, producing a leachate from which the metal can be recovered."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.4",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.25",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "State the four stages considered in a life-cycle assessment.",
+      "marks": 4,
+      "modelAnswer": "Raw-material extraction and processing; manufacture/packaging; use; end-of-life disposal, reuse or recycling.",
+      "markingPoints": [
+        "Raw-material extraction and processing",
+        "manufacture/packaging",
+        "use",
+        "end-of-life disposal, reuse or recycling."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.26",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.1",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Why can life-cycle assessments contain subjective judgements?",
+      "marks": 2,
+      "modelAnswer": "Environmental impacts may be difficult to quantify and different analysts may choose different boundaries or weight impacts differently.",
+      "markingPoints": [
+        "Environmental impacts may be difficult to quantify and different analysts may choose different boundaries or weight impacts differently."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.27",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.2",
+      "tier": "Both",
+      "contentEligibility": "All",
+      "question": "Why does recycling metals usually save energy compared with extracting metals from ores?",
+      "marks": 2,
+      "modelAnswer": "Extraction and processing ores require mining and energy-intensive chemical processes; recycling avoids much of this.",
+      "markingPoints": [
+        "Extraction and processing ores require mining and energy-intensive chemical processes",
+        "recycling avoids much of this."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.2",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.28",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.1",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "State the two conditions required for iron to rust.",
+      "marks": 2,
+      "modelAnswer": "Both oxygen and water must be present.",
+      "markingPoints": [
+        "Both oxygen and water must be present."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.29",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.1",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "How does galvanising protect iron?",
+      "marks": 3,
+      "modelAnswer": "A zinc coating forms a barrier; if scratched, the more reactive zinc oxidises preferentially and provides sacrificial protection.",
+      "markingPoints": [
+        "A zinc coating forms a barrier",
+        "if scratched, the more reactive zinc oxidises preferentially and provides sacrificial protection."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "10.30",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.4",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Why are composites useful engineering materials?",
+      "marks": 3,
+      "modelAnswer": "They combine a matrix/binder with a reinforcement, giving useful properties from both, such as high strength with low mass.",
+      "markingPoints": [
+        "They combine a matrix/binder with a reinforcement, giving useful properties from both, such as high strength with low mass."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.4",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T10-EX1",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Compare producing potable water from fresh water and seawater.",
+      "marks": 6,
+      "modelAnswer": "Fresh water: choose source, filter and sterilise; generally lower energy/cost but supply may be limited/contaminated. Seawater desalination by distillation or reverse osmosis supplies arid areas but uses much energy, costs more and creates concentrated brine impacts.",
+      "markingPoints": [
+        "Fresh water: choose source, filter and sterilise",
+        "generally lower energy/cost but supply may be limited/contaminated. Seawater desalination by distillation or reverse osmosis supplies arid areas but uses much energy, costs more and creates concentrated brine impacts."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T10-EX2",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Evaluate paper and reusable plastic bags using a life-cycle assessment.",
+      "marks": 6,
+      "modelAnswer": "Compare raw materials, manufacture energy/water, transport mass, number of reuses, disposal/recycling and pollution. Paper may be renewable/biodegradable but can use more energy/water; plastic is durable/light but fossil-based and persistent. Conclusion depends on reuse and system boundaries/data.",
+      "markingPoints": [
+        "Compare raw materials, manufacture energy/water, transport mass, number of reuses, disposal/recycling and pollution. Paper may be renewable/biodegradable but can use more energy/water",
+        "plastic is durable/light but fossil-based and persistent. Conclusion depends on reuse and system boundaries/data."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T10-EX3",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.1",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Explain sacrificial protection of iron using zinc, including electron transfer.",
+      "marks": 5,
+      "modelAnswer": "Zinc is more reactive and oxidises preferentially: Zn → Zn²⁺ + 2e⁻. Electrons supplied to iron prevent iron atoms oxidising, so iron does not rust even if coating is scratched, while zinc is consumed.",
+      "markingPoints": [
+        "Zinc is more reactive and oxidises preferentially: Zn → Zn²⁺ + 2e⁻. Electrons supplied to iron prevent iron atoms oxidising, so iron does not rust even if coating is scratched, while zinc is consumed."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T10-EX4",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.2",
+      "tier": "Both",
+      "contentEligibility": "Chemistry only",
+      "question": "Compare a ceramic, a polymer and a composite for a bicycle component.",
+      "marks": 6,
+      "modelAnswer": "Ceramic is hard/heat resistant but brittle; polymer is light, corrosion-resistant and formable but may soften/creep; composite combines reinforcement and matrix for high strength-to-mass but may cost more and be difficult to recycle. Choice must match component forces and conditions.",
+      "markingPoints": [
+        "Ceramic is hard/heat resistant but brittle",
+        "polymer is light, corrosion-resistant and formable but may soften/creep",
+        "composite combines reinforcement and matrix for high strength-to-mass but may cost more and be difficult to recycle. Choice must match component forces and conditions."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T10-EX5",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why recycling metals can reduce environmental impact but is not impact-free.",
+      "marks": 5,
+      "modelAnswer": "It reduces mining, finite-resource use, waste and often energy demand/emissions. However collection, transport, sorting, cleaning and remelting use energy; contamination can reduce quality, and some material is lost.",
+      "markingPoints": [
+        "It reduces mining, finite-resource use, waste and often energy demand/emissions. However collection, transport, sorting, cleaning and remelting use energy",
+        "contamination can reduce quality, and some material is lost."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2/AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "T10-PD01",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe the laboratory production of potable water from a sample containing insoluble solids and dissolved salts.",
+      "marks": 5,
+      "modelAnswer": "Filter to remove insoluble solids; distil by boiling and condensing water to separate dissolved salts; collect distillate; test pH or dissolved solids as appropriate. Potable means safe to drink, not chemically pure.",
+      "markingPoints": [
+        "Filter to remove insoluble solids",
+        "distil by boiling and condensing water to separate dissolved salts",
+        "collect distillate",
+        "test pH or dissolved solids as appropriate. Potable means safe to drink, not chemically pure."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Practical knowledge"
+    },
+    {
+      "id": "T10-PD02",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why filtration alone cannot remove dissolved salts from water.",
+      "marks": 3,
+      "modelAnswer": "Dissolved ions/particles are much smaller than filter-paper pores and pass through with water. Distillation or another desalination method is required.",
+      "markingPoints": [
+        "Dissolved ions/particles are much smaller than filter-paper pores and pass through with water. Distillation or another desalination method is required."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive + practical"
+    },
+    {
+      "id": "T10-PD03",
+      "questionFamily": "Using Earth's Resources",
+      "subtopic": "Using Earth's Resources",
+      "sourceSubtopic": "4.10.1.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Plan how to compare the dissolved-solid content of two water samples by evaporation.",
+      "marks": 6,
+      "modelAnswer": "Dry and weigh identical evaporating basins; add equal accurately measured water volumes; evaporate safely to dryness; cool and reweigh; calculate residue mass per unit volume; repeat; control basin and heating method; avoid spitting and contamination.",
+      "markingPoints": [
+        "Dry and weigh identical evaporating basins",
+        "add equal accurately measured water volumes",
+        "evaporate safely to dryness",
+        "cool and reweigh",
+        "calculate residue mass per unit volume",
+        "repeat",
+        "control basin and heating method",
+        "avoid spitting and contamination."
+      ],
+      "commandWord": "Apply",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical + disciplinary"
+    },
+    {
+      "id": "T10-PD04",
+      "questionFamily": "Using Materials",
+      "subtopic": "Using Materials",
+      "sourceSubtopic": "4.10.3.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe how to investigate the conditions needed for iron to rust.",
+      "marks": 6,
+      "modelAnswer": "Use cleaned identical iron nails in sealed tubes: dry air with a drying agent, boiled water with oil to exclude oxygen, and water plus air; keep time and temperature constant; compare rust; include repeats. Rust requires both oxygen and water.",
+      "markingPoints": [
+        "Use cleaned identical iron nails in sealed tubes: dry air with a drying agent, boiled water with oil to exclude oxygen, and water plus air",
+        "keep time and temperature constant",
+        "compare rust",
+        "include repeats. Rust requires both oxygen and water."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Practical + disciplinary"
+    },
+    {
+      "id": "T10-PD05",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.1",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why a life-cycle assessment conclusion depends on system boundaries and weighting.",
+      "marks": 5,
+      "modelAnswer": "Including or excluding extraction, manufacture, transport, use and disposal changes totals. Different impacts use different units and value judgements are needed to weight carbon, water, toxicity and waste, so assumptions must be stated and sensitivity considered.",
+      "markingPoints": [
+        "Including or excluding extraction, manufacture, transport, use and disposal changes totals. Different impacts use different units and value judgements are needed to weight carbon, water, toxicity and waste, so assumptions must be stated and sensitivity considered."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    },
+    {
+      "id": "T10-PD06",
+      "questionFamily": "Life-Cycle Assessment and Recycling",
+      "subtopic": "Life-Cycle Assessment and Recycling",
+      "sourceSubtopic": "4.10.2.2",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Evaluate whether recycled aluminium is always environmentally preferable to newly extracted aluminium.",
+      "marks": 5,
+      "modelAnswer": "Recycling usually saves energy and ore and reduces landfill, but collection, sorting, transport and contamination use resources. The conclusion depends on transport distances, energy source, recovery rate and product quality; compare quantified life-cycle data.",
+      "markingPoints": [
+        "Recycling usually saves energy and ore and reduces landfill, but collection, sorting, transport and contamination use resources. The conclusion depends on transport distances, energy source, recovery rate and product quality",
+        "compare quantified life-cycle data."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "evidenceSource": "T10 Using Resources mastery workbook",
+      "specificationReference": "4.10.2.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge"
+    }
+  ]
+}
