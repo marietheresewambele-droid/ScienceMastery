@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "topicId": "particle-model-of-matter",
+    "topic": "Particle Model of Matter",
+    "sourceWorkbook": "AQA_GCSE_Physics_Complete_Mastery_Workbook.xlsx",
+    "questionCount": 18,
+    "subtopics": [
+      {
+        "title": "3.1 Changes of state and particle model",
+        "questionCount": 8
+      },
+      {
+        "title": "3.2 Internal energy and transfers",
+        "questionCount": 6
+      },
+      {
+        "title": "3.3 Particle model and pressure",
+        "questionCount": 4
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "PM001",
+      "questionFamily": "Density",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Define density and give its SI unit.",
+      "marks": 2,
+      "modelAnswer": "Mass per unit volume; kg/m³.",
+      "markingPoints": [
+        "Mass per unit volume",
+        "kg/m³."
+      ],
+      "commandWord": "Define",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM002",
+      "questionFamily": "Particle arrangements",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Compare particle arrangement and movement in solids, liquids and gases.",
+      "marks": 6,
+      "modelAnswer": "Solid: closely packed, regular arrangement, vibrate about fixed positions. Liquid: close together, irregular, move past each other. Gas: far apart, random rapid motion.",
+      "markingPoints": [
+        "Solid: closely packed, regular arrangement, vibrate about fixed positions. Liquid: close together, irregular, move past each other. Gas: far apart, random rapid motion."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM003",
+      "questionFamily": "Changes of state",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Name the changes of state between solid, liquid and gas.",
+      "marks": 6,
+      "modelAnswer": "Solid→liquid melting; liquid→solid freezing; liquid→gas boiling/evaporation; gas→liquid condensation; solid→gas sublimation; gas→solid deposition.",
+      "markingPoints": [
+        "Solid→liquid melting",
+        "liquid→solid freezing",
+        "liquid→gas boiling/evaporation",
+        "gas→liquid condensation",
+        "solid→gas sublimation",
+        "gas→solid deposition."
+      ],
+      "commandWord": "Name",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM004",
+      "questionFamily": "Physical changes",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why a change of state is a physical change.",
+      "marks": 3,
+      "modelAnswer": "No new substance forms; the particles remain the same substance; the change is reversible by changing temperature.",
+      "markingPoints": [
+        "No new substance forms",
+        "the particles remain the same substance",
+        "the change is reversible by changing temperature."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM005",
+      "questionFamily": "Internal energy",
+      "subtopic": "3.2 Internal energy and transfers",
+      "sourceSubtopic": "3.2 Internal energy and transfers",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Define internal energy.",
+      "marks": 2,
+      "modelAnswer": "The total kinetic energy and potential energy of all particles in a system.",
+      "markingPoints": [
+        "The total kinetic energy and potential energy of all particles in a system."
+      ],
+      "commandWord": "Define",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM006",
+      "questionFamily": "Heating",
+      "subtopic": "3.2 Internal energy and transfers",
+      "sourceSubtopic": "3.2 Internal energy and transfers",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain what happens to particle energy when a substance is heated without changing state.",
+      "marks": 3,
+      "modelAnswer": "Energy enters the internal store; particles gain kinetic energy; their mean speed and temperature increase.",
+      "markingPoints": [
+        "Energy enters the internal store",
+        "particles gain kinetic energy",
+        "their mean speed and temperature increase."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM007",
+      "questionFamily": "Latent heat",
+      "subtopic": "3.2 Internal energy and transfers",
+      "sourceSubtopic": "3.2 Internal energy and transfers",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why temperature remains constant while a pure substance changes state.",
+      "marks": 3,
+      "modelAnswer": "Transferred energy increases particles’ potential energy by overcoming attractions; it does not increase mean kinetic energy; so temperature does not rise.",
+      "markingPoints": [
+        "Transferred energy increases particles’ potential energy by overcoming attractions",
+        "it does not increase mean kinetic energy",
+        "so temperature does not rise."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM008",
+      "questionFamily": "Specific latent heat",
+      "subtopic": "3.2 Internal energy and transfers",
+      "sourceSubtopic": "3.2 Internal energy and transfers",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Define specific latent heat.",
+      "marks": 2,
+      "modelAnswer": "Energy required to change the state of 1 kg of a substance without changing its temperature.",
+      "markingPoints": [
+        "Energy required to change the state of 1 kg of a substance without changing its temperature."
+      ],
+      "commandWord": "Define",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM009",
+      "questionFamily": "Gas pressure",
+      "subtopic": "3.3 Particle model and pressure",
+      "sourceSubtopic": "3.3 Particle model and pressure",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain how gas particles produce pressure on the walls of a container.",
+      "marks": 3,
+      "modelAnswer": "Particles move randomly; collide with walls and change momentum; collisions exert a force per unit area on the walls.",
+      "markingPoints": [
+        "Particles move randomly",
+        "collide with walls and change momentum",
+        "collisions exert a force per unit area on the walls."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM010",
+      "questionFamily": "Temperature and pressure",
+      "subtopic": "3.3 Particle model and pressure",
+      "sourceSubtopic": "3.3 Particle model and pressure",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why heating a gas in a sealed rigid container increases its pressure.",
+      "marks": 4,
+      "modelAnswer": "Particles gain kinetic energy and move faster; collisions with walls are more frequent; each collision has a greater change in momentum/force; pressure rises.",
+      "markingPoints": [
+        "Particles gain kinetic energy and move faster",
+        "collisions with walls are more frequent",
+        "each collision has a greater change in momentum/force",
+        "pressure rises."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM011",
+      "questionFamily": "Volume and pressure",
+      "subtopic": "3.3 Particle model and pressure",
+      "sourceSubtopic": "3.3 Particle model and pressure",
+      "tier": "Physics only / Higher",
+      "contentEligibility": "Physics only / Higher",
+      "question": "Explain why reducing the volume of a fixed mass of gas at constant temperature increases pressure.",
+      "marks": 3,
+      "modelAnswer": "Particles travel a shorter distance between wall collisions; collision frequency increases; force per unit area increases.",
+      "markingPoints": [
+        "Particles travel a shorter distance between wall collisions",
+        "collision frequency increases",
+        "force per unit area increases."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM012",
+      "questionFamily": "Density calculation",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A block has mass 540 g and volume 200 cm³. Calculate its density in g/cm³.",
+      "marks": 3,
+      "modelAnswer": "ρ = m ÷ V\nρ = 540 ÷ 200\nρ = 2.70 g/cm³",
+      "markingPoints": [
+        "ρ = m ÷ V",
+        "ρ = 540 ÷ 200",
+        "ρ = 2.70 g/cm³"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM013",
+      "questionFamily": "Density conversion",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Higher",
+      "contentEligibility": "Higher",
+      "question": "A liquid has density 0.80 g/cm³. Convert this to kg/m³.",
+      "marks": 3,
+      "modelAnswer": "1 g/cm³ = 1000 kg/m³\n0.80 × 1000\n= 800 kg/m³",
+      "markingPoints": [
+        "1 g/cm³ = 1000 kg/m³",
+        "0.80 × 1000",
+        "= 800 kg/m³"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM014",
+      "questionFamily": "Specific heat capacity",
+      "subtopic": "3.2 Internal energy and transfers",
+      "sourceSubtopic": "3.2 Internal energy and transfers",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A 2.0 kg block receives 18,000 J and its temperature rises by 15 °C. Calculate its specific heat capacity.",
+      "marks": 4,
+      "modelAnswer": "ΔE = mcΔθ\nc = ΔE ÷ (mΔθ)\nc = 18,000 ÷ (2.0 × 15)\nc = 600 J/kg °C",
+      "markingPoints": [
+        "ΔE = mcΔθ",
+        "c = ΔE ÷ (mΔθ)",
+        "c = 18,000 ÷ (2.0 × 15)",
+        "c = 600 J/kg °C"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3.2.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM015",
+      "questionFamily": "Specific latent heat",
+      "subtopic": "3.2 Internal energy and transfers",
+      "sourceSubtopic": "3.2 Internal energy and transfers",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Melting 0.50 kg of a solid requires 167,000 J. Calculate its specific latent heat of fusion.",
+      "marks": 4,
+      "modelAnswer": "E = mL\nL = E ÷ m\nL = 167,000 ÷ 0.50\nL = 334,000 J/kg",
+      "markingPoints": [
+        "E = mL",
+        "L = E ÷ m",
+        "L = 167,000 ÷ 0.50",
+        "L = 334,000 J/kg"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM016",
+      "questionFamily": "Pressure-volume",
+      "subtopic": "3.3 Particle model and pressure",
+      "sourceSubtopic": "3.3 Particle model and pressure",
+      "tier": "Physics only / Higher",
+      "contentEligibility": "Physics only / Higher",
+      "question": "A trapped gas has volume 60 cm³ at 100 kPa. Its volume is reduced to 40 cm³ at constant temperature. Calculate the new pressure.",
+      "marks": 4,
+      "modelAnswer": "p₁V₁ = p₂V₂\np₂ = p₁V₁ ÷ V₂\np₂ = 100 × 60 ÷ 40\np₂ = 150 kPa",
+      "markingPoints": [
+        "p₁V₁ = p₂V₂",
+        "p₂ = p₁V₁ ÷ V₂",
+        "p₂ = 100 × 60 ÷ 40",
+        "p₂ = 150 kPa"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3.3.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "PM017",
+      "questionFamily": "Density RP",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe how to determine the density of an irregular solid.",
+      "marks": 5,
+      "modelAnswer": "Measure mass using a balance. Partly fill a measuring cylinder and record initial volume. Fully submerge the object and record final volume. Object volume = final − initial. Density = mass ÷ volume. Remove trapped air and read the meniscus at eye level.",
+      "markingPoints": [
+        "Measure mass using a balance. Partly fill a measuring cylinder and record initial volume. Fully submerge the object and record final volume. Object volume = final − initial. Density = mass ÷ volume. Remove trapped air and read the meniscus at eye level."
+      ],
+      "commandWord": "Describe / explain",
+      "assessmentObjective": "AO2/AO3",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Practical and disciplinary knowledge"
+    },
+    {
+      "id": "PM018",
+      "questionFamily": "Mass from density",
+      "subtopic": "3.1 Changes of state and particle model",
+      "sourceSubtopic": "3.1 Changes of state and particle model",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "A liquid has density 920 kg/m³ and volume 0.015 m³. Calculate its mass.",
+      "marks": 3,
+      "modelAnswer": "ρ = m ÷ V\nm = ρV\nm = 920 × 0.015\nm = 13.8 kg",
+      "markingPoints": [
+        "ρ = m ÷ V",
+        "m = ρV",
+        "m = 920 × 0.015",
+        "m = 13.8 kg"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 3 - Particle Model mastery workbook",
+      "specificationReference": "4.3.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    }
+  ]
+}
