@@ -488,7 +488,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
               <nav aria-label="Breadcrumb" className="mb-4">
                 <ol className="flex items-center gap-2 text-sm font-semibold text-[#5a6b7f]">
                   <li>
-                    <Link href="/" className="transition hover:text-[#0b1d33]">
+                    <Link href={"/" + subject} className="transition hover:text-[#0b1d33]">
                       {subjectLabel}
                     </Link>
                   </li>
