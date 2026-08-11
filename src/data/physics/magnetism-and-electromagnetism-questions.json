@@ -1,0 +1,435 @@
+{
+  "metadata": {
+    "topicId": "magnetism-and-electromagnetism",
+    "topic": "Magnetism and Electromagnetism",
+    "sourceWorkbook": "AQA_GCSE_Physics_Complete_Mastery_Workbook.xlsx",
+    "questionCount": 19,
+    "subtopics": [
+      {
+        "title": "7.1 Permanent and induced magnetism",
+        "questionCount": 5
+      },
+      {
+        "title": "7.2 Motor effect",
+        "questionCount": 6
+      },
+      {
+        "title": "7.3 Induced potential and transformers",
+        "questionCount": 8
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "MA001",
+      "questionFamily": "Poles",
+      "subtopic": "7.1 Permanent and induced magnetism",
+      "sourceSubtopic": "7.1 Permanent and induced magnetism",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "State the interaction between magnetic poles.",
+      "marks": 2,
+      "modelAnswer": "Like poles repel; unlike poles attract.",
+      "markingPoints": [
+        "Like poles repel",
+        "unlike poles attract."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA002",
+      "questionFamily": "Permanent and induced",
+      "subtopic": "7.1 Permanent and induced magnetism",
+      "sourceSubtopic": "7.1 Permanent and induced magnetism",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Distinguish permanent magnets from induced magnets.",
+      "marks": 4,
+      "modelAnswer": "A permanent magnet produces its own field and remains magnetised. An induced magnet becomes magnetic in another field, is attracted to the inducing magnet and usually loses magnetism when removed.",
+      "markingPoints": [
+        "A permanent magnet produces its own field and remains magnetised. An induced magnet becomes magnetic in another field, is attracted to the inducing magnet and usually loses magnetism when removed."
+      ],
+      "commandWord": "Distinguish",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA003",
+      "questionFamily": "Magnetic field",
+      "subtopic": "7.1 Permanent and induced magnetism",
+      "sourceSubtopic": "7.1 Permanent and induced magnetism",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Define a magnetic field and state its direction around a bar magnet.",
+      "marks": 3,
+      "modelAnswer": "A region where a magnet or magnetic material experiences a force; direction is from north to south outside the magnet.",
+      "markingPoints": [
+        "A region where a magnet or magnetic material experiences a force",
+        "direction is from north to south outside the magnet."
+      ],
+      "commandWord": "Define",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA004",
+      "questionFamily": "Compass",
+      "subtopic": "7.1 Permanent and induced magnetism",
+      "sourceSubtopic": "7.1 Permanent and induced magnetism",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain why a compass points approximately north.",
+      "marks": 3,
+      "modelAnswer": "Its needle is a small magnet; Earth has a magnetic field; the needle aligns with the field, so its north-seeking pole points towards magnetic north.",
+      "markingPoints": [
+        "Its needle is a small magnet",
+        "Earth has a magnetic field",
+        "the needle aligns with the field, so its north-seeking pole points towards magnetic north."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA005",
+      "questionFamily": "Current field",
+      "subtopic": "7.2 Motor effect",
+      "sourceSubtopic": "7.2 Motor effect",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe the magnetic field around a straight current-carrying wire.",
+      "marks": 3,
+      "modelAnswer": "Concentric circles centred on the wire; direction is given by the right-hand grip rule; field strength increases with current and decreases with distance.",
+      "markingPoints": [
+        "Concentric circles centred on the wire",
+        "direction is given by the right-hand grip rule",
+        "field strength increases with current and decreases with distance."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA006",
+      "questionFamily": "Solenoid",
+      "subtopic": "7.2 Motor effect",
+      "sourceSubtopic": "7.2 Motor effect",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain how to increase the strength of an electromagnet made from a solenoid.",
+      "marks": 4,
+      "modelAnswer": "Increase current; increase turns per unit length; add a soft-iron core; these increase/concentrate the magnetic field.",
+      "markingPoints": [
+        "Increase current",
+        "increase turns per unit length",
+        "add a soft-iron core",
+        "these increase/concentrate the magnetic field."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA007",
+      "questionFamily": "Motor effect",
+      "subtopic": "7.2 Motor effect",
+      "sourceSubtopic": "7.2 Motor effect",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Explain the motor effect.",
+      "marks": 4,
+      "modelAnswer": "A current-carrying conductor in a magnetic field experiences a force; the conductor’s field interacts with the external field; force direction is perpendicular to current and field and is found using Fleming’s left-hand rule.",
+      "markingPoints": [
+        "A current-carrying conductor in a magnetic field experiences a force",
+        "the conductor’s field interacts with the external field",
+        "force direction is perpendicular to current and field and is found using Fleming’s left-hand rule."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA008",
+      "questionFamily": "Electric motor",
+      "subtopic": "7.2 Motor effect",
+      "sourceSubtopic": "7.2 Motor effect",
+      "tier": "Physics only",
+      "contentEligibility": "Physics only",
+      "question": "Explain how a simple d.c. motor keeps rotating.",
+      "marks": 5,
+      "modelAnswer": "Opposite sides of the coil carry currents in opposite directions and experience opposite forces, producing a turning effect. The split-ring commutator reverses current every half-turn, keeping the turning effect in the same rotational direction.",
+      "markingPoints": [
+        "Opposite sides of the coil carry currents in opposite directions and experience opposite forces, producing a turning effect. The split-ring commutator reverses current every half-turn, keeping the turning effect in the same rotational direction."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA009",
+      "questionFamily": "Generator effect",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only",
+      "contentEligibility": "Physics only",
+      "question": "State the conditions needed to induce a potential difference.",
+      "marks": 3,
+      "modelAnswer": "A conductor must cut magnetic field lines, or the magnetic field through a conductor/coil must change; faster change gives a larger induced p.d.",
+      "markingPoints": [
+        "A conductor must cut magnetic field lines, or the magnetic field through a conductor/coil must change",
+        "faster change gives a larger induced p.d."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA010",
+      "questionFamily": "Lenz’s law",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only / Higher",
+      "contentEligibility": "Physics only / Higher",
+      "question": "Explain how the direction of induced current is determined.",
+      "marks": 3,
+      "modelAnswer": "The induced current creates a magnetic field that opposes the change that produced it; this is Lenz’s law and is consistent with energy conservation.",
+      "markingPoints": [
+        "The induced current creates a magnetic field that opposes the change that produced it",
+        "this is Lenz’s law and is consistent with energy conservation."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA011",
+      "questionFamily": "Microphone",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only",
+      "contentEligibility": "Physics only",
+      "question": "Explain how a moving-coil microphone converts sound into an electrical signal.",
+      "marks": 4,
+      "modelAnswer": "Sound vibrates a diaphragm attached to a coil; the coil moves in a magnetic field; changing flux induces an alternating p.d.; its variation represents the sound wave.",
+      "markingPoints": [
+        "Sound vibrates a diaphragm attached to a coil",
+        "the coil moves in a magnetic field",
+        "changing flux induces an alternating p.d.",
+        "its variation represents the sound wave."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA012",
+      "questionFamily": "Loudspeaker",
+      "subtopic": "7.2 Motor effect",
+      "sourceSubtopic": "7.2 Motor effect",
+      "tier": "Physics only",
+      "contentEligibility": "Physics only",
+      "question": "Explain how a loudspeaker produces sound.",
+      "marks": 4,
+      "modelAnswer": "Alternating current in a coil within a magnetic field produces a changing force; the coil and cone vibrate; they create pressure variations in air, producing sound.",
+      "markingPoints": [
+        "Alternating current in a coil within a magnetic field produces a changing force",
+        "the coil and cone vibrate",
+        "they create pressure variations in air, producing sound."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA013",
+      "questionFamily": "Transformer",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only",
+      "contentEligibility": "Physics only",
+      "question": "Explain how a transformer works and why it requires alternating current.",
+      "marks": 5,
+      "modelAnswer": "AC in the primary creates a changing magnetic field in the iron core; changing flux links the secondary; an alternating p.d. is induced. DC would not continuously change flux, so no continuous secondary p.d. is induced.",
+      "markingPoints": [
+        "AC in the primary creates a changing magnetic field in the iron core",
+        "changing flux links the secondary",
+        "an alternating p.d. is induced. DC would not continuously change flux, so no continuous secondary p.d. is induced."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA014",
+      "questionFamily": "Step-up and step-down",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only",
+      "contentEligibility": "Physics only",
+      "question": "Distinguish step-up and step-down transformers using turn numbers.",
+      "marks": 3,
+      "modelAnswer": "Step-up: more turns on secondary than primary, so secondary p.d. is higher. Step-down: fewer secondary turns, so secondary p.d. is lower.",
+      "markingPoints": [
+        "Step-up: more turns on secondary than primary, so secondary p.d. is higher. Step-down: fewer secondary turns, so secondary p.d. is lower."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1/AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA015",
+      "questionFamily": "Force on conductor",
+      "subtopic": "7.2 Motor effect",
+      "sourceSubtopic": "7.2 Motor effect",
+      "tier": "Higher",
+      "contentEligibility": "Higher",
+      "question": "A 0.20 m wire carries 4.0 A perpendicular to a 0.50 T field. Calculate the force.",
+      "marks": 4,
+      "modelAnswer": "F = BIl\nF = 0.50 × 4.0 × 0.20\nF = 0.40 N",
+      "markingPoints": [
+        "F = BIl",
+        "F = 0.50 × 4.0 × 0.20",
+        "F = 0.40 N"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA016",
+      "questionFamily": "Transformer ratio",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only / Higher",
+      "contentEligibility": "Physics only / Higher",
+      "question": "A transformer has 1200 primary turns and 80 secondary turns. The primary p.d. is 230 V. Calculate the secondary p.d.",
+      "marks": 4,
+      "modelAnswer": "Vₚ ÷ Vₛ = Nₚ ÷ Nₛ\nVₛ = VₚNₛ ÷ Nₚ\nVₛ = 230 × 80 ÷ 1200\nVₛ = 15.3 V",
+      "markingPoints": [
+        "Vₚ ÷ Vₛ = Nₚ ÷ Nₛ",
+        "Vₛ = VₚNₛ ÷ Nₚ",
+        "Vₛ = 230 × 80 ÷ 1200",
+        "Vₛ = 15.3 V"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7.3.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA017",
+      "questionFamily": "Transformer power",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only / Higher",
+      "contentEligibility": "Physics only / Higher",
+      "question": "An ideal transformer supplies 12 V at 3.0 A. The primary potential difference is 230 V. Calculate the primary current.",
+      "marks": 4,
+      "modelAnswer": "VₚIₚ = VₛIₛ\nIₚ = VₛIₛ ÷ Vₚ\nIₚ = 12 × 3.0 ÷ 230\nIₚ = 0.157 A ≈ 0.16 A",
+      "markingPoints": [
+        "VₚIₚ = VₛIₛ",
+        "Iₚ = VₛIₛ ÷ Vₚ",
+        "Iₚ = 12 × 3.0 ÷ 230",
+        "Iₚ = 0.157 A ≈ 0.16 A"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7.3.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    },
+    {
+      "id": "MA018",
+      "questionFamily": "Magnetic field mapping",
+      "subtopic": "7.1 Permanent and induced magnetism",
+      "sourceSubtopic": "7.1 Permanent and induced magnetism",
+      "tier": "Both",
+      "contentEligibility": "Both",
+      "question": "Describe how to map the magnetic field around a bar magnet.",
+      "marks": 4,
+      "modelAnswer": "Place paper over the magnet. Put a plotting compass at many positions and mark the needle direction. Move the compass so its tail begins at the previous head and repeat. Join marks into smooth field lines with arrows from north to south.",
+      "markingPoints": [
+        "Place paper over the magnet. Put a plotting compass at many positions and mark the needle direction. Move the compass so its tail begins at the previous head and repeat. Join marks into smooth field lines with arrows from north to south."
+      ],
+      "commandWord": "Describe / explain",
+      "assessmentObjective": "AO2/AO3",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Practical and disciplinary knowledge"
+    },
+    {
+      "id": "MA019",
+      "questionFamily": "Transformer turns",
+      "subtopic": "7.3 Induced potential and transformers",
+      "sourceSubtopic": "7.3 Induced potential and transformers",
+      "tier": "Physics only / Higher",
+      "contentEligibility": "Physics only / Higher",
+      "question": "A transformer changes 230 V to 12 V. The primary has 1150 turns. Calculate secondary turns.",
+      "marks": 4,
+      "modelAnswer": "Vₚ ÷ Vₛ = Nₚ ÷ Nₛ\nNₛ = NₚVₛ ÷ Vₚ\nNₛ = 1150 × 12 ÷ 230\nNₛ = 60 turns",
+      "markingPoints": [
+        "Vₚ ÷ Vₛ = Nₚ ÷ Nₛ",
+        "Nₛ = NₚVₛ ÷ Vₚ",
+        "Nₛ = 1150 × 12 ÷ 230",
+        "Nₛ = 60 turns"
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO2",
+      "evidenceSource": "Topic 7 - Magnetism mastery workbook",
+      "specificationReference": "4.7.3.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge"
+    }
+  ]
+}
