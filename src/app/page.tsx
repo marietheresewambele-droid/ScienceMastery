@@ -14,7 +14,7 @@ export default function Home() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5"><span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#00a551] text-white"><FlaskIcon/></span><span className="text-xl font-extrabold tracking-tight">Sci<span className="text-[#00a551]">Mastery</span></span></Link>
         <nav className="hidden items-center gap-6 text-sm font-semibold text-[#5a6b82] md:flex" aria-label="Main navigation"><a href="#subjects">Subjects</a><a href="#features">Features</a><a href="#how">How it works</a></nav>
-        <a href="#subjects" className="rounded-xl bg-[#00a551] px-4 py-2.5 text-sm font-bold text-white hover:bg-[#028f46]">Start revising</a>
+        <div className="flex items-center gap-2"><Link href="/login" className="hidden rounded-xl px-3 py-2.5 text-sm font-bold text-[#5a6b82] hover:text-[#00a551] sm:block">Sign in</Link><Link href="/signup" className="rounded-xl bg-[#00a551] px-4 py-2.5 text-sm font-bold text-white hover:bg-[#028f46]">Create account</Link></div>
       </div>
     </header>
 
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-[#e9f8f0] px-3 py-1.5 text-xs font-bold text-[#02753a]"><span className="h-2 w-2 rounded-full bg-[#00a551]"/>Free AQA GCSE Science revision</div>
           <h1 className="text-4xl font-black leading-[1.06] tracking-tight sm:text-5xl xl:text-6xl">No matter which science you&apos;re studying, <span className="text-[#00a551]">we have you covered.</span></h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-[#5a6b82]">Master Biology, Chemistry and Physics with 1,211 mastery questions, clear marking points, spaced review and progress tracking.</p>
-          <div className="mt-8 flex flex-wrap gap-3"><a href="#subjects" className="rounded-xl bg-[#00a551] px-6 py-3.5 font-bold text-white hover:bg-[#028f46]">Get started — it&apos;s free</a><a href="#sample" className="rounded-xl border border-[#e7eaf0] bg-white px-6 py-3.5 font-bold hover:border-[#00a551]">See a sample question</a></div>
+          <div className="mt-8 flex flex-wrap gap-3"><Link href="/signup" className="rounded-xl bg-[#00a551] px-6 py-3.5 font-bold text-white hover:bg-[#028f46]">Get started — it&apos;s free</Link><a href="#sample" className="rounded-xl border border-[#e7eaf0] bg-white px-6 py-3.5 font-bold hover:border-[#00a551]">See a sample question</a></div>
           <div className="mt-9 grid max-w-md grid-cols-3 gap-5">{[["1,211","questions"],["25","AQA topics"],["100%","free"]].map(([value,label])=><div key={label}><p className="text-2xl font-black">{value}</p><p className="mt-1 text-xs text-[#5a6b82]">{label}</p></div>)}</div>
         </div>
         <div id="sample" className="relative mx-auto w-full max-w-lg">
