@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { BiologyTopicConfig, MasteryQuestion } from "@/types/questions";
 
 interface SubtopicCardProps {
@@ -8,6 +9,7 @@ interface SubtopicCardProps {
   questionCount: number;
   isCompleted: boolean;
   onPractise: () => void;
+  flashcardsHref: string;
 }
 
 function SubtopicCard({
@@ -16,6 +18,7 @@ function SubtopicCard({
   questionCount,
   isCompleted,
   onPractise,
+  flashcardsHref,
 }: SubtopicCardProps) {
   const hasQuestions = questionCount > 0;
 
@@ -52,7 +55,7 @@ function SubtopicCard({
         <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">{description}</p>
       </div>
 
-      <div className="mt-4 flex items-center justify-between">
+      <div className="mt-4">
         <span
           className={`text-xs font-bold ${
             hasQuestions ? "text-[#00a551]" : "text-[#9ca3af]"
@@ -60,23 +63,38 @@ function SubtopicCard({
         >
           {questionCount} {questionCount === 1 ? "question" : "questions"}
         </span>
-        <button
-          type="button"
-          onClick={onPractise}
-          disabled={!hasQuestions}
-          className={`rounded-xl px-4 py-2 text-sm font-bold transition focus:outline-none focus:ring-2 focus:ring-[#00a551] focus:ring-offset-2 ${
-            hasQuestions
-              ? "cursor-pointer bg-[#00a551] text-white hover:bg-[#028f46]"
-              : "cursor-not-allowed bg-[#dce2e7] text-[#9ca3af]"
-          }`}
-          aria-label={
-            hasQuestions
-              ? `Start practising ${title}`
-              : `No questions available for ${title}`
-          }
-        >
-          Practise
-        </button>
+        <div className="mt-3 grid grid-cols-2 gap-2">
+          <button
+            type="button"
+            onClick={onPractise}
+            disabled={!hasQuestions}
+            className={`rounded-xl px-4 py-2.5 text-sm font-bold transition focus:outline-none focus:ring-2 focus:ring-[#00a551] focus:ring-offset-2 ${
+              hasQuestions
+                ? "cursor-pointer bg-[#00a551] text-white hover:bg-[#028f46]"
+                : "cursor-not-allowed bg-[#dce2e7] text-[#9ca3af]"
+            }`}
+            aria-label={
+              hasQuestions
+                ? `Start practising ${title}`
+                : `No questions available for ${title}`
+            }
+          >
+            Practice
+          </button>
+          {hasQuestions ? (
+            <Link
+              href={flashcardsHref}
+              className="rounded-xl border border-[#00a551] bg-white px-4 py-2.5 text-center text-sm font-bold text-[#02753a] transition hover:bg-[#e9f8f0] focus:outline-none focus:ring-2 focus:ring-[#00a551] focus:ring-offset-2"
+              aria-label={`Open flashcards for ${title}`}
+            >
+              Flashcards
+            </Link>
+          ) : (
+            <span className="cursor-not-allowed rounded-xl border border-[#dce2e7] bg-[#f7f9fa] px-4 py-2.5 text-center text-sm font-bold text-[#9ca3af]">
+              Flashcards
+            </span>
+          )}
+        </div>
       </div>
     </article>
   );
@@ -132,6 +150,7 @@ export default function SubtopicGrid({
             description={subtopic.description || "Practice questions for this subtopic."}
             questionCount={subtopicCounts.get(subtopic.title) || 0}
             onPractise={() => onSubtopicSelect(subtopic.title)}
+            flashcardsHref={`/practice?mode=flashcards&subject=${config.subject ?? "biology"}&topic=${config.id}&subtopic=${encodeURIComponent(subtopic.title)}`}
             isCompleted={getSubtopicCompletion(subtopic.title)}
           />
         ))}

@@ -582,59 +582,22 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
               onSubtopicSelect={handleSubtopicSelect}
             />
 
-            <section className="mt-12">
-              <h2 className="mb-4 text-2xl font-extrabold text-[#0b1d33]">
-                Practice modes
+            <section className="mt-12 rounded-3xl bg-[#0f1f3d] p-6 text-white sm:p-8">
+              <h2 className="mb-4 text-2xl font-extrabold text-white">
+                Whole-topic review
               </h2>
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setPracticeMode("mastery");
-                    setView("practice");
-                  }}
-                  className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-white p-5 text-left transition hover:-translate-y-1 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#00a551]"
-                >
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e9f8f0] font-black text-[#02753a]">
-                    1
-                  </div>
-                  <h3 className="mt-3 text-lg font-extrabold text-[#0b1d33]">
-                    Mastery Questions
-                  </h3>
-                  <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">
-                    Work through structured questions by subtopic with marking points.
-                  </p>
-                  <span className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-[#00a551]">
-                    Start practising
-                    <svg
-                      className="h-4 w-4"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path d="m9 18 6-6-6-6" />
-                    </svg>
-                  </span>
-                </button>
-
-                <Link href={`/practice?mode=flashcards&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#dce2e7] font-black text-[#5a6b7f]">
-                    2
-                  </div>
-                  <h3 id="flashcards-title" className="mt-3 text-lg font-extrabold text-[#0b1d33]">
-                    Flashcards
-                  </h3>
-                  <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">
-                    Use active recall with flip cards for key concepts.
-                  </p>
-                  <span className="mt-3 text-sm font-bold text-[#00a551]">Start flashcards →</span>
+              <p className="-mt-2 mb-5 max-w-2xl text-sm leading-6 text-[#c8d2df]">
+                Choose a subtopic above for focused practice, or review the complete topic here.
+              </p>
+              <div className="grid gap-4 sm:grid-cols-3">
+                <Link href={`/practice?mode=exam&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e9f8f0] font-black text-[#02753a]">E</div>
+                  <h3 className="mt-3 text-lg font-extrabold text-[#0b1d33]">Exam Mode</h3>
+                  <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">Attempt questions before revealing the marking points.</p>
+                  <span className="mt-3 text-sm font-bold text-[#00a551]">Start exam practice →</span>
                 </Link>
-
-                <Link href={`/practice?mode=mixed&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#dce2e7] font-black text-[#5a6b7f]">
-                    3
-                  </div>
+                <Link href={`/practice?mode=mixed&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e9f8f0] font-black text-[#02753a]">M</div>
                   <h3 id="mixed-title" className="mt-3 text-lg font-extrabold text-[#0b1d33]">
                     Mixed Practice
                   </h3>
@@ -644,10 +607,8 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
                   <span className="mt-3 text-sm font-bold text-[#00a551]">Start mixed practice →</span>
                 </Link>
 
-                <Link href={`/practice?mode=bookmarks&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border border-[#e6eaee] bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#dce2e7] font-black text-[#5a6b7f]">
-                    4
-                  </div>
+                <Link href={`/practice?mode=bookmarks&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl bg-white p-5 transition hover:-translate-y-1 hover:shadow-lg">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e9f8f0] font-black text-[#02753a]">B</div>
                   <h3 id="bookmarked-title" className="mt-3 text-lg font-extrabold text-[#0b1d33]">
                     Review Bookmarked
                   </h3>
