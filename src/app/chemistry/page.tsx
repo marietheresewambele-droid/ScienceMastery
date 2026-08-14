@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useHomeHref } from "@/hooks/useHomeHref";
 import { atomicStructureAndThePeriodicTableConfig } from "@/data/topics/atomic-structure-and-the-periodic-table";
 import { bondingStructureAndPropertiesOfMatterConfig } from "@/data/topics/bonding-structure-and-properties-of-matter";
 import { quantitativeChemistryConfig } from "@/data/topics/quantitative-chemistry";
@@ -19,9 +22,12 @@ const topics=[atomicStructureAndThePeriodicTableConfig,
   chemicalAnalysisConfig,
   chemistryOfTheAtmosphereConfig,
   usingResourcesConfig];
-export default function ChemistryPage(){return <main className="min-h-screen bg-[#f7f9fa] text-[#0b1d33]">
+export default function ChemistryPage(){
+  const homeHref = useHomeHref();
+
+  return <main className="min-h-screen bg-[#f7f9fa] text-[#0b1d33]">
   <section className="border-b border-[#e6eaee] bg-white"><div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
-    <Link href="/" className="text-sm font-bold text-[#00a551]">← ScienceMastery home</Link>
+    <Link href={homeHref} className="text-sm font-bold text-[#00a551]">← ScienceMastery home</Link>
     <p className="mt-8 text-sm font-bold uppercase tracking-widest text-[#00a551]">AQA GCSE Chemistry</p>
     <h1 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Choose a Chemistry topic</h1>
     <p className="mt-4 max-w-3xl text-lg leading-8 text-[#5a6b7f]">Practise all ten AQA Chemistry topics with 410 structured mastery questions, marking points and isolated progress tracking.</p>

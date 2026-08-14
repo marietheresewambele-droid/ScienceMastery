@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { topicRegistry, questionKey } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
+import { useHomeHref } from "@/hooks/useHomeHref";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
 
 type Mode = "mixed" | "flashcards" | "exam" | "bookmarks" | "due";
@@ -55,6 +56,7 @@ export default function RevisionCenter({
   const [flipped, setFlipped] = useState(false);
   const [version, setVersion] = useState(0);
   const [ready, setReady] = useState(false);
+  const homeHref = useHomeHref();
 
   useEffect(() => setReady(true), []);
 
@@ -155,7 +157,7 @@ export default function RevisionCenter({
     <main className="min-h-screen bg-[#f7f9fb] text-[#0f1f3d]">
       <header className="border-b bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5">
-          <Link href="/" className="font-black">
+          <Link href={homeHref} className="font-black">
             Sci<span className="text-[#00a551]">Mastery</span>
           </Link>
           <Link href="/dashboard" className="font-bold text-[#00a551]">My Learning</Link>

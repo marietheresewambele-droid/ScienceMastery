@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { TopicMetadata } from "@/types/questions";
+import { useHomeHref } from "@/hooks/useHomeHref";
 
 interface TopicHeaderProps {
   metadata: TopicMetadata;
@@ -25,11 +26,13 @@ const FlaskIcon = ({ className = "h-5 w-5" }) => (
 );
 
 export default function TopicHeader({ metadata }: TopicHeaderProps) {
+  const homeHref = useHomeHref();
+
   return (
     <header className="sticky top-0 z-50 border-b border-[#e6eaee] bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <Link
-          href="/"
+          href={homeHref}
           className="flex items-center gap-2.5"
           aria-label="ScienceMastery Home"
         >
@@ -46,7 +49,7 @@ export default function TopicHeader({ metadata }: TopicHeaderProps) {
             {metadata.examBoard} {metadata.title}
           </span>
           <Link
-            href="/"
+            href={homeHref}
             className="transition hover:text-[#0b1d33]"
           >
             Back to home
@@ -59,7 +62,7 @@ export default function TopicHeader({ metadata }: TopicHeaderProps) {
             {metadata.subject.charAt(0).toUpperCase() + metadata.subject.slice(1)}
           </span>
           <Link
-            href="/"
+            href={homeHref}
             className="text-sm font-semibold text-[#5a6b7f] transition hover:text-[#0b1d33]"
           >
             Home

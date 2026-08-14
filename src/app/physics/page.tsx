@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useHomeHref } from "@/hooks/useHomeHref";
 import { physicsEnergyConfig } from "@/data/topics/physics-energy";
 import { physicsElectricityConfig } from "@/data/topics/physics-electricity";
 import { physicsParticleModelOfMatterConfig } from "@/data/topics/physics-particle-model-of-matter";
@@ -17,9 +20,12 @@ const topics=[
   physicsMagnetismAndElectromagnetismConfig,
   physicsSpacePhysicsConfig,
 ];
-export default function PhysicsPage(){return <main className="min-h-screen bg-[#f7f9fa] text-[#0b1d33]">
+export default function PhysicsPage(){
+  const homeHref = useHomeHref();
+
+  return <main className="min-h-screen bg-[#f7f9fa] text-[#0b1d33]">
   <section className="border-b border-[#e6eaee] bg-white"><div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
-    <Link href="/" className="text-sm font-bold text-[#00a551]">← ScienceMastery home</Link><p className="mt-8 text-sm font-bold uppercase tracking-widest text-[#00a551]">AQA GCSE Physics</p>
+    <Link href={homeHref} className="text-sm font-bold text-[#00a551]">← ScienceMastery home</Link><p className="mt-8 text-sm font-bold uppercase tracking-widest text-[#00a551]">AQA GCSE Physics</p>
     <h1 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Choose a Physics topic</h1><p className="mt-4 max-w-3xl text-lg leading-8 text-[#5a6b7f]">Practise all eight AQA Physics topics with 177 structured mastery questions, marking points and isolated progress tracking.</p>
   </div></section>
   <section className="mx-auto grid max-w-7xl gap-5 px-4 py-12 sm:px-6 md:grid-cols-2">{topics.map(topic=><article key={topic.id} className="flex flex-col justify-between rounded-3xl border border-[#e6eaee] bg-white p-7 shadow-sm">
