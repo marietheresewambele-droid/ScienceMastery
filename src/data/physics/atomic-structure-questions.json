@@ -1,9 +1,5 @@
 {
   "metadata": {
-    "topicId": "atomic-structure",
-    "topic": "Atomic Structure",
-    "sourceWorkbook": "AQA_GCSE_Physics_Complete_Mastery_Workbook.xlsx",
-    "questionCount": 19,
     "subtopics": [
       {
         "title": "4.1 Atoms and isotopes",
@@ -30,19 +26,18 @@
       "subtopic": "4.1 Atoms and isotopes",
       "sourceSubtopic": "4.1 Atoms and isotopes",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe the structure of an atom.",
       "marks": 4,
-      "modelAnswer": "A tiny central nucleus containing protons and neutrons; electrons occupy shells/energy levels around it; most mass is in the nucleus; most of the atom is empty space.",
+      "modelAnswer": "A tiny central nucleus containing protons and neutrons. Electrons occupy shells/energy levels around it. Most mass is in the nucleus. Most of the atom is empty space.",
       "markingPoints": [
-        "A tiny central nucleus containing protons and neutrons",
-        "electrons occupy shells/energy levels around it",
-        "most mass is in the nucleus",
-        "most of the atom is empty space."
+        "A tiny central nucleus containing protons and neutrons.",
+        "Electrons occupy shells/energy levels around it.",
+        "Most mass is in the nucleus.",
+        "Most of the atom is empty space."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -53,7 +48,6 @@
       "subtopic": "4.1 Atoms and isotopes",
       "sourceSubtopic": "4.1 Atoms and isotopes",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define isotopes.",
       "marks": 2,
       "modelAnswer": "Atoms of the same element with the same number of protons but different numbers of neutrons.",
@@ -62,7 +56,7 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -73,18 +67,17 @@
       "subtopic": "4.1 Atoms and isotopes",
       "sourceSubtopic": "4.1 Atoms and isotopes",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "An atom is written as ²³₁₁Na. State its numbers of protons, neutrons and electrons.",
       "marks": 3,
-      "modelAnswer": "Protons = 11; neutrons = 23 − 11 = 12; electrons = 11 for a neutral atom.",
+      "modelAnswer": "Protons = 11 Neutrons = 23 − 11 = 12 Electrons = 11 for a neutral atom.",
       "markingPoints": [
         "Protons = 11",
-        "neutrons = 23 − 11 = 12",
-        "electrons = 11 for a neutral atom."
+        "Neutrons = 23 − 11 = 12",
+        "Electrons = 11 for a neutral atom."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -95,16 +88,18 @@
       "subtopic": "4.1 Atoms and isotopes",
       "sourceSubtopic": "4.1 Atoms and isotopes",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain how Rutherford scattering changed the model of the atom.",
       "marks": 5,
       "modelAnswer": "Most alpha particles passed through, showing atoms are mostly empty space. Some were deflected, showing positive charge is concentrated. Very few rebounded, showing a tiny dense nucleus. This replaced the plum-pudding model with the nuclear model.",
       "markingPoints": [
-        "Most alpha particles passed through, showing atoms are mostly empty space. Some were deflected, showing positive charge is concentrated. Very few rebounded, showing a tiny dense nucleus. This replaced the plum-pudding model with the nuclear model."
+        "Most alpha particles passed through, showing atoms are mostly empty space.",
+        "Some were deflected, showing positive charge is concentrated.",
+        "Very few rebounded, showing a tiny dense nucleus.",
+        "This replaced the plum-pudding model with the nuclear model."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -115,7 +110,6 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define radioactive decay.",
       "marks": 2,
       "modelAnswer": "The random spontaneous emission of radiation from an unstable nucleus.",
@@ -124,7 +118,7 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -135,17 +129,16 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define activity and give its unit.",
       "marks": 2,
-      "modelAnswer": "The rate at which unstable nuclei decay; becquerel (Bq), equal to one decay per second.",
+      "modelAnswer": "The rate at which unstable nuclei decay. Becquerel (Bq), equal to one decay per second.",
       "markingPoints": [
-        "The rate at which unstable nuclei decay",
-        "becquerel (Bq), equal to one decay per second."
+        "The rate at which unstable nuclei decay.",
+        "Becquerel (Bq), equal to one decay per second."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -156,16 +149,17 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Compare alpha, beta and gamma radiation for nature, penetration and ionisation.",
       "marks": 6,
       "modelAnswer": "Alpha: helium nucleus, most ionising, stopped by paper/skin. Beta: fast electron, moderately ionising, stopped by thin aluminium. Gamma: electromagnetic radiation, least ionising, reduced by thick lead or concrete.",
       "markingPoints": [
-        "Alpha: helium nucleus, most ionising, stopped by paper/skin. Beta: fast electron, moderately ionising, stopped by thin aluminium. Gamma: electromagnetic radiation, least ionising, reduced by thick lead or concrete."
+        "Alpha: helium nucleus, most ionising, stopped by paper/skin.",
+        "Beta: fast electron, moderately ionising, stopped by thin aluminium.",
+        "Gamma: electromagnetic radiation, least ionising, reduced by thick lead or concrete."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -176,16 +170,16 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Higher",
-      "contentEligibility": "Higher",
       "question": "State how mass number and atomic number change during alpha and beta-minus decay.",
       "marks": 4,
       "modelAnswer": "Alpha: mass number decreases by 4 and atomic number by 2. Beta-minus: mass number unchanged and atomic number increases by 1 because a neutron becomes a proton and electron.",
       "markingPoints": [
-        "Alpha: mass number decreases by 4 and atomic number by 2. Beta-minus: mass number unchanged and atomic number increases by 1 because a neutron becomes a proton and electron."
+        "Alpha: mass number decreases by 4 and atomic number by 2.",
+        "Beta-minus: mass number unchanged and atomic number increases by 1 because a neutron becomes a proton and electron."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -196,7 +190,6 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define half-life.",
       "marks": 2,
       "modelAnswer": "The mean time for the number of undecayed nuclei, or activity/count rate, to fall to half its initial value.",
@@ -205,7 +198,7 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -216,20 +209,19 @@
       "subtopic": "4.3 Hazards and uses of radiation",
       "sourceSubtopic": "4.3 Hazards and uses of radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Give four sources of background radiation.",
       "marks": 4,
-      "modelAnswer": "Radon gas from rocks; cosmic rays; medical sources; food/living things; building materials or nuclear industry are also acceptable.",
+      "modelAnswer": "Radon gas from rocks. Cosmic rays. Medical sources. Food/living things. Building materials or nuclear industry are also acceptable.",
       "markingPoints": [
-        "Radon gas from rocks",
-        "cosmic rays",
-        "medical sources",
-        "food/living things",
-        "building materials or nuclear industry are also acceptable."
+        "Radon gas from rocks.",
+        "Cosmic rays.",
+        "Medical sources.",
+        "Food/living things.",
+        "Building materials or nuclear industry are also acceptable."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -240,16 +232,16 @@
       "subtopic": "4.3 Hazards and uses of radiation",
       "sourceSubtopic": "4.3 Hazards and uses of radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Distinguish irradiation from radioactive contamination.",
       "marks": 4,
       "modelAnswer": "Irradiation means exposure to radiation from an external source and does not make an object radioactive. Contamination is unwanted radioactive material on or inside an object, so it continues to emit radiation.",
       "markingPoints": [
-        "Irradiation means exposure to radiation from an external source and does not make an object radioactive. Contamination is unwanted radioactive material on or inside an object, so it continues to emit radiation."
+        "Irradiation means exposure to radiation from an external source and does not make an object radioactive.",
+        "Contamination is unwanted radioactive material on or inside an object, so it continues to emit radiation."
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -260,18 +252,17 @@
       "subtopic": "4.3 Hazards and uses of radiation",
       "sourceSubtopic": "4.3 Hazards and uses of radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain why ionising radiation can cause cancer.",
       "marks": 3,
-      "modelAnswer": "It ionises atoms in cells; this can damage DNA and cause mutations; mutations may lead to uncontrolled cell division.",
+      "modelAnswer": "It ionises atoms in cells. This can damage DNA and cause mutations. Mutations may lead to uncontrolled cell division.",
       "markingPoints": [
-        "It ionises atoms in cells",
-        "this can damage DNA and cause mutations",
-        "mutations may lead to uncontrolled cell division."
+        "It ionises atoms in cells.",
+        "This can damage DNA and cause mutations.",
+        "Mutations may lead to uncontrolled cell division."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -282,19 +273,18 @@
       "subtopic": "4.3 Hazards and uses of radiation",
       "sourceSubtopic": "4.3 Hazards and uses of radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State suitable properties of a radioactive medical tracer.",
       "marks": 4,
-      "modelAnswer": "Gamma emitter so radiation leaves the body; short half-life to reduce dose but long enough for the test; chemically suitable to reach the target organ; low activity sufficient for detection.",
+      "modelAnswer": "Gamma emitter so radiation leaves the body. Short half-life to reduce dose but long enough for the test. Chemically suitable to reach the target organ. Low activity sufficient for detection.",
       "markingPoints": [
-        "Gamma emitter so radiation leaves the body",
-        "short half-life to reduce dose but long enough for the test",
-        "chemically suitable to reach the target organ",
-        "low activity sufficient for detection."
+        "Gamma emitter so radiation leaves the body.",
+        "Short half-life to reduce dose but long enough for the test.",
+        "Chemically suitable to reach the target organ.",
+        "Low activity sufficient for detection."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -305,19 +295,18 @@
       "subtopic": "4.4 Nuclear fission and fusion",
       "sourceSubtopic": "4.4 Nuclear fission and fusion",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Describe induced nuclear fission and a chain reaction.",
       "marks": 5,
-      "modelAnswer": "A neutron is absorbed by a large unstable nucleus; it splits into two smaller nuclei; releases energy and two or three neutrons; those neutrons may cause further fissions, producing a chain reaction.",
+      "modelAnswer": "A neutron is absorbed by a large unstable nucleus. It splits into two smaller nuclei. Releases energy and two or three neutrons. Those neutrons may cause further fissions, producing a chain reaction.",
       "markingPoints": [
-        "A neutron is absorbed by a large unstable nucleus",
-        "it splits into two smaller nuclei",
-        "releases energy and two or three neutrons",
-        "those neutrons may cause further fissions, producing a chain reaction."
+        "A neutron is absorbed by a large unstable nucleus.",
+        "It splits into two smaller nuclei.",
+        "Releases energy and two or three neutrons.",
+        "Those neutrons may cause further fissions, producing a chain reaction."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -328,16 +317,16 @@
       "subtopic": "4.4 Nuclear fission and fusion",
       "sourceSubtopic": "4.4 Nuclear fission and fusion",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Describe nuclear fusion and explain why it requires very high temperature.",
       "marks": 4,
       "modelAnswer": "Two light nuclei join to form a heavier nucleus and release energy. High temperature gives nuclei enough kinetic energy to overcome electrostatic repulsion and get close enough for the strong nuclear force.",
       "markingPoints": [
-        "Two light nuclei join to form a heavier nucleus and release energy. High temperature gives nuclei enough kinetic energy to overcome electrostatic repulsion and get close enough for the strong nuclear force."
+        "Two light nuclei join to form a heavier nucleus and release energy.",
+        "High temperature gives nuclei enough kinetic energy to overcome electrostatic repulsion and get close enough for the strong nuclear force."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -348,10 +337,9 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A source has an activity of 960 Bq and a half-life of 6 hours. Calculate its activity after 24 hours.",
       "marks": 4,
-      "modelAnswer": "Number of half-lives = 24 ÷ 6 = 4\nActivity = 960 ÷ 2⁴\nActivity = 960 ÷ 16\nActivity = 60 Bq",
+      "modelAnswer": "Number of half-lives = 24 ÷ 6 = 4 Activity = 960 ÷ 2⁴ Activity = 960 ÷ 16 Activity = 60 Bq",
       "markingPoints": [
         "Number of half-lives = 24 ÷ 6 = 4",
         "Activity = 960 ÷ 2⁴",
@@ -360,7 +348,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4.2.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -371,10 +359,9 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A detector records 540 counts in 3 minutes. Background count is 30 counts per minute. Calculate the corrected count rate.",
       "marks": 4,
-      "modelAnswer": "Measured rate = 540 ÷ 3 = 180 counts/min\nCorrected rate = measured − background\n= 180 − 30\n= 150 counts/min",
+      "modelAnswer": "Measured rate = 540 ÷ 3 = 180 counts/min Corrected rate = measured − background = 180 − 30 = 150 counts/min",
       "markingPoints": [
         "Measured rate = 540 ÷ 3 = 180 counts/min",
         "Corrected rate = measured − background",
@@ -383,7 +370,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -394,16 +381,19 @@
       "subtopic": "4.3 Hazards and uses of radiation",
       "sourceSubtopic": "4.3 Hazards and uses of radiation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe how to investigate the effect of distance on count rate from a sealed gamma source safely.",
       "marks": 6,
       "modelAnswer": "Measure background count for a fixed time. Place source at measured distances from a GM tube. Record count for the same time at each distance, repeat and calculate means, then subtract background. Keep source orientation and equipment fixed. Use tongs, minimise exposure time and return source to lead-lined storage.",
       "markingPoints": [
-        "Measure background count for a fixed time. Place source at measured distances from a GM tube. Record count for the same time at each distance, repeat and calculate means, then subtract background. Keep source orientation and equipment fixed. Use tongs, minimise exposure time and return source to lead-lined storage."
+        "Measure background count for a fixed time.",
+        "Place source at measured distances from a GM tube.",
+        "Record count for the same time at each distance, repeat and calculate means, then subtract background.",
+        "Keep source orientation and equipment fixed.",
+        "Use tongs, minimise exposure time and return source to lead-lined storage."
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical and disciplinary knowledge"
@@ -414,19 +404,18 @@
       "subtopic": "4.2 Atoms and nuclear radiation",
       "sourceSubtopic": "4.2 Atoms and nuclear radiation",
       "tier": "Higher",
-      "contentEligibility": "Higher",
       "question": "A sample falls from 800 counts/min to 100 counts/min in 18 days. Calculate its half-life.",
       "marks": 4,
-      "modelAnswer": "800 → 400 → 200 → 100, so 3 half-lives\nhalf-life = total time ÷ number\n= 18 ÷ 3\n= 6 days",
+      "modelAnswer": "800 → 400 → 200 → 100, so 3 half-lives Half-life = total time ÷ number = 18 ÷ 3 = 6 days",
       "markingPoints": [
         "800 → 400 → 200 → 100, so 3 half-lives",
-        "half-life = total time ÷ number",
+        "Half-life = total time ÷ number",
         "= 18 ÷ 3",
         "= 6 days"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 4 - Atomic Structure mastery workbook",
+      "evidenceSource": "Atomic Structure mastery workbook",
       "specificationReference": "4.4.2.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"

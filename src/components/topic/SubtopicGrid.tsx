@@ -8,8 +8,8 @@ interface SubtopicCardProps {
   description: string;
   questionCount: number;
   isCompleted: boolean;
-  onPractise: () => void;
-  flashcardsHref: string;
+  practiceHref: string;
+  examHref: string;
 }
 
 function SubtopicCard({
@@ -17,25 +17,23 @@ function SubtopicCard({
   description,
   questionCount,
   isCompleted,
-  onPractise,
-  flashcardsHref,
+  practiceHref,
+  examHref,
 }: SubtopicCardProps) {
   const hasQuestions = questionCount > 0;
 
   return (
     <article
-      className={`flex flex-col justify-between rounded-2xl border p-5 transition hover:-translate-y-1 hover:shadow-lg ${
-        isCompleted
-          ? "border-[#00a551] bg-[#f0fdf4]"
-          : "border-[#e6eaee] bg-white"
+      className={`sm-panel-sm flex flex-col justify-between p-5 transition hover:-translate-y-1 ${
+        isCompleted ? "bg-moss-soft" : ""
       }`}
     >
       <div>
         <div className="flex items-start justify-between">
-          <h3 className="text-lg font-extrabold text-[#0b1d33]">{title}</h3>
+          <h3 className="font-display text-lg font-semibold text-ink">{title}</h3>
           {isCompleted && (
             <span
-              className="flex h-6 w-6 items-center justify-center rounded-full bg-[#00a551] text-white"
+              className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-ink bg-moss text-white"
               aria-label="Completed"
             >
               <svg
@@ -52,47 +50,44 @@ function SubtopicCard({
             </span>
           )}
         </div>
-        <p className="mt-2 text-sm leading-6 text-[#5a6b7f]">{description}</p>
+        <p className="mt-2 text-sm leading-6 text-ink-soft">{description}</p>
       </div>
 
       <div className="mt-4">
         <span
           className={`text-xs font-bold ${
-            hasQuestions ? "text-[#00a551]" : "text-[#9ca3af]"
+            hasQuestions ? "text-orange-dark" : "text-ink-soft/50"
           }`}
         >
           {questionCount} {questionCount === 1 ? "question" : "questions"}
         </span>
         <div className="mt-3 grid grid-cols-2 gap-2">
-          <button
-            type="button"
-            onClick={onPractise}
-            disabled={!hasQuestions}
-            className={`rounded-xl px-4 py-2.5 text-sm font-bold transition focus:outline-none focus:ring-2 focus:ring-[#00a551] focus:ring-offset-2 ${
-              hasQuestions
-                ? "cursor-pointer bg-[#00a551] text-white hover:bg-[#028f46]"
-                : "cursor-not-allowed bg-[#dce2e7] text-[#9ca3af]"
-            }`}
-            aria-label={
-              hasQuestions
-                ? `Start practising ${title}`
-                : `No questions available for ${title}`
-            }
-          >
-            Practice
-          </button>
           {hasQuestions ? (
-            <Link
-              href={flashcardsHref}
-              className="rounded-xl border border-[#00a551] bg-white px-4 py-2.5 text-center text-sm font-bold text-[#02753a] transition hover:bg-[#e9f8f0] focus:outline-none focus:ring-2 focus:ring-[#00a551] focus:ring-offset-2"
-              aria-label={`Open flashcards for ${title}`}
-            >
-              Flashcards
-            </Link>
+            <>
+              <Link
+                href={practiceHref}
+                className="sm-btn !rounded-xl bg-orange px-4 py-2.5 text-sm text-white focus:outline-none focus:ring-2 focus:ring-orange focus:ring-offset-2"
+                aria-label={`Start practice mode flashcards for ${title}`}
+              >
+                Practice Mode
+              </Link>
+              <Link
+                href={examHref}
+                className="sm-btn !rounded-xl bg-card px-4 py-2.5 text-sm text-orange-dark focus:outline-none focus:ring-2 focus:ring-orange focus:ring-offset-2"
+                aria-label={`Start exam mode flashcards for ${title}`}
+              >
+                Exam Mode
+              </Link>
+            </>
           ) : (
-            <span className="cursor-not-allowed rounded-xl border border-[#dce2e7] bg-[#f7f9fa] px-4 py-2.5 text-center text-sm font-bold text-[#9ca3af]">
-              Flashcards
-            </span>
+            <>
+              <span className="cursor-not-allowed rounded-xl border-2 border-ink/30 bg-cream-soft px-4 py-2.5 text-center text-sm font-bold text-ink-soft/50">
+                Practice Mode
+              </span>
+              <span className="cursor-not-allowed rounded-xl border-2 border-ink/30 bg-cream-soft px-4 py-2.5 text-center text-sm font-bold text-ink-soft/50">
+                Exam Mode
+              </span>
+            </>
           )}
         </div>
       </div>
@@ -104,14 +99,12 @@ interface SubtopicGridProps {
   config: BiologyTopicConfig;
   questions: MasteryQuestion[];
   completedQuestions?: Set<string> | string[];
-  onSubtopicSelect: (subtopic: string) => void;
 }
 
 export default function SubtopicGrid({
   config,
   questions,
   completedQuestions,
-  onSubtopicSelect,
 }: SubtopicGridProps) {
   const completedQuestionSet = new Set<string>();
 
@@ -143,17 +136,21 @@ export default function SubtopicGrid({
         {config.title} Subtopics
       </h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {config.subtopics.map((subtopic) => (
-          <SubtopicCard
-            key={subtopic.id}
-            title={subtopic.title}
-            description={subtopic.description || "Practice questions for this subtopic."}
-            questionCount={subtopicCounts.get(subtopic.title) || 0}
-            onPractise={() => onSubtopicSelect(subtopic.title)}
-            flashcardsHref={`/practice?mode=flashcards&subject=${config.subject ?? "biology"}&topic=${config.id}&subtopic=${encodeURIComponent(subtopic.title)}`}
-            isCompleted={getSubtopicCompletion(subtopic.title)}
-          />
-        ))}
+        {config.subtopics.map((subtopic) => {
+          const subject = config.subject ?? "biology";
+          const params = `subject=${subject}&topic=${config.id}&subtopic=${encodeURIComponent(subtopic.title)}`;
+          return (
+            <SubtopicCard
+              key={subtopic.id}
+              title={subtopic.title}
+              description={subtopic.description || "Practice questions for this subtopic."}
+              questionCount={subtopicCounts.get(subtopic.title) || 0}
+              practiceHref={`/practice?mode=flashcards&${params}`}
+              examHref={`/practice?mode=exam&${params}`}
+              isCompleted={getSubtopicCompletion(subtopic.title)}
+            />
+          );
+        })}
       </div>
     </section>
   );

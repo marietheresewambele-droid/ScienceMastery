@@ -1,29 +1,9 @@
 {
-  "metadata": {
-    "topicId": "organisation",
-    "topic": "Organisation",
-    "sourceWorkbook": "AQA_GCSE_Biology_Mastery_Workbook_Topics_6_7_Self_Contained_Clean_Answers.xlsx",
-    "questionCount": 115,
-    "subtopics": [
-      {
-        "title": "Principles of Organisation",
-        "questionCount": 5
-      },
-      {
-        "title": "Animal Tissues, Organs & Systems",
-        "questionCount": 81
-      },
-      {
-        "title": "Plant Tissues, Organs & Systems",
-        "questionCount": 29
-      }
-    ]
-  },
   "questions": [
     {
       "id": "OR01",
       "questionFamily": "Levels of organisation",
-      "subtopic": "Principles of Organisation",
+      "subtopic": "2.1 Principles of Organisation",
       "sourceSubtopic": "2.1 Principles of Organisation",
       "tier": "Both",
       "question": "Put these levels of organisation in order from smallest to largest: organ, organism, cell, organ system, tissue.",
@@ -34,7 +14,6 @@
       ],
       "commandWord": "Order",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -42,7 +21,7 @@
     {
       "id": "OR02",
       "questionFamily": "Tissues",
-      "subtopic": "Principles of Organisation",
+      "subtopic": "2.1 Principles of Organisation",
       "sourceSubtopic": "2.1 Principles of Organisation",
       "tier": "Both",
       "question": "Define a tissue.",
@@ -53,7 +32,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -61,19 +39,18 @@
     {
       "id": "OR03",
       "questionFamily": "Organs",
-      "subtopic": "Principles of Organisation",
+      "subtopic": "2.1 Principles of Organisation",
       "sourceSubtopic": "2.1 Principles of Organisation",
       "tier": "Both",
       "question": "Define an organ and give one example.",
       "marks": 2,
-      "modelAnswer": "A group of different tissues working together to perform a particular function; e.g. heart, stomach or leaf.",
+      "modelAnswer": "A group of different tissues working together to perform a particular function e.g. heart, stomach or leaf.",
       "markingPoints": [
         "A group of different tissues working together to perform a particular function",
         "e.g. heart, stomach or leaf."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -81,19 +58,18 @@
     {
       "id": "OR04",
       "questionFamily": "Organ systems",
-      "subtopic": "Principles of Organisation",
+      "subtopic": "2.1 Principles of Organisation",
       "sourceSubtopic": "2.1 Principles of Organisation",
       "tier": "Both",
       "question": "Define an organ system and give one example.",
       "marks": 2,
-      "modelAnswer": "A group of organs working together to perform a major body function; e.g. digestive or circulatory system.",
+      "modelAnswer": "A group of organs working together to perform a major body function e.g. digestive or circulatory system.",
       "markingPoints": [
         "A group of organs working together to perform a major body function",
         "e.g. digestive or circulatory system."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -101,19 +77,18 @@
     {
       "id": "OR05",
       "questionFamily": "Organisation application",
-      "subtopic": "Principles of Organisation",
+      "subtopic": "2.1 Principles of Organisation",
       "sourceSubtopic": "2.1 Principles of Organisation",
       "tier": "Both",
       "question": "Explain why the stomach is described as an organ rather than a tissue.",
       "marks": 2,
-      "modelAnswer": "It contains several different tissues; the tissues work together to carry out digestion.",
+      "modelAnswer": "It contains several different tissues the tissues work together to carry out digestion.",
       "markingPoints": [
         "It contains several different tissues",
         "the tissues work together to carry out digestion."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -121,19 +96,18 @@
     {
       "id": "DG01",
       "questionFamily": "Digestive system",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the main function of the digestive system.",
       "marks": 2,
-      "modelAnswer": "Breaks large insoluble food molecules into small soluble molecules; the small molecules can then be absorbed into the blood.",
+      "modelAnswer": "Breaks large insoluble food molecules into small soluble molecules the small molecules can then be absorbed into the blood.",
       "markingPoints": [
         "Breaks large insoluble food molecules into small soluble molecules",
         "the small molecules can then be absorbed into the blood."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -141,7 +115,7 @@
     {
       "id": "DG02",
       "questionFamily": "Digestive organs",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Name the organ in which most digestion and absorption of soluble food molecules occur.",
@@ -152,7 +126,6 @@
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -160,12 +133,12 @@
     {
       "id": "DG03",
       "questionFamily": "Digestive organs",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State two functions of the stomach.",
       "marks": 2,
-      "modelAnswer": "Churns food / mechanical digestion; produces hydrochloric acid; produces protease enzymes.",
+      "modelAnswer": "Churns food / mechanical digestion produces hydrochloric acid produces protease enzymes.",
       "markingPoints": [
         "Churns food / mechanical digestion",
         "produces hydrochloric acid",
@@ -173,7 +146,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -181,7 +153,7 @@
     {
       "id": "DG04",
       "questionFamily": "Digestive organs",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the digestive function of the liver.",
@@ -192,7 +164,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -200,7 +171,7 @@
     {
       "id": "DG05",
       "questionFamily": "Digestive organs",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the function of the gall bladder.",
@@ -211,7 +182,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -219,19 +189,18 @@
     {
       "id": "DG06",
       "questionFamily": "Digestive organs",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the digestive function of the pancreas.",
       "marks": 2,
-      "modelAnswer": "Produces digestive enzymes; releases them into the small intestine.",
+      "modelAnswer": "Produces digestive enzymes releases them into the small intestine.",
       "markingPoints": [
         "Produces digestive enzymes",
         "releases them into the small intestine."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -239,12 +208,12 @@
     {
       "id": "DG07",
       "questionFamily": "Bile",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how bile helps the digestion of fats.",
       "marks": 4,
-      "modelAnswer": "Bile is alkaline; it neutralises hydrochloric acid from the stomach and provides an alkaline pH for enzymes in the small intestine; it emulsifies fat into small droplets; this increases the surface area for lipase action.",
+      "modelAnswer": "Bile is alkaline it neutralises hydrochloric acid from the stomach and provides an alkaline pH for enzymes in the small intestine it emulsifies fat into small droplets this increases the surface area for lipase action.",
       "markingPoints": [
         "Bile is alkaline",
         "it neutralises hydrochloric acid from the stomach and provides an alkaline pH for enzymes in the small intestine",
@@ -253,7 +222,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -261,12 +229,12 @@
     {
       "id": "DG08",
       "questionFamily": "Villi",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how villi are adapted for rapid absorption of digested food molecules.",
       "marks": 4,
-      "modelAnswer": "Many villi/microvilli provide a large surface area; epithelium is one cell thick, giving a short diffusion distance; good blood supply maintains concentration gradients; lacteals absorb products of fat digestion.",
+      "modelAnswer": "Many villi/microvilli provide a large surface area epithelium is one cell thick, giving a short diffusion distance good blood supply maintains concentration gradients lacteals absorb products of fat digestion.",
       "markingPoints": [
         "Many villi/microvilli provide a large surface area",
         "epithelium is one cell thick, giving a short diffusion distance",
@@ -275,7 +243,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -283,12 +250,12 @@
     {
       "id": "DG09",
       "questionFamily": "Digestion and absorption",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why starch must be digested before it can be absorbed into the blood.",
       "marks": 3,
-      "modelAnswer": "Starch molecules are large and insoluble; they cannot pass through the wall of the small intestine; digestion produces small soluble sugars that can be absorbed.",
+      "modelAnswer": "Starch molecules are large and insoluble they cannot pass through the wall of the small intestine digestion produces small soluble sugars that can be absorbed.",
       "markingPoints": [
         "Starch molecules are large and insoluble",
         "they cannot pass through the wall of the small intestine",
@@ -296,7 +263,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -304,19 +270,18 @@
     {
       "id": "DG10",
       "questionFamily": "Peristalsis",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the role of muscles in the digestive system.",
       "marks": 2,
-      "modelAnswer": "Muscles in the gut wall contract in waves; peristalsis moves food through the digestive system / mixes food with digestive juices.",
+      "modelAnswer": "Muscles in the gut wall contract in waves peristalsis moves food through the digestive system / mixes food with digestive juices.",
       "markingPoints": [
         "Muscles in the gut wall contract in waves",
         "peristalsis moves food through the digestive system / mixes food with digestive juices."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -324,19 +289,18 @@
     {
       "id": "EN01",
       "questionFamily": "Enzymes",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Define an enzyme.",
       "marks": 2,
-      "modelAnswer": "A biological catalyst; it increases the rate of a reaction without being used up.",
+      "modelAnswer": "A biological catalyst it increases the rate of a reaction without being used up.",
       "markingPoints": [
         "A biological catalyst",
         "it increases the rate of a reaction without being used up."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -344,12 +308,12 @@
     {
       "id": "EN02",
       "questionFamily": "Enzyme specificity",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why one enzyme usually catalyses only one type of reaction.",
       "marks": 3,
-      "modelAnswer": "The enzyme has an active site with a specific shape; only a substrate with a complementary shape binds; an enzyme–substrate complex forms.",
+      "modelAnswer": "The enzyme has an active site with a specific shape only a substrate with a complementary shape binds an enzyme–substrate complex forms.",
       "markingPoints": [
         "The enzyme has an active site with a specific shape",
         "only a substrate with a complementary shape binds",
@@ -357,7 +321,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -365,12 +328,12 @@
     {
       "id": "EN03",
       "questionFamily": "Enzyme action",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the lock-and-key model of enzyme action.",
       "marks": 4,
-      "modelAnswer": "Substrate collides with the active site; the substrate has a complementary shape; an enzyme–substrate complex forms; products are released while the enzyme remains unchanged and can be reused.",
+      "modelAnswer": "Substrate collides with the active site the substrate has a complementary shape an enzyme–substrate complex forms products are released while the enzyme remains unchanged and can be reused.",
       "markingPoints": [
         "Substrate collides with the active site",
         "the substrate has a complementary shape",
@@ -379,7 +342,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -387,12 +349,12 @@
     {
       "id": "EN04",
       "questionFamily": "Temperature and enzymes",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why increasing temperature initially increases the rate of an enzyme-controlled reaction.",
       "marks": 3,
-      "modelAnswer": "Particles gain kinetic energy; enzyme and substrate collide more frequently; more successful collisions / enzyme–substrate complexes form each second.",
+      "modelAnswer": "Particles gain kinetic energy enzyme and substrate collide more frequently more successful collisions / enzyme–substrate complexes form each second.",
       "markingPoints": [
         "Particles gain kinetic energy",
         "enzyme and substrate collide more frequently",
@@ -400,7 +362,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -408,12 +369,12 @@
     {
       "id": "EN05",
       "questionFamily": "Temperature and enzymes",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why an enzyme-controlled reaction becomes very slow above the optimum temperature.",
       "marks": 4,
-      "modelAnswer": "High temperature breaks bonds that maintain the enzyme's shape; the active site changes shape / enzyme denatures; the substrate is no longer complementary; fewer enzyme–substrate complexes form.",
+      "modelAnswer": "High temperature breaks bonds that maintain the enzyme's shape the active site changes shape / enzyme denatures the substrate is no longer complementary fewer enzyme–substrate complexes form.",
       "markingPoints": [
         "High temperature breaks bonds that maintain the enzyme's shape",
         "the active site changes shape / enzyme denatures",
@@ -422,7 +383,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -430,12 +390,12 @@
     {
       "id": "EN06",
       "questionFamily": "pH and enzymes",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how a pH far from an enzyme's optimum affects its activity.",
       "marks": 3,
-      "modelAnswer": "The pH disrupts bonds that maintain enzyme shape; the active site changes shape / enzyme denatures; fewer substrates bind, so the reaction rate decreases.",
+      "modelAnswer": "The pH disrupts bonds that maintain enzyme shape the active site changes shape / enzyme denatures fewer substrates bind, so the reaction rate decreases.",
       "markingPoints": [
         "The pH disrupts bonds that maintain enzyme shape",
         "the active site changes shape / enzyme denatures",
@@ -443,7 +403,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -451,19 +410,18 @@
     {
       "id": "EN07",
       "questionFamily": "Carbohydrase",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the substrate and products of carbohydrase enzymes.",
       "marks": 2,
-      "modelAnswer": "Substrate: carbohydrates such as starch; products: simple sugars.",
+      "modelAnswer": "Substrate: carbohydrates such as starch products: simple sugars.",
       "markingPoints": [
         "Substrate: carbohydrates such as starch",
         "products: simple sugars."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -471,19 +429,18 @@
     {
       "id": "EN08",
       "questionFamily": "Amylase",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State where amylase is produced and what reaction it catalyses.",
       "marks": 3,
-      "modelAnswer": "Produced by salivary glands, pancreas and small intestine; catalyses the breakdown of starch into sugars.",
+      "modelAnswer": "Produced by salivary glands, pancreas and small intestine catalyses the breakdown of starch into sugars.",
       "markingPoints": [
         "Produced by salivary glands, pancreas and small intestine",
         "catalyses the breakdown of starch into sugars."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -491,19 +448,18 @@
     {
       "id": "EN09",
       "questionFamily": "Protease",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State where proteases are produced and what reaction they catalyse.",
       "marks": 3,
-      "modelAnswer": "Produced in the stomach, pancreas and small intestine; catalyse the breakdown of proteins into amino acids.",
+      "modelAnswer": "Produced in the stomach, pancreas and small intestine catalyse the breakdown of proteins into amino acids.",
       "markingPoints": [
         "Produced in the stomach, pancreas and small intestine",
         "catalyse the breakdown of proteins into amino acids."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -511,19 +467,18 @@
     {
       "id": "EN10",
       "questionFamily": "Lipase",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State where lipases are produced and what reaction they catalyse.",
       "marks": 3,
-      "modelAnswer": "Produced by the pancreas and small intestine; catalyse the breakdown of lipids into fatty acids and glycerol.",
+      "modelAnswer": "Produced by the pancreas and small intestine catalyse the breakdown of lipids into fatty acids and glycerol.",
       "markingPoints": [
         "Produced by the pancreas and small intestine",
         "catalyse the breakdown of lipids into fatty acids and glycerol."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -531,12 +486,12 @@
     {
       "id": "EN11",
       "questionFamily": "Digestive enzymes application",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "A disorder reduces the amount of lipase entering the small intestine. Explain why the person may have difficulty gaining body mass.",
       "marks": 4,
-      "modelAnswer": "Less lipid is digested; fewer fatty acids and glycerol are produced; less is absorbed into the blood; less material/energy is available for storage, growth and respiration.",
+      "modelAnswer": "Less lipid is digested fewer fatty acids and glycerol are produced less is absorbed into the blood less material/energy is available for storage, growth and respiration.",
       "markingPoints": [
         "Less lipid is digested",
         "fewer fatty acids and glycerol are produced",
@@ -545,7 +500,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -553,12 +507,12 @@
     {
       "id": "EN12",
       "questionFamily": "Rate calculation",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Starch disappears after 80 seconds in an amylase experiment. Calculate the rate using rate = 1 ÷ time. Give the unit.",
       "marks": 2,
-      "modelAnswer": "rate = 1 ÷ time.\nRate = 1 ÷ 80 = 0.0125 s⁻¹.\nAnswer: Rate = 1 ÷ 80 = 0.0125 s⁻¹.",
+      "modelAnswer": "rate = 1 ÷ time. Rate = 1 ÷ 80 = 0.0125 s⁻¹. Answer: Rate = 1 ÷ 80 = 0.0125 s⁻¹.",
       "markingPoints": [
         "rate = 1 ÷ time.",
         "Rate = 1 ÷ 80 = 0.0125 s⁻¹.",
@@ -566,7 +520,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -574,12 +527,12 @@
     {
       "id": "EN13",
       "questionFamily": "Catalase data analysis",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Catalase produced foam heights of 1.1, 3.2, 5.2, 4.0, 2.1 and 0.0 cm at 10, 20, 30, 40, 50 and 60 °C respectively. State the supported optimum temperature, identify where catalase was denatured, and describe how the optimum could be found more precisely.",
       "marks": 4,
-      "modelAnswer": "The highest measured activity was at 30 °C, so 30 °C is the supported optimum among the temperatures tested; zero foam at 60 °C supports denaturation; repeat at smaller intervals between 30 and 40 °C; repeat each temperature and compare means.",
+      "modelAnswer": "The highest measured activity was at 30 °C, so 30 °C is the supported optimum among the temperatures tested zero foam at 60 °C supports denaturation repeat at smaller intervals between 30 and 40 °C repeat each temperature and compare means.",
       "markingPoints": [
         "The highest measured activity was at 30 °C, so 30 °C is the supported optimum among the temperatures tested",
         "zero foam at 60 °C supports denaturation",
@@ -588,7 +541,6 @@
       ],
       "commandWord": "Analyse",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -596,12 +548,12 @@
     {
       "id": "EN14",
       "questionFamily": "Catalase investigation",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Plan an investigation to compare catalase activity in equal-mass samples from the root, stem, leaf and seed of the same plant species.",
       "marks": 6,
-      "modelAnswer": "Use equal masses and similarly sized or ground samples; add each to the same volume and concentration of hydrogen peroxide; keep temperature, pH and reaction time constant; collect oxygen with a gas syringe or measure foam height; repeat each tissue and calculate a mean; compare mean oxygen volume or rate. Wear eye protection because hydrogen peroxide is an irritant.",
+      "modelAnswer": "Use equal masses and similarly sized or ground samples add each to the same volume and concentration of hydrogen peroxide keep temperature, pH and reaction time constant collect oxygen with a gas syringe or measure foam height repeat each tissue and calculate a mean compare mean oxygen volume or rate. Wear eye protection because hydrogen peroxide is an irritant.",
       "markingPoints": [
         "Use equal masses and similarly sized or ground samples",
         "add each to the same volume and concentration of hydrogen peroxide",
@@ -612,7 +564,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -620,12 +571,12 @@
     {
       "id": "EN15",
       "questionFamily": "Industrial enzymes",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Higher",
       "question": "Match each enzyme to an industrial use and explain one match: carbohydrase, protease and isomerase; converting starch to sugars, pre-digesting protein in baby food, and converting glucose syrup to fructose syrup.",
       "marks": 4,
-      "modelAnswer": "Carbohydrase converts starch to sugars; protease pre-digests proteins in baby foods; isomerase converts glucose syrup to fructose syrup. Example explanation: protease hydrolyses protein into smaller products, making it easier to digest.",
+      "modelAnswer": "Carbohydrase converts starch to sugars protease pre-digests proteins in baby foods isomerase converts glucose syrup to fructose syrup. Example explanation: protease hydrolyses protein into smaller products, making it easier to digest.",
       "markingPoints": [
         "Carbohydrase converts starch to sugars",
         "protease pre-digests proteins in baby foods",
@@ -633,7 +584,6 @@
       ],
       "commandWord": "Match and explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -641,12 +591,12 @@
     {
       "id": "RP01",
       "questionFamily": "Amylase required practical",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe a method to investigate the effect of pH on the rate at which amylase breaks down starch.",
       "marks": 6,
-      "modelAnswer": "Place iodine drops in wells of a spotting tile; use buffers to set chosen pH values; equilibrate amylase and starch in a water bath at constant temperature; mix measured volumes and start the timer; place a sample onto iodine at fixed intervals; record the time when iodine remains orange-brown; repeat for several pH values and repeat trials; calculate mean time or rate = 1/time.",
+      "modelAnswer": "Place iodine drops in wells of a spotting tile use buffers to set chosen pH values equilibrate amylase and starch in a water bath at constant temperature mix measured volumes and start the timer place a sample onto iodine at fixed intervals record the time when iodine remains orange-brown repeat for several pH values and repeat trials calculate mean time or rate = 1/time.",
       "markingPoints": [
         "Place iodine drops in wells of a spotting tile",
         "use buffers to set chosen pH values",
@@ -659,7 +609,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge"
@@ -667,7 +616,7 @@
     {
       "id": "RP02",
       "questionFamily": "Amylase required practical",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "In the amylase pH investigation, identify the independent variable, dependent variable and three control variables.",
@@ -678,7 +627,6 @@
       ],
       "commandWord": "Identify",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -686,19 +634,18 @@
     {
       "id": "RP03",
       "questionFamily": "Amylase required practical",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why a water bath and buffer solutions are used in the amylase investigation.",
       "marks": 2,
-      "modelAnswer": "Water bath keeps temperature constant; buffer keeps the mixture at the chosen pH.",
+      "modelAnswer": "Water bath keeps temperature constant buffer keeps the mixture at the chosen pH.",
       "markingPoints": [
         "Water bath keeps temperature constant",
         "buffer keeps the mixture at the chosen pH."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge"
@@ -706,19 +653,18 @@
     {
       "id": "RP04",
       "questionFamily": "Amylase required practical",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why the iodine endpoint in the amylase investigation is subjective and suggest one improvement.",
       "marks": 2,
-      "modelAnswer": "The exact colour change is judged by eye, so observers may disagree; use a colorimeter / colour standard / the same observer.",
+      "modelAnswer": "The exact colour change is judged by eye, so observers may disagree use a colorimeter / colour standard / the same observer.",
       "markingPoints": [
         "The exact colour change is judged by eye, so observers may disagree",
         "use a colorimeter / colour standard / the same observer."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -726,22 +672,19 @@
     {
       "id": "RP05",
       "questionFamily": "Amylase required practical",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "A student repeats a result three times and obtains 42 s, 44 s and 91 s. Identify the anomalous result and calculate the mean after excluding it.",
       "marks": 2,
-      "modelAnswer": "mean = sum of values ÷ number of values.\n91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s.\nAnswer: 91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s.",
+      "modelAnswer": "mean = sum of values ÷ number of values. 91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s. Answer: 91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s.",
       "markingPoints": [
         "mean = sum of values ÷ number of values.",
-        "91 s is anomalous",
-        "mean = (42 + 44) ÷ 2 = 43 s.",
-        "Answer: 91 s is anomalous",
-        "mean = (42 + 44) ÷ 2 = 43 s."
+        "91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s.",
+        "Answer: 91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -749,12 +692,12 @@
     {
       "id": "RP06",
       "questionFamily": "Enzyme data",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Higher",
       "question": "A graph of enzyme rate against pH peaks at pH 7. Explain how to identify the optimum pH and why the rate falls on either side.",
       "marks": 3,
-      "modelAnswer": "Optimum is the pH giving the maximum rate; away from the optimum, bonds/active-site shape are disrupted; fewer enzyme–substrate complexes form.",
+      "modelAnswer": "Optimum is the pH giving the maximum rate away from the optimum, bonds/active-site shape are disrupted fewer enzyme–substrate complexes form.",
       "markingPoints": [
         "Optimum is the pH giving the maximum rate",
         "away from the optimum, bonds/active-site shape are disrupted",
@@ -762,7 +705,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -770,19 +712,18 @@
     {
       "id": "FT01",
       "questionFamily": "Food tests",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the test for starch and give the positive result.",
       "marks": 2,
-      "modelAnswer": "Add iodine solution; blue-black indicates starch (orange-brown if absent).",
+      "modelAnswer": "Add iodine solution blue-black indicates starch (orange-brown if absent).",
       "markingPoints": [
         "Add iodine solution",
         "blue-black indicates starch (orange-brown if absent)."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Practical knowledge"
@@ -790,12 +731,12 @@
     {
       "id": "FT02",
       "questionFamily": "Food tests",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the Benedict's test for reducing sugars and give the positive result.",
       "marks": 3,
-      "modelAnswer": "Add Benedict's reagent; heat in a hot water bath; a positive result changes from blue through green/yellow/orange to brick-red depending on concentration.",
+      "modelAnswer": "Add Benedict's reagent heat in a hot water bath a positive result changes from blue through green/yellow/orange to brick-red depending on concentration.",
       "markingPoints": [
         "Add Benedict's reagent",
         "heat in a hot water bath",
@@ -803,7 +744,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Practical knowledge"
@@ -811,19 +751,18 @@
     {
       "id": "FT03",
       "questionFamily": "Food tests",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the Biuret test for protein and give the positive result.",
       "marks": 2,
-      "modelAnswer": "Add Biuret reagent / sodium hydroxide followed by copper sulfate; lilac/purple indicates protein.",
+      "modelAnswer": "Add Biuret reagent / sodium hydroxide followed by copper sulfate lilac/purple indicates protein.",
       "markingPoints": [
         "Add Biuret reagent / sodium hydroxide followed by copper sulfate",
         "lilac/purple indicates protein."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Practical knowledge"
@@ -831,12 +770,12 @@
     {
       "id": "FT04",
       "questionFamily": "Food tests",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the emulsion test for lipids and give the positive result.",
       "marks": 3,
-      "modelAnswer": "Add ethanol and shake; add water; a cloudy white/milky emulsion indicates lipid.",
+      "modelAnswer": "Add ethanol and shake add water a cloudy white/milky emulsion indicates lipid.",
       "markingPoints": [
         "Add ethanol and shake",
         "add water",
@@ -844,7 +783,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Practical knowledge"
@@ -852,19 +790,18 @@
     {
       "id": "FT05",
       "questionFamily": "Food-test safety",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State one important safety precaution for Benedict's test and one for the emulsion test.",
       "marks": 2,
-      "modelAnswer": "Use a hot water bath / eye protection for heating Benedict's reagent; keep ethanol away from flames because it is flammable.",
+      "modelAnswer": "Use a hot water bath / eye protection for heating Benedict's reagent keep ethanol away from flames because it is flammable.",
       "markingPoints": [
         "Use a hot water bath / eye protection for heating Benedict's reagent",
         "keep ethanol away from flames because it is flammable."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -872,19 +809,18 @@
     {
       "id": "FT06",
       "questionFamily": "Food-test data",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "A food sample gives a blue-black iodine result, a lilac Biuret result, a brick-red Benedict's result and a clear emulsion test. State which nutrients are present.",
       "marks": 3,
-      "modelAnswer": "Starch, protein and reducing sugar are present; lipid is absent.",
+      "modelAnswer": "Starch, protein and reducing sugar are present lipid is absent.",
       "markingPoints": [
         "Starch, protein and reducing sugar are present",
         "lipid is absent."
       ],
       "commandWord": "Interpret",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -892,19 +828,18 @@
     {
       "id": "CV01",
       "questionFamily": "Double circulatory system",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why humans are described as having a double circulatory system.",
       "marks": 2,
-      "modelAnswer": "Blood passes through the heart twice in one complete circuit; one circuit is heart–lungs–heart and the other is heart–body–heart.",
+      "modelAnswer": "Blood passes through the heart twice in one complete circuit one circuit is heart–lungs–heart and the other is heart–body–heart.",
       "markingPoints": [
         "Blood passes through the heart twice in one complete circuit",
         "one circuit is heart–lungs–heart and the other is heart–body–heart."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -912,7 +847,7 @@
     {
       "id": "CV02",
       "questionFamily": "Heart blood flow",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the route taken by deoxygenated blood from body tissues to the lungs.",
@@ -923,7 +858,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -931,7 +865,7 @@
     {
       "id": "CV03",
       "questionFamily": "Heart blood flow",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the route taken by oxygenated blood from the lungs to body tissues.",
@@ -942,7 +876,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -950,12 +883,12 @@
     {
       "id": "CV04",
       "questionFamily": "Heart structure",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why the wall of the left ventricle is thicker than the wall of the right ventricle.",
       "marks": 3,
-      "modelAnswer": "The left ventricle pumps blood around the whole body; it must produce a higher pressure / contract more forcefully; the right ventricle only pumps to the nearby lungs.",
+      "modelAnswer": "The left ventricle pumps blood around the whole body it must produce a higher pressure / contract more forcefully the right ventricle only pumps to the nearby lungs.",
       "markingPoints": [
         "The left ventricle pumps blood around the whole body",
         "it must produce a higher pressure / contract more forcefully",
@@ -963,7 +896,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -971,12 +903,12 @@
     {
       "id": "CV05",
       "questionFamily": "Heart valves",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the function of heart valves and explain what opens and closes them.",
       "marks": 3,
-      "modelAnswer": "Valves prevent backflow; they open when pressure behind them is greater; they close when pressure in front becomes greater / blood begins to move backwards.",
+      "modelAnswer": "Valves prevent backflow they open when pressure behind them is greater they close when pressure in front becomes greater / blood begins to move backwards.",
       "markingPoints": [
         "Valves prevent backflow",
         "they open when pressure behind them is greater",
@@ -984,7 +916,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -992,7 +923,7 @@
     {
       "id": "CV06",
       "questionFamily": "Coronary arteries",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the function of the coronary arteries.",
@@ -1003,7 +934,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1011,19 +941,18 @@
     {
       "id": "CV07",
       "questionFamily": "Natural pacemaker",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the role of the heart's natural pacemaker.",
       "marks": 2,
-      "modelAnswer": "Produces electrical impulses; controls the resting heart rate / coordinates contractions.",
+      "modelAnswer": "Produces electrical impulses controls the resting heart rate / coordinates contractions.",
       "markingPoints": [
         "Produces electrical impulses",
         "controls the resting heart rate / coordinates contractions."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1031,19 +960,18 @@
     {
       "id": "CV08",
       "questionFamily": "Artificial pacemaker",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how an artificial pacemaker can treat an irregular heart rhythm.",
       "marks": 2,
-      "modelAnswer": "It detects/controls heart rhythm and sends electrical impulses; these stimulate regular contractions at an appropriate rate.",
+      "modelAnswer": "It detects/controls heart rhythm and sends electrical impulses these stimulate regular contractions at an appropriate rate.",
       "markingPoints": [
         "It detects/controls heart rhythm and sends electrical impulses",
         "these stimulate regular contractions at an appropriate rate."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1051,22 +979,19 @@
     {
       "id": "CV09",
       "questionFamily": "Cardiac output",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Write the equation for cardiac output and calculate it for a heart rate of 72 beats per minute and a stroke volume of 70 cm³.",
       "marks": 3,
-      "modelAnswer": "cardiac output = heart rate × stroke volume.\nCardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).\nAnswer: Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
+      "modelAnswer": "cardiac output = heart rate × stroke volume. Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹). Answer: Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
       "markingPoints": [
         "cardiac output = heart rate × stroke volume.",
-        "Cardiac output = heart rate × stroke volume",
-        "72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
-        "Answer: Cardiac output = heart rate × stroke volume",
-        "72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹)."
+        "Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
+        "Answer: Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹)."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1074,12 +999,12 @@
     {
       "id": "CV10",
       "questionFamily": "Exercise",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why heart rate and breathing rate increase during exercise.",
       "marks": 4,
-      "modelAnswer": "Muscles respire more rapidly; they need more oxygen and glucose; faster circulation and ventilation deliver these substances; carbon dioxide is removed more rapidly.",
+      "modelAnswer": "Muscles respire more rapidly they need more oxygen and glucose faster circulation and ventilation deliver these substances carbon dioxide is removed more rapidly.",
       "markingPoints": [
         "Muscles respire more rapidly",
         "they need more oxygen and glucose",
@@ -1088,7 +1013,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1096,24 +1020,19 @@
     {
       "id": "CV12",
       "questionFamily": "Cardiac output rearrangement",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Higher",
       "question": "During exercise, cardiac output is 12.6 dm³ min⁻¹ and heart rate is 140 beats min⁻¹. Calculate stroke volume in cm³ per beat.",
       "marks": 3,
-      "modelAnswer": "stroke volume = cardiac output ÷ heart rate.\nStroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat.\nAnswer: Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat.",
+      "modelAnswer": "stroke volume = cardiac output ÷ heart rate. Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat. Answer: Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat.",
       "markingPoints": [
         "stroke volume = cardiac output ÷ heart rate.",
-        "Stroke volume = cardiac output ÷ heart rate",
-        "12.6 dm³ = 12 600 cm³",
-        "12 600 ÷ 140 = 90 cm³ per beat.",
-        "Answer: Stroke volume = cardiac output ÷ heart rate",
-        "12.6 dm³ = 12 600 cm³",
-        "12 600 ÷ 140 = 90 cm³ per beat."
+        "Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat.",
+        "Answer: Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1121,12 +1040,12 @@
     {
       "id": "BV01",
       "questionFamily": "Arteries",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how arteries are adapted to carry blood away from the heart.",
       "marks": 4,
-      "modelAnswer": "Thick muscular and elastic walls withstand high pressure; elastic fibres stretch and recoil to maintain pressure; relatively small lumen helps maintain pressure; smooth lining reduces friction.",
+      "modelAnswer": "Thick muscular and elastic walls withstand high pressure elastic fibres stretch and recoil to maintain pressure relatively small lumen helps maintain pressure smooth lining reduces friction.",
       "markingPoints": [
         "Thick muscular and elastic walls withstand high pressure",
         "elastic fibres stretch and recoil to maintain pressure",
@@ -1135,7 +1054,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1143,12 +1061,12 @@
     {
       "id": "BV02",
       "questionFamily": "Veins",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how veins are adapted to return blood to the heart.",
       "marks": 4,
-      "modelAnswer": "Large lumen reduces resistance at low pressure; thinner walls because pressure is lower; valves prevent backflow; contraction of surrounding muscles helps move blood.",
+      "modelAnswer": "Large lumen reduces resistance at low pressure thinner walls because pressure is lower valves prevent backflow contraction of surrounding muscles helps move blood.",
       "markingPoints": [
         "Large lumen reduces resistance at low pressure",
         "thinner walls because pressure is lower",
@@ -1157,7 +1075,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1165,12 +1082,12 @@
     {
       "id": "BV03",
       "questionFamily": "Capillaries",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how capillaries are adapted for exchange with tissues.",
       "marks": 4,
-      "modelAnswer": "Walls are one cell thick, giving a short diffusion distance; narrow lumen keeps blood close to cells and slows flow; extensive networks give a large surface area; permeable walls .",
+      "modelAnswer": "Walls are one cell thick, giving a short diffusion distance narrow lumen keeps blood close to cells and slows flow extensive networks give a large surface area permeable walls .",
       "markingPoints": [
         "Walls are one cell thick, giving a short diffusion distance",
         "narrow lumen keeps blood close to cells and slows flow",
@@ -1179,7 +1096,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1187,7 +1103,7 @@
     {
       "id": "BV04",
       "questionFamily": "Blood vessels comparison",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Compare arteries, veins and capillaries.",
@@ -1198,7 +1114,6 @@
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1206,12 +1121,12 @@
     {
       "id": "BL01",
       "questionFamily": "Blood components",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Name the four main components of blood.",
       "marks": 4,
-      "modelAnswer": "Plasma; red blood cells; white blood cells; platelets.",
+      "modelAnswer": "Plasma red blood cells white blood cells platelets.",
       "markingPoints": [
         "Plasma",
         "red blood cells",
@@ -1220,7 +1135,6 @@
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1228,7 +1142,7 @@
     {
       "id": "BL02",
       "questionFamily": "Plasma",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State three substances transported by plasma.",
@@ -1239,7 +1153,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1247,12 +1160,12 @@
     {
       "id": "BL03",
       "questionFamily": "Red blood cells",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how red blood cells are adapted to transport oxygen.",
       "marks": 4,
-      "modelAnswer": "Contain haemoglobin that binds oxygen; biconcave shape gives a large surface area; no nucleus leaves more space for haemoglobin; small/flexible to pass through capillaries.",
+      "modelAnswer": "Contain haemoglobin that binds oxygen biconcave shape gives a large surface area no nucleus leaves more space for haemoglobin small/flexible to pass through capillaries.",
       "markingPoints": [
         "Contain haemoglobin that binds oxygen",
         "biconcave shape gives a large surface area",
@@ -1261,7 +1174,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1269,12 +1181,12 @@
     {
       "id": "BL04",
       "questionFamily": "White blood cells",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe two ways white blood cells defend the body.",
       "marks": 4,
-      "modelAnswer": "Phagocytes engulf and digest pathogens; lymphocytes produce specific antibodies; lymphocytes may produce antitoxins. mechanisms with detail.",
+      "modelAnswer": "Phagocytes engulf and digest pathogens lymphocytes produce specific antibodies lymphocytes may produce antitoxins. mechanisms with detail.",
       "markingPoints": [
         "Phagocytes engulf and digest pathogens",
         "lymphocytes produce specific antibodies",
@@ -1282,7 +1194,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1290,19 +1201,18 @@
     {
       "id": "BL05",
       "questionFamily": "Platelets",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State the function of platelets.",
       "marks": 2,
-      "modelAnswer": "Cause blood to clot; prevents excessive blood loss and entry of microorganisms.",
+      "modelAnswer": "Cause blood to clot prevents excessive blood loss and entry of microorganisms.",
       "markingPoints": [
         "Cause blood to clot",
         "prevents excessive blood loss and entry of microorganisms."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1310,19 +1220,18 @@
     {
       "id": "BL06",
       "questionFamily": "Blood-component application",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "A patient has a very low platelet count. Explain one likely consequence.",
       "marks": 2,
-      "modelAnswer": "Blood clots more slowly / bleeding continues; risk of excessive blood loss and pathogen entry increases.",
+      "modelAnswer": "Blood clots more slowly / bleeding continues risk of excessive blood loss and pathogen entry increases.",
       "markingPoints": [
         "Blood clots more slowly / bleeding continues",
         "risk of excessive blood loss and pathogen entry increases."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1330,12 +1239,12 @@
     {
       "id": "CH01",
       "questionFamily": "Coronary heart disease",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how fatty deposits in coronary arteries can lead to a heart attack.",
       "marks": 5,
-      "modelAnswer": "Deposits narrow/block coronary arteries; blood flow to heart muscle decreases; less oxygen and glucose reach cells; less aerobic respiration/energy release occurs; heart muscle cells may die, causing a heart attack.",
+      "modelAnswer": "Deposits narrow/block coronary arteries blood flow to heart muscle decreases less oxygen and glucose reach cells less aerobic respiration/energy release occurs heart muscle cells may die, causing a heart attack.",
       "markingPoints": [
         "Deposits narrow/block coronary arteries",
         "blood flow to heart muscle decreases",
@@ -1345,7 +1254,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1353,12 +1261,12 @@
     {
       "id": "CH02",
       "questionFamily": "Stents",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how a stent treats coronary heart disease and give one risk.",
       "marks": 3,
-      "modelAnswer": "Stent holds the artery open; restores/increases blood and oxygen flow to heart muscle; risk includes blood clot/thrombosis, infection or artery damage.",
+      "modelAnswer": "Stent holds the artery open restores/increases blood and oxygen flow to heart muscle risk includes blood clot/thrombosis, infection or artery damage.",
       "markingPoints": [
         "Stent holds the artery open",
         "restores/increases blood and oxygen flow to heart muscle",
@@ -1366,7 +1274,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1374,12 +1281,12 @@
     {
       "id": "CH03",
       "questionFamily": "Statins",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how statins reduce the risk of coronary heart disease and give one disadvantage.",
       "marks": 3,
-      "modelAnswer": "Reduce blood cholesterol; slow fatty-deposit formation and reduce narrowing; disadvantages include long-term use, side effects or delayed effect.",
+      "modelAnswer": "Reduce blood cholesterol slow fatty-deposit formation and reduce narrowing disadvantages include long-term use, side effects or delayed effect.",
       "markingPoints": [
         "Reduce blood cholesterol",
         "slow fatty-deposit formation and reduce narrowing",
@@ -1387,7 +1294,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1395,19 +1301,18 @@
     {
       "id": "CH04",
       "questionFamily": "Bypass surgery",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how coronary bypass surgery improves oxygen supply to heart muscle.",
       "marks": 2,
-      "modelAnswer": "A blood vessel is grafted to provide a route around the blocked/narrowed artery; this increases blood/oxygen supply to heart muscle.",
+      "modelAnswer": "A blood vessel is grafted to provide a route around the blocked/narrowed artery this increases blood/oxygen supply to heart muscle.",
       "markingPoints": [
         "A blood vessel is grafted to provide a route around the blocked/narrowed artery",
         "this increases blood/oxygen supply to heart muscle."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -1415,19 +1320,18 @@
     {
       "id": "CH05",
       "questionFamily": "Heart replacement",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Biology only",
       "question": "Evaluate the use of a donor heart compared with an artificial heart.",
       "marks": 6,
-      "modelAnswer": "Donor heart can give long-term, responsive pumping but donors are scarce; major surgery, rejection and immunosuppressants are risks. Artificial hearts are immediately available and avoid rejection / may rest the heart, but require power, may cause clots/infection, can fail and are often temporary. A justified conclusion should use the patient's context.",
+      "modelAnswer": "Donor heart can give long-term, responsive pumping but donors are scarce major surgery, rejection and immunosuppressants are risks. Artificial hearts are immediately available and avoid rejection / may rest the heart, but require power, may cause clots/infection, can fail and are often temporary. A justified conclusion should use the patient's context.",
       "markingPoints": [
         "Donor heart can give long-term, responsive pumping but donors are scarce",
         "major surgery, rejection and immunosuppressants are risks. Artificial hearts are immediately available and avoid rejection / may rest the heart, but require power, may cause clots/infection, can fail and are often temporary. A justified conclusion should use the patient's context."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1435,7 +1339,7 @@
     {
       "id": "CH06",
       "questionFamily": "Valve replacement",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Give one advantage and one disadvantage of a biological replacement heart valve compared with a mechanical valve.",
@@ -1446,7 +1350,6 @@
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1454,19 +1357,18 @@
     {
       "id": "CH07",
       "questionFamily": "Coronary risk factors",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Suggest four risk factors for coronary heart disease and distinguish a risk factor from a direct cause.",
       "marks": 5,
-      "modelAnswer": "smoking, diet high in saturated fat, inactivity, obesity, high blood pressure, high blood cholesterol, genetic predisposition. A risk factor increases probability; it does not prove that every exposed person will develop the disease or establish causation by itself.",
+      "modelAnswer": "smoking, diet high in saturated fat, inactivity, obesity, high blood pressure, high blood cholesterol, genetic predisposition. A risk factor increases probability it does not prove that every exposed person will develop the disease or establish causation by itself.",
       "markingPoints": [
         "smoking, diet high in saturated fat, inactivity, obesity, high blood pressure, high blood cholesterol, genetic predisposition. A risk factor increases probability",
         "it does not prove that every exposed person will develop the disease or establish causation by itself."
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1474,12 +1376,12 @@
     {
       "id": "CH08",
       "questionFamily": "CHD data interpretation",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "A coronary artery blockage increases from 0% to 10%, 20%, 50% and 80%; measured blood flows are 100, 64, 42, 8 and 2 cm³ min⁻¹. Describe the relationship and explain its biological consequence.",
       "marks": 4,
-      "modelAnswer": "As percentage blockage increases, blood flow decreases; the decrease is not linear and becomes severe at larger blockages; less oxygen and glucose reach heart muscle; aerobic respiration and energy release fall and cells may die, causing a heart attack.",
+      "modelAnswer": "As percentage blockage increases, blood flow decreases the decrease is not linear and becomes severe at larger blockages less oxygen and glucose reach heart muscle aerobic respiration and energy release fall and cells may die, causing a heart attack.",
       "markingPoints": [
         "As percentage blockage increases, blood flow decreases",
         "the decrease is not linear and becomes severe at larger blockages",
@@ -1488,7 +1390,6 @@
       ],
       "commandWord": "Describe and explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1496,7 +1397,7 @@
     {
       "id": "HD01",
       "questionFamily": "Health and disease",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Define health.",
@@ -1507,7 +1408,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1515,19 +1415,18 @@
     {
       "id": "HD02",
       "questionFamily": "Communicable and non-communicable disease",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Distinguish between communicable and non-communicable diseases and give one example of each.",
       "marks": 4,
-      "modelAnswer": "Communicable diseases are infectious and can be transmitted between organisms, e.g. measles; non-communicable diseases are not infectious and cannot be transmitted, e.g. coronary heart disease or cancer.",
+      "modelAnswer": "Communicable diseases are infectious and can be transmitted between organisms, e.g. measles non-communicable diseases are not infectious and cannot be transmitted, e.g. coronary heart disease or cancer.",
       "markingPoints": [
         "Communicable diseases are infectious and can be transmitted between organisms, e.g. measles",
         "non-communicable diseases are not infectious and cannot be transmitted, e.g. coronary heart disease or cancer."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1535,12 +1434,12 @@
     {
       "id": "HD03",
       "questionFamily": "Disease interactions",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Give two ways in which one disease can make another health problem more likely.",
       "marks": 2,
-      "modelAnswer": "Examples: immune-system defects increase infection risk; viruses can trigger cancers; severe physical illness can cause mental ill health; immune reactions to pathogens can trigger allergies.",
+      "modelAnswer": "Examples: immune-system defects increase infection risk viruses can trigger cancers severe physical illness can cause mental ill health immune reactions to pathogens can trigger allergies.",
       "markingPoints": [
         "Examples: immune-system defects increase infection risk",
         "viruses can trigger cancers",
@@ -1549,7 +1448,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1557,12 +1455,12 @@
     {
       "id": "HD04",
       "questionFamily": "Risk factors",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why a correlation between a risk factor and a disease does not prove that the factor causes the disease.",
       "marks": 3,
-      "modelAnswer": "A correlation is an association, not proof of causation; another/confounding variable may affect both; further controlled evidence and a plausible mechanism are needed.",
+      "modelAnswer": "A correlation is an association, not proof of causation another/confounding variable may affect both further controlled evidence and a plausible mechanism are needed.",
       "markingPoints": [
         "A correlation is an association, not proof of causation",
         "another/confounding variable may affect both",
@@ -1570,7 +1468,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1578,12 +1475,12 @@
     {
       "id": "HD05",
       "questionFamily": "Lifestyle risk factors",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State one disease associated with each of these risk factors: smoking, obesity and excessive alcohol consumption.",
       "marks": 3,
-      "modelAnswer": "Smoking: cardiovascular disease or lung cancer; obesity: type 2 diabetes or cardiovascular disease; excess alcohol: liver disease / impaired liver function.",
+      "modelAnswer": "Smoking: cardiovascular disease or lung cancer obesity: type 2 diabetes or cardiovascular disease excess alcohol: liver disease / impaired liver function.",
       "markingPoints": [
         "Smoking: cardiovascular disease or lung cancer",
         "obesity: type 2 diabetes or cardiovascular disease",
@@ -1591,7 +1488,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1599,24 +1495,19 @@
     {
       "id": "HD06",
       "questionFamily": "Risk data",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "In a study, 18 of 600 smokers and 6 of 600 non-smokers developed a disease. Calculate the percentage in each group and state what the data suggest.",
       "marks": 3,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nSmokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation.\nAnswer: Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation.",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation. Answer: Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation.",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
-        "Smokers: 18/600 × 100 = 3%",
-        "non-smokers: 6/600 × 100 = 1%",
-        "the disease was three times as common / associated with smoking, but this alone does not prove causation.",
-        "Answer: Smokers: 18/600 × 100 = 3%",
-        "non-smokers: 6/600 × 100 = 1%",
-        "the disease was three times as common / associated with smoking, but this alone does not prove causation."
+        "Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation.",
+        "Answer: Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation."
       ],
       "commandWord": "Calculate and interpret",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1624,12 +1515,12 @@
     {
       "id": "HD08",
       "questionFamily": "Cancer risk",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how smoking can increase the risk of cancer.",
       "marks": 3,
-      "modelAnswer": "Tobacco smoke contains carcinogens; these cause mutations/DNA damage; mutations in genes controlling the cell cycle can cause uncontrolled cell division and tumour formation.",
+      "modelAnswer": "Tobacco smoke contains carcinogens these cause mutations/DNA damage mutations in genes controlling the cell cycle can cause uncontrolled cell division and tumour formation.",
       "markingPoints": [
         "Tobacco smoke contains carcinogens",
         "these cause mutations/DNA damage",
@@ -1637,7 +1528,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.2.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1645,12 +1535,12 @@
     {
       "id": "PL01",
       "questionFamily": "Plant organs",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Name four plant organs.",
       "marks": 4,
-      "modelAnswer": "Roots; stem; leaves; flowers.",
+      "modelAnswer": "Roots stem leaves flowers.",
       "markingPoints": [
         "Roots",
         "stem",
@@ -1659,7 +1549,6 @@
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1667,12 +1556,12 @@
     {
       "id": "PL02",
       "questionFamily": "Epidermal tissue",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State two functions or adaptations of epidermal tissue in a leaf.",
       "marks": 2,
-      "modelAnswer": "Covers/protects the leaf; transparent so light reaches palisade cells; produces a waxy cuticle that reduces water loss.",
+      "modelAnswer": "Covers/protects the leaf transparent so light reaches palisade cells produces a waxy cuticle that reduces water loss.",
       "markingPoints": [
         "Covers/protects the leaf",
         "transparent so light reaches palisade cells",
@@ -1680,7 +1569,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1688,12 +1576,12 @@
     {
       "id": "PL03",
       "questionFamily": "Palisade mesophyll",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how palisade mesophyll tissue is adapted for photosynthesis.",
       "marks": 3,
-      "modelAnswer": "Near the upper surface where light intensity is high; cells are tightly packed; contain many chloroplasts to absorb light.",
+      "modelAnswer": "Near the upper surface where light intensity is high cells are tightly packed contain many chloroplasts to absorb light.",
       "markingPoints": [
         "Near the upper surface where light intensity is high",
         "cells are tightly packed",
@@ -1701,7 +1589,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1709,12 +1596,12 @@
     {
       "id": "PL04",
       "questionFamily": "Spongy mesophyll",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how spongy mesophyll tissue is adapted for gas exchange.",
       "marks": 3,
-      "modelAnswer": "Large air spaces create internal surface area; gases diffuse through the air spaces; thin moist cell surfaces / short diffusion distance enable rapid exchange.",
+      "modelAnswer": "Large air spaces create internal surface area gases diffuse through the air spaces thin moist cell surfaces / short diffusion distance enable rapid exchange.",
       "markingPoints": [
         "Large air spaces create internal surface area",
         "gases diffuse through the air spaces",
@@ -1722,7 +1609,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1730,19 +1616,18 @@
     {
       "id": "PL05",
       "questionFamily": "Meristem tissue",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "State where meristem tissue is found and its function.",
       "marks": 2,
-      "modelAnswer": "Found at growing tips of roots and shoots; cells divide by mitosis and differentiate to produce new tissues/growth.",
+      "modelAnswer": "Found at growing tips of roots and shoots cells divide by mitosis and differentiate to produce new tissues/growth.",
       "markingPoints": [
         "Found at growing tips of roots and shoots",
         "cells divide by mitosis and differentiate to produce new tissues/growth."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1750,12 +1635,12 @@
     {
       "id": "PL06",
       "questionFamily": "Leaf adaptations",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how a leaf is adapted for photosynthesis and gas exchange.",
       "marks": 6,
-      "modelAnswer": "Broad/large surface area absorbs light; thin gives short diffusion distance; transparent epidermis/cuticle lets light through; palisade cells contain many chloroplasts; stomata ; air spaces permit diffusion; veins supply water and remove sugars. linked points.",
+      "modelAnswer": "Broad/large surface area absorbs light thin gives short diffusion distance transparent epidermis/cuticle lets light through palisade cells contain many chloroplasts stomata air spaces permit diffusion veins supply water and remove sugars. linked points.",
       "markingPoints": [
         "Broad/large surface area absorbs light",
         "thin gives short diffusion distance",
@@ -1767,7 +1652,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1775,12 +1659,12 @@
     {
       "id": "XT01",
       "questionFamily": "Xylem",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the structure and function of xylem vessels.",
       "marks": 5,
-      "modelAnswer": "Transport water and mineral ions from roots to stems/leaves; made from dead cells joined end-to-end; no end walls/cell contents form a hollow tube; walls contain lignin for strength/waterproofing; support the plant.",
+      "modelAnswer": "Transport water and mineral ions from roots to stems/leaves made from dead cells joined end-to-end no end walls/cell contents form a hollow tube walls contain lignin for strength/waterproofing support the plant.",
       "markingPoints": [
         "Transport water and mineral ions from roots to stems/leaves",
         "made from dead cells joined end-to-end",
@@ -1790,7 +1674,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1798,12 +1681,12 @@
     {
       "id": "XT02",
       "questionFamily": "Phloem",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe the function of phloem tissue.",
       "marks": 3,
-      "modelAnswer": "Transports dissolved sugars, mainly sucrose, and other assimilates; movement is called translocation; can occur from sources to sinks in either direction along the plant.",
+      "modelAnswer": "Transports dissolved sugars, mainly sucrose, and other assimilates movement is called translocation can occur from sources to sinks in either direction along the plant.",
       "markingPoints": [
         "Transports dissolved sugars, mainly sucrose, and other assimilates",
         "movement is called translocation",
@@ -1811,7 +1694,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1819,7 +1701,7 @@
     {
       "id": "XT03",
       "questionFamily": "Xylem vs phloem",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Compare transport in xylem and phloem.",
@@ -1830,7 +1712,6 @@
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1838,19 +1719,18 @@
     {
       "id": "XT04",
       "questionFamily": "Root hair absorption",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how water and mineral ions enter root hair cells.",
       "marks": 4,
-      "modelAnswer": "Water enters by osmosis from higher water concentration in soil to lower water concentration in cells through a partially permeable membrane; mineral ions may enter by active transport against their concentration gradient using energy from respiration.",
+      "modelAnswer": "Water enters by osmosis from higher water concentration in soil to lower water concentration in cells through a partially permeable membrane mineral ions may enter by active transport against their concentration gradient using energy from respiration.",
       "markingPoints": [
         "Water enters by osmosis from higher water concentration in soil to lower water concentration in cells through a partially permeable membrane",
         "mineral ions may enter by active transport against their concentration gradient using energy from respiration."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1858,12 +1738,12 @@
     {
       "id": "XT05",
       "questionFamily": "Root hair adaptations",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how root hair cells are adapted for absorption.",
       "marks": 3,
-      "modelAnswer": "Long projection provides a large surface area; thin wall gives a short transport distance; many mitochondria release energy for active transport of mineral ions.",
+      "modelAnswer": "Long projection provides a large surface area thin wall gives a short transport distance many mitochondria release energy for active transport of mineral ions.",
       "markingPoints": [
         "Long projection provides a large surface area",
         "thin wall gives a short transport distance",
@@ -1871,7 +1751,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1879,19 +1758,18 @@
     {
       "id": "TR01",
       "questionFamily": "Transpiration",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Define transpiration.",
       "marks": 2,
-      "modelAnswer": "Loss of water vapour from leaves; water evaporates from mesophyll cell surfaces and diffuses out through stomata.",
+      "modelAnswer": "Loss of water vapour from leaves water evaporates from mesophyll cell surfaces and diffuses out through stomata.",
       "markingPoints": [
         "Loss of water vapour from leaves",
         "water evaporates from mesophyll cell surfaces and diffuses out through stomata."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1899,12 +1777,12 @@
     {
       "id": "TR02",
       "questionFamily": "Transpiration stream",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how water moves from the roots to the leaves in the transpiration stream.",
       "marks": 5,
-      "modelAnswer": "Water enters roots by osmosis; moves into xylem; evaporates from mesophyll surfaces; water vapour diffuses out through stomata; this water loss creates tension/pull that draws a continuous column of water upward through xylem.",
+      "modelAnswer": "Water enters roots by osmosis moves into xylem evaporates from mesophyll surfaces water vapour diffuses out through stomata this water loss creates tension/pull that draws a continuous column of water upward through xylem.",
       "markingPoints": [
         "Water enters roots by osmosis",
         "moves into xylem",
@@ -1914,7 +1792,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1922,12 +1799,12 @@
     {
       "id": "TR03",
       "questionFamily": "Light and transpiration",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why increasing light intensity usually increases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Stomata open for carbon dioxide uptake/photosynthesis; more open stomata increase the area/pathway for water-vapour diffusion; more water is lost.",
+      "modelAnswer": "Stomata open for carbon dioxide uptake/photosynthesis more open stomata increase the area/pathway for water-vapour diffusion more water is lost.",
       "markingPoints": [
         "Stomata open for carbon dioxide uptake/photosynthesis",
         "more open stomata increase the area/pathway for water-vapour diffusion",
@@ -1935,7 +1812,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1943,12 +1819,12 @@
     {
       "id": "TR04",
       "questionFamily": "Temperature and transpiration",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why increasing temperature usually increases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Water molecules gain kinetic energy; evaporation from mesophyll surfaces increases; water vapour diffuses out faster.",
+      "modelAnswer": "Water molecules gain kinetic energy evaporation from mesophyll surfaces increases water vapour diffuses out faster.",
       "markingPoints": [
         "Water molecules gain kinetic energy",
         "evaporation from mesophyll surfaces increases",
@@ -1956,7 +1832,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1964,12 +1839,12 @@
     {
       "id": "TR05",
       "questionFamily": "Humidity and transpiration",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why increasing humidity decreases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Water-vapour concentration outside the leaf increases; the concentration gradient between leaf air spaces and outside decreases; diffusion of water vapour slows.",
+      "modelAnswer": "Water-vapour concentration outside the leaf increases the concentration gradient between leaf air spaces and outside decreases diffusion of water vapour slows.",
       "markingPoints": [
         "Water-vapour concentration outside the leaf increases",
         "the concentration gradient between leaf air spaces and outside decreases",
@@ -1977,7 +1852,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1985,12 +1859,12 @@
     {
       "id": "TR06",
       "questionFamily": "Air movement and transpiration",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why increasing air movement increases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Moving air removes water vapour from around the leaf; maintains a steep concentration gradient; water vapour diffuses out faster.",
+      "modelAnswer": "Moving air removes water vapour from around the leaf maintains a steep concentration gradient water vapour diffuses out faster.",
       "markingPoints": [
         "Moving air removes water vapour from around the leaf",
         "maintains a steep concentration gradient",
@@ -1998,7 +1872,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -2006,12 +1879,12 @@
     {
       "id": "TR07",
       "questionFamily": "Stomata and guard cells",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain how guard cells control gas exchange and water loss.",
       "marks": 4,
-      "modelAnswer": "Guard cells change shape/turgor; when turgid they open the stoma and when flaccid they close it; open stomata ; closure reduces water loss.",
+      "modelAnswer": "Guard cells change shape/turgor when turgid they open the stoma and when flaccid they close it open stomata closure reduces water loss.",
       "markingPoints": [
         "Guard cells change shape/turgor",
         "when turgid they open the stoma and when flaccid they close it",
@@ -2020,7 +1893,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -2028,19 +1900,18 @@
     {
       "id": "TR08",
       "questionFamily": "Stomatal distribution",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why many terrestrial plants have more stomata on the lower surface of the leaf.",
       "marks": 2,
-      "modelAnswer": "The lower surface is cooler/less exposed to wind and sun; this reduces evaporation and water loss while allowing gas exchange.",
+      "modelAnswer": "The lower surface is cooler/less exposed to wind and sun this reduces evaporation and water loss while allowing gas exchange.",
       "markingPoints": [
         "The lower surface is cooler/less exposed to wind and sun",
         "this reduces evaporation and water loss while allowing gas exchange."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -2048,27 +1919,19 @@
     {
       "id": "TR09",
       "questionFamily": "Stomatal density",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Higher",
       "question": "A circular microscope field has diameter 0.375 mm and contains four open stomata. Calculate the number of open stomata per mm². Use area = πr² and give the final answer to two significant figures.",
       "marks": 4,
-      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2.\nRadius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻².\nAnswer: Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻².",
+      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2. Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻². Answer: Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻².",
       "markingPoints": [
-        "area of a circle = πr²",
-        "r = diameter ÷ 2.",
-        "Radius = 0.1875 mm",
-        "area = π × 0.1875² = 0.1104 mm²",
-        "density = 4 ÷ 0.1104 = 36.2...",
-        "to two significant figures = 36 stomata mm⁻².",
-        "Answer: Radius = 0.1875 mm",
-        "area = π × 0.1875² = 0.1104 mm²",
-        "density = 4 ÷ 0.1104 = 36.2...",
-        "to two significant figures = 36 stomata mm⁻²."
+        "area of a circle = πr²; r = diameter ÷ 2.",
+        "Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻².",
+        "Answer: Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻²."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Practical knowledge"
@@ -2076,12 +1939,12 @@
     {
       "id": "TR10",
       "questionFamily": "Guard-cell osmosis",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Higher",
       "question": "Leaf epidermis in salt solutions of 0.0, 0.1, 0.2, 0.3, 0.4 and 0.5 mol dm⁻³ has 86, 84, 72, 60, 38 and 12% open stomata. Estimate the concentration that would give 50% open stomata and explain how potassium ions can cause a stoma to open.",
       "marks": 5,
-      "modelAnswer": "50% lies between 0.3 and 0.4 mol dm⁻³; linear interpolation gives about 0.35 mol dm⁻³. Potassium ions enter guard cells, increasing solute concentration/lowering water potential; water enters by osmosis; guard cells become turgid and curve because the inner wall is less flexible, opening the pore.",
+      "modelAnswer": "50% lies between 0.3 and 0.4 mol dm⁻³ linear interpolation gives about 0.35 mol dm⁻³. Potassium ions enter guard cells, increasing solute concentration/lowering water potential water enters by osmosis guard cells become turgid and curve because the inner wall is less flexible, opening the pore.",
       "markingPoints": [
         "50% lies between 0.3 and 0.4 mol dm⁻³",
         "linear interpolation gives about 0.35 mol dm⁻³. Potassium ions enter guard cells, increasing solute concentration/lowering water potential",
@@ -2090,7 +1953,6 @@
       ],
       "commandWord": "Estimate and explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -2098,12 +1960,12 @@
     {
       "id": "TR11",
       "questionFamily": "Stomatal correlation",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Higher",
       "question": "Plants grown at increasing carbon dioxide concentration developed fewer stomata per mm². Describe this relationship and suggest an adaptive explanation.",
       "marks": 3,
-      "modelAnswer": "There is a negative correlation: as carbon dioxide concentration increases, stomatal density decreases; sufficient carbon dioxide can enter through fewer stomata; fewer stomata reduce water loss while still permitting photosynthesis.",
+      "modelAnswer": "There is a negative correlation: as carbon dioxide concentration increases, stomatal density decreases sufficient carbon dioxide can enter through fewer stomata fewer stomata reduce water loss while still permitting photosynthesis.",
       "markingPoints": [
         "There is a negative correlation: as carbon dioxide concentration increases, stomatal density decreases",
         "sufficient carbon dioxide can enter through fewer stomata",
@@ -2111,7 +1973,6 @@
       ],
       "commandWord": "Describe and suggest",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -2119,12 +1980,12 @@
     {
       "id": "PO01",
       "questionFamily": "Potometer practical",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Describe how to use a bubble potometer to investigate the effect of wind speed on water uptake.",
       "marks": 6,
-      "modelAnswer": "Cut a leafy shoot under water and assemble the apparatus under water; seal joints so it is airtight/watertight; introduce an air bubble; place a fan at measured distances/use set wind speeds; measure bubble distance in a fixed time; reset and repeat; keep temperature, light intensity, humidity and leaf area constant; calculate mean rate.",
+      "modelAnswer": "Cut a leafy shoot under water and assemble the apparatus under water seal joints so it is airtight/watertight introduce an air bubble place a fan at measured distances/use set wind speeds measure bubble distance in a fixed time reset and repeat keep temperature, light intensity, humidity and leaf area constant calculate mean rate.",
       "markingPoints": [
         "Cut a leafy shoot under water and assemble the apparatus under water",
         "seal joints so it is airtight/watertight",
@@ -2137,7 +1998,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge"
@@ -2145,23 +2005,19 @@
     {
       "id": "PO02",
       "questionFamily": "Potometer calculation",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "In 5 minutes, an air bubble moves 36 mm along a capillary tube with cross-sectional area 0.50 mm². Calculate the volume of water taken up per minute.",
       "marks": 3,
-      "modelAnswer": "volume = distance × cross-sectional area; rate = volume ÷ time.\nVolume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.\nAnswer: Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
+      "modelAnswer": "volume = distance × cross-sectional area; rate = volume ÷ time. Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹. Answer: Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
       "markingPoints": [
-        "volume = distance × cross-sectional area",
-        "rate = volume ÷ time.",
-        "Volume = distance × area = 36 × 0.50 = 18 mm³",
-        "rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
-        "Answer: Volume = distance × area = 36 × 0.50 = 18 mm³",
-        "rate = 18 ÷ 5 = 3.6 mm³ min⁻¹."
+        "volume = distance × cross-sectional area; rate = volume ÷ time.",
+        "Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
+        "Answer: Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -2169,19 +2025,18 @@
     {
       "id": "PO03",
       "questionFamily": "Potometer limitation",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why a potometer does not directly measure transpiration rate.",
       "marks": 2,
-      "modelAnswer": "It measures water uptake, not water loss; some absorbed water is used in photosynthesis, growth or maintaining turgor rather than being transpired.",
+      "modelAnswer": "It measures water uptake, not water loss some absorbed water is used in photosynthesis, growth or maintaining turgor rather than being transpired.",
       "markingPoints": [
         "It measures water uptake, not water loss",
         "some absorbed water is used in photosynthesis, growth or maintaining turgor rather than being transpired."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -2189,19 +2044,18 @@
     {
       "id": "PO04",
       "questionFamily": "Potometer validity",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why the potometer apparatus must be sealed and the shoot cut under water.",
       "marks": 2,
-      "modelAnswer": "Sealing prevents leaks/air entry so bubble movement is due to water uptake; cutting under water prevents air entering and breaking the continuous xylem water column.",
+      "modelAnswer": "Sealing prevents leaks/air entry so bubble movement is due to water uptake cutting under water prevents air entering and breaking the continuous xylem water column.",
       "markingPoints": [
         "Sealing prevents leaks/air entry so bubble movement is due to water uptake",
         "cutting under water prevents air entering and breaking the continuous xylem water column."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -2209,22 +2063,19 @@
     {
       "id": "PO05",
       "questionFamily": "Transpiration data",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Higher",
       "question": "A plant loses 24 cm³ of water in 3 hours. Calculate the mean rate in cm³ per minute and give the answer in standard form.",
       "marks": 3,
-      "modelAnswer": "mean rate = total change ÷ total time.\n3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.\nAnswer: 3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
+      "modelAnswer": "mean rate = total change ÷ total time. 3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹. Answer: 3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
       "markingPoints": [
         "mean rate = total change ÷ total time.",
-        "3 hours = 180 minutes",
-        "24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
-        "Answer: 3 hours = 180 minutes",
-        "24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹."
+        "3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
+        "Answer: 3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -2232,12 +2083,12 @@
     {
       "id": "PO07",
       "questionFamily": "Transpiration mass-loss investigation",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Plan an investigation using change in mass to compare water loss from shoots at 20 °C without a fan, 20 °C with a fan, 35 °C without a fan and 35 °C with a fan.",
       "marks": 6,
-      "modelAnswer": "Use shoots of the same species with equal leaf area; place each in equal water volumes and cover/seal the water surface to prevent direct evaporation; record initial mass; expose for the same time; record final mass and calculate mass loss per unit time; control light and humidity; repeat and calculate means.",
+      "modelAnswer": "Use shoots of the same species with equal leaf area place each in equal water volumes and cover/seal the water surface to prevent direct evaporation record initial mass expose for the same time record final mass and calculate mass loss per unit time control light and humidity repeat and calculate means.",
       "markingPoints": [
         "Use shoots of the same species with equal leaf area",
         "place each in equal water volumes and cover/seal the water surface to prevent direct evaporation",
@@ -2249,7 +2100,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -2257,19 +2107,18 @@
     {
       "id": "PO08",
       "questionFamily": "Potometer fair test",
-      "subtopic": "Plant Tissues, Organs & Systems",
+      "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Both",
       "question": "Explain why the same shoot or shoots with the same total leaf area should be used when comparing potometer conditions.",
       "marks": 2,
-      "modelAnswer": "Different shoots can have different leaf areas, numbers of leaves and stomata; this would change water uptake independently of the tested condition, so leaf area must be controlled for a valid comparison.",
+      "modelAnswer": "Different shoots can have different leaf areas, numbers of leaves and stomata this would change water uptake independently of the tested condition, so leaf area must be controlled for a valid comparison.",
       "markingPoints": [
         "Different shoots can have different leaf areas, numbers of leaves and stomata",
         "this would change water uptake independently of the tested condition, so leaf area must be controlled for a valid comparison."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -2277,7 +2126,7 @@
     {
       "id": "OR-EX1",
       "questionFamily": "Synoptic explanation",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Gas exchange and circulation",
       "sourceSubtopic": "Gas exchange and circulation",
       "tier": "Both",
       "question": "Explain how the structure of an alveolus and its blood supply maintain a rapid rate of oxygen diffusion during exercise.",
@@ -2288,7 +2137,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.2.2.2, 4.2.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -2296,7 +2144,7 @@
     {
       "id": "OR-EX2",
       "questionFamily": "Evaluation — treatment",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Cardiovascular disease",
       "sourceSubtopic": "Cardiovascular disease",
       "tier": "Both",
       "question": "Evaluate using a stent rather than a heart transplant to treat coronary heart disease.",
@@ -2307,7 +2155,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -2315,12 +2162,12 @@
     {
       "id": "PK01",
       "questionFamily": "Food-test practical",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Food tests",
       "sourceSubtopic": "Food tests",
       "tier": "Both",
       "question": "Describe the tests for starch, reducing sugars, protein and lipids, including each positive result.",
       "marks": 8,
-      "modelAnswer": "Starch: add iodine solution; blue-black is positive. Reducing sugar: add Benedict’s solution and heat in a water bath; green/yellow/orange/brick-red precipitate is positive. Protein: add Biuret reagent; lilac/purple is positive. Lipid: add ethanol, shake, then add water; a white cloudy emulsion is positive.",
+      "modelAnswer": "Starch: add iodine solution blue-black is positive. Reducing sugar: add Benedict’s solution and heat in a water bath green/yellow/orange/brick-red precipitate is positive. Protein: add Biuret reagent lilac/purple is positive. Lipid: add ethanol, shake, then add water a white cloudy emulsion is positive.",
       "markingPoints": [
         "Starch: add iodine solution",
         "blue-black is positive. Reducing sugar: add Benedict’s solution and heat in a water bath",
@@ -2330,7 +2177,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 4–7",
       "knowledgeType": "Practical knowledge"
@@ -2338,7 +2184,7 @@
     {
       "id": "PK02",
       "questionFamily": "Food-test controls",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Food tests",
       "sourceSubtopic": "Food tests",
       "tier": "Both",
       "question": "Explain why a positive control and a negative control are useful in food tests.",
@@ -2349,7 +2195,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -2357,12 +2202,12 @@
     {
       "id": "PK03",
       "questionFamily": "Enzyme practical",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Enzymes",
       "sourceSubtopic": "Enzymes",
       "tier": "Both",
       "question": "Plan an investigation of the effect of pH on the rate at which amylase breaks down starch.",
       "marks": 6,
-      "modelAnswer": "Use buffer solutions of different pH; keep amylase and starch concentrations and volumes constant; keep temperature constant in a water bath; mix amylase and starch and start timing; place samples onto iodine at regular intervals; record the time when iodine stays orange-brown; calculate rate as 1 ÷ time; repeat and calculate means.",
+      "modelAnswer": "Use buffer solutions of different pH keep amylase and starch concentrations and volumes constant keep temperature constant in a water bath mix amylase and starch and start timing place samples onto iodine at regular intervals record the time when iodine stays orange-brown calculate rate as 1 ÷ time repeat and calculate means.",
       "markingPoints": [
         "Use buffer solutions of different pH",
         "keep amylase and starch concentrations and volumes constant",
@@ -2375,7 +2220,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary"
@@ -2383,7 +2227,7 @@
     {
       "id": "PK04",
       "questionFamily": "Enzyme end point",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Enzymes",
       "sourceSubtopic": "Enzymes",
       "tier": "Both",
       "question": "Explain why deciding when iodine no longer turns blue-black can reduce the precision of an amylase investigation.",
@@ -2394,7 +2238,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -2402,7 +2245,7 @@
     {
       "id": "PK05",
       "questionFamily": "Enzyme temperature control",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Enzymes",
       "sourceSubtopic": "Enzymes",
       "tier": "Both",
       "question": "Explain why the reaction mixtures should reach the water-bath temperature before an enzyme investigation begins.",
@@ -2413,7 +2256,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge"
@@ -2421,7 +2263,7 @@
     {
       "id": "PK06",
       "questionFamily": "Biological variation",
-      "subtopic": "Animal Tissues, Organs & Systems",
+      "subtopic": "Enzymes",
       "sourceSubtopic": "Enzymes",
       "tier": "Both",
       "question": "Replicate enzyme results vary slightly at the same pH. Distinguish an anomalous result from normal random variation.",
@@ -2432,7 +2274,6 @@
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"

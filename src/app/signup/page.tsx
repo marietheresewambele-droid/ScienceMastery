@@ -61,10 +61,10 @@ export default function SignUpPage() {
 
   if (sent) {
     return <AuthLayout eyebrow="One last step" title="Check your email" description={`We sent a verification link to ${email}. Click it to activate your SciMastery account.`}>
-      <div className="rounded-2xl border border-[#bfe8d1] bg-[#effaf4] p-5 text-sm leading-6 text-[#17623f]">The link may take a minute to arrive. Check your spam or junk folder if you cannot see it.</div>
+      <div className="rounded-2xl border-2 border-ink bg-moss-soft p-5 text-sm leading-6 text-moss-dark">The link may take a minute to arrive. Check your spam or junk folder if you cannot see it.</div>
       {error && <p className={`${errorClass} mt-4`}>{error}</p>}
       <button className={`${primaryButtonClass} mt-5`} disabled={busy} onClick={resend}>{busy ? "Sending…" : "Resend verification email"}</button>
-      <p className="mt-6 text-center text-sm text-[#5a6b82]"><Link className="font-bold text-[#008c46]" href="/login">Back to sign in</Link></p>
+      <p className="mt-6 text-center text-sm text-ink-soft"><Link className="font-bold text-orange-dark" href="/login">Back to sign in</Link></p>
     </AuthLayout>;
   }
 
@@ -72,11 +72,11 @@ export default function SignUpPage() {
     <form className="space-y-5" onSubmit={submit}>
       <label className="block text-sm font-bold">First name<input className={fieldClass} value={firstName} onChange={(event) => setFirstName(event.target.value)} autoComplete="given-name" placeholder="Your first name" required /></label>
       <label className="block text-sm font-bold">Email address<input className={fieldClass} type="email" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="email" placeholder="you@example.com" required /></label>
-      <label className="block text-sm font-bold">Password<div className="relative"><input className={`${fieldClass} pr-16`} type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="new-password" placeholder="At least 8 characters" minLength={8} required /><button className="absolute right-4 top-[1.3rem] text-xs font-black text-[#008c46]" type="button" onClick={() => setShowPassword((shown) => !shown)}>{showPassword ? "Hide" : "Show"}</button></div></label>
+      <label className="block text-sm font-bold">Password<div className="relative"><input className={`${fieldClass} pr-16`} type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="new-password" placeholder="At least 8 characters" minLength={8} required /><button className="absolute right-4 top-[1.3rem] text-xs font-black text-orange-dark" type="button" onClick={() => setShowPassword((shown) => !shown)}>{showPassword ? "Hide" : "Show"}</button></div></label>
       <label className="block text-sm font-bold">Confirm password<input className={fieldClass} type={showPassword ? "text" : "password"} value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} autoComplete="new-password" placeholder="Type your password again" required /></label>
       {error && <p className={errorClass} role="alert">{error}</p>}
       <button className={primaryButtonClass} disabled={busy} type="submit">{busy ? "Creating account…" : "Create free account"}</button>
     </form>
-    <p className="mt-6 text-center text-sm text-[#5a6b82]">Already have an account? <Link className="font-extrabold text-[#008c46]" href="/login">Sign in</Link></p>
+    <p className="mt-6 text-center text-sm text-ink-soft">Already have an account? <Link className="font-extrabold text-orange-dark" href="/login">Sign in</Link></p>
   </AuthLayout>;
 }

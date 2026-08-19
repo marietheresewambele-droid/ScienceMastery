@@ -1,0 +1,122 @@
+[
+  {
+    "family": "Variables",
+    "modeLayer": "Core",
+    "primaryPurpose": "Identify IV, DV and meaningful controls",
+    "typicalAo": "AO2",
+    "typicalMarks": 2,
+    "frequency": "High",
+    "masteryEvidence": "Two correct attempts",
+    "appBehaviour": "Offer Hint 1 after first error"
+  },
+  {
+    "family": "Method",
+    "modeLayer": "Core",
+    "primaryPurpose": "Recall and apply a valid sequence",
+    "typicalAo": "AO1/AO2",
+    "typicalMarks": 4,
+    "frequency": "High",
+    "masteryEvidence": "Two correct attempts",
+    "appBehaviour": "Offer Hint 1 after first error"
+  },
+  {
+    "family": "Apparatus and accuracy",
+    "modeLayer": "Core",
+    "primaryPurpose": "Choose apparatus and improve measurement quality",
+    "typicalAo": "AO2",
+    "typicalMarks": 3,
+    "frequency": "High",
+    "masteryEvidence": "Two correct attempts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Safety",
+    "modeLayer": "Core",
+    "primaryPurpose": "Link hazard, risk and control",
+    "typicalAo": "AO2",
+    "typicalMarks": 2,
+    "frequency": "Medium",
+    "masteryEvidence": "Two correct attempts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Critical-step reasoning",
+    "modeLayer": "Deepen",
+    "primaryPurpose": "Explain why method steps matter",
+    "typicalAo": "AO2",
+    "typicalMarks": 3,
+    "frequency": "High",
+    "masteryEvidence": "Two correct attempts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Prediction and theory",
+    "modeLayer": "Deepen",
+    "primaryPurpose": "Connect practical outcome to scientific theory",
+    "typicalAo": "AO2",
+    "typicalMarks": 3,
+    "frequency": "High",
+    "masteryEvidence": "Two correct attempts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Data and graph",
+    "modeLayer": "Exam",
+    "primaryPurpose": "Process tables/graphs and draw justified conclusions",
+    "typicalAo": "AO2/AO3",
+    "typicalMarks": 4,
+    "frequency": "High",
+    "masteryEvidence": "Correct application in two contexts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Calculation",
+    "modeLayer": "Exam",
+    "primaryPurpose": "Apply equations or quantitative reasoning",
+    "typicalAo": "AO2",
+    "typicalMarks": 3,
+    "frequency": "High",
+    "masteryEvidence": "Correct application in two contexts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Error source",
+    "modeLayer": "Exam",
+    "primaryPurpose": "Explain a specific limitation and its effect",
+    "typicalAo": "AO3",
+    "typicalMarks": 2,
+    "frequency": "High",
+    "masteryEvidence": "Correct application in two contexts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Improvement",
+    "modeLayer": "Exam",
+    "primaryPurpose": "Match a precise improvement to a limitation",
+    "typicalAo": "AO3",
+    "typicalMarks": 3,
+    "frequency": "High",
+    "masteryEvidence": "Correct application in two contexts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Evaluate conclusion",
+    "modeLayer": "Exam",
+    "primaryPurpose": "Judge evidence using validity, reliability and uncertainty",
+    "typicalAo": "AO3",
+    "typicalMarks": 4,
+    "frequency": "High",
+    "masteryEvidence": "Correct application in two contexts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  },
+  {
+    "family": "Transfer challenge",
+    "modeLayer": "Challenge",
+    "primaryPurpose": "Apply practical logic to a changed scenario",
+    "typicalAo": "AO2/AO3",
+    "typicalMarks": 4,
+    "frequency": "Medium",
+    "masteryEvidence": "Correct application in two contexts",
+    "appBehaviour": "Offer Hint 1 then Hint 2; reveal answer after submission"
+  }
+]

@@ -1,26 +1,121 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ScienceMastery "field notebook" palette — warm cream base, terracotta,
+     goldenrod and teal accents, thick ink borders. Inspired by the
+     hand-illustrated science explainer reference deck. */
+  --background: #f4efe2;
+  --foreground: #201a13;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --color-cream: #f4efe2;
+  --color-cream-soft: #ece4d0;
+  --color-card: #fbf8f0;
+  --color-ink: #201a13;
+  --color-ink-soft: #4a4033;
+
+  --color-orange: #e2643c;
+  --color-orange-dark: #c04e2c;
+  --color-orange-soft: #f7ddcd;
+
+  --color-yellow: #f0c43d;
+  --color-yellow-dark: #d9a520;
+  --color-yellow-soft: #faecc0;
+
+  --color-teal: #4b93a6;
+  --color-teal-dark: #336c7c;
+  --color-teal-soft: #d7ebee;
+
+  --color-moss: #8a9a4e;
+  --color-moss-dark: #6c7a3a;
+  --color-moss-soft: #e6ecd0;
+
+  --color-brown: #8b5e3c;
+
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fredoka", "Nunito", ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--color-ink);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: var(--color-yellow);
+  color: var(--color-ink);
+}
+
+/* Reusable "sticker" primitives used across the app to match the
+   illustrated reference style: thick ink borders + a flat offset shadow
+   instead of a soft blurred shadow. */
+.sm-panel {
+  background: var(--color-card);
+  border: 2px solid var(--color-ink);
+  border-radius: 1.25rem;
+  box-shadow: 5px 5px 0 0 var(--color-ink);
+}
+
+.sm-panel-sm {
+  background: var(--color-card);
+  border: 2px solid var(--color-ink);
+  border-radius: 0.9rem;
+  box-shadow: 4px 4px 0 0 var(--color-ink);
+}
+
+.sm-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 2px solid var(--color-ink);
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 4px 4px 0 0 var(--color-ink);
+}
+
+.sm-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 0 var(--color-ink);
+}
+
+.sm-btn:active {
+  transform: translate(0, 0);
+  box-shadow: 2px 2px 0 0 var(--color-ink);
+}
+
+.sm-tag {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid var(--color-ink);
+  border-radius: 0.5rem;
+  font-weight: 700;
+  background: var(--color-yellow);
+  color: var(--color-ink);
+}
+
+.sm-scribble {
+  position: absolute;
+  pointer-events: none;
 }

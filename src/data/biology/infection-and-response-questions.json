@@ -1,33 +1,9 @@
 {
-  "metadata": {
-    "topicId": "infection-and-response",
-    "topic": "Infection and Response",
-    "sourceWorkbook": "AQA_GCSE_Biology_Mastery_Workbook_Topics_6_7_Self_Contained_Clean_Answers.xlsx",
-    "questionCount": 78,
-    "subtopics": [
-      {
-        "title": "Communicable Diseases",
-        "questionCount": 57
-      },
-      {
-        "title": "Monoclonal Antibodies",
-        "questionCount": 7
-      },
-      {
-        "title": "Plant Disease",
-        "questionCount": 7
-      },
-      {
-        "title": "Linked Exam Demands",
-        "questionCount": 7
-      }
-    ]
-  },
   "questions": [
     {
       "id": "CD01",
       "questionFamily": "Communicable disease",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Define a communicable disease.",
@@ -38,7 +14,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -46,19 +21,18 @@
     {
       "id": "CD02",
       "questionFamily": "Pathogens",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Define a pathogen and name the four main pathogen groups.",
       "marks": 5,
-      "modelAnswer": "A microorganism that causes infectious disease; bacteria, viruses, fungi and protists.",
+      "modelAnswer": "A microorganism that causes infectious disease bacteria, viruses, fungi and protists.",
       "markingPoints": [
         "A microorganism that causes infectious disease",
         "bacteria, viruses, fungi and protists."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -66,12 +40,12 @@
     {
       "id": "CD03",
       "questionFamily": "Bacteria",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how bacteria can make a person ill.",
       "marks": 3,
-      "modelAnswer": "Bacteria reproduce rapidly inside the body; they may damage cells directly and/or produce toxins; the toxins damage cells and tissues.",
+      "modelAnswer": "Bacteria reproduce rapidly inside the body they may damage cells directly and/or produce toxins the toxins damage cells and tissues.",
       "markingPoints": [
         "Bacteria reproduce rapidly inside the body",
         "they may damage cells directly and/or produce toxins",
@@ -79,7 +53,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -87,12 +60,12 @@
     {
       "id": "CD04",
       "questionFamily": "Viruses",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how viruses can make a person ill.",
       "marks": 3,
-      "modelAnswer": "Viruses enter living cells and use the cells' machinery to replicate; new viruses are produced; the host cells are damaged or destroyed.",
+      "modelAnswer": "Viruses enter living cells and use the cells' machinery to replicate new viruses are produced the host cells are damaged or destroyed.",
       "markingPoints": [
         "Viruses enter living cells and use the cells' machinery to replicate",
         "new viruses are produced",
@@ -100,7 +73,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -108,19 +80,18 @@
     {
       "id": "CD05",
       "questionFamily": "Pathogen comparison",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Compare bacteria, viruses, fungi and protists as pathogens.",
       "marks": 6,
-      "modelAnswer": "Bacteria are living cells that reproduce rapidly and may release toxins. Viruses are non-cellular and replicate only inside host cells, damaging them. Fungi may grow on/in tissues and produce spores. Protists are single-celled eukaryotes; some are parasites and may be spread by vectors.",
+      "modelAnswer": "Bacteria are living cells that reproduce rapidly and may release toxins. Viruses are non-cellular and replicate only inside host cells, damaging them. Fungi may grow on/in tissues and produce spores. Protists are single-celled eukaryotes some are parasites and may be spread by vectors.",
       "markingPoints": [
         "Bacteria are living cells that reproduce rapidly and may release toxins. Viruses are non-cellular and replicate only inside host cells, damaging them. Fungi may grow on/in tissues and produce spores. Protists are single-celled eukaryotes",
         "some are parasites and may be spread by vectors."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -128,12 +99,12 @@
     {
       "id": "CD06",
       "questionFamily": "Transmission",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State four ways communicable diseases can be transmitted and give one example of each.",
       "marks": 4,
-      "modelAnswer": "Air/droplets, e.g. measles; direct or sexual contact, e.g. gonorrhoea/HIV; contaminated food/water, e.g. Salmonella; vectors, e.g. malaria by mosquitoes. Other valid matched examples accepted.",
+      "modelAnswer": "Air/droplets, e.g. measles direct or sexual contact, e.g. gonorrhoea/HIV contaminated food/water, e.g. Salmonella vectors, e.g. malaria by mosquitoes. Other valid matched examples accepted.",
       "markingPoints": [
         "Air/droplets, e.g. measles",
         "direct or sexual contact, e.g. gonorrhoea/HIV",
@@ -142,7 +113,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -150,12 +120,12 @@
     {
       "id": "CD07",
       "questionFamily": "Transmission prevention",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how the spread of communicable disease can be reduced.",
       "marks": 6,
-      "modelAnswer": "Use hygiene/sanitation to remove pathogens; isolate infected individuals to reduce contact; destroy/control vectors; vaccinate so fewer susceptible hosts transmit the pathogen; use barrier contraception for sexually transmitted infections; remove/destroy infected plant material. Credit linked method–mechanism pairs.",
+      "modelAnswer": "Use hygiene/sanitation to remove pathogens isolate infected individuals to reduce contact destroy/control vectors vaccinate so fewer susceptible hosts transmit the pathogen use barrier contraception for sexually transmitted infections remove/destroy infected plant material. Credit linked method–mechanism pairs.",
       "markingPoints": [
         "Use hygiene/sanitation to remove pathogens",
         "isolate infected individuals to reduce contact",
@@ -166,7 +136,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -174,12 +143,12 @@
     {
       "id": "CD08",
       "questionFamily": "Pandemics",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Define a pandemic and explain why a pathogen carried by migrating animals may spread rapidly.",
       "marks": 3,
-      "modelAnswer": "A pandemic affects people in many countries/continents; migrating animals travel across borders and contact new populations; this carries the pathogen to many places.",
+      "modelAnswer": "A pandemic affects people in many countries/continents migrating animals travel across borders and contact new populations this carries the pathogen to many places.",
       "markingPoints": [
         "A pandemic affects people in many countries/continents",
         "migrating animals travel across borders and contact new populations",
@@ -187,7 +156,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -195,12 +163,12 @@
     {
       "id": "ME01",
       "questionFamily": "Measles",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State the pathogen type, main symptoms and transmission route of measles.",
       "marks": 4,
-      "modelAnswer": "Measles is caused by a virus; symptoms include fever and a red skin rash; it spreads by droplets from coughs and sneezes.",
+      "modelAnswer": "Measles is caused by a virus symptoms include fever and a red skin rash it spreads by droplets from coughs and sneezes.",
       "markingPoints": [
         "Measles is caused by a virus",
         "symptoms include fever and a red skin rash",
@@ -208,7 +176,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -216,12 +183,12 @@
     {
       "id": "ME02",
       "questionFamily": "Measles",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why measles vaccination is important even though many people recover.",
       "marks": 3,
-      "modelAnswer": "Measles can cause serious complications such as pneumonia or brain damage and can be fatal; vaccination protects the individual; high uptake reduces transmission to vulnerable people.",
+      "modelAnswer": "Measles can cause serious complications such as pneumonia or brain damage and can be fatal vaccination protects the individual high uptake reduces transmission to vulnerable people.",
       "markingPoints": [
         "Measles can cause serious complications such as pneumonia or brain damage and can be fatal",
         "vaccination protects the individual",
@@ -229,7 +196,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -237,12 +203,12 @@
     {
       "id": "HIV01",
       "questionFamily": "HIV",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State how HIV is transmitted and explain how untreated HIV can lead to AIDS.",
       "marks": 5,
-      "modelAnswer": "HIV is transmitted through sexual contact or exchange of body fluids, including shared needles and mother-to-child transmission. The virus attacks immune cells; immune function falls; the person becomes vulnerable to other infections and cancers, which is AIDS.",
+      "modelAnswer": "HIV is transmitted through sexual contact or exchange of body fluids, including shared needles and mother-to-child transmission. The virus attacks immune cells immune function falls the person becomes vulnerable to other infections and cancers, which is AIDS.",
       "markingPoints": [
         "HIV is transmitted through sexual contact or exchange of body fluids, including shared needles and mother-to-child transmission. The virus attacks immune cells",
         "immune function falls",
@@ -250,7 +216,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -258,19 +223,18 @@
     {
       "id": "HIV02",
       "questionFamily": "HIV treatment",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how antiretroviral drugs affect HIV infection.",
       "marks": 2,
-      "modelAnswer": "They reduce/inhibit replication of HIV; this slows damage to the immune system but does not eliminate the virus/cure the infection.",
+      "modelAnswer": "They reduce/inhibit replication of HIV this slows damage to the immune system but does not eliminate the virus/cure the infection.",
       "markingPoints": [
         "They reduce/inhibit replication of HIV",
         "this slows damage to the immune system but does not eliminate the virus/cure the infection."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -278,19 +242,18 @@
     {
       "id": "TMV01",
       "questionFamily": "Tobacco mosaic virus",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State the pathogen type and visible symptom of tobacco mosaic virus (TMV).",
       "marks": 2,
-      "modelAnswer": "TMV is a virus; it causes a mosaic/discoloured pattern on leaves.",
+      "modelAnswer": "TMV is a virus it causes a mosaic/discoloured pattern on leaves.",
       "markingPoints": [
         "TMV is a virus",
         "it causes a mosaic/discoloured pattern on leaves."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -298,12 +261,12 @@
     {
       "id": "TMV02",
       "questionFamily": "Tobacco mosaic virus",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why a plant infected with TMV may show stunted growth.",
       "marks": 5,
-      "modelAnswer": "TMV reduces chlorophyll/causes leaf discolouration; less light is absorbed; the rate of photosynthesis falls; less glucose is made; less glucose is available for respiration and synthesis of biomass, so growth is reduced.",
+      "modelAnswer": "TMV reduces chlorophyll/causes leaf discolouration less light is absorbed the rate of photosynthesis falls less glucose is made less glucose is available for respiration and synthesis of biomass, so growth is reduced.",
       "markingPoints": [
         "TMV reduces chlorophyll/causes leaf discolouration",
         "less light is absorbed",
@@ -313,7 +276,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -321,12 +283,12 @@
     {
       "id": "SAL01",
       "questionFamily": "Salmonella",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State the pathogen type, transmission route and common symptoms of Salmonella food poisoning.",
       "marks": 4,
-      "modelAnswer": "Salmonella is a bacterium; it is ingested in contaminated food; bacteria/toxins cause fever, abdominal cramps, vomiting and diarrhoea.",
+      "modelAnswer": "Salmonella is a bacterium it is ingested in contaminated food bacteria/toxins cause fever, abdominal cramps, vomiting and diarrhoea.",
       "markingPoints": [
         "Salmonella is a bacterium",
         "it is ingested in contaminated food",
@@ -334,7 +296,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -342,12 +303,12 @@
     {
       "id": "SAL02",
       "questionFamily": "Salmonella prevention",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how Salmonella transmission from poultry to humans can be reduced.",
       "marks": 4,
-      "modelAnswer": "Vaccinate poultry; cook food thoroughly to kill bacteria; use good food hygiene and avoid cross-contamination; isolate/remove infected animals or prevent infected products being sold.",
+      "modelAnswer": "Vaccinate poultry cook food thoroughly to kill bacteria use good food hygiene and avoid cross-contamination isolate/remove infected animals or prevent infected products being sold.",
       "markingPoints": [
         "Vaccinate poultry",
         "cook food thoroughly to kill bacteria",
@@ -356,7 +317,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -364,7 +324,7 @@
     {
       "id": "GON01",
       "questionFamily": "Gonorrhoea",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State the pathogen type, main symptoms, treatment and methods of preventing gonorrhoea.",
@@ -375,7 +335,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -383,12 +342,12 @@
     {
       "id": "MAL01",
       "questionFamily": "Malaria",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State the pathogen type and vector for malaria, and explain how transmission occurs.",
       "marks": 4,
-      "modelAnswer": "Malaria is caused by a protist; mosquitoes are the vector; a mosquito takes up the pathogen when feeding on an infected person and transfers it when biting another person.",
+      "modelAnswer": "Malaria is caused by a protist mosquitoes are the vector a mosquito takes up the pathogen when feeding on an infected person and transfers it when biting another person.",
       "markingPoints": [
         "Malaria is caused by a protist",
         "mosquitoes are the vector",
@@ -396,7 +355,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -404,19 +362,18 @@
     {
       "id": "MAL02",
       "questionFamily": "Malaria prevention",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain two ways to reduce malaria transmission.",
       "marks": 4,
-      "modelAnswer": "Use insecticide-treated bed nets to prevent bites/kill mosquitoes; drain standing water or use insecticides to reduce mosquito breeding/population. Antimalarial drugs may prevent/treat infection. Credit two linked explanations.",
+      "modelAnswer": "Use insecticide-treated bed nets to prevent bites/kill mosquitoes drain standing water or use insecticides to reduce mosquito breeding/population. Antimalarial drugs may prevent/treat infection. Credit two linked explanations.",
       "markingPoints": [
         "Use insecticide-treated bed nets to prevent bites/kill mosquitoes",
         "drain standing water or use insecticides to reduce mosquito breeding/population. Antimalarial drugs may prevent/treat infection. Credit two linked explanations."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -424,12 +381,12 @@
     {
       "id": "RBS01",
       "questionFamily": "Rose black spot",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State the pathogen type, symptoms, effects and spread of rose black spot.",
       "marks": 5,
-      "modelAnswer": "It is a fungal disease; purple/black spots develop on leaves; leaves may yellow and fall early; less photosynthesis occurs so growth is reduced; spores spread by wind or water.",
+      "modelAnswer": "It is a fungal disease purple/black spots develop on leaves leaves may yellow and fall early less photosynthesis occurs so growth is reduced spores spread by wind or water.",
       "markingPoints": [
         "It is a fungal disease",
         "purple/black spots develop on leaves",
@@ -439,7 +396,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -447,12 +403,12 @@
     {
       "id": "RBS02",
       "questionFamily": "Rose black spot control",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how rose black spot can be controlled.",
       "marks": 3,
-      "modelAnswer": "Remove and destroy infected leaves/plants to remove spores and prevent spread; use fungicides to kill/inhibit the fungus; isolate/space plants to reduce transmission.",
+      "modelAnswer": "Remove and destroy infected leaves/plants to remove spores and prevent spread use fungicides to kill/inhibit the fungus isolate/space plants to reduce transmission.",
       "markingPoints": [
         "Remove and destroy infected leaves/plants to remove spores and prevent spread",
         "use fungicides to kill/inhibit the fungus",
@@ -460,7 +416,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -468,12 +423,12 @@
     {
       "id": "HD01",
       "questionFamily": "Non-specific defences",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Describe how the skin, nose, trachea/bronchi and stomach prevent pathogens entering or surviving in the body.",
       "marks": 6,
-      "modelAnswer": "Skin forms a physical barrier and produces antimicrobial secretions; hairs and mucus in the nose trap particles; mucus in the trachea/bronchi traps pathogens and cilia move it to the throat to be swallowed; hydrochloric acid in the stomach kills many swallowed pathogens.",
+      "modelAnswer": "Skin forms a physical barrier and produces antimicrobial secretions hairs and mucus in the nose trap particles mucus in the trachea/bronchi traps pathogens and cilia move it to the throat to be swallowed hydrochloric acid in the stomach kills many swallowed pathogens.",
       "markingPoints": [
         "Skin forms a physical barrier and produces antimicrobial secretions",
         "hairs and mucus in the nose trap particles",
@@ -482,7 +437,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -490,12 +444,12 @@
     {
       "id": "HD02",
       "questionFamily": "Stomach defence application",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Helicobacter pylori is acid-tolerant and damages the stomach's mucus lining. Explain how this can cause an ulcer.",
       "marks": 3,
-      "modelAnswer": "The bacteria survive stomach acid; they damage the protective mucus; acid/enzymes then damage the stomach tissue, producing an ulcer.",
+      "modelAnswer": "The bacteria survive stomach acid they damage the protective mucus acid/enzymes then damage the stomach tissue, producing an ulcer.",
       "markingPoints": [
         "The bacteria survive stomach acid",
         "they damage the protective mucus",
@@ -503,7 +457,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -511,12 +464,12 @@
     {
       "id": "WB01",
       "questionFamily": "Phagocytosis",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Describe phagocytosis.",
       "marks": 3,
-      "modelAnswer": "A phagocyte surrounds/engulfs a pathogen; encloses it; digests/destroys it using enzymes.",
+      "modelAnswer": "A phagocyte surrounds/engulfs a pathogen encloses it digests/destroys it using enzymes.",
       "markingPoints": [
         "A phagocyte surrounds/engulfs a pathogen",
         "encloses it",
@@ -524,7 +477,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -532,12 +484,12 @@
     {
       "id": "WB02",
       "questionFamily": "Antibodies",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how lymphocytes defend the body using antibodies.",
       "marks": 5,
-      "modelAnswer": "Pathogen antigens have specific shapes; a lymphocyte produces an antibody with a complementary binding site; the antibody binds specifically to the antigen; this helps neutralise/destroy the pathogen or marks it for phagocytosis; some lymphocytes become memory cells.",
+      "modelAnswer": "Pathogen antigens have specific shapes a lymphocyte produces an antibody with a complementary binding site the antibody binds specifically to the antigen this helps neutralise/destroy the pathogen or marks it for phagocytosis some lymphocytes become memory cells.",
       "markingPoints": [
         "Pathogen antigens have specific shapes",
         "a lymphocyte produces an antibody with a complementary binding site",
@@ -547,7 +499,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -555,7 +506,7 @@
     {
       "id": "WB03",
       "questionFamily": "Antitoxins",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State the role of antitoxins in the immune response.",
@@ -566,7 +517,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -574,12 +524,12 @@
     {
       "id": "WB04",
       "questionFamily": "Immune response",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Write a linked account of the immune response from pathogen entry to a faster secondary response.",
       "marks": 6,
-      "modelAnswer": "Pathogen antigens are recognised as foreign; specific lymphocytes clone/divide; they produce specific antibodies; antibodies bind to antigens and help destroy the pathogen; some lymphocytes become memory cells; on later exposure, memory cells rapidly produce many antibodies so the pathogen is destroyed before symptoms develop.",
+      "modelAnswer": "Pathogen antigens are recognised as foreign specific lymphocytes clone/divide they produce specific antibodies antibodies bind to antigens and help destroy the pathogen some lymphocytes become memory cells on later exposure, memory cells rapidly produce many antibodies so the pathogen is destroyed before symptoms develop.",
       "markingPoints": [
         "Pathogen antigens are recognised as foreign",
         "specific lymphocytes clone/divide",
@@ -590,7 +540,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -598,19 +547,18 @@
     {
       "id": "WB05",
       "questionFamily": "Blood/plasma link",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Name three substances transported by plasma and state one immune substance found in plasma.",
       "marks": 4,
-      "modelAnswer": "valid transported substances: carbon dioxide, urea, glucose, amino acids, hormones, ions, water, digested products; immune substance: antibodies or antitoxins. Oxygen is mainly carried by red blood cells, not plasma.",
+      "modelAnswer": "valid transported substances: carbon dioxide, urea, glucose, amino acids, hormones, ions, water, digested products immune substance: antibodies or antitoxins. Oxygen is mainly carried by red blood cells, not plasma.",
       "markingPoints": [
         "valid transported substances: carbon dioxide, urea, glucose, amino acids, hormones, ions, water, digested products",
         "immune substance: antibodies or antitoxins. Oxygen is mainly carried by red blood cells, not plasma."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -618,12 +566,12 @@
     {
       "id": "WB06",
       "questionFamily": "Blood calculation",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "A 10 cm³ blood sample contains 5.5 cm³ plasma. Calculate the percentage of the blood that is plasma.",
       "marks": 2,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\n(5.5 ÷ 10) × 100 = 55%.\nAnswer: (5.5 ÷ 10) × 100 = 55%.",
+      "modelAnswer": "percentage = (part ÷ total) × 100. (5.5 ÷ 10) × 100 = 55%. Answer: (5.5 ÷ 10) × 100 = 55%.",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
         "(5.5 ÷ 10) × 100 = 55%.",
@@ -631,7 +579,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -639,12 +586,12 @@
     {
       "id": "VA01",
       "questionFamily": "Vaccination",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how vaccination gives an individual immunity.",
       "marks": 6,
-      "modelAnswer": "A vaccine contains dead/inactive/attenuated pathogen material or antigens; antigens stimulate lymphocytes; specific antibodies are produced; memory cells remain; on later infection, memory cells rapidly produce many antibodies; the pathogen is destroyed before symptoms develop.",
+      "modelAnswer": "A vaccine contains dead/inactive/attenuated pathogen material or antigens antigens stimulate lymphocytes specific antibodies are produced memory cells remain on later infection, memory cells rapidly produce many antibodies the pathogen is destroyed before symptoms develop.",
       "markingPoints": [
         "A vaccine contains dead/inactive/attenuated pathogen material or antigens",
         "antigens stimulate lymphocytes",
@@ -655,7 +602,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -663,12 +609,12 @@
     {
       "id": "VA02",
       "questionFamily": "Herd protection",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how a high proportion of vaccinated people can protect an unvaccinated person.",
       "marks": 4,
-      "modelAnswer": "Fewer people are susceptible/infected; transmission chains are interrupted; the pathogen is less likely to reach the unvaccinated person; this is herd protection/immunity.",
+      "modelAnswer": "Fewer people are susceptible/infected transmission chains are interrupted the pathogen is less likely to reach the unvaccinated person this is herd protection/immunity.",
       "markingPoints": [
         "Fewer people are susceptible/infected",
         "transmission chains are interrupted",
@@ -677,7 +623,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -685,7 +630,7 @@
     {
       "id": "VA03",
       "questionFamily": "MMR",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Name the three diseases prevented by the MMR vaccine.",
@@ -696,7 +641,6 @@
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -704,12 +648,12 @@
     {
       "id": "VA05",
       "questionFamily": "Vaccination evaluation",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why no vaccine can be described as completely risk-free, and why vaccination may still be recommended.",
       "marks": 4,
-      "modelAnswer": "Vaccines can cause side effects and no treatment is 100% effective; compare the frequency/severity of vaccine harms with disease harms; the disease usually has a greater risk; vaccination also reduces transmission and protects others.",
+      "modelAnswer": "Vaccines can cause side effects and no treatment is 100% effective compare the frequency/severity of vaccine harms with disease harms the disease usually has a greater risk vaccination also reduces transmission and protects others.",
       "markingPoints": [
         "Vaccines can cause side effects and no treatment is 100% effective",
         "compare the frequency/severity of vaccine harms with disease harms",
@@ -718,7 +662,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -726,12 +669,12 @@
     {
       "id": "AB01",
       "questionFamily": "Antibiotics",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why antibiotics can treat gonorrhoea but cannot cure HIV or flu.",
       "marks": 3,
-      "modelAnswer": "Gonorrhoea is bacterial and susceptible bacteria can be killed/inhibited by antibiotics; HIV and flu are viral; viruses replicate inside host cells and antibiotics do not kill viruses.",
+      "modelAnswer": "Gonorrhoea is bacterial and susceptible bacteria can be killed/inhibited by antibiotics HIV and flu are viral viruses replicate inside host cells and antibiotics do not kill viruses.",
       "markingPoints": [
         "Gonorrhoea is bacterial and susceptible bacteria can be killed/inhibited by antibiotics",
         "HIV and flu are viral",
@@ -739,7 +682,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -747,12 +689,12 @@
     {
       "id": "AB02",
       "questionFamily": "Painkillers",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain the difference between antibiotics and painkillers when treating an infection.",
       "marks": 3,
-      "modelAnswer": "Antibiotics kill/inhibit susceptible bacteria and address the cause; painkillers reduce symptoms such as pain or fever; painkillers do not kill the pathogen.",
+      "modelAnswer": "Antibiotics kill/inhibit susceptible bacteria and address the cause painkillers reduce symptoms such as pain or fever painkillers do not kill the pathogen.",
       "markingPoints": [
         "Antibiotics kill/inhibit susceptible bacteria and address the cause",
         "painkillers reduce symptoms such as pain or fever",
@@ -760,7 +702,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -768,12 +709,12 @@
     {
       "id": "AB03",
       "questionFamily": "Antibiotic resistance",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how a population of antibiotic-resistant bacteria evolves.",
       "marks": 6,
-      "modelAnswer": "Random mutations produce resistant variants; the antibiotic kills susceptible bacteria; resistant bacteria survive; survivors reproduce rapidly and pass resistance alleles to offspring; the proportion resistant increases over generations; the antibiotic becomes less effective.",
+      "modelAnswer": "Random mutations produce resistant variants the antibiotic kills susceptible bacteria resistant bacteria survive survivors reproduce rapidly and pass resistance alleles to offspring the proportion resistant increases over generations the antibiotic becomes less effective.",
       "markingPoints": [
         "Random mutations produce resistant variants",
         "the antibiotic kills susceptible bacteria",
@@ -784,7 +725,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -792,12 +732,12 @@
     {
       "id": "AB04",
       "questionFamily": "Reducing resistance",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how the development and spread of antibiotic-resistant bacteria can be slowed.",
       "marks": 5,
-      "modelAnswer": "Prescribe antibiotics only when necessary; patients complete the course so fewer bacteria survive; restrict routine agricultural use; use infection control to reduce spread; develop new antibiotics. Do not use antibiotics for viral infections.",
+      "modelAnswer": "Prescribe antibiotics only when necessary patients complete the course so fewer bacteria survive restrict routine agricultural use use infection control to reduce spread develop new antibiotics. Do not use antibiotics for viral infections.",
       "markingPoints": [
         "Prescribe antibiotics only when necessary",
         "patients complete the course so fewer bacteria survive",
@@ -807,7 +747,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -815,12 +754,12 @@
     {
       "id": "AB07",
       "questionFamily": "Aseptic technique",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Describe how to prepare an uncontaminated bacterial culture on an agar plate and test antibiotic discs safely.",
       "marks": 6,
-      "modelAnswer": "Disinfect work area; use sterile agar/Petri dish and sterile inoculating equipment; open lid as little as possible; spread bacterial suspension evenly; place sterile antibiotic discs with sterile forceps; tape the lid at a few points, not fully sealed; incubate inverted at 25 °C in school; measure clear zones; disinfect and safely dispose of cultures.",
+      "modelAnswer": "Disinfect work area use sterile agar/Petri dish and sterile inoculating equipment open lid as little as possible spread bacterial suspension evenly place sterile antibiotic discs with sterile forceps tape the lid at a few points, not fully sealed incubate inverted at 25 °C in school measure clear zones disinfect and safely dispose of cultures.",
       "markingPoints": [
         "Disinfect work area",
         "use sterile agar/Petri dish and sterile inoculating equipment",
@@ -834,7 +773,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge"
@@ -842,19 +780,18 @@
     {
       "id": "AB08",
       "questionFamily": "Culturing safety",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why school bacterial cultures are incubated at 25 °C rather than 37–40 °C and why the lid is not completely sealed.",
       "marks": 4,
-      "modelAnswer": "25 °C reduces the growth of harmful human pathogens; higher temperatures favour pathogens adapted to the body. The lid is not fully sealed so anaerobic harmful organisms are less likely to grow and the plate can be opened safely only by authorised disposal procedures.",
+      "modelAnswer": "25 °C reduces the growth of harmful human pathogens higher temperatures favour pathogens adapted to the body. The lid is not fully sealed so anaerobic harmful organisms are less likely to grow and the plate can be opened safely only by authorised disposal procedures.",
       "markingPoints": [
         "25 °C reduces the growth of harmful human pathogens",
         "higher temperatures favour pathogens adapted to the body. The lid is not fully sealed so anaerobic harmful organisms are less likely to grow and the plate can be opened safely only by authorised disposal procedures."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -862,7 +799,7 @@
     {
       "id": "AB09",
       "questionFamily": "Antibiotic investigation variables",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "In a disc-diffusion test, identify the independent variable, dependent variable and four control variables.",
@@ -873,7 +810,6 @@
       ],
       "commandWord": "Identify",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -881,19 +817,18 @@
     {
       "id": "AB10",
       "questionFamily": "Antibiotic data validity",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why antibiotic tests should be repeated and zones measured in two perpendicular directions.",
       "marks": 3,
-      "modelAnswer": "Repeats reveal anomalies and ; two diameters account for an irregular/non-circular zone and give a more representative measurement.",
+      "modelAnswer": "Repeats reveal anomalies and two diameters account for an irregular/non-circular zone and give a more representative measurement.",
       "markingPoints": [
         "Repeats reveal anomalies and",
         "two diameters account for an irregular/non-circular zone and give a more representative measurement."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -901,12 +836,12 @@
     {
       "id": "DD02",
       "questionFamily": "Drug discovery",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "State who discovered penicillin and explain the observation that led to the discovery.",
       "marks": 3,
-      "modelAnswer": "Alexander Fleming; bacteria did not grow near contaminating Penicillium mould; he inferred that the mould released an antibacterial substance.",
+      "modelAnswer": "Alexander Fleming bacteria did not grow near contaminating Penicillium mould he inferred that the mould released an antibacterial substance.",
       "markingPoints": [
         "Alexander Fleming",
         "bacteria did not grow near contaminating Penicillium mould",
@@ -914,7 +849,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -922,12 +856,12 @@
     {
       "id": "DD03",
       "questionFamily": "Preclinical testing",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Describe preclinical testing of a new drug and state what it investigates.",
       "marks": 5,
-      "modelAnswer": "Test on cells/tissues and then live animals; investigate toxicity/safety, efficacy/whether it works and dose; animal testing also reveals whole-organism effects before human trials.",
+      "modelAnswer": "Test on cells/tissues and then live animals investigate toxicity/safety, efficacy/whether it works and dose animal testing also reveals whole-organism effects before human trials.",
       "markingPoints": [
         "Test on cells/tissues and then live animals",
         "investigate toxicity/safety, efficacy/whether it works and dose",
@@ -935,7 +869,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge"
@@ -943,12 +876,12 @@
     {
       "id": "DD04",
       "questionFamily": "Clinical trials",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Describe the usual sequence of clinical trials.",
       "marks": 5,
-      "modelAnswer": "Begin with very low doses in a small number of healthy volunteers to assess safety; then test patients for efficacy and dose; increase participant numbers; monitor side effects; compare results with a control/placebo or existing treatment.",
+      "modelAnswer": "Begin with very low doses in a small number of healthy volunteers to assess safety then test patients for efficacy and dose increase participant numbers monitor side effects compare results with a control/placebo or existing treatment.",
       "markingPoints": [
         "Begin with very low doses in a small number of healthy volunteers to assess safety",
         "then test patients for efficacy and dose",
@@ -958,7 +891,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -966,12 +898,12 @@
     {
       "id": "DD05",
       "questionFamily": "Placebo and control",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why a placebo/control group is used in a clinical trial.",
       "marks": 3,
-      "modelAnswer": "It provides a comparison; separates the drug's effect from natural recovery/placebo effect/other variables; differences between groups can therefore be attributed more confidently to the drug.",
+      "modelAnswer": "It provides a comparison separates the drug's effect from natural recovery/placebo effect/other variables differences between groups can therefore be attributed more confidently to the drug.",
       "markingPoints": [
         "It provides a comparison",
         "separates the drug's effect from natural recovery/placebo effect/other variables",
@@ -979,7 +911,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -987,12 +918,12 @@
     {
       "id": "DD06",
       "questionFamily": "Double-blind trials",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why a clinical trial may be randomised and double-blind.",
       "marks": 4,
-      "modelAnswer": "Random allocation reduces systematic differences/selection bias between groups; double-blind means neither patients nor clinicians assessing outcomes know the treatment; this reduces expectation and observer bias.",
+      "modelAnswer": "Random allocation reduces systematic differences/selection bias between groups double-blind means neither patients nor clinicians assessing outcomes know the treatment this reduces expectation and observer bias.",
       "markingPoints": [
         "Random allocation reduces systematic differences/selection bias between groups",
         "double-blind means neither patients nor clinicians assessing outcomes know the treatment",
@@ -1000,7 +931,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO3",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1008,12 +938,12 @@
     {
       "id": "DD09",
       "questionFamily": "Sample size",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why a larger clinical-trial sample can produce more trustworthy evidence.",
       "marks": 3,
-      "modelAnswer": "It reduces the effect of individual variation/anomalies; makes results more representative; increases confidence that an observed difference is real rather than due to chance.",
+      "modelAnswer": "It reduces the effect of individual variation/anomalies makes results more representative increases confidence that an observed difference is real rather than due to chance.",
       "markingPoints": [
         "It reduces the effect of individual variation/anomalies",
         "makes results more representative",
@@ -1021,7 +951,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1029,12 +958,12 @@
     {
       "id": "DD10",
       "questionFamily": "Peer review and bias",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain how peer review and disclosure of funding improve confidence in claims about a new drug.",
       "marks": 4,
-      "modelAnswer": "Independent experts check methods, data analysis and conclusions; errors or unsupported claims may be found; funding/conflicts may create bias; disclosure lets readers judge that risk and replication can test the claim.",
+      "modelAnswer": "Independent experts check methods, data analysis and conclusions errors or unsupported claims may be found funding/conflicts may create bias disclosure lets readers judge that risk and replication can test the claim.",
       "markingPoints": [
         "Independent experts check methods, data analysis and conclusions",
         "errors or unsupported claims may be found",
@@ -1043,7 +972,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1051,19 +979,18 @@
     {
       "id": "DD11",
       "questionFamily": "Thalidomide",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why thalidomide was withdrawn and state one condition for which it is now used under strict controls.",
       "marks": 3,
-      "modelAnswer": "It caused severe fetal limb abnormalities when taken during pregnancy and had not been adequately tested for this use; it is now used for leprosy and some cancers under strict controls.",
+      "modelAnswer": "It caused severe fetal limb abnormalities when taken during pregnancy and had not been adequately tested for this use it is now used for leprosy and some cancers under strict controls.",
       "markingPoints": [
         "It caused severe fetal limb abnormalities when taken during pregnancy and had not been adequately tested for this use",
         "it is now used for leprosy and some cancers under strict controls."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1071,12 +998,12 @@
     {
       "id": "DD12",
       "questionFamily": "Addiction",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "3.1 Communicable Diseases",
       "sourceSubtopic": "3.1 Communicable Diseases",
       "tier": "Both",
       "question": "Explain why it can be difficult for a person to stop taking an addictive drug.",
       "marks": 3,
-      "modelAnswer": "The drug changes brain/body chemistry; tolerance may develop so larger doses are needed; stopping causes withdrawal symptoms/cravings, encouraging continued use.",
+      "modelAnswer": "The drug changes brain/body chemistry tolerance may develop so larger doses are needed stopping causes withdrawal symptoms/cravings, encouraging continued use.",
       "markingPoints": [
         "The drug changes brain/body chemistry",
         "tolerance may develop so larger doses are needed",
@@ -1084,7 +1011,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1092,12 +1018,12 @@
     {
       "id": "MA01",
       "questionFamily": "Antibody specificity",
-      "subtopic": "Monoclonal Antibodies",
+      "subtopic": "3.2 Monoclonal Antibodies",
       "sourceSubtopic": "3.2 Monoclonal Antibodies",
       "tier": "Biology only",
       "question": "Explain why a monoclonal antibody binds to one specific antigen.",
       "marks": 3,
-      "modelAnswer": "All molecules of the monoclonal antibody are identical; their binding sites have a shape complementary to one antigen; only that antigen forms an antigen–antibody complex.",
+      "modelAnswer": "All molecules of the monoclonal antibody are identical their binding sites have a shape complementary to one antigen only that antigen forms an antigen–antibody complex.",
       "markingPoints": [
         "All molecules of the monoclonal antibody are identical",
         "their binding sites have a shape complementary to one antigen",
@@ -1105,7 +1031,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1113,12 +1038,12 @@
     {
       "id": "MA03",
       "questionFamily": "Hybridomas",
-      "subtopic": "Monoclonal Antibodies",
+      "subtopic": "3.2 Monoclonal Antibodies",
       "sourceSubtopic": "3.2 Monoclonal Antibodies",
       "tier": "Biology only",
       "question": "Explain why a lymphocyte is fused with a tumour cell when producing monoclonal antibodies.",
       "marks": 3,
-      "modelAnswer": "The lymphocyte makes the specific antibody but does not divide indefinitely; the tumour cell divides rapidly/indefinitely; the hybridoma has both useful properties.",
+      "modelAnswer": "The lymphocyte makes the specific antibody but does not divide indefinitely the tumour cell divides rapidly/indefinitely the hybridoma has both useful properties.",
       "markingPoints": [
         "The lymphocyte makes the specific antibody but does not divide indefinitely",
         "the tumour cell divides rapidly/indefinitely",
@@ -1126,7 +1051,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1134,12 +1058,12 @@
     {
       "id": "MA04",
       "questionFamily": "Pregnancy tests",
-      "subtopic": "Monoclonal Antibodies",
+      "subtopic": "3.2 Monoclonal Antibodies",
       "sourceSubtopic": "3.2 Monoclonal Antibodies",
       "tier": "Biology only",
       "question": "Explain how monoclonal antibodies are used in a pregnancy test.",
       "marks": 5,
-      "modelAnswer": "Pregnant urine contains hCG; mobile antibodies bind hCG; the complexes move along the strip; they bind to fixed antibodies at the test line; a coloured line forms. A control line shows the test has worked.",
+      "modelAnswer": "Pregnant urine contains hCG mobile antibodies bind hCG the complexes move along the strip they bind to fixed antibodies at the test line a coloured line forms. A control line shows the test has worked.",
       "markingPoints": [
         "Pregnant urine contains hCG",
         "mobile antibodies bind hCG",
@@ -1149,7 +1073,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1157,12 +1080,12 @@
     {
       "id": "MA05",
       "questionFamily": "Diagnosis",
-      "subtopic": "Monoclonal Antibodies",
+      "subtopic": "3.2 Monoclonal Antibodies",
       "sourceSubtopic": "3.2 Monoclonal Antibodies",
       "tier": "Biology only",
       "question": "Explain how fluorescent monoclonal antibodies can locate a pathogen in a tissue sample.",
       "marks": 4,
-      "modelAnswer": "Attach fluorescent dye to monoclonal antibodies; add them to the sample; antibodies bind specifically to antigens on the pathogen; wash away unbound antibody and observe fluorescence under suitable light.",
+      "modelAnswer": "Attach fluorescent dye to monoclonal antibodies add them to the sample antibodies bind specifically to antigens on the pathogen wash away unbound antibody and observe fluorescence under suitable light.",
       "markingPoints": [
         "Attach fluorescent dye to monoclonal antibodies",
         "add them to the sample",
@@ -1171,7 +1094,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1179,12 +1101,12 @@
     {
       "id": "MA06",
       "questionFamily": "Cancer treatment",
-      "subtopic": "Monoclonal Antibodies",
+      "subtopic": "3.2 Monoclonal Antibodies",
       "sourceSubtopic": "3.2 Monoclonal Antibodies",
       "tier": "Biology only",
       "question": "Explain how a monoclonal antibody can deliver a toxic drug or radioactive substance to cancer cells.",
       "marks": 4,
-      "modelAnswer": "Choose an antibody specific to an antigen on cancer cells; attach the drug/radioactive substance; antibody binds to cancer cells; the treatment is concentrated at the tumour, reducing damage to healthy cells.",
+      "modelAnswer": "Choose an antibody specific to an antigen on cancer cells attach the drug/radioactive substance antibody binds to cancer cells the treatment is concentrated at the tumour, reducing damage to healthy cells.",
       "markingPoints": [
         "Choose an antibody specific to an antigen on cancer cells",
         "attach the drug/radioactive substance",
@@ -1193,7 +1115,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1201,12 +1122,12 @@
     {
       "id": "MA07",
       "questionFamily": "RSV treatment",
-      "subtopic": "Monoclonal Antibodies",
+      "subtopic": "3.2 Monoclonal Antibodies",
       "sourceSubtopic": "3.2 Monoclonal Antibodies",
       "tier": "Biology only",
       "question": "Explain how injecting a monoclonal antibody against RSV may help a patient.",
       "marks": 3,
-      "modelAnswer": "The antibody has a complementary binding site and binds specifically to an RSV antigen; it neutralises/marks the virus; phagocytes/other immune mechanisms remove it.",
+      "modelAnswer": "The antibody has a complementary binding site and binds specifically to an RSV antigen it neutralises/marks the virus phagocytes/other immune mechanisms remove it.",
       "markingPoints": [
         "The antibody has a complementary binding site and binds specifically to an RSV antigen",
         "it neutralises/marks the virus",
@@ -1214,7 +1135,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1222,7 +1142,7 @@
     {
       "id": "MA08",
       "questionFamily": "Evaluation",
-      "subtopic": "Monoclonal Antibodies",
+      "subtopic": "3.2 Monoclonal Antibodies",
       "sourceSubtopic": "3.2 Monoclonal Antibodies",
       "tier": "Biology only",
       "question": "Evaluate the use of monoclonal antibodies in diagnosis and treatment.",
@@ -1233,7 +1153,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1241,12 +1160,12 @@
     {
       "id": "PD02",
       "questionFamily": "Plant disease diagnosis",
-      "subtopic": "Plant Disease",
+      "subtopic": "3.3 Plant Disease",
       "sourceSubtopic": "3.3 Plant Disease",
       "tier": "Biology only",
       "question": "Describe how a plant disease can be identified.",
       "marks": 4,
-      "modelAnswer": "Compare symptoms with a gardening manual/database; take infected material to a laboratory; use testing kits containing monoclonal antibodies; examine the distribution of symptoms/pests and test for pathogens/mineral deficiencies.",
+      "modelAnswer": "Compare symptoms with a gardening manual/database take infected material to a laboratory use testing kits containing monoclonal antibodies examine the distribution of symptoms/pests and test for pathogens/mineral deficiencies.",
       "markingPoints": [
         "Compare symptoms with a gardening manual/database",
         "take infected material to a laboratory",
@@ -1255,7 +1174,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1263,7 +1181,7 @@
     {
       "id": "PD04",
       "questionFamily": "Mineral deficiency",
-      "subtopic": "Plant Disease",
+      "subtopic": "3.3 Plant Disease",
       "sourceSubtopic": "3.3 Plant Disease",
       "tier": "Both",
       "question": "Explain the effects of nitrate-ion and magnesium-ion deficiencies in plants.",
@@ -1274,7 +1192,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1282,12 +1199,12 @@
     {
       "id": "PD05",
       "questionFamily": "Physical defences",
-      "subtopic": "Plant Disease",
+      "subtopic": "3.3 Plant Disease",
       "sourceSubtopic": "3.3 Plant Disease",
       "tier": "Biology only",
       "question": "Describe three physical plant defences against pathogens.",
       "marks": 3,
-      "modelAnswer": "Cellulose cell walls; tough waxy cuticle; layers of dead cells/bark that form a barrier and may be shed.",
+      "modelAnswer": "Cellulose cell walls tough waxy cuticle layers of dead cells/bark that form a barrier and may be shed.",
       "markingPoints": [
         "Cellulose cell walls",
         "tough waxy cuticle",
@@ -1295,7 +1212,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1303,19 +1219,18 @@
     {
       "id": "PD06",
       "questionFamily": "Chemical defences",
-      "subtopic": "Plant Disease",
+      "subtopic": "3.3 Plant Disease",
       "sourceSubtopic": "3.3 Plant Disease",
       "tier": "Biology only",
       "question": "Describe two chemical plant defences and explain their effects.",
       "marks": 4,
-      "modelAnswer": "Antibacterial chemicals inhibit/kill bacteria; poisons deter herbivores by making them ill or killing them. Some plant chemicals are developed as medicines.",
+      "modelAnswer": "Antibacterial chemicals inhibit/kill bacteria poisons deter herbivores by making them ill or killing them. Some plant chemicals are developed as medicines.",
       "markingPoints": [
         "Antibacterial chemicals inhibit/kill bacteria",
         "poisons deter herbivores by making them ill or killing them. Some plant chemicals are developed as medicines."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Very common",
       "specificationReference": "4.3.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1323,12 +1238,12 @@
     {
       "id": "PD07",
       "questionFamily": "Mechanical defences",
-      "subtopic": "Plant Disease",
+      "subtopic": "3.3 Plant Disease",
       "sourceSubtopic": "3.3 Plant Disease",
       "tier": "Biology only",
       "question": "Describe three mechanical plant defences and explain how each reduces damage.",
       "marks": 6,
-      "modelAnswer": "Thorns/hairs make feeding difficult or painful; leaves droop/curl when touched, dislodging/deterring herbivores; mimicry tricks animals, e.g. markings resemble eggs or a harmful species; each reduces feeding or egg laying.",
+      "modelAnswer": "Thorns/hairs make feeding difficult or painful leaves droop/curl when touched, dislodging/deterring herbivores mimicry tricks animals, e.g. markings resemble eggs or a harmful species each reduces feeding or egg laying.",
       "markingPoints": [
         "Thorns/hairs make feeding difficult or painful",
         "leaves droop/curl when touched, dislodging/deterring herbivores",
@@ -1337,7 +1252,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Common",
       "specificationReference": "4.3.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1345,12 +1259,12 @@
     {
       "id": "PD09",
       "questionFamily": "Mimicry",
-      "subtopic": "Plant Disease",
+      "subtopic": "3.3 Plant Disease",
       "sourceSubtopic": "3.3 Plant Disease",
       "tier": "Biology only",
       "question": "Hornet moths resemble stinging hornets but cannot sting. Explain how mimicry increases hornet-moth survival.",
       "marks": 3,
-      "modelAnswer": "Predators mistake the moth for a harmful/stinging hornet; predators avoid it; fewer moths are eaten, so survival and reproduction increase.",
+      "modelAnswer": "Predators mistake the moth for a harmful/stinging hornet predators avoid it fewer moths are eaten, so survival and reproduction increase.",
       "markingPoints": [
         "Predators mistake the moth for a harmful/stinging hornet",
         "predators avoid it",
@@ -1358,7 +1272,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.3.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1366,19 +1279,18 @@
     {
       "id": "XL07",
       "questionFamily": "Photosynthesis",
-      "subtopic": "Linked Exam Demands",
+      "subtopic": "Linked exam demands",
       "sourceSubtopic": "Linked exam demands",
       "tier": "Both",
       "question": "Explain why chlorophyll is important and state two uses of glucose made by photosynthesis.",
       "marks": 4,
-      "modelAnswer": "Chlorophyll absorbs light energy for photosynthesis; glucose is used in respiration, stored as starch, made into cellulose, amino acids (with nitrate ions) or lipids. uses.",
+      "modelAnswer": "Chlorophyll absorbs light energy for photosynthesis glucose is used in respiration, stored as starch, made into cellulose, amino acids (with nitrate ions) or lipids. uses.",
       "markingPoints": [
         "Chlorophyll absorbs light energy for photosynthesis",
         "glucose is used in respiration, stored as starch, made into cellulose, amino acids (with nitrate ions) or lipids. uses."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1386,19 +1298,18 @@
     {
       "id": "XL08",
       "questionFamily": "Plant transport",
-      "subtopic": "Linked Exam Demands",
+      "subtopic": "Linked exam demands",
       "sourceSubtopic": "Linked exam demands",
       "tier": "Both",
       "question": "Name one substance transported by xylem and name the tissue that transports dissolved sugars.",
       "marks": 2,
-      "modelAnswer": "Xylem transports water or mineral ions; phloem transports dissolved sugars.",
+      "modelAnswer": "Xylem transports water or mineral ions phloem transports dissolved sugars.",
       "markingPoints": [
         "Xylem transports water or mineral ions",
         "phloem transports dissolved sugars."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1406,7 +1317,7 @@
     {
       "id": "XL09",
       "questionFamily": "Organisation",
-      "subtopic": "Linked Exam Demands",
+      "subtopic": "Linked exam demands",
       "sourceSubtopic": "Linked exam demands",
       "tier": "Both",
       "question": "Define a tissue and an organ, and name the plant tissue containing stem cells.",
@@ -1417,7 +1328,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1425,12 +1335,12 @@
     {
       "id": "XL10",
       "questionFamily": "Exercise",
-      "subtopic": "Linked Exam Demands",
+      "subtopic": "Linked exam demands",
       "sourceSubtopic": "Linked exam demands",
       "tier": "Both",
       "question": "Explain two effects of anaerobic respiration during vigorous exercise.",
       "marks": 4,
-      "modelAnswer": "It supplies energy when oxygen delivery is insufficient but releases less energy per glucose; lactic acid accumulates, contributing to fatigue; oxygen debt means breathing/heart rate stay high afterward to remove/oxidise lactic acid.",
+      "modelAnswer": "It supplies energy when oxygen delivery is insufficient but releases less energy per glucose lactic acid accumulates, contributing to fatigue oxygen debt means breathing/heart rate stay high afterward to remove/oxidise lactic acid.",
       "markingPoints": [
         "It supplies energy when oxygen delivery is insufficient but releases less energy per glucose",
         "lactic acid accumulates, contributing to fatigue",
@@ -1438,7 +1348,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1446,12 +1355,12 @@
     {
       "id": "XL11",
       "questionFamily": "Exercise investigation",
-      "subtopic": "Linked Exam Demands",
+      "subtopic": "Linked exam demands",
       "sourceSubtopic": "Linked exam demands",
       "tier": "Both",
       "question": "Design an investigation to compare the effect of different exercise types on heart rate.",
       "marks": 6,
-      "modelAnswer": "Use the same athletes or matched groups; measure resting heart rate; standardise duration/intensity; measure immediately after exercise and during recovery; control environment/rest interval; repeat each exercise and calculate means; consider safety and informed consent.",
+      "modelAnswer": "Use the same athletes or matched groups measure resting heart rate standardise duration/intensity measure immediately after exercise and during recovery control environment/rest interval repeat each exercise and calculate means consider safety and informed consent.",
       "markingPoints": [
         "Use the same athletes or matched groups",
         "measure resting heart rate",
@@ -1463,7 +1372,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1471,19 +1379,18 @@
     {
       "id": "XL13",
       "questionFamily": "Plant adaptations",
-      "subtopic": "Linked Exam Demands",
+      "subtopic": "Linked exam demands",
       "sourceSubtopic": "Linked exam demands",
       "tier": "Both",
       "question": "Explain why leaf fall can help a plant in a dry environment and why a cactus benefits from a green stem.",
       "marks": 4,
-      "modelAnswer": "Fewer/no leaves reduce surface area and water loss by transpiration; a green stem contains chlorophyll and can photosynthesise when leaves are reduced/absent.",
+      "modelAnswer": "Fewer/no leaves reduce surface area and water loss by transpiration a green stem contains chlorophyll and can photosynthesise when leaves are reduced/absent.",
       "markingPoints": [
         "Fewer/no leaves reduce surface area and water loss by transpiration",
         "a green stem contains chlorophyll and can photosynthesise when leaves are reduced/absent."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.7.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1491,12 +1398,12 @@
     {
       "id": "XL15",
       "questionFamily": "Cell division",
-      "subtopic": "Linked Exam Demands",
+      "subtopic": "Linked exam demands",
       "sourceSubtopic": "Linked exam demands",
       "tier": "Both",
       "question": "Explain how mitosis produces two genetically identical cells and name the process by which stem cells become specialised.",
       "marks": 4,
-      "modelAnswer": "DNA is replicated; one copy of each chromosome is separated into each daughter cell; nuclei/cell divide to give identical chromosome sets; stem cells specialise by differentiation.",
+      "modelAnswer": "DNA is replicated one copy of each chromosome is separated into each daughter cell nuclei/cell divide to give identical chromosome sets stem cells specialise by differentiation.",
       "markingPoints": [
         "DNA is replicated",
         "one copy of each chromosome is separated into each daughter cell",
@@ -1505,7 +1412,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Uncommon",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1513,12 +1419,12 @@
     {
       "id": "IR-EX1",
       "questionFamily": "Data interpretation and evaluation",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "Drug development",
       "sourceSubtopic": "Drug development",
       "tier": "Both",
       "question": "In a clinical trial, 4% of patients taking a new drug improve compared with 3% taking a placebo. Explain why this result alone is insufficient evidence that the drug is effective.",
       "marks": 4,
-      "modelAnswer": "The difference is small and may be due to chance; sample size and statistical significance are unknown; groups may not be matched; blinding and randomisation are unknown; side effects and reproducibility must also be considered.",
+      "modelAnswer": "The difference is small and may be due to chance sample size and statistical significance are unknown groups may not be matched blinding and randomisation are unknown side effects and reproducibility must also be considered.",
       "markingPoints": [
         "The difference is small and may be due to chance",
         "sample size and statistical significance are unknown",
@@ -1528,7 +1434,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.3.1.9",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1536,19 +1441,18 @@
     {
       "id": "IR-EX2",
       "questionFamily": "Synoptic application",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "Vaccination and evolution",
       "sourceSubtopic": "Vaccination and evolution",
       "tier": "Both",
       "question": "Explain how incomplete antibiotic courses can increase the frequency of antibiotic-resistant bacteria in a population.",
       "marks": 5,
-      "modelAnswer": "Random mutations create resistant variants. Antibiotic kills susceptible bacteria; resistant bacteria survive. If treatment stops early, survivors reproduce rapidly and pass resistance alleles to offspring. The proportion of resistant bacteria therefore increases by natural selection.",
+      "modelAnswer": "Random mutations create resistant variants. Antibiotic kills susceptible bacteria resistant bacteria survive. If treatment stops early, survivors reproduce rapidly and pass resistance alleles to offspring. The proportion of resistant bacteria therefore increases by natural selection.",
       "markingPoints": [
         "Random mutations create resistant variants. Antibiotic kills susceptible bacteria",
         "resistant bacteria survive. If treatment stops early, survivors reproduce rapidly and pass resistance alleles to offspring. The proportion of resistant bacteria therefore increases by natural selection."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.3.1.8, 4.6.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1556,12 +1460,12 @@
     {
       "id": "PK01",
       "questionFamily": "Microbiology practical",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "Culturing microorganisms",
       "sourceSubtopic": "Culturing microorganisms",
       "tier": "Biology only",
       "question": "Describe how to prepare an uncontaminated bacterial lawn on agar.",
       "marks": 5,
-      "modelAnswer": "Disinfect the bench; use sterile agar and Petri dish; flame or use a sterile inoculating loop; open the lid as little as possible; spread the culture evenly over the agar; secure the lid with tape at intervals; incubate the plate inverted at 25 °C.",
+      "modelAnswer": "Disinfect the bench use sterile agar and Petri dish flame or use a sterile inoculating loop open the lid as little as possible spread the culture evenly over the agar secure the lid with tape at intervals incubate the plate inverted at 25 °C.",
       "markingPoints": [
         "Disinfect the bench",
         "use sterile agar and Petri dish",
@@ -1573,7 +1477,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.3.1.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Practical knowledge"
@@ -1581,12 +1484,12 @@
     {
       "id": "PK02",
       "questionFamily": "Antibiotic investigation",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "Antibiotics",
       "sourceSubtopic": "Antibiotics",
       "tier": "Biology only",
       "question": "Plan how to compare the effectiveness of three antibiotics against one bacterial species.",
       "marks": 6,
-      "modelAnswer": "Prepare an even bacterial lawn; place equal-size discs containing controlled concentrations of each antibiotic, plus a solvent control, equally spaced on the agar; incubate all plates under identical conditions; measure inhibition-zone diameter or area; repeat and compare means; use aseptic technique.",
+      "modelAnswer": "Prepare an even bacterial lawn place equal-size discs containing controlled concentrations of each antibiotic, plus a solvent control, equally spaced on the agar incubate all plates under identical conditions measure inhibition-zone diameter or area repeat and compare means use aseptic technique.",
       "markingPoints": [
         "Prepare an even bacterial lawn",
         "place equal-size discs containing controlled concentrations of each antibiotic, plus a solvent control, equally spaced on the agar",
@@ -1597,7 +1500,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.3.1.6",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary"
@@ -1605,21 +1507,19 @@
     {
       "id": "PK03",
       "questionFamily": "Inhibition-zone calculation",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "Antibiotics",
       "sourceSubtopic": "Antibiotics",
       "tier": "Biology only",
       "question": "An inhibition zone has a diameter of 18 mm. Calculate its area. Use π = 3.14.",
       "marks": 3,
-      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2.\nRadius = 9 mm. Area = πr² = 3.14 × 9² = 254.34 mm², approximately 254 mm².\nAnswer: Radius = 9 mm. Area = πr² = 3.14 × 9² = 254.34 mm², approximately 254 mm².",
+      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2. Radius = 9 mm. Area = πr² = 3.14 × 9² = 254.34 mm², approximately 254 mm². Answer: Radius = 9 mm. Area = πr² = 3.14 × 9² = 254.34 mm², approximately 254 mm².",
       "markingPoints": [
-        "area of a circle = πr²",
-        "r = diameter ÷ 2.",
+        "area of a circle = πr²; r = diameter ÷ 2.",
         "Radius = 9 mm. Area = πr² = 3.14 × 9² = 254.34 mm², approximately 254 mm².",
         "Answer: Radius = 9 mm. Area = πr² = 3.14 × 9² = 254.34 mm², approximately 254 mm²."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.3.1.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -1627,7 +1527,7 @@
     {
       "id": "PK04",
       "questionFamily": "Antibiotic conclusion",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "Antibiotics",
       "sourceSubtopic": "Antibiotics",
       "tier": "Biology only",
       "question": "Explain why the antibiotic with the largest inhibition zone cannot automatically be declared the best treatment for a patient.",
@@ -1638,7 +1538,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.3.1.6",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1646,7 +1545,7 @@
     {
       "id": "PK05",
       "questionFamily": "Control disc",
-      "subtopic": "Communicable Diseases",
+      "subtopic": "Antibiotics",
       "sourceSubtopic": "Antibiotics",
       "tier": "Biology only",
       "question": "Why should an antibiotic-disc investigation include a disc containing only the solvent?",
@@ -1657,7 +1556,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.3.1.6",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge"
@@ -1665,7 +1563,7 @@
     {
       "id": "PK06",
       "questionFamily": "Plant disease identification",
-      "subtopic": "Plant Disease",
+      "subtopic": "Plant disease",
       "sourceSubtopic": "Plant disease",
       "tier": "Both",
       "question": "A plant has yellow leaves and reduced growth. Explain why these observations alone are insufficient to identify a pathogen and state two further approaches.",
@@ -1676,7 +1574,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.3.3.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge"

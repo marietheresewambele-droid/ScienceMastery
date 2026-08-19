@@ -14,7 +14,7 @@ const FlaskIcon = ({ className = "h-5 w-5" }) => (
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    strokeWidth="2"
+    strokeWidth="2.4"
     strokeLinecap="round"
     strokeLinejoin="round"
     aria-hidden="true"
@@ -29,28 +29,28 @@ export default function TopicHeader({ metadata }: TopicHeaderProps) {
   const homeHref = useHomeHref();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[#e6eaee] bg-white/95 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b-2 border-ink bg-cream/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <Link
           href={homeHref}
           className="flex items-center gap-2.5"
           aria-label="ScienceMastery Home"
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#00a551] text-white shadow-sm">
+          <span className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-ink bg-orange text-white shadow-[3px_3px_0_0_var(--color-ink)]">
             <FlaskIcon />
           </span>
-          <span className="text-xl font-extrabold tracking-tight">
-            Science<span className="text-[#00a551]">Mastery</span>
+          <span className="font-display text-xl font-bold tracking-tight">
+            Science<span className="text-orange">Mastery</span>
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-4 text-sm font-semibold text-[#5a6b7f] md:flex">
-          <span className="rounded-full bg-[#e9f8f0] px-3 py-1 text-xs font-bold text-[#02753a]">
+        <nav className="hidden items-center gap-4 text-sm font-semibold text-ink-soft md:flex">
+          <span className="sm-tag px-3 py-1 text-xs">
             {metadata.examBoard} {metadata.title}
           </span>
           <Link
             href={homeHref}
-            className="transition hover:text-[#0b1d33]"
+            className="transition hover:text-orange-dark"
           >
             Back to home
           </Link>
@@ -58,12 +58,12 @@ export default function TopicHeader({ metadata }: TopicHeaderProps) {
 
         {/* Mobile view */}
         <div className="flex items-center gap-2 md:hidden">
-          <span className="rounded-full bg-[#e9f8f0] px-2 py-1 text-xs font-bold text-[#02753a]">
+          <span className="sm-tag px-2 py-1 text-xs">
             {metadata.subject.charAt(0).toUpperCase() + metadata.subject.slice(1)}
           </span>
           <Link
             href={homeHref}
-            className="text-sm font-semibold text-[#5a6b7f] transition hover:text-[#0b1d33]"
+            className="text-sm font-semibold text-ink-soft transition hover:text-orange-dark"
           >
             Home
           </Link>

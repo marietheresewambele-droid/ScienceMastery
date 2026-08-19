@@ -1,9 +1,5 @@
 {
   "metadata": {
-    "topicId": "energy",
-    "topic": "Energy",
-    "sourceWorkbook": "AQA_GCSE_Physics_Complete_Mastery_Workbook.xlsx",
-    "questionCount": 22,
     "subtopics": [
       {
         "title": "1.1 Energy changes in a system",
@@ -26,23 +22,22 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Name the eight energy stores used in the GCSE energy model.",
       "marks": 8,
-      "modelAnswer": "Thermal; kinetic; gravitational potential; elastic potential; chemical; magnetic; electrostatic; nuclear.",
+      "modelAnswer": "Thermal. Kinetic. Gravitational potential. Elastic potential. Chemical. Magnetic. Electrostatic. Nuclear.",
       "markingPoints": [
-        "Thermal",
-        "kinetic",
-        "gravitational potential",
-        "elastic potential",
-        "chemical",
-        "magnetic",
-        "electrostatic",
-        "nuclear."
+        "Thermal.",
+        "Kinetic.",
+        "Gravitational potential.",
+        "Elastic potential.",
+        "Chemical.",
+        "Magnetic.",
+        "Electrostatic.",
+        "Nuclear."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -53,19 +48,18 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Name the four pathways by which energy can be transferred.",
       "marks": 4,
-      "modelAnswer": "Mechanically; electrically; by heating; by radiation.",
+      "modelAnswer": "Mechanically. Electrically. By heating. By radiation.",
       "markingPoints": [
-        "Mechanically",
-        "electrically",
-        "by heating",
-        "by radiation."
+        "Mechanically.",
+        "Electrically.",
+        "By heating.",
+        "By radiation."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -76,18 +70,17 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A falling ball speeds up. Describe the energy-store changes.",
       "marks": 3,
-      "modelAnswer": "The gravitational potential store decreases; the kinetic store increases; some energy is dissipated to thermal stores because of air resistance.",
+      "modelAnswer": "The gravitational potential store decreases. The kinetic store increases. Some energy is dissipated to thermal stores because of air resistance.",
       "markingPoints": [
-        "The gravitational potential store decreases",
-        "the kinetic store increases",
-        "some energy is dissipated to thermal stores because of air resistance."
+        "The gravitational potential store decreases.",
+        "The kinetic store increases.",
+        "Some energy is dissipated to thermal stores because of air resistance."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -98,19 +91,18 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain the energy transfers when a moving car brakes.",
       "marks": 4,
-      "modelAnswer": "Work is done by friction; energy is transferred from the car’s kinetic store; mainly to thermal stores of the brakes, tyres and surroundings; total energy is conserved.",
+      "modelAnswer": "Work is done by friction. Energy is transferred from the car’s kinetic store. Mainly to thermal stores of the brakes, tyres and surroundings. Total energy is conserved.",
       "markingPoints": [
-        "Work is done by friction",
-        "energy is transferred from the car’s kinetic store",
-        "mainly to thermal stores of the brakes, tyres and surroundings",
-        "total energy is conserved."
+        "Work is done by friction.",
+        "Energy is transferred from the car’s kinetic store.",
+        "Mainly to thermal stores of the brakes, tyres and surroundings.",
+        "Total energy is conserved."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -121,17 +113,16 @@
       "subtopic": "1.2 Conservation and dissipation",
       "sourceSubtopic": "1.2 Conservation and dissipation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State the law of conservation of energy.",
       "marks": 2,
-      "modelAnswer": "Energy cannot be created or destroyed; it can only be transferred between stores.",
+      "modelAnswer": "Energy cannot be created or destroyed. It can only be transferred between stores.",
       "markingPoints": [
-        "Energy cannot be created or destroyed",
-        "it can only be transferred between stores."
+        "Energy cannot be created or destroyed.",
+        "It can only be transferred between stores."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -142,17 +133,16 @@
       "subtopic": "1.2 Conservation and dissipation",
       "sourceSubtopic": "1.2 Conservation and dissipation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "What is meant by energy being dissipated?",
       "marks": 2,
-      "modelAnswer": "Energy is transferred to less useful stores, usually thermal stores of the surroundings; it becomes spread out and harder to use.",
+      "modelAnswer": "Energy is transferred to less useful stores, usually thermal stores of the surroundings. It becomes spread out and harder to use.",
       "markingPoints": [
-        "Energy is transferred to less useful stores, usually thermal stores of the surroundings",
-        "it becomes spread out and harder to use."
+        "Energy is transferred to less useful stores, usually thermal stores of the surroundings.",
+        "It becomes spread out and harder to use."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -163,18 +153,17 @@
       "subtopic": "1.2 Conservation and dissipation",
       "sourceSubtopic": "1.2 Conservation and dissipation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain how increasing the thickness of loft insulation reduces energy transfer.",
       "marks": 3,
-      "modelAnswer": "It traps air; air is a poor thermal conductor; a thicker layer increases thermal resistance and reduces the rate of transfer through the roof.",
+      "modelAnswer": "It traps air. Air is a poor thermal conductor. A thicker layer increases thermal resistance and reduces the rate of transfer through the roof.",
       "markingPoints": [
-        "It traps air",
-        "air is a poor thermal conductor",
-        "a thicker layer increases thermal resistance and reduces the rate of transfer through the roof."
+        "It traps air.",
+        "Air is a poor thermal conductor.",
+        "A thicker layer increases thermal resistance and reduces the rate of transfer through the roof."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -185,17 +174,16 @@
       "subtopic": "1.2 Conservation and dissipation",
       "sourceSubtopic": "1.2 Conservation and dissipation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define thermal conductivity.",
       "marks": 2,
-      "modelAnswer": "A measure of how quickly energy is transferred through a material by conduction; a lower value means a better insulator.",
+      "modelAnswer": "A measure of how quickly energy is transferred through a material by conduction. A lower value means a better insulator.",
       "markingPoints": [
-        "A measure of how quickly energy is transferred through a material by conduction",
-        "a lower value means a better insulator."
+        "A measure of how quickly energy is transferred through a material by conduction.",
+        "A lower value means a better insulator."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -206,17 +194,16 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define power and give its unit.",
       "marks": 2,
-      "modelAnswer": "Power is the rate of energy transfer or rate of doing work; watt (W).",
+      "modelAnswer": "Power is the rate of energy transfer or rate of doing work. Watt (W).",
       "markingPoints": [
-        "Power is the rate of energy transfer or rate of doing work",
-        "watt (W)."
+        "Power is the rate of energy transfer or rate of doing work.",
+        "Watt (W)."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -227,17 +214,16 @@
       "subtopic": "1.2 Conservation and dissipation",
       "sourceSubtopic": "1.2 Conservation and dissipation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain why no real device is 100% efficient.",
       "marks": 2,
-      "modelAnswer": "Some energy is always dissipated to unwanted thermal or sound stores; therefore useful output is less than total input.",
+      "modelAnswer": "Some energy is always dissipated to unwanted thermal or sound stores. Therefore useful output is less than total input.",
       "markingPoints": [
-        "Some energy is always dissipated to unwanted thermal or sound stores",
-        "therefore useful output is less than total input."
+        "Some energy is always dissipated to unwanted thermal or sound stores.",
+        "Therefore useful output is less than total input."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -248,16 +234,16 @@
       "subtopic": "1.3 National and global resources",
       "sourceSubtopic": "1.3 National and global resources",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Classify coal, oil, gas, nuclear fuel, wind, solar, hydroelectric, tidal, wave, geothermal and biofuel as renewable or non-renewable.",
       "marks": 5,
       "modelAnswer": "Non-renewable: coal, oil, gas and nuclear fuel. Renewable: wind, solar, hydroelectric, tidal, wave, geothermal and biofuel.",
       "markingPoints": [
-        "Non-renewable: coal, oil, gas and nuclear fuel. Renewable: wind, solar, hydroelectric, tidal, wave, geothermal and biofuel."
+        "Non-renewable: coal, oil, gas and nuclear fuel.",
+        "Renewable: wind, solar, hydroelectric, tidal, wave, geothermal and biofuel."
       ],
       "commandWord": "Classify",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -268,16 +254,17 @@
       "subtopic": "1.3 National and global resources",
       "sourceSubtopic": "1.3 National and global resources",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Compare wind power with a gas-fired power station for reliability and environmental impact.",
       "marks": 6,
       "modelAnswer": "Wind is renewable and produces no fuel-related carbon dioxide during operation, but is intermittent and needs backup or storage. Gas is reliable and responds quickly to demand, but is non-renewable and releases carbon dioxide and pollutants. A justified judgement should depend on purpose and location.",
       "markingPoints": [
-        "Wind is renewable and produces no fuel-related carbon dioxide during operation, but is intermittent and needs backup or storage. Gas is reliable and responds quickly to demand, but is non-renewable and releases carbon dioxide and pollutants. A justified judgement should depend on purpose and location."
+        "Wind is renewable and produces no fuel-related carbon dioxide during operation, but is intermittent and needs backup or storage.",
+        "Gas is reliable and responds quickly to demand, but is non-renewable and releases carbon dioxide and pollutants.",
+        "A justified judgement should depend on purpose and location."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -288,19 +275,18 @@
       "subtopic": "1.3 National and global resources",
       "sourceSubtopic": "1.3 National and global resources",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain why electricity suppliers use a mixture of energy resources.",
       "marks": 4,
-      "modelAnswer": "Demand changes; some sources are intermittent; reliable sources meet base load and rapid-response sources meet peaks; a mix balances reliability, cost and environmental effects.",
+      "modelAnswer": "Demand changes. Some sources are intermittent. Reliable sources meet base load and rapid-response sources meet peaks. A mix balances reliability, cost and environmental effects.",
       "markingPoints": [
-        "Demand changes",
-        "some sources are intermittent",
-        "reliable sources meet base load and rapid-response sources meet peaks",
-        "a mix balances reliability, cost and environmental effects."
+        "Demand changes.",
+        "Some sources are intermittent.",
+        "Reliable sources meet base load and rapid-response sources meet peaks.",
+        "A mix balances reliability, cost and environmental effects."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -311,10 +297,9 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A 1,200 kg car travels at 15 m/s. Calculate its kinetic energy.",
       "marks": 4,
-      "modelAnswer": "Eₖ = ½mv²\nEₖ = 0.5 × 1200 × 15²\nEₖ = 135,000 J",
+      "modelAnswer": "Eₖ = ½mv² Eₖ = 0.5 × 1200 × 15² Eₖ = 135,000 J",
       "markingPoints": [
         "Eₖ = ½mv²",
         "Eₖ = 0.5 × 1200 × 15²",
@@ -322,7 +307,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -333,10 +318,9 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A 3.0 kg object is lifted through 4.0 m. Use g = 9.8 N/kg. Calculate the increase in gravitational potential energy.",
       "marks": 4,
-      "modelAnswer": "Eₚ = mgh\nEₚ = 3.0 × 9.8 × 4.0\nEₚ = 117.6 J ≈ 118 J",
+      "modelAnswer": "Eₚ = mgh Eₚ = 3.0 × 9.8 × 4.0 Eₚ = 117.6 J ≈ 118 J",
       "markingPoints": [
         "Eₚ = mgh",
         "Eₚ = 3.0 × 9.8 × 4.0",
@@ -344,7 +328,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -355,10 +339,9 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Higher",
-      "contentEligibility": "Higher",
       "question": "A spring with spring constant 250 N/m is extended by 0.080 m. Calculate the elastic potential energy stored.",
       "marks": 4,
-      "modelAnswer": "Eₑ = ½ke²\nEₑ = 0.5 × 250 × 0.080²\nEₑ = 0.80 J",
+      "modelAnswer": "Eₑ = ½ke² Eₑ = 0.5 × 250 × 0.080² Eₑ = 0.80 J",
       "markingPoints": [
         "Eₑ = ½ke²",
         "Eₑ = 0.5 × 250 × 0.080²",
@@ -366,7 +349,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -377,10 +360,9 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A motor transfers 18,000 J in 30 s. Calculate its power.",
       "marks": 3,
-      "modelAnswer": "P = E ÷ t\nP = 18,000 ÷ 30\nP = 600 W",
+      "modelAnswer": "P = E ÷ t P = 18,000 ÷ 30 P = 600 W",
       "markingPoints": [
         "P = E ÷ t",
         "P = 18,000 ÷ 30",
@@ -388,7 +370,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.1.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -399,19 +381,18 @@
       "subtopic": "1.2 Conservation and dissipation",
       "sourceSubtopic": "1.2 Conservation and dissipation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A lamp transfers 1,500 J electrically and produces 240 J of useful light. Calculate its efficiency as a percentage.",
       "marks": 4,
-      "modelAnswer": "efficiency = useful output ÷ total input\nefficiency = 240 ÷ 1500 = 0.16\npercentage efficiency = 0.16 × 100\n= 16%",
+      "modelAnswer": "Efficiency = useful output ÷ total input Efficiency = 240 ÷ 1500 = 0.16 Percentage efficiency = 0.16 × 100 = 16%",
       "markingPoints": [
-        "efficiency = useful output ÷ total input",
-        "efficiency = 240 ÷ 1500 = 0.16",
-        "percentage efficiency = 0.16 × 100",
+        "Efficiency = useful output ÷ total input",
+        "Efficiency = 240 ÷ 1500 = 0.16",
+        "Percentage efficiency = 0.16 × 100",
         "= 16%"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -422,16 +403,22 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe how to determine the specific heat capacity of a metal block.",
       "marks": 6,
       "modelAnswer": "Measure the block’s mass. Insert a heater and thermometer and insulate the block. Record initial temperature. Switch on and measure potential difference, current and heating time, so energy = VIt. Record temperature rise. Calculate c = E ÷ (mΔθ). Repeat or use a graph of energy against temperature change. Reduce heat loss and ensure good thermal contact.",
       "markingPoints": [
-        "Measure the block’s mass. Insert a heater and thermometer and insulate the block. Record initial temperature. Switch on and measure potential difference, current and heating time, so energy = VIt. Record temperature rise. Calculate c = E ÷ (mΔθ). Repeat or use a graph of energy against temperature change. Reduce heat loss and ensure good thermal contact."
+        "Measure the block’s mass.",
+        "Insert a heater and thermometer and insulate the block.",
+        "Record initial temperature.",
+        "Switch on and measure potential difference, current and heating time, so energy = VIt.",
+        "Record temperature rise.",
+        "Calculate c = E ÷ (mΔθ).",
+        "Repeat or use a graph of energy against temperature change.",
+        "Reduce heat loss and ensure good thermal contact."
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical and disciplinary knowledge"
@@ -442,17 +429,19 @@
       "subtopic": "1.2 Conservation and dissipation",
       "sourceSubtopic": "1.2 Conservation and dissipation",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Plan an investigation comparing insulating materials around a beaker of hot water.",
       "marks": 6,
-      "modelAnswer": "Use identical beakers, equal water mass and equal starting temperature. Use equal thickness/area of each material. Fit lids, record temperature at fixed times and compare temperature decrease or cooling rate. Control room conditions and exposed surface area; repeat and calculate means.",
+      "modelAnswer": "Use identical beakers, equal water mass and equal starting temperature. Use equal thickness/area of each material. Fit lids, record temperature at fixed times and compare temperature decrease or cooling rate. Control room conditions and exposed surface area. Repeat and calculate means.",
       "markingPoints": [
-        "Use identical beakers, equal water mass and equal starting temperature. Use equal thickness/area of each material. Fit lids, record temperature at fixed times and compare temperature decrease or cooling rate. Control room conditions and exposed surface area",
-        "repeat and calculate means."
+        "Use identical beakers, equal water mass and equal starting temperature.",
+        "Use equal thickness/area of each material.",
+        "Fit lids, record temperature at fixed times and compare temperature decrease or cooling rate.",
+        "Control room conditions and exposed surface area.",
+        "Repeat and calculate means."
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical and disciplinary knowledge"
@@ -463,20 +452,19 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A 0.20 kg ball has 40 J of kinetic energy. Calculate its speed.",
       "marks": 5,
-      "modelAnswer": "Eₖ = ½mv²\nv² = 2Eₖ ÷ m\nv² = (2 × 40) ÷ 0.20 = 400\nv = √400\nv = 20 m/s",
+      "modelAnswer": "Eₖ = ½mv² V² = 2Eₖ ÷ m V² = (2 × 40) ÷ 0.20 = 400 V = √400 V = 20 m/s",
       "markingPoints": [
         "Eₖ = ½mv²",
-        "v² = 2Eₖ ÷ m",
-        "v² = (2 × 40) ÷ 0.20 = 400",
-        "v = √400",
-        "v = 20 m/s"
+        "V² = 2Eₖ ÷ m",
+        "V² = (2 × 40) ÷ 0.20 = 400",
+        "V = √400",
+        "V = 20 m/s"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -487,19 +475,18 @@
       "subtopic": "1.1 Energy changes in a system",
       "sourceSubtopic": "1.1 Energy changes in a system",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A 750 W appliance transfers 1.35 MJ. Calculate the operating time.",
       "marks": 4,
-      "modelAnswer": "P = E ÷ t\nt = E ÷ P\nt = 1.35 × 10⁶ ÷ 750\nt = 1800 s",
+      "modelAnswer": "P = E ÷ t T = E ÷ P T = 1.35 × 10⁶ ÷ 750 T = 1800 s",
       "markingPoints": [
         "P = E ÷ t",
-        "t = E ÷ P",
-        "t = 1.35 × 10⁶ ÷ 750",
-        "t = 1800 s"
+        "T = E ÷ P",
+        "T = 1.35 × 10⁶ ÷ 750",
+        "T = 1800 s"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 1 - Energy mastery workbook",
+      "evidenceSource": "Energy mastery workbook",
       "specificationReference": "4.1.1.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"

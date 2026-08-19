@@ -1,9 +1,5 @@
 {
   "metadata": {
-    "topicId": "electricity",
-    "topic": "Electricity",
-    "sourceWorkbook": "AQA_GCSE_Physics_Complete_Mastery_Workbook.xlsx",
-    "questionCount": 27,
     "subtopics": [
       {
         "title": "2.1 Current, p.d. and resistance",
@@ -34,17 +30,16 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define electric current.",
       "marks": 2,
-      "modelAnswer": "The rate of flow of electric charge; current = charge ÷ time.",
+      "modelAnswer": "The rate of flow of electric charge. Current = charge ÷ time.",
       "markingPoints": [
-        "The rate of flow of electric charge",
-        "current = charge ÷ time."
+        "The rate of flow of electric charge.",
+        "Current = charge ÷ time."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -55,17 +50,16 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define potential difference.",
       "marks": 2,
-      "modelAnswer": "Energy transferred per unit charge between two points; p.d. = energy ÷ charge.",
+      "modelAnswer": "Energy transferred per unit charge between two points. P.d. = energy ÷ charge.",
       "markingPoints": [
-        "Energy transferred per unit charge between two points",
-        "p.d. = energy ÷ charge."
+        "Energy transferred per unit charge between two points.",
+        "P.d. = energy ÷ charge."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -76,17 +70,16 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain what resistance does in a circuit.",
       "marks": 2,
-      "modelAnswer": "It opposes the flow of charge; for a given potential difference, greater resistance gives a smaller current.",
+      "modelAnswer": "It opposes the flow of charge. For a given potential difference, greater resistance gives a smaller current.",
       "markingPoints": [
-        "It opposes the flow of charge",
-        "for a given potential difference, greater resistance gives a smaller current."
+        "It opposes the flow of charge.",
+        "For a given potential difference, greater resistance gives a smaller current."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -97,18 +90,17 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe the current–potential difference graph for an ohmic resistor at constant temperature.",
       "marks": 3,
-      "modelAnswer": "A straight line through the origin; current is directly proportional to potential difference; resistance is constant.",
+      "modelAnswer": "A straight line through the origin. Current is directly proportional to potential difference. Resistance is constant.",
       "markingPoints": [
-        "A straight line through the origin",
-        "current is directly proportional to potential difference",
-        "resistance is constant."
+        "A straight line through the origin.",
+        "Current is directly proportional to potential difference.",
+        "Resistance is constant."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -119,18 +111,17 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain why the resistance of a filament lamp increases as current increases.",
       "marks": 3,
-      "modelAnswer": "The filament temperature rises; ions vibrate more; electrons collide more frequently, so resistance increases.",
+      "modelAnswer": "The filament temperature rises. Ions vibrate more. Electrons collide more frequently, so resistance increases.",
       "markingPoints": [
-        "The filament temperature rises",
-        "ions vibrate more",
-        "electrons collide more frequently, so resistance increases."
+        "The filament temperature rises.",
+        "Ions vibrate more.",
+        "Electrons collide more frequently, so resistance increases."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -141,18 +132,17 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe the current–potential difference characteristic of a diode.",
       "marks": 3,
-      "modelAnswer": "Very high resistance in the reverse direction; little current flows until the forward threshold is reached; then current rises steeply.",
+      "modelAnswer": "Very high resistance in the reverse direction. Little current flows until the forward threshold is reached. Then current rises steeply.",
       "markingPoints": [
-        "Very high resistance in the reverse direction",
-        "little current flows until the forward threshold is reached",
-        "then current rises steeply."
+        "Very high resistance in the reverse direction.",
+        "Little current flows until the forward threshold is reached.",
+        "Then current rises steeply."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -163,7 +153,6 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State how the resistance of an NTC thermistor changes as temperature increases.",
       "marks": 1,
       "modelAnswer": "Its resistance decreases.",
@@ -172,7 +161,7 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -183,7 +172,6 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State how the resistance of an LDR changes as light intensity increases.",
       "marks": 1,
       "modelAnswer": "Its resistance decreases.",
@@ -192,7 +180,7 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -203,19 +191,18 @@
       "subtopic": "2.2 Series and parallel circuits",
       "sourceSubtopic": "2.2 Series and parallel circuits",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State the rules for current, potential difference and resistance in a series circuit.",
       "marks": 4,
-      "modelAnswer": "Current is the same everywhere; supply p.d. is shared; total p.d. equals the sum across components; total resistance is the sum of component resistances.",
+      "modelAnswer": "Current is the same everywhere. Supply p.d. is shared. Total p.d. equals the sum across components. Total resistance is the sum of component resistances.",
       "markingPoints": [
-        "Current is the same everywhere",
-        "supply p.d. is shared",
-        "total p.d. equals the sum across components",
-        "total resistance is the sum of component resistances."
+        "Current is the same everywhere.",
+        "Supply p.d. is shared.",
+        "Total p.d. equals the sum across components.",
+        "Total resistance is the sum of component resistances."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -226,19 +213,18 @@
       "subtopic": "2.2 Series and parallel circuits",
       "sourceSubtopic": "2.2 Series and parallel circuits",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State the rules for current and potential difference in a parallel circuit.",
       "marks": 4,
-      "modelAnswer": "Potential difference is the same across each branch; current splits at junctions; total current equals the sum of branch currents; adding branches reduces total resistance.",
+      "modelAnswer": "Potential difference is the same across each branch. Current splits at junctions. Total current equals the sum of branch currents. Adding branches reduces total resistance.",
       "markingPoints": [
-        "Potential difference is the same across each branch",
-        "current splits at junctions",
-        "total current equals the sum of branch currents",
-        "adding branches reduces total resistance."
+        "Potential difference is the same across each branch.",
+        "Current splits at junctions.",
+        "Total current equals the sum of branch currents.",
+        "Adding branches reduces total resistance."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -249,18 +235,17 @@
       "subtopic": "2.2 Series and parallel circuits",
       "sourceSubtopic": "2.2 Series and parallel circuits",
       "tier": "Higher",
-      "contentEligibility": "Higher",
       "question": "Explain why adding another resistor in parallel reduces total resistance.",
       "marks": 3,
-      "modelAnswer": "It provides another path for charge; more total current flows for the same supply potential difference; because R = V/I, total resistance decreases.",
+      "modelAnswer": "It provides another path for charge. More total current flows for the same supply potential difference. Because R = V/I, total resistance decreases.",
       "markingPoints": [
-        "It provides another path for charge",
-        "more total current flows for the same supply potential difference",
-        "because R = V/I, total resistance decreases."
+        "It provides another path for charge.",
+        "More total current flows for the same supply potential difference.",
+        "Because R = V/I, total resistance decreases."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -271,16 +256,16 @@
       "subtopic": "2.3 Domestic uses and safety",
       "sourceSubtopic": "2.3 Domestic uses and safety",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Distinguish direct current from alternating current.",
       "marks": 3,
       "modelAnswer": "Direct current flows in one direction. Alternating current repeatedly changes direction and magnitude.",
       "markingPoints": [
-        "Direct current flows in one direction. Alternating current repeatedly changes direction and magnitude."
+        "Direct current flows in one direction.",
+        "Alternating current repeatedly changes direction and magnitude."
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -291,7 +276,6 @@
       "subtopic": "2.3 Domestic uses and safety",
       "sourceSubtopic": "2.3 Domestic uses and safety",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State the frequency and potential difference of the UK mains supply.",
       "marks": 2,
       "modelAnswer": "50 Hz and approximately 230 V.",
@@ -300,7 +284,7 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -311,16 +295,17 @@
       "subtopic": "2.3 Domestic uses and safety",
       "sourceSubtopic": "2.3 Domestic uses and safety",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State the function and colour of the live, neutral and earth wires in a UK plug.",
       "marks": 6,
       "modelAnswer": "Live: brown, carries alternating p.d. from supply. Neutral: blue, completes the circuit and is near 0 V. Earth: green/yellow, safety wire connected to metal case and normally carries no current.",
       "markingPoints": [
-        "Live: brown, carries alternating p.d. from supply. Neutral: blue, completes the circuit and is near 0 V. Earth: green/yellow, safety wire connected to metal case and normally carries no current."
+        "Live: brown, carries alternating p.d. from supply.",
+        "Neutral: blue, completes the circuit and is near 0 V.",
+        "Earth: green/yellow, safety wire connected to metal case and normally carries no current."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -331,19 +316,18 @@
       "subtopic": "2.3 Domestic uses and safety",
       "sourceSubtopic": "2.3 Domestic uses and safety",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain how the earth wire and fuse protect a person if the live wire touches a metal case.",
       "marks": 5,
-      "modelAnswer": "The case becomes connected to earth through a low-resistance path; a large current flows; the fuse melts or circuit breaker opens; the live supply is disconnected, reducing electric-shock risk.",
+      "modelAnswer": "The case becomes connected to earth through a low-resistance path. A large current flows. The fuse melts or circuit breaker opens. The live supply is disconnected, reducing electric-shock risk.",
       "markingPoints": [
-        "The case becomes connected to earth through a low-resistance path",
-        "a large current flows",
-        "the fuse melts or circuit breaker opens",
-        "the live supply is disconnected, reducing electric-shock risk."
+        "The case becomes connected to earth through a low-resistance path.",
+        "A large current flows.",
+        "The fuse melts or circuit breaker opens.",
+        "The live supply is disconnected, reducing electric-shock risk."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -354,18 +338,17 @@
       "subtopic": "2.4 Energy transfers",
       "sourceSubtopic": "2.4 Energy transfers",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain why the National Grid transmits electricity at high potential difference.",
       "marks": 4,
-      "modelAnswer": "For the same power, a higher p.d. gives a lower current; heating loss in cables depends on I²R; lower current reduces energy wasted and improves efficiency.",
+      "modelAnswer": "For the same power, a higher p.d. gives a lower current. Heating loss in cables depends on I²R. Lower current reduces energy wasted and improves efficiency.",
       "markingPoints": [
-        "For the same power, a higher p.d. gives a lower current",
-        "heating loss in cables depends on I²R",
-        "lower current reduces energy wasted and improves efficiency."
+        "For the same power, a higher p.d. gives a lower current.",
+        "Heating loss in cables depends on I²R.",
+        "Lower current reduces energy wasted and improves efficiency."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -376,19 +359,18 @@
       "subtopic": "2.5 Static electricity",
       "sourceSubtopic": "2.5 Static electricity",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain how rubbing two insulating materials can charge them.",
       "marks": 4,
-      "modelAnswer": "Electrons transfer from one material to the other; the material gaining electrons becomes negative; the one losing electrons becomes positive; protons do not move.",
+      "modelAnswer": "Electrons transfer from one material to the other. The material gaining electrons becomes negative. The one losing electrons becomes positive. Protons do not move.",
       "markingPoints": [
-        "Electrons transfer from one material to the other",
-        "the material gaining electrons becomes negative",
-        "the one losing electrons becomes positive",
-        "protons do not move."
+        "Electrons transfer from one material to the other.",
+        "The material gaining electrons becomes negative.",
+        "The one losing electrons becomes positive.",
+        "Protons do not move."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -399,18 +381,17 @@
       "subtopic": "2.5 Static electricity",
       "sourceSubtopic": "2.5 Static electricity",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Define an electric field and state its direction around a positive charge.",
       "marks": 3,
-      "modelAnswer": "A region where a charged object experiences a force; field direction is the direction of force on a positive test charge; it points away from a positive charge.",
+      "modelAnswer": "A region where a charged object experiences a force. Field direction is the direction of force on a positive test charge. It points away from a positive charge.",
       "markingPoints": [
-        "A region where a charged object experiences a force",
-        "field direction is the direction of force on a positive test charge",
-        "it points away from a positive charge."
+        "A region where a charged object experiences a force.",
+        "Field direction is the direction of force on a positive test charge.",
+        "It points away from a positive charge."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -421,19 +402,18 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A current of 0.40 A flows for 3.0 minutes. Calculate the charge transferred.",
       "marks": 4,
-      "modelAnswer": "Q = It\nt = 3.0 × 60 = 180 s\nQ = 0.40 × 180\nQ = 72 C",
+      "modelAnswer": "Q = It T = 3.0 × 60 = 180 s Q = 0.40 × 180 Q = 72 C",
       "markingPoints": [
         "Q = It",
-        "t = 3.0 × 60 = 180 s",
+        "T = 3.0 × 60 = 180 s",
         "Q = 0.40 × 180",
         "Q = 72 C"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -444,10 +424,9 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A resistor has a potential difference of 12 V and a current of 0.30 A. Calculate its resistance.",
       "marks": 3,
-      "modelAnswer": "R = V ÷ I\nR = 12 ÷ 0.30\nR = 40 Ω",
+      "modelAnswer": "R = V ÷ I R = 12 ÷ 0.30 R = 40 Ω",
       "markingPoints": [
         "R = V ÷ I",
         "R = 12 ÷ 0.30",
@@ -455,7 +434,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.1.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -466,20 +445,19 @@
       "subtopic": "2.4 Energy transfers",
       "sourceSubtopic": "2.4 Energy transfers",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A 2.0 kW heater is used for 15 minutes. Calculate the energy transferred in joules.",
       "marks": 4,
-      "modelAnswer": "E = Pt\nP = 2000 W; t = 15 × 60 = 900 s\nE = 2000 × 900\nE = 1.8 × 10⁶ J",
+      "modelAnswer": "E = Pt P = 2000 W T = 15 × 60 = 900 s E = 2000 × 900 E = 1.8 × 10⁶ J",
       "markingPoints": [
         "E = Pt",
         "P = 2000 W",
-        "t = 15 × 60 = 900 s",
+        "T = 15 × 60 = 900 s",
         "E = 2000 × 900",
         "E = 1.8 × 10⁶ J"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -490,10 +468,9 @@
       "subtopic": "2.4 Energy transfers",
       "sourceSubtopic": "2.4 Energy transfers",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A kettle operates at 230 V with a current of 10 A. Calculate its power.",
       "marks": 3,
-      "modelAnswer": "P = VI\nP = 230 × 10\nP = 2300 W",
+      "modelAnswer": "P = VI P = 230 × 10 P = 2300 W",
       "markingPoints": [
         "P = VI",
         "P = 230 × 10",
@@ -501,7 +478,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -512,10 +489,9 @@
       "subtopic": "2.4 Energy transfers",
       "sourceSubtopic": "2.4 Energy transfers",
       "tier": "Higher",
-      "contentEligibility": "Higher",
       "question": "A charge of 45 C passes through a component at 6.0 V. Calculate the energy transferred.",
       "marks": 3,
-      "modelAnswer": "E = QV\nE = 45 × 6.0\nE = 270 J",
+      "modelAnswer": "E = QV E = 45 × 6.0 E = 270 J",
       "markingPoints": [
         "E = QV",
         "E = 45 × 6.0",
@@ -523,7 +499,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -534,16 +510,20 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe how to obtain current–potential difference data for a resistor, filament lamp and diode.",
       "marks": 6,
       "modelAnswer": "Connect an ammeter in series and voltmeter in parallel with the component. Use a variable resistor or variable supply. Change p.d. in steps and record V and I. Reverse the supply to obtain negative values where safe. Control the resistor’s temperature or allow cooling. Plot current against p.d.",
       "markingPoints": [
-        "Connect an ammeter in series and voltmeter in parallel with the component. Use a variable resistor or variable supply. Change p.d. in steps and record V and I. Reverse the supply to obtain negative values where safe. Control the resistor’s temperature or allow cooling. Plot current against p.d."
+        "Connect an ammeter in series and voltmeter in parallel with the component.",
+        "Use a variable resistor or variable supply.",
+        "Change p.d. in steps and record V and I.",
+        "Reverse the supply to obtain negative values where safe.",
+        "Control the resistor’s temperature or allow cooling.",
+        "Plot current against p.d."
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.1.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical and disciplinary knowledge"
@@ -554,16 +534,19 @@
       "subtopic": "2.1 Current, p.d. and resistance",
       "sourceSubtopic": "2.1 Current, p.d. and resistance",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe how to investigate how the resistance of a wire depends on its length.",
       "marks": 6,
       "modelAnswer": "Use one wire of uniform material and diameter. Connect ammeter in series and voltmeter across a measured length. Change length using a sliding contact, record V and I, and calculate R = V/I. Keep temperature low/constant by using small current and switching off between readings. Repeat and plot resistance against length.",
       "markingPoints": [
-        "Use one wire of uniform material and diameter. Connect ammeter in series and voltmeter across a measured length. Change length using a sliding contact, record V and I, and calculate R = V/I. Keep temperature low/constant by using small current and switching off between readings. Repeat and plot resistance against length."
+        "Use one wire of uniform material and diameter.",
+        "Connect ammeter in series and voltmeter across a measured length.",
+        "Change length using a sliding contact, record V and I, and calculate R = V/I.",
+        "Keep temperature low/constant by using small current and switching off between readings.",
+        "Repeat and plot resistance against length."
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical and disciplinary knowledge"
@@ -574,10 +557,9 @@
       "subtopic": "2.2 Series and parallel circuits",
       "sourceSubtopic": "2.2 Series and parallel circuits",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Three series resistors are 4 Ω, 7 Ω and 9 Ω. Calculate total resistance.",
       "marks": 2,
-      "modelAnswer": "Rₜ = R₁ + R₂ + R₃\nRₜ = 4 + 7 + 9\nRₜ = 20 Ω",
+      "modelAnswer": "Rₜ = R₁ + R₂ + R₃ Rₜ = 4 + 7 + 9 Rₜ = 20 Ω",
       "markingPoints": [
         "Rₜ = R₁ + R₂ + R₃",
         "Rₜ = 4 + 7 + 9",
@@ -585,7 +567,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -596,10 +578,9 @@
       "subtopic": "2.4 Energy transfers",
       "sourceSubtopic": "2.4 Energy transfers",
       "tier": "Higher",
-      "contentEligibility": "Higher",
       "question": "A resistor has resistance 15 Ω and carries 2.0 A. Calculate its power.",
       "marks": 3,
-      "modelAnswer": "P = I²R\nP = 2.0² × 15\nP = 60 W",
+      "modelAnswer": "P = I²R P = 2.0² × 15 P = 60 W",
       "markingPoints": [
         "P = I²R",
         "P = 2.0² × 15",
@@ -607,7 +588,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 2 - Electricity mastery workbook",
+      "evidenceSource": "Electricity mastery workbook",
       "specificationReference": "4.2.4.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"

@@ -1,34 +1,14 @@
 {
-  "metadata": {
-    "topicId": "cell-biology",
-    "topic": "Cell Biology",
-    "sourceWorkbook": "AQA_GCSE_Biology_Mastery_Workbook_Topics_6_7_Self_Contained_Clean_Answers.xlsx",
-    "questionCount": 114,
-    "subtopics": [
-      {
-        "title": "Cell Structure",
-        "questionCount": 41
-      },
-      {
-        "title": "Cell Division",
-        "questionCount": 34
-      },
-      {
-        "title": "Transport in Cells",
-        "questionCount": 39
-      }
-    ]
-  },
   "questions": [
     {
       "id": "CS01",
       "questionFamily": "Animal cells",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Name four structures found in most animal cells.",
       "marks": 4,
-      "modelAnswer": "Nucleus; cytoplasm; cell membrane; mitochondria.",
+      "modelAnswer": "Nucleus cytoplasm cell membrane mitochondria.",
       "markingPoints": [
         "Nucleus",
         "cytoplasm",
@@ -45,12 +25,12 @@
     {
       "id": "CS02",
       "questionFamily": "Plant cells",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Name three structures found in plant cells but not animal cells.",
       "marks": 3,
-      "modelAnswer": "Cell wall; chloroplasts; permanent vacuole.",
+      "modelAnswer": "Cell wall chloroplasts permanent vacuole.",
       "markingPoints": [
         "Cell wall",
         "chloroplasts",
@@ -66,7 +46,7 @@
     {
       "id": "CS03",
       "questionFamily": "Cell functions",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "State the function of the nucleus.",
@@ -85,7 +65,7 @@
     {
       "id": "CS04",
       "questionFamily": "Cell functions",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "State the function of the cell membrane.",
@@ -104,7 +84,7 @@
     {
       "id": "CS05",
       "questionFamily": "Cell functions",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "State the function of mitochondria.",
@@ -123,7 +103,7 @@
     {
       "id": "CS06",
       "questionFamily": "Cell functions",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "State the function of ribosomes.",
@@ -142,12 +122,12 @@
     {
       "id": "CS07",
       "questionFamily": "Plant cell functions",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Explain how a root hair cell is adapted to its function.",
       "marks": 3,
-      "modelAnswer": "Long extension gives a large surface area; thin surface gives a short diffusion distance; many mitochondria release energy for active transport of mineral ions.",
+      "modelAnswer": "Long extension gives a large surface area thin surface gives a short diffusion distance many mitochondria release energy for active transport of mineral ions.",
       "markingPoints": [
         "Long extension gives a large surface area",
         "thin surface gives a short diffusion distance",
@@ -163,12 +143,12 @@
     {
       "id": "CS08",
       "questionFamily": "Specialised cells",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Explain how a sperm cell is adapted for fertilisation.",
       "marks": 3,
-      "modelAnswer": "Tail allows swimming; many mitochondria release energy; acrosome contains enzymes to digest the egg membrane; haploid nucleus contains genetic material.",
+      "modelAnswer": "Tail allows swimming many mitochondria release energy acrosome contains enzymes to digest the egg membrane haploid nucleus contains genetic material.",
       "markingPoints": [
         "Tail allows swimming",
         "many mitochondria release energy",
@@ -185,12 +165,12 @@
     {
       "id": "CS09",
       "questionFamily": "Prokaryotes",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Give two similarities and two differences between bacterial and animal cells.",
       "marks": 4,
-      "modelAnswer": "Similarities: cell membrane, cytoplasm, ribosomes. Differences: bacteria have no nucleus and their DNA is a single circular loop; bacteria may also contain plasmids and a cell wall. valid similarities and two differences.",
+      "modelAnswer": "Similarities: cell membrane, cytoplasm, ribosomes. Differences: bacteria have no nucleus and their DNA is a single circular loop bacteria may also contain plasmids and a cell wall. valid similarities and two differences.",
       "markingPoints": [
         "Similarities: cell membrane, cytoplasm, ribosomes. Differences: bacteria have no nucleus and their DNA is a single circular loop",
         "bacteria may also contain plasmids and a cell wall. valid similarities and two differences."
@@ -205,12 +185,12 @@
     {
       "id": "CS10",
       "questionFamily": "Prokaryotes",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Higher",
       "question": "Describe the genetic material in a bacterial cell.",
       "marks": 2,
-      "modelAnswer": "One circular loop of DNA free in the cytoplasm; small rings of DNA called plasmids may also be present.",
+      "modelAnswer": "One circular loop of DNA free in the cytoplasm small rings of DNA called plasmids may also be present.",
       "markingPoints": [
         "One circular loop of DNA free in the cytoplasm",
         "small rings of DNA called plasmids may also be present."
@@ -225,12 +205,12 @@
     {
       "id": "CS11",
       "questionFamily": "Microscopy",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Describe how to prepare an onion epidermis slide for viewing with a light microscope.",
       "marks": 4,
-      "modelAnswer": "Peel a thin epidermal layer; place flat on a slide; add iodine stain; lower a coverslip at an angle to avoid air bubbles.",
+      "modelAnswer": "Peel a thin epidermal layer place flat on a slide add iodine stain lower a coverslip at an angle to avoid air bubbles.",
       "markingPoints": [
         "Peel a thin epidermal layer",
         "place flat on a slide",
@@ -247,12 +227,12 @@
     {
       "id": "CS12",
       "questionFamily": "Microscopy",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Explain why a thin specimen and a stain are used when preparing a microscope slide.",
       "marks": 2,
-      "modelAnswer": "A thin specimen lets light pass through / allows individual cells to be seen; stain increases contrast so cell structures can be seen.",
+      "modelAnswer": "A thin specimen lets light pass through / allows individual cells to be seen stain increases contrast so cell structures can be seen.",
       "markingPoints": [
         "A thin specimen lets light pass through / allows individual cells to be seen",
         "stain increases contrast so cell structures can be seen."
@@ -267,12 +247,12 @@
     {
       "id": "CS13",
       "questionFamily": "Microscopy",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Give the correct sequence for focusing a light microscope, starting with placing the slide on the stage.",
       "marks": 4,
-      "modelAnswer": "Select the lowest-power objective; use the coarse focus to bring the image into view; use fine focus to sharpen it; move to a higher-power objective if needed and refocus.",
+      "modelAnswer": "Select the lowest-power objective use the coarse focus to bring the image into view use fine focus to sharpen it move to a higher-power objective if needed and refocus.",
       "markingPoints": [
         "Select the lowest-power objective",
         "use the coarse focus to bring the image into view",
@@ -289,7 +269,7 @@
     {
       "id": "CS14",
       "questionFamily": "Magnification",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Write the equation linking magnification, image size and real size.",
@@ -308,12 +288,12 @@
     {
       "id": "CS15",
       "questionFamily": "Magnification",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "A cell image is 36 mm long. The real cell is 0.12 mm long. Calculate the magnification.",
       "marks": 2,
-      "modelAnswer": "magnification = image size ÷ actual size.\nMagnification = 36 ÷ 0.12 = ×300.\nAnswer: Magnification = 36 ÷ 0.12 = ×300.",
+      "modelAnswer": "magnification = image size ÷ actual size. Magnification = 36 ÷ 0.12 = ×300. Answer: Magnification = 36 ÷ 0.12 = ×300.",
       "markingPoints": [
         "magnification = image size ÷ actual size.",
         "Magnification = 36 ÷ 0.12 = ×300.",
@@ -329,12 +309,12 @@
     {
       "id": "CS16",
       "questionFamily": "Unit conversion",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Convert 0.25 mm into micrometres.",
       "marks": 1,
-      "modelAnswer": "use the relevant relationship from the question.\n0.25 × 1000 = 250 µm.\nAnswer: 0.25 × 1000 = 250 µm.",
+      "modelAnswer": "use the relevant relationship from the question. 0.25 × 1000 = 250 µm. Answer: 0.25 × 1000 = 250 µm.",
       "markingPoints": [
         "use the relevant relationship from the question.",
         "0.25 × 1000 = 250 µm.",
@@ -350,12 +330,12 @@
     {
       "id": "CS17",
       "questionFamily": "Microscopes",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Compare electron microscopes with light microscopes.",
       "marks": 3,
-      "modelAnswer": "Electron microscopes have greater magnification and resolving power, so they show smaller structures and more detail. Light microscopes can view living specimens; electron microscopes cannot.",
+      "modelAnswer": "Electron microscopes have greater magnification and resolving power, so they show smaller structures and more detail. Light microscopes can view living specimens electron microscopes cannot.",
       "markingPoints": [
         "Electron microscopes have greater magnification and resolving power, so they show smaller structures and more detail. Light microscopes can view living specimens",
         "electron microscopes cannot."
@@ -370,12 +350,12 @@
     {
       "id": "CS18",
       "questionFamily": "Culturing microorganisms",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Higher",
       "question": "Describe two aseptic techniques used when culturing bacteria and explain why each is used.",
       "marks": 4,
-      "modelAnswer": "Examples: sterilise Petri dishes/agar or flame the inoculating loop to kill unwanted microbes; open the lid as little as possible / work near a flame to reduce contamination from air; tape the lid to reduce entry or escape of microbes. Two techniques with reasons.",
+      "modelAnswer": "Examples: sterilise Petri dishes/agar or flame the inoculating loop to kill unwanted microbes open the lid as little as possible / work near a flame to reduce contamination from air tape the lid to reduce entry or escape of microbes. Two techniques with reasons.",
       "markingPoints": [
         "Examples: sterilise Petri dishes/agar or flame the inoculating loop to kill unwanted microbes",
         "open the lid as little as possible / work near a flame to reduce contamination from air",
@@ -391,12 +371,12 @@
     {
       "id": "CS19",
       "questionFamily": "Culturing microorganisms",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Higher",
       "question": "Explain why school cultures are incubated at 25 °C rather than 37 °C.",
       "marks": 2,
-      "modelAnswer": "Human pathogens grow well near body temperature (37 °C); 25 °C reduces the growth of harmful pathogens and therefore reduces risk.",
+      "modelAnswer": "Human pathogens grow well near body temperature (37 °C) 25 °C reduces the growth of harmful pathogens and therefore reduces risk.",
       "markingPoints": [
         "Human pathogens grow well near body temperature (37 °C)",
         "25 °C reduces the growth of harmful pathogens and therefore reduces risk."
@@ -411,12 +391,12 @@
     {
       "id": "CS20",
       "questionFamily": "Antibiotics practical",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Higher",
       "question": "In a disc-diffusion test, explain the purpose of a disc containing no antibiotic and how antibiotic effectiveness is compared quantitatively.",
       "marks": 3,
-      "modelAnswer": "The no-antibiotic disc is a control showing that any inhibition is caused by the antibiotic; measure the diameter/radius or calculate the area of each clear zone; a larger zone indicates greater inhibition.",
+      "modelAnswer": "The no-antibiotic disc is a control showing that any inhibition is caused by the antibiotic measure the diameter/radius or calculate the area of each clear zone a larger zone indicates greater inhibition.",
       "markingPoints": [
         "The no-antibiotic disc is a control showing that any inhibition is caused by the antibiotic",
         "measure the diameter/radius or calculate the area of each clear zone",
@@ -432,12 +412,12 @@
     {
       "id": "CS21",
       "questionFamily": "Cell functions",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "State the function of the cytoplasm and the function of the plant cell wall.",
       "marks": 2,
-      "modelAnswer": "Cytoplasm: where most chemical reactions occur / contains enzymes for reactions . Cell wall: strengthens/supports the cell / maintains shape; .",
+      "modelAnswer": "Cytoplasm: where most chemical reactions occur / contains enzymes for reactions . Cell wall: strengthens/supports the cell / maintains shape .",
       "markingPoints": [
         "Cytoplasm: where most chemical reactions occur / contains enzymes for reactions . Cell wall: strengthens/supports the cell / maintains shape",
         "."
@@ -452,7 +432,7 @@
     {
       "id": "CS22",
       "questionFamily": "Plant cell functions",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "State the functions of chloroplasts and the permanent vacuole.",
@@ -471,12 +451,12 @@
     {
       "id": "CS23",
       "questionFamily": "Specialised cells",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Explain how a nerve cell is adapted to transmit electrical impulses around the body.",
       "marks": 3,
-      "modelAnswer": "Long axon carries impulses over long distances ; branched ends/dendrites connect with many cells ; insulating myelin sheath speeds transmission / prevents loss of signal .",
+      "modelAnswer": "Long axon carries impulses over long distances branched ends/dendrites connect with many cells insulating myelin sheath speeds transmission / prevents loss of signal .",
       "markingPoints": [
         "Long axon carries impulses over long distances",
         "branched ends/dendrites connect with many cells",
@@ -492,12 +472,12 @@
     {
       "id": "CS24",
       "questionFamily": "Specialised cells",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Explain how a muscle cell is adapted for contraction.",
       "marks": 3,
-      "modelAnswer": "Contains contractile protein fibres that shorten ; many mitochondria release energy by respiration for contraction .",
+      "modelAnswer": "Contains contractile protein fibres that shorten many mitochondria release energy by respiration for contraction .",
       "markingPoints": [
         "Contains contractile protein fibres that shorten",
         "many mitochondria release energy by respiration for contraction ."
@@ -512,12 +492,12 @@
     {
       "id": "CS25",
       "questionFamily": "Specialised cells",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Explain how a ciliated epithelial cell helps protect the gas-exchange system.",
       "marks": 3,
-      "modelAnswer": "Goblet cells make mucus which traps pathogens/particles ; cilia beat ; moving mucus towards the throat to be swallowed/removed .",
+      "modelAnswer": "Goblet cells make mucus which traps pathogens/particles cilia beat moving mucus towards the throat to be swallowed/removed .",
       "markingPoints": [
         "Goblet cells make mucus which traps pathogens/particles",
         "cilia beat",
@@ -533,12 +513,12 @@
     {
       "id": "CS26",
       "questionFamily": "Specialised cells",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Explain how a xylem vessel cell is adapted to transport water and support a plant.",
       "marks": 4,
-      "modelAnswer": "Cells are dead/hollow with no end walls, forming a continuous tube ; no cytoplasm gives little resistance to water flow ; walls contain lignin , which strengthens/waterproofs the vessel and prevents collapse .",
+      "modelAnswer": "Cells are dead/hollow with no end walls, forming a continuous tube no cytoplasm gives little resistance to water flow walls contain lignin , which strengthens/waterproofs the vessel and prevents collapse .",
       "markingPoints": [
         "Cells are dead/hollow with no end walls, forming a continuous tube",
         "no cytoplasm gives little resistance to water flow",
@@ -554,7 +534,7 @@
     {
       "id": "CS27",
       "questionFamily": "Differentiation",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Compare differentiation in animals and plants.",
@@ -573,7 +553,7 @@
     {
       "id": "CS28",
       "questionFamily": "Cell size",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "Put these structures in order from smallest to largest: bacterial cell, animal cell, nucleus, chromosome, gene.",
@@ -592,20 +572,16 @@
     {
       "id": "CS29",
       "questionFamily": "Magnification",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "A micrograph shows a cell that is 48 mm long. The actual cell length is 80 µm. Calculate the magnification. Show the unit conversion.",
       "marks": 3,
-      "modelAnswer": "magnification = image size ÷ actual size.\n48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 .\nAnswer: 48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 .",
+      "modelAnswer": "magnification = image size ÷ actual size. 48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 . Answer: 48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 .",
       "markingPoints": [
         "magnification = image size ÷ actual size.",
-        "48 mm = 48 000 µm",
-        "magnification = image size ÷ actual size",
-        "48 000 ÷ 80 = ×600 .",
-        "Answer: 48 mm = 48 000 µm",
-        "magnification = image size ÷ actual size",
-        "48 000 ÷ 80 = ×600 ."
+        "48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 .",
+        "Answer: 48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -617,20 +593,16 @@
     {
       "id": "CS30",
       "questionFamily": "Magnification",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Higher",
       "question": "An image was produced at ×2500 magnification and measures 75 mm. Calculate the actual size of the object in micrometres.",
       "marks": 3,
-      "modelAnswer": "actual size = image size ÷ magnification.\nActual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm .\nAnswer: Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm .",
+      "modelAnswer": "actual size = image size ÷ magnification. Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm . Answer: Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm .",
       "markingPoints": [
         "actual size = image size ÷ magnification.",
-        "Actual size = image size ÷ magnification",
-        "75 ÷ 2500 = 0.030 mm",
-        "0.030 mm = 30 µm .",
-        "Answer: Actual size = image size ÷ magnification",
-        "75 ÷ 2500 = 0.030 mm",
-        "0.030 mm = 30 µm ."
+        "Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm .",
+        "Answer: Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -642,20 +614,16 @@
     {
       "id": "CS31",
       "questionFamily": "Microscopy data",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "A student counts 24 cells across a field of view 1.8 mm wide. Estimate the mean width of one cell in micrometres.",
       "marks": 3,
-      "modelAnswer": "mean = sum of values ÷ number of values.\nMean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm .\nAnswer: Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm .",
+      "modelAnswer": "mean = sum of values ÷ number of values. Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm . Answer: Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm .",
       "markingPoints": [
         "mean = sum of values ÷ number of values.",
-        "Mean width = 1.8 mm ÷ 24 = 0.075 mm",
-        "conversion ×1000",
-        "75 µm .",
-        "Answer: Mean width = 1.8 mm ÷ 24 = 0.075 mm",
-        "conversion ×1000",
-        "75 µm ."
+        "Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm .",
+        "Answer: Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -667,12 +635,12 @@
     {
       "id": "CS32",
       "questionFamily": "Microscopes",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
       "question": "A light microscope has a resolution of 200 nm and an electron microscope has a resolution of 0.2 nm. Explain why the electron microscope reveals more cell detail.",
       "marks": 3,
-      "modelAnswer": "Electron microscope has much higher resolving power / smaller resolution value ; it can distinguish points that are closer together ; therefore smaller organelles/finer internal structures can be seen .",
+      "modelAnswer": "Electron microscope has much higher resolving power / smaller resolution value it can distinguish points that are closer together therefore smaller organelles/finer internal structures can be seen .",
       "markingPoints": [
         "Electron microscope has much higher resolving power / smaller resolution value",
         "it can distinguish points that are closer together",
@@ -688,20 +656,16 @@
     {
       "id": "CS33",
       "questionFamily": "Bacterial growth",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Higher",
       "question": "A bacterial population doubles every 20 minutes. It starts with 150 cells. Calculate the number of cells after 2 hours.",
       "marks": 3,
-      "modelAnswer": "final population = starting population × 2ⁿ.\n2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells .\nAnswer: 2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells .",
+      "modelAnswer": "final population = starting population × 2ⁿ. 2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells . Answer: 2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells .",
       "markingPoints": [
         "final population = starting population × 2ⁿ.",
-        "2 hours = 120 minutes",
-        "120 ÷ 20 = 6 divisions/doublings",
-        "150 × 2^6 = 9600 cells .",
-        "Answer: 2 hours = 120 minutes",
-        "120 ÷ 20 = 6 divisions/doublings",
-        "150 × 2^6 = 9600 cells ."
+        "2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells .",
+        "Answer: 2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -713,12 +677,12 @@
     {
       "id": "CS34",
       "questionFamily": "Culturing microorganisms",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Biology only",
       "question": "Describe a safe method for preparing an uncontaminated culture of bacteria on an agar plate.",
       "marks": 6,
-      "modelAnswer": "Sterilise Petri dish/agar/inoculating loop ; disinfect work surface and wash hands ; use aseptic technique, e.g. flame loop and open lid minimally ; spread bacteria evenly on sterile nutrient agar ; secure lid with tape but do not seal completely ; incubate inverted at 25 °C in school .",
+      "modelAnswer": "Sterilise Petri dish/agar/inoculating loop disinfect work surface and wash hands use aseptic technique, e.g. flame loop and open lid minimally spread bacteria evenly on sterile nutrient agar secure lid with tape but do not seal completely incubate inverted at 25 °C in school .",
       "markingPoints": [
         "Sterilise Petri dish/agar/inoculating loop",
         "disinfect work surface and wash hands",
@@ -737,21 +701,16 @@
     {
       "id": "CS35",
       "questionFamily": "Antibiotics practical",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Biology only",
       "question": "A disinfectant produces a clear circular zone with a diameter of 18 mm. Calculate the area of the clear zone in mm². Use π = 3.14.",
       "marks": 3,
-      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2.\nRadius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² .\nAnswer: Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² .",
+      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2. Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² . Answer: Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² .",
       "markingPoints": [
-        "area of a circle = πr²",
-        "r = diameter ÷ 2.",
-        "Radius = 9 mm",
-        "area = πr²",
-        "3.14 × 9² = 254.34 mm², 254 mm² .",
-        "Answer: Radius = 9 mm",
-        "area = πr²",
-        "3.14 × 9² = 254.34 mm², 254 mm² ."
+        "area of a circle = πr²; r = diameter ÷ 2.",
+        "Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² .",
+        "Answer: Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -763,7 +722,7 @@
     {
       "id": "CS36",
       "questionFamily": "Antibiotics practical",
-      "subtopic": "Cell Structure",
+      "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Biology only",
       "question": "Three antibiotics produce mean clear-zone diameters of 8 mm, 15 mm and 21 mm under identical conditions. Which is most effective, and why is this conclusion only valid if the same bacterium and antibiotic-disc size are used?",
@@ -782,7 +741,7 @@
     {
       "id": "CD01",
       "questionFamily": "Chromosomes",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Where are chromosomes found and what are they made from?",
@@ -801,7 +760,7 @@
     {
       "id": "CD02",
       "questionFamily": "Genes",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Define a gene.",
@@ -820,7 +779,7 @@
     {
       "id": "CD03",
       "questionFamily": "Genome",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Define the genome of an organism.",
@@ -839,12 +798,12 @@
     {
       "id": "CD04",
       "questionFamily": "Cell cycle",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "State three reasons why organisms need mitosis.",
       "marks": 3,
-      "modelAnswer": "Growth; repair or replacement of damaged cells; asexual reproduction.",
+      "modelAnswer": "Growth repair or replacement of damaged cells asexual reproduction.",
       "markingPoints": [
         "Growth",
         "repair or replacement of damaged cells",
@@ -860,12 +819,12 @@
     {
       "id": "CD05",
       "questionFamily": "Cell cycle",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Describe what happens during the first stage of the cell cycle before mitosis.",
       "marks": 3,
-      "modelAnswer": "The cell grows; the number of sub-cellular structures such as mitochondria and ribosomes increases; DNA replicates to form two copies of each chromosome.",
+      "modelAnswer": "The cell grows the number of sub-cellular structures such as mitochondria and ribosomes increases DNA replicates to form two copies of each chromosome.",
       "markingPoints": [
         "The cell grows",
         "the number of sub-cellular structures such as mitochondria and ribosomes increases",
@@ -881,12 +840,12 @@
     {
       "id": "CD06",
       "questionFamily": "Mitosis",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Describe what happens during mitosis and cytokinesis.",
       "marks": 3,
-      "modelAnswer": "One set of chromosomes is pulled to each end of the cell; the nucleus divides; the cytoplasm and cell membrane divide to form two genetically identical cells.",
+      "modelAnswer": "One set of chromosomes is pulled to each end of the cell the nucleus divides the cytoplasm and cell membrane divide to form two genetically identical cells.",
       "markingPoints": [
         "One set of chromosomes is pulled to each end of the cell",
         "the nucleus divides",
@@ -902,15 +861,14 @@
     {
       "id": "CD07",
       "questionFamily": "Mitosis",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "A human body cell containing 46 chromosomes divides by mitosis. How many chromosomes will each daughter cell contain? Explain.",
       "marks": 2,
-      "modelAnswer": "mitosis keeps the chromosome number; meiosis halves it.\n46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell.\nAnswer: 46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell.",
+      "modelAnswer": "mitosis keeps the chromosome number; meiosis halves it. 46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell. Answer: 46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell.",
       "markingPoints": [
-        "mitosis keeps the chromosome number",
-        "meiosis halves it.",
+        "mitosis keeps the chromosome number; meiosis halves it.",
         "46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell.",
         "Answer: 46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell."
       ],
@@ -924,7 +882,7 @@
     {
       "id": "CD08",
       "questionFamily": "Meiosis",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "State where meiosis occurs and what it produces.",
@@ -943,12 +901,12 @@
     {
       "id": "CD09",
       "questionFamily": "Mitosis vs meiosis",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Give three differences between mitosis and meiosis.",
       "marks": 3,
-      "modelAnswer": "Mitosis has one division while meiosis has two; mitosis produces two cells while meiosis produces four; mitosis gives genetically identical diploid cells while meiosis gives genetically different haploid cells.",
+      "modelAnswer": "Mitosis has one division while meiosis has two mitosis produces two cells while meiosis produces four mitosis gives genetically identical diploid cells while meiosis gives genetically different haploid cells.",
       "markingPoints": [
         "Mitosis has one division while meiosis has two",
         "mitosis produces two cells while meiosis produces four",
@@ -964,15 +922,14 @@
     {
       "id": "CD10",
       "questionFamily": "Meiosis",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "A body cell has 24 chromosomes. How many chromosomes will a gamete contain?",
       "marks": 1,
-      "modelAnswer": "mitosis keeps the chromosome number; meiosis halves it.\n12 chromosomes.\nAnswer: 12 chromosomes.",
+      "modelAnswer": "mitosis keeps the chromosome number; meiosis halves it. 12 chromosomes. Answer: 12 chromosomes.",
       "markingPoints": [
-        "mitosis keeps the chromosome number",
-        "meiosis halves it.",
+        "mitosis keeps the chromosome number; meiosis halves it.",
         "12 chromosomes.",
         "Answer: 12 chromosomes."
       ],
@@ -986,7 +943,7 @@
     {
       "id": "CD11",
       "questionFamily": "Variation",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "Explain why cells produced by meiosis are genetically different.",
@@ -1005,7 +962,7 @@
     {
       "id": "CD12",
       "questionFamily": "Stem cells",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Define a stem cell.",
@@ -1024,7 +981,7 @@
     {
       "id": "CD13",
       "questionFamily": "Embryonic stem cells",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Explain one potential medical use of human embryonic stem cells.",
@@ -1043,12 +1000,12 @@
     {
       "id": "CD14",
       "questionFamily": "Adult stem cells",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Where are adult stem cells found and what is one limitation compared with embryonic stem cells?",
       "marks": 2,
-      "modelAnswer": "They are found in tissues such as bone marrow; they can form only a limited range of cell types (for example, blood cells).",
+      "modelAnswer": "They are found in tissues such as bone marrow they can form only a limited range of cell types (for example, blood cells).",
       "markingPoints": [
         "They are found in tissues such as bone marrow",
         "they can form only a limited range of cell types (for example, blood cells)."
@@ -1063,12 +1020,12 @@
     {
       "id": "CD15",
       "questionFamily": "Plant stem cells",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Where are plant stem cells found and how can they be used?",
       "marks": 3,
-      "modelAnswer": "They are found in meristems; they can produce clones of plants quickly; this can preserve rare species or produce crops with desirable features.",
+      "modelAnswer": "They are found in meristems they can produce clones of plants quickly this can preserve rare species or produce crops with desirable features.",
       "markingPoints": [
         "They are found in meristems",
         "they can produce clones of plants quickly",
@@ -1084,12 +1041,12 @@
     {
       "id": "CD16",
       "questionFamily": "Stem-cell evaluation",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Give two benefits and two risks or ethical concerns associated with embryonic stem-cell treatment.",
       "marks": 4,
-      "modelAnswer": "Benefits: may treat serious disease; can replace damaged cells; can form many cell types. Risks/concerns: rejection or immune response; infection/virus transfer; tumour formation; destruction of embryos / religious or ethical objections. of each.",
+      "modelAnswer": "Benefits: may treat serious disease can replace damaged cells can form many cell types. Risks/concerns: rejection or immune response infection/virus transfer tumour formation destruction of embryos / religious or ethical objections. of each.",
       "markingPoints": [
         "Benefits: may treat serious disease",
         "can replace damaged cells",
@@ -1108,12 +1065,12 @@
     {
       "id": "CD17",
       "questionFamily": "Cancer",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "Explain how a change in cell-cycle control can lead to a tumour.",
       "marks": 3,
-      "modelAnswer": "A mutation affects genes controlling the cell cycle; cells divide uncontrollably by mitosis; a mass of abnormal cells forms.",
+      "modelAnswer": "A mutation affects genes controlling the cell cycle cells divide uncontrollably by mitosis a mass of abnormal cells forms.",
       "markingPoints": [
         "A mutation affects genes controlling the cell cycle",
         "cells divide uncontrollably by mitosis",
@@ -1129,12 +1086,12 @@
     {
       "id": "CD18",
       "questionFamily": "Data and microscopy",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "A microscope image shows 80 cells, 12 of which are undergoing mitosis. Calculate the percentage undergoing mitosis.",
       "marks": 2,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\n(12 ÷ 80) × 100 = 15%.\nAnswer: (12 ÷ 80) × 100 = 15%.",
+      "modelAnswer": "percentage = (part ÷ total) × 100. (12 ÷ 80) × 100 = 15%. Answer: (12 ÷ 80) × 100 = 15%.",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
         "(12 ÷ 80) × 100 = 15%.",
@@ -1150,12 +1107,12 @@
     {
       "id": "CD19",
       "questionFamily": "Cell cycle",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Describe the complete cell cycle in the correct order.",
       "marks": 5,
-      "modelAnswer": "Cell grows/increases subcellular structures ; DNA replicates to form two copies of each chromosome ; mitosis: one set of chromosomes is pulled to each end / nucleus divides ; cytoplasm and cell membrane divide ; two genetically identical daughter cells are produced .",
+      "modelAnswer": "Cell grows/increases subcellular structures DNA replicates to form two copies of each chromosome mitosis: one set of chromosomes is pulled to each end / nucleus divides cytoplasm and cell membrane divide two genetically identical daughter cells are produced .",
       "markingPoints": [
         "Cell grows/increases subcellular structures",
         "DNA replicates to form two copies of each chromosome",
@@ -1173,12 +1130,12 @@
     {
       "id": "CD20",
       "questionFamily": "DNA replication",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Explain why DNA must be replicated before mitosis.",
       "marks": 2,
-      "modelAnswer": "So there are two copies of each chromosome ; therefore each daughter cell receives a full/identical set of genetic information .",
+      "modelAnswer": "So there are two copies of each chromosome therefore each daughter cell receives a full/identical set of genetic information .",
       "markingPoints": [
         "So there are two copies of each chromosome",
         "therefore each daughter cell receives a full/identical set of genetic information ."
@@ -1193,20 +1150,16 @@
     {
       "id": "CD21",
       "questionFamily": "Growth data",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "A cell population increases from 250 cells to 2000 cells. Assuming no cells die, calculate the minimum number of rounds of mitosis.",
       "marks": 3,
-      "modelAnswer": "final population = starting population × 2ⁿ.\nEach round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds .\nAnswer: Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds .",
+      "modelAnswer": "final population = starting population × 2ⁿ. Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds . Answer: Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds .",
       "markingPoints": [
         "final population = starting population × 2ⁿ.",
-        "Each round doubles the population",
-        "250 → 500 → 1000 → 2000",
-        "three rounds .",
-        "Answer: Each round doubles the population",
-        "250 → 500 → 1000 → 2000",
-        "three rounds ."
+        "Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds .",
+        "Answer: Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -1218,12 +1171,12 @@
     {
       "id": "CD22",
       "questionFamily": "Mitosis data",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "In a root-tip sample, 18 of 240 cells are in mitosis. Calculate the mitotic index as a decimal and as a percentage.",
       "marks": 3,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nMitotic index = 18 ÷ 240 = 0.075 = 7.5% .\nAnswer: Mitotic index = 18 ÷ 240 = 0.075 = 7.5% .",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Mitotic index = 18 ÷ 240 = 0.075 = 7.5% . Answer: Mitotic index = 18 ÷ 240 = 0.075 = 7.5% .",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
         "Mitotic index = 18 ÷ 240 = 0.075 = 7.5% .",
@@ -1239,12 +1192,12 @@
     {
       "id": "CD23",
       "questionFamily": "Mitosis data",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "A complete cell cycle lasts 16 hours. The mitotic index is 0.075. Estimate the time spent in mitosis in minutes.",
       "marks": 3,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nTime in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .\nAnswer: Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes . Answer: Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
         "Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .",
@@ -1260,12 +1213,12 @@
     {
       "id": "CD24",
       "questionFamily": "Growth and repair",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Explain why mitosis is needed when a skin wound heals.",
       "marks": 3,
-      "modelAnswer": "Mitosis produces new cells ; daughter cells are genetically identical / have the same chromosome number ; these replace damaged/lost skin cells .",
+      "modelAnswer": "Mitosis produces new cells daughter cells are genetically identical / have the same chromosome number these replace damaged/lost skin cells .",
       "markingPoints": [
         "Mitosis produces new cells",
         "daughter cells are genetically identical / have the same chromosome number",
@@ -1281,12 +1234,12 @@
     {
       "id": "CD25",
       "questionFamily": "Differentiation",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Explain how an unspecialised cell becomes specialised.",
       "marks": 3,
-      "modelAnswer": "The cell differentiates ; different genes are switched on/off / expressed ; producing different proteins and subcellular structures suited to its function .",
+      "modelAnswer": "The cell differentiates different genes are switched on/off / expressed producing different proteins and subcellular structures suited to its function .",
       "markingPoints": [
         "The cell differentiates",
         "different genes are switched on/off / expressed",
@@ -1302,12 +1255,12 @@
     {
       "id": "CD26",
       "questionFamily": "Embryonic stem cells",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Explain how embryonic stem cells could be used to treat paralysis caused by damaged spinal nerve cells.",
       "marks": 4,
-      "modelAnswer": "Embryonic stem cells can divide by mitosis ; and differentiate into nerve cells ; transplanted cells could replace damaged nerve cells / restore connections ; treatment must avoid immune rejection / uncontrolled division .",
+      "modelAnswer": "Embryonic stem cells can divide by mitosis and differentiate into nerve cells transplanted cells could replace damaged nerve cells / restore connections treatment must avoid immune rejection / uncontrolled division .",
       "markingPoints": [
         "Embryonic stem cells can divide by mitosis",
         "and differentiate into nerve cells",
@@ -1324,12 +1277,12 @@
     {
       "id": "CD27",
       "questionFamily": "Therapeutic cloning",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "Explain how therapeutic cloning can reduce the risk of rejection in stem-cell treatment.",
       "marks": 4,
-      "modelAnswer": "Nucleus/genetic material from the patient is placed into an egg cell whose nucleus was removed ; the embryo produced is genetically identical to the patient ; stem cells are collected and differentiated into the required cell type ; the immune system is less likely to recognise them as foreign / reject them .",
+      "modelAnswer": "Nucleus/genetic material from the patient is placed into an egg cell whose nucleus was removed the embryo produced is genetically identical to the patient stem cells are collected and differentiated into the required cell type the immune system is less likely to recognise them as foreign / reject them .",
       "markingPoints": [
         "Nucleus/genetic material from the patient is placed into an egg cell whose nucleus was removed",
         "the embryo produced is genetically identical to the patient",
@@ -1346,12 +1299,12 @@
     {
       "id": "CD28",
       "questionFamily": "Stem-cell evaluation",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "A patient can receive either adult bone-marrow stem cells or embryonic stem cells. Evaluate the choices.",
       "marks": 6,
-      "modelAnswer": "Embryonic cells can differentiate into most cell types , so may treat a wider range of conditions ; but embryo is destroyed / ethical or religious objection ; risk of uncontrolled division/tumour, infection or rejection . Adult bone-marrow cells avoid embryo concerns / may be taken from patient, reducing rejection ; but form a limited range of cell types / may be difficult to obtain in sufficient numbers . Credit a justified conclusion based on the patient/context.",
+      "modelAnswer": "Embryonic cells can differentiate into most cell types , so may treat a wider range of conditions but embryo is destroyed / ethical or religious objection risk of uncontrolled division/tumour, infection or rejection . Adult bone-marrow cells avoid embryo concerns / may be taken from patient, reducing rejection but form a limited range of cell types / may be difficult to obtain in sufficient numbers . Credit a justified conclusion based on the patient/context.",
       "markingPoints": [
         "Embryonic cells can differentiate into most cell types , so may treat a wider range of conditions",
         "but embryo is destroyed / ethical or religious objection",
@@ -1368,12 +1321,12 @@
     {
       "id": "CD29",
       "questionFamily": "Plant stem cells",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Explain how meristem cells can be used to produce many identical disease-resistant crop plants.",
       "marks": 4,
-      "modelAnswer": "Take meristem tissue/cells from a disease-resistant plant ; grow under sterile conditions on nutrient medium with hormones ; cells divide by mitosis and differentiate into whole plants ; plants are clones/genetically identical and retain disease resistance .",
+      "modelAnswer": "Take meristem tissue/cells from a disease-resistant plant grow under sterile conditions on nutrient medium with hormones cells divide by mitosis and differentiate into whole plants plants are clones/genetically identical and retain disease resistance .",
       "markingPoints": [
         "Take meristem tissue/cells from a disease-resistant plant",
         "grow under sterile conditions on nutrient medium with hormones",
@@ -1390,22 +1343,16 @@
     {
       "id": "CD30",
       "questionFamily": "Stem-cell evidence",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "In a trial, 60 patients receive a stem-cell treatment and 45 improve. Of 60 control patients, 24 improve. Calculate the percentage improvement in each group and state one reason this does not prove the treatment caused the improvement.",
       "marks": 4,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nTreatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .\nAnswer: Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication . Answer: Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
-        "Treatment: 45/60 ×100 = 75%",
-        "control: 24/60 ×100 = 40%",
-        "treatment group improved by a greater proportion",
-        "does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
-        "Answer: Treatment: 45/60 ×100 = 75%",
-        "control: 24/60 ×100 = 40%",
-        "treatment group improved by a greater proportion",
-        "does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication ."
+        "Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
+        "Answer: Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication ."
       ],
       "commandWord": "Calculate and evaluate",
       "assessmentObjective": "AO2/AO3",
@@ -1417,12 +1364,12 @@
     {
       "id": "CD31",
       "questionFamily": "Cancer",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "A mutation makes a cell divide every 8 hours instead of every 24 hours. Explain how this may lead to cancer.",
       "marks": 3,
-      "modelAnswer": "Mutation affects genes controlling the cell cycle ; cells divide uncontrollably / too frequently ; producing a mass of abnormal cells / tumour, which may invade tissues .",
+      "modelAnswer": "Mutation affects genes controlling the cell cycle cells divide uncontrollably / too frequently producing a mass of abnormal cells / tumour, which may invade tissues .",
       "markingPoints": [
         "Mutation affects genes controlling the cell cycle",
         "cells divide uncontrollably / too frequently",
@@ -1438,7 +1385,7 @@
     {
       "id": "CD32",
       "questionFamily": "Chromosomes",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "A diploid cell contains 14 chromosomes. State the chromosome number in each daughter cell after mitosis and in each gamete after meiosis.",
@@ -1457,12 +1404,12 @@
     {
       "id": "CD33",
       "questionFamily": "Mitosis vs meiosis",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Both",
       "question": "Explain why mitosis produces genetically identical cells whereas meiosis produces genetically varied gametes.",
       "marks": 4,
-      "modelAnswer": "In mitosis, replicated chromosomes are separated once so each daughter receives the same copies ; one division produces diploid cells . In meiosis homologous chromosomes/alleles are assorted and genetic material is recombined ; two divisions produce haploid gametes with different allele combinations .",
+      "modelAnswer": "In mitosis, replicated chromosomes are separated once so each daughter receives the same copies one division produces diploid cells . In meiosis homologous chromosomes/alleles are assorted and genetic material is recombined two divisions produce haploid gametes with different allele combinations .",
       "markingPoints": [
         "In mitosis, replicated chromosomes are separated once so each daughter receives the same copies",
         "one division produces diploid cells . In meiosis homologous chromosomes/alleles are assorted and genetic material is recombined",
@@ -1478,12 +1425,12 @@
     {
       "id": "CD34",
       "questionFamily": "Experimental design",
-      "subtopic": "Cell Division",
+      "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
       "question": "A student compares mitotic index in root tips exposed to three chemical concentrations. State the independent variable, dependent variable and two control variables.",
       "marks": 4,
-      "modelAnswer": "Independent variable: chemical concentration . Dependent variable: mitotic index / proportion or percentage of cells in mitosis . Controls: plant species/age, exposure time, temperature, root region sampled, staining/microscope method, number of cells counted; .",
+      "modelAnswer": "Independent variable: chemical concentration . Dependent variable: mitotic index / proportion or percentage of cells in mitosis . Controls: plant species/age, exposure time, temperature, root region sampled, staining/microscope method, number of cells counted .",
       "markingPoints": [
         "Independent variable: chemical concentration . Dependent variable: mitotic index / proportion or percentage of cells in mitosis . Controls: plant species/age, exposure time, temperature, root region sampled, staining/microscope method, number of cells counted",
         "."
@@ -1498,7 +1445,7 @@
     {
       "id": "TC01",
       "questionFamily": "Diffusion",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Define diffusion.",
@@ -1517,12 +1464,12 @@
     {
       "id": "TC02",
       "questionFamily": "Diffusion rate",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "State three factors that increase the rate of diffusion.",
       "marks": 3,
-      "modelAnswer": "A steeper concentration gradient; a higher temperature; a larger surface area (and a shorter diffusion distance / thinner membrane).",
+      "modelAnswer": "A steeper concentration gradient a higher temperature a larger surface area (and a shorter diffusion distance / thinner membrane).",
       "markingPoints": [
         "A steeper concentration gradient",
         "a higher temperature",
@@ -1538,12 +1485,12 @@
     {
       "id": "TC03",
       "questionFamily": "Gas exchange",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain how oxygen moves from an alveolus into the blood.",
       "marks": 3,
-      "modelAnswer": "Oxygen concentration is higher in the alveolus than in the blood; oxygen diffuses down its concentration gradient; it crosses the thin alveolar and capillary walls.",
+      "modelAnswer": "Oxygen concentration is higher in the alveolus than in the blood oxygen diffuses down its concentration gradient it crosses the thin alveolar and capillary walls.",
       "markingPoints": [
         "Oxygen concentration is higher in the alveolus than in the blood",
         "oxygen diffuses down its concentration gradient",
@@ -1559,12 +1506,12 @@
     {
       "id": "TC04",
       "questionFamily": "Gas exchange surfaces",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain three ways an alveolus is adapted for rapid gas exchange.",
       "marks": 3,
-      "modelAnswer": "Large surface area; walls one cell thick giving a short diffusion distance; good blood supply and ventilation maintain steep concentration gradients; moist surface dissolves gases.",
+      "modelAnswer": "Large surface area walls one cell thick giving a short diffusion distance good blood supply and ventilation maintain steep concentration gradients moist surface dissolves gases.",
       "markingPoints": [
         "Large surface area",
         "walls one cell thick giving a short diffusion distance",
@@ -1581,12 +1528,12 @@
     {
       "id": "TC05",
       "questionFamily": "Surface area to volume",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain why multicellular organisms need specialised exchange surfaces and transport systems.",
       "marks": 3,
-      "modelAnswer": "They have a small surface-area-to-volume ratio; distances to internal cells are large; diffusion across the body surface would be too slow to meet demand.",
+      "modelAnswer": "They have a small surface-area-to-volume ratio distances to internal cells are large diffusion across the body surface would be too slow to meet demand.",
       "markingPoints": [
         "They have a small surface-area-to-volume ratio",
         "distances to internal cells are large",
@@ -1602,22 +1549,16 @@
     {
       "id": "TC06",
       "questionFamily": "Surface area to volume",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "A cube has sides of 3 cm. Calculate its surface area, volume and surface-area-to-volume ratio.",
       "marks": 3,
-      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.\nSurface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1.\nAnswer: Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1.",
+      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume. Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1. Answer: Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1.",
       "markingPoints": [
-        "surface area of a cube = 6l²",
-        "volume = l³",
-        "SA:V = surface area ÷ volume.",
-        "Surface area = 6 × 3² = 54 cm²",
-        "volume = 3³ = 27 cm³",
-        "ratio = 54:27 = 2:1.",
-        "Answer: Surface area = 6 × 3² = 54 cm²",
-        "volume = 3³ = 27 cm³",
-        "ratio = 54:27 = 2:1."
+        "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.",
+        "Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1.",
+        "Answer: Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -1629,7 +1570,7 @@
     {
       "id": "TC07",
       "questionFamily": "Osmosis",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Define osmosis.",
@@ -1648,12 +1589,12 @@
     {
       "id": "TC08",
       "questionFamily": "Osmosis in plants",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain what happens to a plant cell placed in a dilute solution.",
       "marks": 3,
-      "modelAnswer": "Water enters by osmosis; the vacuole/cytoplasm swells; the cell becomes turgid because the cell wall resists further expansion.",
+      "modelAnswer": "Water enters by osmosis the vacuole/cytoplasm swells the cell becomes turgid because the cell wall resists further expansion.",
       "markingPoints": [
         "Water enters by osmosis",
         "the vacuole/cytoplasm swells",
@@ -1669,12 +1610,12 @@
     {
       "id": "TC09",
       "questionFamily": "Osmosis in animals",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain why an animal cell may burst in a very dilute solution but a plant cell normally does not.",
       "marks": 3,
-      "modelAnswer": "Water enters both cells by osmosis; an animal cell has no cell wall so its membrane may rupture; a plant cell wall supports the cell and resists the pressure.",
+      "modelAnswer": "Water enters both cells by osmosis an animal cell has no cell wall so its membrane may rupture a plant cell wall supports the cell and resists the pressure.",
       "markingPoints": [
         "Water enters both cells by osmosis",
         "an animal cell has no cell wall so its membrane may rupture",
@@ -1690,12 +1631,12 @@
     {
       "id": "TC10",
       "questionFamily": "Osmosis practical",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Plan an investigation into the effect of sugar concentration on the mass of potato cylinders.",
       "marks": 6,
-      "modelAnswer": "Use equal-sized potato cylinders; measure initial mass; place each in an equal volume of a different known sugar concentration; keep time and temperature constant; remove, blot dry and measure final mass; calculate percentage change in mass; repeat and calculate means.",
+      "modelAnswer": "Use equal-sized potato cylinders measure initial mass place each in an equal volume of a different known sugar concentration keep time and temperature constant remove, blot dry and measure final mass calculate percentage change in mass repeat and calculate means.",
       "markingPoints": [
         "Use equal-sized potato cylinders",
         "measure initial mass",
@@ -1715,12 +1656,12 @@
     {
       "id": "TC11",
       "questionFamily": "Percentage change",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "A potato cylinder changes from 4.0 g to 4.6 g. Calculate the percentage change in mass.",
       "marks": 2,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100.\n((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.\nAnswer: ((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.",
+      "modelAnswer": "percentage change = (change ÷ original value) × 100. ((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase. Answer: ((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.",
       "markingPoints": [
         "percentage change = (change ÷ original value) × 100.",
         "((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.",
@@ -1736,12 +1677,12 @@
     {
       "id": "TC12",
       "questionFamily": "Osmosis data",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "Explain how results from a potato osmosis investigation can be used to estimate the concentration inside the potato cells.",
       "marks": 3,
-      "modelAnswer": "Plot percentage change in mass against solution concentration; draw a best-fit line/curve; find where percentage change is zero; read the corresponding concentration from the x-axis.",
+      "modelAnswer": "Plot percentage change in mass against solution concentration draw a best-fit line/curve find where percentage change is zero read the corresponding concentration from the x-axis.",
       "markingPoints": [
         "Plot percentage change in mass against solution concentration",
         "draw a best-fit line/curve",
@@ -1758,12 +1699,12 @@
     {
       "id": "TC13",
       "questionFamily": "Osmosis practical",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain why potato pieces are blotted dry before final mass is measured and why percentage change is better than change in mass.",
       "marks": 3,
-      "modelAnswer": "Blotting removes surface solution so only the potato mass is measured; percentage change accounts for different starting masses and makes results comparable.",
+      "modelAnswer": "Blotting removes surface solution so only the potato mass is measured percentage change accounts for different starting masses and makes results comparable.",
       "markingPoints": [
         "Blotting removes surface solution so only the potato mass is measured",
         "percentage change accounts for different starting masses and makes results comparable."
@@ -1778,7 +1719,7 @@
     {
       "id": "TC14",
       "questionFamily": "Active transport",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Define active transport.",
@@ -1797,12 +1738,12 @@
     {
       "id": "TC15",
       "questionFamily": "Root hair cells",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain why mineral ions enter root hair cells by active transport rather than diffusion.",
       "marks": 3,
-      "modelAnswer": "Mineral-ion concentration can be lower in the soil than in root cells; movement is against the concentration gradient; energy from respiration is required.",
+      "modelAnswer": "Mineral-ion concentration can be lower in the soil than in root cells movement is against the concentration gradient energy from respiration is required.",
       "markingPoints": [
         "Mineral-ion concentration can be lower in the soil than in root cells",
         "movement is against the concentration gradient",
@@ -1818,7 +1759,7 @@
     {
       "id": "TC16",
       "questionFamily": "Small intestine",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain how glucose can be absorbed from the small intestine when its concentration is lower in the intestine than in the blood.",
@@ -1837,12 +1778,12 @@
     {
       "id": "TC17",
       "questionFamily": "Exchange surfaces",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain how a fish gill or root hair cell provides an efficient exchange surface.",
       "marks": 3,
-      "modelAnswer": "Large surface area; thin barrier gives a short diffusion distance; for gills, blood flow and water flow maintain a steep concentration gradient.",
+      "modelAnswer": "Large surface area thin barrier gives a short diffusion distance for gills, blood flow and water flow maintain a steep concentration gradient.",
       "markingPoints": [
         "Large surface area",
         "thin barrier gives a short diffusion distance",
@@ -1858,12 +1799,12 @@
     {
       "id": "TC18",
       "questionFamily": "Required practical evaluation",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "A student used only one potato cylinder at each concentration. Suggest two improvements and explain how they improve the evidence.",
       "marks": 4,
-      "modelAnswer": "Repeat at each concentration and calculate a mean to reduce random error / identify anomalies; use more concentration values, especially near zero change, to improve resolution and the estimate of the isotonic concentration.",
+      "modelAnswer": "Repeat at each concentration and calculate a mean to reduce random error / identify anomalies use more concentration values, especially near zero change, to improve resolution and the estimate of the isotonic concentration.",
       "markingPoints": [
         "Repeat at each concentration and calculate a mean to reduce random error / identify anomalies",
         "use more concentration values, especially near zero change, to improve resolution and the estimate of the isotonic concentration."
@@ -1878,12 +1819,12 @@
     {
       "id": "TC21",
       "questionFamily": "Diffusion",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "A drop of dye spreads through still water until the colour is uniform. Explain this using particle movement.",
       "marks": 3,
-      "modelAnswer": "Dye particles move randomly ; there is a net movement from high dye concentration to low dye concentration ; until particles are evenly distributed / no concentration gradient remains .",
+      "modelAnswer": "Dye particles move randomly there is a net movement from high dye concentration to low dye concentration until particles are evenly distributed / no concentration gradient remains .",
       "markingPoints": [
         "Dye particles move randomly",
         "there is a net movement from high dye concentration to low dye concentration",
@@ -1899,12 +1840,12 @@
     {
       "id": "TC22",
       "questionFamily": "Diffusion rate",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Two identical agar cubes contain indicator. Cube A is placed in acid at 20 °C and cube B at 40 °C. Predict which cube loses its colour first and explain why.",
       "marks": 3,
-      "modelAnswer": "Cube B / 40 °C ; particles have more kinetic energy and move faster ; causing a greater diffusion rate / more frequent movement into the agar .",
+      "modelAnswer": "Cube B / 40 °C particles have more kinetic energy and move faster causing a greater diffusion rate / more frequent movement into the agar .",
       "markingPoints": [
         "Cube B / 40 °C",
         "particles have more kinetic energy and move faster",
@@ -1920,12 +1861,12 @@
     {
       "id": "TC23",
       "questionFamily": "Diffusion rate",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "A membrane is 4 µm thick in sample A and 2 µm thick in sample B. All other factors are equal. Explain the effect on diffusion rate.",
       "marks": 2,
-      "modelAnswer": "Sample B has a shorter diffusion distance ; so diffusion is faster / rate increases . .",
+      "modelAnswer": "Sample B has a shorter diffusion distance so diffusion is faster / rate increases . .",
       "markingPoints": [
         "Sample B has a shorter diffusion distance",
         "so diffusion is faster / rate increases . ."
@@ -1940,22 +1881,16 @@
     {
       "id": "TC24",
       "questionFamily": "Surface area to volume",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Calculate the surface-area-to-volume ratio of a cube with side length 2 mm.",
       "marks": 3,
-      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.\nSurface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 .\nAnswer: Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 .",
+      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume. Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 . Answer: Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 .",
       "markingPoints": [
-        "surface area of a cube = 6l²",
-        "volume = l³",
-        "SA:V = surface area ÷ volume.",
-        "Surface area = 6 × 2² = 24 mm²",
-        "volume = 2³ = 8 mm³",
-        "SA:V = 24:8 = 3:1 .",
-        "Answer: Surface area = 6 × 2² = 24 mm²",
-        "volume = 2³ = 8 mm³",
-        "SA:V = 24:8 = 3:1 ."
+        "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.",
+        "Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 .",
+        "Answer: Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -1967,16 +1902,14 @@
     {
       "id": "TC25",
       "questionFamily": "Surface area to volume",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "Cube A has side length 1 mm and cube B has side length 4 mm. Calculate each surface-area-to-volume ratio and explain which would exchange substances faster per unit volume.",
       "marks": 5,
-      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.\nCube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .\nAnswer: Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .",
+      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume. Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume . Answer: Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .",
       "markingPoints": [
-        "surface area of a cube = 6l²",
-        "volume = l³",
-        "SA:V = surface area ÷ volume.",
+        "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.",
         "Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .",
         "Answer: Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume ."
       ],
@@ -1990,12 +1923,12 @@
     {
       "id": "TC26",
       "questionFamily": "Exchange surfaces",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain how the small intestine is adapted for rapid absorption of digested food molecules.",
       "marks": 5,
-      "modelAnswer": "Villi and microvilli provide a large surface area ; epithelium is one cell thick / short diffusion distance ; good blood supply maintains concentration gradients ; many mitochondria provide energy for active transport ; membrane transport proteins enable uptake .",
+      "modelAnswer": "Villi and microvilli provide a large surface area epithelium is one cell thick / short diffusion distance good blood supply maintains concentration gradients many mitochondria provide energy for active transport membrane transport proteins enable uptake .",
       "markingPoints": [
         "Villi and microvilli provide a large surface area",
         "epithelium is one cell thick / short diffusion distance",
@@ -2013,12 +1946,12 @@
     {
       "id": "TC27",
       "questionFamily": "Exchange surfaces",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Explain how a leaf is adapted for rapid gas exchange.",
       "marks": 4,
-      "modelAnswer": "Broad/large surface area ; thin leaf gives short diffusion distance ; stomata ; internal air spaces provide a large moist surface and short pathway to cells .",
+      "modelAnswer": "Broad/large surface area thin leaf gives short diffusion distance stomata internal air spaces provide a large moist surface and short pathway to cells .",
       "markingPoints": [
         "Broad/large surface area",
         "thin leaf gives short diffusion distance",
@@ -2035,12 +1968,12 @@
     {
       "id": "TC28",
       "questionFamily": "Osmosis",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "A partially permeable membrane separates pure water from a concentrated sugar solution. Describe and explain the net movement of water.",
       "marks": 4,
-      "modelAnswer": "Water moves from the pure-water side to the sugar-solution side ; by osmosis through a partially permeable membrane ; from a dilute solution/high water concentration to a concentrated solution/low water concentration .",
+      "modelAnswer": "Water moves from the pure-water side to the sugar-solution side by osmosis through a partially permeable membrane from a dilute solution/high water concentration to a concentrated solution/low water concentration .",
       "markingPoints": [
         "Water moves from the pure-water side to the sugar-solution side",
         "by osmosis through a partially permeable membrane",
@@ -2056,12 +1989,12 @@
     {
       "id": "TC29",
       "questionFamily": "Osmosis in plants",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Compare a plant cell placed in a dilute solution with one placed in a concentrated solution.",
       "marks": 6,
-      "modelAnswer": "Dilute: water enters by osmosis from higher water concentration outside ; vacuole swells and cell becomes turgid , with cell wall preventing bursting . Concentrated: water leaves by osmosis ; vacuole/cytoplasm shrinks and cell becomes flaccid/plasmolysed as membrane pulls from wall .",
+      "modelAnswer": "Dilute: water enters by osmosis from higher water concentration outside vacuole swells and cell becomes turgid , with cell wall preventing bursting . Concentrated: water leaves by osmosis vacuole/cytoplasm shrinks and cell becomes flaccid/plasmolysed as membrane pulls from wall .",
       "markingPoints": [
         "Dilute: water enters by osmosis from higher water concentration outside",
         "vacuole swells and cell becomes turgid , with cell wall preventing bursting . Concentrated: water leaves by osmosis",
@@ -2077,22 +2010,16 @@
     {
       "id": "TC30",
       "questionFamily": "Osmosis data",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "Potato cylinders are placed in sucrose solutions. Mean percentage mass changes are: 0.0 mol/dm³, +12%; 0.2 mol/dm³, +6%; 0.4 mol/dm³, +1%; 0.6 mol/dm³, −5%; 0.8 mol/dm³, −11%. Estimate the concentration inside the potato cells and explain.",
       "marks": 4,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nIsotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential .\nAnswer: Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential .",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential . Answer: Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential .",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
-        "Isotonic point is where percentage change is zero",
-        "this lies between 0.4 and 0.6 mol/dm³",
-        "linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method)",
-        "at this point there is no net movement of water / equal water concentration or water potential .",
-        "Answer: Isotonic point is where percentage change is zero",
-        "this lies between 0.4 and 0.6 mol/dm³",
-        "linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method)",
-        "at this point there is no net movement of water / equal water concentration or water potential ."
+        "Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential .",
+        "Answer: Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential ."
       ],
       "commandWord": "Calculate and explain",
       "assessmentObjective": "AO2/AO3",
@@ -2104,24 +2031,16 @@
     {
       "id": "TC31",
       "questionFamily": "Osmosis data",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Three potato cylinders have initial masses 3.0 g, 4.0 g and 5.0 g. Each gains 0.6 g. Calculate the percentage gain for each and explain why percentage change should be compared.",
       "marks": 5,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100.\n3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly .\nAnswer: 3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly .",
+      "modelAnswer": "percentage change = (change ÷ original value) × 100. 3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly . Answer: 3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly .",
       "markingPoints": [
         "percentage change = (change ÷ original value) × 100.",
-        "3.0 g: 20%",
-        "4.0 g: 15%",
-        "5.0 g: 12%",
-        "percentage change accounts for different starting masses/sizes",
-        "so results can be compared fairly .",
-        "Answer: 3.0 g: 20%",
-        "4.0 g: 15%",
-        "5.0 g: 12%",
-        "percentage change accounts for different starting masses/sizes",
-        "so results can be compared fairly ."
+        "3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly .",
+        "Answer: 3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly ."
       ],
       "commandWord": "Calculate and explain",
       "assessmentObjective": "AO2/AO3",
@@ -2133,20 +2052,16 @@
     {
       "id": "TC32",
       "questionFamily": "Osmosis practical",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Write the equation for percentage change in mass and calculate the result when mass changes from 5.40 g to 4.86 g.",
       "marks": 3,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100.\nPercentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% .\nAnswer: Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% .",
+      "modelAnswer": "percentage change = (change ÷ original value) × 100. Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% . Answer: Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% .",
       "markingPoints": [
         "percentage change = (change ÷ original value) × 100.",
-        "Percentage change = (final mass − initial mass) ÷ initial mass ×100",
-        "change = −0.54 g",
-        "−0.54/5.40 ×100 = −10.0% .",
-        "Answer: Percentage change = (final mass − initial mass) ÷ initial mass ×100",
-        "change = −0.54 g",
-        "−0.54/5.40 ×100 = −10.0% ."
+        "Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% .",
+        "Answer: Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -2158,12 +2073,12 @@
     {
       "id": "TC33",
       "questionFamily": "Osmosis practical",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "A student's potato results contain one value far from the trend. Describe how the student should deal with this anomalous result.",
       "marks": 3,
-      "modelAnswer": "Do not simply delete it without evidence ; repeat that concentration / take additional repeats ; identify anomaly and calculate a mean excluding it only with justification, while reporting the decision .",
+      "modelAnswer": "Do not simply delete it without evidence repeat that concentration / take additional repeats identify anomaly and calculate a mean excluding it only with justification, while reporting the decision .",
       "markingPoints": [
         "Do not simply delete it without evidence",
         "repeat that concentration / take additional repeats",
@@ -2179,12 +2094,12 @@
     {
       "id": "TC34",
       "questionFamily": "Osmosis practical",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "Explain why potato cylinders should have the same diameter and length, remain in solution for the same time, and be kept at the same temperature.",
       "marks": 4,
-      "modelAnswer": "Same dimensions control starting surface area/volume and mass ; same time controls duration available for osmosis ; same temperature controls particle kinetic energy/rate of osmosis ; therefore sucrose concentration is the only systematic difference / valid fair test .",
+      "modelAnswer": "Same dimensions control starting surface area/volume and mass same time controls duration available for osmosis same temperature controls particle kinetic energy/rate of osmosis therefore sucrose concentration is the only systematic difference / valid fair test .",
       "markingPoints": [
         "Same dimensions control starting surface area/volume and mass",
         "same time controls duration available for osmosis",
@@ -2201,20 +2116,16 @@
     {
       "id": "TC35",
       "questionFamily": "Osmosis practical",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "A student obtains percentage mass changes of 4%, 7% and 19% at one concentration. Calculate the mean, identify the anomaly and calculate a justified mean.",
       "marks": 4,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nInitial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% .\nAnswer: Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% .",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% . Answer: Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% .",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
-        "Initial mean = (4+7+19)/3 = 10%",
-        "19% is anomalous",
-        "justified mean = (4+7)/2 = 5.5% .",
-        "Answer: Initial mean = (4+7+19)/3 = 10%",
-        "19% is anomalous",
-        "justified mean = (4+7)/2 = 5.5% ."
+        "Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% .",
+        "Answer: Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2/AO3",
@@ -2226,7 +2137,7 @@
     {
       "id": "TC36",
       "questionFamily": "Active transport",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
       "question": "Compare diffusion, osmosis and active transport.",
@@ -2245,12 +2156,12 @@
     {
       "id": "TC37",
       "questionFamily": "Active transport",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "Root cells contain 0.80 arbitrary units of nitrate while soil contains 0.15 units. Explain nitrate uptake and predict the effect of an inhibitor of respiration.",
       "marks": 4,
-      "modelAnswer": "Nitrate moves from lower concentration in soil to higher concentration in root cell / against gradient ; by active transport ; energy is supplied by respiration ; inhibitor reduces/stops respiration so nitrate uptake decreases/stops .",
+      "modelAnswer": "Nitrate moves from lower concentration in soil to higher concentration in root cell / against gradient by active transport energy is supplied by respiration inhibitor reduces/stops respiration so nitrate uptake decreases/stops .",
       "markingPoints": [
         "Nitrate moves from lower concentration in soil to higher concentration in root cell / against gradient",
         "by active transport",
@@ -2267,12 +2178,12 @@
     {
       "id": "TC38",
       "questionFamily": "Experimental design",
-      "subtopic": "Transport in Cells",
+      "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
       "question": "Plan an investigation using agar cubes to test how surface-area-to-volume ratio affects diffusion time. No diagram is available.",
       "marks": 6,
-      "modelAnswer": "Prepare agar cubes of different known side lengths containing indicator ; calculate/record each SA:V ratio ; place cubes in equal volumes/concentrations of acid ; keep temperature and agar composition constant ; measure time for colour to disappear or diffusion depth after a fixed time ; repeat each size and calculate means / compare diffusion time or percentage penetrated with SA:V .",
+      "modelAnswer": "Prepare agar cubes of different known side lengths containing indicator calculate/record each SA:V ratio place cubes in equal volumes/concentrations of acid keep temperature and agar composition constant measure time for colour to disappear or diffusion depth after a fixed time repeat each size and calculate means / compare diffusion time or percentage penetrated with SA:V .",
       "markingPoints": [
         "Prepare agar cubes of different known side lengths containing indicator",
         "calculate/record each SA:V ratio",
@@ -2291,20 +2202,16 @@
     {
       "id": "CB-EX1",
       "questionFamily": "Required practical — microscopy",
-      "subtopic": "Cell Structure",
+      "subtopic": "Microscopy and calculation",
       "sourceSubtopic": "Microscopy and calculation",
       "tier": "Both",
       "question": "A cell image is 42 mm long at a magnification of ×700. Calculate the actual cell length in micrometres.",
       "marks": 3,
-      "modelAnswer": "actual size = image size ÷ magnification.\nactual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm.\nAnswer: actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm.",
+      "modelAnswer": "actual size = image size ÷ magnification. actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm. Answer: actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm.",
       "markingPoints": [
         "actual size = image size ÷ magnification.",
-        "actual size = image size ÷ magnification",
-        "42 mm ÷ 700 = 0.060 mm",
-        "0.060 mm × 1000 = 60 μm.",
-        "Answer: actual size = image size ÷ magnification",
-        "42 mm ÷ 700 = 0.060 mm",
-        "0.060 mm × 1000 = 60 μm."
+        "actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm.",
+        "Answer: actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
@@ -2316,7 +2223,7 @@
     {
       "id": "CB-EX2",
       "questionFamily": "Evaluation — cell transport",
-      "subtopic": "Transport in Cells",
+      "subtopic": "Osmosis required practical",
       "sourceSubtopic": "Osmosis required practical",
       "tier": "Both",
       "question": "A student uses percentage change in mass to compare osmosis in potato cylinders of different starting masses. Explain why percentage change is more valid than change in mass alone, and state two improvements to the investigation.",
@@ -2335,12 +2242,12 @@
     {
       "id": "PK01",
       "questionFamily": "Microscopy practical",
-      "subtopic": "Cell Structure",
+      "subtopic": "Microscopy",
       "sourceSubtopic": "Microscopy",
       "tier": "Both",
       "question": "Describe how to prepare and observe a stained onion-cell slide using a light microscope.",
       "marks": 6,
-      "modelAnswer": "Place a thin onion epidermis on a slide; add a drop of iodine stain; lower a coverslip at an angle to avoid air bubbles; place the slide on the stage; begin with the lowest-power objective; focus using the coarse then fine adjustment; increase magnification if needed.",
+      "modelAnswer": "Place a thin onion epidermis on a slide add a drop of iodine stain lower a coverslip at an angle to avoid air bubbles place the slide on the stage begin with the lowest-power objective focus using the coarse then fine adjustment increase magnification if needed.",
       "markingPoints": [
         "Place a thin onion epidermis on a slide",
         "add a drop of iodine stain",
@@ -2360,12 +2267,12 @@
     {
       "id": "PK02",
       "questionFamily": "Microscopy calculation",
-      "subtopic": "Cell Structure",
+      "subtopic": "Microscopy",
       "sourceSubtopic": "Microscopy",
       "tier": "Both",
       "question": "An image of a cell is 36 mm long. Its actual length is 60 μm. Calculate the magnification.",
       "marks": 3,
-      "modelAnswer": "magnification = image size ÷ actual size.\nConvert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.\nAnswer: Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.",
+      "modelAnswer": "magnification = image size ÷ actual size. Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600. Answer: Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.",
       "markingPoints": [
         "magnification = image size ÷ actual size.",
         "Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.",
@@ -2381,7 +2288,7 @@
     {
       "id": "PK03",
       "questionFamily": "Microscopy evaluation",
-      "subtopic": "Cell Structure",
+      "subtopic": "Microscopy",
       "sourceSubtopic": "Microscopy",
       "tier": "Both",
       "question": "A student measures only one cell to estimate the mean cell length. Explain how to improve the reliability of the estimate.",
@@ -2400,12 +2307,12 @@
     {
       "id": "PK04",
       "questionFamily": "Osmosis practical",
-      "subtopic": "Transport in Cells",
+      "subtopic": "Osmosis",
       "sourceSubtopic": "Osmosis",
       "tier": "Both",
       "question": "Plan an investigation of how sucrose concentration affects the mass of potato cylinders.",
       "marks": 6,
-      "modelAnswer": "Prepare a range of sucrose concentrations; cut equal-size potato cylinders from the same potato; measure initial mass; place cylinders in equal volumes for the same time and temperature; blot dry consistently; measure final mass; calculate percentage change in mass; repeat each concentration and calculate a mean.",
+      "modelAnswer": "Prepare a range of sucrose concentrations cut equal-size potato cylinders from the same potato measure initial mass place cylinders in equal volumes for the same time and temperature blot dry consistently measure final mass calculate percentage change in mass repeat each concentration and calculate a mean.",
       "markingPoints": [
         "Prepare a range of sucrose concentrations",
         "cut equal-size potato cylinders from the same potato",
@@ -2426,7 +2333,7 @@
     {
       "id": "PK05",
       "questionFamily": "Osmosis validity",
-      "subtopic": "Transport in Cells",
+      "subtopic": "Osmosis",
       "sourceSubtopic": "Osmosis",
       "tier": "Both",
       "question": "Explain why potato cylinders should be blotted dry before their final mass is measured.",
@@ -2445,12 +2352,12 @@
     {
       "id": "PK06",
       "questionFamily": "Aseptic technique",
-      "subtopic": "Cell Structure",
+      "subtopic": "Culturing microorganisms",
       "sourceSubtopic": "Culturing microorganisms",
       "tier": "Biology only",
       "question": "Explain three aseptic techniques used when culturing bacteria and the reason for each.",
       "marks": 6,
-      "modelAnswer": "Disinfect the work surface to reduce contamination; sterilise the Petri dish, agar and inoculating loop to kill unwanted microorganisms; open the lid only slightly and briefly to reduce entry of airborne microbes; tape the lid at intervals so it is secure but oxygen can enter; incubate at 25 °C in school to reduce growth of pathogens.",
+      "modelAnswer": "Disinfect the work surface to reduce contamination sterilise the Petri dish, agar and inoculating loop to kill unwanted microorganisms open the lid only slightly and briefly to reduce entry of airborne microbes tape the lid at intervals so it is secure but oxygen can enter incubate at 25 °C in school to reduce growth of pathogens.",
       "markingPoints": [
         "Disinfect the work surface to reduce contamination",
         "sterilise the Petri dish, agar and inoculating loop to kill unwanted microorganisms",

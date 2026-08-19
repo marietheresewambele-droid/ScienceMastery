@@ -1,45 +1,20 @@
 {
-  "metadata": {
-    "topicId": "homeostasis-and-response",
-    "topic": "Homeostasis and Response",
-    "sourceWorkbook": "AQA_GCSE_Biology_Mastery_Workbook_Topics_6_7_Self_Contained_Clean_Answers.xlsx",
-    "questionCount": 77,
-    "subtopics": [
-      {
-        "title": "Homeostasis",
-        "questionCount": 15
-      },
-      {
-        "title": "Human Nervous System",
-        "questionCount": 22
-      },
-      {
-        "title": "Hormonal Coordination in Humans",
-        "questionCount": 29
-      },
-      {
-        "title": "Plant Hormones",
-        "questionCount": 11
-      }
-    ]
-  },
   "questions": [
     {
       "id": "T5V001",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both / not separated",
       "question": "A runner completes a long race without drinking water and produces a small volume of concentrated urine. Explain how the kidneys and ADH produce the stated urine. Include filtration, selective reabsorption, the change in ADH and the resulting change in tubule permeability.",
       "marks": 4,
-      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH; kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
+      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
       "markingPoints": [
         "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH",
         "kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -47,7 +22,7 @@
     {
       "id": "T5V003",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A doctor taps below a patient’s knee and the lower leg moves. Explain the route from stimulus detection to the response. Name the receptor, sensory neurone, central nervous system, synapse, motor neurone and effector in the correct order, and explain why the response is protective.",
@@ -58,7 +33,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -66,19 +40,18 @@
     {
       "id": "T5V004",
       "questionFamily": "Blood-glucose control and diabetes",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "After the same meal, person A’s blood glucose rises from 5.0 to 8.2 mmol dm⁻³ and returns to 5.1 within two hours; person B’s rises from 7.2 to 11.9 and remains above 8.0. Explain the hormonal response. Name the gland, hormone, target organs and changes in glucose uptake, glycogen storage or glucose release that account for the result.",
       "marks": 4,
-      "modelAnswer": "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
+      "modelAnswer": "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
       "markingPoints": [
         "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin",
         "type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "63",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -86,12 +59,12 @@
     {
       "id": "T5V005",
       "questionFamily": "Plant-hormone required practical",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Higher",
       "question": "Students place auxin-containing agar blocks on different sides of decapitated shoots. Explain the predicted result and describe how the investigation should isolate the independent variable, measure the dependent variable and produce reliable data.",
       "marks": 6,
-      "modelAnswer": "Use seedlings of the same species, age and starting length; change one factor such as light direction or hormone concentration; control temperature, water, time and other light conditions; include a control; use repeats; measure length or curvature quantitatively; calculate a mean; identify anomalies; and use an appropriate graph.",
+      "modelAnswer": "Use seedlings of the same species, age and starting length change one factor such as light direction or hormone concentration control temperature, water, time and other light conditions include a control use repeats measure length or curvature quantitatively calculate a mean identify anomalies and use an appropriate graph.",
       "markingPoints": [
         "Use seedlings of the same species, age and starting length",
         "change one factor such as light direction or hormone concentration",
@@ -105,7 +78,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO3",
-      "evidenceSource": "50",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -113,19 +85,18 @@
     {
       "id": "T5V006",
       "questionFamily": "Blood-glucose control and diabetes",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Foundation",
       "question": "A student eats a carbohydrate-rich meal after several hours without food. Explain the hormonal response. Name the gland, hormone, target organs and changes in glucose uptake, glycogen storage or glucose release that account for the result.",
       "marks": 2,
-      "modelAnswer": "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
+      "modelAnswer": "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
       "markingPoints": [
         "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin",
         "type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "63",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -133,7 +104,7 @@
     {
       "id": "T5V007",
       "questionFamily": "Endocrine system and hormone comparison",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "A hormone released by a gland travels in the blood to cells with a complementary receptor. Explain how the chemical messenger reaches and affects its target cells, then compare the speed, route and duration of this response with nervous coordination.",
@@ -144,7 +115,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "29",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -152,7 +122,7 @@
     {
       "id": "T5V008",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A goalkeeper sees a ball change direction and moves a hand to stop it. Explain the route from stimulus detection to the response. Name the receptor, sensory neurone, central nervous system, synapse, motor neurone and effector in the correct order, and explain why the response is protective.",
@@ -163,7 +133,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -171,19 +140,18 @@
     {
       "id": "T5V009",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both / not separated",
       "question": "A dialysis patient’s blood contains a high urea concentration before treatment. Explain how the kidneys and ADH produce the stated urine. Include filtration, selective reabsorption, the change in ADH and the resulting change in tubule permeability.",
       "marks": 3,
-      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH; kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
+      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
       "markingPoints": [
         "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH",
         "kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -191,19 +159,18 @@
     {
       "id": "T5V011",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "A patient drinks two litres of water in a short time and later produces dilute urine. Explain how the kidneys and ADH produce the stated urine. Include filtration, selective reabsorption, the change in ADH and the resulting change in tubule permeability.",
       "marks": 4,
-      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH; kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
+      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
       "markingPoints": [
         "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH",
         "kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -211,7 +178,7 @@
     {
       "id": "T5V012",
       "questionFamily": "Human temperature control",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both / not separated",
       "question": "A runner’s core temperature rises from 37.0 °C to 39.1 °C during a race. Explain how the thermoregulatory centre coordinates responses in the skin and muscles. State how each response changes heat transfer or energy release.",
@@ -222,7 +189,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "54",
       "specificationReference": "4.5.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -230,12 +196,12 @@
     {
       "id": "T5V013",
       "questionFamily": "Plant-hormone required practical",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Higher",
       "question": "Students compare shoot growth after applying five concentrations of a plant growth substance. Explain the predicted result and describe how the investigation should isolate the independent variable, measure the dependent variable and produce reliable data.",
       "marks": 2,
-      "modelAnswer": "Use seedlings of the same species, age and starting length; change one factor such as light direction or hormone concentration; control temperature, water, time and other light conditions; include a control; use repeats; measure length or curvature quantitatively; calculate a mean; identify anomalies; and use an appropriate graph.",
+      "modelAnswer": "Use seedlings of the same species, age and starting length change one factor such as light direction or hormone concentration control temperature, water, time and other light conditions include a control use repeats measure length or curvature quantitatively calculate a mean identify anomalies and use an appropriate graph.",
       "markingPoints": [
         "Use seedlings of the same species, age and starting length",
         "change one factor such as light direction or hormone concentration",
@@ -249,7 +215,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO3",
-      "evidenceSource": "50",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -257,12 +222,12 @@
     {
       "id": "T5V014",
       "questionFamily": "Brain structure and investigation",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "Scientists compare brain scans taken while volunteers complete a memory task. Explain which brain region is most likely to be involved and how scientists could investigate its function. Distinguish evidence of association from proof of causation.",
       "marks": 4,
-      "modelAnswer": "The cerebral cortex is associated with consciousness, intelligence, memory and language; the cerebellum coordinates movement and balance; the medulla controls unconscious functions such as breathing and heart rate. Brain function may be investigated using damage studies, electrical stimulation and imaging, but correlation alone does not prove causation.",
+      "modelAnswer": "The cerebral cortex is associated with consciousness, intelligence, memory and language the cerebellum coordinates movement and balance the medulla controls unconscious functions such as breathing and heart rate. Brain function may be investigated using damage studies, electrical stimulation and imaging, but correlation alone does not prove causation.",
       "markingPoints": [
         "The cerebral cortex is associated with consciousness, intelligence, memory and language",
         "the cerebellum coordinates movement and balance",
@@ -270,7 +235,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "23",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -278,7 +242,7 @@
     {
       "id": "T5V016",
       "questionFamily": "Human temperature control",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A person enters a cold room wearing wet clothing. Explain how the thermoregulatory centre coordinates responses in the skin and muscles. State how each response changes heat transfer or energy release.",
@@ -289,7 +253,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO3",
-      "evidenceSource": "54",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -297,7 +260,7 @@
     {
       "id": "T5V017",
       "questionFamily": "Menstrual cycle hormones",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Foundation",
       "question": "The corpus luteum breaks down near the end of a menstrual cycle. Explain the roles and interactions of FSH, oestrogen, LH and progesterone, including the effect on the ovary and uterus lining.",
@@ -308,7 +271,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "23",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -316,7 +278,7 @@
     {
       "id": "T5V018",
       "questionFamily": "Menstrual cycle hormones",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "Blood tests show that a patient has a surge in LH on day 14 of a 28-day cycle. Explain the roles and interactions of FSH, oestrogen, LH and progesterone, including the effect on the ovary and uterus lining.",
@@ -327,7 +289,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "23",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -335,19 +296,18 @@
     {
       "id": "T5V019",
       "questionFamily": "Blood-glucose control and diabetes",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Foundation",
       "question": "A patient produces insulin but target cells respond weakly to it. Explain the hormonal response. Name the gland, hormone, target organs and changes in glucose uptake, glycogen storage or glucose release that account for the result.",
       "marks": 2,
-      "modelAnswer": "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
+      "modelAnswer": "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
       "markingPoints": [
         "A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin",
         "type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO3",
-      "evidenceSource": "63",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -355,12 +315,12 @@
     {
       "id": "T5V020",
       "questionFamily": "Brain structure and investigation",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A surgeon stimulates a small area of the cerebral cortex during an operation. Explain which brain region is most likely to be involved and how scientists could investigate its function. Distinguish evidence of association from proof of causation.",
       "marks": 1,
-      "modelAnswer": "The cerebral cortex is associated with consciousness, intelligence, memory and language; the cerebellum coordinates movement and balance; the medulla controls unconscious functions such as breathing and heart rate. Brain function may be investigated using damage studies, electrical stimulation and imaging, but correlation alone does not prove causation.",
+      "modelAnswer": "The cerebral cortex is associated with consciousness, intelligence, memory and language the cerebellum coordinates movement and balance the medulla controls unconscious functions such as breathing and heart rate. Brain function may be investigated using damage studies, electrical stimulation and imaging, but correlation alone does not prove causation.",
       "markingPoints": [
         "The cerebral cortex is associated with consciousness, intelligence, memory and language",
         "the cerebellum coordinates movement and balance",
@@ -368,7 +328,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "23",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Disciplinary knowledge"
@@ -376,12 +335,12 @@
     {
       "id": "T5V021",
       "questionFamily": "Human temperature control",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Higher",
       "question": "A person enters a cold room wearing wet clothing. Calculate the change in core temperature and the mean rate of increase if the change occurred over 35 minutes. Show working and include units.",
       "marks": 3,
-      "modelAnswer": "mean rate = total change ÷ total time.\nShow the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.\nAnswer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.",
+      "modelAnswer": "mean rate = total change ÷ total time. Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles. Answer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.",
       "markingPoints": [
         "mean rate = total change ÷ total time.",
         "Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.",
@@ -389,7 +348,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "54",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -397,7 +355,7 @@
     {
       "id": "T5V022",
       "questionFamily": "Human temperature control",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Higher",
       "question": "Skin-temperature receptors detect a rapid fall in external temperature. Explain how the thermoregulatory centre coordinates responses in the skin and muscles. State how each response changes heat transfer or energy release.",
@@ -408,7 +366,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "54",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -416,12 +373,12 @@
     {
       "id": "T5V023",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A person touches a hot metal tray and withdraws the hand before consciously feeling pain. The impulse travels 1.8 m in 0.024 s. Calculate its speed. Show working and include the correct unit.",
       "marks": 3,
-      "modelAnswer": "use the relevant relationship from the question.\nShow the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.\nAnswer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.",
+      "modelAnswer": "use the relevant relationship from the question. Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective. Answer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.",
       "markingPoints": [
         "use the relevant relationship from the question.",
         "Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.",
@@ -429,7 +386,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -437,19 +393,18 @@
     {
       "id": "T5V024",
       "questionFamily": "Contraception and fertility treatment",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Foundation",
       "question": "A clinical report gives pregnancy rates and side-effect rates for two contraceptive methods. Explain how the method changes fertilisation, ovulation or implantation. Include the relevant hormone or physical mechanism and one limitation where appropriate.",
       "marks": 6,
-      "modelAnswer": "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg; an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations.",
+      "modelAnswer": "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations.",
       "markingPoints": [
         "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg",
         "an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "26",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -457,19 +412,18 @@
     {
       "id": "T5V025",
       "questionFamily": "Contraception and fertility treatment",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "A couple compare a barrier method, a combined oral contraceptive and a copper intrauterine device. Explain how the method changes fertilisation, ovulation or implantation. Include the relevant hormone or physical mechanism and one limitation where appropriate.",
       "marks": 3,
-      "modelAnswer": "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg; an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations.",
+      "modelAnswer": "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations.",
       "markingPoints": [
         "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg",
         "an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO3",
-      "evidenceSource": "26",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -477,7 +431,7 @@
     {
       "id": "T5V026",
       "questionFamily": "Endocrine system and hormone comparison",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "A runner responds quickly to a starting signal and more slowly to a change in blood glucose. Explain how the chemical messenger reaches and affects its target cells, then compare the speed, route and duration of this response with nervous coordination.",
@@ -488,7 +442,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "29",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -496,7 +449,7 @@
     {
       "id": "T5V027",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A person touches a hot metal tray and withdraws the hand before consciously feeling pain. Explain the route from stimulus detection to the response. Name the receptor, sensory neurone, central nervous system, synapse, motor neurone and effector in the correct order, and explain why the response is protective.",
@@ -507,7 +460,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO3",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -515,12 +467,12 @@
     {
       "id": "T5V028",
       "questionFamily": "Plant-hormone required practical",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Foundation",
       "question": "Students investigate the effect of light direction on the curvature of genetically identical seedlings. Explain the predicted result and describe how the investigation should isolate the independent variable, measure the dependent variable and produce reliable data.",
       "marks": 2,
-      "modelAnswer": "Use seedlings of the same species, age and starting length; change one factor such as light direction or hormone concentration; control temperature, water, time and other light conditions; include a control; use repeats; measure length or curvature quantitatively; calculate a mean; identify anomalies; and use an appropriate graph.",
+      "modelAnswer": "Use seedlings of the same species, age and starting length change one factor such as light direction or hormone concentration control temperature, water, time and other light conditions include a control use repeats measure length or curvature quantitatively calculate a mean identify anomalies and use an appropriate graph.",
       "markingPoints": [
         "Use seedlings of the same species, age and starting length",
         "change one factor such as light direction or hormone concentration",
@@ -534,7 +486,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "50",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Disciplinary knowledge"
@@ -542,19 +493,18 @@
     {
       "id": "T5V032",
       "questionFamily": "Contraception and fertility treatment",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A patient receives FSH and LH during fertility treatment before eggs are collected. Explain how the method changes fertilisation, ovulation or implantation. Include the relevant hormone or physical mechanism and one limitation where appropriate.",
       "marks": 4,
-      "modelAnswer": "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg; an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations.",
+      "modelAnswer": "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations.",
       "markingPoints": [
         "Hormonal contraception can inhibit FSH and ovulation, thicken cervical mucus or alter the uterus lining. Barrier methods prevent sperm reaching the egg",
         "an IUD can impair sperm and implantation. IVF may use FSH and LH to mature several eggs, followed by fertilisation in the laboratory and embryo transfer. Evaluation should use effectiveness, side effects, cost, convenience and ethical considerations."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "26",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -562,12 +512,12 @@
     {
       "id": "T5V034",
       "questionFamily": "Human temperature control",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both / not separated",
       "question": "Skin-temperature receptors detect a rapid fall in external temperature. Calculate the change in core temperature and the mean rate of increase if the change occurred over 35 minutes. Show working and include units.",
       "marks": 1,
-      "modelAnswer": "mean rate = total change ÷ total time.\nShow the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.\nAnswer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.",
+      "modelAnswer": "mean rate = total change ÷ total time. Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles. Answer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.",
       "markingPoints": [
         "mean rate = total change ÷ total time.",
         "Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. The thermoregulatory centre monitors blood temperature and receives information from skin receptors. When too hot, vasodilation and sweating increase heat transfer. When too cold, vasoconstriction, reduced sweating and shivering reduce heat loss and increase respiration in muscles.",
@@ -575,7 +525,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "54",
       "specificationReference": "4.5.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -583,7 +532,7 @@
     {
       "id": "T5V035",
       "questionFamily": "Plant hormones and tropisms",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Higher",
       "question": "A germinating root changes direction when the pot is placed on its side. Explain the distribution and effect of auxin on cell elongation and use the unequal growth to account for the direction of bending.",
@@ -594,7 +543,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "10",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -602,22 +550,19 @@
     {
       "id": "T5V037",
       "questionFamily": "Blood-glucose control and diabetes",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "A patient produces insulin but target cells respond weakly to it. Calculate the percentage increase in the stated blood glucose concentration. Show the equation, substitution and final answer.",
       "marks": 3,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100.\nShow the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.\nAnswer: Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
+      "modelAnswer": "percentage change = (change ÷ original value) × 100. Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required. Answer: Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
       "markingPoints": [
         "percentage change = (change ÷ original value) × 100.",
-        "Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin",
-        "type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
-        "Answer: Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin",
-        "type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required."
+        "Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required.",
+        "Answer: Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A rise in blood glucose stimulates pancreatic beta cells to release insulin. Insulin increases glucose uptake by cells and conversion of glucose to glycogen in liver and muscle, lowering blood glucose. A fall stimulates glucagon, which causes liver glycogen to be converted to glucose and released. Type 1 diabetes involves insufficient insulin; type 2 involves reduced target-cell response and is managed using diet, activity and medicines, with insulin used where required."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "63",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -625,12 +570,12 @@
     {
       "id": "T5V041",
       "questionFamily": "Brain structure and investigation",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both / not separated",
       "question": "A patient has damage to one region of the brain and develops poor balance but retains normal breathing. Explain which brain region is most likely to be involved and how scientists could investigate its function. Distinguish evidence of association from proof of causation.",
       "marks": 2,
-      "modelAnswer": "The cerebral cortex is associated with consciousness, intelligence, memory and language; the cerebellum coordinates movement and balance; the medulla controls unconscious functions such as breathing and heart rate. Brain function may be investigated using damage studies, electrical stimulation and imaging, but correlation alone does not prove causation.",
+      "modelAnswer": "The cerebral cortex is associated with consciousness, intelligence, memory and language the cerebellum coordinates movement and balance the medulla controls unconscious functions such as breathing and heart rate. Brain function may be investigated using damage studies, electrical stimulation and imaging, but correlation alone does not prove causation.",
       "markingPoints": [
         "The cerebral cortex is associated with consciousness, intelligence, memory and language",
         "the cerebellum coordinates movement and balance",
@@ -638,7 +583,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "23",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -646,7 +590,7 @@
     {
       "id": "T5V042",
       "questionFamily": "Endocrine system and hormone comparison",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both / not separated",
       "question": "A patient’s gland releases too little of a hormone that normally acts on a distant organ. Explain how the chemical messenger reaches and affects its target cells, then compare the speed, route and duration of this response with nervous coordination.",
@@ -657,7 +601,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "29",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -665,12 +608,12 @@
     {
       "id": "T5V043",
       "questionFamily": "Homeostasis and negative feedback",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Higher",
       "question": "A patient’s internal condition moves away from its normal level after exercise. Explain how receptors, a coordination centre and effectors produce a negative-feedback response that returns the condition towards its normal level.",
       "marks": 2,
-      "modelAnswer": "Homeostasis maintains optimal internal conditions. Receptors detect a deviation from the normal level; a coordination centre processes the information; effectors produce a response that reverses the deviation. The response reduces as the condition returns towards the normal level.",
+      "modelAnswer": "Homeostasis maintains optimal internal conditions. Receptors detect a deviation from the normal level a coordination centre processes the information effectors produce a response that reverses the deviation. The response reduces as the condition returns towards the normal level.",
       "markingPoints": [
         "Homeostasis maintains optimal internal conditions. Receptors detect a deviation from the normal level",
         "a coordination centre processes the information",
@@ -678,7 +621,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "1",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -686,7 +628,7 @@
     {
       "id": "T5V044",
       "questionFamily": "Menstrual cycle hormones",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Foundation",
       "question": "A drug prevents the pituitary gland from releasing FSH. Explain the roles and interactions of FSH, oestrogen, LH and progesterone, including the effect on the ovary and uterus lining.",
@@ -697,7 +639,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "23",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -705,7 +646,7 @@
     {
       "id": "T5V045",
       "questionFamily": "Menstrual cycle hormones",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Higher",
       "question": "Blood tests show that a patient has a surge in LH on day 14 of a 28-day cycle. Identify the relevant structure, hormone, gland or process and state its precise role.",
@@ -716,7 +657,6 @@
       ],
       "commandWord": "Identify",
       "assessmentObjective": "AO3",
-      "evidenceSource": "23",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -724,12 +664,12 @@
     {
       "id": "T5V046",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Foundation",
       "question": "A goalkeeper sees a ball change direction and moves a hand to stop it. The impulse travels 1.8 m in 0.024 s. Calculate its speed. Show working and include the correct unit.",
       "marks": 2,
-      "modelAnswer": "use the relevant relationship from the question.\nShow the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.\nAnswer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.",
+      "modelAnswer": "use the relevant relationship from the question. Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective. Answer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.",
       "markingPoints": [
         "use the relevant relationship from the question.",
         "Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Award credit for the correct equation or mathematical method, correct substitution, accurate working and a final answer with an appropriate unit. For percentage change: ((new − original) ÷ original) × 100. A receptor detects the stimulus and generates an electrical impulse. The impulse travels along a sensory neurone to the central nervous system, crosses synapses by neurotransmitter diffusion, then travels along a motor neurone to an effector. A muscle contracts or a gland secretes. A reflex is rapid, automatic and protective.",
@@ -737,7 +677,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -745,7 +684,7 @@
     {
       "id": "T5V047",
       "questionFamily": "Plant hormones and tropisms",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both / not separated",
       "question": "A grower applies a synthetic auxin to one group of plants. Explain the distribution and effect of auxin on cell elongation and use the unequal growth to account for the direction of bending.",
@@ -756,7 +695,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "10",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -764,7 +702,7 @@
     {
       "id": "T5V048",
       "questionFamily": "Plant hormones and tropisms",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Higher",
       "question": "A seedling is placed beside a window and its shoot bends towards the light. Explain the distribution and effect of auxin on cell elongation and use the unequal growth to account for the direction of bending.",
@@ -775,7 +713,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "10",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -783,19 +720,18 @@
     {
       "id": "T5V049",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Higher",
       "question": "A patient drinks two litres of water in a short time and later produces dilute urine. Identify the relevant structure, hormone, gland or process and state its precise role.",
       "marks": 4,
-      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH; kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
+      "modelAnswer": "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high.",
       "markingPoints": [
         "The kidneys filter the blood, then selectively reabsorb all glucose, required ions and different amounts of water. When blood water concentration falls, the pituitary releases more ADH",
         "kidney tubules become more permeable, more water is reabsorbed, and a smaller volume of concentrated urine is produced. The reverse occurs when blood water concentration is high."
       ],
       "commandWord": "Identify",
       "assessmentObjective": "AO1",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -803,7 +739,7 @@
     {
       "id": "T5V050",
       "questionFamily": "Homeostasis and negative feedback",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both",
       "question": "Define homeostasis and name the three internal conditions specifically controlled in the AQA specification.",
@@ -814,7 +750,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1",
       "specificationReference": "4.5.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -822,19 +757,18 @@
     {
       "id": "T5V051",
       "questionFamily": "Human temperature control",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both",
       "question": "A person is too hot. Explain how sweating and vasodilation increase heat transfer from the body.",
       "marks": 4,
-      "modelAnswer": "Sweat is secreted onto the skin; evaporation requires energy and transfers thermal energy from the skin. Arterioles supplying skin capillaries dilate, increasing blood flow near the surface and increasing heat transfer to the surroundings.",
+      "modelAnswer": "Sweat is secreted onto the skin evaporation requires energy and transfers thermal energy from the skin. Arterioles supplying skin capillaries dilate, increasing blood flow near the surface and increasing heat transfer to the surroundings.",
       "markingPoints": [
         "Sweat is secreted onto the skin",
         "evaporation requires energy and transfers thermal energy from the skin. Arterioles supplying skin capillaries dilate, increasing blood flow near the surface and increasing heat transfer to the surroundings."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "54",
       "specificationReference": "4.5.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -842,19 +776,18 @@
     {
       "id": "T5V052",
       "questionFamily": "Human temperature control",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both",
       "question": "A person is too cold. Explain how vasoconstriction and shivering help restore core temperature.",
       "marks": 4,
-      "modelAnswer": "Arterioles supplying skin capillaries constrict, reducing blood flow near the surface and reducing heat loss. Skeletal muscles contract rapidly during shivering; increased respiration transfers energy and releases thermal energy.",
+      "modelAnswer": "Arterioles supplying skin capillaries constrict, reducing blood flow near the surface and reducing heat loss. Skeletal muscles contract rapidly during shivering increased respiration transfers energy and releases thermal energy.",
       "markingPoints": [
         "Arterioles supplying skin capillaries constrict, reducing blood flow near the surface and reducing heat loss. Skeletal muscles contract rapidly during shivering",
         "increased respiration transfers energy and releases thermal energy."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "54",
       "specificationReference": "4.5.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -862,7 +795,7 @@
     {
       "id": "T5V053",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both",
       "question": "State the organs that remove carbon dioxide, urea and excess water and ions from the body.",
@@ -873,7 +806,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -881,7 +813,7 @@
     {
       "id": "T5V054",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Higher",
       "question": "Explain why proteins and blood cells normally remain in the blood during kidney filtration, but urea, ions, glucose and water enter the filtrate.",
@@ -892,7 +824,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -900,19 +831,18 @@
     {
       "id": "T5V055",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both",
       "question": "Compare dialysis with a kidney transplant. Include how dialysis works and advantages and disadvantages of each treatment.",
       "marks": 6,
-      "modelAnswer": "Dialysis uses a partially permeable membrane; urea and excess ions diffuse into dialysis fluid, while useful solutes are maintained at normal blood concentrations. Dialysis is available without a donor but is frequent and time-consuming. A transplant can restore near-normal kidney function but needs a donor, surgery and immunosuppressant drugs and may be rejected.",
+      "modelAnswer": "Dialysis uses a partially permeable membrane urea and excess ions diffuse into dialysis fluid, while useful solutes are maintained at normal blood concentrations. Dialysis is available without a donor but is frequent and time-consuming. A transplant can restore near-normal kidney function but needs a donor, surgery and immunosuppressant drugs and may be rejected.",
       "markingPoints": [
         "Dialysis uses a partially permeable membrane",
         "urea and excess ions diffuse into dialysis fluid, while useful solutes are maintained at normal blood concentrations. Dialysis is available without a donor but is frequent and time-consuming. A transplant can restore near-normal kidney function but needs a donor, surgery and immunosuppressant drugs and may be rejected."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO3",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -920,7 +850,7 @@
     {
       "id": "T5V056",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Higher",
       "question": "Explain how dialysis fluid composition allows urea to leave the blood without causing a net loss of glucose or essential ions.",
@@ -931,7 +861,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -939,7 +868,7 @@
     {
       "id": "T5V057",
       "questionFamily": "Water balance, kidneys and ADH",
-      "subtopic": "Homeostasis",
+      "subtopic": "5.1 Homeostasis",
       "sourceSubtopic": "5.1 Homeostasis",
       "tier": "Both",
       "question": "A runner loses 1.6 dm³ of sweat containing water and ions. Explain why a suitable sports drink can help, and why a very sugary drink may be unsuitable.",
@@ -950,7 +879,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "88",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -958,7 +886,7 @@
     {
       "id": "T5V058",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both",
       "question": "Distinguish a receptor from an effector and give one correct example of each.",
@@ -969,7 +897,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -977,7 +904,7 @@
     {
       "id": "T5V059",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both",
       "question": "Explain how a signal crosses a synapse and why transmission across synapses is slower than transmission along a neurone.",
@@ -988,7 +915,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -996,12 +922,12 @@
     {
       "id": "T5V060",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both",
       "question": "Plan an investigation into the effect of caffeine on human reaction time using a ruler-drop test.",
       "marks": 6,
-      "modelAnswer": "Measure reaction time before and after a stated caffeine dose; use the same participant or matched groups; control ruler position, hand used, caffeine dose, time after drinking, distractions and practice; repeat several times; calculate means; identify anomalies; use consent, safe doses and avoid participants for whom caffeine is unsuitable.",
+      "modelAnswer": "Measure reaction time before and after a stated caffeine dose use the same participant or matched groups control ruler position, hand used, caffeine dose, time after drinking, distractions and practice repeat several times calculate means identify anomalies use consent, safe doses and avoid participants for whom caffeine is unsuitable.",
       "markingPoints": [
         "Measure reaction time before and after a stated caffeine dose",
         "use the same participant or matched groups",
@@ -1013,7 +939,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1021,12 +946,12 @@
     {
       "id": "T5V061",
       "questionFamily": "Nervous-system pathway and reflexes",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Both",
       "question": "A ruler falls 18 cm before being caught. Use reaction time = √(2d/g), with g = 9.8 m/s², to calculate the reaction time.",
       "marks": 3,
-      "modelAnswer": "use the relevant relationship from the question.\nConvert 18 cm to 0.18 m. Reaction time = √(2 × 0.18 ÷ 9.8) = 0.19 s (2 s.f.).\nAnswer: Convert 18 cm to 0.18 m. Reaction time = √(2 × 0.18 ÷ 9.8) = 0.19 s (2 s.f.).",
+      "modelAnswer": "use the relevant relationship from the question. Convert 18 cm to 0.18 m. Reaction time = √(2 × 0.18 ÷ 9.8) = 0.19 s (2 s.f.). Answer: Convert 18 cm to 0.18 m. Reaction time = √(2 × 0.18 ÷ 9.8) = 0.19 s (2 s.f.).",
       "markingPoints": [
         "use the relevant relationship from the question.",
         "Convert 18 cm to 0.18 m. Reaction time = √(2 × 0.18 ÷ 9.8) = 0.19 s (2 s.f.).",
@@ -1034,7 +959,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "64",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1042,7 +966,7 @@
     {
       "id": "T5V062",
       "questionFamily": "Brain structure and investigation",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Biology only",
       "question": "State the functions of the cerebral cortex, cerebellum and medulla.",
@@ -1053,7 +977,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "23",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Practical knowledge"
@@ -1061,12 +984,12 @@
     {
       "id": "T5V063",
       "questionFamily": "Brain structure and investigation",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Biology only",
       "question": "Explain why investigating and treating the brain is difficult and risky.",
       "marks": 4,
-      "modelAnswer": "The brain is complex and regions interact; it is enclosed by the skull and hard to access; damage may be irreversible and can affect essential functions; surgery risks damage to healthy tissue and infection; ethical limits restrict experiments on humans.",
+      "modelAnswer": "The brain is complex and regions interact it is enclosed by the skull and hard to access damage may be irreversible and can affect essential functions surgery risks damage to healthy tissue and infection ethical limits restrict experiments on humans.",
       "markingPoints": [
         "The brain is complex and regions interact",
         "it is enclosed by the skull and hard to access",
@@ -1076,7 +999,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "23",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Practical knowledge"
@@ -1084,12 +1006,12 @@
     {
       "id": "T5V064",
       "questionFamily": "Eye structure, accommodation and defects",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Biology only",
       "question": "Label and state the functions of the cornea, iris, lens, ciliary muscles, suspensory ligaments, retina and optic nerve.",
       "marks": 7,
-      "modelAnswer": "Cornea and lens refract light; iris controls pupil diameter; ciliary muscles and suspensory ligaments alter lens shape; retina contains light-sensitive receptor cells; optic nerve carries electrical impulses to the brain.",
+      "modelAnswer": "Cornea and lens refract light iris controls pupil diameter ciliary muscles and suspensory ligaments alter lens shape retina contains light-sensitive receptor cells optic nerve carries electrical impulses to the brain.",
       "markingPoints": [
         "Cornea and lens refract light",
         "iris controls pupil diameter",
@@ -1099,7 +1021,6 @@
       ],
       "commandWord": "Label",
       "assessmentObjective": "AO1",
-      "evidenceSource": "41",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1107,7 +1028,7 @@
     {
       "id": "T5V065",
       "questionFamily": "Eye structure, accommodation and defects",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Biology only",
       "question": "Explain the pupil reflex in bright light and in dim light, naming the circular and radial muscles of the iris.",
@@ -1118,7 +1039,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "41",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1126,12 +1046,12 @@
     {
       "id": "T5V066",
       "questionFamily": "Eye structure, accommodation and defects",
-      "subtopic": "Human Nervous System",
+      "subtopic": "5.2 Human Nervous System",
       "sourceSubtopic": "5.2 Human Nervous System",
       "tier": "Biology only",
       "question": "Compare correction of short sight and long sight using lenses, contact lenses, laser surgery and replacement lenses.",
       "marks": 6,
-      "modelAnswer": "Short sight focuses distant light in front of the retina and uses a concave lens; long sight focuses near light behind the retina and uses a convex lens. Contact lenses provide the same optical correction. Laser surgery changes corneal curvature; replacement lenses change focusing power. Evaluation may include effectiveness, reversibility, infection/surgery risk and cost.",
+      "modelAnswer": "Short sight focuses distant light in front of the retina and uses a concave lens long sight focuses near light behind the retina and uses a convex lens. Contact lenses provide the same optical correction. Laser surgery changes corneal curvature replacement lenses change focusing power. Evaluation may include effectiveness, reversibility, infection/surgery risk and cost.",
       "markingPoints": [
         "Short sight focuses distant light in front of the retina and uses a concave lens",
         "long sight focuses near light behind the retina and uses a convex lens. Contact lenses provide the same optical correction. Laser surgery changes corneal curvature",
@@ -1139,7 +1059,6 @@
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO3",
-      "evidenceSource": "41",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1147,12 +1066,12 @@
     {
       "id": "T5V067",
       "questionFamily": "Endocrine system and hormone comparison",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both",
       "question": "Name the pituitary, thyroid, adrenal glands, pancreas, ovaries and testes, and give one hormone produced by each.",
       "marks": 6,
-      "modelAnswer": "Pituitary: FSH/LH/ADH; thyroid: thyroxine; adrenal glands: adrenaline; pancreas: insulin/glucagon; ovaries: oestrogen/progesterone; testes: testosterone.",
+      "modelAnswer": "Pituitary: FSH/LH/ADH thyroid: thyroxine adrenal glands: adrenaline pancreas: insulin/glucagon ovaries: oestrogen/progesterone testes: testosterone.",
       "markingPoints": [
         "Pituitary: FSH/LH/ADH",
         "thyroid: thyroxine",
@@ -1163,7 +1082,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "29",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1171,7 +1089,7 @@
     {
       "id": "T5V068",
       "questionFamily": "Endocrine system and hormone comparison",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both",
       "question": "Explain how adrenaline prepares the body for fight or flight.",
@@ -1182,7 +1100,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "29",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1190,12 +1107,12 @@
     {
       "id": "T5V069",
       "questionFamily": "Endocrine system and hormone comparison",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Higher",
       "question": "Explain how thyroxine concentration is controlled by negative feedback involving TRH and TSH.",
       "marks": 6,
-      "modelAnswer": "Low thyroxine stimulates the hypothalamus to release TRH; TRH stimulates the pituitary to release TSH; TSH stimulates the thyroid to release thyroxine. Rising thyroxine inhibits TRH and TSH release. Falling thyroxine removes inhibition. This maintains a relatively stable thyroxine concentration.",
+      "modelAnswer": "Low thyroxine stimulates the hypothalamus to release TRH TRH stimulates the pituitary to release TSH TSH stimulates the thyroid to release thyroxine. Rising thyroxine inhibits TRH and TSH release. Falling thyroxine removes inhibition. This maintains a relatively stable thyroxine concentration.",
       "markingPoints": [
         "Low thyroxine stimulates the hypothalamus to release TRH",
         "TRH stimulates the pituitary to release TSH",
@@ -1203,7 +1120,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "29",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -1211,19 +1127,18 @@
     {
       "id": "T5V070",
       "questionFamily": "Blood-glucose control and diabetes",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both",
       "question": "Explain why insulin is injected rather than swallowed and how injection timing may be chosen from an insulin-response table.",
       "marks": 4,
-      "modelAnswer": "Insulin is a protein and would be digested by proteases if swallowed. It is injected so it reaches the blood intact. Choose a rapid-acting insulin before a meal to limit the post-meal rise; choose a long-acting insulin for background control, using onset, peak and duration data.",
+      "modelAnswer": "Insulin is a protein and would be digested by proteases if swallowed. It is injected so it reaches the blood intact. Choose a rapid-acting insulin before a meal to limit the post-meal rise choose a long-acting insulin for background control, using onset, peak and duration data.",
       "markingPoints": [
         "Insulin is a protein and would be digested by proteases if swallowed. It is injected so it reaches the blood intact. Choose a rapid-acting insulin before a meal to limit the post-meal rise",
         "choose a long-acting insulin for background control, using onset, peak and duration data."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "63",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1231,7 +1146,7 @@
     {
       "id": "T5V071",
       "questionFamily": "Blood-glucose control and diabetes",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both",
       "question": "Evaluate evidence from a glucose-tolerance graph to decide whether a person may have diabetes.",
@@ -1242,7 +1157,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "63",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1250,7 +1164,7 @@
     {
       "id": "T5V072",
       "questionFamily": "Blood-glucose control and diabetes",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both",
       "question": "Explain why a person with Type 2 diabetes may have a high insulin concentration but still have a high blood glucose concentration.",
@@ -1261,7 +1175,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "63",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1269,12 +1182,12 @@
     {
       "id": "T5V073",
       "questionFamily": "Menstrual cycle hormones",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Higher",
       "question": "Interpret a menstrual-cycle hormone graph: identify ovulation, menstruation and the hormone responsible for each major peak or change.",
       "marks": 6,
-      "modelAnswer": "FSH rises early and stimulates follicle maturation; oestrogen rises as the follicle develops and rebuilds the uterus lining; the LH surge marks/triggers ovulation; progesterone rises after ovulation from the corpus luteum and maintains the lining; falling progesterone causes menstruation.",
+      "modelAnswer": "FSH rises early and stimulates follicle maturation oestrogen rises as the follicle develops and rebuilds the uterus lining the LH surge marks/triggers ovulation progesterone rises after ovulation from the corpus luteum and maintains the lining falling progesterone causes menstruation.",
       "markingPoints": [
         "FSH rises early and stimulates follicle maturation",
         "oestrogen rises as the follicle develops and rebuilds the uterus lining",
@@ -1284,7 +1197,6 @@
       ],
       "commandWord": "Interpret",
       "assessmentObjective": "AO3",
-      "evidenceSource": "23",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -1292,19 +1204,18 @@
     {
       "id": "T5V074",
       "questionFamily": "Contraception and fertility treatment",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Both",
       "question": "Compare hormonal and non-hormonal contraception using mechanism, effectiveness, side effects, convenience and protection from sexually transmitted infections.",
       "marks": 6,
-      "modelAnswer": "Hormonal methods inhibit ovulation, thicken cervical mucus and/or alter the uterus lining; they can be highly effective but may cause side effects and need correct use. Barrier methods stop sperm reaching the egg and condoms also reduce STI transmission. IUDs prevent fertilisation and/or implantation. Conclusions must use the supplied effectiveness and side-effect data.",
+      "modelAnswer": "Hormonal methods inhibit ovulation, thicken cervical mucus and/or alter the uterus lining they can be highly effective but may cause side effects and need correct use. Barrier methods stop sperm reaching the egg and condoms also reduce STI transmission. IUDs prevent fertilisation and/or implantation. Conclusions must use the supplied effectiveness and side-effect data.",
       "markingPoints": [
         "Hormonal methods inhibit ovulation, thicken cervical mucus and/or alter the uterus lining",
         "they can be highly effective but may cause side effects and need correct use. Barrier methods stop sperm reaching the egg and condoms also reduce STI transmission. IUDs prevent fertilisation and/or implantation. Conclusions must use the supplied effectiveness and side-effect data."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO3",
-      "evidenceSource": "26",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1312,12 +1223,12 @@
     {
       "id": "T5V075",
       "questionFamily": "Contraception and fertility treatment",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "5.3 Hormonal Coordination in Humans",
       "sourceSubtopic": "5.3 Hormonal Coordination in Humans",
       "tier": "Higher",
       "question": "Describe IVF treatment and evaluate its medical, social, economic and ethical issues.",
       "marks": 6,
-      "modelAnswer": "FSH and LH stimulate maturation of several eggs; eggs are collected and fertilised in a laboratory; embryos develop and one or more are transferred to the uterus. Advantages include helping infertility. Limitations include low success rate, emotional/physical stress, cost, multiple births and ethical concerns about unused embryos.",
+      "modelAnswer": "FSH and LH stimulate maturation of several eggs eggs are collected and fertilised in a laboratory embryos develop and one or more are transferred to the uterus. Advantages include helping infertility. Limitations include low success rate, emotional/physical stress, cost, multiple births and ethical concerns about unused embryos.",
       "markingPoints": [
         "FSH and LH stimulate maturation of several eggs",
         "eggs are collected and fertilised in a laboratory",
@@ -1325,7 +1236,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "26",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1333,7 +1243,7 @@
     {
       "id": "T5V076",
       "questionFamily": "Plant hormones and tropisms",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Biology only",
       "question": "State the commercial uses of auxins, gibberellins and ethene.",
@@ -1344,7 +1254,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "10",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1352,19 +1261,18 @@
     {
       "id": "T5V077",
       "questionFamily": "Plant hormones and tropisms",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Biology only",
       "question": "Explain why shoots show positive phototropism and roots show positive gravitropism, including the different effect of auxin in shoots and roots.",
       "marks": 6,
-      "modelAnswer": "In a one-sided light, auxin accumulates on the shaded side of a shoot and stimulates cell elongation, so the shoot bends towards light. In a horizontal root, auxin accumulates on the lower side but inhibits elongation there; the upper side grows faster, so the root bends downwards.",
+      "modelAnswer": "In a one-sided light, auxin accumulates on the shaded side of a shoot and stimulates cell elongation, so the shoot bends towards light. In a horizontal root, auxin accumulates on the lower side but inhibits elongation there the upper side grows faster, so the root bends downwards.",
       "markingPoints": [
         "In a one-sided light, auxin accumulates on the shaded side of a shoot and stimulates cell elongation, so the shoot bends towards light. In a horizontal root, auxin accumulates on the lower side but inhibits elongation there",
         "the upper side grows faster, so the root bends downwards."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "10",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1372,7 +1280,7 @@
     {
       "id": "T5V078",
       "questionFamily": "Plant-hormone required practical",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Biology only",
       "question": "Explain the purpose of controls with an uncovered tip, an opaque-covered tip and a foil-covered lower shoot in a phototropism investigation.",
@@ -1383,7 +1291,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "50",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge"
@@ -1391,7 +1298,7 @@
     {
       "id": "T5V079",
       "questionFamily": "Plant-hormone required practical",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Biology only",
       "question": "Explain how to measure the length of a curved root or shoot accurately and how repeats improve the investigation.",
@@ -1402,7 +1309,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "50",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1410,7 +1316,7 @@
     {
       "id": "T5V080",
       "questionFamily": "Plant-hormone required practical",
-      "subtopic": "Plant Hormones",
+      "subtopic": "5.4 Plant Hormones",
       "sourceSubtopic": "5.4 Plant Hormones",
       "tier": "Biology only",
       "question": "A clinostat slowly rotates seedlings. Explain how it acts as a control in an investigation of gravitropism.",
@@ -1421,7 +1327,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "50",
       "specificationReference": "4.5.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge"
@@ -1429,7 +1334,7 @@
     {
       "id": "HR-EX1",
       "questionFamily": "Control-system synthesis",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "Blood glucose control",
       "sourceSubtopic": "Blood glucose control",
       "tier": "Both",
       "question": "After a carbohydrate-rich meal, explain how negative feedback returns blood glucose concentration to its normal level.",
@@ -1440,7 +1345,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.5.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1448,7 +1352,7 @@
     {
       "id": "HR-EX2",
       "questionFamily": "Evaluation — hormones",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "Fertility treatment",
       "sourceSubtopic": "Fertility treatment",
       "tier": "Higher",
       "question": "Evaluate the use of FSH and LH in fertility treatment compared with IVF.",
@@ -1459,7 +1363,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.5.3.4",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1467,12 +1370,12 @@
     {
       "id": "PK01",
       "questionFamily": "Reaction-time practical",
-      "subtopic": "Human Nervous System",
+      "subtopic": "Nervous system",
       "sourceSubtopic": "Nervous system",
       "tier": "Both",
       "question": "Describe a ruler-drop method for measuring reaction time and how to obtain reliable data.",
       "marks": 5,
-      "modelAnswer": "One person holds a ruler vertically above the participant’s open fingers and releases it without warning; record the distance fallen when caught; convert distance to reaction time if required; repeat several times; calculate a mean and control the hand, ruler position and release method.",
+      "modelAnswer": "One person holds a ruler vertically above the participant’s open fingers and releases it without warning record the distance fallen when caught convert distance to reaction time if required repeat several times calculate a mean and control the hand, ruler position and release method.",
       "markingPoints": [
         "One person holds a ruler vertically above the participant’s open fingers and releases it without warning",
         "record the distance fallen when caught",
@@ -1482,7 +1385,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.5.2.1",
       "gradeDemand": "Grades 4–7",
       "knowledgeType": "Practical + disciplinary"
@@ -1490,7 +1392,7 @@
     {
       "id": "PK02",
       "questionFamily": "Reaction-time validity",
-      "subtopic": "Human Nervous System",
+      "subtopic": "Nervous system",
       "sourceSubtopic": "Nervous system",
       "tier": "Both",
       "question": "A participant improves over repeated ruler-drop trials. Identify the problem and suggest an improvement.",
@@ -1501,7 +1403,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.5.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1509,12 +1410,12 @@
     {
       "id": "PK03",
       "questionFamily": "Hormone investigation",
-      "subtopic": "Plant Hormones",
+      "subtopic": "Plant hormones",
       "sourceSubtopic": "Plant hormones",
       "tier": "Biology only",
       "question": "Plan an investigation of the effect of auxin concentration on the growth of plant cuttings.",
       "marks": 6,
-      "modelAnswer": "Use genetically similar cuttings of equal initial length; apply a range of auxin concentrations including zero; keep light, temperature, water, soil and time constant; use several cuttings at each concentration; measure root number or length after a fixed time; calculate means and compare dose response.",
+      "modelAnswer": "Use genetically similar cuttings of equal initial length apply a range of auxin concentrations including zero keep light, temperature, water, soil and time constant use several cuttings at each concentration measure root number or length after a fixed time calculate means and compare dose response.",
       "markingPoints": [
         "Use genetically similar cuttings of equal initial length",
         "apply a range of auxin concentrations including zero",
@@ -1525,7 +1426,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.5.4.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary"
@@ -1533,12 +1433,12 @@
     {
       "id": "PK04",
       "questionFamily": "Clinical evidence",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "Blood glucose",
       "sourceSubtopic": "Blood glucose",
       "tier": "Both",
       "question": "Explain why a new diabetes treatment should be tested using a randomised double-blind controlled trial.",
       "marks": 5,
-      "modelAnswer": "Random allocation reduces selection bias and balances confounding variables; a control/placebo provides a comparison; blinding participants and researchers reduces expectation and observer bias; sufficient sample size improves representativeness; statistical analysis tests whether differences are likely due to chance.",
+      "modelAnswer": "Random allocation reduces selection bias and balances confounding variables a control/placebo provides a comparison blinding participants and researchers reduces expectation and observer bias sufficient sample size improves representativeness statistical analysis tests whether differences are likely due to chance.",
       "markingPoints": [
         "Random allocation reduces selection bias and balances confounding variables",
         "a control/placebo provides a comparison",
@@ -1548,7 +1448,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.5.3.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1556,12 +1455,12 @@
     {
       "id": "PK05",
       "questionFamily": "Homeostasis graph",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "Blood glucose",
       "sourceSubtopic": "Blood glucose",
       "tier": "Both",
       "question": "Blood glucose rises after a meal and then returns towards its starting value. Explain why this pattern is evidence of negative feedback.",
       "marks": 4,
-      "modelAnswer": "The rise is detected; insulin is released; cells take up glucose and the liver/muscles convert glucose to glycogen; these responses oppose the original rise, returning the level towards the normal range.",
+      "modelAnswer": "The rise is detected insulin is released cells take up glucose and the liver/muscles convert glucose to glycogen these responses oppose the original rise, returning the level towards the normal range.",
       "markingPoints": [
         "The rise is detected",
         "insulin is released",
@@ -1570,7 +1469,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.5.3.2",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Substantive + disciplinary"
@@ -1578,19 +1476,18 @@
     {
       "id": "PK06",
       "questionFamily": "Risk and correlation",
-      "subtopic": "Hormonal Coordination in Humans",
+      "subtopic": "Hormones and health",
       "sourceSubtopic": "Hormones and health",
       "tier": "Both",
       "question": "An observational study finds that people taking a medicine have a higher disease rate. Explain why this does not prove that the medicine caused the disease.",
       "marks": 4,
-      "modelAnswer": "Correlation does not establish causation. The groups may differ in age, health, lifestyle or reason for taking the medicine; chance and bias may contribute. Controlled studies and evidence from multiple sources are needed.",
+      "modelAnswer": "Correlation does not establish causation. The groups may differ in age, health, lifestyle or reason for taking the medicine chance and bias may contribute. Controlled studies and evidence from multiple sources are needed.",
       "markingPoints": [
         "Correlation does not establish causation. The groups may differ in age, health, lifestyle or reason for taking the medicine",
         "chance and bias may contribute. Controlled studies and evidence from multiple sources are needed."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.5.4.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"

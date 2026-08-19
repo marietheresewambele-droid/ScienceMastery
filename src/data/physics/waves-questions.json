@@ -1,9 +1,5 @@
 {
   "metadata": {
-    "topicId": "waves",
-    "topic": "Waves",
-    "sourceWorkbook": "AQA_GCSE_Physics_Complete_Mastery_Workbook.xlsx",
-    "questionCount": 21,
     "subtopics": [
       {
         "title": "6.1 Waves in air, fluids and solids",
@@ -26,16 +22,16 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Distinguish transverse and longitudinal waves and give an example of each.",
       "marks": 4,
       "modelAnswer": "Transverse oscillations are perpendicular to energy transfer, e.g. electromagnetic or water-surface waves. Longitudinal oscillations are parallel, e.g. sound waves.",
       "markingPoints": [
-        "Transverse oscillations are perpendicular to energy transfer, e.g. electromagnetic or water-surface waves. Longitudinal oscillations are parallel, e.g. sound waves."
+        "Transverse oscillations are perpendicular to energy transfer, e.g. electromagnetic or water-surface waves.",
+        "Longitudinal oscillations are parallel, e.g. sound waves."
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -46,16 +42,18 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Define amplitude, wavelength, frequency and period.",
       "marks": 4,
       "modelAnswer": "Amplitude: maximum displacement from equilibrium. Wavelength: distance between corresponding points on adjacent waves. Frequency: waves passing a point per second. Period: time for one complete wave.",
       "markingPoints": [
-        "Amplitude: maximum displacement from equilibrium. Wavelength: distance between corresponding points on adjacent waves. Frequency: waves passing a point per second. Period: time for one complete wave."
+        "Amplitude: maximum displacement from equilibrium.",
+        "Wavelength: distance between corresponding points on adjacent waves.",
+        "Frequency: waves passing a point per second.",
+        "Period: time for one complete wave."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -66,17 +64,16 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "What do waves transfer?",
       "marks": 2,
-      "modelAnswer": "Energy and information; waves do not cause an overall transfer of matter.",
+      "modelAnswer": "Energy and information. Waves do not cause an overall transfer of matter.",
       "markingPoints": [
-        "Energy and information",
-        "waves do not cause an overall transfer of matter."
+        "Energy and information.",
+        "Waves do not cause an overall transfer of matter."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -87,17 +84,16 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State the law of reflection.",
       "marks": 2,
-      "modelAnswer": "Angle of incidence equals angle of reflection; angles are measured from the normal.",
+      "modelAnswer": "Angle of incidence equals angle of reflection. Angles are measured from the normal.",
       "markingPoints": [
-        "Angle of incidence equals angle of reflection",
-        "angles are measured from the normal."
+        "Angle of incidence equals angle of reflection.",
+        "Angles are measured from the normal."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -108,19 +104,18 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain why a wave changes direction when it enters a different medium at an angle.",
       "marks": 4,
-      "modelAnswer": "Wave speed changes at the boundary; one side of the wavefront changes speed first; the wavefront pivots; frequency stays constant while wavelength changes.",
+      "modelAnswer": "Wave speed changes at the boundary. One side of the wavefront changes speed first. The wavefront pivots. Frequency stays constant while wavelength changes.",
       "markingPoints": [
-        "Wave speed changes at the boundary",
-        "one side of the wavefront changes speed first",
-        "the wavefront pivots",
-        "frequency stays constant while wavelength changes."
+        "Wave speed changes at the boundary.",
+        "One side of the wavefront changes speed first.",
+        "The wavefront pivots.",
+        "Frequency stays constant while wavelength changes."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -131,18 +126,17 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain how sound travels through air.",
       "marks": 3,
-      "modelAnswer": "A vibrating source produces compressions and rarefactions; air particles oscillate parallel to energy transfer; neighbouring particles pass on the disturbance.",
+      "modelAnswer": "A vibrating source produces compressions and rarefactions. Air particles oscillate parallel to energy transfer. Neighbouring particles pass on the disturbance.",
       "markingPoints": [
-        "A vibrating source produces compressions and rarefactions",
-        "air particles oscillate parallel to energy transfer",
-        "neighbouring particles pass on the disturbance."
+        "A vibrating source produces compressions and rarefactions.",
+        "Air particles oscillate parallel to energy transfer.",
+        "Neighbouring particles pass on the disturbance."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -153,17 +147,17 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Give two uses of ultrasound and explain the measurement principle.",
       "marks": 4,
-      "modelAnswer": "Examples: medical imaging and sonar. A pulse is transmitted and reflected at a boundary; time delay and wave speed are used to calculate distance, often distance = speed × time ÷ 2.",
+      "modelAnswer": "Examples: medical imaging and sonar. A pulse is transmitted and reflected at a boundary. Time delay and wave speed are used to calculate distance, often distance = speed × time ÷ 2.",
       "markingPoints": [
-        "Examples: medical imaging and sonar. A pulse is transmitted and reflected at a boundary",
-        "time delay and wave speed are used to calculate distance, often distance = speed × time ÷ 2."
+        "Examples: medical imaging and sonar.",
+        "A pulse is transmitted and reflected at a boundary.",
+        "Time delay and wave speed are used to calculate distance, often distance = speed × time ÷ 2."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -174,7 +168,6 @@
       "subtopic": "6.2 Electromagnetic waves",
       "sourceSubtopic": "6.2 Electromagnetic waves",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "List the electromagnetic spectrum in order of increasing frequency.",
       "marks": 7,
       "modelAnswer": "Radio, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays.",
@@ -183,7 +176,7 @@
       ],
       "commandWord": "List",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -194,19 +187,18 @@
       "subtopic": "6.2 Electromagnetic waves",
       "sourceSubtopic": "6.2 Electromagnetic waves",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "State three properties shared by all electromagnetic waves.",
       "marks": 3,
-      "modelAnswer": "They are transverse; travel at the same speed in a vacuum (3.0 × 10⁸ m/s); can travel through a vacuum; transfer energy.",
+      "modelAnswer": "They are transverse. Travel at the same speed in a vacuum (3.0 × 10⁸ m/s) Can travel through a vacuum. Transfer energy.",
       "markingPoints": [
-        "They are transverse",
-        "travel at the same speed in a vacuum (3.0 × 10⁸ m/s)",
-        "can travel through a vacuum",
-        "transfer energy."
+        "They are transverse.",
+        "Travel at the same speed in a vacuum (3.0 × 10⁸ m/s)",
+        "Can travel through a vacuum.",
+        "Transfer energy."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -217,16 +209,21 @@
       "subtopic": "6.2 Electromagnetic waves",
       "sourceSubtopic": "6.2 Electromagnetic waves",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Match radio, microwave, infrared, visible, ultraviolet, X-ray and gamma radiation to one common use each.",
       "marks": 7,
       "modelAnswer": "Radio: broadcasting/communications. Microwave: satellite/mobile communications or cooking. Infrared: heaters/thermal imaging. Visible: vision/fibre optics. UV: fluorescent lamps/security marking. X-rays: medical imaging. Gamma: sterilisation or cancer treatment.",
       "markingPoints": [
-        "Radio: broadcasting/communications. Microwave: satellite/mobile communications or cooking. Infrared: heaters/thermal imaging. Visible: vision/fibre optics. UV: fluorescent lamps/security marking. X-rays: medical imaging. Gamma: sterilisation or cancer treatment."
+        "Radio: broadcasting/communications.",
+        "Microwave: satellite/mobile communications or cooking.",
+        "Infrared: heaters/thermal imaging.",
+        "Visible: vision/fibre optics.",
+        "UV: fluorescent lamps/security marking.",
+        "X-rays: medical imaging.",
+        "Gamma: sterilisation or cancer treatment."
       ],
       "commandWord": "Match",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -237,16 +234,18 @@
       "subtopic": "6.2 Electromagnetic waves",
       "sourceSubtopic": "6.2 Electromagnetic waves",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Explain the main hazards of infrared, ultraviolet, X-rays and gamma rays.",
       "marks": 6,
       "modelAnswer": "Infrared heats tissue and can burn. UV damages skin cells and eyes, causing ageing/cancer. X-rays and gamma are ionising, can damage DNA, cause mutations and cancer. Risk rises with dose.",
       "markingPoints": [
-        "Infrared heats tissue and can burn. UV damages skin cells and eyes, causing ageing/cancer. X-rays and gamma are ionising, can damage DNA, cause mutations and cancer. Risk rises with dose."
+        "Infrared heats tissue and can burn.",
+        "UV damages skin cells and eyes, causing ageing/cancer.",
+        "X-rays and gamma are ionising, can damage DNA, cause mutations and cancer.",
+        "Risk rises with dose."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -257,17 +256,16 @@
       "subtopic": "6.2 Electromagnetic waves",
       "sourceSubtopic": "6.2 Electromagnetic waves",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain why long-wavelength radio waves can be received beyond the horizon.",
       "marks": 3,
-      "modelAnswer": "They can diffract around large obstacles and may be reflected by the ionosphere; this allows signals to travel beyond line of sight.",
+      "modelAnswer": "They can diffract around large obstacles and may be reflected by the ionosphere. This allows signals to travel beyond line of sight.",
       "markingPoints": [
-        "They can diffract around large obstacles and may be reflected by the ionosphere",
-        "this allows signals to travel beyond line of sight."
+        "They can diffract around large obstacles and may be reflected by the ionosphere.",
+        "This allows signals to travel beyond line of sight."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -278,7 +276,6 @@
       "subtopic": "6.3 Black-body radiation",
       "sourceSubtopic": "6.3 Black-body radiation",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Define a perfect black body.",
       "marks": 2,
       "modelAnswer": "An object that absorbs all incident electromagnetic radiation and is the best possible emitter at a given temperature.",
@@ -287,7 +284,7 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -298,19 +295,18 @@
       "subtopic": "6.3 Black-body radiation",
       "sourceSubtopic": "6.3 Black-body radiation",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Describe how a black-body radiation curve changes as temperature increases.",
       "marks": 4,
-      "modelAnswer": "Intensity at every wavelength increases; total emitted power increases; the peak becomes higher; peak wavelength shifts to shorter wavelengths.",
+      "modelAnswer": "Intensity at every wavelength increases. Total emitted power increases. The peak becomes higher. Peak wavelength shifts to shorter wavelengths.",
       "markingPoints": [
-        "Intensity at every wavelength increases",
-        "total emitted power increases",
-        "the peak becomes higher",
-        "peak wavelength shifts to shorter wavelengths."
+        "Intensity at every wavelength increases.",
+        "Total emitted power increases.",
+        "The peak becomes higher.",
+        "Peak wavelength shifts to shorter wavelengths."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -321,16 +317,17 @@
       "subtopic": "6.3 Black-body radiation",
       "sourceSubtopic": "6.3 Black-body radiation",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain how absorption and emission of radiation determine Earth’s temperature.",
       "marks": 4,
       "modelAnswer": "Earth absorbs mainly short-wave solar radiation and emits infrared. Temperature is stable when absorbed power equals emitted power. If absorption exceeds emission, temperature rises until balance is restored.",
       "markingPoints": [
-        "Earth absorbs mainly short-wave solar radiation and emits infrared. Temperature is stable when absorbed power equals emitted power. If absorption exceeds emission, temperature rises until balance is restored."
+        "Earth absorbs mainly short-wave solar radiation and emits infrared.",
+        "Temperature is stable when absorbed power equals emitted power.",
+        "If absorption exceeds emission, temperature rises until balance is restored."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -341,18 +338,17 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A wave has frequency 250 Hz and wavelength 1.36 m. Calculate its speed.",
       "marks": 3,
-      "modelAnswer": "v = fλ\nv = 250 × 1.36\nv = 340 m/s",
+      "modelAnswer": "V = fλ V = 250 × 1.36 V = 340 m/s",
       "markingPoints": [
-        "v = fλ",
-        "v = 250 × 1.36",
-        "v = 340 m/s"
+        "V = fλ",
+        "V = 250 × 1.36",
+        "V = 340 m/s"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -363,10 +359,9 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A wave has frequency 50 Hz. Calculate its period.",
       "marks": 3,
-      "modelAnswer": "T = 1 ÷ f\nT = 1 ÷ 50\nT = 0.020 s",
+      "modelAnswer": "T = 1 ÷ f T = 1 ÷ 50 T = 0.020 s",
       "markingPoints": [
         "T = 1 ÷ f",
         "T = 1 ÷ 50",
@@ -374,7 +369,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -385,10 +380,9 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "An ultrasound pulse returns after 0.040 s. The speed is 1500 m/s. Calculate the depth of the boundary.",
       "marks": 4,
-      "modelAnswer": "Total distance = vt = 1500 × 0.040 = 60 m\nDepth = total distance ÷ 2\nDepth = 30 m",
+      "modelAnswer": "Total distance = vt = 1500 × 0.040 = 60 m Depth = total distance ÷ 2 Depth = 30 m",
       "markingPoints": [
         "Total distance = vt = 1500 × 0.040 = 60 m",
         "Depth = total distance ÷ 2",
@@ -396,7 +390,7 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6.1.5",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -407,16 +401,21 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe how to determine wave speed using a ripple tank.",
       "marks": 6,
       "modelAnswer": "Use a signal generator to produce steady waves. Measure frequency from the generator. Use a strobe if needed. Measure a long distance spanning several wavelengths and divide by number of wavelengths. Repeat and calculate mean wavelength. Calculate v = fλ. Keep water depth constant and view from directly above.",
       "markingPoints": [
-        "Use a signal generator to produce steady waves. Measure frequency from the generator. Use a strobe if needed. Measure a long distance spanning several wavelengths and divide by number of wavelengths. Repeat and calculate mean wavelength. Calculate v = fλ. Keep water depth constant and view from directly above."
+        "Use a signal generator to produce steady waves.",
+        "Measure frequency from the generator.",
+        "Use a strobe if needed.",
+        "Measure a long distance spanning several wavelengths and divide by number of wavelengths.",
+        "Repeat and calculate mean wavelength.",
+        "Calculate v = fλ.",
+        "Keep water depth constant and view from directly above."
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical and disciplinary knowledge"
@@ -427,17 +426,20 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "Describe how to investigate reflection and refraction of light using a ray box.",
       "marks": 6,
-      "modelAnswer": "Place a block on paper and trace its outline. Direct a narrow ray at a marked point, mark incident/emergent rays and draw the normal. Measure angles from the normal with a protractor. Repeat for several incidence angles. Keep the same medium and entry point; use thin precise lines.",
+      "modelAnswer": "Place a block on paper and trace its outline. Direct a narrow ray at a marked point, mark incident/emergent rays and draw the normal. Measure angles from the normal with a protractor. Repeat for several incidence angles. Keep the same medium and entry point. Use thin precise lines.",
       "markingPoints": [
-        "Place a block on paper and trace its outline. Direct a narrow ray at a marked point, mark incident/emergent rays and draw the normal. Measure angles from the normal with a protractor. Repeat for several incidence angles. Keep the same medium and entry point",
-        "use thin precise lines."
+        "Place a block on paper and trace its outline.",
+        "Direct a narrow ray at a marked point, mark incident/emergent rays and draw the normal.",
+        "Measure angles from the normal with a protractor.",
+        "Repeat for several incidence angles.",
+        "Keep the same medium and entry point.",
+        "Use thin precise lines."
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6.1.5",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical and disciplinary knowledge"
@@ -448,20 +450,19 @@
       "subtopic": "6.1 Waves in air, fluids and solids",
       "sourceSubtopic": "6.1 Waves in air, fluids and solids",
       "tier": "Both",
-      "contentEligibility": "Both",
       "question": "A radio wave travels at 3.0 × 10⁸ m/s and has frequency 100 MHz. Calculate its wavelength.",
       "marks": 4,
-      "modelAnswer": "v = fλ\nf = 100 MHz = 1.0 × 10⁸ Hz\nλ = v ÷ f\nλ = 3.0 × 10⁸ ÷ 1.0 × 10⁸\nλ = 3.0 m",
+      "modelAnswer": "V = fλ F = 100 MHz = 1.0 × 10⁸ Hz λ = v ÷ f λ = 3.0 × 10⁸ ÷ 1.0 × 10⁸ λ = 3.0 m",
       "markingPoints": [
-        "v = fλ",
-        "f = 100 MHz = 1.0 × 10⁸ Hz",
+        "V = fλ",
+        "F = 100 MHz = 1.0 × 10⁸ Hz",
         "λ = v ÷ f",
         "λ = 3.0 × 10⁸ ÷ 1.0 × 10⁸",
         "λ = 3.0 m"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 6 - Waves mastery workbook",
+      "evidenceSource": "Waves mastery workbook",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"

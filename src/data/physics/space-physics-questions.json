@@ -1,9 +1,5 @@
 {
   "metadata": {
-    "topicId": "space-physics",
-    "topic": "Space Physics",
-    "sourceWorkbook": "AQA_GCSE_Physics_Complete_Mastery_Workbook.xlsx",
-    "questionCount": 16,
     "subtopics": [
       {
         "title": "8.1 Solar system, stability and orbits",
@@ -22,21 +18,20 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "List the main components of the Solar System.",
       "marks": 5,
-      "modelAnswer": "The Sun; eight planets and their moons; dwarf planets; asteroids; comets; artificial satellites.",
+      "modelAnswer": "The Sun. Eight planets and their moons. Dwarf planets. Asteroids. Comets. Artificial satellites.",
       "markingPoints": [
-        "The Sun",
-        "eight planets and their moons",
-        "dwarf planets",
-        "asteroids",
-        "comets",
-        "artificial satellites."
+        "The Sun.",
+        "Eight planets and their moons.",
+        "Dwarf planets.",
+        "Asteroids.",
+        "Comets.",
+        "Artificial satellites."
       ],
       "commandWord": "List",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -47,19 +42,18 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Describe how a star forms from a nebula.",
       "marks": 4,
-      "modelAnswer": "Gravity pulls gas and dust together; the cloud collapses and forms a protostar; gravitational energy heats it; when temperature and pressure are high enough, hydrogen fusion begins and a stable main-sequence star forms.",
+      "modelAnswer": "Gravity pulls gas and dust together. The cloud collapses and forms a protostar. Gravitational energy heats it. When temperature and pressure are high enough, hydrogen fusion begins and a stable main-sequence star forms.",
       "markingPoints": [
-        "Gravity pulls gas and dust together",
-        "the cloud collapses and forms a protostar",
-        "gravitational energy heats it",
-        "when temperature and pressure are high enough, hydrogen fusion begins and a stable main-sequence star forms."
+        "Gravity pulls gas and dust together.",
+        "The cloud collapses and forms a protostar.",
+        "Gravitational energy heats it.",
+        "When temperature and pressure are high enough, hydrogen fusion begins and a stable main-sequence star forms."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -70,17 +64,16 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain why a main-sequence star is stable.",
       "marks": 3,
-      "modelAnswer": "Inward gravitational force is balanced by outward pressure/radiation produced by energy from nuclear fusion; the star is in equilibrium.",
+      "modelAnswer": "Inward gravitational force is balanced by outward pressure/radiation produced by energy from nuclear fusion. The star is in equilibrium.",
       "markingPoints": [
-        "Inward gravitational force is balanced by outward pressure/radiation produced by energy from nuclear fusion",
-        "the star is in equilibrium."
+        "Inward gravitational force is balanced by outward pressure/radiation produced by energy from nuclear fusion.",
+        "The star is in equilibrium."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -91,17 +84,16 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Describe the life cycle of a star with a mass similar to the Sun.",
       "marks": 5,
-      "modelAnswer": "Nebula → protostar → main sequence → red giant → planetary nebula → white dwarf; the white dwarf eventually cools.",
+      "modelAnswer": "Nebula → protostar → main sequence → red giant → planetary nebula → white dwarf The white dwarf eventually cools.",
       "markingPoints": [
         "Nebula → protostar → main sequence → red giant → planetary nebula → white dwarf",
-        "the white dwarf eventually cools."
+        "The white dwarf eventually cools."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -112,7 +104,6 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Describe the life cycle of a star much more massive than the Sun.",
       "marks": 6,
       "modelAnswer": "Nebula → protostar → main sequence → red supergiant → supernova → neutron star or, for the most massive cores, black hole.",
@@ -121,7 +112,7 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -132,19 +123,18 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain how stars produce and distribute elements.",
       "marks": 5,
-      "modelAnswer": "Fusion in stars makes elements up to iron; heavier elements are produced in supernova explosions; the explosion distributes elements into space; later stars and planets form from enriched material.",
+      "modelAnswer": "Fusion in stars makes elements up to iron. Heavier elements are produced in supernova explosions. The explosion distributes elements into space. Later stars and planets form from enriched material.",
       "markingPoints": [
-        "Fusion in stars makes elements up to iron",
-        "heavier elements are produced in supernova explosions",
-        "the explosion distributes elements into space",
-        "later stars and planets form from enriched material."
+        "Fusion in stars makes elements up to iron.",
+        "Heavier elements are produced in supernova explosions.",
+        "The explosion distributes elements into space.",
+        "Later stars and planets form from enriched material."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -155,18 +145,17 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain why a planet remains in a near-circular orbit around the Sun.",
       "marks": 4,
-      "modelAnswer": "Gravity provides a force towards the Sun; this centripetal force changes the direction of velocity; the planet continually falls towards the Sun but moves sideways fast enough to miss it.",
+      "modelAnswer": "Gravity provides a force towards the Sun. This centripetal force changes the direction of velocity. The planet continually falls towards the Sun but moves sideways fast enough to miss it.",
       "markingPoints": [
-        "Gravity provides a force towards the Sun",
-        "this centripetal force changes the direction of velocity",
-        "the planet continually falls towards the Sun but moves sideways fast enough to miss it."
+        "Gravity provides a force towards the Sun.",
+        "This centripetal force changes the direction of velocity.",
+        "The planet continually falls towards the Sun but moves sideways fast enough to miss it."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -177,7 +166,6 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "State the qualitative relationship between orbital radius and orbital speed for planets around the same star.",
       "marks": 2,
       "modelAnswer": "As orbital radius increases, orbital speed decreases.",
@@ -186,7 +174,7 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -197,17 +185,17 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Distinguish natural and artificial satellites and give one use of an artificial satellite.",
       "marks": 3,
-      "modelAnswer": "Natural satellites orbit naturally, e.g. the Moon. Artificial satellites are human-made; uses include communication, weather monitoring, navigation or Earth observation.",
+      "modelAnswer": "Natural satellites orbit naturally, e.g. the Moon. Artificial satellites are human-made. Uses include communication, weather monitoring, navigation or Earth observation.",
       "markingPoints": [
-        "Natural satellites orbit naturally, e.g. the Moon. Artificial satellites are human-made",
-        "uses include communication, weather monitoring, navigation or Earth observation."
+        "Natural satellites orbit naturally, e.g. the Moon.",
+        "Artificial satellites are human-made.",
+        "Uses include communication, weather monitoring, navigation or Earth observation."
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -218,18 +206,17 @@
       "subtopic": "8.2 Red-shift and expanding universe",
       "sourceSubtopic": "8.2 Red-shift and expanding universe",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain red-shift in light from distant galaxies.",
       "marks": 4,
-      "modelAnswer": "Spectral lines are shifted to longer wavelengths/lower frequencies; this occurs because galaxies are moving away; greater red-shift indicates greater recession speed.",
+      "modelAnswer": "Spectral lines are shifted to longer wavelengths/lower frequencies. This occurs because galaxies are moving away. Greater red-shift indicates greater recession speed.",
       "markingPoints": [
-        "Spectral lines are shifted to longer wavelengths/lower frequencies",
-        "this occurs because galaxies are moving away",
-        "greater red-shift indicates greater recession speed."
+        "Spectral lines are shifted to longer wavelengths/lower frequencies.",
+        "This occurs because galaxies are moving away.",
+        "Greater red-shift indicates greater recession speed."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -240,18 +227,17 @@
       "subtopic": "8.2 Red-shift and expanding universe",
       "sourceSubtopic": "8.2 Red-shift and expanding universe",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain how red-shift provides evidence that the Universe is expanding.",
       "marks": 4,
-      "modelAnswer": "Most galaxies show red-shift, so they are receding; more distant galaxies generally recede faster; this pattern is consistent with space expanding.",
+      "modelAnswer": "Most galaxies show red-shift, so they are receding. More distant galaxies generally recede faster. This pattern is consistent with space expanding.",
       "markingPoints": [
-        "Most galaxies show red-shift, so they are receding",
-        "more distant galaxies generally recede faster",
-        "this pattern is consistent with space expanding."
+        "Most galaxies show red-shift, so they are receding.",
+        "More distant galaxies generally recede faster.",
+        "This pattern is consistent with space expanding."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -262,17 +248,16 @@
       "subtopic": "8.2 Red-shift and expanding universe",
       "sourceSubtopic": "8.2 Red-shift and expanding universe",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "State two key observations supporting the Big Bang model.",
       "marks": 4,
-      "modelAnswer": "Red-shift/recession of galaxies supports expansion; cosmic microwave background radiation is remnant radiation from a hot early Universe.",
+      "modelAnswer": "Red-shift/recession of galaxies supports expansion. Cosmic microwave background radiation is remnant radiation from a hot early Universe.",
       "markingPoints": [
-        "Red-shift/recession of galaxies supports expansion",
-        "cosmic microwave background radiation is remnant radiation from a hot early Universe."
+        "Red-shift/recession of galaxies supports expansion.",
+        "Cosmic microwave background radiation is remnant radiation from a hot early Universe."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -283,18 +268,17 @@
       "subtopic": "8.2 Red-shift and expanding universe",
       "sourceSubtopic": "8.2 Red-shift and expanding universe",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain why cosmic microwave background radiation supports the Big Bang model.",
       "marks": 3,
-      "modelAnswer": "A hot early Universe should leave background radiation; expansion stretches and cools it into the microwave region; it is detected uniformly across space.",
+      "modelAnswer": "A hot early Universe should leave background radiation. Expansion stretches and cools it into the microwave region. It is detected uniformly across space.",
       "markingPoints": [
-        "A hot early Universe should leave background radiation",
-        "expansion stretches and cools it into the microwave region",
-        "it is detected uniformly across space."
+        "A hot early Universe should leave background radiation.",
+        "Expansion stretches and cools it into the microwave region.",
+        "It is detected uniformly across space."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -305,18 +289,17 @@
       "subtopic": "8.2 Red-shift and expanding universe",
       "sourceSubtopic": "8.2 Red-shift and expanding universe",
       "tier": "Physics only",
-      "contentEligibility": "Physics only",
       "question": "Explain why scientific models of the Universe may change.",
       "marks": 4,
-      "modelAnswer": "New observations or improved measurements may conflict with predictions; evidence is evaluated and replicated; models are modified or replaced to explain the full evidence base.",
+      "modelAnswer": "New observations or improved measurements may conflict with predictions. Evidence is evaluated and replicated. Models are modified or replaced to explain the full evidence base.",
       "markingPoints": [
-        "New observations or improved measurements may conflict with predictions",
-        "evidence is evaluated and replicated",
-        "models are modified or replaced to explain the full evidence base."
+        "New observations or improved measurements may conflict with predictions.",
+        "Evidence is evaluated and replicated.",
+        "Models are modified or replaced to explain the full evidence base."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -327,20 +310,19 @@
       "subtopic": "8.1 Solar system, stability and orbits",
       "sourceSubtopic": "8.1 Solar system, stability and orbits",
       "tier": "Physics only / Higher",
-      "contentEligibility": "Physics only / Higher",
       "question": "A satellite moves in a circular orbit of radius 7.0 × 10⁶ m with period 5.8 × 10³ s. Calculate its orbital speed.",
       "marks": 5,
-      "modelAnswer": "Circumference = 2πr\ndistance = 2π × 7.0 × 10⁶ = 4.40 × 10⁷ m\nv = distance ÷ time\nv = 4.40 × 10⁷ ÷ 5.8 × 10³\nv = 7.6 × 10³ m/s",
+      "modelAnswer": "Circumference = 2πr Distance = 2π × 7.0 × 10⁶ = 4.40 × 10⁷ m V = distance ÷ time V = 4.40 × 10⁷ ÷ 5.8 × 10³ V = 7.6 × 10³ m/s",
       "markingPoints": [
         "Circumference = 2πr",
-        "distance = 2π × 7.0 × 10⁶ = 4.40 × 10⁷ m",
-        "v = distance ÷ time",
-        "v = 4.40 × 10⁷ ÷ 5.8 × 10³",
-        "v = 7.6 × 10³ m/s"
+        "Distance = 2π × 7.0 × 10⁶ = 4.40 × 10⁷ m",
+        "V = distance ÷ time",
+        "V = 4.40 × 10⁷ ÷ 5.8 × 10³",
+        "V = 7.6 × 10³ m/s"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -351,19 +333,18 @@
       "subtopic": "8.2 Red-shift and expanding universe",
       "sourceSubtopic": "8.2 Red-shift and expanding universe",
       "tier": "Physics only / Higher",
-      "contentEligibility": "Physics only / Higher",
       "question": "Light travels at 3.0 × 10⁸ m/s. Calculate the distance travelled in one year of 365 days.",
       "marks": 5,
-      "modelAnswer": "t = 365 × 24 × 60 × 60 = 3.1536 × 10⁷ s\nd = vt\nd = 3.0 × 10⁸ × 3.1536 × 10⁷\nd = 9.46 × 10¹⁵ m",
+      "modelAnswer": "T = 365 × 24 × 60 × 60 = 3.1536 × 10⁷ s D = vt D = 3.0 × 10⁸ × 3.1536 × 10⁷ D = 9.46 × 10¹⁵ m",
       "markingPoints": [
-        "t = 365 × 24 × 60 × 60 = 3.1536 × 10⁷ s",
-        "d = vt",
-        "d = 3.0 × 10⁸ × 3.1536 × 10⁷",
-        "d = 9.46 × 10¹⁵ m"
+        "T = 365 × 24 × 60 × 60 = 3.1536 × 10⁷ s",
+        "D = vt",
+        "D = 3.0 × 10⁸ × 3.1536 × 10⁷",
+        "D = 9.46 × 10¹⁵ m"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Topic 8 - Space Physics mastery workbook",
+      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"

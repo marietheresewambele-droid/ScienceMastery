@@ -1,38 +1,14 @@
 {
-  "metadata": {
-    "topicId": "inheritance-variation-and-evolution",
-    "topic": "Inheritance, Variation and Evolution",
-    "sourceWorkbook": "AQA_GCSE_Biology_Mastery_Workbook_Topics_6_7_Self_Contained_Clean_Answers.xlsx",
-    "questionCount": 78,
-    "subtopics": [
-      {
-        "title": "Genetics and Evolution",
-        "questionCount": 14
-      },
-      {
-        "title": "Reproduction",
-        "questionCount": 37
-      },
-      {
-        "title": "Classification",
-        "questionCount": 6
-      },
-      {
-        "title": "Variation and Evolution",
-        "questionCount": 21
-      }
-    ]
-  },
   "questions": [
     {
       "id": "IV005",
       "questionFamily": "Fossils, extinction and resistant bacteria",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Higher",
       "question": "A wide variety of species exists on Earth. Most scientists accept Darwin’s theory of evolution by natural selection as the explanation for this variety of species. Explain how our understanding of evolution has developed due to: • fossil evidence • increased understanding of the mechanisms of genetics. (biology only) (Total 6 marks)",
       "marks": 4,
-      "modelAnswer": "Fossil evidence:; fossils show evidence of life in the past; fossils show change over time; fossil record shows development of species over time; fossils show evidence of extinction; fossil record shows how organisms from the past are related to species alive today; gaps in fossil record; gaps in fossil record are being filled in with new evidence; ref to evolutionary trees; description of how fossils are formed Genetics:; ref to Mendel’s breeding experiments with plants; Mendel’s description / idea of units / factors of inheritance; dominant and recessive units / alleles / genes; observation of chromosome behaviour during cell division; chromosome behaviour and Mendel’s units work in similar ways; structure of DNA worked out; gene mechanism in determining protein synthesis worked out; (genetic) variation in a species; (variation) due to mutation or change in gene (structure); individuals with advantageous characteristics more likely to survive; individuals with advantageous characteristics more likely to reproduce; (survivors) pass on (advantageous) alleles / genes; eg of evolution (such as antibiotic resistance in bacteria); new species arise when sufficient changes occur to prevent (successful) reproduction For",
+      "modelAnswer": "Fossil evidence: fossils show evidence of life in the past fossils show change over time fossil record shows development of species over time fossils show evidence of extinction fossil record shows how organisms from the past are related to species alive today gaps in fossil record gaps in fossil record are being filled in with new evidence ref to evolutionary trees description of how fossils are formed Genetics: ref to Mendel’s breeding experiments with plants Mendel’s description / idea of units / factors of inheritance dominant and recessive units / alleles / genes observation of chromosome behaviour during cell division chromosome behaviour and Mendel’s units work in similar ways structure of DNA worked out gene mechanism in determining protein synthesis worked out (genetic) variation in a species (variation) due to mutation or change in gene (structure) individuals with advantageous characteristics more likely to survive individuals with advantageous characteristics more likely to reproduce (survivors) pass on (advantageous) alleles / genes eg of evolution (such as antibiotic resistance in bacteria) new species arise when sufficient changes occur to prevent (successful) reproduction For",
       "markingPoints": [
         "Fossil evidence:",
         "fossils show evidence of life in the past",
@@ -61,7 +37,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "183",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -69,7 +44,7 @@
     {
       "id": "IV010",
       "questionFamily": "DNA, genome, genes and chromosomes",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "(separate only) DNA is a polymer of nucleotides. Describe the structure of a nucleotide. (separate only)",
@@ -80,7 +55,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "200",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -88,7 +62,7 @@
     {
       "id": "IV012",
       "questionFamily": "Fossils, extinction and resistant bacteria",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "Fossils provide evidence about organisms from the past. Describe two ways a fossil can form, then explain why the fossil record is incomplete.",
@@ -99,7 +73,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "183",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -107,12 +80,12 @@
     {
       "id": "IV013",
       "questionFamily": "Fossils, extinction and resistant bacteria",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "Fossils provide evidence about organisms that lived a long time ago. Ammonites are now extinct. Suggest three possible causes of extinction. 1. 2. 3.",
       "marks": 3,
-      "modelAnswer": "flooding; drought; ice age 1 mark; volcanic activity; asteroid collision 1 mark; (new) predators (; (new) disease / named pathogen; competition for food; competition for mates; isolation lack of habitat or habitat change 3",
+      "modelAnswer": "flooding drought ice age 1 mark volcanic activity asteroid collision 1 mark (new) predators ( (new) disease / named pathogen competition for food competition for mates isolation lack of habitat or habitat change 3",
       "markingPoints": [
         "flooding",
         "drought",
@@ -127,7 +100,6 @@
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
-      "evidenceSource": "183",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -135,7 +107,7 @@
     {
       "id": "IV015",
       "questionFamily": "Variation and mutation",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Higher",
       "question": "Some human disorders are inherited. Polydactyly is an inherited disorder. • A person with polydactyly has extra fingers or toes. • Polydactyly is caused by a dominant allele. Cystic fibrosis (CF) is another inherited disorder caused by a mutation. The mutation occurs in a gene called CFTR. For the CFTR gene, one allele in every 50 in the UK population is the cystic fibrosis allele. Explain why only one person in 2500 in the UK population has cystic fibrosis.",
@@ -146,7 +118,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "116",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -154,12 +125,12 @@
     {
       "id": "IV017",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Classification",
+      "subtopic": "6.4 Classification",
       "sourceSubtopic": "6.4 Classification",
       "tier": "Both / not separated",
       "question": "Match each stone-plant adaptation to its survival advantage in a desert.\n\nAdaptations:\n1. Thick, fleshy leaves\n2. Waxy leaf surface\n3. Most of the plant grows level with the soil\n4. A long root system\n\nAdvantages:\nA. Reaches scarce water deep in the soil\nB. Stores water\nC. Reduces water loss by evaporation\nD. Reduces exposure to hot, dry air and makes the plant less visible to herbivores",
       "marks": 4,
-      "modelAnswer": "1–B; 2–C; 3–D; 4–A.",
+      "modelAnswer": "1–B 2–C 3–D 4–A.",
       "markingPoints": [
         "1–B",
         "2–C",
@@ -168,7 +139,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "139",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -176,7 +146,7 @@
     {
       "id": "IV018",
       "questionFamily": "Fossils, extinction and resistant bacteria",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Fossils provide evidence for what early life forms were like. From the evidence, scientists think that life began on Earth more than 3 billion years ago. Many early life forms were soft-bodied. Explain why this makes it difficult for scientists to be certain about what these early life forms were like.",
@@ -187,7 +157,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "183",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -195,12 +164,12 @@
     {
       "id": "IV019",
       "questionFamily": "Natural selection and evolution",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "Darwin’s theory of evolution states that all species of living things have evolved from simple life forms. Darwin’s theory was published in 1859. Darwin observed birds called finches on the Galapagos Islands, 1000 km from the coast of South America. He saw that the birds were similar to, but not the same as, birds he had seen on the mainland of South America. Recent evidence suggests that 13 different species of finch on the islands evolved from 1 species of finch that arrived from the mainland about 1 million years ago. Describe how a new finch species may have evolved from the original species of finch that arrived from the mainland.",
       "marks": 4,
-      "modelAnswer": "finches separated / isolated; genetic variation / mutation (in finch population(s)); finches with alleles / genes best suited to their environment survive Do not; advantageous alleles / genes passed on (to offspring); after many generations / a long time, the populations can no longer successfully interbreed",
+      "modelAnswer": "finches separated / isolated genetic variation / mutation (in finch population(s)) finches with alleles / genes best suited to their environment survive Do not advantageous alleles / genes passed on (to offspring) after many generations / a long time, the populations can no longer successfully interbreed",
       "markingPoints": [
         "finches separated / isolated",
         "genetic variation / mutation (in finch population(s))",
@@ -210,7 +179,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "131",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -218,7 +186,7 @@
     {
       "id": "IV021",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Classification",
+      "subtopic": "6.4 Classification",
       "sourceSubtopic": "6.4 Classification",
       "tier": "Both / not separated",
       "question": "The scientific name of a stone plant is Lithops aucampiae. Give the genus to which this plant belongs.",
@@ -229,7 +197,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "139",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -237,7 +204,7 @@
     {
       "id": "IV024",
       "questionFamily": "Fossils, extinction and resistant bacteria",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "Fossils give evidence about organisms that lived a long time ago. Describe the process of natural selection.",
@@ -248,7 +215,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "183",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -256,7 +222,7 @@
     {
       "id": "IV026",
       "questionFamily": "Genetic crosses and probability",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Dupuytren’s disease is caused by a dominant allele D. Person 1 has the disease. Person 1 and an unaffected partner (dd) have an unaffected child (dd). Give person 1’s genotype and explain your answer.",
@@ -267,7 +233,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "160",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -275,7 +240,7 @@
     {
       "id": "IV027",
       "questionFamily": "Genetic engineering and GM",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Glyphosate is a herbicide. Crop plants have been genetically modified to make them resistant to glyphosate. Why is it an advantage to make crop plants resistant to glyphosate?",
@@ -286,7 +251,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "116",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -294,12 +258,12 @@
     {
       "id": "IV029",
       "questionFamily": "Inherited disorders and screening",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Sperm cells and egg cells are formed by meiosis. People with a family history of some genetic disorders are offered embryo screening. Suggest one way embryo screening can help people with a family history of a genetic disorder.",
       "marks": 1,
-      "modelAnswer": "to help them prepare; to inform whether to consider having an abortion; to find out if they have passed on the disorder 1",
+      "modelAnswer": "to help them prepare to inform whether to consider having an abortion to find out if they have passed on the disorder 1",
       "markingPoints": [
         "to help them prepare",
         "to inform whether to consider having an abortion",
@@ -307,7 +271,6 @@
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
-      "evidenceSource": "121",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -315,7 +278,7 @@
     {
       "id": "IV030",
       "questionFamily": "Meiosis and genetic variation",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Sperm cells and egg cells are formed by meiosis. During meiosis a cell divides twice. How many sperm cells are formed when a cell divides by meiosis?",
@@ -326,7 +289,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "102",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -334,7 +296,7 @@
     {
       "id": "IV032",
       "questionFamily": "Natural selection and evolution",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Panama is a narrow strip of land which today joins North America and South America. It was formed by land moving up from beneath the sea. Panama has separated the Pacific Ocean and the Caribbean Sea for the past 3 million years. Explain how two different species of pistol shrimp could have developed from an ancestral species of shrimp.",
@@ -345,7 +307,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "131",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -353,7 +314,7 @@
     {
       "id": "IV033",
       "questionFamily": "Selective breeding",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Foundation",
       "question": "Reproduction can produce offspring which are: • genetically different or • genetically identical. Farmers grow tomato plants in greenhouses. The tomatoes are sold in supermarkets. The farmer wants to produce a new variety of chicken that is good for both meat production and egg production. Describe how selective breeding of chicken varieties A and B can produce the new variety of chicken.",
@@ -364,7 +325,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "99",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -372,12 +332,12 @@
     {
       "id": "IV034",
       "questionFamily": "Selective breeding",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Many different types of animals are produced using selective breeding. Some cats are selectively bred so that they do not cause allergies in people. Many people have breathing problems because they are allergic to cats. The allergy is caused by a chemical called Fel D1. Different cats produce different amounts of Fel D1. A cat has been bred so that it does not produce Fel D1. The cat does not cause an allergic reaction. Explain how the cat has been produced using selective breeding.",
       "marks": 4,
-      "modelAnswer": "process:; parents with the desired characteristic are selected; the parents are bred together to produce offspring; offspring with the desired characteristics are selected and bred; this is repeated over many generations. explanations:; parents who produce the least Fel D1 are initially selected; in their offspring there will be individuals with differing amounts of Fel D1 produced; care is taken to ensure cats are healthy and avoid possible problems associated with selective breeding; over time the population of (selectively bred) cats will produce less Fel D1 4",
+      "modelAnswer": "process: parents with the desired characteristic are selected the parents are bred together to produce offspring offspring with the desired characteristics are selected and bred this is repeated over many generations. explanations: parents who produce the least Fel D1 are initially selected in their offspring there will be individuals with differing amounts of Fel D1 produced care is taken to ensure cats are healthy and avoid possible problems associated with selective breeding over time the population of (selectively bred) cats will produce less Fel D1 4",
       "markingPoints": [
         "process:",
         "parents with the desired characteristic are selected",
@@ -391,7 +351,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "99",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -399,7 +358,7 @@
     {
       "id": "IV038",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Type A and Type B pistol shrimps live on opposite sides of Panama. When one of each type was placed together once, they behaved aggressively and did not mate. Evaluate whether this is sufficient evidence that they are different species.",
@@ -410,7 +369,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "139",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -418,7 +376,7 @@
     {
       "id": "IV040",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Foundation",
       "question": "Carl Linnaeus invented a classification system that places organisms into groups. Some wolves are more aggressive than other wolves. Describe how selective breeding of wolves could produce a domestic animal that is less aggressive than the wolf.",
@@ -429,7 +387,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "139",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -437,12 +394,12 @@
     {
       "id": "IV041",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Foundation",
       "question": "Carl Linnaeus invented a classification system that places organisms into groups. 32 thousand years ago, humans hunted other animals for food. Wolves also hunted other animals for food. Suggest one reason why wolves began to follow groups of humans.",
       "marks": 1,
-      "modelAnswer": "wolves ate humans; wolves get left-over food from humans; humans gave food to wolves 1",
+      "modelAnswer": "wolves ate humans wolves get left-over food from humans humans gave food to wolves 1",
       "markingPoints": [
         "wolves ate humans",
         "wolves get left-over food from humans",
@@ -450,7 +407,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "139",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -458,12 +414,12 @@
     {
       "id": "IV042",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Foundation",
       "question": "Carl Linnaeus invented a classification system that places organisms into groups. Give two possible causes of extinction. 1 2",
       "marks": 2,
-      "modelAnswer": "drought; ice age; global warming if none of these awarded, 1 mark for climate change; volcanic activity; asteroid collision if neither of these, 1 mark; (new) predators; (new) disease / pathogen; competition for food; competition for mates; lack of habitat or habitat change",
+      "modelAnswer": "drought ice age global warming if none of these awarded, 1 mark for climate change volcanic activity asteroid collision if neither of these, 1 mark (new) predators (new) disease / pathogen competition for food competition for mates lack of habitat or habitat change",
       "markingPoints": [
         "drought",
         "ice age",
@@ -478,7 +434,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "139",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -486,7 +441,7 @@
     {
       "id": "IV043",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Classification",
+      "subtopic": "6.4 Classification",
       "sourceSubtopic": "6.4 Classification",
       "tier": "Both / not separated",
       "question": "Jerboas remain in cool underground burrows during the day, emerge mainly at night and produce very concentrated urine. Explain two ways these adaptations help a jerboa survive in a desert.",
@@ -497,7 +452,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "139",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -505,7 +459,7 @@
     {
       "id": "IV045",
       "questionFamily": "Cloning and tissue culture",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Potato blight is a disease of potato plants. Potato blight is caused by the fungus Phytophthora infestans. Potatoes can also reproduce asexually. Potatoes from one plant can be planted in the ground to produce new potato plants. All the new plants from a parent plant that is resistant to blight will also be resistant to blight. Explain why.",
@@ -516,7 +470,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "111",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -524,12 +477,12 @@
     {
       "id": "IV046",
       "questionFamily": "Cloning and tissue culture",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Cell division is needed for growth and for reproduction. One advantage of asexual reproduction for bluebells is that only one parent is needed. Suggest two other advantages of asexual reproduction for bluebells. (separate only) 1. 2.",
       "marks": 2,
-      "modelAnswer": "many offspring produced; takes less time; (more) energy efficient; genetically identical offspring; successful traits propagated / maintained / passed on (due to offspring being genetically identical); no transfer of gametes or seed dispersal; not wasteful of flowers / pollen / seeds; colonisation of local area must imply local area 2",
+      "modelAnswer": "many offspring produced takes less time (more) energy efficient genetically identical offspring successful traits propagated / maintained / passed on (due to offspring being genetically identical) no transfer of gametes or seed dispersal not wasteful of flowers / pollen / seeds colonisation of local area must imply local area 2",
       "markingPoints": [
         "many offspring produced",
         "takes less time",
@@ -542,7 +495,6 @@
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
-      "evidenceSource": "111",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -550,12 +502,12 @@
     {
       "id": "IV047",
       "questionFamily": "Cloning and tissue culture",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "As embryos develop, some genes in cells are turned off and some genes are turned on.This allows cells to become specialised for particular functions. Usually, after cells have become specialised, they cannot change again into different types of cells. Scientists have developed a way to change specialised cells back into embryo-like cells by a method called iPS. Read the information in the box. Cells made using iPS can be changed into different types of cells. Scientists plan to take skin cells from an endangered species of monkey called a drill and change these cells into iPS cells. These iPS cells can then be changed into egg cells or sperm cells. After fertilisation, the embryo can be inserted into the womb of a female of a non-endangered species called a mandrill. The mandrill is closely related to the drill. Describe similarities and differences between the iPS method and adult cell cloning.",
       "marks": 4,
-      "modelAnswer": "(iPS method) similarities or differences; (both) use of skin / body cell; (both) ref to (formation of) embryo; (both) transfer (embryo) into womb / uterus; (both) use surrogate mothers differences; (iPS) uses sexual reproduction; (iPS) surrogate mother is different species; (iPS) no nucleus transfer / removal; (iPS) offspring genetically different from parent; (iPS) no electric shock 4",
+      "modelAnswer": "(iPS method) similarities or differences (both) use of skin / body cell (both) ref to (formation of) embryo (both) transfer (embryo) into womb / uterus (both) use surrogate mothers differences (iPS) uses sexual reproduction (iPS) surrogate mother is different species (iPS) no nucleus transfer / removal (iPS) offspring genetically different from parent (iPS) no electric shock 4",
       "markingPoints": [
         "(iPS method) similarities or differences",
         "(both) use of skin / body cell",
@@ -570,7 +522,6 @@
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO3",
-      "evidenceSource": "111",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -578,12 +529,12 @@
     {
       "id": "IV048",
       "questionFamily": "DNA, genome, genes and chromosomes",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "(separate only) This question is about DNA. The DNA in one human body cell is the length of 6 000 million repeating units (part A). Each repeating unit is 0.34 nanometres (nm) long. Calculate the length of the DNA in the cell in millions of nanometres. (separate only) Length =",
       "marks": 2,
-      "modelAnswer": "use the relevant relationship from the question.\n0.34 × 6 000 1 2040 (million nm) 1\nAnswer: 0.34 × 6 000 1 2040 (million nm) 1",
+      "modelAnswer": "use the relevant relationship from the question. 0.34 × 6 000 1 2040 (million nm) 1 Answer: 0.34 × 6 000 1 2040 (million nm) 1",
       "markingPoints": [
         "use the relevant relationship from the question.",
         "0.34 × 6 000 1 2040 (million nm) 1",
@@ -591,7 +542,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "200",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -599,12 +549,12 @@
     {
       "id": "IV049",
       "questionFamily": "DNA, genome, genes and chromosomes",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "There are two types of cell division: mitosis and meiosis. Describe three differences between the processes of mitosis and meiosis. 1 2 3",
       "marks": 3,
-      "modelAnswer": "mitosis produces two (daughter) cells but meiosis produces four (daughter) cells answers must be comparative; one cell division in mitosis but two cell divisions in meiosis; mitosis produces cells with two of each chromosome, but meiosis produces cells with one of each chromosome 23 pairs or 46 chromosomes but meiosis produces cells with 23 chromosomes; mitosis produces genetically identical cells, but meiosis produced genetically different cells",
+      "modelAnswer": "mitosis produces two (daughter) cells but meiosis produces four (daughter) cells answers must be comparative one cell division in mitosis but two cell divisions in meiosis mitosis produces cells with two of each chromosome, but meiosis produces cells with one of each chromosome 23 pairs or 46 chromosomes but meiosis produces cells with 23 chromosomes mitosis produces genetically identical cells, but meiosis produced genetically different cells",
       "markingPoints": [
         "mitosis produces two (daughter) cells but meiosis produces four (daughter) cells answers must be comparative",
         "one cell division in mitosis but two cell divisions in meiosis",
@@ -613,7 +563,6 @@
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO2",
-      "evidenceSource": "200",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -621,7 +570,7 @@
     {
       "id": "IV052",
       "questionFamily": "DNA, genome, genes and chromosomes",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "(separate only) DNA is a polymer of nucleotides. Why is DNA described as a polymer? (separate only)",
@@ -632,7 +581,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "200",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -640,7 +588,7 @@
     {
       "id": "IV053",
       "questionFamily": "DNA, genome, genes and chromosomes",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "A DNA molecule is 2,040 million nanometres long. Convert this length into metres. Use 1 metre = 1 × 10⁹ nanometres.",
@@ -651,7 +599,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "200",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -659,12 +606,12 @@
     {
       "id": "IV056",
       "questionFamily": "Genetic crosses and probability",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Phenylketonuria (PKU) is an inherited condition. PKU makes people ill. What is an allele? (1) What is meant by recessive?",
       "marks": 1,
-      "modelAnswer": "(a) (i) one form of a / one gene do not 1 (ii) not expressed if dominant / other allele is present / if heterozygous or only expressed if dominant allele not present / or no other allele present 1 (b) (i) two parents without PKU produce a child with PKU / 6 and 7 → 10 1 (ii) genetic diagram including: 1 derivation of offspring genotypes: NN Nn Nn nn 1 identification: NN and Nn as non-PKU OR nn as PKU 1 correct probability only: 0.25 / ¼ / 1 in 4 / 25% / 1: 3 do not 1 / 1: 4 do not 1 (c) (i) mitosis correct spelling only 1 (ii) 8 1 (iii) DNA 1 (d) (i) may lead to damage to embryo / may destroy embryos / embryo cannot give consent 1 (ii); prevent having child with the disorder / prevent future suffering / reduce incidence of the disease; embryo cells could be used in stem cell treatment 1",
+      "modelAnswer": "(a) (i) one form of a / one gene do not 1 (ii) not expressed if dominant / other allele is present / if heterozygous or only expressed if dominant allele not present / or no other allele present 1 (b) (i) two parents without PKU produce a child with PKU / 6 and 7 → 10 1 (ii) genetic diagram including: 1 derivation of offspring genotypes: NN Nn Nn nn 1 identification: NN and Nn as non-PKU OR nn as PKU 1 correct probability only: 0.25 / ¼ / 1 in 4 / 25% / 1: 3 do not 1 / 1: 4 do not 1 (c) (i) mitosis correct spelling only 1 (ii) 8 1 (iii) DNA 1 (d) (i) may lead to damage to embryo / may destroy embryos / embryo cannot give consent 1 (ii) prevent having child with the disorder / prevent future suffering / reduce incidence of the disease embryo cells could be used in stem cell treatment 1",
       "markingPoints": [
         "(a) (i) one form of a / one gene do not 1 (ii) not expressed if dominant / other allele is present / if heterozygous or only expressed if dominant allele not present / or no other allele present 1 (b) (i) two parents without PKU produce a child with PKU / 6 and 7 → 10 1 (ii) genetic diagram including: 1 derivation of offspring genotypes: NN Nn Nn nn 1 identification: NN and Nn as non-PKU OR nn as PKU 1 correct probability only: 0.25 / ¼ / 1 in 4 / 25% / 1: 3 do not 1 / 1: 4 do not 1 (c) (i) mitosis correct spelling only 1 (ii) 8 1 (iii) DNA 1 (d) (i) may lead to damage to embryo / may destroy embryos / embryo cannot give consent 1 (ii)",
         "prevent having child with the disorder / prevent future suffering / reduce incidence of the disease",
@@ -672,7 +619,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO3",
-      "evidenceSource": "160",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -680,7 +626,7 @@
     {
       "id": "IV058",
       "questionFamily": "Genetic crosses and probability",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Foundation",
       "question": "A mother has sex chromosomes XX and a father has sex chromosomes XY. Explain why, over many births, approximately half of their offspring are expected to be male and half female.",
@@ -691,7 +637,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "160",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -699,12 +644,12 @@
     {
       "id": "IV059",
       "questionFamily": "Genetic engineering and GM",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Read the information. Insects can be both useful and harmful to crop plants. Insects such as bees pollinate the flowers of some crop plants. Pollination is needed for successful sexual reproduction of crop plants. Some insects eat crops and other insects eat the insects that eat crops. Corn borers are insects that eat maize plants. A toxin produced by the bacterium Bacillus thuringiensis kills insects. Scientists grow Bacillus thuringiensis in large containers. The toxin is collected from the containers and is sprayed over maize crops to kill corn borers. A company has developed genetically modified (GM) maize plants. GM maize plants contain a gene from Bacillus thuringiensis. This gene changes the GM maize plants so that they produce the toxin. Describe how scientists can transfer the gene from Bacillus thuringiensis to maize plants.",
       "marks": 3,
-      "modelAnswer": "(gene) cut out; (gene / cut out) from (bacterial) chromosome / DNA; ref to enzymes (at any point); (gene spliced) into maize chromosome / DNA; (gene added) at an early stage of development 3",
+      "modelAnswer": "(gene) cut out (gene / cut out) from (bacterial) chromosome / DNA ref to enzymes (at any point) (gene spliced) into maize chromosome / DNA (gene added) at an early stage of development 3",
       "markingPoints": [
         "(gene) cut out",
         "(gene / cut out) from (bacterial) chromosome / DNA",
@@ -714,7 +659,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "116",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -722,12 +666,12 @@
     {
       "id": "IV060",
       "questionFamily": "Genetic engineering and GM",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Read the information. Insects can be both useful and harmful to crop plants. Insects such as bees pollinate the flowers of some crop plants. Pollination is needed for successful sexual reproduction of crop plants. Some insects eat crops and other insects eat the insects that eat crops. Corn borers are insects that eat maize plants. A toxin produced by the bacterium Bacillus thuringiensis kills insects. Scientists grow Bacillus thuringiensis in large containers. The toxin is collected from the containers and is sprayed over maize crops to kill corn borers. A company has developed genetically modified (GM) maize plants. GM maize plants contain a gene from Bacillus thuringiensis. This gene changes the GM maize plants so that they produce the toxin. Would you advise farmers to grow GM maize plants? Justify your answer by giving advantages and disadvantages of growing GM maize plants. Use the information from the box and your own knowledge to help you.",
       "marks": 4,
-      "modelAnswer": "justification based on comparison of the relative merits of at least one advantage and one disadvantage marks if only advantages or disadvantages given Advantages:; less effort for farmer or less likely to harm farmer; (pesticide) always there or doesn’t wash away; less insects to eat crop / maize or carry disease; so greater crop production / yield Disadvantages:; (toxin) kills other insects; so (some) crops don’t get pollinated / (sexually) reproduce; possible harm when eaten by humans / animals; damage to food chains; gene may spread to other species 4",
+      "modelAnswer": "justification based on comparison of the relative merits of at least one advantage and one disadvantage marks if only advantages or disadvantages given Advantages: less effort for farmer or less likely to harm farmer (pesticide) always there or doesn’t wash away less insects to eat crop / maize or carry disease so greater crop production / yield Disadvantages: (toxin) kills other insects so (some) crops don’t get pollinated / (sexually) reproduce possible harm when eaten by humans / animals damage to food chains gene may spread to other species 4",
       "markingPoints": [
         "justification based on comparison of the relative merits of at least one advantage and one disadvantage marks if only advantages or disadvantages given Advantages:",
         "less effort for farmer or less likely to harm farmer",
@@ -742,7 +686,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "116",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -750,7 +693,7 @@
     {
       "id": "IV063",
       "questionFamily": "Inherited disorders and screening",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Some genetic disorders are caused by alleles inherited from the parents. Describe how embryos can be screened for the alleles that cause genetic disorders.",
@@ -761,7 +704,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "121",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -769,22 +711,19 @@
     {
       "id": "IV065",
       "questionFamily": "Inherited disorders and screening",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Polydactyly is caused by a dominant allele P. A man has polydactyly. His mother has polydactyly, his father does not, and the man is known to be heterozygous. The man has children with a woman without polydactyly. Complete the cross Pp × pp and calculate the probability that their first child will have polydactyly.",
       "marks": 4,
-      "modelAnswer": "probability = favourable outcomes ÷ total outcomes.\nGametes: P or p from the man; p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%.\nAnswer: Gametes: P or p from the man; p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%.",
+      "modelAnswer": "probability = favourable outcomes ÷ total outcomes. Gametes: P or p from the man; p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%. Answer: Gametes: P or p from the man; p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%.",
       "markingPoints": [
         "probability = favourable outcomes ÷ total outcomes.",
-        "Gametes: P or p from the man",
-        "p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%.",
-        "Answer: Gametes: P or p from the man",
-        "p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%."
+        "Gametes: P or p from the man; p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%.",
+        "Answer: Gametes: P or p from the man; p from the woman. Offspring: Pp, pp, Pp, pp. Two of four have polydactyly, so probability = 1/2 = 0.5 = 50%."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "121",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -792,12 +731,12 @@
     {
       "id": "IV066",
       "questionFamily": "Inherited disorders and screening",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Phenylketonuria (PKU) is an inherited condition. PKU makes people ill. Give one ethical objection to embryo screening. (1) Give one reason in favour of embryo screening.",
       "marks": 1,
-      "modelAnswer": "(a) (i) one form of a / one gene do not 1 (ii) not expressed if dominant / other allele is present / if heterozygous or only expressed if dominant allele not present / or no other allele present 1 (b) (i) two parents without PKU produce a child with PKU / 6 and 7 → 10 1 (ii) genetic diagram including: 1 derivation of offspring genotypes: NN Nn Nn nn 1 identification: NN and Nn as non-PKU OR nn as PKU 1 correct probability only: 0.25 / ¼ / 1 in 4 / 25% / 1: 3 do not 1 / 1: 4 do not 1 (c) (i) mitosis correct spelling only 1 (ii) 8 1 (iii) DNA 1 (d) (i) may lead to damage to embryo / may destroy embryos / embryo cannot give consent 1 (ii); prevent having child with the disorder / prevent future suffering / reduce incidence of the disease; embryo cells could be used in stem cell treatment 1",
+      "modelAnswer": "(a) (i) one form of a / one gene do not 1 (ii) not expressed if dominant / other allele is present / if heterozygous or only expressed if dominant allele not present / or no other allele present 1 (b) (i) two parents without PKU produce a child with PKU / 6 and 7 → 10 1 (ii) genetic diagram including: 1 derivation of offspring genotypes: NN Nn Nn nn 1 identification: NN and Nn as non-PKU OR nn as PKU 1 correct probability only: 0.25 / ¼ / 1 in 4 / 25% / 1: 3 do not 1 / 1: 4 do not 1 (c) (i) mitosis correct spelling only 1 (ii) 8 1 (iii) DNA 1 (d) (i) may lead to damage to embryo / may destroy embryos / embryo cannot give consent 1 (ii) prevent having child with the disorder / prevent future suffering / reduce incidence of the disease embryo cells could be used in stem cell treatment 1",
       "markingPoints": [
         "(a) (i) one form of a / one gene do not 1 (ii) not expressed if dominant / other allele is present / if heterozygous or only expressed if dominant allele not present / or no other allele present 1 (b) (i) two parents without PKU produce a child with PKU / 6 and 7 → 10 1 (ii) genetic diagram including: 1 derivation of offspring genotypes: NN Nn Nn nn 1 identification: NN and Nn as non-PKU OR nn as PKU 1 correct probability only: 0.25 / ¼ / 1 in 4 / 25% / 1: 3 do not 1 / 1: 4 do not 1 (c) (i) mitosis correct spelling only 1 (ii) 8 1 (iii) DNA 1 (d) (i) may lead to damage to embryo / may destroy embryos / embryo cannot give consent 1 (ii)",
         "prevent having child with the disorder / prevent future suffering / reduce incidence of the disease",
@@ -805,7 +744,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "121",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -813,7 +751,7 @@
     {
       "id": "IV067",
       "questionFamily": "Natural selection and evolution",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Cell division is needed for growth and for reproduction. Explain why sexual reproduction is an advantage for bluebells. (separate only)",
@@ -824,7 +762,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "131",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -832,12 +769,12 @@
     {
       "id": "IV068",
       "questionFamily": "Natural selection and evolution",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Genetic material is made of DNA. Scientists have now studied the whole human genome. Give two benefits of understanding the human genome. 1 2",
       "marks": 2,
-      "modelAnswer": "diagnosis of inherited / genetic disorder; gene therapy or treatment of inherited disorders; understanding (human) evolution or understanding ethnic origins (of a person) or understanding ancestry; tracing human migration patterns 2",
+      "modelAnswer": "diagnosis of inherited / genetic disorder gene therapy or treatment of inherited disorders understanding (human) evolution or understanding ethnic origins (of a person) or understanding ancestry tracing human migration patterns 2",
       "markingPoints": [
         "diagnosis of inherited / genetic disorder",
         "gene therapy or treatment of inherited disorders",
@@ -846,7 +783,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "131",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -854,7 +790,7 @@
     {
       "id": "IV071",
       "questionFamily": "Natural selection and evolution",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "Darwin suggested the theory of natural selection. Explain how natural selection occurs.",
@@ -865,7 +801,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "131",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -873,12 +808,12 @@
     {
       "id": "IV072",
       "questionFamily": "Variation and mutation",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Sickle cell anaemia is an inherited condition that affects red blood cells. Sickle cell anaemia is caused by a mutation in the gene for haemoglobin. Haemoglobin is the red pigment found in red blood cells. A person who is homozygous for the normal haemoglobin allele (HA) produces normal red blood cells. A person who is homozygous for the mutated allele (HS): • produces red blood cells with abnormal haemoglobin • has red blood cells that can form an altered shape • has sickle cell anaemia and becomes ill. A person who is heterozygous: • has both normal and abnormal haemoglobin in the red blood cells • has sickle cell trait • is generally healthy but can become ill in certain circumstances. Without medical treatment, people with sickle cell anaemia are frequently ill and have a reduced life expectancy. The malarial parasite cannot live in the red blood cells of a person who has the HS allele. A scientist stated: ‘It is an advantage for people to have the HS allele in countries where malaria occurs.’ Evaluate the scientist’s statement.",
       "marks": 3,
-      "modelAnswer": "points for:; HAHS do not get malaria; HAHS survive sickle cell anaemia points against:; HAHA may die from malaria; HSHS may become (severely) ill with sickle cell anaemia; Judgement: if parents HAHS then some offspring survive both malaria and sickle cell anaemia or if parents HAHS then some offspring may become (severely) ill with malaria and some become (severely) ill with sickle cell anaemia to gain full marks both point(s) for and point(s) against must be given 3",
+      "modelAnswer": "points for: HAHS do not get malaria HAHS survive sickle cell anaemia points against: HAHA may die from malaria HSHS may become (severely) ill with sickle cell anaemia Judgement: if parents HAHS then some offspring survive both malaria and sickle cell anaemia or if parents HAHS then some offspring may become (severely) ill with malaria and some become (severely) ill with sickle cell anaemia to gain full marks both point(s) for and point(s) against must be given 3",
       "markingPoints": [
         "points for:",
         "HAHS do not get malaria",
@@ -889,7 +824,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "116",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -897,7 +831,7 @@
     {
       "id": "IV073",
       "questionFamily": "Variation and mutation",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Sperm cells and egg cells are formed by meiosis. A genetic disorder develops as a result of a change in a gene. What scientific term describes a change in a gene?",
@@ -908,7 +842,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "116",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -916,12 +849,12 @@
     {
       "id": "IV074",
       "questionFamily": "Variation and mutation",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Foundation",
       "question": "Reproduction can produce offspring which are: • genetically different or • genetically identical. Farmers grow tomato plants in greenhouses. The tomatoes are sold in supermarkets. Suggest one advantage of growing tomato plants that are genetically different. (biology only)",
       "marks": 1,
-      "modelAnswer": "variation of a named / described (desirable) characteristic; not all susceptible to the same disease / pathogen; maintain / increase gene pool",
+      "modelAnswer": "variation of a named / described (desirable) characteristic not all susceptible to the same disease / pathogen maintain / increase gene pool",
       "markingPoints": [
         "variation of a named / described (desirable) characteristic",
         "not all susceptible to the same disease / pathogen",
@@ -929,7 +862,6 @@
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
-      "evidenceSource": "116",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -937,7 +869,7 @@
     {
       "id": "IV075",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "A gene contains 1,200 DNA bases. A mutation deletes one base near the start of the gene. Explain why this deletion may have a larger effect on the protein than substituting one base.",
@@ -948,7 +880,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "95",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -956,12 +887,12 @@
     {
       "id": "IV078",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "Darwin was the first scientist to state that humans and other primates had common ancestors. Many people were against Darwin’s ideas at that time. Give two reasons why they were against his ideas. 1 2 (Total 2 marks)",
       "marks": 4,
-      "modelAnswer": "religious objections; insufficient evidence; mechanism of heredity not known",
+      "modelAnswer": "religious objections insufficient evidence mechanism of heredity not known",
       "markingPoints": [
         "religious objections",
         "insufficient evidence",
@@ -969,7 +900,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "95",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -977,12 +907,12 @@
     {
       "id": "IV080",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Higher",
       "question": "In a population, the frequency of a recessive cystic-fibrosis allele is 1 in 50. Assuming the two alleles are inherited independently, calculate the probability that a child receives the recessive allele from both parents.",
       "marks": 3,
-      "modelAnswer": "probability = favourable outcomes ÷ total outcomes.\nProbability = 1/50 × 1/50 = 1/2500 = 0.0004 = 0.04%.\nAnswer: Probability = 1/50 × 1/50 = 1/2500 = 0.0004 = 0.04%.",
+      "modelAnswer": "probability = favourable outcomes ÷ total outcomes. Probability = 1/50 × 1/50 = 1/2500 = 0.0004 = 0.04%. Answer: Probability = 1/50 × 1/50 = 1/2500 = 0.0004 = 0.04%.",
       "markingPoints": [
         "probability = favourable outcomes ÷ total outcomes.",
         "Probability = 1/50 × 1/50 = 1/2500 = 0.0004 = 0.04%.",
@@ -990,7 +920,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "95",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -998,7 +927,7 @@
     {
       "id": "IV082",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Describe how meiosis and fertilisation produce genetically different offspring while maintaining the species’ chromosome number.",
@@ -1009,7 +938,6 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "95",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1017,7 +945,7 @@
     {
       "id": "IV083",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Classification",
+      "subtopic": "6.4 Classification",
       "sourceSubtopic": "6.4 Classification",
       "tier": "Foundation",
       "question": "Many different species can live together in the same habitat. What name is given to all of the organisms living in the same habitat? Tick (✓) one box. A community A food chain A population An ecosystem",
@@ -1028,7 +956,6 @@
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
-      "evidenceSource": "95",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1036,12 +963,12 @@
     {
       "id": "IV084",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "A healthy diet should be balanced. What is meant by a balanced diet?",
       "marks": 2,
-      "modelAnswer": "right amount of nutrients or different / all foods; right amount of energy; for (individual) needs ‘right amount’ only needed once for both marks to be awarded 2",
+      "modelAnswer": "right amount of nutrients or different / all foods right amount of energy for (individual) needs ‘right amount’ only needed once for both marks to be awarded 2",
       "markingPoints": [
         "right amount of nutrients or different / all foods",
         "right amount of energy",
@@ -1049,7 +976,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO3",
-      "evidenceSource": "95",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1057,7 +983,7 @@
     {
       "id": "IV085",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Potato blight is a disease of potato plants. Potato blight is caused by the fungus Phytophthora infestans. The farmer sprayed pesticide on his potato plants. The next day it rained heavily. Explain why the biodiversity in the river decreased.",
@@ -1068,7 +994,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "95",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1076,12 +1001,12 @@
     {
       "id": "IV086",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Name the organ in the body which produces oestrogen. (1) Oestrogen is a naturally occurring steroid hormone. Give one artificial use of a steroid hormone in the body.",
       "marks": 1,
-      "modelAnswer": "(a); right amount of nutrients or different / all foods; right amount of energy; for (individual) needs ‘right amount’ only needed once for both marks to be awarded 2 (b) (i) ovaries / ovary 1 (ii); inhibits follicle stimulating hormone / FSH production; inhibits maturation of eggs 1 (iii); stimulate muscle growth; used in (oral) contraceptives 1 (c) small (rate of) decrease then bigger (rate of) decrease 1 idea that change of rate (of decrease) at 900 (mg per day)",
+      "modelAnswer": "(a) right amount of nutrients or different / all foods right amount of energy for (individual) needs ‘right amount’ only needed once for both marks to be awarded 2 (b) (i) ovaries / ovary 1 (ii) inhibits follicle stimulating hormone / FSH production inhibits maturation of eggs 1 (iii) stimulate muscle growth used in (oral) contraceptives 1 (c) small (rate of) decrease then bigger (rate of) decrease 1 idea that change of rate (of decrease) at 900 (mg per day)",
       "markingPoints": [
         "(a)",
         "right amount of nutrients or different / all foods",
@@ -1094,7 +1019,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "95",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1102,12 +1026,12 @@
     {
       "id": "IV087",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Which part of a liver cell is responsible for controlling the production of reductase? (1) High blood cholesterol concentrations increase the likelihood of heart and circulatory diseases. Doctors can prescribe statins to control the concentration of cholesterol in the blood. Suggest how statins work.",
       "marks": 1,
-      "modelAnswer": "(a); right amount of nutrients or different / all foods; right amount of energy; for (individual) needs ‘right amount’ only needed once for both marks to be awarded 2 (b) (i) ovaries / ovary 1 (ii); inhibits follicle stimulating hormone / FSH production; inhibits maturation of eggs 1 (iii); stimulate muscle growth; used in (oral) contraceptives 1 (c) small (rate of) decrease then bigger (rate of) decrease 1 idea that change of rate (of decrease) at 900 (mg per day)",
+      "modelAnswer": "(a) right amount of nutrients or different / all foods right amount of energy for (individual) needs ‘right amount’ only needed once for both marks to be awarded 2 (b) (i) ovaries / ovary 1 (ii) inhibits follicle stimulating hormone / FSH production inhibits maturation of eggs 1 (iii) stimulate muscle growth used in (oral) contraceptives 1 (c) small (rate of) decrease then bigger (rate of) decrease 1 idea that change of rate (of decrease) at 900 (mg per day)",
       "markingPoints": [
         "(a)",
         "right amount of nutrients or different / all foods",
@@ -1120,7 +1044,6 @@
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
-      "evidenceSource": "95",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1128,7 +1051,7 @@
     {
       "id": "IV088",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Howea forsteriana and Howea belmoreana are two species of palm tree. The two species grow together on a small island in the South Pacific. What is meant by the term species?",
@@ -1139,7 +1062,6 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO3",
-      "evidenceSource": "95",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1147,7 +1069,7 @@
     {
       "id": "IV089",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Two organisms have very similar appearances but substantially different DNA base sequences. Suggest why DNA evidence may place them in different evolutionary groups.",
@@ -1158,7 +1080,6 @@
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO3",
-      "evidenceSource": "95",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1166,12 +1087,12 @@
     {
       "id": "IV090",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "In April 2013, 125 children caught measles; 100 of them had not received the MMR vaccine. Calculate the percentage who had not been vaccinated. Then suggest one population benefit of children receiving a second MMR dose.",
       "marks": 3,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nPercentage = (100 ÷ 125) × 100 = 80%. A second dose increases the proportion immune, reduces transmission and provides herd protection for people who cannot be vaccinated or did not respond to the first dose.\nAnswer: Percentage = (100 ÷ 125) × 100 = 80%. A second dose increases the proportion immune, reduces transmission and provides herd protection for people who cannot be vaccinated or did not respond to the first dose.",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Percentage = (100 ÷ 125) × 100 = 80%. A second dose increases the proportion immune, reduces transmission and provides herd protection for people who cannot be vaccinated or did not respond to the first dose. Answer: Percentage = (100 ÷ 125) × 100 = 80%. A second dose increases the proportion immune, reduces transmission and provides herd protection for people who cannot be vaccinated or did not respond to the first dose.",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
         "Percentage = (100 ÷ 125) × 100 = 80%. A second dose increases the proportion immune, reduces transmission and provides herd protection for people who cannot be vaccinated or did not respond to the first dose.",
@@ -1179,7 +1100,6 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "95",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1187,7 +1107,7 @@
     {
       "id": "IV091",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "Viruses and bacteria cause diseases in humans. The symptoms of flu include a sore throat and aching muscles. What would a doctor give to a patient to relieve the symptoms of flu?",
@@ -1198,7 +1118,6 @@
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "95",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1206,18 +1125,17 @@
     {
       "id": "IV092",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Classification",
+      "subtopic": "6.4 Classification",
       "sourceSubtopic": "6.4 Classification",
       "tier": "Foundation",
       "question": "The table gives the number of birds of species A counted each month.\n\nMonth | Jan | Mar | May | Jul | Sep | Nov\nSpecies A | 18 | 32 | 55 | 48 | 26 | 17\n\nDescribe the pattern during the year, using data.",
       "marks": 3,
-      "modelAnswer": "The count rises from 18 in January to a peak of 55 in May, then falls to 17 by November. From the May peak to November, it decreases by 38 birds.",
+      "modelAnswer": "The population rises from 18 in January to a peak of 55 in May, then falls to 17 by November. The largest overall fall after the peak is 55 − 17 = 38 birds.",
       "markingPoints": [
-        "The count rises from 18 in January to a peak of 55 in May, then falls to 17 by November. From the May peak to November, it decreases by 38 birds."
+        "The population rises from 18 in January to a peak of 55 in May, then falls to 17 by November. The largest overall fall after the peak is 55 − 17 = 38 birds."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "95",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge"
@@ -1225,18 +1143,17 @@
     {
       "id": "IV093",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Classification",
+      "subtopic": "6.4 Classification",
       "sourceSubtopic": "6.4 Classification",
       "tier": "Foundation",
       "question": "The table gives bird counts for four species.\n\nSpecies | Jan | Apr | Jul | Oct\nA | 20 | 42 | 38 | 19\nB | 0 | 35 | 51 | 2\nC | 31 | 29 | 30 | 32\nD | 14 | 16 | 15 | 13\n\nWhich species most likely migrates into the UK for spring and summer? Use the data to justify your answer.",
       "marks": 2,
-      "modelAnswer": "Species B. Its count rises from 0 in January to 35 in April and 51 in July, then falls to 2 in October. This pattern supports migration into the UK for spring and summer.",
+      "modelAnswer": "Species B. Its count rises from 0 in January to 35 in April and 51 in July, then falls to 2 by October, suggesting arrival for spring/summer and departure before winter.",
       "markingPoints": [
-        "Species B. Its count rises from 0 in January to 35 in April and 51 in July, then falls to 2 in October. This pattern supports migration into the UK for spring and summer."
+        "Species B. Its count rises from 0 in January to 35 in April and 51 in July, then falls to 2 by October, suggesting arrival for spring/summer and departure before winter."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "95",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge"
@@ -1244,12 +1161,12 @@
     {
       "id": "IV094",
       "questionFamily": "DNA, genome, genes and chromosomes",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Explain the relationships among DNA, genes, chromosomes and the genome. State the structure of DNA and how a gene can code for a protein.",
       "marks": 6,
-      "modelAnswer": "(a) (i) DNA replication / copies of genetic material were made ’it’ = a chromosome 1 (ii) one copy of each (chromosome / chromatid / strand) to each offspring cell . to gametes and fertilisation 1 each offspring cell receives a complete set of / the same genetic material 1 (b) (i) meiosis 1 (ii) Species A = 4 and Species B = 8 1 (iii) sum of A + B from (b)(ii) e.g. 12 1 (c) (i) similarities between chromosomesorsimilarities between flowers described e.g. shape of petals / pattern on petals / colour / stamens 1 can breed / can sexually reproduce 1 (ii); offspring contain 3 copies of each gene / of each chromosome / odd number of each of the chromosomes; some chromosomes unable to pair (in meiosis); (viable) gametes not formed / some gametes with extra / too many genes / chromosomes orsome gametes with missing genes / chromosomes 2",
+      "modelAnswer": "(a) (i) DNA replication / copies of genetic material were made ’it’ = a chromosome 1 (ii) one copy of each (chromosome / chromatid / strand) to each offspring cell . to gametes and fertilisation 1 each offspring cell receives a complete set of / the same genetic material 1 (b) (i) meiosis 1 (ii) Species A = 4 and Species B = 8 1 (iii) sum of A + B from (b)(ii) e.g. 12 1 (c) (i) similarities between chromosomesorsimilarities between flowers described e.g. shape of petals / pattern on petals / colour / stamens 1 can breed / can sexually reproduce 1 (ii) offspring contain 3 copies of each gene / of each chromosome / odd number of each of the chromosomes some chromosomes unable to pair (in meiosis) (viable) gametes not formed / some gametes with extra / too many genes / chromosomes orsome gametes with missing genes / chromosomes 2",
       "markingPoints": [
         "(a) (i) DNA replication / copies of genetic material were made ’it’ = a chromosome 1 (ii) one copy of each (chromosome / chromatid / strand) to each offspring cell . to gametes and fertilisation 1 each offspring cell receives a complete set of / the same genetic material 1 (b) (i) meiosis 1 (ii) Species A = 4 and Species B = 8 1 (iii) sum of A + B from (b)(ii) e.g. 12 1 (c) (i) similarities between chromosomesorsimilarities between flowers described e.g. shape of petals / pattern on petals / colour / stamens 1 can breed / can sexually reproduce 1 (ii)",
         "offspring contain 3 copies of each gene / of each chromosome / odd number of each of the chromosomes",
@@ -1257,8 +1174,7 @@
         "(viable) gametes not formed / some gametes with extra / too many genes / chromosomes orsome gametes with missing genes / chromosomes 2"
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "200",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1266,20 +1182,19 @@
     {
       "id": "IV095",
       "questionFamily": "Genetic crosses and probability",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Brown eye colour is caused by a dominant allele B; blue eye colour is caused by recessive allele b. Two heterozygous parents have children. Complete the genetic cross and state the probability of a blue-eyed child.",
       "marks": 4,
-      "modelAnswer": "probability = favourable outcomes ÷ total outcomes.\nParents: Bb × Bb. Gametes from each: B and b. Offspring genotypes: BB, Bb, Bb, bb. Only bb is blue-eyed, so probability = 1/4 = 25%.\nAnswer: Parents: Bb × Bb. Gametes from each: B and b. Offspring genotypes: BB, Bb, Bb, bb. Only bb is blue-eyed, so probability = 1/4 = 25%.",
+      "modelAnswer": "probability = favourable outcomes ÷ total outcomes. Parents: Bb × Bb. Gametes from each: B and b. Offspring genotypes: BB, Bb, Bb, bb. Only bb is blue-eyed, so probability = 1/4 = 25%. Answer: Parents: Bb × Bb. Gametes from each: B and b. Offspring genotypes: BB, Bb, Bb, bb. Only bb is blue-eyed, so probability = 1/4 = 25%.",
       "markingPoints": [
         "probability = favourable outcomes ÷ total outcomes.",
         "Parents: Bb × Bb. Gametes from each: B and b. Offspring genotypes: BB, Bb, Bb, bb. Only bb is blue-eyed, so probability = 1/4 = 25%.",
         "Answer: Parents: Bb × Bb. Gametes from each: B and b. Offspring genotypes: BB, Bb, Bb, bb. Only bb is blue-eyed, so probability = 1/4 = 25%."
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "160",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1287,12 +1202,12 @@
     {
       "id": "IV096",
       "questionFamily": "Fossils, extinction and resistant bacteria",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Higher",
       "question": "Explain how fossils form, why the fossil record is incomplete, how extinction can occur and how antibiotic-resistant bacteria evolve.",
       "marks": 6,
-      "modelAnswer": "Fossil evidence:; fossils show evidence of life in the past; fossils show change over time; fossil record shows development of species over time; fossils show evidence of extinction; fossil record shows how organisms from the past are related to species alive today; gaps in fossil record; gaps in fossil record are being filled in with new evidence; ref to evolutionary trees; description of how fossils are formed Genetics:; ref to Mendel’s breeding experiments with plants; Mendel’s description / idea of units / factors of inheritance; dominant and recessive units / alleles / genes; observation of chromosome behaviour during cell division; chromosome behaviour and Mendel’s units work in similar ways; structure of DNA worked out; gene mechanism in determining protein synthesis worked out; (genetic) variation in a species; (variation) due to mutation or change in gene (structure); individuals with advantageous characteristics more likely to survive; individuals with advantageous characteristics more likely to reproduce; (survivors) pass on (advantageous) alleles / genes; eg of evolution (such as antibiotic resistance in bacteria); new species arise when sufficient changes occur to prevent (successful) reproduction For",
+      "modelAnswer": "Fossil evidence: fossils show evidence of life in the past fossils show change over time fossil record shows development of species over time fossils show evidence of extinction fossil record shows how organisms from the past are related to species alive today gaps in fossil record gaps in fossil record are being filled in with new evidence ref to evolutionary trees description of how fossils are formed Genetics: ref to Mendel’s breeding experiments with plants Mendel’s description / idea of units / factors of inheritance dominant and recessive units / alleles / genes observation of chromosome behaviour during cell division chromosome behaviour and Mendel’s units work in similar ways structure of DNA worked out gene mechanism in determining protein synthesis worked out (genetic) variation in a species (variation) due to mutation or change in gene (structure) individuals with advantageous characteristics more likely to survive individuals with advantageous characteristics more likely to reproduce (survivors) pass on (advantageous) alleles / genes eg of evolution (such as antibiotic resistance in bacteria) new species arise when sufficient changes occur to prevent (successful) reproduction For",
       "markingPoints": [
         "Fossil evidence:",
         "fossils show evidence of life in the past",
@@ -1320,8 +1235,7 @@
         "new species arise when sufficient changes occur to prevent (successful) reproduction For"
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "183",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge"
@@ -1329,7 +1243,7 @@
     {
       "id": "IV097",
       "questionFamily": "Natural selection and evolution",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Explain evolution by natural selection from mutation and variation through selection, reproduction, inheritance and change in allele frequency over generations.",
@@ -1339,8 +1253,7 @@
         "1. (two ancestral populations) separated (by geographical barrier / by land) / were isolated 1 2. genetic variation (in each population) or different / new alleles or mutations occur 1 3. different environment / conditions 1 4. natural selection occurs or some phenotypes survived or some genotypes survived 1 5. (favourable) alleles / genes / mutations passed on (in each population) 1 6. eventually two types cannot interbreed successfully 1"
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "131",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1348,22 +1261,19 @@
     {
       "id": "IV098",
       "questionFamily": "Inherited disorders and screening",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Two unaffected parents have a child with a recessive disorder caused by allele d. Use a genetic cross to explain the parents’ genotypes and calculate the probability that their next child has the disorder. Give one argument for and one ethical concern about embryo screening.",
       "marks": 6,
-      "modelAnswer": "probability = favourable outcomes ÷ total outcomes.\nBoth parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd; probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits.\nAnswer: Both parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd; probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits.",
+      "modelAnswer": "probability = favourable outcomes ÷ total outcomes. Both parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd; probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits. Answer: Both parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd; probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits.",
       "markingPoints": [
         "probability = favourable outcomes ÷ total outcomes.",
-        "Both parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd",
-        "probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits.",
-        "Answer: Both parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd",
-        "probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits."
+        "Both parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd; probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits.",
+        "Answer: Both parents must be carriers: Dd × Dd. Offspring: DD, Dd, Dd, dd; probability affected = 1/4 or 25%. Screening can reduce the chance of an affected child or prepare parents, but concerns include embryo destruction, consent, discrimination and selection for non-medical traits."
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "121",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1371,18 +1281,22 @@
     {
       "id": "IV099",
       "questionFamily": "Classification and evolutionary trees",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
-      "question": "An evolutionary tree can be written as follows:\n\nCommon ancestor → species A and ancestor X\nAncestor X → species B and species C\n\nWhich two species are most closely related? Explain your answer using the branching pattern.",
+      "question": "Describe the Linnaean classification system, explain the three-domain system and interpret an evolutionary tree using common ancestry.",
       "marks": 6,
-      "modelAnswer": "Species B and C are most closely related because they share the most recent common ancestor, ancestor X.",
+      "modelAnswer": "(a) lack of fossils / fossils destroyed 1 (due to soft parts) decaying / geological activity 1 (b) (i) A and B did not mate successfully ‘A and B did not mate’ insufficient 1 (ii) may not be mating season A and B may not find each other attractive this is just a one-off attempt / an anomaly / need repeats may be juvenile / immature may be the same sex 2 (c) 1. (two ancestral populations) separated (by geographical barrier / by land) / were isolated 1 2. genetic variation (in each population) or different / new alleles or mutations occur 1 3. different environment / conditions 1 4. natural selection occurs or some phenotypes survived or some genotypes survived 1 5. (favourable) alleles / genes / mutations passed on (in each population) 1 6. eventually two types cannot interbreed successfully 1",
       "markingPoints": [
-        "Species B and C are most closely related because they share the most recent common ancestor, ancestor X."
+        "(a) lack of fossils / fossils destroyed 1 (due to soft parts) decaying / geological activity 1 (b) (i) A and B did not mate successfully ‘A and B did not mate’ insufficient 1 (ii)",
+        "may not be mating season",
+        "A and B may not find each other attractive",
+        "this is just a one-off attempt / an anomaly / need repeats",
+        "may be juvenile / immature",
+        "may be the same sex 2 (c) 1. (two ancestral populations) separated (by geographical barrier / by land) / were isolated 1 2. genetic variation (in each population) or different / new alleles or mutations occur 1 3. different environment / conditions 1 4. natural selection occurs or some phenotypes survived or some genotypes survived 1 5. (favourable) alleles / genes / mutations passed on (in each population) 1 6. eventually two types cannot interbreed successfully 1"
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "139",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1390,7 +1304,7 @@
     {
       "id": "IV100",
       "questionFamily": "Cloning and tissue culture",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Describe plant tissue culture, embryo transplants and adult-cell cloning, and evaluate uses, benefits and risks.",
@@ -1400,8 +1314,7 @@
         "(a) sulfur dioxide 1 (b) (i) mutation 1 (ii) pale form now (more) easily seen (by predators) or dark form now less easily seen (by predators) 1 so pale form (more) likely to be eaten or dark form less likely to be eaten 1 so dark form (more likely to) breed / pass on genes or pale form less likely to breed / pass on genes 1 (c) (i) pyramid of three layers of diminishing size either way up 1 three labels in food chain order award 2 marks only if the pyramid is correctly labelled 1 (ii) some material is lost in waste from the birds 1 peppered moth larvae do not eat all the leaves from the trees 1"
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "111",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1409,12 +1322,12 @@
     {
       "id": "IV101",
       "questionFamily": "Genetic engineering and GM",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Describe genetic engineering using enzymes and vectors and evaluate a named GM crop, medicine or animal application.",
       "marks": 6,
-      "modelAnswer": "justification based on comparison of the relative merits of at least one advantage and one disadvantage marks if only advantages or disadvantages given Advantages:; less effort for farmer or less likely to harm farmer; (pesticide) always there or doesn’t wash away; less insects to eat crop / maize or carry disease; so greater crop production / yield Disadvantages:; (toxin) kills other insects; so (some) crops don’t get pollinated / (sexually) reproduce; possible harm when eaten by humans / animals; damage to food chains; gene may spread to other species 4",
+      "modelAnswer": "justification based on comparison of the relative merits of at least one advantage and one disadvantage marks if only advantages or disadvantages given Advantages: less effort for farmer or less likely to harm farmer (pesticide) always there or doesn’t wash away less insects to eat crop / maize or carry disease so greater crop production / yield Disadvantages: (toxin) kills other insects so (some) crops don’t get pollinated / (sexually) reproduce possible harm when eaten by humans / animals damage to food chains gene may spread to other species 4",
       "markingPoints": [
         "justification based on comparison of the relative merits of at least one advantage and one disadvantage marks if only advantages or disadvantages given Advantages:",
         "less effort for farmer or less likely to harm farmer",
@@ -1428,8 +1341,7 @@
         "gene may spread to other species 4"
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "116",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1437,7 +1349,7 @@
     {
       "id": "IV102",
       "questionFamily": "Meiosis and genetic variation",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Foundation",
       "question": "Explain how meiosis produces haploid, genetically different gametes and how fertilisation restores the diploid chromosome number.",
@@ -1447,8 +1359,7 @@
         "Random fertilisation combines one maternal and one paternal gamete, restoring diploid number and creating new allele combinations."
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "102",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1456,20 +1367,19 @@
     {
       "id": "IV103",
       "questionFamily": "Variation and mutation",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Distinguish genetic, environmental and combined variation. Explain mutation and how it may affect phenotype and evolution.",
       "marks": 6,
-      "modelAnswer": "Show the relevant mathematical method using the values in F2. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Genetic variation comes from inherited alleles, meiosis and random fertilisation; environmental variation comes from conditions such as diet or climate; many characteristics involve both. Mutations are random DNA changes, usually neutral, sometimes harmful or beneficial, and create new alleles.",
+      "modelAnswer": "Show the relevant mathematical method using the values in F2. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Genetic variation comes from inherited alleles, meiosis and random fertilisation environmental variation comes from conditions such as diet or climate many characteristics involve both. Mutations are random DNA changes, usually neutral, sometimes harmful or beneficial, and create new alleles.",
       "markingPoints": [
         "Show the relevant mathematical method using the values in F2. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Genetic variation comes from inherited alleles, meiosis and random fertilisation",
         "environmental variation comes from conditions such as diet or climate",
         "many characteristics involve both. Mutations are random DNA changes, usually neutral, sometimes harmful or beneficial, and create new alleles."
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "116",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1477,12 +1387,12 @@
     {
       "id": "IV104",
       "questionFamily": "Selective breeding",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "6.2 Variation and Evolution",
       "sourceSubtopic": "6.2 Variation and Evolution",
       "tier": "Both / not separated",
       "question": "Describe selective breeding over several generations and evaluate its benefits and risks, including reduced genetic variation.",
       "marks": 6,
-      "modelAnswer": "process:; parents with the desired characteristic are selected; the parents are bred together to produce offspring; offspring with the desired characteristics are selected and bred; this is repeated over many generations. explanations:; parents who produce the least Fel D1 are initially selected; in their offspring there will be individuals with differing amounts of Fel D1 produced; care is taken to ensure cats are healthy and avoid possible problems associated with selective breeding; over time the population of (selectively bred) cats will produce less Fel D1 4",
+      "modelAnswer": "process: parents with the desired characteristic are selected the parents are bred together to produce offspring offspring with the desired characteristics are selected and bred this is repeated over many generations. explanations: parents who produce the least Fel D1 are initially selected in their offspring there will be individuals with differing amounts of Fel D1 produced care is taken to ensure cats are healthy and avoid possible problems associated with selective breeding over time the population of (selectively bred) cats will produce less Fel D1 4",
       "markingPoints": [
         "process:",
         "parents with the desired characteristic are selected",
@@ -1495,8 +1405,7 @@
         "over time the population of (selectively bred) cats will produce less Fel D1 4"
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "99",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1504,7 +1413,7 @@
     {
       "id": "IV105",
       "questionFamily": "Sexual and asexual reproduction",
-      "subtopic": "Reproduction",
+      "subtopic": "6.1 Reproduction",
       "sourceSubtopic": "6.1 Reproduction",
       "tier": "Both / not separated",
       "question": "Compare sexual and asexual reproduction in terms of parents, gametes, genetic variation, speed and suitable applications.",
@@ -1514,8 +1423,7 @@
         "Asexual reproduction uses one parent, no gamete fusion and mitosis, producing clones quickly but with little variation."
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "101",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1523,24 +1431,19 @@
     {
       "id": "IV106",
       "questionFamily": "Linked / cross-topic demand",
-      "subtopic": "Genetics and Evolution",
+      "subtopic": "6.3 Genetics and Evolution",
       "sourceSubtopic": "6.3 Genetics and Evolution",
       "tier": "Both / not separated",
       "question": "A bacterial population initially contains 2 antibiotic-resistant bacteria in 10,000. After repeated antibiotic use, 7,500 of 10,000 bacteria are resistant. Explain this change by natural selection and calculate the increase in the percentage that are resistant.",
       "marks": 6,
-      "modelAnswer": "percentage = (part ÷ total) × 100.\nInitial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation; antibiotic killed susceptible bacteria; resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency.\nAnswer: Initial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation; antibiotic killed susceptible bacteria; resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency.",
+      "modelAnswer": "percentage = (part ÷ total) × 100. Initial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation; antibiotic killed susceptible bacteria; resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency. Answer: Initial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation; antibiotic killed susceptible bacteria; resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency.",
       "markingPoints": [
         "percentage = (part ÷ total) × 100.",
-        "Initial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation",
-        "antibiotic killed susceptible bacteria",
-        "resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency.",
-        "Answer: Initial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation",
-        "antibiotic killed susceptible bacteria",
-        "resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency."
+        "Initial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation; antibiotic killed susceptible bacteria; resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency.",
+        "Answer: Initial resistant percentage = (2 ÷ 10,000) × 100 = 0.02%. Final = 75%. Increase = 75 − 0.02 = 74.98 percentage points. Variation arose through mutation; antibiotic killed susceptible bacteria; resistant bacteria survived, reproduced and passed on resistance alleles, increasing their frequency."
       ],
       "commandWord": "Explain / evaluate",
-      "assessmentObjective": "AO1/AO2/AO3",
-      "evidenceSource": "95",
+      "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.6.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1548,12 +1451,12 @@
     {
       "id": "IV-EX1",
       "questionFamily": "Probability and interpretation",
-      "subtopic": "Reproduction",
+      "subtopic": "Genetic inheritance",
       "sourceSubtopic": "Genetic inheritance",
       "tier": "Both",
       "question": "Two unaffected parents have a child with a recessive genetic disorder. Deduce the parents’ genotypes and calculate the probability that their next child will have the disorder.",
       "marks": 4,
-      "modelAnswer": "probability = favourable outcomes ÷ total outcomes.\nBoth parents must be heterozygous carriers, Aa × Aa. Offspring genotypes are AA, Aa, Aa and aa, so probability of an affected aa child is 1/4 or 25%. Each birth is an independent event.\nAnswer: Both parents must be heterozygous carriers, Aa × Aa. Offspring genotypes are AA, Aa, Aa and aa, so probability of an affected aa child is 1/4 or 25%. Each birth is an independent event.",
+      "modelAnswer": "probability = favourable outcomes ÷ total outcomes. Both parents must be heterozygous carriers, Aa × Aa. Offspring genotypes are AA, Aa, Aa and aa, so probability of an affected aa child is 1/4 or 25%. Each birth is an independent event. Answer: Both parents must be heterozygous carriers, Aa × Aa. Offspring genotypes are AA, Aa, Aa and aa, so probability of an affected aa child is 1/4 or 25%. Each birth is an independent event.",
       "markingPoints": [
         "probability = favourable outcomes ÷ total outcomes.",
         "Both parents must be heterozygous carriers, Aa × Aa. Offspring genotypes are AA, Aa, Aa and aa, so probability of an affected aa child is 1/4 or 25%. Each birth is an independent event.",
@@ -1561,7 +1464,6 @@
       ],
       "commandWord": "Deduce and calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.6.1.6",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge"
@@ -1569,7 +1471,7 @@
     {
       "id": "IV-EX2",
       "questionFamily": "Evidence evaluation",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "Evolution",
       "sourceSubtopic": "Evolution",
       "tier": "Both",
       "question": "Explain why similarities in DNA sequences provide stronger evidence for evolutionary relationships than similarities in appearance alone.",
@@ -1580,7 +1482,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.6.2.1, 4.6.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1588,12 +1489,12 @@
     {
       "id": "PK01",
       "questionFamily": "Genetic-cross method",
-      "subtopic": "Reproduction",
+      "subtopic": "Inheritance",
       "sourceSubtopic": "Inheritance",
       "tier": "Both",
       "question": "State a systematic method for completing and checking a monohybrid genetic cross.",
       "marks": 5,
-      "modelAnswer": "Define allele symbols; write parental genotypes; identify each parent’s gametes; combine gametes in a Punnett square; state offspring genotype and phenotype probabilities; check that probabilities total 1 or 100%.",
+      "modelAnswer": "Define allele symbols write parental genotypes identify each parent’s gametes combine gametes in a Punnett square state offspring genotype and phenotype probabilities check that probabilities total 1 or 100%.",
       "markingPoints": [
         "Define allele symbols",
         "write parental genotypes",
@@ -1604,7 +1505,6 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO2",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.6.1.6",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge"
@@ -1612,7 +1512,7 @@
     {
       "id": "PK02",
       "questionFamily": "Pedigree evidence",
-      "subtopic": "Reproduction",
+      "subtopic": "Inheritance",
       "sourceSubtopic": "Inheritance",
       "tier": "Both",
       "question": "Explain how a pedigree can provide evidence that a disorder is caused by a recessive allele.",
@@ -1623,7 +1523,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.6.1.6",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1631,12 +1530,12 @@
     {
       "id": "PK03",
       "questionFamily": "Variation sampling",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "Variation",
       "sourceSubtopic": "Variation",
       "tier": "Both",
       "question": "Plan how to compare the distribution of hand span in two year groups.",
       "marks": 6,
-      "modelAnswer": "Define and measure hand span consistently with suitable resolution; select a random or representative sample from each year; use sufficient and similar sample sizes; repeat questionable measurements; calculate means and ranges or plot distributions; compare spread as well as averages.",
+      "modelAnswer": "Define and measure hand span consistently with suitable resolution select a random or representative sample from each year use sufficient and similar sample sizes repeat questionable measurements calculate means and ranges or plot distributions compare spread as well as averages.",
       "markingPoints": [
         "Define and measure hand span consistently with suitable resolution",
         "select a random or representative sample from each year",
@@ -1647,7 +1546,6 @@
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.6.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary"
@@ -1655,19 +1553,18 @@
     {
       "id": "PK04",
       "questionFamily": "Continuous data",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "Variation",
       "sourceSubtopic": "Variation",
       "tier": "Both",
       "question": "Explain why a histogram rather than a bar chart is suitable for a large set of human-height data.",
       "marks": 3,
-      "modelAnswer": "Height is continuous quantitative data grouped into class intervals. Histogram bars touch and area/frequency represents the distribution; a bar chart is for discrete categories.",
+      "modelAnswer": "Height is continuous quantitative data grouped into class intervals. Histogram bars touch and area/frequency represents the distribution a bar chart is for discrete categories.",
       "markingPoints": [
         "Height is continuous quantitative data grouped into class intervals. Histogram bars touch and area/frequency represents the distribution",
         "a bar chart is for discrete categories."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.6.2.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge"
@@ -1675,7 +1572,7 @@
     {
       "id": "PK05",
       "questionFamily": "Evolution evidence",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "Evolution",
       "sourceSubtopic": "Evolution",
       "tier": "Both",
       "question": "Explain why agreement between fossil, anatomical and DNA evidence strengthens an evolutionary conclusion.",
@@ -1686,7 +1583,6 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.6.3.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge"
@@ -1694,7 +1590,7 @@
     {
       "id": "PK06",
       "questionFamily": "Selective breeding evaluation",
-      "subtopic": "Variation and Evolution",
+      "subtopic": "Selective breeding",
       "sourceSubtopic": "Selective breeding",
       "tier": "Both",
       "question": "Evaluate the claim that selective breeding always improves a species.",
@@ -1705,7 +1601,6 @@
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.6.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge"
