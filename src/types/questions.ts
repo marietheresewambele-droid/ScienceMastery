@@ -37,6 +37,9 @@ export interface MasteryQuestion {
   gradeDemand?: string;
   questionFamily?: string;
   originalSubtopic?: string;
+  databaseId?: string;
+  adaptiveHints?: [string, string, string];
+  adaptiveRelationships?: Partial<Record<"prerequisite" | "diagnostic" | "easier" | "parallel" | "harder", string>>;
 }
 
 export interface BiologySubtopicConfig {
