@@ -8,11 +8,31 @@ import { readProgress } from "@/lib/progress";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Achievements from "@/components/revision/Achievements";
 import ExamCalendar from "@/components/revision/ExamCalendar";
+import { getSupabaseBrowserClient } from "@/lib/supabase";
 
 export default function Dashboard() {
   const [ready, setReady] = useState(false);
+  const [adaptive, setAdaptive] = useState<{ secure: number; supported: number; developing: number; due: number } | null>(null);
   const homeHref = useHomeHref();
   useEffect(() => setReady(true), []);
+  useEffect(() => {
+    const supabase = getSupabaseBrowserClient();
+    supabase.auth.getUser().then(async ({ data }) => {
+      if (!data.user) return;
+      const { data: states } = await supabase
+        .from("student_question_state")
+        .select("mastery_status,due_at")
+        .eq("user_id", data.user.id);
+      if (!states) return;
+      const now = Date.now();
+      setAdaptive({
+        secure: states.filter((state) => state.mastery_status === "secure").length,
+        supported: states.filter((state) => state.mastery_status === "supported").length,
+        developing: states.filter((state) => state.mastery_status === "developing").length,
+        due: states.filter((state) => state.due_at && new Date(state.due_at).getTime() <= now).length,
+      });
+    });
+  }, []);
 
   const data = useMemo(() => {
     if (!ready) return null;
@@ -132,6 +152,24 @@ export default function Dashboard() {
               </div>
             </div>
           </article>
+        </section>
+
+        <section className="sm-panel mt-8 p-6">
+          <div className="flex flex-wrap items-start justify-between gap-4">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-widest text-orange-dark">Adaptive engine</p>
+              <h2 className="mt-2 font-display text-2xl font-bold">Independent mastery evidence</h2>
+              <p className="mt-2 max-w-2xl text-sm leading-6 text-ink-soft">Secure mastery requires repeated correct answers without hints. Supported answers are tracked separately so help never inflates mastery.</p>
+            </div>
+            <Link href="/practice?mode=adaptive" className="sm-btn bg-orange px-5 py-3 text-white">Start adaptive practice</Link>
+          </div>
+          {adaptive ? (
+            <div className="mt-6 grid gap-3 sm:grid-cols-4">
+              {[["Secure", adaptive.secure], ["Supported", adaptive.supported], ["Developing", adaptive.developing], ["Due", adaptive.due]].map(([label, value]) => (
+                <div key={label} className="rounded-xl border-2 border-ink bg-cream-soft p-4"><p className="text-xs font-bold uppercase text-ink-soft">{label}</p><p className="mt-1 font-display text-2xl font-bold">{value}</p></div>
+              ))}
+            </div>
+          ) : <p className="mt-5 text-sm font-semibold text-ink-soft">Sign in and complete an adaptive session to build this evidence profile.</p>}
         </section>
 
         <section className="mt-8">
