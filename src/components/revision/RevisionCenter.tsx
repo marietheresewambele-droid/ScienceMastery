@@ -6,12 +6,15 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { topicRegistry, questionKey } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
+import { nextAdaptiveQuestion } from "@/lib/adaptive-engine";
+import { recordAdaptiveAttempt } from "@/lib/adaptive-progress";
+import { loadAdaptiveCatalog } from "@/lib/adaptive-catalog";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard from "@/components/flashcard/Flashcard";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
 import { adaptiveEngine } from "@/lib/adaptive";
 
-type Mode = "mixed" | "flashcards" | "exam" | "bookmarks" | "due";
+type Mode = "adaptive" | "mixed" | "flashcards" | "exam" | "bookmarks" | "due";
 type Item = {
   key: string;
   topic: (typeof topicRegistry)[number];
@@ -22,6 +25,7 @@ type Item = {
 };
 
 const labels: Record<Mode, string> = {
+  adaptive: "Adaptive Practice",
   mixed: "Mixed Practice",
   flashcards: "Practice Mode",
   exam: "Exam Mode",
@@ -59,18 +63,37 @@ export default function RevisionCenter({
   const [ready, setReady] = useState(false);
   const [hintLevel, setHintLevel] = useState(0);
   const [startedAt, setStartedAt] = useState(Date.now());
+  const [adaptiveQuestions, setAdaptiveQuestions] = useState<MasteryQuestion[] | null>(null);
+  const [adaptiveError, setAdaptiveError] = useState("");
+
   const autoStarted = useRef(false);
   const homeHref = useHomeHref();
 
   useEffect(() => setReady(true), []);
+  useEffect(() => {
+    if (!ready || mode !== "adaptive") return;
+    let cancelled = false;
+    setAdaptiveError("");
+    loadAdaptiveCatalog(subjects).then((questions) => {
+      if (!cancelled) setAdaptiveQuestions(questions);
+    }).catch(() => {
+      if (!cancelled) setAdaptiveError("The central question database could not be reached. Try again in a moment.");
+    });
+    return () => { cancelled = true; };
+  }, [ready, mode, subjects]);
+
   const isExam = mode === "exam";
 
+
   const all = useMemo(() => {
-    if (!ready) return [];
+    if (!ready || (mode === "adaptive" && !adaptiveQuestions)) return [];
     const now = Date.now();
     return topicRegistry.flatMap((topic) => {
       const progress = readProgress(topic);
-      return topic.questions.map((question) => {
+      const questions = mode === "adaptive"
+        ? (adaptiveQuestions || []).filter((question) => question.subject === topic.subject && question.topicSlug === topic.id)
+        : topic.questions;
+      return questions.map((question) => {
         const review = progress.reviews[question.id];
           return {
           topic,
@@ -83,7 +106,7 @@ export default function RevisionCenter({
         };
       });
     });
-  }, [ready, version]);
+  }, [ready, version, mode, adaptiveQuestions]);
 
   const selectedItems = useMemo(
     () =>
@@ -108,7 +131,7 @@ export default function RevisionCenter({
 
   const start = useCallback(() => {
     const next =
-      order === "weakest"
+      mode === "adaptive" || order === "weakest"
         ? [...candidates].sort((a, b) => b.priority - a.priority)
         : [...candidates].sort(() => Math.random() - 0.5);
     setSession(next.slice(0, count));
@@ -116,7 +139,8 @@ export default function RevisionCenter({
     setFlipped(false);
     setHintLevel(0);
     setStartedAt(Date.now());
-  }, [candidates, count, order]);
+  }, [candidates, count, order, mode]);
+
 
   useEffect(() => {
     if (skipSetup && ready && !autoStarted.current && !session.length && candidates.length) {
@@ -126,34 +150,34 @@ export default function RevisionCenter({
   }, [skipSetup, ready, candidates.length, session.length, start]);
 
   const rate = useCallback(
-    (rating: ReviewRating, hintsUsed: number) => {
+    (rating: ReviewRating, hintsUsed = 0) => {
       const item = session[index];
       if (!item) return;
       saveRating(item.topic, item.question.id, rating);
-      const maxScore = item.question.marks;
-      const score = rating === "easy" || rating === "good" ? maxScore : rating === "hard" ? Math.max(0, maxScore - 1) : 0;
-      const evidence = {
+      void recordAdaptiveAttempt({
         question: item.question,
-        score,
-        maxScore,
-        confidence: rating === "easy" ? 4 : rating === "good" ? 3 : rating === "hard" ? 2 : 1,
-        hintsUsed,
-        fullAnswerViewed: isExam || flipped,
+        evidence: { rating, hintsUsed, answerRevealed: isExam || flipped },
+        mode,
         responseTimeMs: Date.now() - startedAt,
-      };
-      const routed = adaptiveEngine.selectNextQuestion(item.question, item.topic.questions, evidence);
-      adaptiveEngine.evaluateAttempt(evidence);
+      });
+      if (mode === "adaptive") {
+        const next = nextAdaptiveQuestion(item.question, item.topic.questions, { rating, hintsUsed, answerRevealed: isExam || flipped });
+        if (next) {
+          const nextItem = all.find((candidate) => candidate.topic.id === item.topic.id && candidate.question.id === next.id);
+          if (nextItem && !session.slice(index + 1).some((candidate) => candidate.key === nextItem.key)) {
+            setSession((items) => [...items.slice(0, index + 1), nextItem, ...items.slice(index + 1)]);
+          }
+        }
+      }
       setVersion((value) => value + 1);
       setFlipped(false);
       setHintLevel(0);
-      setSession((currentSession) => {
-        if (!routed || currentSession.some((entry) => entry.question.id === routed.id)) return currentSession;
-        return [...currentSession.slice(0, index + 1), { ...item, question: routed, key: questionKey(item.topic.subject ?? "biology", item.topic.id, routed.id) }, ...currentSession.slice(index + 1)];
-      });
+
       setIndex((value) => Math.min(value + 1, session.length));
       setStartedAt(Date.now());
     },
-    [session, index, isExam, flipped, startedAt],
+    [session, index, isExam, flipped, mode, all, startedAt],
+
   );
 
   useEffect(() => {
@@ -304,6 +328,8 @@ export default function RevisionCenter({
               </div>
             </div>
             <p className="mt-5 text-sm text-ink-soft">{candidates.length} questions match.</p>
+            {mode === "adaptive" && !adaptiveQuestions && !adaptiveError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the approved adaptive question map…</p>}
+            {adaptiveError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{adaptiveError}</p>}
             <button onClick={start} disabled={!candidates.length} className="sm-btn mt-4 bg-orange px-6 py-3 text-white disabled:opacity-40">
               {isExam ? "Start exam" : "Start session"}
             </button>
@@ -336,6 +362,7 @@ export default function RevisionCenter({
               <span>{index + 1} of {session.length}</span>
             </div>
             <Flashcard
+              key={current.key}
               question={current.question}
               flipped={flipped}
               onFlip={() => setFlipped((value) => !value)}

@@ -4,7 +4,7 @@ export default async function PracticePage({
   searchParams,
 }: {
   searchParams: Promise<{
-    mode?: "mixed" | "flashcards" | "exam" | "bookmarks" | "due";
+    mode?: "adaptive" | "mixed" | "flashcards" | "exam" | "bookmarks" | "due";
     subject?: string;
     topic?: string;
     subtopic?: string;

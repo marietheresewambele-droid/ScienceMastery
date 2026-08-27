@@ -1,14 +1,7 @@
 "use client";
 
+import { getAdaptiveHints } from "@/lib/adaptive-engine";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
-
-function getHint(question: MasteryQuestion, level: number): string {
-  if (question.hints?.[level - 1]) return question.hints[level - 1];
-  if (question.markingPoints.length > 0) {
-    return question.markingPoints[Math.min(level - 1, question.markingPoints.length - 1)];
-  }
-  return `${question.marks} mark${question.marks === 1 ? "" : "s"} · ${question.assessmentObjective}`;
-}
 
 const ratingStyles: Record<ReviewRating, string> = {
   again: "bg-orange-dark hover:brightness-110",
@@ -33,6 +26,7 @@ interface FlashcardProps {
   onToggleBookmark: () => void;
   hintLevel: number;
   onHintLevelChange: (level: number) => void;
+
   onRate: (rating: ReviewRating, hintsUsed: number) => void;
 }
 
@@ -47,12 +41,15 @@ export default function Flashcard({
   onHintLevelChange,
   onRate,
 }: FlashcardProps) {
+  const hints = getAdaptiveHints(question);
+
   const clickable = !isExam || flipped;
 
   const handleCardClick = () => {
     if (!clickable) return;
     onFlip();
     onHintLevelChange(0);
+
   };
 
   return (
@@ -91,6 +88,7 @@ export default function Flashcard({
                 disabled={hintLevel >= 3}
                 className={`flex h-9 w-9 items-center justify-center rounded-full border-2 transition disabled:opacity-40 ${
                   hintLevel > 0
+
                     ? "border-ink bg-yellow-soft text-ink"
                     : "border-ink bg-card text-ink-soft hover:bg-yellow-soft"
                 }`}
@@ -130,7 +128,11 @@ export default function Flashcard({
               className="mt-4 rounded-xl border-2 border-ink bg-yellow-soft p-4 text-sm leading-6 text-ink"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint {hintLevel} of 3</p>
-              <p className="mt-1">{getHint(question, hintLevel)}</p>
+              <div className="mt-2 space-y-2">
+                {hints.slice(0, hintLevel).map((hint, index) => <p key={index}>{hint}</p>)}
+              </div>
+              {hintLevel < 3 && <p className="mt-2 text-xs font-semibold text-ink-soft">Tap the lightbulb again for more support.</p>}
+
             </div>
           )}
 

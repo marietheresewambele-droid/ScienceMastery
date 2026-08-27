@@ -43,6 +43,10 @@ export interface MasteryQuestion {
   parallelQuestionIds?: string[];
   harderQuestionIds?: string[];
   misconceptionIds?: string[];
+  databaseId?: string;
+  adaptiveHints?: [string, string, string];
+  adaptiveRelationships?: Partial<Record<"prerequisite" | "diagnostic" | "easier" | "parallel" | "harder", string>>;
+
 }
 
 export interface BiologySubtopicConfig {
