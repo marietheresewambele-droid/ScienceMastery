@@ -9,6 +9,7 @@ import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard from "@/components/flashcard/Flashcard";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
+import { adaptiveEngine } from "@/lib/adaptive";
 
 type Mode = "mixed" | "flashcards" | "exam" | "bookmarks" | "due";
 type Item = {
@@ -56,10 +57,13 @@ export default function RevisionCenter({
   const [flipped, setFlipped] = useState(false);
   const [version, setVersion] = useState(0);
   const [ready, setReady] = useState(false);
+  const [hintLevel, setHintLevel] = useState(0);
+  const [startedAt, setStartedAt] = useState(Date.now());
   const autoStarted = useRef(false);
   const homeHref = useHomeHref();
 
   useEffect(() => setReady(true), []);
+  const isExam = mode === "exam";
 
   const all = useMemo(() => {
     if (!ready) return [];
@@ -68,8 +72,7 @@ export default function RevisionCenter({
       const progress = readProgress(topic);
       return topic.questions.map((question) => {
         const review = progress.reviews[question.id];
-        return {
-          key: questionKey(topic.subject ?? "biology", topic.id, question.id),
+          return {
           topic,
           question,
           priority:
@@ -111,6 +114,8 @@ export default function RevisionCenter({
     setSession(next.slice(0, count));
     setIndex(0);
     setFlipped(false);
+    setHintLevel(0);
+    setStartedAt(Date.now());
   }, [candidates, count, order]);
 
   useEffect(() => {
@@ -121,15 +126,34 @@ export default function RevisionCenter({
   }, [skipSetup, ready, candidates.length, session.length, start]);
 
   const rate = useCallback(
-    (rating: ReviewRating) => {
+    (rating: ReviewRating, hintsUsed: number) => {
       const item = session[index];
       if (!item) return;
       saveRating(item.topic, item.question.id, rating);
+      const maxScore = item.question.marks;
+      const score = rating === "easy" || rating === "good" ? maxScore : rating === "hard" ? Math.max(0, maxScore - 1) : 0;
+      const evidence = {
+        question: item.question,
+        score,
+        maxScore,
+        confidence: rating === "easy" ? 4 : rating === "good" ? 3 : rating === "hard" ? 2 : 1,
+        hintsUsed,
+        fullAnswerViewed: isExam || flipped,
+        responseTimeMs: Date.now() - startedAt,
+      };
+      const routed = adaptiveEngine.selectNextQuestion(item.question, item.topic.questions, evidence);
+      adaptiveEngine.evaluateAttempt(evidence);
       setVersion((value) => value + 1);
       setFlipped(false);
+      setHintLevel(0);
+      setSession((currentSession) => {
+        if (!routed || currentSession.some((entry) => entry.question.id === routed.id)) return currentSession;
+        return [...currentSession.slice(0, index + 1), { ...item, question: routed, key: questionKey(item.topic.subject ?? "biology", item.topic.id, routed.id) }, ...currentSession.slice(index + 1)];
+      });
       setIndex((value) => Math.min(value + 1, session.length));
+      setStartedAt(Date.now());
     },
-    [session, index],
+    [session, index, isExam, flipped, startedAt],
   );
 
   useEffect(() => {
@@ -144,15 +168,15 @@ export default function RevisionCenter({
           (["again", "hard", "good", "easy"] as ReviewRating[])[
             Number(event.key) - 1
           ],
+          hintLevel,
         );
       }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [session, index, flipped, rate]);
+  }, [session, index, flipped, rate, hintLevel]);
 
   const current = session[index];
-  const isExam = mode === "exam";
   const showPicker = !session.length && (!skipSetup || (ready && candidates.length === 0));
 
   return (
@@ -321,6 +345,8 @@ export default function RevisionCenter({
                 toggleBookmark(current.topic, current.question.id);
                 setVersion((value) => value + 1);
               }}
+              hintLevel={hintLevel}
+              onHintLevelChange={setHintLevel}
               onRate={rate}
             />
           </section>

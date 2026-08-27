@@ -37,6 +37,12 @@ export interface MasteryQuestion {
   gradeDemand?: string;
   questionFamily?: string;
   originalSubtopic?: string;
+  hints?: [string, string, string];
+  prerequisiteIds?: string[];
+  easierQuestionIds?: string[];
+  parallelQuestionIds?: string[];
+  harderQuestionIds?: string[];
+  misconceptionIds?: string[];
 }
 
 export interface BiologySubtopicConfig {

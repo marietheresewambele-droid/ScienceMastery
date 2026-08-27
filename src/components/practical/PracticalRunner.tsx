@@ -8,6 +8,8 @@ import { getPractical, getPracticalQuestions } from "@/data/practicals/registry"
 import { getPracticalDiagram } from "@/data/practicals/diagrams";
 import PracticalDiagram from "@/components/practical/diagrams/PracticalDiagram";
 import type { ModeLayer } from "@/types/practical";
+import { adaptiveEngine } from "@/lib/adaptive";
+import type { MasteryQuestion } from "@/types/questions";
 
 type Phase = "intro" | "question" | "summary";
 
@@ -75,6 +77,24 @@ export default function PracticalRunner({ practicalId }: { practicalId: string }
   const currentQuestion = questions[questionIndex];
   const isLastQuestion = questionIndex === questions.length - 1;
   const isFirstOfLayer = questionIndex === 0 || questions[questionIndex - 1].modeLayer !== currentQuestion?.modeLayer;
+
+  const recordPracticalEvidence = (correct: boolean) => {
+    if (!currentQuestion) return;
+    const question: MasteryQuestion = {
+      id: currentQuestion.id,
+      subject: currentQuestion.subject,
+      topicSlug: practical.id,
+      topic: practical.title,
+      subtopic: currentQuestion.modeLayer,
+      question: currentQuestion.question,
+      marks: currentQuestion.marks,
+      assessmentObjective: currentQuestion.ao as MasteryQuestion["assessmentObjective"],
+      markingPoints: [],
+      modelAnswer: currentQuestion.modelAnswer,
+      questionFamily: currentQuestion.questionFamily,
+    };
+    adaptiveEngine.recordModeEvidence({ question, score: correct ? currentQuestion.marks : 0, maxScore: currentQuestion.marks, hintsUsed: hintLevel, fullAnswerViewed: true, responseTimeMs: 0 });
+  };
 
   const familyStats = Object.values(
     questions.reduce<Record<string, { family: string; total: number; correct: number }>>((acc, question) => {
@@ -225,7 +245,7 @@ export default function PracticalRunner({ practicalId }: { practicalId: string }
                   </div>
                   <div className="flex flex-wrap gap-3">
                     <button
-                      onClick={() => setSelfMarks((prev) => ({ ...prev, [currentQuestion.id]: true }))}
+                      onClick={() => { setSelfMarks((prev) => ({ ...prev, [currentQuestion.id]: true })); recordPracticalEvidence(true); }}
                       className={`rounded-lg border-2 border-ink px-4 py-2 text-sm font-bold transition ${
                         selfMarks[currentQuestion.id] === true ? "bg-moss text-white" : "bg-card text-ink-soft hover:bg-moss-soft"
                       }`}
@@ -233,7 +253,7 @@ export default function PracticalRunner({ practicalId }: { practicalId: string }
                       I got this right
                     </button>
                     <button
-                      onClick={() => setSelfMarks((prev) => ({ ...prev, [currentQuestion.id]: false }))}
+                      onClick={() => { setSelfMarks((prev) => ({ ...prev, [currentQuestion.id]: false })); recordPracticalEvidence(false); }}
                       className={`rounded-lg border-2 border-ink px-4 py-2 text-sm font-bold transition ${
                         selfMarks[currentQuestion.id] === false ? "bg-orange-dark text-white" : "bg-card text-ink-soft hover:bg-orange-soft"
                       }`}

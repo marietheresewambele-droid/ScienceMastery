@@ -8,15 +8,23 @@ import { readProgress } from "@/lib/progress";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Achievements from "@/components/revision/Achievements";
 import ExamCalendar from "@/components/revision/ExamCalendar";
+import { adaptiveEngine, aggregateMastery } from "@/lib/adaptive";
 
 export default function Dashboard() {
   const [ready, setReady] = useState(false);
+  const [dataVersion, setDataVersion] = useState(0);
   const homeHref = useHomeHref();
   useEffect(() => setReady(true), []);
+  useEffect(() => {
+    const refresh = () => setDataVersion((value) => value + 1);
+    window.addEventListener("sciencemastery:learning-updated", refresh);
+    return () => window.removeEventListener("sciencemastery:learning-updated", refresh);
+  }, []);
 
   const data = useMemo(() => {
     if (!ready) return null;
     const now = Date.now();
+    const adaptive = adaptiveEngine.getSnapshot();
     const topics = topicRegistry.map((topic) => {
       const p = readProgress(topic);
       const valid = new Set(topic.questions.map((q) => q.id));
@@ -27,6 +35,7 @@ export default function Dashboard() {
         topic,
         completed,
         bookmarks,
+        masteryPercent: aggregateMastery(adaptive, topic.questions)[`topic:${topic.id}`]?.masteryPercent ?? 0,
         due,
         total: topic.questions.length,
         percent: Math.round((completed / topic.questions.length) * 100),
@@ -35,6 +44,7 @@ export default function Dashboard() {
     const subjects = ["biology", "chemistry", "physics"].map((subject) => {
       const rows = topics.filter((x) => (x.topic.subject ?? "biology") === subject);
       return {
+        mastery: Math.round(rows.reduce((n, x) => n + x.masteryPercent * x.total, 0) / Math.max(1, rows.reduce((n, x) => n + x.total, 0))),
         subject,
         completed: rows.reduce((n, x) => n + x.completed, 0),
         total: rows.reduce((n, x) => n + x.total, 0),
@@ -53,7 +63,7 @@ export default function Dashboard() {
       weak: [...ranked].reverse()[0],
       next,
     };
-  }, [ready]);
+  }, [ready, dataVersion]);
 
   if (!data) return <main className="p-10 font-display">Loading your learning…</main>;
 
@@ -81,10 +91,10 @@ export default function Dashboard() {
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            ["Completed", `${data.completed} / ${data.total}`],
+            ["Due today", String(data.due)],
+            ["Secure mastery", `${Math.round(data.subjects.reduce((sum, subject) => sum + subject.mastery, 0) / data.subjects.length)}%`],
             ["Attempted", String(data.completed)],
             ["Bookmarked", String(data.bookmarks)],
-            ["Due today", String(data.due)],
           ].map(([l, v]) => (
             <article key={l} className="sm-panel-sm p-6">
               <p className="text-sm font-bold text-ink-soft">{l}</p>
@@ -100,10 +110,10 @@ export default function Dashboard() {
               <div key={s.subject} className="mt-5">
                 <div className="flex justify-between font-bold capitalize">
                   <span>{s.subject}</span>
-                  <span>{s.completed}/{s.total}</span>
+                  <span>{s.mastery}% secure · {s.completed}/{s.total}</span>
                 </div>
                 <div className="mt-2 h-3 rounded-full border-2 border-ink bg-cream-soft">
-                  <div className="h-full rounded-full bg-orange" style={{ width: `${(s.completed / s.total) * 100}%` }} />
+                  <div className="h-full rounded-full bg-orange transition-all" style={{ width: `${s.mastery}%` }} />
                 </div>
               </div>
             ))}

@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { getChallenge, getConnections, getStages } from "@/data/challenges/registry";
 import ConnectionMap from "@/components/challenge/ConnectionMap";
+import { adaptiveEngine } from "@/lib/adaptive";
+import type { MasteryQuestion } from "@/types/questions";
 
 type Phase = "intro" | "stage" | "final" | "reveal";
 
@@ -66,6 +68,25 @@ export default function ChallengeRunner({ challengeId }: { challengeId: string }
 
   const currentStage = stages[stageIndex];
   const isLastStage = stageIndex === stages.length - 1;
+
+  const recordChallengeEvidence = (connectionId: string, made: boolean) => {
+    const connection = connections.find((item) => item.id === connectionId);
+    if (!connection || !challenge) return;
+    const question: MasteryQuestion = {
+      id: connection.id,
+      subject: challenge.subject,
+      topicSlug: challenge.id,
+      topic: challenge.topic,
+      subtopic: "Challenge Me",
+      question: connection.evidenceRequired,
+      marks: connection.maxPoints,
+      assessmentObjective: "AO3",
+      markingPoints: [],
+      modelAnswer: connection.successFeedback,
+      questionFamily: connection.concept,
+    };
+    adaptiveEngine.recordModeEvidence({ question, score: made ? connection.maxPoints : 0, maxScore: connection.maxPoints, hintsUsed: hintLevel, fullAnswerViewed: phase === "reveal", responseTimeMs: 0 });
+  };
 
   const restart = () => {
     setPhase("intro");
@@ -232,7 +253,7 @@ export default function ChallengeRunner({ challengeId }: { challengeId: string }
               <ConnectionMap
                 connections={connections}
                 selfMarks={selfMarks}
-                onMark={(connectionId, made) => setSelfMarks((prev) => ({ ...prev, [connectionId]: made }))}
+                onMark={(connectionId, made) => { setSelfMarks((prev) => ({ ...prev, [connectionId]: made })); recordChallengeEvidence(connectionId, made); }}
               />
             </article>
 

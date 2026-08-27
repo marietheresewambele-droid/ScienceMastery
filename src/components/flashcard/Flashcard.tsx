@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
 
-function getHint(question: MasteryQuestion): string {
+function getHint(question: MasteryQuestion, level: number): string {
+  if (question.hints?.[level - 1]) return question.hints[level - 1];
   if (question.markingPoints.length > 0) {
-    return question.markingPoints[0];
+    return question.markingPoints[Math.min(level - 1, question.markingPoints.length - 1)];
   }
   return `${question.marks} mark${question.marks === 1 ? "" : "s"} · ${question.assessmentObjective}`;
 }
@@ -31,7 +31,9 @@ interface FlashcardProps {
   isExam: boolean;
   bookmarked: boolean;
   onToggleBookmark: () => void;
-  onRate: (rating: ReviewRating) => void;
+  hintLevel: number;
+  onHintLevelChange: (level: number) => void;
+  onRate: (rating: ReviewRating, hintsUsed: number) => void;
 }
 
 export default function Flashcard({
@@ -41,16 +43,16 @@ export default function Flashcard({
   isExam,
   bookmarked,
   onToggleBookmark,
+  hintLevel,
+  onHintLevelChange,
   onRate,
 }: FlashcardProps) {
-  const [showHint, setShowHint] = useState(false);
-
   const clickable = !isExam || flipped;
 
   const handleCardClick = () => {
     if (!clickable) return;
     onFlip();
-    setShowHint(false);
+    onHintLevelChange(0);
   };
 
   return (
@@ -80,14 +82,15 @@ export default function Flashcard({
             <div className="flex shrink-0 gap-2">
               <button
                 type="button"
-                aria-label={showHint ? "Hide hint" : "Show hint"}
-                aria-pressed={showHint}
+                aria-label={hintLevel >= 3 ? "Hints exhausted" : `Show hint ${hintLevel + 1}`}
+                aria-pressed={hintLevel > 0}
                 onClick={(event) => {
                   event.stopPropagation();
-                  setShowHint((value) => !value);
+                  onHintLevelChange(Math.min(3, hintLevel + 1));
                 }}
-                className={`flex h-9 w-9 items-center justify-center rounded-full border-2 transition ${
-                  showHint
+                disabled={hintLevel >= 3}
+                className={`flex h-9 w-9 items-center justify-center rounded-full border-2 transition disabled:opacity-40 ${
+                  hintLevel > 0
                     ? "border-ink bg-yellow-soft text-ink"
                     : "border-ink bg-card text-ink-soft hover:bg-yellow-soft"
                 }`}
@@ -121,13 +124,13 @@ export default function Flashcard({
 
           <h2 className="mt-5 font-display text-2xl font-bold leading-9 text-ink">{question.question}</h2>
 
-          {showHint && (
+          {hintLevel > 0 && (
             <div
               onClick={(event) => event.stopPropagation()}
               className="mt-4 rounded-xl border-2 border-ink bg-yellow-soft p-4 text-sm leading-6 text-ink"
             >
-              <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint</p>
-              <p className="mt-1">{getHint(question)}</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint {hintLevel} of 3</p>
+              <p className="mt-1">{getHint(question, hintLevel)}</p>
             </div>
           )}
 
@@ -204,7 +207,7 @@ export default function Flashcard({
                   type="button"
                   onClick={(event) => {
                     event.stopPropagation();
-                    onRate(rating);
+                    onRate(rating, hintLevel);
                   }}
                   className={`rounded-xl border-2 border-ink px-3 py-3 text-sm font-bold text-white transition ${ratingStyles[rating]}`}
                 >
