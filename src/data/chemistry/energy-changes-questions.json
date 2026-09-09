@@ -2,133 +2,124 @@
   "metadata": {
     "subtopics": [
       {
-        "title": "Energy Changes",
-        "questionCount": 41
+        "title": "T5 Energy Changes · 4.5.1.1",
+        "questionCount": 30
+      },
+      {
+        "title": "T5 Energy Changes · 4.5.1.2",
+        "questionCount": 11
+      },
+      {
+        "title": "T5 Energy Changes · 4.5.1.3",
+        "questionCount": 15
+      },
+      {
+        "title": "T5 Energy Changes · 4.5.2.1",
+        "questionCount": 8
+      },
+      {
+        "title": "T5 Energy Changes · 4.5.2.2",
+        "questionCount": 6
+      },
+      {
+        "title": "T5 Energy Changes · 4.5.2.3",
+        "questionCount": 8
+      },
+      {
+        "title": "T5 Energy Changes · WS 3.4",
+        "questionCount": 1
+      },
+      {
+        "title": "T5 Energy Changes · WS 3.7",
+        "questionCount": 1
       }
     ]
   },
   "questions": [
     {
-      "id": "T5-MQ001",
+      "id": "T5-EX5",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "Explain why neutralisation between a strong acid and strong alkali is exothermic using an ionic equation.",
+      "marks": 3,
+      "modelAnswer": "H⁺(aq) + OH⁻(aq) → H₂O(l).\nFormation of water releases energy to the surroundings, raising temperature.",
+      "markingPoints": [
+        "H⁺(aq) + OH⁻(aq) → H₂O(l).",
+        "Formation of water releases energy to the surroundings, raising temperature."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-explain",
+      "databaseId": "CHE-T5-EX5"
+    },
+    {
+      "id": "T5-MQ001-S1",
       "questionFamily": "T5 Energy Changes · 4.5.1.1 · State",
       "subtopic": "T5 Energy Changes · 4.5.1.1",
       "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
       "tier": "Both",
-      "question": "Define exothermic and endothermic reactions in terms of energy transfer and give two examples of each.\nState the sign of the surroundings’ temperature change.",
-      "marks": 8,
-      "modelAnswer": "Exothermic transfers energy from reaction mixture to surroundings.\nSurroundings warm, e.g. combustion, neutralisation, oxidation, many displacement reactions.\nEndothermic takes in energy from surroundings.\nSurroundings cool, e.g. thermal decomposition, citric acid plus hydrogencarbonate, some cold packs.\nEnergy is conserved.",
+      "question": "Define an exothermic reaction.",
+      "marks": 1,
+      "modelAnswer": "A reaction that transfers energy to the surroundings.",
       "markingPoints": [
-        "Exothermic transfers energy from reaction mixture to surroundings.",
-        "Surroundings warm, e.g. combustion, neutralisation, oxidation, many displacement reactions.",
-        "Endothermic takes in energy from surroundings.",
-        "Surroundings cool, e.g. thermal decomposition, citric acid plus hydrogencarbonate, some cold packs.",
-        "Energy is conserved."
+        "A reaction that transfers energy to the surroundings."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.5.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0FFZNY7",
-      "databaseId": "CHE-T5-MQ001",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ027",
-        "diagnostic": "CHE-T5-MQ027",
-        "easier": "CHE-T5-MQ027",
-        "parallel": "CHE-T5-MQ027",
-        "harder": "CHE-T5-MQ027"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-state",
+      "databaseId": "CHE-T5-MQ001-S1"
     },
     {
-      "id": "T5-MQ002",
-      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Calculate",
-      "subtopic": "T5 Energy Changes · 4.5.1.2",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "id": "T5-MQ001-S2",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · State",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
       "tier": "Both",
-      "question": "A reaction profile starts with reactants at 120 kJ/mol, rises to a peak at 280 kJ/mol and ends with products at 70 kJ/mol.\nPart (a): Calculate activation energy and overall energy change, identify reaction type.\nPart (b): Describe how a catalyst changes the profile.",
-      "marks": 8,
-      "modelAnswer": "Ea = 280 − 120 = 160 kJ/mol. ΔH = products − reactants = 70 − 120 = −50 kJ/mol.\nNegative ΔH means exothermic.\nCatalyst provides an alternative pathway with lower peak/Ea.\nIt does not change reactant/product energy or ΔH.",
+      "question": "Define an endothermic reaction.",
+      "marks": 1,
+      "modelAnswer": "A reaction that takes in energy from the surroundings.",
       "markingPoints": [
-        "Ea = 280 − 120 = 160 kJ/mol. ΔH = products − reactants = 70 − 120 = −50 kJ/mol.",
-        "Negative ΔH means exothermic.",
-        "Catalyst provides an alternative pathway with lower peak/Ea.",
-        "It does not change reactant/product energy or ΔH."
+        "A reaction that takes in energy from the surroundings."
       ],
-      "commandWord": "Calculate",
+      "commandWord": "State",
       "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.5.1.2",
+      "specificationReference": "4.5.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1XT49JN",
-      "databaseId": "CHE-T5-MQ002",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ017",
-        "diagnostic": "CHE-T5-MQ017",
-        "easier": "CHE-T5-MQ016",
-        "parallel": "CHE-T5-MQ016"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-state",
+      "databaseId": "CHE-T5-MQ001-S2"
     },
     {
-      "id": "T5-MQ003",
-      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
-      "tier": "Higher",
-      "question": "Explain energy changes in terms of bond breaking and bond making, including why a reaction is exothermic or endothermic.",
-      "marks": 5,
-      "modelAnswer": "Breaking bonds requires energy (endothermic).\nMaking bonds releases energy (exothermic).\nIf energy released making product bonds exceeds energy needed to break reactant bonds, reaction is exothermic.\nReverse gives endothermic.",
+      "id": "T5-MQ001-S3",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · State",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "State the temperature change of the surroundings in an exothermic reaction and an endothermic reaction.",
+      "marks": 2,
+      "modelAnswer": "In an exothermic reaction, the surroundings get warmer. In an endothermic reaction, the surroundings get cooler.",
       "markingPoints": [
-        "Breaking bonds requires energy (endothermic).",
-        "Making bonds releases energy (exothermic).",
-        "If energy released making product bonds exceeds energy needed to break reactant bonds, reaction is exothermic.",
-        "Reverse gives endothermic."
+        "In an exothermic reaction, the surroundings get warmer. In an endothermic reaction, the surroundings get cooler."
       ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.5.1.3",
-      "gradeDemand": "Grades 8–9",
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0ONQ94V",
-      "databaseId": "CHE-T5-MQ003",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-EX3",
-        "diagnostic": "CHE-T5-EX3",
-        "easier": "CHE-T5-EX3",
-        "parallel": "CHE-T5-EX3",
-        "harder": "CHE-T5-MQ018"
-      }
-    },
-    {
-      "id": "T5-MQ004",
-      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Calculate",
-      "subtopic": "T5 Energy Changes · 4.5.1.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
-      "tier": "Higher",
-      "question": "Use bond energies H–H = 436, Cl–Cl = 243 and H–Cl = 432 kJ/mol to calculate the energy change for H₂ + Cl₂ → 2HCl.\nState whether it is exothermic or endothermic and explain.",
-      "marks": 9,
-      "modelAnswer": "Energy to break = 436 + 243 = 679 kJ/mol.\nEnergy released making = 2 × 432 = 864 kJ/mol. ΔH = bonds broken − bonds formed = 679 − 864 = −185 kJ/mol.\nExothermic because more energy is released making bonds than absorbed breaking them.",
-      "markingPoints": [
-        "Energy to break = 436 + 243 = 679 kJ/mol.",
-        "Energy released making = 2 × 432 = 864 kJ/mol. ΔH = bonds broken − bonds formed = 679 − 864 = −185 kJ/mol.",
-        "Exothermic because more energy is released making bonds than absorbed breaking them."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.3",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0GFDT3W",
-      "databaseId": "CHE-T5-MQ004",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ007",
-        "diagnostic": "CHE-T5-MQ007",
-        "easier": "CHE-T5-MQ007",
-        "parallel": "CHE-T5-MQ007"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-state",
+      "databaseId": "CHE-T5-MQ001-S3"
     },
     {
       "id": "T5-MQ005",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Plan",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
       "subtopic": "T5 Energy Changes · 4.5.1.1",
       "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
       "tier": "Both",
@@ -143,17 +134,17 @@
         "Copper sulfate harmful.",
         "Insulation/lid reduces heat loss."
       ],
-      "commandWord": "Plan",
+      "commandWord": "Answer",
       "assessmentObjective": "AO3",
       "specificationReference": "4.5.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-18QDY4X",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
       "databaseId": "CHE-T5-MQ005"
     },
     {
       "id": "T5-MQ006",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Calculate",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
       "subtopic": "T5 Energy Changes · 4.5.1.1",
       "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
       "tier": "Both",
@@ -166,48 +157,13 @@
         "Half range = (12.6 − 12.4)/2 = ±0.1 °C (accept range 0.2 °C if stated).",
         "Lower value may result from heat loss to surroundings/apparatus, incomplete reaction, evaporation or delayed temperature reading."
       ],
-      "commandWord": "Calculate",
+      "commandWord": "Answer",
       "assessmentObjective": "AO2/AO3",
       "specificationReference": "4.5.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0RCS4YA",
-      "databaseId": "CHE-T5-MQ006",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ021",
-        "diagnostic": "CHE-T5-MQ021",
-        "easier": "CHE-T5-MQ021",
-        "parallel": "CHE-T5-MQ021"
-      }
-    },
-    {
-      "id": "T5-MQ007",
-      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Calculate",
-      "subtopic": "T5 Energy Changes · 4.5.1.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
-      "tier": "Higher",
-      "question": "50.0 g of solution increases by 14.0 °C.\nUse q = mcΔT and c = 4.18 J g⁻¹ °C⁻¹ to calculate energy transferred in kJ.\nIf 0.0250 mol reacts, calculate energy released per mole.",
-      "marks": 8,
-      "modelAnswer": "Q = 50.0 × 4.18 × 14.0 = 2926 J = 2.93 kJ.\nPer mole = 2.926/0.0250 = 117 kJ/mol released\nEnergy change would be written approximately −117 kJ/mol for the reaction.",
-      "markingPoints": [
-        "Q = 50.0 × 4.18 × 14.0 = 2926 J = 2.93 kJ.",
-        "Per mole = 2.926/0.0250 = 117 kJ/mol released",
-        "Energy change would be written approximately −117 kJ/mol for the reaction."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.3",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0GFDT3W",
-      "databaseId": "CHE-T5-MQ007",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ004",
-        "diagnostic": "CHE-T5-MQ004",
-        "easier": "CHE-T5-MQ004",
-        "parallel": "CHE-T5-MQ004",
-        "harder": "CHE-T5-MQ004"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ006"
     },
     {
       "id": "T5-MQ008",
@@ -232,14 +188,1058 @@
       "specificationReference": "4.5.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-MQ008",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-PD03",
-        "parallel": "CHE-T5-MQ014"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-explain",
+      "databaseId": "CHE-T5-MQ008"
+    },
+    {
+      "id": "T5-MQ013",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "A student compares temperature rise when equal masses of four fuels heat 100 cm³ water.\nIdentify the independent, dependent and four control variables.",
+      "marks": 6,
+      "modelAnswer": "Independent: fuel identity.\nDependent: temperature rise of water (or energy transferred).\nControls include volume/mass of water, starting temperature, distance flame-to-can, same container/apparatus, wick length/flame size, mass of fuel burned and heating time (depending on design).",
+      "markingPoints": [
+        "Independent: fuel identity.",
+        "Dependent: temperature rise of water (or energy transferred).",
+        "Controls include volume/mass of water, starting temperature, distance flame-to-can, same container/apparatus, wick length/flame size, mass of fuel burned and heating time (depending on design)."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ013"
+    },
+    {
+      "id": "T5-MQ014",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "A spirit burner experiment gives a lower energy per gram than a data-book value. Explain at least four reasons and how each could be reduced.",
+      "marks": 7,
+      "modelAnswer": "Heat lost to surroundings → insulate/use draught shield/lid.\nHeat absorbed by container → include calorimeter heat capacity/use low-mass container.\nIncomplete combustion/soot → improve oxygen supply.\nFuel evaporates between weighings → cap burner/weigh promptly.\nWater evaporation or inaccurate temperature/mass readings → lid/data logger/precise balance.\nReaction may not heat uniformly → stir.",
+      "markingPoints": [
+        "Heat lost to surroundings → insulate/use draught shield/lid.",
+        "Heat absorbed by container → include calorimeter heat capacity/use low-mass container.",
+        "Incomplete combustion/soot → improve oxygen supply.",
+        "Fuel evaporates between weighings → cap burner/weigh promptly.",
+        "Water evaporation or inaccurate temperature/mass readings → lid/data logger/precise balance.",
+        "Reaction may not heat uniformly → stir."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ014"
+    },
+    {
+      "id": "T5-MQ019",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "A reusable hand warmer crystallises a solution and becomes hot. Classify the change and explain the temperature rise.",
+      "marks": 5,
+      "modelAnswer": "Exothermic.\nEnergy is transferred from the chemical/physical change to the surroundings, increasing surroundings/warmer temperature.",
+      "markingPoints": [
+        "Exothermic.",
+        "Energy is transferred from the chemical/physical change to the surroundings, increasing surroundings/warmer temperature."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ019"
+    },
+    {
+      "id": "T5-MQ020",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "An instant cold pack cools when two substances mix. Classify the process and explain why the pack feels cold.",
+      "marks": 5,
+      "modelAnswer": "Endothermic.\nThe process takes in energy from the surroundings/skin, lowering their temperature.",
+      "markingPoints": [
+        "Endothermic.",
+        "The process takes in energy from the surroundings/skin, lowering their temperature."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ020"
+    },
+    {
+      "id": "T5-MQ021",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "Temperature rises from 20.0 to 34.5 °C then falls. Calculate ΔT and explain why the maximum should be used and why extrapolation may improve it.",
+      "marks": 6,
+      "modelAnswer": "ΔT=14.5 °C.\nMaximum best represents reaction heating before later cooling.\nExtrapolating cooling line back to mixing time estimates temperature without heat-loss effect.",
+      "markingPoints": [
+        "ΔT=14.5 °C.",
+        "Maximum best represents reaction heating before later cooling.",
+        "Extrapolating cooling line back to mixing time estimates temperature without heat-loss effect."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2/AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ021"
+    },
+    {
+      "id": "T5-MQ027",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "In a fuel experiment, state the dependent variable and three variables to control if comparing fuels fairly.",
+      "marks": 5,
+      "modelAnswer": "Dependent: temperature rise/energy transferred.\nControls: water mass/volume, starting temperature, burner-to-can distance, same container, fuel mass burned, wick length and draught conditions.",
+      "markingPoints": [
+        "Dependent: temperature rise/energy transferred.",
+        "Controls: water mass/volume, starting temperature, burner-to-can distance, same container, fuel mass burned, wick length and draught conditions."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ027"
+    },
+    {
+      "id": "T5-MQ028",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "An exothermic reaction appears to lose energy. Explain why this does not violate conservation of energy.",
+      "marks": 4,
+      "modelAnswer": "Energy is transferred from the reacting system to surroundings.\nTotal energy of system plus surroundings remains constant.",
+      "markingPoints": [
+        "Energy is transferred from the reacting system to surroundings.",
+        "Total energy of system plus surroundings remains constant."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ028"
+    },
+    {
+      "id": "T5-MQ032",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "Plan an investigation to find how changing the mass of calcium oxide affects the temperature change when it is added to water. Include the apparatus, method, control variables, repeats and how you would process the results.",
+      "marks": 6,
+      "modelAnswer": "Use an insulated polystyrene cup with a lid, thermometer/temperature probe, measuring cylinder, balance, water and calcium oxide. Measure a fixed volume of water and record its initial temperature. Add a measured mass of calcium oxide, fit the lid, stir and record the highest temperature. Calculate ΔT. Repeat with several different masses of calcium oxide, keeping the water volume, starting temperature, cup/lid, stirring and reading method the same. Repeat each mass, calculate a mean ΔT and identify anomalies. Wear eye protection because calcium oxide is irritant/corrosive; add it carefully to avoid splashes.",
+      "markingPoints": [
+        "Use an insulated polystyrene cup with a lid, thermometer/temperature probe, measuring cylinder, balance, water and calcium oxide. Measure a fixed volume of water and record its initial temperature. Add a measured mass of calcium oxide, fit the lid, stir and record the highest temperature. Calculate ΔT. Repeat with several different masses of calcium oxide, keeping the water volume, starting temperature, cup/lid, stirring and reading method the same. Repeat each mass, calculate a mean ΔT and identify anomalies. Wear eye protection because calcium oxide is irritant/corrosive; add it carefully to avoid splashes."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ032"
+    },
+    {
+      "id": "T5-MQ033",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "A self-heating can and an instant cold pack are both proposed for an outdoor event. State which type of energy change each needs, and explain how the temperature change of the surroundings tells you this.",
+      "marks": 4,
+      "modelAnswer": "A self-heating can needs an exothermic reaction, which transfers energy to the surroundings so they warm up.\nAn instant cold pack needs an endothermic reaction, which takes energy from the surroundings so they cool down.\nTemperature change of the surroundings distinguishes the two.",
+      "markingPoints": [
+        "A self-heating can needs an exothermic reaction, which transfers energy to the surroundings so they warm up.",
+        "An instant cold pack needs an endothermic reaction, which takes energy from the surroundings so they cool down.",
+        "Temperature change of the surroundings distinguishes the two."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ033"
+    },
+    {
+      "id": "T5-MQ039",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "A student says, ‘A reaction that warms the surroundings must have gained energy.’ Explain why this statement is wrong for an exothermic reaction.",
+      "marks": 3,
+      "modelAnswer": "An exothermic reaction transfers energy from the reaction mixture to the surroundings.\nThe surroundings warm because they gain energy.\nThe reacting chemicals lose energy overall, so the products are at a lower energy than the reactants.",
+      "markingPoints": [
+        "An exothermic reaction transfers energy from the reaction mixture to the surroundings.",
+        "The surroundings warm because they gain energy.",
+        "The reacting chemicals lose energy overall, so the products are at a lower energy than the reactants."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 4–6",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-MQ039"
+    },
+    {
+      "id": "T5-PD01",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "Plan an investigation to compare the temperature changes produced by three displacement reactions.",
+      "marks": 6,
+      "modelAnswer": "Use equal volumes and concentrations of metal-salt solution at the same starting temperature.\nAdd equal moles or standardised surface areas of metal.\nUse an insulated cup with lid.\nStir consistently.\nRecord maximum temperature.\nRepeat and calculate mean temperature change.\nWear eye protection.",
+      "markingPoints": [
+        "Use equal volumes and concentrations of metal-salt solution at the same starting temperature.",
+        "Add equal moles or standardised surface areas of metal.",
+        "Use an insulated cup with lid.",
+        "Stir consistently.",
+        "Record maximum temperature.",
+        "Repeat and calculate mean temperature change.",
+        "Wear eye protection."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-PD01"
+    },
+    {
+      "id": "T5-PD02",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "Explain why an insulated cup and lid improve a calorimetry investigation.",
+      "marks": 3,
+      "modelAnswer": "They reduce heat transfer to or from the surroundings and evaporation, so measured temperature change is closer to that caused by the reaction.",
+      "markingPoints": [
+        "They reduce heat transfer to or from the surroundings and evaporation, so measured temperature change is closer to that caused by the reaction."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-explain",
+      "databaseId": "CHE-T5-PD02"
+    },
+    {
+      "id": "T5-PD03",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "A reaction is repeated with twice the solution volume but the same reactant concentrations.\nExplain why comparing temperature changes may be misleading.",
+      "marks": 4,
+      "modelAnswer": "More reacting substance may release more energy, but a greater solution mass also requires more energy per degree.\nHeat loss and heat capacity differ, so amounts and apparatus must be controlled for a fair comparison.",
+      "markingPoints": [
+        "More reacting substance may release more energy, but a greater solution mass also requires more energy per degree.",
+        "Heat loss and heat capacity differ, so amounts and apparatus must be controlled for a fair comparison."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-PD03"
+    },
+    {
+      "id": "T5-PD04",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Both",
+      "question": "A student burns a fuel to heat water. The energy change they calculate is less exothermic than the value in a data book. Give two reasons for this difference.",
+      "marks": 2,
+      "modelAnswer": "Some energy is transferred to the surroundings or to the apparatus. Combustion may be incomplete. Fuel may evaporate or not burn completely.",
+      "markingPoints": [
+        "Some energy is transferred to the surroundings or to the apparatus. Combustion may be incomplete. Fuel may evaporate or not burn completely."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-PD04"
+    },
+    {
+      "id": "T5-QUIZ001",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "What happens to energy in chemical reactions?",
+      "marks": 1,
+      "modelAnswer": "Energy is conserved in chemical reactions.",
+      "markingPoints": [
+        "Energy is conserved in chemical reactions."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-QUIZ001"
+    },
+    {
+      "id": "T5-QUIZ002",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Compare",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Compare the energy in the reactants and the products if energy is transferred to the surroundings during the reaction?",
+      "marks": 1,
+      "modelAnswer": "The product molecules have less energy than the reactant molecules.",
+      "markingPoints": [
+        "The product molecules have less energy than the reactant molecules."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-compare",
+      "databaseId": "CHE-T5-QUIZ002"
+    },
+    {
+      "id": "T5-QUIZ003",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Compare",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Compare the energy in the reactants and the products if energy is transferred from the surroundings during the reaction?",
+      "marks": 1,
+      "modelAnswer": "The reactant molecules have less energy than the reactant molecules.",
+      "markingPoints": [
+        "The reactant molecules have less energy than the reactant molecules."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-compare",
+      "databaseId": "CHE-T5-QUIZ003"
+    },
+    {
+      "id": "T5-QUIZ004",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "What is an exothermic reaction?",
+      "marks": 1,
+      "modelAnswer": "A reaction that transfers energy to the surroundings, increasing the temperature of the surroundings.",
+      "markingPoints": [
+        "A reaction that transfers energy to the surroundings, increasing the temperature of the surroundings."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-QUIZ004"
+    },
+    {
+      "id": "T5-QUIZ005",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · State",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Give three examples of exothermic reactions?",
+      "marks": 1,
+      "modelAnswer": "Combustion, oxidation reactions and neutralisation reactions.",
+      "markingPoints": [
+        "Combustion, oxidation reactions and neutralisation reactions."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-state",
+      "databaseId": "CHE-T5-QUIZ005"
+    },
+    {
+      "id": "T5-QUIZ006",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "What is an endothermic reaction?",
+      "marks": 1,
+      "modelAnswer": "A reaction that transfers energy from the surroundings, decreasing the temperature of the surroundings.",
+      "markingPoints": [
+        "A reaction that transfers energy from the surroundings, decreasing the temperature of the surroundings."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-answer",
+      "databaseId": "CHE-T5-QUIZ006"
+    },
+    {
+      "id": "T5-QUIZ007",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · State",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Give three examples of endothermic reactions?",
+      "marks": 1,
+      "modelAnswer": "Thermal decomposition, the reaction between citric acid and sodium hydrogencarbonate and some sports injury packs.",
+      "markingPoints": [
+        "Thermal decomposition, the reaction between citric acid and sodium hydrogencarbonate and some sports injury packs."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-state",
+      "databaseId": "CHE-T5-QUIZ007"
+    },
+    {
+      "id": "T5-QUIZ008",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Describe",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Describe an experiment to measure the energy released by a neutralisation reaction?",
+      "marks": 1,
+      "modelAnswer": "Place 25mL of 0.25mol hydrochloric acid and 25mL of 0.25mol sodium hydroxide into separate beakers. Measure the temperature of both reagents and ensure they are equal. Place a polystyrene beaker in a large beaker and surround with cotton wool balls for insulation. Now add both chemicals to the polystyrene cup and cover with a lid with a thermometer through the middle. Measure the temperature of the mixture every 30 seconds and record the highest temperature reached. Repeat the experiment with 0.5mol and 1.0mol solutions. Plot the highest temperatures against concentration.",
+      "markingPoints": [
+        "Place 25mL of 0.25mol hydrochloric acid and 25mL of 0.25mol sodium hydroxide into separate beakers. Measure the temperature of both reagents and ensure they are equal. Place a polystyrene beaker in a large beaker and surround with cotton wool balls for insulation. Now add both chemicals to the polystyrene cup and cover with a lid with a thermometer through the middle. Measure the temperature of the mixture every 30 seconds and record the highest temperature reached. Repeat the experiment with 0.5mol and 1.0mol solutions. Plot the highest temperatures against concentration."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-describe",
+      "databaseId": "CHE-T5-QUIZ008"
+    },
+    {
+      "id": "T5-QZ01",
+      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Describe",
+      "subtopic": "T5 Energy Changes · 4.5.1.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Describe how you could measure the temperature change when an acid reacts with an alkali.",
+      "marks": 4,
+      "modelAnswer": "Measure a known volume of alkali in an insulated cup and record its starting temperature. Add a measured volume of acid, stir and record the highest or lowest temperature reached. Calculate the temperature change.",
+      "markingPoints": [
+        "Measure a known volume of alkali in an insulated cup and record its starting temperature. Add a measured volume of acid, stir and record the highest or lowest temperature reached. Calculate the temperature change."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.1",
+      "gradeDemand": "Medium",
+      "knowledgeType": "Required practical skills",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-1-describe",
+      "databaseId": "CHE-T5-QZ01"
+    },
+    {
+      "id": "T5-EX2",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Explain",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Both",
+      "question": "Explain the activation-energy shape on an exothermic reaction profile.",
+      "marks": 4,
+      "modelAnswer": "Reactants must first absorb enough energy to break/start weakening bonds and reach the transition state.\nProducts are lower in energy.\nMore energy is released forming product bonds than was taken in, so overall energy change is negative.",
+      "markingPoints": [
+        "Reactants must first absorb enough energy to break/start weakening bonds and reach the transition state.",
+        "Products are lower in energy.",
+        "More energy is released forming product bonds than was taken in, so overall energy change is negative."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-explain",
+      "databaseId": "CHE-T5-EX2"
+    },
+    {
+      "id": "T5-MQ002",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Both",
+      "question": "A reaction profile starts with reactants at 120 kJ/mol, rises to a peak at 280 kJ/mol and ends with products at 70 kJ/mol.\nPart (a): Calculate activation energy and overall energy change, identify reaction type.\nPart (b): Describe how a catalyst changes the profile.",
+      "marks": 8,
+      "modelAnswer": "Ea = 280 − 120 = 160 kJ/mol. ΔH = products − reactants = 70 − 120 = −50 kJ/mol.\nNegative ΔH means exothermic.\nCatalyst provides an alternative pathway with lower peak/Ea.\nIt does not change reactant/product energy or ΔH.",
+      "markingPoints": [
+        "Ea = 280 − 120 = 160 kJ/mol. ΔH = products − reactants = 70 − 120 = −50 kJ/mol.",
+        "Negative ΔH means exothermic.",
+        "Catalyst provides an alternative pathway with lower peak/Ea.",
+        "It does not change reactant/product energy or ΔH."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-answer",
+      "databaseId": "CHE-T5-MQ002"
+    },
+    {
+      "id": "T5-MQ016",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Both",
+      "question": "On an energy profile, reactants are at 80 kJ, products at 140 kJ and the peak at 260 kJ.\nCalculate ΔH and activation energy and identify the reaction type.",
+      "marks": 5,
+      "modelAnswer": "ΔH=140−80=+60 kJ, so endothermic.\nEa=260−80=180 kJ.",
+      "markingPoints": [
+        "ΔH=140−80=+60 kJ, so endothermic.",
+        "Ea=260−80=180 kJ."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-answer",
+      "databaseId": "CHE-T5-MQ016"
+    },
+    {
+      "id": "T5-MQ017",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Both",
+      "question": "A catalyst lowers a profile peak from 210 to 150 kJ while reactants remain at 70 kJ.\nCalculate both activation energies and state what does not change.",
+      "marks": 4,
+      "modelAnswer": "Uncatalysed Ea=140 kJ\nCatalysed Ea=80 kJ.\nReactant/product energies and overall ΔH do not change.",
+      "markingPoints": [
+        "Uncatalysed Ea=140 kJ",
+        "Catalysed Ea=80 kJ.",
+        "Reactant/product energies and overall ΔH do not change."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-answer",
+      "databaseId": "CHE-T5-MQ017"
+    },
+    {
+      "id": "T5-MQ031",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · State",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Both",
+      "question": "Draw an energy profile for an exothermic reaction. Label the reactants, products, activation energy and overall energy change.",
+      "marks": 4,
+      "modelAnswer": "The products are at a lower energy level than the reactants. Draw a peak above the reactants. Label the vertical rise from reactants to the peak as activation energy. Label the vertical drop from reactants to products as the overall energy change, ΔH; it is negative for an exothermic reaction.",
+      "markingPoints": [
+        "The products are at a lower energy level than the reactants. Draw a peak above the reactants. Label the vertical rise from reactants to the peak as activation energy. Label the vertical drop from reactants to products as the overall energy change, ΔH; it is negative for an exothermic reaction."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-state",
+      "databaseId": "CHE-T5-MQ031"
+    },
+    {
+      "id": "T5-MQ036",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · State",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Both",
+      "question": "Draw an energy profile for an endothermic reaction. Label reactants, products, activation energy and overall energy change. State why the products are higher than the reactants.",
+      "marks": 5,
+      "modelAnswer": "Products are drawn at a higher energy level than reactants, with a peak above both.\nThe rise from reactants to the peak is labelled activation energy.\nThe rise from reactants to products is the overall energy change and is positive.\nProducts are higher because energy has been taken in from the surroundings overall.",
+      "markingPoints": [
+        "Products are drawn at a higher energy level than reactants, with a peak above both.",
+        "The rise from reactants to the peak is labelled activation energy.",
+        "The rise from reactants to products is the overall energy change and is positive.",
+        "Products are higher because energy has been taken in from the surroundings overall."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-state",
+      "databaseId": "CHE-T5-MQ036"
+    },
+    {
+      "id": "T5-MQ038",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · State",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Both",
+      "question": "Define activation energy. Two reactions have the same reactant and product energy levels, but reaction A has a lower activation energy than reaction B. State which is likely to be faster and explain why.",
+      "marks": 3,
+      "modelAnswer": "Activation energy is the minimum energy that reacting particles need for a reaction to occur.\nReaction A is likely to be faster because more collisions have sufficient energy to react when the activation energy is lower.",
+      "markingPoints": [
+        "Activation energy is the minimum energy that reacting particles need for a reaction to occur.",
+        "Reaction A is likely to be faster because more collisions have sufficient energy to react when the activation energy is lower."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-state",
+      "databaseId": "CHE-T5-MQ038"
+    },
+    {
+      "id": "T5-QUIZ009",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Describe",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Foundation and Higher",
+      "question": "Describe how chemical reactions can occur between particles?",
+      "marks": 1,
+      "modelAnswer": "A chemical reaction occurs when particles collide with each with sufficient energy.",
+      "markingPoints": [
+        "A chemical reaction occurs when particles collide with each with sufficient energy."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-describe",
+      "databaseId": "CHE-T5-QUIZ009"
+    },
+    {
+      "id": "T5-QUIZ010",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What is activation energy?",
+      "marks": 1,
+      "modelAnswer": "The minimum amount of energy the particles must have for a reaction to take place.",
+      "markingPoints": [
+        "The minimum amount of energy the particles must have for a reaction to take place."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-answer",
+      "databaseId": "CHE-T5-QUIZ010"
+    },
+    {
+      "id": "T5-QUIZ011",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What is a reaction profile?",
+      "marks": 1,
+      "modelAnswer": "A graph to show the change in energy between reactants and products over the course of a reaction.",
+      "markingPoints": [
+        "A graph to show the change in energy between reactants and products over the course of a reaction."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-answer",
+      "databaseId": "CHE-T5-QUIZ011"
+    },
+    {
+      "id": "T5-QUIZ012",
+      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What is represented by X in the following diagrams?",
+      "marks": 1,
+      "modelAnswer": "Activation energy",
+      "markingPoints": [
+        "Activation energy"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-2-answer",
+      "databaseId": "CHE-T5-QUIZ012"
+    },
+    {
+      "id": "T5-EX3",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Both",
+      "question": "A student burns fuel to heat water. Explain why the experimental energy change is usually less exothermic than the data-book value.",
+      "marks": 4,
+      "modelAnswer": "Energy is lost to surroundings and apparatus.\nCombustion may be incomplete.\nFuel may evaporate.\nNot all released energy heats the water.",
+      "markingPoints": [
+        "Energy is lost to surroundings and apparatus.",
+        "Combustion may be incomplete.",
+        "Fuel may evaporate.",
+        "Not all released energy heats the water."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-EX3"
+    },
+    {
+      "id": "T5-MQ003",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Explain",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Higher",
+      "question": "Explain energy changes in terms of bond breaking and bond making, including why a reaction is exothermic or endothermic.",
+      "marks": 5,
+      "modelAnswer": "Breaking bonds requires energy (endothermic).\nMaking bonds releases energy (exothermic).\nIf energy released making product bonds exceeds energy needed to break reactant bonds, reaction is exothermic.\nReverse gives endothermic.",
+      "markingPoints": [
+        "Breaking bonds requires energy (endothermic).",
+        "Making bonds releases energy (exothermic).",
+        "If energy released making product bonds exceeds energy needed to break reactant bonds, reaction is exothermic.",
+        "Reverse gives endothermic."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-explain",
+      "databaseId": "CHE-T5-MQ003"
+    },
+    {
+      "id": "T5-MQ004",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Higher",
+      "question": "Use bond energies H–H = 436, Cl–Cl = 243 and H–Cl = 432 kJ/mol to calculate the energy change for H₂ + Cl₂ → 2HCl.\nState whether it is exothermic or endothermic and explain.",
+      "marks": 9,
+      "modelAnswer": "Energy to break = 436 + 243 = 679 kJ/mol.\nEnergy released making = 2 × 432 = 864 kJ/mol. ΔH = bonds broken − bonds formed = 679 − 864 = −185 kJ/mol.\nExothermic because more energy is released making bonds than absorbed breaking them.",
+      "markingPoints": [
+        "Energy to break = 436 + 243 = 679 kJ/mol.",
+        "Energy released making = 2 × 432 = 864 kJ/mol. ΔH = bonds broken − bonds formed = 679 − 864 = −185 kJ/mol.",
+        "Exothermic because more energy is released making bonds than absorbed breaking them."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-MQ004"
+    },
+    {
+      "id": "T5-MQ007",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Higher",
+      "question": "50.0 g of solution increases by 14.0 °C.\nUse q = mcΔT and c = 4.18 J g⁻¹ °C⁻¹ to calculate energy transferred in kJ.\nIf 0.0250 mol reacts, calculate energy released per mole.",
+      "marks": 8,
+      "modelAnswer": "Q = 50.0 × 4.18 × 14.0 = 2926 J = 2.93 kJ.\nPer mole = 2.926/0.0250 = 117 kJ/mol released\nEnergy change would be written approximately −117 kJ/mol for the reaction.",
+      "markingPoints": [
+        "Q = 50.0 × 4.18 × 14.0 = 2926 J = 2.93 kJ.",
+        "Per mole = 2.926/0.0250 = 117 kJ/mol released",
+        "Energy change would be written approximately −117 kJ/mol for the reaction."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-MQ007"
+    },
+    {
+      "id": "T5-MQ018",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Higher",
+      "question": "The forward reaction has ΔH = −92 kJ/mol. State ΔH for the reverse reaction and explain.",
+      "marks": 6,
+      "modelAnswer": "+92 kJ/mol.\nReversing swaps bonds broken/made and reverses energy transfer.\nMagnitude is unchanged, sign reverses.",
+      "markingPoints": [
+        "+92 kJ/mol.",
+        "Reversing swaps bonds broken/made and reverses energy transfer.",
+        "Magnitude is unchanged, sign reverses."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-MQ018"
+    },
+    {
+      "id": "T5-MQ029",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Explain",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Higher",
+      "question": "Explain why a ΔH calculated from mean bond energies may differ from an experimental value.",
+      "marks": 5,
+      "modelAnswer": "Mean bond energies are averages across different compounds/environments and mainly apply to gaseous bonds.\nActual bond energies and experimental heat losses/conditions differ.",
+      "markingPoints": [
+        "Mean bond energies are averages across different compounds/environments and mainly apply to gaseous bonds.",
+        "Actual bond energies and experimental heat losses/conditions differ."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-explain",
+      "databaseId": "CHE-T5-MQ029"
+    },
+    {
+      "id": "T5-QUIZ013",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Describe",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "Describe a chemical reaction in terms of energy and bonds?",
+      "marks": 1,
+      "modelAnswer": "Energy needs to be supplied to break bonds in the reactants. Energy is released when bonds in the products are formed.",
+      "markingPoints": [
+        "Energy needs to be supplied to break bonds in the reactants. Energy is released when bonds in the products are formed."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-describe",
+      "databaseId": "CHE-T5-QUIZ013"
+    },
+    {
+      "id": "T5-QUIZ014",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "What is the bond energy of a molecule?",
+      "marks": 1,
+      "modelAnswer": "The energy needed to break or form bonds between atoms.",
+      "markingPoints": [
+        "The energy needed to break or form bonds between atoms."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-QUIZ014"
+    },
+    {
+      "id": "T5-QUIZ015",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "What reaction occurs when bonds are broken?",
+      "marks": 1,
+      "modelAnswer": "Endothermic",
+      "markingPoints": [
+        "Endothermic"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-QUIZ015"
+    },
+    {
+      "id": "T5-QUIZ016",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "What reaction occurs when bonds are made?",
+      "marks": 1,
+      "modelAnswer": "Exothermic",
+      "markingPoints": [
+        "Exothermic"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-QUIZ016"
+    },
+    {
+      "id": "T5-QUIZ017",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "How do you calculate the overall energy change for a reaction?",
+      "marks": 1,
+      "modelAnswer": "Calculate the difference between the sum of the energy needed to break the bonds of the reactants and the sum of the energy released when bonds of the products are formed.",
+      "markingPoints": [
+        "Calculate the difference between the sum of the energy needed to break the bonds of the reactants and the sum of the energy released when bonds of the products are formed."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-QUIZ017"
+    },
+    {
+      "id": "T5-QUIZ018",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "What is the overall energy change for an exothermic reaction?",
+      "marks": 1,
+      "modelAnswer": "The energy released from forming new bonds is greater than the energy needed to break existing bonds (e.g. the products have less energy than the reactants).",
+      "markingPoints": [
+        "The energy released from forming new bonds is greater than the energy needed to break existing bonds (e.g. the products have less energy than the reactants)."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-QUIZ018"
+    },
+    {
+      "id": "T5-QUIZ019",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "What is the overall energy change for an endothermic reaction?",
+      "marks": 1,
+      "modelAnswer": "The energy needed to break existing bonds is greater than the energy needed to break existing bonds (e.g. the products have more energy than the reactants).",
+      "markingPoints": [
+        "The energy needed to break existing bonds is greater than the energy needed to break existing bonds (e.g. the products have more energy than the reactants)."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-answer",
+      "databaseId": "CHE-T5-QUIZ019"
+    },
+    {
+      "id": "T5-QUIZ020",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Calculate",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "Calculate the overall energy change for the following reaction: H2 + Cl2 → 2HCl. Bond energies: H-H = 436 kj/ mol, Cl-Cl = 243 kJ/mol and H-Cl = 432 kJ/mol. State if the reaction is endothermic or exothermic?",
+      "marks": 1,
+      "modelAnswer": "Energy in = 436 (H-H) + 243 (Cl-Cl ) = 679kJ/mol. Energy out = (2 x 432)(2 x H -Cl) = 864kJ/mol; Energy change = energy in - energy out = 679 - 864 = -185kJ/mol; the energy change is negative so the reaction is exothermic.",
+      "markingPoints": [
+        "Energy in = 436 (H-H) + 243 (Cl-Cl ) = 679kJ/mol. Energy out = (2 x 432)(2 x H -Cl) = 864kJ/mol; Energy change = energy in - energy out = 679 - 864 = -185kJ/mol; the energy change is negative so the reaction is exothermic."
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-calculate",
+      "databaseId": "CHE-T5-QUIZ020"
+    },
+    {
+      "id": "T5-QUIZ021",
+      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Calculate",
+      "subtopic": "T5 Energy Changes · 4.5.1.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
+      "tier": "Foundation and Higher",
+      "question": "Calculate the overall energy change for the following reaction: 2HBr → H2 + Br2. Bond energies: H-H = 436 kJ/mol, Br-Br = 193 kJ/mol and H-Br = 366 kJ/mol. State if the reaction is endothermic or exothermic?",
+      "marks": 1,
+      "modelAnswer": "Energy in = (2 x 366)(2 x H-Br) = 732 kJ/mol; Energy out = 436 (H-H) + 193 (Br-Br) = 629kJ/mol; Energy change = energy in - energy out = 732 - 629 = + 103kJ/mol; the energy change is positive so the reaction is endothermic.",
+      "markingPoints": [
+        "Energy in = (2 x 366)(2 x H-Br) = 732 kJ/mol; Energy out = 436 (H-H) + 193 (Br-Br) = 629kJ/mol; Energy change = energy in - energy out = 732 - 629 = + 103kJ/mol; the energy change is positive so the reaction is endothermic."
+      ],
+      "commandWord": "Calculate",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-1-3-calculate",
+      "databaseId": "CHE-T5-QUIZ021"
+    },
+    {
+      "id": "T5-EX1",
+      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
+      "tier": "Higher",
+      "question": "Using bond energies H–H=436, Cl–Cl=243 and H–Cl=431 kJ/mol, calculate ΔH for H₂ + Cl₂ → 2HCl.",
+      "marks": 4,
+      "modelAnswer": "Bonds broken = 436 + 243 = 679.\nBonds formed = 2 × 431 = 862. ΔH = broken − formed = 679 − 862 = −183 kJ/mol, exothermic.",
+      "markingPoints": [
+        "Bonds broken = 436 + 243 = 679.",
+        "Bonds formed = 2 × 431 = 862. ΔH = broken − formed = 679 − 862 = −183 kJ/mol, exothermic."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-answer",
+      "databaseId": "CHE-T5-EX1"
     },
     {
       "id": "T5-MQ009",
@@ -262,12 +1262,12 @@
       "specificationReference": "4.5.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1E04NB8",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-explain",
       "databaseId": "CHE-T5-MQ009"
     },
     {
       "id": "T5-MQ010",
-      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Compare",
+      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Answer",
       "subtopic": "T5 Energy Changes · 4.5.2.1",
       "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
       "tier": "Both",
@@ -283,13 +1283,143 @@
         "Control temperature, electrode area, separation, electrolyte and concentration.",
         "Highest voltage expected from Mg/Cu because greatest reactivity difference."
       ],
-      "commandWord": "Compare",
+      "commandWord": "Answer",
       "assessmentObjective": "AO3",
       "specificationReference": "4.5.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0XHO7CS",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-answer",
       "databaseId": "CHE-T5-MQ010"
+    },
+    {
+      "id": "T5-MQ022",
+      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
+      "tier": "Both",
+      "question": "A zinc and copper cell is connected to a voltmeter. State electron direction and identify the more negative electrode.",
+      "marks": 5,
+      "modelAnswer": "Zinc is more reactive and oxidises.\nElectrons flow from zinc to copper through the circuit.\nZinc is the negative electrode in the discharging cell.",
+      "markingPoints": [
+        "Zinc is more reactive and oxidises.",
+        "Electrons flow from zinc to copper through the circuit.",
+        "Zinc is the negative electrode in the discharging cell."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.5.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-answer",
+      "databaseId": "CHE-T5-MQ022"
+    },
+    {
+      "id": "T5-MQ023",
+      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
+      "tier": "Both",
+      "question": "A student changes electrolyte concentration and voltage changes. State two controls needed for a valid investigation.",
+      "marks": 4,
+      "modelAnswer": "Keep electrode materials, surface area/cleanliness, separation/depth, electrolyte identity/volume and temperature constant.\nChange concentration only.\nAny two.",
+      "markingPoints": [
+        "Keep electrode materials, surface area/cleanliness, separation/depth, electrolyte identity/volume and temperature constant.",
+        "Change concentration only.",
+        "Any two."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-answer",
+      "databaseId": "CHE-T5-MQ023"
+    },
+    {
+      "id": "T5-MQ034",
+      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
+      "tier": "Both",
+      "question": "Two identical 1.5 V cells are connected in series. State the total voltage. Explain why a rechargeable cell can be used again but an alkaline non-rechargeable cell cannot.",
+      "marks": 4,
+      "modelAnswer": "Total voltage = 3.0 V.\nRechargeable cells can be recharged because an external electrical current reverses the chemical reactions.\nIn an alkaline non-rechargeable cell, the reactions stop when a reactant has been used up and are not reversed for re-use.",
+      "markingPoints": [
+        "Total voltage = 3.0 V.",
+        "Rechargeable cells can be recharged because an external electrical current reverses the chemical reactions.",
+        "In an alkaline non-rechargeable cell, the reactions stop when a reactant has been used up and are not reversed for re-use."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.2.1",
+      "gradeDemand": "Grades 4–6",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-answer",
+      "databaseId": "CHE-T5-MQ034"
+    },
+    {
+      "id": "T5-MQ037",
+      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
+      "tier": "Both",
+      "question": "A simple cell is made with magnesium and copper electrodes in an electrolyte. Predict which metal is the negative electrode and explain why changing one electrode can change the voltage.",
+      "marks": 4,
+      "modelAnswer": "Magnesium is the negative electrode because it is more reactive and loses electrons more readily than copper.\nElectrons travel through the external circuit from magnesium towards copper.\nChanging an electrode changes the difference in reactivity between the metals, so it can change the potential difference/voltage.",
+      "markingPoints": [
+        "Magnesium is the negative electrode because it is more reactive and loses electrons more readily than copper.",
+        "Electrons travel through the external circuit from magnesium towards copper.",
+        "Changing an electrode changes the difference in reactivity between the metals, so it can change the potential difference/voltage."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.2.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-answer",
+      "databaseId": "CHE-T5-MQ037"
+    },
+    {
+      "id": "T5-QZ02",
+      "questionFamily": "T5 Energy Changes · 4.5.2.1 · State",
+      "subtopic": "T5 Energy Changes · 4.5.2.1",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
+      "tier": "Higher only",
+      "question": "State what happens to energy when chemical bonds are broken and when chemical bonds are formed.",
+      "marks": 2,
+      "modelAnswer": "Energy is taken in to break bonds. Energy is released when bonds form.",
+      "markingPoints": [
+        "Energy is taken in to break bonds. Energy is released when bonds form."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.2.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Bond energies",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-1-state",
+      "databaseId": "CHE-T5-QZ02"
+    },
+    {
+      "id": "T5-EX4",
+      "questionFamily": "T5 Energy Changes · 4.5.2.2 · Compare",
+      "subtopic": "T5 Energy Changes · 4.5.2.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.2",
+      "tier": "Chemistry only",
+      "question": "Compare a hydrogen fuel cell with a rechargeable battery for a vehicle.",
+      "marks": 6,
+      "modelAnswer": "Fuel cell operates while hydrogen/oxygen supplied, produces water at use and can refuel quickly, but hydrogen production/storage and infrastructure have costs and risks.\nBattery can be recharged using electricity and has established technology, but charging takes time, has limited range/mass and material impacts.\nJudge using source of hydrogen/electricity.",
+      "markingPoints": [
+        "Fuel cell operates while hydrogen/oxygen supplied, produces water at use and can refuel quickly, but hydrogen production/storage and infrastructure have costs and risks.",
+        "Battery can be recharged using electricity and has established technology, but charging takes time, has limited range/mass and material impacts.",
+        "Judge using source of hydrogen/electricity."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.2.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-2-compare",
+      "databaseId": "CHE-T5-EX4"
     },
     {
       "id": "T5-MQ011",
@@ -311,351 +1441,8 @@
       "specificationReference": "4.5.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1Y8JOSL",
-      "databaseId": "CHE-T5-MQ011",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-EX4",
-        "diagnostic": "CHE-T5-EX4",
-        "easier": "CHE-T5-EX4",
-        "parallel": "CHE-T5-EX4",
-        "harder": "CHE-T5-EX4"
-      }
-    },
-    {
-      "id": "T5-MQ012",
-      "questionFamily": "T5 Energy Changes · 4.5.2.3 · Evaluate",
-      "subtopic": "T5 Energy Changes · 4.5.2.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
-      "tier": "Both",
-      "question": "Explain how a hydrogen–oxygen fuel cell works. Give the overall equation and evaluate two advantages and two disadvantages for vehicles.",
-      "marks": 8,
-      "modelAnswer": "Hydrogen and oxygen are supplied continuously.\nRedox reactions transfer electrons through external circuit, producing potential difference.\nOverall: 2H₂ + O₂ → 2H₂O.\nAdvantages: water at point of use, rapid refuelling, continuous operation while fuel supplied.\nDisadvantages: hydrogen manufacture may use fossil fuels/energy, storage is difficult (low density/high pressure), flammable, limited infrastructure/cost.\nConclusion depends on hydrogen source.",
-      "markingPoints": [
-        "Hydrogen and oxygen are supplied continuously.",
-        "Redox reactions transfer electrons through external circuit, producing potential difference.",
-        "Overall: 2H₂ + O₂ → 2H₂O.",
-        "Advantages: water at point of use, rapid refuelling, continuous operation while fuel supplied.",
-        "Disadvantages: hydrogen manufacture may use fossil fuels/energy, storage is difficult (low density/high pressure), flammable, limited infrastructure/cost.",
-        "Conclusion depends on hydrogen source."
-      ],
-      "commandWord": "Evaluate",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.5.2.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-15G8TBK",
-      "databaseId": "CHE-T5-MQ012"
-    },
-    {
-      "id": "T5-MQ013",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Identify",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "A student compares temperature rise when equal masses of four fuels heat 100 cm³ water.\nIdentify the independent, dependent and four control variables.",
-      "marks": 6,
-      "modelAnswer": "Independent: fuel identity.\nDependent: temperature rise of water (or energy transferred).\nControls include volume/mass of water, starting temperature, distance flame-to-can, same container/apparatus, wick length/flame size, mass of fuel burned and heating time (depending on design).",
-      "markingPoints": [
-        "Independent: fuel identity.",
-        "Dependent: temperature rise of water (or energy transferred).",
-        "Controls include volume/mass of water, starting temperature, distance flame-to-can, same container/apparatus, wick length/flame size, mass of fuel burned and heating time (depending on design)."
-      ],
-      "commandWord": "Identify",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-1GJEPSE",
-      "databaseId": "CHE-T5-MQ013"
-    },
-    {
-      "id": "T5-MQ014",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "A spirit burner experiment gives a lower energy per gram than a data-book value. Explain at least four reasons and how each could be reduced.",
-      "marks": 7,
-      "modelAnswer": "Heat lost to surroundings → insulate/use draught shield/lid.\nHeat absorbed by container → include calorimeter heat capacity/use low-mass container.\nIncomplete combustion/soot → improve oxygen supply.\nFuel evaporates between weighings → cap burner/weigh promptly.\nWater evaporation or inaccurate temperature/mass readings → lid/data logger/precise balance.\nReaction may not heat uniformly → stir.",
-      "markingPoints": [
-        "Heat lost to surroundings → insulate/use draught shield/lid.",
-        "Heat absorbed by container → include calorimeter heat capacity/use low-mass container.",
-        "Incomplete combustion/soot → improve oxygen supply.",
-        "Fuel evaporates between weighings → cap burner/weigh promptly.",
-        "Water evaporation or inaccurate temperature/mass readings → lid/data logger/precise balance.",
-        "Reaction may not heat uniformly → stir."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-MQ014",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-PD03",
-        "parallel": "CHE-T5-MQ008"
-      }
-    },
-    {
-      "id": "T5-MQ015",
-      "questionFamily": "T5 Energy Changes · 4.5.2.3 · Compare",
-      "subtopic": "T5 Energy Changes · 4.5.2.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
-      "tier": "Both",
-      "question": "A remote sensor needs a power source for five years with little maintenance.\nPart (a): Compare a disposable battery, rechargeable battery and hydrogen fuel cell.\nPart (b): Give a justified recommendation.",
-      "marks": 8,
-      "modelAnswer": "Consider lifetime/capacity, ability to recharge, fuel supply, energy density, reliability, mass/size, cost, environmental impact and operating conditions.\nDisposable may be simple but creates waste and may run out.\nRechargeable reduces replacements but needs charging source and degrades.\nFuel cell can run while fuel supplied but needs storage/infrastructure.\nRecommendation must use the remote/no-maintenance context and evidence, not a generic claim.",
-      "markingPoints": [
-        "Consider lifetime/capacity, ability to recharge, fuel supply, energy density, reliability, mass/size, cost, environmental impact and operating conditions.",
-        "Disposable may be simple but creates waste and may run out.",
-        "Rechargeable reduces replacements but needs charging source and degrades.",
-        "Fuel cell can run while fuel supplied but needs storage/infrastructure.",
-        "Recommendation must use the remote/no-maintenance context and evidence, not a generic claim."
-      ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.2.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0PL52M6",
-      "databaseId": "CHE-T5-MQ015",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ026",
-        "diagnostic": "CHE-T5-MQ026",
-        "easier": "CHE-T5-MQ026",
-        "parallel": "CHE-T5-MQ026"
-      }
-    },
-    {
-      "id": "T5-MQ016",
-      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Calculate",
-      "subtopic": "T5 Energy Changes · 4.5.1.2",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
-      "tier": "Both",
-      "question": "On an energy profile, reactants are at 80 kJ, products at 140 kJ and the peak at 260 kJ.\nCalculate ΔH and activation energy and identify the reaction type.",
-      "marks": 5,
-      "modelAnswer": "ΔH=140−80=+60 kJ, so endothermic.\nEa=260−80=180 kJ.",
-      "markingPoints": [
-        "ΔH=140−80=+60 kJ, so endothermic.",
-        "Ea=260−80=180 kJ."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1XT49JN",
-      "databaseId": "CHE-T5-MQ016",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ017",
-        "diagnostic": "CHE-T5-MQ017",
-        "easier": "CHE-T5-MQ017",
-        "parallel": "CHE-T5-MQ002",
-        "harder": "CHE-T5-MQ002"
-      }
-    },
-    {
-      "id": "T5-MQ017",
-      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Calculate",
-      "subtopic": "T5 Energy Changes · 4.5.1.2",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
-      "tier": "Both",
-      "question": "A catalyst lowers a profile peak from 210 to 150 kJ while reactants remain at 70 kJ.\nCalculate both activation energies and state what does not change.",
-      "marks": 4,
-      "modelAnswer": "Uncatalysed Ea=140 kJ\nCatalysed Ea=80 kJ.\nReactant/product energies and overall ΔH do not change.",
-      "markingPoints": [
-        "Uncatalysed Ea=140 kJ",
-        "Catalysed Ea=80 kJ.",
-        "Reactant/product energies and overall ΔH do not change."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.5.1.2",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1XT49JN",
-      "databaseId": "CHE-T5-MQ017",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ016",
-        "diagnostic": "CHE-T5-MQ016",
-        "easier": "CHE-T5-MQ016",
-        "parallel": "CHE-T5-MQ016",
-        "harder": "CHE-T5-MQ016"
-      }
-    },
-    {
-      "id": "T5-MQ018",
-      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
-      "tier": "Higher",
-      "question": "The forward reaction has ΔH = −92 kJ/mol. State ΔH for the reverse reaction and explain.",
-      "marks": 6,
-      "modelAnswer": "+92 kJ/mol.\nReversing swaps bonds broken/made and reverses energy transfer.\nMagnitude is unchanged, sign reverses.",
-      "markingPoints": [
-        "+92 kJ/mol.",
-        "Reversing swaps bonds broken/made and reverses energy transfer.",
-        "Magnitude is unchanged, sign reverses."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.3",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0ONQ94V",
-      "databaseId": "CHE-T5-MQ018",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ003",
-        "diagnostic": "CHE-T5-MQ003",
-        "easier": "CHE-T5-MQ003",
-        "parallel": "CHE-T5-MQ029",
-        "harder": "CHE-T5-MQ029"
-      }
-    },
-    {
-      "id": "T5-MQ019",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "A reusable hand warmer crystallises a solution and becomes hot. Classify the change and explain the temperature rise.",
-      "marks": 5,
-      "modelAnswer": "Exothermic.\nEnergy is transferred from the chemical/physical change to the surroundings, increasing surroundings/warmer temperature.",
-      "markingPoints": [
-        "Exothermic.",
-        "Energy is transferred from the chemical/physical change to the surroundings, increasing surroundings/warmer temperature."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-MQ019",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-PD04",
-        "parallel": "CHE-T5-MQ020",
-        "harder": "CHE-T5-PD03"
-      }
-    },
-    {
-      "id": "T5-MQ020",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "An instant cold pack cools when two substances mix. Classify the process and explain why the pack feels cold.",
-      "marks": 5,
-      "modelAnswer": "Endothermic.\nThe process takes in energy from the surroundings/skin, lowering their temperature.",
-      "markingPoints": [
-        "Endothermic.",
-        "The process takes in energy from the surroundings/skin, lowering their temperature."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-MQ020",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-PD04",
-        "parallel": "CHE-T5-MQ019",
-        "harder": "CHE-T5-PD03"
-      }
-    },
-    {
-      "id": "T5-MQ021",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Calculate",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "Temperature rises from 20.0 to 34.5 °C then falls. Calculate ΔT and explain why the maximum should be used and why extrapolation may improve it.",
-      "marks": 6,
-      "modelAnswer": "ΔT=14.5 °C.\nMaximum best represents reaction heating before later cooling.\nExtrapolating cooling line back to mixing time estimates temperature without heat-loss effect.",
-      "markingPoints": [
-        "ΔT=14.5 °C.",
-        "Maximum best represents reaction heating before later cooling.",
-        "Extrapolating cooling line back to mixing time estimates temperature without heat-loss effect."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO2/AO3",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0RCS4YA",
-      "databaseId": "CHE-T5-MQ021",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ006",
-        "diagnostic": "CHE-T5-MQ006",
-        "easier": "CHE-T5-MQ006",
-        "parallel": "CHE-T5-MQ006",
-        "harder": "CHE-T5-MQ006"
-      }
-    },
-    {
-      "id": "T5-MQ022",
-      "questionFamily": "T5 Energy Changes · 4.5.2.1 · State",
-      "subtopic": "T5 Energy Changes · 4.5.2.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
-      "tier": "Both",
-      "question": "A zinc and copper cell is connected to a voltmeter. State electron direction and identify the more negative electrode.",
-      "marks": 5,
-      "modelAnswer": "Zinc is more reactive and oxidises.\nElectrons flow from zinc to copper through the circuit.\nZinc is the negative electrode in the discharging cell.",
-      "markingPoints": [
-        "Zinc is more reactive and oxidises.",
-        "Electrons flow from zinc to copper through the circuit.",
-        "Zinc is the negative electrode in the discharging cell."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0I456SE",
-      "databaseId": "CHE-T5-MQ022",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ023",
-        "diagnostic": "CHE-T5-MQ023",
-        "easier": "CHE-T5-MQ023",
-        "parallel": "CHE-T5-MQ023",
-        "harder": "CHE-T5-MQ023"
-      }
-    },
-    {
-      "id": "T5-MQ023",
-      "questionFamily": "T5 Energy Changes · 4.5.2.1 · State",
-      "subtopic": "T5 Energy Changes · 4.5.2.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
-      "tier": "Both",
-      "question": "A student changes electrolyte concentration and voltage changes. State two controls needed for a valid investigation.",
-      "marks": 4,
-      "modelAnswer": "Keep electrode materials, surface area/cleanliness, separation/depth, electrolyte identity/volume and temperature constant.\nChange concentration only.\nAny two.",
-      "markingPoints": [
-        "Keep electrode materials, surface area/cleanliness, separation/depth, electrolyte identity/volume and temperature constant.",
-        "Change concentration only.",
-        "Any two."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-0I456SE",
-      "databaseId": "CHE-T5-MQ023",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ022",
-        "diagnostic": "CHE-T5-MQ022",
-        "easier": "CHE-T5-MQ022",
-        "parallel": "CHE-T5-MQ022"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-2-compare",
+      "databaseId": "CHE-T5-MQ011"
     },
     {
       "id": "T5-MQ024",
@@ -675,19 +1462,200 @@
       "specificationReference": "4.5.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0IE1OU5",
-      "databaseId": "CHE-T5-MQ024",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ030",
-        "diagnostic": "CHE-T5-MQ030",
-        "easier": "CHE-T5-MQ030",
-        "parallel": "CHE-T5-MQ030",
-        "harder": "CHE-T5-MQ030"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-2-explain",
+      "databaseId": "CHE-T5-MQ024"
+    },
+    {
+      "id": "T5-MQ030",
+      "questionFamily": "T5 Energy Changes · 4.5.2.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.2",
+      "tier": "Both",
+      "question": "A phone battery advertises high voltage. Explain why voltage alone is insufficient to decide it is the best battery.",
+      "marks": 6,
+      "modelAnswer": "Also consider capacity/energy, current, mass/size, lifetime/cycle durability, recharge time, safety, cost, resource and disposal impacts.\nA justified choice needs several relevant measures.",
+      "markingPoints": [
+        "Also consider capacity/energy, current, mass/size, lifetime/cycle durability, recharge time, safety, cost, resource and disposal impacts.",
+        "A justified choice needs several relevant measures."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-2-answer",
+      "databaseId": "CHE-T5-MQ030"
+    },
+    {
+      "id": "T5-MQ035",
+      "questionFamily": "T5 Energy Changes · 4.5.2.2 · State",
+      "subtopic": "T5 Energy Changes · 4.5.2.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.2",
+      "tier": "Higher",
+      "question": "Write the two half equations for a hydrogen fuel cell in alkaline conditions: one showing hydrogen being oxidised and one showing oxygen being reduced. State which electrode reaction is oxidation.",
+      "marks": 4,
+      "modelAnswer": "An acceptable pair is: 2H₂ + 4OH⁻ → 4H₂O + 4e⁻ and O₂ + 2H₂O + 4e⁻ → 4OH⁻.\nThe hydrogen half equation is oxidation because hydrogen loses electrons.\nThe half equations combine to give 2H₂ + O₂ → 2H₂O.",
+      "markingPoints": [
+        "An acceptable pair is: 2H₂ + 4OH⁻ → 4H₂O + 4e⁻ and O₂ + 2H₂O + 4e⁻ → 4OH⁻.",
+        "The hydrogen half equation is oxidation because hydrogen loses electrons.",
+        "The half equations combine to give 2H₂ + O₂ → 2H₂O."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-2-state",
+      "databaseId": "CHE-T5-MQ035"
+    },
+    {
+      "id": "T5-MQ040",
+      "questionFamily": "T5 Energy Changes · 4.5.2.2 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.2",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.2",
+      "tier": "Both",
+      "question": "A fuel cell is supplied continuously with hydrogen and oxygen. Explain why it can continue to produce electricity for longer than a simple battery, provided the supplies continue.",
+      "marks": 3,
+      "modelAnswer": "A fuel cell receives fuel and oxygen from external supplies.\nHydrogen is oxidised in the cell and the reaction produces a potential difference.\nUnlike a battery with fixed reactants, it can keep working while reactants continue to be supplied.",
+      "markingPoints": [
+        "A fuel cell receives fuel and oxygen from external supplies.",
+        "Hydrogen is oxidised in the cell and the reaction produces a potential difference.",
+        "Unlike a battery with fixed reactants, it can keep working while reactants continue to be supplied."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.5.2.2",
+      "gradeDemand": "Grades 4–6",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-2-answer",
+      "databaseId": "CHE-T5-MQ040"
+    },
+    {
+      "id": "T5-MQ012-A",
+      "questionFamily": "T5 Energy Changes · 4.5.2.3 · State",
+      "subtopic": "T5 Energy Changes · 4.5.2.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
+      "tier": "Both",
+      "question": "Write the overall equation for a hydrogen–oxygen fuel cell.",
+      "marks": 1,
+      "modelAnswer": "2H₂ + O₂ → 2H₂O.",
+      "markingPoints": [
+        "2H₂ + O₂ → 2H₂O."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-state",
+      "databaseId": "CHE-T5-MQ012-A"
+    },
+    {
+      "id": "T5-MQ012-B",
+      "questionFamily": "T5 Energy Changes · 4.5.2.3 · State",
+      "subtopic": "T5 Energy Changes · 4.5.2.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
+      "tier": "Both",
+      "question": "State two advantages of hydrogen fuel cells in vehicles.",
+      "marks": 2,
+      "modelAnswer": "Water is the only product at point of use. \nThey can be refuelled quickly.",
+      "markingPoints": [
+        "Water is the only product at point of use.",
+        "They can be refuelled quickly."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-state",
+      "databaseId": "CHE-T5-MQ012-B"
+    },
+    {
+      "id": "T5-MQ012-C",
+      "questionFamily": "T5 Energy Changes · 4.5.2.3 · State",
+      "subtopic": "T5 Energy Changes · 4.5.2.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
+      "tier": "Both",
+      "question": "State two disadvantages of hydrogen fuel cells in vehicles.",
+      "marks": 2,
+      "modelAnswer": "Hydrogen is difficult to store and manufacture.\nIt is flammable\nInfrastructure is limited.",
+      "markingPoints": [
+        "Hydrogen is difficult to store and manufacture.",
+        "It is flammable",
+        "Infrastructure is limited."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.5.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-state",
+      "databaseId": "CHE-T5-MQ012-C"
+    },
+    {
+      "id": "T5-MQ015-S1",
+      "questionFamily": "T5 Energy Changes · 4.5.2.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
+      "tier": "Both",
+      "question": "A remote sensor must work for five years without maintenance. Compare a rechargeable battery and a hydrogen fuel cell as power sources.",
+      "marks": 4,
+      "modelAnswer": "A rechargeable battery stores energy chemically and can be recharged but needs electricity and eventually wears out. A hydrogen fuel cell needs a continuous supply of hydrogen and oxygen but produces electricity while fuel is supplied; water is the only product at point of use.",
+      "markingPoints": [
+        "A rechargeable battery stores energy chemically and can be recharged but needs electricity and eventually wears out. A hydrogen fuel cell needs a continuous supply of hydrogen and oxygen but produces electricity while fuel is supplied; water is the only product at point of use."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-answer",
+      "databaseId": "CHE-T5-MQ015-S1"
+    },
+    {
+      "id": "T5-MQ015-S2",
+      "questionFamily": "T5 Energy Changes · 4.5.2.3 · Answer",
+      "subtopic": "T5 Energy Changes · 4.5.2.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
+      "tier": "Both",
+      "question": "A remote sensor must work for five years without maintenance. Compare a disposable battery and a hydrogen fuel cell as power sources.",
+      "marks": 4,
+      "modelAnswer": "A disposable battery stores a fixed amount of energy and must be replaced when flat. A hydrogen fuel cell can keep generating electricity while fuel is supplied, but needs hydrogen storage and a fuel supply.",
+      "markingPoints": [
+        "A disposable battery stores a fixed amount of energy and must be replaced when flat. A hydrogen fuel cell can keep generating electricity while fuel is supplied, but needs hydrogen storage and a fuel supply."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-answer",
+      "databaseId": "CHE-T5-MQ015-S2"
+    },
+    {
+      "id": "T5-MQ015-S3",
+      "questionFamily": "T5 Energy Changes · 4.5.2.3 · Suggest",
+      "subtopic": "T5 Energy Changes · 4.5.2.3",
+      "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
+      "tier": "Both",
+      "question": "Suggest the most suitable power source for a remote sensor that must work for five years without maintenance. Give a reason for your answer.",
+      "marks": 2,
+      "modelAnswer": "A suitable justified choice, for example a long-life disposable battery because it needs no fuel supply or maintenance. Accept a fuel cell only if a reliable hydrogen supply is justified.",
+      "markingPoints": [
+        "A suitable justified choice, for example a long-life disposable battery because it needs no fuel supply or maintenance. Accept a fuel cell only if a reliable hydrogen supply is justified."
+      ],
+      "commandWord": "Suggest",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.5.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-suggest",
+      "databaseId": "CHE-T5-MQ015-S3"
     },
     {
       "id": "T5-MQ025",
-      "questionFamily": "T5 Energy Changes · 4.5.2.3 · State",
+      "questionFamily": "T5 Energy Changes · 4.5.2.3 · Answer",
       "subtopic": "T5 Energy Changes · 4.5.2.3",
       "sourceSubtopic": "T5 Energy Changes · 4.5.2.3",
       "tier": "Both",
@@ -698,12 +1666,12 @@
         "2H₂ + O₂ → 2H₂O.",
         "Product at point of use is water."
       ],
-      "commandWord": "State",
+      "commandWord": "Answer",
       "assessmentObjective": "AO2",
       "specificationReference": "4.5.2.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-02L6WXC",
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-answer",
       "databaseId": "CHE-T5-MQ025"
     },
     {
@@ -725,368 +1693,12 @@
       "specificationReference": "4.5.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0PL52M6",
-      "databaseId": "CHE-T5-MQ026",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ015",
-        "diagnostic": "CHE-T5-MQ015",
-        "easier": "CHE-T5-MQ015",
-        "parallel": "CHE-T5-MQ015",
-        "harder": "CHE-T5-MQ015"
-      }
-    },
-    {
-      "id": "T5-MQ027",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · State",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "In a fuel experiment, state the dependent variable and three variables to control if comparing fuels fairly.",
-      "marks": 5,
-      "modelAnswer": "Dependent: temperature rise/energy transferred.\nControls: water mass/volume, starting temperature, burner-to-can distance, same container, fuel mass burned, wick length and draught conditions.",
-      "markingPoints": [
-        "Dependent: temperature rise/energy transferred.",
-        "Controls: water mass/volume, starting temperature, burner-to-can distance, same container, fuel mass burned, wick length and draught conditions."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0FFZNY7",
-      "databaseId": "CHE-T5-MQ027",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ001",
-        "diagnostic": "CHE-T5-MQ001",
-        "easier": "CHE-T5-MQ001",
-        "parallel": "CHE-T5-MQ001"
-      }
-    },
-    {
-      "id": "T5-MQ028",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "An exothermic reaction appears to lose energy. Explain why this does not violate conservation of energy.",
-      "marks": 4,
-      "modelAnswer": "Energy is transferred from the reacting system to surroundings.\nTotal energy of system plus surroundings remains constant.",
-      "markingPoints": [
-        "Energy is transferred from the reacting system to surroundings.",
-        "Total energy of system plus surroundings remains constant."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-MQ028",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-EX5",
-        "diagnostic": "CHE-T5-EX5",
-        "easier": "CHE-T5-EX5",
-        "parallel": "CHE-T5-EX5",
-        "harder": "CHE-T5-EX5"
-      }
-    },
-    {
-      "id": "T5-MQ029",
-      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
-      "tier": "Higher",
-      "question": "Explain why a ΔH calculated from mean bond energies may differ from an experimental value.",
-      "marks": 5,
-      "modelAnswer": "Mean bond energies are averages across different compounds/environments and mainly apply to gaseous bonds.\nActual bond energies and experimental heat losses/conditions differ.",
-      "markingPoints": [
-        "Mean bond energies are averages across different compounds/environments and mainly apply to gaseous bonds.",
-        "Actual bond energies and experimental heat losses/conditions differ."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.3",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0ONQ94V",
-      "databaseId": "CHE-T5-MQ029",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ003",
-        "diagnostic": "CHE-T5-MQ003",
-        "easier": "CHE-T5-MQ018",
-        "parallel": "CHE-T5-MQ018"
-      }
-    },
-    {
-      "id": "T5-MQ030",
-      "questionFamily": "T5 Energy Changes · 4.5.2.2 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.2.2",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.2.2",
-      "tier": "Both",
-      "question": "A phone battery advertises high voltage. Explain why voltage alone is insufficient to decide it is the best battery.",
-      "marks": 6,
-      "modelAnswer": "Also consider capacity/energy, current, mass/size, lifetime/cycle durability, recharge time, safety, cost, resource and disposal impacts.\nA justified choice needs several relevant measures.",
-      "markingPoints": [
-        "Also consider capacity/energy, current, mass/size, lifetime/cycle durability, recharge time, safety, cost, resource and disposal impacts.",
-        "A justified choice needs several relevant measures."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.2.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0IE1OU5",
-      "databaseId": "CHE-T5-MQ030",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ024",
-        "diagnostic": "CHE-T5-MQ024",
-        "easier": "CHE-T5-MQ024",
-        "parallel": "CHE-T5-MQ024"
-      }
-    },
-    {
-      "id": "T5-EX1",
-      "questionFamily": "T5 Energy Changes · 4.5.2.1 · Calculate",
-      "subtopic": "T5 Energy Changes · 4.5.2.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.2.1",
-      "tier": "Higher",
-      "question": "Using bond energies H–H=436, Cl–Cl=243 and H–Cl=431 kJ/mol, calculate ΔH for H₂ + Cl₂ → 2HCl.",
-      "marks": 4,
-      "modelAnswer": "Bonds broken = 436 + 243 = 679.\nBonds formed = 2 × 431 = 862. ΔH = broken − formed = 679 − 862 = −183 kJ/mol, exothermic.",
-      "markingPoints": [
-        "Bonds broken = 436 + 243 = 679.",
-        "Bonds formed = 2 × 431 = 862. ΔH = broken − formed = 679 − 862 = −183 kJ/mol, exothermic."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0VKNKJB",
-      "databaseId": "CHE-T5-EX1"
-    },
-    {
-      "id": "T5-EX2",
-      "questionFamily": "T5 Energy Changes · 4.5.1.2 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.2",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.2",
-      "tier": "Both",
-      "question": "Explain the activation-energy hump on an exothermic reaction profile.",
-      "marks": 4,
-      "modelAnswer": "Reactants must first absorb enough energy to break/start weakening bonds and reach the transition state.\nProducts are lower in energy.\nMore energy is released forming product bonds than was taken in, so overall energy change is negative.",
-      "markingPoints": [
-        "Reactants must first absorb enough energy to break/start weakening bonds and reach the transition state.",
-        "Products are lower in energy.",
-        "More energy is released forming product bonds than was taken in, so overall energy change is negative."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0BBOGW0",
-      "databaseId": "CHE-T5-EX2"
-    },
-    {
-      "id": "T5-EX3",
-      "questionFamily": "T5 Energy Changes · 4.5.1.3 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.3",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.3",
-      "tier": "Both",
-      "question": "A student burns fuel to heat water. Explain why the experimental energy change is usually less exothermic than the data-book value.",
-      "marks": 4,
-      "modelAnswer": "Energy is lost to surroundings and apparatus.\nCombustion may be incomplete.\nFuel may evaporate.\nNot all released energy heats the water.",
-      "markingPoints": [
-        "Energy is lost to surroundings and apparatus.",
-        "Combustion may be incomplete.",
-        "Fuel may evaporate.",
-        "Not all released energy heats the water."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.3",
-      "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0ONQ94V",
-      "databaseId": "CHE-T5-EX3",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ003",
-        "diagnostic": "CHE-T5-MQ003",
-        "easier": "CHE-T5-MQ003",
-        "parallel": "CHE-T5-MQ003",
-        "harder": "CHE-T5-MQ003"
-      }
-    },
-    {
-      "id": "T5-EX4",
-      "questionFamily": "T5 Energy Changes · 4.5.2.2 · Compare",
-      "subtopic": "T5 Energy Changes · 4.5.2.2",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.2.2",
-      "tier": "Chemistry only",
-      "question": "Compare a hydrogen fuel cell with a rechargeable battery for a vehicle.",
-      "marks": 6,
-      "modelAnswer": "Fuel cell operates while hydrogen/oxygen supplied, produces water at use and can refuel quickly, but hydrogen production/storage and infrastructure have costs and risks.\nBattery can be recharged using electricity and has established technology, but charging takes time, has limited range/mass and material impacts.\nJudge using source of hydrogen/electricity.",
-      "markingPoints": [
-        "Fuel cell operates while hydrogen/oxygen supplied, produces water at use and can refuel quickly, but hydrogen production/storage and infrastructure have costs and risks.",
-        "Battery can be recharged using electricity and has established technology, but charging takes time, has limited range/mass and material impacts.",
-        "Judge using source of hydrogen/electricity."
-      ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.2.2",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1Y8JOSL",
-      "databaseId": "CHE-T5-EX4",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ011",
-        "diagnostic": "CHE-T5-MQ011",
-        "easier": "CHE-T5-MQ011",
-        "parallel": "CHE-T5-MQ011"
-      }
-    },
-    {
-      "id": "T5-EX5",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "Explain why neutralisation between a strong acid and strong alkali is exothermic using an ionic equation.",
-      "marks": 3,
-      "modelAnswer": "H⁺(aq) + OH⁻(aq) → H₂O(l).\nFormation of water releases energy to the surroundings, raising temperature.",
-      "markingPoints": [
-        "H⁺(aq) + OH⁻(aq) → H₂O(l).",
-        "Formation of water releases energy to the surroundings, raising temperature."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-EX5",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-MQ028",
-        "parallel": "CHE-T5-MQ028",
-        "harder": "CHE-T5-PD02"
-      }
-    },
-    {
-      "id": "T5-PD01",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Compare",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "Plan an investigation to compare the temperature changes produced by three displacement reactions.",
-      "marks": 6,
-      "modelAnswer": "Use equal volumes and concentrations of metal-salt solution at the same starting temperature.\nAdd equal moles or standardised surface areas of metal.\nUse an insulated cup with lid.\nStir consistently.\nRecord maximum temperature.\nRepeat and calculate mean temperature change.\nWear eye protection.",
-      "markingPoints": [
-        "Use equal volumes and concentrations of metal-salt solution at the same starting temperature.",
-        "Add equal moles or standardised surface areas of metal.",
-        "Use an insulated cup with lid.",
-        "Stir consistently.",
-        "Record maximum temperature.",
-        "Repeat and calculate mean temperature change.",
-        "Wear eye protection."
-      ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical + disciplinary",
-      "questionFamilyId": "CHE-FAM-174XF2P",
-      "databaseId": "CHE-T5-PD01"
-    },
-    {
-      "id": "T5-PD02",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "Explain why an insulated cup and lid improve a calorimetry investigation.",
-      "marks": 3,
-      "modelAnswer": "They reduce heat transfer to or from the surroundings and evaporation, so measured temperature change is closer to that caused by the reaction.",
-      "markingPoints": [
-        "They reduce heat transfer to or from the surroundings and evaporation, so measured temperature change is closer to that caused by the reaction."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-PD02",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-EX5",
-        "parallel": "CHE-T5-EX5",
-        "harder": "CHE-T5-PD04"
-      }
-    },
-    {
-      "id": "T5-PD03",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "A reaction is repeated with twice the solution volume but the same reactant concentrations.\nExplain why comparing temperature changes may be misleading.",
-      "marks": 4,
-      "modelAnswer": "More reacting substance may release more energy, but a greater solution mass also requires more energy per degree.\nHeat loss and heat capacity differ, so amounts and apparatus must be controlled for a fair comparison.",
-      "markingPoints": [
-        "More reacting substance may release more energy, but a greater solution mass also requires more energy per degree.",
-        "Heat loss and heat capacity differ, so amounts and apparatus must be controlled for a fair comparison."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-PD03",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-MQ019",
-        "parallel": "CHE-T5-MQ008",
-        "harder": "CHE-T5-MQ008"
-      }
-    },
-    {
-      "id": "T5-PD04",
-      "questionFamily": "T5 Energy Changes · 4.5.1.1 · Explain",
-      "subtopic": "T5 Energy Changes · 4.5.1.1",
-      "sourceSubtopic": "T5 Energy Changes · 4.5.1.1",
-      "tier": "Both",
-      "question": "Explain why measured energy changes are often smaller in magnitude than theoretical values.",
-      "marks": 4,
-      "modelAnswer": "Heat is transferred to the surroundings and apparatus.\nCombustion may be incomplete.\nFuel may evaporate.\nNot all released energy heats the measured water.",
-      "markingPoints": [
-        "Heat is transferred to the surroundings and apparatus.",
-        "Combustion may be incomplete.",
-        "Fuel may evaporate.",
-        "Not all released energy heats the measured water."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.5.1.1",
-      "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0QBOKKP",
-      "databaseId": "CHE-T5-PD04",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T5-MQ028",
-        "diagnostic": "CHE-T5-MQ028",
-        "easier": "CHE-T5-PD02",
-        "parallel": "CHE-T5-MQ019",
-        "harder": "CHE-T5-MQ019"
-      }
+      "questionFamilyId": "CHE-t5-energy-changes-4-5-2-3-compare",
+      "databaseId": "CHE-T5-MQ026"
     },
     {
       "id": "T5-PD05",
-      "questionFamily": "T5 Energy Changes · WS 3.4 · Explain",
+      "questionFamily": "T5 Energy Changes · WS 3.4 · Answer",
       "subtopic": "T5 Energy Changes · WS 3.4",
       "sourceSubtopic": "T5 Energy Changes · WS 3.4",
       "tier": "Both",
@@ -1097,33 +1709,32 @@
         "If the offset is identical for both readings, it cancels during subtraction, so temperature change is unchanged.",
         "If the offset drifts, it would affect the result."
       ],
-      "commandWord": "Explain",
+      "commandWord": "Answer",
       "assessmentObjective": "AO3",
       "specificationReference": "WS 3.4",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-1C4YXHT",
+      "questionFamilyId": "CHE-t5-energy-changes-ws-3-4-answer",
       "databaseId": "CHE-T5-PD05"
     },
     {
       "id": "T5-PD06",
-      "questionFamily": "T5 Energy Changes · WS 3.7 · Describe",
+      "questionFamily": "T5 Energy Changes · WS 3.7 · Answer",
       "subtopic": "T5 Energy Changes · WS 3.7",
       "sourceSubtopic": "T5 Energy Changes · WS 3.7",
       "tier": "Both",
-      "question": "Describe how repeated temperature measurements should be processed before comparing reactions.",
-      "marks": 3,
-      "modelAnswer": "Identify justified anomalies, calculate a mean temperature change for each reaction and compare both means and spread/range.\nRepeats reduce random variation but not systematic heat loss.",
+      "question": "A student repeats each temperature-change measurement three times. Describe how they should use the results to compare two reactions.",
+      "marks": 2,
+      "modelAnswer": "Identify and repeat any anomalous result if appropriate. Calculate the mean temperature change from the valid results, then compare the mean values.",
       "markingPoints": [
-        "Identify justified anomalies, calculate a mean temperature change for each reaction and compare both means and spread/range.",
-        "Repeats reduce random variation but not systematic heat loss."
+        "Identify and repeat any anomalous result if appropriate. Calculate the mean temperature change from the valid results, then compare the mean values."
       ],
-      "commandWord": "Describe",
+      "commandWord": "Answer",
       "assessmentObjective": "AO3",
       "specificationReference": "WS 3.7",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-1OOX6GS",
+      "questionFamilyId": "CHE-t5-energy-changes-ws-3-7-answer",
       "databaseId": "CHE-T5-PD06"
     }
   ]

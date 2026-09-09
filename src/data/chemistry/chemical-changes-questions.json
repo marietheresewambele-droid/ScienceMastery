@@ -2,8 +2,72 @@
   "metadata": {
     "subtopics": [
       {
-        "title": "Chemical Changes",
-        "questionCount": 41
+        "title": "T4 Chemical Changes · 4.4.1.1",
+        "questionCount": 14
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.1.2",
+        "questionCount": 15
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.1.3",
+        "questionCount": 11
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.1.4",
+        "questionCount": 9
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.1",
+        "questionCount": 9
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
+        "questionCount": 3
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.2",
+        "questionCount": 16
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.3",
+        "questionCount": 8
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.4",
+        "questionCount": 15
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.5",
+        "questionCount": 11
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.5–4.4.2.6",
+        "questionCount": 1
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.2.6",
+        "questionCount": 1
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.3.1",
+        "questionCount": 7
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.3.2",
+        "questionCount": 10
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.3.3",
+        "questionCount": 11
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.3.4",
+        "questionCount": 19
+      },
+      {
+        "title": "T4 Chemical Changes · 4.4.3.5",
+        "questionCount": 15
       }
     ]
   },
@@ -26,60 +90,606 @@
       "specificationReference": "4.4.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0HHZ8SD",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-state",
       "databaseId": "CHE-T4-MQ001"
     },
     {
-      "id": "T4-MQ002",
+      "id": "T4-MQ002-S1",
       "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
       "subtopic": "T4 Chemical Changes · 4.4.1.1",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
       "tier": "Both",
-      "question": "Part (a): Use the reactivity series to predict the reactions of potassium, magnesium, zinc and copper with water and with dilute hydrochloric acid.\nPart (b): Include products and typical observations.",
-      "marks": 8,
-      "modelAnswer": "K reacts violently with cold water → KOH + H₂.\nMg reacts very slowly with cold water but with steam → MgO + H₂\nReacts with acid giving MgCl₂ + H₂.\nZn does not react significantly with cold water but reacts with steam and acid → ZnO/ZnCl₂ + H₂.\nCu does not react with water or dilute HCl because below hydrogen.\nObservations can include fizzing, metal disappearing, temperature rise.",
+      "question": "Predict the reaction of potassium with water. Include products and observations.",
+      "marks": 3,
+      "modelAnswer": "Potassium reacts to form potassium hydroxide and hydrogen. It floats and moves rapidly, may burn with a lilac flame and forms an alkaline solution.",
       "markingPoints": [
-        "K reacts violently with cold water → KOH + H₂.",
-        "Mg reacts very slowly with cold water but with steam → MgO + H₂",
-        "Reacts with acid giving MgCl₂ + H₂.",
-        "Zn does not react significantly with cold water but reacts with steam and acid → ZnO/ZnCl₂ + H₂.",
-        "Cu does not react with water or dilute HCl because below hydrogen.",
-        "Observations can include fizzing, metal disappearing, temperature rise."
+        "Potassium reacts to form potassium hydroxide and hydrogen. It floats and moves rapidly, may burn with a lilac flame and forms an alkaline solution."
       ],
       "commandWord": "Predict",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.4.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0PQ2LAD",
-      "databaseId": "CHE-T4-MQ002"
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S1"
     },
     {
-      "id": "T4-MQ003",
+      "id": "T4-MQ002-S2",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Both",
+      "question": "Predict the reaction of potassium with dilute hydrochloric acid. Include products and observations.",
+      "marks": 3,
+      "modelAnswer": "Potassium chloride and hydrogen form. The reaction is very vigorous and the metal disappears rapidly.",
+      "markingPoints": [
+        "Potassium chloride and hydrogen form. The reaction is very vigorous and the metal disappears rapidly."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S2"
+    },
+    {
+      "id": "T4-MQ002-S3",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Both",
+      "question": "Predict the reaction of magnesium with water. Include products and observations.",
+      "marks": 3,
+      "modelAnswer": "Magnesium reacts very slowly with cold water to form magnesium hydroxide and hydrogen. There may be very slow bubbling and a white coating.",
+      "markingPoints": [
+        "Magnesium reacts very slowly with cold water to form magnesium hydroxide and hydrogen. There may be very slow bubbling and a white coating."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S3"
+    },
+    {
+      "id": "T4-MQ002-S4",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Both",
+      "question": "Predict the reaction of magnesium with dilute hydrochloric acid. Include products and observations.",
+      "marks": 3,
+      "modelAnswer": "Magnesium chloride and hydrogen form. Fizzing occurs and the metal dissolves.",
+      "markingPoints": [
+        "Magnesium chloride and hydrogen form. Fizzing occurs and the metal dissolves."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S4"
+    },
+    {
+      "id": "T4-MQ002-S5",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Both",
+      "question": "Predict the reaction of zinc with water. Include products and observations.",
+      "marks": 2,
+      "modelAnswer": "Zinc does not react with cold water. With steam it forms zinc oxide and hydrogen.",
+      "markingPoints": [
+        "Zinc does not react with cold water. With steam it forms zinc oxide and hydrogen."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S5"
+    },
+    {
+      "id": "T4-MQ002-S6",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Both",
+      "question": "Predict the reaction of zinc with dilute hydrochloric acid. Include products and observations.",
+      "marks": 3,
+      "modelAnswer": "Zinc chloride and hydrogen form. Gentle fizzing occurs and zinc dissolves.",
+      "markingPoints": [
+        "Zinc chloride and hydrogen form. Gentle fizzing occurs and zinc dissolves."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S6"
+    },
+    {
+      "id": "T4-MQ002-S7",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Both",
+      "question": "Predict the reaction of copper with water.",
+      "marks": 1,
+      "modelAnswer": "Copper does not react with water.",
+      "markingPoints": [
+        "Copper does not react with water."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S7"
+    },
+    {
+      "id": "T4-MQ002-S8",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Both",
+      "question": "Predict the reaction of copper with dilute hydrochloric acid.",
+      "marks": 1,
+      "modelAnswer": "Copper does not react with dilute hydrochloric acid.",
+      "markingPoints": [
+        "Copper does not react with dilute hydrochloric acid."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-predict",
+      "databaseId": "CHE-T4-MQ002-S8"
+    },
+    {
+      "id": "T4-QUIZ001",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Foundation and Higher",
+      "question": "What are the products when metals react with oxygen?",
+      "marks": 1,
+      "modelAnswer": "Metal oxides.",
+      "markingPoints": [
+        "Metal oxides."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-answer",
+      "databaseId": "CHE-T4-QUIZ001"
+    },
+    {
+      "id": "T4-QUIZ002",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Foundation and Higher",
+      "question": "What type of reactions occur when metals react with oxygen?",
+      "marks": 1,
+      "modelAnswer": "Oxidation.",
+      "markingPoints": [
+        "Oxidation."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-answer",
+      "databaseId": "CHE-T4-QUIZ002"
+    },
+    {
+      "id": "T4-QUIZ003",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Define oxidation with reference to oxygen?",
+      "marks": 1,
+      "modelAnswer": "Oxidation occurs when a substance gains oxygen.",
+      "markingPoints": [
+        "Oxidation occurs when a substance gains oxygen."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-state",
+      "databaseId": "CHE-T4-QUIZ003"
+    },
+    {
+      "id": "T4-QUIZ004",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Foundation and Higher",
+      "question": "Define reduction with reference to oxygen?",
+      "marks": 1,
+      "modelAnswer": "Reduction occurs when a substance loses oxygen.",
+      "markingPoints": [
+        "Reduction occurs when a substance loses oxygen."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-state",
+      "databaseId": "CHE-T4-QUIZ004"
+    },
+    {
+      "id": "T4-QZ01",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.1 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.1",
+      "tier": "Foundation and Higher",
+      "question": "State the products when a metal reacts with oxygen, and identify the type of reaction.",
+      "marks": 2,
+      "modelAnswer": "A metal oxide is formed. The metal is oxidised.",
+      "markingPoints": [
+        "A metal oxide is formed. The metal is oxidised."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Reactivity of metals",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-1-state",
+      "databaseId": "CHE-T4-QZ01"
+    },
+    {
+      "id": "T4-EX3",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Higher",
+      "question": "Write ionic and half equations for the reaction between zinc and copper(II) ions.",
+      "marks": 4,
+      "modelAnswer": "Overall ionic: Zn + Cu²⁺ → Zn²⁺ + Cu.\nOxidation: Zn → Zn²⁺ + 2e⁻.\nReduction: Cu²⁺ + 2e⁻ → Cu.",
+      "markingPoints": [
+        "Overall ionic: Zn + Cu²⁺ → Zn²⁺ + Cu.",
+        "Oxidation: Zn → Zn²⁺ + 2e⁻.",
+        "Reduction: Cu²⁺ + 2e⁻ → Cu."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-state",
+      "databaseId": "CHE-T4-EX3"
+    },
+    {
+      "id": "T4-MQ003-A",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Both",
+      "question": "Predict what happens when zinc is placed in copper sulfate solution.",
+      "marks": 3,
+      "modelAnswer": "Zinc displaces copper: Zn + CuSO₄ → ZnSO₄ + Cu. The blue solution fades and copper coats the zinc.",
+      "markingPoints": [
+        "Zinc displaces copper: Zn + CuSO₄ → ZnSO₄ + Cu. The blue solution fades and copper coats the zinc."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-predict",
+      "databaseId": "CHE-T4-MQ003-A"
+    },
+    {
+      "id": "T4-MQ003-B",
       "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Explain",
       "subtopic": "T4 Chemical Changes · 4.4.1.2",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
       "tier": "Both",
-      "question": "A strip of zinc is placed in copper sulfate solution, and copper is placed in magnesium sulfate solution.\nPredict observations, write equations and explain both outcomes.",
-      "marks": 7,
-      "modelAnswer": "Zn + CuSO₄ → ZnSO₄ + Cu.\nZinc is more reactive, so displaces Cu²⁺.\nBlue solution fades and brown copper coats zinc.\nCu + MgSO₄: no reaction because copper is less reactive than magnesium and cannot displace Mg²⁺.",
+      "question": "Explain why copper does not react with magnesium sulfate solution.",
+      "marks": 2,
+      "modelAnswer": "Copper is less reactive than magnesium, so it cannot displace magnesium.",
       "markingPoints": [
-        "Zn + CuSO₄ → ZnSO₄ + Cu.",
-        "Zinc is more reactive, so displaces Cu²⁺.",
-        "Blue solution fades and brown copper coats zinc.",
-        "Cu + MgSO₄: no reaction because copper is less reactive than magnesium and cannot displace Mg²⁺."
+        "Copper is less reactive than magnesium, so it cannot displace magnesium."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1FBBXV6",
-      "databaseId": "CHE-T4-MQ003"
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-explain",
+      "databaseId": "CHE-T4-MQ003-B"
+    },
+    {
+      "id": "T4-MQ020",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Both",
+      "question": "Plan an investigation comparing the reactivity of magnesium, zinc and iron with copper sulfate solution using temperature change.\nPart (a): Include variables, measurements, repeats, safety and how validity is ensured.",
+      "marks": 9,
+      "modelAnswer": "Independent variable: metal identity.\nDependent: maximum temperature rise.\nControls: equal mass/moles and surface area of metal, same volume/concentration and starting temperature of CuSO₄, same insulated cup/stirring/time.\nMeasure initial and maximum temperature.\nCalculate ΔT.\nRepeat and mean, identify anomalies.\nWear eye protection.\nCopper sulfate harmful.\nUse excess/consistent limiting reagent and clean metals for validity.",
+      "markingPoints": [
+        "Independent variable: metal identity.",
+        "Dependent: maximum temperature rise.",
+        "Controls: equal mass/moles and surface area of metal, same volume/concentration and starting temperature of CuSO₄, same insulated cup/stirring/time.",
+        "Measure initial and maximum temperature.",
+        "Calculate ΔT.",
+        "Repeat and mean, identify anomalies.",
+        "Wear eye protection.",
+        "Copper sulfate harmful.",
+        "Use excess/consistent limiting reagent and clean metals for validity."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-MQ020"
+    },
+    {
+      "id": "T4-MQ031",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Both",
+      "question": "Metal A reacts rapidly with dilute hydrochloric acid. Metal B reacts slowly. Metal C does not react. Deduce the order of reactivity of A, B and C relative to hydrogen, and explain your reasoning.",
+      "marks": 4,
+      "modelAnswer": "A is more reactive than B, and B is more reactive than C.\nA and B are above hydrogen because they react with acid and produce hydrogen.\nC is below hydrogen because it does not react with dilute hydrochloric acid.",
+      "markingPoints": [
+        "A is more reactive than B, and B is more reactive than C.",
+        "A and B are above hydrogen because they react with acid and produce hydrogen.",
+        "C is below hydrogen because it does not react with dilute hydrochloric acid."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Grades 4–6",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-MQ031"
+    },
+    {
+      "id": "T4-QUIZ005",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What do metals form when they react with other substances?",
+      "marks": 1,
+      "modelAnswer": "Metals form positive ions.",
+      "markingPoints": [
+        "Metals form positive ions."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-QUIZ005"
+    },
+    {
+      "id": "T4-QUIZ006",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the reactivity of a metal related to?",
+      "marks": 1,
+      "modelAnswer": "The reactivity of a metal is related to the ease by which it can form ions (lose electrons).",
+      "markingPoints": [
+        "The reactivity of a metal is related to the ease by which it can form ions (lose electrons)."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-QUIZ006"
+    },
+    {
+      "id": "T4-QUIZ007",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "Put zinc, lithium, potassium, copper, iron, calcium, sodium and magnesium in order of reactivity (most reactive first)?",
+      "marks": 1,
+      "modelAnswer": "Potassium, sodium, lithium, calcium, magnesium, zinc, iron and copper.",
+      "markingPoints": [
+        "Potassium, sodium, lithium, calcium, magnesium, zinc, iron and copper."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-QUIZ007"
+    },
+    {
+      "id": "T4-QUIZ008",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "Which two non-metals are often placed in the reactivity series?",
+      "marks": 1,
+      "modelAnswer": "Carbon and hydrogen.",
+      "markingPoints": [
+        "Carbon and hydrogen."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-QUIZ008"
+    },
+    {
+      "id": "T4-QUIZ009",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "Write out the reactivity series including the two non-metals?",
+      "marks": 1,
+      "modelAnswer": "Potassium, sodium, lithium, calcium, magnesium, carbon, zinc, iron, hydrogen and copper",
+      "markingPoints": [
+        "Potassium, sodium, lithium, calcium, magnesium, carbon, zinc, iron, hydrogen and copper"
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-state",
+      "databaseId": "CHE-T4-QUIZ009"
+    },
+    {
+      "id": "T4-QUIZ010",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What type of reaction occurs between a reactive metal and a less reactive metal compound?",
+      "marks": 1,
+      "modelAnswer": "A displacement reaction.",
+      "markingPoints": [
+        "A displacement reaction."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-QUIZ010"
+    },
+    {
+      "id": "T4-QUIZ011",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the general equation to show the reaction of metal with water?",
+      "marks": 1,
+      "modelAnswer": "Metal + water → metal hydroxide + hydrogen.",
+      "markingPoints": [
+        "Metal + water → metal hydroxide + hydrogen."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-QUIZ011"
+    },
+    {
+      "id": "T4-QUIZ012",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "Write out a balanced equation to show the reaction between sodium and water?",
+      "marks": 1,
+      "modelAnswer": "2Na + H2O → Na2O + H2.",
+      "markingPoints": [
+        "2Na + H2O → Na2O + H2."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-state",
+      "databaseId": "CHE-T4-QUIZ012"
+    },
+    {
+      "id": "T4-QUIZ013",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the general equation to show the reaction of metal with acid?",
+      "marks": 1,
+      "modelAnswer": "Metal + acid → salt + water.",
+      "markingPoints": [
+        "Metal + acid → salt + water."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-answer",
+      "databaseId": "CHE-T4-QUIZ013"
+    },
+    {
+      "id": "T4-QUIZ014",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
+      "tier": "Foundation and Higher",
+      "question": "Write out a balanced equation to show the reaction between calcium and acid?",
+      "marks": 1,
+      "modelAnswer": "Ca + 2HCl → CaCl₂ + H₂.",
+      "markingPoints": [
+        "Ca + 2HCl → CaCl₂ + H₂."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-2-state",
+      "databaseId": "CHE-T4-QUIZ014"
+    },
+    {
+      "id": "T4-EX1",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Both",
+      "question": "Explain why aluminium can be extracted by electrolysis but iron can be extracted using carbon.",
+      "marks": 4,
+      "modelAnswer": "Aluminium is more reactive than carbon, so carbon cannot reduce aluminium oxide.\nElectrolysis is required.\nIron is less reactive than carbon, so carbon/carbon monoxide can remove oxygen from iron oxide.",
+      "markingPoints": [
+        "Aluminium is more reactive than carbon, so carbon cannot reduce aluminium oxide.",
+        "Electrolysis is required.",
+        "Iron is less reactive than carbon, so carbon/carbon monoxide can remove oxygen from iron oxide."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-explain",
+      "databaseId": "CHE-T4-EX1"
     },
     {
       "id": "T4-MQ004",
-      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Identify",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Answer",
       "subtopic": "T4 Chemical Changes · 4.4.1.3",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
       "tier": "Both",
@@ -93,19 +703,194 @@
         "Cu²⁺ + 2e⁻ → Cu is reduction (gain of electrons).",
         "OIL RIG."
       ],
-      "commandWord": "Identify",
+      "commandWord": "Answer",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.4.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1LTCLUM",
-      "databaseId": "CHE-T4-MQ004",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ023",
-        "diagnostic": "CHE-T4-MQ023",
-        "easier": "CHE-T4-MQ023",
-        "parallel": "CHE-T4-MQ023"
-      }
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-answer",
+      "databaseId": "CHE-T4-MQ004"
+    },
+    {
+      "id": "T4-MQ023-A",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Higher",
+      "question": "Write the ionic equation for zinc reacting with copper(II) ions.",
+      "marks": 2,
+      "modelAnswer": "Zn + Cu²⁺ → Zn²⁺ + Cu.",
+      "markingPoints": [
+        "Zn + Cu²⁺ → Zn²⁺ + Cu."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-state",
+      "databaseId": "CHE-T4-MQ023-A"
+    },
+    {
+      "id": "T4-MQ023-B",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Higher",
+      "question": "Write the ionic equation for magnesium reacting with hydrogen ions.",
+      "marks": 2,
+      "modelAnswer": "Mg + 2H⁺ → Mg²⁺ + H₂.",
+      "markingPoints": [
+        "Mg + 2H⁺ → Mg²⁺ + H₂."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-state",
+      "databaseId": "CHE-T4-MQ023-B"
+    },
+    {
+      "id": "T4-MQ023-C",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Higher",
+      "question": "Write the ionic equation for silver ions reacting with chloride ions.",
+      "marks": 2,
+      "modelAnswer": "Ag⁺ + Cl⁻ → AgCl.",
+      "markingPoints": [
+        "Ag⁺ + Cl⁻ → AgCl."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-state",
+      "databaseId": "CHE-T4-MQ023-C"
+    },
+    {
+      "id": "T4-MQ028",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Higher",
+      "question": "Complete and label: Fe²⁺ → Fe³⁺ + __ ; Cl₂ + __ → 2Cl⁻.",
+      "marks": 5,
+      "modelAnswer": "Fe²⁺ → Fe³⁺ + e⁻ is oxidation (electron loss).\nCl₂ + 2e⁻ → 2Cl⁻ is reduction (electron gain).",
+      "markingPoints": [
+        "Fe²⁺ → Fe³⁺ + e⁻ is oxidation (electron loss).",
+        "Cl₂ + 2e⁻ → 2Cl⁻ is reduction (electron gain)."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-state",
+      "databaseId": "CHE-T4-MQ028"
+    },
+    {
+      "id": "T4-QUIZ015",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Foundation and Higher",
+      "question": "How are most metals found in the Earth?",
+      "marks": 1,
+      "modelAnswer": "Metals are usually found as compounds in the Earth.",
+      "markingPoints": [
+        "Metals are usually found as compounds in the Earth."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-answer",
+      "databaseId": "CHE-T4-QUIZ015"
+    },
+    {
+      "id": "T4-QUIZ016",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Foundation and Higher",
+      "question": "What is a metal ore?",
+      "marks": 1,
+      "modelAnswer": "A metal compound which is mined.",
+      "markingPoints": [
+        "A metal compound which is mined."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-answer",
+      "databaseId": "CHE-T4-QUIZ016"
+    },
+    {
+      "id": "T4-QUIZ017",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Foundation and Higher",
+      "question": "Why is gold found as a metal in the Earth?",
+      "marks": 1,
+      "modelAnswer": "Because it is unreactive and does not form compounds.",
+      "markingPoints": [
+        "Because it is unreactive and does not form compounds."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-answer",
+      "databaseId": "CHE-T4-QUIZ017"
+    },
+    {
+      "id": "T4-QUIZ018",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Foundation and Higher",
+      "question": "How can iron, zinc and copper be extracted from their oxides?",
+      "marks": 1,
+      "modelAnswer": "These metals are extracted from their oxides by reduction with carbon. This works because these metals are less reactive than carbon.",
+      "markingPoints": [
+        "These metals are extracted from their oxides by reduction with carbon. This works because these metals are less reactive than carbon."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-answer",
+      "databaseId": "CHE-T4-QUIZ018"
+    },
+    {
+      "id": "T4-QUIZ019",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
+      "tier": "Foundation and Higher",
+      "question": "Identify which substances have been oxidised and which substances have been reduced in the following equation: 2Fe2O3 + 3C → 4Fe + 3CO2?",
+      "marks": 1,
+      "modelAnswer": "Iron oxide (Fe2O3) is reduced (loses oxygen). Carbon (C) is oxidised (gains oxygen).",
+      "markingPoints": [
+        "Iron oxide (Fe2O3) is reduced (loses oxygen). Carbon (C) is oxidised (gains oxygen)."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-3-state",
+      "databaseId": "CHE-T4-QUIZ019"
     },
     {
       "id": "T4-MQ005",
@@ -115,20 +900,17 @@
       "tier": "Both",
       "question": "Explain how a metal’s position relative to carbon determines its extraction method. Apply this to aluminium, zinc, iron, copper and gold.",
       "marks": 8,
-      "modelAnswer": "Metals below carbon can be reduced from oxides by carbon/carbon monoxide: zinc and iron.\nMetals above carbon, including aluminium, require electrolysis of molten compounds because carbon cannot reduce them.\nCopper may be reduced with carbon or obtained by biological/chemical methods.\nVery unreactive gold can occur native.\nElectrolysis is expensive because it uses much electricity.",
+      "modelAnswer": "Metals below carbon can be reduced from oxides by carbon/carbon monoxide: zinc and iron.\nMetals above carbon, including aluminium, require electrolysis of molten compounds because carbon cannot reduce them.",
       "markingPoints": [
         "Metals below carbon can be reduced from oxides by carbon/carbon monoxide: zinc and iron.",
-        "Metals above carbon, including aluminium, require electrolysis of molten compounds because carbon cannot reduce them.",
-        "Copper may be reduced with carbon or obtained by biological/chemical methods.",
-        "Very unreactive gold can occur native.",
-        "Electrolysis is expensive because it uses much electricity."
+        "Metals above carbon, including aluminium, require electrolysis of molten compounds because carbon cannot reduce them."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.4.1.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0FD0YF8",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-explain",
       "databaseId": "CHE-T4-MQ005"
     },
     {
@@ -152,40 +934,398 @@
       "specificationReference": "4.4.1.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1IC6Z5O",
-      "databaseId": "CHE-T4-MQ006",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ030",
-        "diagnostic": "CHE-T4-MQ030",
-        "easier": "CHE-T4-MQ030",
-        "parallel": "CHE-T4-MQ030"
-      }
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-compare",
+      "databaseId": "CHE-T4-MQ006"
     },
     {
-      "id": "T4-MQ007",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · State",
-      "subtopic": "T4 Chemical Changes · 4.4.2.4",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "id": "T4-MQ030",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
       "tier": "Both",
-      "question": "Define an acid and an alkali in terms of ions in aqueous solution. State what happens to H⁺ concentration and pH as an acid is diluted tenfold.",
-      "marks": 5,
-      "modelAnswer": "Acid produces H⁺(aq).\nAlkali produces OH⁻(aq).\nA tenfold dilution reduces H⁺ concentration by factor 10 and increases pH by 1 for a strong acid.",
+      "question": "A company can obtain copper by mining high-grade ore or bioleaching waste rock. Compare the methods and give a justified choice.",
+      "marks": 7,
+      "modelAnswer": "Mining is faster/high yield but causes habitat loss, waste, dust and energy use.\nBioleaching uses low-grade waste, less digging/energy, but is slow and produces leachate needing control and recovery.\nChoice depends on time, grade, land and environmental controls.\nConclusion justified by context.",
       "markingPoints": [
-        "Acid produces H⁺(aq).",
-        "Alkali produces OH⁻(aq).",
-        "A tenfold dilution reduces H⁺ concentration by factor 10 and increases pH by 1 for a strong acid."
+        "Mining is faster/high yield but causes habitat loss, waste, dust and energy use.",
+        "Bioleaching uses low-grade waste, less digging/energy, but is slow and produces leachate needing control and recovery.",
+        "Choice depends on time, grade, land and environmental controls.",
+        "Conclusion justified by context."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.4.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-answer",
+      "databaseId": "CHE-T4-MQ030"
+    },
+    {
+      "id": "T4-QUIZ020",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
+      "tier": "Foundation and Higher",
+      "question": "Define oxidation with reference to electrons?",
+      "marks": 1,
+      "modelAnswer": "Oxidation is electron loss.",
+      "markingPoints": [
+        "Oxidation is electron loss."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.4.2.4",
+      "specificationReference": "4.4.1.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-state",
+      "databaseId": "CHE-T4-QUIZ020"
+    },
+    {
+      "id": "T4-QUIZ021",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
+      "tier": "Foundation and Higher",
+      "question": "Define reduction with reference to electrons?",
+      "marks": 1,
+      "modelAnswer": "Reduction is electron gain.",
+      "markingPoints": [
+        "Reduction is electron gain."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-state",
+      "databaseId": "CHE-T4-QUIZ021"
+    },
+    {
+      "id": "T4-QUIZ022",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
+      "tier": "Foundation and Higher",
+      "question": "Write out the ionic equation for the following displacement reaction: Fe + CuSO4 → FeSO4 + Cu?",
+      "marks": 1,
+      "modelAnswer": "Fe(s) + Cu2+(aq) →Cu(s) + Fe2+(aq).",
+      "markingPoints": [
+        "Fe(s) + Cu2+(aq) →Cu(s) + Fe2+(aq)."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-state",
+      "databaseId": "CHE-T4-QUIZ022"
+    },
+    {
+      "id": "T4-QUIZ023",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
+      "tier": "Foundation and Higher",
+      "question": "Define the term “spectator ion”?",
+      "marks": 1,
+      "modelAnswer": "An ion that takes no part in the reaction.",
+      "markingPoints": [
+        "An ion that takes no part in the reaction."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-state",
+      "databaseId": "CHE-T4-QUIZ023"
+    },
+    {
+      "id": "T4-QUIZ024",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.1.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
+      "tier": "Foundation and Higher",
+      "question": "What are the spectator ions in the following equation: Mg + FeSO4 → MgSO4 + Fe?",
+      "marks": 1,
+      "modelAnswer": "SO42-.",
+      "markingPoints": [
+        "SO42-."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-answer",
+      "databaseId": "CHE-T4-QUIZ024"
+    },
+    {
+      "id": "T4-QUIZ025",
+      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.1.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
+      "tier": "Foundation and Higher",
+      "question": "Write out the half equations for the following reaction Fe + 2HCl → FeCl2 + H2?",
+      "marks": 1,
+      "modelAnswer": "Fe → Fe2+ + 2e-; 2H+ + 2e- → H2.",
+      "markingPoints": [
+        "Fe → Fe2+ + 2e-; 2H+ + 2e- → H2."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.1.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-1-4-state",
+      "databaseId": "CHE-T4-QUIZ025"
+    },
+    {
+      "id": "T4-MQ010-S1",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Both",
+      "question": "Complete and balance the equation for magnesium reacting with hydrochloric acid. Name the salt formed.",
+      "marks": 3,
+      "modelAnswer": "Mg + 2HCl → MgCl₂ + H₂. The salt is magnesium chloride. Hydrogen gives a squeaky pop with a lighted splint.",
+      "markingPoints": [
+        "Mg + 2HCl → MgCl₂ + H₂. The salt is magnesium chloride. Hydrogen gives a squeaky pop with a lighted splint."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1AJJZ27",
-      "databaseId": "CHE-T4-MQ007"
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-state",
+      "databaseId": "CHE-T4-MQ010-S1"
+    },
+    {
+      "id": "T4-MQ010-S2",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Both",
+      "question": "Complete and balance the equation for copper oxide reacting with sulfuric acid. Name the salt formed.",
+      "marks": 3,
+      "modelAnswer": "CuO + H₂SO₄ → CuSO₄ + H₂O. The salt is copper sulfate.",
+      "markingPoints": [
+        "CuO + H₂SO₄ → CuSO₄ + H₂O. The salt is copper sulfate."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-state",
+      "databaseId": "CHE-T4-MQ010-S2"
+    },
+    {
+      "id": "T4-MQ010-S3",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Both",
+      "question": "Complete and balance the equation for calcium carbonate reacting with nitric acid. Name the salt formed and state the gas test.",
+      "marks": 4,
+      "modelAnswer": "CaCO₃ + 2HNO₃ → Ca(NO₃)₂ + H₂O + CO₂. The salt is calcium nitrate. Carbon dioxide turns limewater cloudy.",
+      "markingPoints": [
+        "CaCO₃ + 2HNO₃ → Ca(NO₃)₂ + H₂O + CO₂. The salt is calcium nitrate. Carbon dioxide turns limewater cloudy."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-state",
+      "databaseId": "CHE-T4-MQ010-S3"
+    },
+    {
+      "id": "T4-MQ025-S1",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
+      "tier": "Both",
+      "question": "Describe how to prepare copper chloride crystals from copper oxide and hydrochloric acid.",
+      "marks": 4,
+      "modelAnswer": "Warm dilute hydrochloric acid. Add copper oxide in excess until no more reacts. Filter off excess solid, evaporate some water, cool to crystallise, then filter and dry the crystals.",
+      "markingPoints": [
+        "Warm dilute hydrochloric acid. Add copper oxide in excess until no more reacts. Filter off excess solid, evaporate some water, cool to crystallise, then filter and dry the crystals."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.2.1; 4.4.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-4-4-2-3-descri",
+      "databaseId": "CHE-T4-MQ025-S1"
+    },
+    {
+      "id": "T4-MQ025-S2",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
+      "tier": "Both",
+      "question": "Describe how to prepare potassium sulfate crystals from potassium hydroxide and sulfuric acid.",
+      "marks": 4,
+      "modelAnswer": "Use titration to find the exact volumes that neutralise. Repeat without indicator using those volumes. Evaporate some water, cool to crystallise, then filter and dry.",
+      "markingPoints": [
+        "Use titration to find the exact volumes that neutralise. Repeat without indicator using those volumes. Evaporate some water, cool to crystallise, then filter and dry."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.2.1; 4.4.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-4-4-2-3-descri",
+      "databaseId": "CHE-T4-MQ025-S2"
+    },
+    {
+      "id": "T4-MQ025-S3",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
+      "tier": "Both",
+      "question": "Describe how to prepare magnesium nitrate crystals from magnesium oxide and nitric acid.",
+      "marks": 4,
+      "modelAnswer": "Warm dilute nitric acid. Add magnesium oxide in excess until no more reacts. Filter off excess solid, evaporate some water, cool to crystallise, then filter and dry the crystals.",
+      "markingPoints": [
+        "Warm dilute nitric acid. Add magnesium oxide in excess until no more reacts. Filter off excess solid, evaporate some water, cool to crystallise, then filter and dry the crystals."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.2.1; 4.4.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-4-4-2-3-descri",
+      "databaseId": "CHE-T4-MQ025-S3"
+    },
+    {
+      "id": "T4-MQ036",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Higher",
+      "question": "Iron reacts with dilute sulfuric acid. State the salt formed, write a balanced symbol equation and explain why this is a redox reaction at Higher Tier.",
+      "marks": 5,
+      "modelAnswer": "The salt is iron(II) sulfate.\nFe + H₂SO₄ → FeSO₄ + H₂.\nIron atoms lose electrons to form Fe²⁺ ions, so iron is oxidised.\nHydrogen ions gain electrons to form hydrogen, so hydrogen ions are reduced.",
+      "markingPoints": [
+        "The salt is iron(II) sulfate.",
+        "Fe + H₂SO₄ → FeSO₄ + H₂.",
+        "Iron atoms lose electrons to form Fe²⁺ ions, so iron is oxidised.",
+        "Hydrogen ions gain electrons to form hydrogen, so hydrogen ions are reduced."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-answer",
+      "databaseId": "CHE-T4-MQ036"
+    },
+    {
+      "id": "T4-QUIZ026",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Foundation and Higher",
+      "question": "What are the products of a reaction between some metals and acid?",
+      "marks": 1,
+      "modelAnswer": "Salt and hydrogen.",
+      "markingPoints": [
+        "Salt and hydrogen."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-answer",
+      "databaseId": "CHE-T4-QUIZ026"
+    },
+    {
+      "id": "T4-QUIZ027",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Foundation and Higher",
+      "question": "Describe the type of reaction that occurs between metals and acids?",
+      "marks": 1,
+      "modelAnswer": "Redox reactions.",
+      "markingPoints": [
+        "Redox reactions."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-describe",
+      "databaseId": "CHE-T4-QUIZ027"
+    },
+    {
+      "id": "T4-QUIZ028",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Foundation and Higher",
+      "question": "Which substances are oxidised in the reaction between metals and acids",
+      "marks": 1,
+      "modelAnswer": "Metals",
+      "markingPoints": [
+        "Metals"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-answer",
+      "databaseId": "CHE-T4-QUIZ028"
+    },
+    {
+      "id": "T4-QUIZ029",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Foundation and Higher",
+      "question": "Which substances are reduced in the reaction between metals and acids?",
+      "marks": 1,
+      "modelAnswer": "Hydrogen",
+      "markingPoints": [
+        "Hydrogen"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-answer",
+      "databaseId": "CHE-T4-QUIZ029"
+    },
+    {
+      "id": "T4-QUIZ030",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "tier": "Foundation and Higher",
+      "question": "State which species are oxidised and which are reduced in the following reactions: Reaction Oxidised Reduced magnesium + hydrochloric acid zinc + hydrochloric acid iron + hydrochloric acid magnesium + sulfuric acid zinc + sulfuric acid iron + sulfuric acid",
+      "marks": 1,
+      "modelAnswer": "In each reaction, the metal is oxidised because it loses electrons. Hydrogen ions from the acid are reduced because they gain electrons to form hydrogen gas.",
+      "markingPoints": [
+        "In each reaction, the metal is oxidised because it loses electrons. Hydrogen ions from the acid are reduced because they gain electrons to form hydrogen gas."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-1-state",
+      "databaseId": "CHE-T4-QUIZ030"
     },
     {
       "id": "T4-MQ008",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Explain",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · State",
       "subtopic": "T4 Chemical Changes · 4.4.2.2",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
       "tier": "Both",
@@ -198,64 +1338,321 @@
         "Hydrogen ions from acid combine with hydroxide ions from alkali.",
         "Sodium and chloride ions are spectators."
       ],
-      "commandWord": "Explain",
+      "commandWord": "State",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.4.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-00QESUR",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-state",
       "databaseId": "CHE-T4-MQ008"
     },
     {
-      "id": "T4-MQ009",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Compare",
-      "subtopic": "T4 Chemical Changes · 4.4.2.5",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
-      "tier": "Higher",
-      "question": "Explain the difference between strong and weak acids and between strength and concentration.\nCompare equal-concentration hydrochloric acid and ethanoic acid.",
-      "marks": 7,
-      "modelAnswer": "Strong acid completely ionises in water.\nWeak acid only partially ionises and establishes an equilibrium.\nConcentration is amount per volume, not degree of ionisation.\nAt equal concentration, HCl has higher [H⁺], lower pH, greater conductivity and usually faster reaction than ethanoic acid.",
+      "id": "T4-MQ034",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Both",
+      "question": "Calcium carbonate reacts with dilute hydrochloric acid. State the products, write a balanced symbol equation and give the test for the gas formed.",
+      "marks": 5,
+      "modelAnswer": "Products: calcium chloride, water and carbon dioxide.\nCaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂.\nBubble the gas through limewater; it turns milky/cloudy if carbon dioxide is present.",
       "markingPoints": [
-        "Strong acid completely ionises in water.",
-        "Weak acid only partially ionises and establishes an equilibrium.",
-        "Concentration is amount per volume, not degree of ionisation.",
-        "At equal concentration, HCl has higher [H⁺], lower pH, greater conductivity and usually faster reaction than ethanoic acid."
+        "Products: calcium chloride, water and carbon dioxide.",
+        "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂.",
+        "Bubble the gas through limewater; it turns milky/cloudy if carbon dioxide is present."
       ],
-      "commandWord": "Compare",
+      "commandWord": "Answer",
       "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.4.2.5",
-      "gradeDemand": "Grades 8–9",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Grades 4–6",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-10UUUSA",
-      "databaseId": "CHE-T4-MQ009"
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-MQ034"
     },
     {
-      "id": "T4-MQ010",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.1 · State",
-      "subtopic": "T4 Chemical Changes · 4.4.2.1",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1",
+      "id": "T4-MQ035",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
       "tier": "Both",
-      "question": "Part (a): Complete and balance equations for: magnesium + hydrochloric acid; copper oxide + sulfuric acid; calcium carbonate + nitric acid.\nPart (b): Name each salt.\nPart (c): State the gas tests where relevant.",
-      "marks": 9,
-      "modelAnswer": "Mg + 2HCl → MgCl₂ + H₂ (magnesium chloride\nHydrogen gives squeaky pop).\nCuO + H₂SO₄ → CuSO₄ + H₂O (copper sulfate).\nCaCO₃ + 2HNO₃ → Ca(NO₃)₂ + H₂O + CO₂ (calcium nitrate\nCO₂ turns limewater milky).",
+      "question": "Aluminium sulfate contains Al³⁺ and SO₄²⁻ ions. Deduce its formula and explain how you know the formula has no overall charge.",
+      "marks": 3,
+      "modelAnswer": "The formula is Al₂(SO₄)₃.\nTwo Al³⁺ ions give total charge +6 and three SO₄²⁻ ions give total charge −6.\nThe charges balance to zero overall.",
       "markingPoints": [
-        "Mg + 2HCl → MgCl₂ + H₂ (magnesium chloride",
-        "Hydrogen gives squeaky pop).",
-        "CuO + H₂SO₄ → CuSO₄ + H₂O (copper sulfate).",
-        "CaCO₃ + 2HNO₃ → Ca(NO₃)₂ + H₂O + CO₂ (calcium nitrate",
-        "CO₂ turns limewater milky)."
+        "The formula is Al₂(SO₄)₃.",
+        "Two Al³⁺ ions give total charge +6 and three SO₄²⁻ ions give total charge −6.",
+        "The charges balance to zero overall."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-MQ035"
+    },
+    {
+      "id": "T4-QUIZ031",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Define alkali?",
+      "marks": 1,
+      "modelAnswer": "Soluble metal hydroxides.",
+      "markingPoints": [
+        "Soluble metal hydroxides."
       ],
       "commandWord": "State",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.4.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0LP74RK",
-      "databaseId": "CHE-T4-MQ010"
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-state",
+      "databaseId": "CHE-T4-QUIZ031"
+    },
+    {
+      "id": "T4-QUIZ032",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Define base?",
+      "marks": 1,
+      "modelAnswer": "Insoluble metal hydroxides and metal oxides.",
+      "markingPoints": [
+        "Insoluble metal hydroxides and metal oxides."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-state",
+      "databaseId": "CHE-T4-QUIZ032"
+    },
+    {
+      "id": "T4-QUIZ033",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "How are acids neutralised?",
+      "marks": 1,
+      "modelAnswer": "By reacting with alkalis or bases.",
+      "markingPoints": [
+        "By reacting with alkalis or bases."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-QUIZ033"
+    },
+    {
+      "id": "T4-QUIZ034",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the general equation to show the reaction between acids and metal oxides?",
+      "marks": 1,
+      "modelAnswer": "Metal oxide + acid → salt + water.",
+      "markingPoints": [
+        "Metal oxide + acid → salt + water."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-QUIZ034"
+    },
+    {
+      "id": "T4-QUIZ035",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the general equation to show the reaction between acids and metal hydroxides?",
+      "marks": 1,
+      "modelAnswer": "Metal hydroxide + acid → salt + water.",
+      "markingPoints": [
+        "Metal hydroxide + acid → salt + water."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-QUIZ035"
+    },
+    {
+      "id": "T4-QUIZ036",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the general equation to show the reaction between acids and metal carbonates?",
+      "marks": 1,
+      "modelAnswer": "Metal carbonates + acid → salt + water + carbon dioxide (bubbles!)",
+      "markingPoints": [
+        "Metal carbonates + acid → salt + water + carbon dioxide (bubbles!)"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-QUIZ036"
+    },
+    {
+      "id": "T4-QUIZ037",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "The production of a particular salt depends on which two factors?",
+      "marks": 1,
+      "modelAnswer": "The acid used and the positive (metallic) ions in the alkali or base.",
+      "markingPoints": [
+        "The acid used and the positive (metallic) ions in the alkali or base."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-QUIZ037"
+    },
+    {
+      "id": "T4-QUIZ038",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Predict the products from a reaction between nitric acid and potassium hydroxide?",
+      "marks": 1,
+      "modelAnswer": "Potassium nitrate.",
+      "markingPoints": [
+        "Potassium nitrate."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-predict",
+      "databaseId": "CHE-T4-QUIZ038"
+    },
+    {
+      "id": "T4-QUIZ039",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Predict the products from a reaction between hydrochloric acid and calcium carbonate?",
+      "marks": 1,
+      "modelAnswer": "Calcium chloride.",
+      "markingPoints": [
+        "Calcium chloride."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-predict",
+      "databaseId": "CHE-T4-QUIZ039"
+    },
+    {
+      "id": "T4-QUIZ040",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Predict the products from a reaction between sulfuric acid and copper oxide?",
+      "marks": 1,
+      "modelAnswer": "Copper sulfate.",
+      "markingPoints": [
+        "Copper sulfate."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-predict",
+      "databaseId": "CHE-T4-QUIZ040"
+    },
+    {
+      "id": "T4-QUIZ041",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Deduce the formula of magnesium chloride using the ions Mg2+ and Cl-?",
+      "marks": 1,
+      "modelAnswer": "MgCl2.",
+      "markingPoints": [
+        "MgCl2."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-QUIZ041"
+    },
+    {
+      "id": "T4-QUIZ042",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Deduce the formula of zinc sulfate using the ions Zn2+ and SO42-?",
+      "marks": 1,
+      "modelAnswer": "ZnSO4.",
+      "markingPoints": [
+        "ZnSO4."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-answer",
+      "databaseId": "CHE-T4-QUIZ042"
+    },
+    {
+      "id": "T4-QZ03",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.2 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.2",
+      "tier": "Foundation and Higher",
+      "question": "Complete and balance the equation: CaCO₃ + HNO₃ → Ca(NO₃)₂ + H₂O + CO₂.",
+      "marks": 2,
+      "modelAnswer": "CaCO₃ + 2HNO₃ → Ca(NO₃)₂ + H₂O + CO₂.",
+      "markingPoints": [
+        "CaCO₃ + 2HNO₃ → Ca(NO₃)₂ + H₂O + CO₂."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.2.2",
+      "gradeDemand": "Medium",
+      "knowledgeType": "Acids and salts",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-2-state",
+      "databaseId": "CHE-T4-QZ03"
     },
     {
       "id": "T4-MQ011",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Explain",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Answer",
       "subtopic": "T4 Chemical Changes · 4.4.2.3",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
       "tier": "Both",
@@ -270,19 +1667,13 @@
         "Gently evaporate filtrate to near saturation, cool to crystallise, filter crystals, wash with a little distilled water and dry.",
         "Do not heat to dryness because crystals may decompose/lose water and impurities may remain."
       ],
-      "commandWord": "Explain",
+      "commandWord": "Answer",
       "assessmentObjective": "AO1/AO3",
       "specificationReference": "4.4.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-0VNYZF8",
-      "databaseId": "CHE-T4-MQ011",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-PD02",
-        "diagnostic": "CHE-T4-PD02",
-        "easier": "CHE-T4-MQ029",
-        "parallel": "CHE-T4-MQ029"
-      }
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-answer",
+      "databaseId": "CHE-T4-MQ011"
     },
     {
       "id": "T4-MQ012",
@@ -308,18 +1699,526 @@
       "specificationReference": "4.4.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-17LI2CG",
-      "databaseId": "CHE-T4-MQ012",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-PD01",
-        "diagnostic": "CHE-T4-PD01",
-        "easier": "CHE-T4-PD01",
-        "parallel": "CHE-T4-PD01"
-      }
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-describe",
+      "databaseId": "CHE-T4-MQ012"
+    },
+    {
+      "id": "T4-MQ029",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
+      "tier": "Both",
+      "question": "Explain why a pipette and burette are used in titration, why the flask is swirled, and why acid is added dropwise near the endpoint.",
+      "marks": 6,
+      "modelAnswer": "Pipette transfers accurate fixed volume.\nBurette measures variable delivered volume precisely.\nSwirling mixes reactants.\nDropwise addition prevents overshooting the endpoint.\nRead meniscus at eye level.",
+      "markingPoints": [
+        "Pipette transfers accurate fixed volume.",
+        "Burette measures variable delivered volume precisely.",
+        "Swirling mixes reactants.",
+        "Dropwise addition prevents overshooting the endpoint.",
+        "Read meniscus at eye level."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.4.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-explain",
+      "databaseId": "CHE-T4-MQ029"
+    },
+    {
+      "id": "T4-MQ038",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
+      "tier": "Both",
+      "question": "Describe how to prepare a pure, dry sample of copper sulfate from copper carbonate and dilute sulfuric acid. Include why excess copper carbonate is used.",
+      "marks": 6,
+      "modelAnswer": "Warm dilute sulfuric acid gently.\nAdd copper carbonate in small portions until some remains unreacted.\nFilter to remove the excess solid.\nHeat the filtrate to evaporate some water, then leave it to cool so crystals form.\nFilter and dry the crystals.\nExcess copper carbonate ensures all acid is neutralised; the insoluble excess can be removed by filtration.",
+      "markingPoints": [
+        "Warm dilute sulfuric acid gently.",
+        "Add copper carbonate in small portions until some remains unreacted.",
+        "Filter to remove the excess solid.",
+        "Heat the filtrate to evaporate some water, then leave it to cool so crystals form.",
+        "Filter and dry the crystals.",
+        "Excess copper carbonate ensures all acid is neutralised; the insoluble excess can be removed by filtration."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-describe",
+      "databaseId": "CHE-T4-MQ038"
+    },
+    {
+      "id": "T4-PD01",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
+      "tier": "Both",
+      "question": "Describe how to prepare pure, dry copper sulfate crystals from copper oxide and dilute sulfuric acid.",
+      "marks": 6,
+      "modelAnswer": "Warm dilute sulfuric acid.\nAdd copper oxide in small portions until some remains, showing acid has reacted.\nFilter off excess solid.\nGently evaporate some water.\nCool to crystallise.\nFilter crystals.\nWash with a little cold distilled water.\nDry between filter papers.",
+      "markingPoints": [
+        "Warm dilute sulfuric acid.",
+        "Add copper oxide in small portions until some remains, showing acid has reacted.",
+        "Filter off excess solid.",
+        "Gently evaporate some water.",
+        "Cool to crystallise.",
+        "Filter crystals.",
+        "Wash with a little cold distilled water.",
+        "Dry between filter papers."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-describe",
+      "databaseId": "CHE-T4-PD01"
+    },
+    {
+      "id": "T4-PD02",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
+      "tier": "Both",
+      "question": "Explain why excess insoluble copper oxide is added when making copper sulfate.",
+      "marks": 3,
+      "modelAnswer": "It ensures all sulfuric acid is neutralised.\nExcess solid can then be removed by filtration, preventing acid contamination of the crystals.",
+      "markingPoints": [
+        "It ensures all sulfuric acid is neutralised.",
+        "Excess solid can then be removed by filtration, preventing acid contamination of the crystals."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-explain",
+      "databaseId": "CHE-T4-PD02"
+    },
+    {
+      "id": "T4-QUIZ043",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
+      "tier": "Foundation and Higher",
+      "question": "Describe how soluble salts can be made?",
+      "marks": 1,
+      "modelAnswer": "React an acid with an insoluble substance (e.g. metal, metal oxide, metal hydroxide or metal carbonate). Add the solid till no more reacts. The unreacted powder will be visible in the beaker. Excess acid is filtered off and the solution of the new salt is collected.",
+      "markingPoints": [
+        "React an acid with an insoluble substance (e.g. metal, metal oxide, metal hydroxide or metal carbonate). Add the solid till no more reacts. The unreacted powder will be visible in the beaker. Excess acid is filtered off and the solution of the new salt is collected."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-describe",
+      "databaseId": "CHE-T4-QUIZ043"
+    },
+    {
+      "id": "T4-QUIZ044",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
+      "tier": "Foundation and Higher",
+      "question": "How can salt solutions be used to form solid salts?",
+      "marks": 1,
+      "modelAnswer": "Crystallisation.",
+      "markingPoints": [
+        "Crystallisation."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-3-answer",
+      "databaseId": "CHE-T4-QUIZ044"
+    },
+    {
+      "id": "T4-EX4",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Chemistry only",
+      "question": "Design a titration method to determine the concentration of hydrochloric acid using known sodium hydroxide.",
+      "marks": 6,
+      "modelAnswer": "Pipette a fixed acid volume into a conical flask.\nAdd indicator.\nRinse/fill burette with known NaOH.\nAdd while swirling, dropwise near end point.\nRecord titre.\nRepeat to obtain concordant titres.\nCalculate mean, moles NaOH, use equation ratio, then concentration acid.",
+      "markingPoints": [
+        "Pipette a fixed acid volume into a conical flask.",
+        "Add indicator.",
+        "Rinse/fill burette with known NaOH.",
+        "Add while swirling, dropwise near end point.",
+        "Record titre.",
+        "Repeat to obtain concordant titres.",
+        "Calculate mean, moles NaOH, use equation ratio, then concentration acid."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-EX4"
+    },
+    {
+      "id": "T4-MQ007",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Both",
+      "question": "Define an acid and an alkali in terms of ions in aqueous solution. State what happens to H⁺ concentration and pH as an acid is diluted tenfold.",
+      "marks": 5,
+      "modelAnswer": "Acid produces H⁺(aq).\nAlkali produces OH⁻(aq).\nA tenfold dilution reduces H⁺ concentration by factor 10 and increases pH by 1 for a strong acid.",
+      "markingPoints": [
+        "Acid produces H⁺(aq).",
+        "Alkali produces OH⁻(aq).",
+        "A tenfold dilution reduces H⁺ concentration by factor 10 and increases pH by 1 for a strong acid."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-state",
+      "databaseId": "CHE-T4-MQ007"
+    },
+    {
+      "id": "T4-MQ032",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Both",
+      "question": "Describe how you would use universal indicator to decide whether three unknown solutions are acidic, neutral or alkaline. State the pH ranges you would use.",
+      "marks": 4,
+      "modelAnswer": "Add universal indicator to each solution, or use universal-indicator paper, and compare the colour with a pH chart.\nA pH below 7 is acidic; pH 7 is neutral; pH above 7 is alkaline.\nA pH probe can be used for a more precise reading.",
+      "markingPoints": [
+        "Add universal indicator to each solution, or use universal-indicator paper, and compare the colour with a pH chart.",
+        "A pH below 7 is acidic; pH 7 is neutral; pH above 7 is alkaline.",
+        "A pH probe can be used for a more precise reading."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Working scientifically",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-describe",
+      "databaseId": "CHE-T4-MQ032"
+    },
+    {
+      "id": "T4-PD03",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Chemistry only",
+      "question": "Describe the measurements needed for an acid–alkali titration using a pipette, burette and indicator.",
+      "marks": 6,
+      "modelAnswer": "Rinse pipette with alkali and transfer a fixed volume to a flask.\nAdd indicator.\nRinse and fill burette with acid and record initial reading at eye level.\nAdd acid while swirling, dropwise near end point.\nRecord final reading.\nCalculate titre.\nRepeat to obtain concordant titres.",
+      "markingPoints": [
+        "Rinse pipette with alkali and transfer a fixed volume to a flask.",
+        "Add indicator.",
+        "Rinse and fill burette with acid and record initial reading at eye level.",
+        "Add acid while swirling, dropwise near end point.",
+        "Record final reading.",
+        "Calculate titre.",
+        "Repeat to obtain concordant titres."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-describe",
+      "databaseId": "CHE-T4-PD03"
+    },
+    {
+      "id": "T4-PD04",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Chemistry only",
+      "question": "Explain why a burette is rinsed with the solution it will contain rather than only with water.",
+      "marks": 3,
+      "modelAnswer": "Residual water would dilute the solution, changing its concentration and titre.\nRinsing with the solution removes water without changing concentration.",
+      "markingPoints": [
+        "Residual water would dilute the solution, changing its concentration and titre.",
+        "Rinsing with the solution removes water without changing concentration."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-explain",
+      "databaseId": "CHE-T4-PD04"
+    },
+    {
+      "id": "T4-QUIZ045",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What ions do acids produce in aqueous solution?",
+      "marks": 1,
+      "modelAnswer": "H+.",
+      "markingPoints": [
+        "H+."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ045"
+    },
+    {
+      "id": "T4-QUIZ046",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What ions do alkalis form in aqueous solution?",
+      "marks": 1,
+      "modelAnswer": "OH-.",
+      "markingPoints": [
+        "OH-."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ046"
+    },
+    {
+      "id": "T4-QUIZ047",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What does pH mean?",
+      "marks": 1,
+      "modelAnswer": "per Hydrogen.",
+      "markingPoints": [
+        "per Hydrogen."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ047"
+    },
+    {
+      "id": "T4-QUIZ048",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What is the pH scale a measure of?",
+      "marks": 1,
+      "modelAnswer": "The acidity or alkalinity of a solution.",
+      "markingPoints": [
+        "The acidity or alkalinity of a solution."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ048"
+    },
+    {
+      "id": "T4-QUIZ049",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What numbers on the scale represent acids?",
+      "marks": 1,
+      "modelAnswer": "1 - 6.",
+      "markingPoints": [
+        "1 - 6."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ049"
+    },
+    {
+      "id": "T4-QUIZ050",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What numbers on the pH scale represent alkalis?",
+      "marks": 1,
+      "modelAnswer": "8 - 14.",
+      "markingPoints": [
+        "8 - 14."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ050"
+    },
+    {
+      "id": "T4-QUIZ051",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What does pH 7 represent on the scale?",
+      "marks": 1,
+      "modelAnswer": "Neutral.",
+      "markingPoints": [
+        "Neutral."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ051"
+    },
+    {
+      "id": "T4-QUIZ052",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "Name two ways the pH of a solution can be measured?",
+      "marks": 1,
+      "modelAnswer": "Using a wide range indicator (e.g. universal indicator) or a pH probe.",
+      "markingPoints": [
+        "Using a wide range indicator (e.g. universal indicator) or a pH probe."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-state",
+      "databaseId": "CHE-T4-QUIZ052"
+    },
+    {
+      "id": "T4-QUIZ053",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "What type of reaction occurs between an acid and an alkali?",
+      "marks": 1,
+      "modelAnswer": "Neutralisation.",
+      "markingPoints": [
+        "Neutralisation."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-answer",
+      "databaseId": "CHE-T4-QUIZ053"
+    },
+    {
+      "id": "T4-QUIZ054",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
+      "tier": "Foundation and Higher",
+      "question": "Write an ionic equation for the reaction between an acid and an alkali?",
+      "marks": 1,
+      "modelAnswer": "H+ + OH- → H2O.",
+      "markingPoints": [
+        "H+ + OH- → H2O."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-4-state",
+      "databaseId": "CHE-T4-QUIZ054"
+    },
+    {
+      "id": "T4-MQ009-A",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Higher",
+      "question": "Define a strong acid and a weak acid.",
+      "marks": 2,
+      "modelAnswer": "A strong acid completely ionises in water. A weak acid only partly ionises.",
+      "markingPoints": [
+        "A strong acid completely ionises in water. A weak acid only partly ionises."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-state",
+      "databaseId": "CHE-T4-MQ009-A"
+    },
+    {
+      "id": "T4-MQ009-B",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Higher",
+      "question": "Distinguish acid strength from concentration.",
+      "marks": 2,
+      "modelAnswer": "Strength is degree of ionisation; concentration is amount of acid per volume.",
+      "markingPoints": [
+        "Strength is degree of ionisation; concentration is amount of acid per volume."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-answer",
+      "databaseId": "CHE-T4-MQ009-B"
+    },
+    {
+      "id": "T4-MQ009-C",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Compare",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Higher",
+      "question": "Compare equal-concentration hydrochloric acid and ethanoic acid.",
+      "marks": 2,
+      "modelAnswer": "Hydrochloric acid has more H⁺ ions, lower pH and greater conductivity.",
+      "markingPoints": [
+        "Hydrochloric acid has more H⁺ ions, lower pH and greater conductivity."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-compare",
+      "databaseId": "CHE-T4-MQ009-C"
     },
     {
       "id": "T4-MQ013",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Calculate",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Answer",
       "subtopic": "T4 Chemical Changes · 4.4.2.5",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
       "tier": "Higher",
@@ -332,13 +2231,196 @@
         "Volume NaOH = 0.0250 dm³.",
         "Concentration = 0.00600/0.0250 = 0.240 mol/dm³."
       ],
-      "commandWord": "Calculate",
+      "commandWord": "Answer",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2.5",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-05FDF4H",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-answer",
       "databaseId": "CHE-T4-MQ013"
+    },
+    {
+      "id": "T4-MQ033",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5–4.4.2.6 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5–4.4.2.6",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5–4.4.2.6",
+      "tier": "Higher",
+      "question": "A solution contains 4.00 g of sodium hydroxide in 250 cm³ of solution. Calculate its concentration in g/dm³. State how this concentration differs from acid strength.",
+      "marks": 3,
+      "modelAnswer": "250 cm³ = 0.250 dm³.\nConcentration = 4.00 ÷ 0.250 = 16.0 g/dm³.\nConcentration is the amount of solute in a given volume; acid strength is the degree of ionisation in water.",
+      "markingPoints": [
+        "250 cm³ = 0.250 dm³.",
+        "Concentration = 4.00 ÷ 0.250 = 16.0 g/dm³.",
+        "Concentration is the amount of solute in a given volume; acid strength is the degree of ionisation in water."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.2.5–4.4.2.6",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-4-4-2-6-answer",
+      "databaseId": "CHE-T4-MQ033"
+    },
+    {
+      "id": "T4-QUIZ055",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Foundation and Higher",
+      "question": "What is a strong acid?",
+      "marks": 1,
+      "modelAnswer": "A strong acid is completely ionised in solution.",
+      "markingPoints": [
+        "A strong acid is completely ionised in solution."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-answer",
+      "databaseId": "CHE-T4-QUIZ055"
+    },
+    {
+      "id": "T4-QUIZ056",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Foundation and Higher",
+      "question": "Give three examples of strong acids?",
+      "marks": 1,
+      "modelAnswer": "Hydrochloric, nitric and sulfuric acids.",
+      "markingPoints": [
+        "Hydrochloric, nitric and sulfuric acids."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-state",
+      "databaseId": "CHE-T4-QUIZ056"
+    },
+    {
+      "id": "T4-QUIZ057",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Foundation and Higher",
+      "question": "What is a weak acid?",
+      "marks": 1,
+      "modelAnswer": "A weak acid is only partially ionised in solution.",
+      "markingPoints": [
+        "A weak acid is only partially ionised in solution."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-answer",
+      "databaseId": "CHE-T4-QUIZ057"
+    },
+    {
+      "id": "T4-QUIZ058",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Foundation and Higher",
+      "question": "Give three examples of weak acids?",
+      "marks": 1,
+      "modelAnswer": "Ethanol, citric and carbonic acids.",
+      "markingPoints": [
+        "Ethanol, citric and carbonic acids."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-state",
+      "databaseId": "CHE-T4-QUIZ058"
+    },
+    {
+      "id": "T4-QUIZ059",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Foundation and Higher",
+      "question": "Explain the difference between the terms concentrated and dilute acids and weak and strong acids?",
+      "marks": 1,
+      "modelAnswer": "Dilute and concentrated refer to the amount of substance in a solution (e.g. the number of moles). Weak and strong refer to the amount of ionisation that has occurred.",
+      "markingPoints": [
+        "Dilute and concentrated refer to the amount of substance in a solution (e.g. the number of moles). Weak and strong refer to the amount of ionisation that has occurred."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-explain",
+      "databaseId": "CHE-T4-QUIZ059"
+    },
+    {
+      "id": "T4-QUIZ060",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Foundation and Higher",
+      "question": "For a given concentration of an aqueous solution, what is the relationship between the strength of acid an the pH?",
+      "marks": 1,
+      "modelAnswer": "At the same concentration, a stronger acid has a lower pH because it ionises more fully and produces more H⁺ ions.",
+      "markingPoints": [
+        "At the same concentration, a stronger acid has a lower pH because it ionises more fully and produces more H⁺ ions."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-answer",
+      "databaseId": "CHE-T4-QUIZ060"
+    },
+    {
+      "id": "T4-QUIZ061",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.5 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.2.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.5",
+      "tier": "Foundation and Higher",
+      "question": "Describe how the pH scale is linked to the hydrogen ion concentration?",
+      "marks": 1,
+      "modelAnswer": "As pH concentration decreases by one unit (e.g. from 5 to 4), the hydrogen ion concentration increases by by a factor of ten (e.g. from 10 to 100).",
+      "markingPoints": [
+        "As pH concentration decreases by one unit (e.g. from 5 to 4), the hydrogen ion concentration increases by by a factor of ten (e.g. from 10 to 100)."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.2.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-5-describe",
+      "databaseId": "CHE-T4-QUIZ061"
+    },
+    {
+      "id": "T4-MQ024",
+      "questionFamily": "T4 Chemical Changes · 4.4.2.6 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.2.6",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.6",
+      "tier": "Higher",
+      "question": "A strong acid changes from pH 2 to pH 4. Calculate the factor change in hydrogen-ion concentration and state the direction.",
+      "marks": 5,
+      "modelAnswer": "Each pH unit is factor 10.\nIncrease of 2 pH units means [H⁺] decreases by 10² = factor 100.",
+      "markingPoints": [
+        "Each pH unit is factor 10.",
+        "Increase of 2 pH units means [H⁺] decreases by 10² = factor 100."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.2.6",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-2-6-answer",
+      "databaseId": "CHE-T4-MQ024"
     },
     {
       "id": "T4-MQ014",
@@ -361,12 +2443,132 @@
       "specificationReference": "4.4.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-1DV8AX5",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-1-explain",
       "databaseId": "CHE-T4-MQ014"
     },
     {
+      "id": "T4-QUIZ062",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.1",
+      "tier": "Foundation and Higher",
+      "question": "What type of compounds can be electrolysed?",
+      "marks": 1,
+      "modelAnswer": "Ionic compounds.",
+      "markingPoints": [
+        "Ionic compounds."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-1-answer",
+      "databaseId": "CHE-T4-QUIZ062"
+    },
+    {
+      "id": "T4-QUIZ063",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.1",
+      "tier": "Foundation and Higher",
+      "question": "What state must the compound be in for electrolysis to take place?",
+      "marks": 1,
+      "modelAnswer": "Molten (liquid) or in an aqueous solution.",
+      "markingPoints": [
+        "Molten (liquid) or in an aqueous solution."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-1-answer",
+      "databaseId": "CHE-T4-QUIZ063"
+    },
+    {
+      "id": "T4-QUIZ064",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.1",
+      "tier": "Foundation and Higher",
+      "question": "What is an electrolyte?",
+      "marks": 1,
+      "modelAnswer": "Liquids or solutions that are able to conduct electricity.",
+      "markingPoints": [
+        "Liquids or solutions that are able to conduct electricity."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-1-answer",
+      "databaseId": "CHE-T4-QUIZ064"
+    },
+    {
+      "id": "T4-QUIZ065",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.1",
+      "tier": "Foundation and Higher",
+      "question": "What is the negative electrode called?",
+      "marks": 1,
+      "modelAnswer": "Cathode.",
+      "markingPoints": [
+        "Cathode."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-1-answer",
+      "databaseId": "CHE-T4-QUIZ065"
+    },
+    {
+      "id": "T4-QUIZ066",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.1",
+      "tier": "Foundation and Higher",
+      "question": "What is the positive electrode called?",
+      "marks": 1,
+      "modelAnswer": "Anode.",
+      "markingPoints": [
+        "Anode."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-1-answer",
+      "databaseId": "CHE-T4-QUIZ066"
+    },
+    {
+      "id": "T4-QUIZ067",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.1 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.1",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.1",
+      "tier": "Foundation and Higher",
+      "question": "What happens when an electric current is passed through an electrolyte?",
+      "marks": 1,
+      "modelAnswer": "Positive charged ions move to the negative electrode (cathode). Negatively charged ions move towards the positive electrode (anode). The ions are gain or lose electrons at the electrodes producing elements.",
+      "markingPoints": [
+        "Positive charged ions move to the negative electrode (cathode). Negatively charged ions move towards the positive electrode (anode). The ions are gain or lose electrons at the electrodes producing elements."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.1",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-1-answer",
+      "databaseId": "CHE-T4-QUIZ067"
+    },
+    {
       "id": "T4-MQ015",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · State",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Predict",
       "subtopic": "T4 Chemical Changes · 4.4.3.2",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
       "tier": "Both",
@@ -379,64 +2581,193 @@
         "Br⁻ moves to anode: 2Br⁻ → Br₂ + 2e⁻ (oxidation)",
         "Orange-brown bromine gas forms."
       ],
-      "commandWord": "State",
+      "commandWord": "Predict",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-03LMZ7U",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-predict",
       "databaseId": "CHE-T4-MQ015"
     },
     {
-      "id": "T4-MQ016",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · State",
-      "subtopic": "T4 Chemical Changes · 4.4.3.4",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
-      "tier": "Both",
-      "question": "State and apply the product rules for electrolysis of aqueous solutions to:\nPart (a): NaCl(aq) with inert electrodes;\nPart (b): CuSO₄(aq) with inert electrodes;\nPart (c): Dilute H₂SO₄.",
-      "marks": 10,
-      "modelAnswer": "Cathode: hydrogen forms unless the metal ion is less reactive than hydrogen.\nAnode: halogen forms if halide present.\nOtherwise oxygen from hydroxide/water.\nPart (a): H₂ at cathode, Cl₂ at anode.\nNaOH remains.\nPart (b): Cu at cathode, O₂ at anode.\nSolution becomes more acidic/paler.\nPart (c): H₂ at cathode, O₂ at anode in 2:1 volume ratio.",
+      "id": "T4-QUIZ068",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What ions do lead bromide form when melted?",
+      "marks": 1,
+      "modelAnswer": "Pb2+ and Br-.",
       "markingPoints": [
-        "Cathode: hydrogen forms unless the metal ion is less reactive than hydrogen.",
-        "Anode: halogen forms if halide present.",
-        "Otherwise oxygen from hydroxide/water.",
-        "Part (a): H₂ at cathode, Cl₂ at anode.",
-        "NaOH remains.",
-        "Part (b): Cu at cathode, O₂ at anode.",
-        "Solution becomes more acidic/paler.",
-        "Part (c): H₂ at cathode, O₂ at anode in 2:1 volume ratio."
+        "Pb2+ and Br-."
       ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.4.3.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-0NOFW00",
-      "databaseId": "CHE-T4-MQ016"
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ068"
     },
     {
-      "id": "T4-MQ017",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Write",
-      "subtopic": "T4 Chemical Changes · 4.4.3.5",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
-      "tier": "Higher",
-      "question": "Write balanced half equations for formation of aluminium, copper, hydrogen, chlorine and oxygen during electrolysis.",
-      "marks": 8,
-      "modelAnswer": "Al³⁺ + 3e⁻ → Al\nCu²⁺ + 2e⁻ → Cu\n2H⁺ + 2e⁻ → H₂ (or 2H₂O + 2e⁻ → H₂ + 2OH⁻)\n2Cl⁻ → Cl₂ + 2e⁻\n4OH⁻ → O₂ + 2H₂O + 4e⁻.",
+      "id": "T4-QUIZ069",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What type of electrodes are used during the electrolysis of lead bromide?",
+      "marks": 1,
+      "modelAnswer": "Inert electrodes.",
       "markingPoints": [
-        "Al³⁺ + 3e⁻ → Al",
-        "Cu²⁺ + 2e⁻ → Cu",
-        "2H⁺ + 2e⁻ → H₂ (or 2H₂O + 2e⁻ → H₂ + 2OH⁻)",
-        "2Cl⁻ → Cl₂ + 2e⁻",
-        "4OH⁻ → O₂ + 2H₂O + 4e⁻."
+        "Inert electrodes."
       ],
-      "commandWord": "Write",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.3.5",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-15RW815",
-      "databaseId": "CHE-T4-MQ017"
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ069"
+    },
+    {
+      "id": "T4-QUIZ070",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What happens when a molten ionic compound is electrolysed?",
+      "marks": 1,
+      "modelAnswer": "The metal ions are attracted to the negative electrode (cathode). The non-metal ions are attracted to the positive electrode (anode).",
+      "markingPoints": [
+        "The metal ions are attracted to the negative electrode (cathode). The non-metal ions are attracted to the positive electrode (anode)."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ070"
+    },
+    {
+      "id": "T4-QUIZ071",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What is formed at the positive electrode (anode) during the electrolysis of lead bromide?",
+      "marks": 1,
+      "modelAnswer": "Bromine.",
+      "markingPoints": [
+        "Bromine."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ071"
+    },
+    {
+      "id": "T4-QUIZ072",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the ionic equation for the positive electrode (anode)?",
+      "marks": 1,
+      "modelAnswer": "2Br- → Br2 + 2e-.",
+      "markingPoints": [
+        "2Br- → Br2 + 2e-."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ072"
+    },
+    {
+      "id": "T4-QUIZ073",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What is formed at the negative electrode (cathode) during the electrolysis of lead bromide?",
+      "marks": 1,
+      "modelAnswer": "Lead.",
+      "markingPoints": [
+        "Lead."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ073"
+    },
+    {
+      "id": "T4-QUIZ074",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What is the ionic equation for the negative electrode (cathode)?",
+      "marks": 1,
+      "modelAnswer": "Pb2+ + 2e- → Pb",
+      "markingPoints": [
+        "Pb2+ + 2e- → Pb"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ074"
+    },
+    {
+      "id": "T4-QUIZ075",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "What ions do zinc chloride form when melted?",
+      "marks": 1,
+      "modelAnswer": "Zn2+ and Cl-.",
+      "markingPoints": [
+        "Zn2+ and Cl-."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-answer",
+      "databaseId": "CHE-T4-QUIZ075"
+    },
+    {
+      "id": "T4-QUIZ076",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.2 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.3.2",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.2",
+      "tier": "Foundation and Higher",
+      "question": "Predict the products of the electrolysis of zinc chloride?",
+      "marks": 1,
+      "modelAnswer": "Chlorine will be formed at the positive electrode (anode) and zinc will be formed at the negative electrode (cathode).",
+      "markingPoints": [
+        "Chlorine will be formed at the positive electrode (anode) and zinc will be formed at the negative electrode (cathode)."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.2",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-2-predict",
+      "databaseId": "CHE-T4-QUIZ076"
     },
     {
       "id": "T4-MQ018",
@@ -459,8 +2790,309 @@
       "specificationReference": "4.4.3.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-1QF4R8F",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-explain",
       "databaseId": "CHE-T4-MQ018"
+    },
+    {
+      "id": "T4-QUIZ077",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "How can metals be extracted by electrolysis?",
+      "marks": 1,
+      "modelAnswer": "Metals can be extracted from molten compounds.",
+      "markingPoints": [
+        "Metals can be extracted from molten compounds."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ077"
+    },
+    {
+      "id": "T4-QUIZ078",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "Which type of metals are extracted by electrolysis?",
+      "marks": 1,
+      "modelAnswer": "Metals which are too reactive to be extracted by reduction with carbon. Metals which react with carbon.",
+      "markingPoints": [
+        "Metals which are too reactive to be extracted by reduction with carbon. Metals which react with carbon."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ078"
+    },
+    {
+      "id": "T4-QUIZ079",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "Why is aluminium sometimes called “solid electricity”?",
+      "marks": 1,
+      "modelAnswer": "Large amounts of energy are used in the extraction process to melt the compounds and to produce the electrical current for electrolysis.",
+      "markingPoints": [
+        "Large amounts of energy are used in the extraction process to melt the compounds and to produce the electrical current for electrolysis."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ079"
+    },
+    {
+      "id": "T4-QUIZ080",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Describe",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "Describe how aluminium is manufactured?",
+      "marks": 1,
+      "modelAnswer": "Aluminium is extracted by the electrolysis of a mixture of aluminium oxide and cryolite using carbon as the positive electrode (anode).",
+      "markingPoints": [
+        "Aluminium is extracted by the electrolysis of a mixture of aluminium oxide and cryolite using carbon as the positive electrode (anode)."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-describe",
+      "databaseId": "CHE-T4-QUIZ080"
+    },
+    {
+      "id": "T4-QUIZ081",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "What is formed at the negative electrode (cathode) during the electrolysis of aluminium oxide?",
+      "marks": 1,
+      "modelAnswer": "Aluminium.",
+      "markingPoints": [
+        "Aluminium."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ081"
+    },
+    {
+      "id": "T4-QUIZ082",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "What is the ionic equation for the negative electrode (cathode) during the electrolysis of aluminium oxide?",
+      "marks": 1,
+      "modelAnswer": "Al3+ + 3e- → Al.",
+      "markingPoints": [
+        "Al3+ + 3e- → Al."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ082"
+    },
+    {
+      "id": "T4-QUIZ083",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "What is formed at the positive electrode (anode) during the electrolysis of aluminium oxide?",
+      "marks": 1,
+      "modelAnswer": "Oxygen.",
+      "markingPoints": [
+        "Oxygen."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ083"
+    },
+    {
+      "id": "T4-QUIZ084",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "What is the ionic equation for the positive electrode (anode) during the electrolysis of aluminium oxide?",
+      "marks": 1,
+      "modelAnswer": "2O2- → O2 + 4e-.",
+      "markingPoints": [
+        "2O2- → O2 + 4e-."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ084"
+    },
+    {
+      "id": "T4-QUIZ085",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "Why is cryolite used in this process?",
+      "marks": 1,
+      "modelAnswer": "To reduce the melting point of aluminium oxide.",
+      "markingPoints": [
+        "To reduce the melting point of aluminium oxide."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ085"
+    },
+    {
+      "id": "T4-QUIZ086",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.3 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.3",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.3",
+      "tier": "Foundation and Higher",
+      "question": "Why does the positive electrode (anode) have to be constantly replaced?",
+      "marks": 1,
+      "modelAnswer": "The oxygen formed at the positive electrode (anode) reacts with the carbon in the electrode.",
+      "markingPoints": [
+        "The oxygen formed at the positive electrode (anode) reacts with the carbon in the electrode."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.3",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-3-answer",
+      "databaseId": "CHE-T4-QUIZ086"
+    },
+    {
+      "id": "T4-EX2",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Higher",
+      "question": "During electrolysis of aqueous sodium chloride, predict the products at both electrodes and justify them.",
+      "marks": 5,
+      "modelAnswer": "Hydrogen forms at the cathode because sodium is more reactive than hydrogen, so water/H⁺ is reduced.\nChlorine forms at the anode because chloride ions are present and are oxidised: 2Cl⁻ → Cl₂ + 2e⁻.",
+      "markingPoints": [
+        "Hydrogen forms at the cathode because sodium is more reactive than hydrogen, so water/H⁺ is reduced.",
+        "Chlorine forms at the anode because chloride ions are present and are oxidised: 2Cl⁻ → Cl₂ + 2e⁻."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
+      "databaseId": "CHE-T4-EX2"
+    },
+    {
+      "id": "T4-MQ016-S1",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Both",
+      "question": "State the product rules for electrolysis of aqueous solutions using inert electrodes.",
+      "marks": 4,
+      "modelAnswer": "At the cathode, hydrogen is produced unless the metal is less reactive than hydrogen. At the anode, oxygen is produced unless halide ions are present; then the halogen is produced.",
+      "markingPoints": [
+        "At the cathode, hydrogen is produced unless the metal is less reactive than hydrogen. At the anode, oxygen is produced unless halide ions are present; then the halogen is produced."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-state",
+      "databaseId": "CHE-T4-MQ016-S1"
+    },
+    {
+      "id": "T4-MQ016-S2",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Both",
+      "question": "Predict the products of electrolysis of aqueous sodium chloride using inert electrodes.",
+      "marks": 3,
+      "modelAnswer": "Hydrogen is produced at the cathode and chlorine is produced at the anode. Sodium hydroxide remains in solution.",
+      "markingPoints": [
+        "Hydrogen is produced at the cathode and chlorine is produced at the anode. Sodium hydroxide remains in solution."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-predict",
+      "databaseId": "CHE-T4-MQ016-S2"
+    },
+    {
+      "id": "T4-MQ016-S3",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Both",
+      "question": "Predict the products of electrolysis of aqueous copper sulfate using inert electrodes.",
+      "marks": 3,
+      "modelAnswer": "Copper is produced at the cathode and oxygen is produced at the anode.",
+      "markingPoints": [
+        "Copper is produced at the cathode and oxygen is produced at the anode."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-predict",
+      "databaseId": "CHE-T4-MQ016-S3"
+    },
+    {
+      "id": "T4-MQ016-S4",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Predict",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Both",
+      "question": "Predict the products of electrolysis of dilute sulfuric acid using inert electrodes.",
+      "marks": 2,
+      "modelAnswer": "Hydrogen is produced at the cathode and oxygen is produced at the anode.",
+      "markingPoints": [
+        "Hydrogen is produced at the cathode and oxygen is produced at the anode."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-predict",
+      "databaseId": "CHE-T4-MQ016-S4"
     },
     {
       "id": "T4-MQ019",
@@ -483,43 +3115,8 @@
       "specificationReference": "4.4.3.4",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0A22VUQ",
-      "databaseId": "CHE-T4-MQ019",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ021",
-        "diagnostic": "CHE-T4-MQ021",
-        "easier": "CHE-T4-MQ021",
-        "parallel": "CHE-T4-MQ021",
-        "harder": "CHE-T4-MQ021"
-      }
-    },
-    {
-      "id": "T4-MQ020",
-      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Plan",
-      "subtopic": "T4 Chemical Changes · 4.4.1.2",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
-      "tier": "Both",
-      "question": "Plan an investigation comparing the reactivity of magnesium, zinc and iron with copper sulfate solution using temperature change.\nPart (a): Include variables, measurements, repeats, safety and how validity is ensured.",
-      "marks": 9,
-      "modelAnswer": "Independent variable: metal identity.\nDependent: maximum temperature rise.\nControls: equal mass/moles and surface area of metal, same volume/concentration and starting temperature of CuSO₄, same insulated cup/stirring/time.\nMeasure initial and maximum temperature.\nCalculate ΔT.\nRepeat and mean, identify anomalies.\nWear eye protection.\nCopper sulfate harmful.\nUse excess/consistent limiting reagent and clean metals for validity.",
-      "markingPoints": [
-        "Independent variable: metal identity.",
-        "Dependent: maximum temperature rise.",
-        "Controls: equal mass/moles and surface area of metal, same volume/concentration and starting temperature of CuSO₄, same insulated cup/stirring/time.",
-        "Measure initial and maximum temperature.",
-        "Calculate ΔT.",
-        "Repeat and mean, identify anomalies.",
-        "Wear eye protection.",
-        "Copper sulfate harmful.",
-        "Use excess/consistent limiting reagent and clean metals for validity."
-      ],
-      "commandWord": "Plan",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.4.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0M8F1AS",
-      "databaseId": "CHE-T4-MQ020"
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-describe",
+      "databaseId": "CHE-T4-MQ019"
     },
     {
       "id": "T4-MQ021",
@@ -548,120 +3145,12 @@
       "specificationReference": "4.4.3.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-0A22VUQ",
-      "databaseId": "CHE-T4-MQ021",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ019",
-        "diagnostic": "CHE-T4-MQ019",
-        "easier": "CHE-T4-MQ019",
-        "parallel": "CHE-T4-MQ019"
-      }
-    },
-    {
-      "id": "T4-MQ022",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Explain",
-      "subtopic": "T4 Chemical Changes · 4.4.3.5",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
-      "tier": "Higher",
-      "question": "A copper cathode gains 1.27 g in 20 minutes. Explain how increasing current or time affects deposited mass, assuming other factors remain constant.",
-      "marks": 5,
-      "modelAnswer": "Higher current means more charge/electrons pass each second.\nLonger time means charge passes for longer.\nMore Cu²⁺ ions gain electrons, so more copper deposits.\nDeposited mass is proportional to charge Q = It.",
-      "markingPoints": [
-        "Higher current means more charge/electrons pass each second.",
-        "Longer time means charge passes for longer.",
-        "More Cu²⁺ ions gain electrons, so more copper deposits.",
-        "Deposited mass is proportional to charge Q = It."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.3.5",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1R7IT65",
-      "databaseId": "CHE-T4-MQ022",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-EX5",
-        "diagnostic": "CHE-T4-EX5",
-        "easier": "CHE-T4-EX5",
-        "parallel": "CHE-T4-EX5"
-      }
-    },
-    {
-      "id": "T4-MQ023",
-      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Identify",
-      "subtopic": "T4 Chemical Changes · 4.4.1.3",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
-      "tier": "Higher",
-      "question": "Write ionic equations for: zinc with copper(II) ions; magnesium with hydrogen ions; silver nitrate with sodium chloride.\nIdentify spectator ions in the full equations.",
-      "marks": 8,
-      "modelAnswer": "Zn + Cu²⁺ → Zn²⁺ + Cu.\nMg + 2H⁺ → Mg²⁺ + H₂.\nAg⁺ + Cl⁻ → AgCl.\nSpectator ions are unchanged on both sides (for example sulfate in first, chloride in Mg/HCl, sodium and nitrate in precipitation).",
-      "markingPoints": [
-        "Zn + Cu²⁺ → Zn²⁺ + Cu.",
-        "Mg + 2H⁺ → Mg²⁺ + H₂.",
-        "Ag⁺ + Cl⁻ → AgCl.",
-        "Spectator ions are unchanged on both sides (for example sulfate in first, chloride in Mg/HCl, sodium and nitrate in precipitation)."
-      ],
-      "commandWord": "Identify",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.1.3",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1LTCLUM",
-      "databaseId": "CHE-T4-MQ023",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ004",
-        "diagnostic": "CHE-T4-MQ004",
-        "easier": "CHE-T4-MQ004",
-        "parallel": "CHE-T4-MQ004"
-      }
-    },
-    {
-      "id": "T4-MQ024",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.6 · Calculate",
-      "subtopic": "T4 Chemical Changes · 4.4.2.6",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.6",
-      "tier": "Higher",
-      "question": "A strong acid changes from pH 2 to pH 4. Calculate the factor change in hydrogen-ion concentration and state the direction.",
-      "marks": 5,
-      "modelAnswer": "Each pH unit is factor 10.\nIncrease of 2 pH units means [H⁺] decreases by 10² = factor 100.",
-      "markingPoints": [
-        "Each pH unit is factor 10.",
-        "Increase of 2 pH units means [H⁺] decreases by 10² = factor 100."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.2.6",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0M61330",
-      "databaseId": "CHE-T4-MQ024"
-    },
-    {
-      "id": "T4-MQ025",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3 · Justify",
-      "subtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.1; 4.4.2.3",
-      "tier": "Both",
-      "question": "Choose suitable reactants to prepare copper chloride, potassium sulfate and magnesium nitrate, and justify whether excess-solid or titration method is used.",
-      "marks": 6,
-      "modelAnswer": "Copper oxide/carbonate + HCl: insoluble excess-solid method.\nKOH + H₂SO₄: both soluble, titration.\nMgO/carbonate + HNO₃: insoluble excess-solid method.\nAcid determines salt ending.",
-      "markingPoints": [
-        "Copper oxide/carbonate + HCl: insoluble excess-solid method.",
-        "KOH + H₂SO₄: both soluble, titration.",
-        "MgO/carbonate + HNO₃: insoluble excess-solid method.",
-        "Acid determines salt ending."
-      ],
-      "commandWord": "Justify",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.2.1; 4.4.2.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-027CVT9",
-      "databaseId": "CHE-T4-MQ025"
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-describe",
+      "databaseId": "CHE-T4-MQ021"
     },
     {
       "id": "T4-MQ026",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Predict",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
       "subtopic": "T4 Chemical Changes · 4.4.3.4",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
       "tier": "Both",
@@ -674,363 +3163,39 @@
         "Produced because bromide is a halide.",
         "Potassium is not discharged in aqueous solution."
       ],
-      "commandWord": "Predict",
+      "commandWord": "Answer",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.3.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-143MO4O",
-      "databaseId": "CHE-T4-MQ026",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-EX2",
-        "diagnostic": "CHE-T4-EX2",
-        "easier": "CHE-T4-EX2",
-        "parallel": "CHE-T4-EX2"
-      }
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
+      "databaseId": "CHE-T4-MQ026"
     },
     {
-      "id": "T4-MQ027",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Calculate",
-      "subtopic": "T4 Chemical Changes · 4.4.3.5",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
-      "tier": "Higher",
-      "question": "A current of 2.0 A passes for 15 minutes. Calculate the charge transferred and explain why doubling the charge doubles metal deposited.",
-      "marks": 5,
-      "modelAnswer": "T=900 s\nQ=It=2.0×900=1800 C.\nCharge measures electrons transferred.\nTwice as many electrons reduce twice as many fixed-charge metal ions, so twice the amount/mass deposits.",
-      "markingPoints": [
-        "T=900 s",
-        "Q=It=2.0×900=1800 C.",
-        "Charge measures electrons transferred.",
-        "Twice as many electrons reduce twice as many fixed-charge metal ions, so twice the amount/mass deposits."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.3.5",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-12WYDKM",
-      "databaseId": "CHE-T4-MQ027"
-    },
-    {
-      "id": "T4-MQ028",
-      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Complete",
-      "subtopic": "T4 Chemical Changes · 4.4.1.3",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
-      "tier": "Higher",
-      "question": "Complete and label: Fe²⁺ → Fe³⁺ + __ ; Cl₂ + __ → 2Cl⁻.",
-      "marks": 5,
-      "modelAnswer": "Fe²⁺ → Fe³⁺ + e⁻ is oxidation (electron loss).\nCl₂ + 2e⁻ → 2Cl⁻ is reduction (electron gain).",
-      "markingPoints": [
-        "Fe²⁺ → Fe³⁺ + e⁻ is oxidation (electron loss).",
-        "Cl₂ + 2e⁻ → 2Cl⁻ is reduction (electron gain)."
-      ],
-      "commandWord": "Complete",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.1.3",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-0LP4CCX",
-      "databaseId": "CHE-T4-MQ028"
-    },
-    {
-      "id": "T4-MQ029",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Explain",
-      "subtopic": "T4 Chemical Changes · 4.4.2.3",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
-      "tier": "Both",
-      "question": "Explain why a pipette and burette are used in titration, why the flask is swirled, and why acid is added dropwise near the endpoint.",
-      "marks": 6,
-      "modelAnswer": "Pipette transfers accurate fixed volume.\nBurette measures variable delivered volume precisely.\nSwirling mixes reactants.\nDropwise addition prevents overshooting the endpoint.\nRead meniscus at eye level.",
-      "markingPoints": [
-        "Pipette transfers accurate fixed volume.",
-        "Burette measures variable delivered volume precisely.",
-        "Swirling mixes reactants.",
-        "Dropwise addition prevents overshooting the endpoint.",
-        "Read meniscus at eye level."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.4.2.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-0VNYZF8",
-      "databaseId": "CHE-T4-MQ029",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-PD02",
-        "diagnostic": "CHE-T4-PD02",
-        "easier": "CHE-T4-PD02",
-        "parallel": "CHE-T4-MQ011",
-        "harder": "CHE-T4-MQ011"
-      }
-    },
-    {
-      "id": "T4-MQ030",
-      "questionFamily": "T4 Chemical Changes · 4.4.1.4 · Compare",
-      "subtopic": "T4 Chemical Changes · 4.4.1.4",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.4",
-      "tier": "Both",
-      "question": "A company can obtain copper by mining high-grade ore or bioleaching waste rock. Compare the methods and give a justified choice.",
-      "marks": 7,
-      "modelAnswer": "Mining is faster/high yield but causes habitat loss, waste, dust and energy use.\nBioleaching uses low-grade waste, less digging/energy, but is slow and produces leachate needing control and recovery.\nChoice depends on time, grade, land and environmental controls.\nConclusion justified by context.",
-      "markingPoints": [
-        "Mining is faster/high yield but causes habitat loss, waste, dust and energy use.",
-        "Bioleaching uses low-grade waste, less digging/energy, but is slow and produces leachate needing control and recovery.",
-        "Choice depends on time, grade, land and environmental controls.",
-        "Conclusion justified by context."
-      ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.4.1.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1IC6Z5O",
-      "databaseId": "CHE-T4-MQ030",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ006",
-        "diagnostic": "CHE-T4-MQ006",
-        "easier": "CHE-T4-MQ006",
-        "parallel": "CHE-T4-MQ006",
-        "harder": "CHE-T4-MQ006"
-      }
-    },
-    {
-      "id": "T4-EX1",
-      "questionFamily": "T4 Chemical Changes · 4.4.1.3 · Explain",
-      "subtopic": "T4 Chemical Changes · 4.4.1.3",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.3",
-      "tier": "Both",
-      "question": "Explain why aluminium can be extracted by electrolysis but iron can be extracted using carbon.",
-      "marks": 4,
-      "modelAnswer": "Aluminium is more reactive than carbon, so carbon cannot reduce aluminium oxide.\nElectrolysis is required.\nIron is less reactive than carbon, so carbon/carbon monoxide can remove oxygen from iron oxide.",
-      "markingPoints": [
-        "Aluminium is more reactive than carbon, so carbon cannot reduce aluminium oxide.",
-        "Electrolysis is required.",
-        "Iron is less reactive than carbon, so carbon/carbon monoxide can remove oxygen from iron oxide."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.1.3",
-      "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-0NT1ONT",
-      "databaseId": "CHE-T4-EX1"
-    },
-    {
-      "id": "T4-EX2",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Predict",
+      "id": "T4-MQ037",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
       "subtopic": "T4 Chemical Changes · 4.4.3.4",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
-      "tier": "Higher",
-      "question": "During electrolysis of aqueous sodium chloride, predict the products at both electrodes and justify them.",
-      "marks": 5,
-      "modelAnswer": "Hydrogen forms at the cathode because sodium is more reactive than hydrogen, so water/H⁺ is reduced.\nChlorine forms at the anode because chloride ions are present and are oxidised: 2Cl⁻ → Cl₂ + 2e⁻.",
-      "markingPoints": [
-        "Hydrogen forms at the cathode because sodium is more reactive than hydrogen, so water/H⁺ is reduced.",
-        "Chlorine forms at the anode because chloride ions are present and are oxidised: 2Cl⁻ → Cl₂ + 2e⁻."
-      ],
-      "commandWord": "Predict",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.3.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-143MO4O",
-      "databaseId": "CHE-T4-EX2",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ026",
-        "diagnostic": "CHE-T4-MQ026",
-        "easier": "CHE-T4-MQ026",
-        "parallel": "CHE-T4-MQ026",
-        "harder": "CHE-T4-MQ026"
-      }
-    },
-    {
-      "id": "T4-EX3",
-      "questionFamily": "T4 Chemical Changes · 4.4.1.2 · Write",
-      "subtopic": "T4 Chemical Changes · 4.4.1.2",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.1.2",
-      "tier": "Higher",
-      "question": "Write ionic and half equations for the reaction between zinc and copper(II) ions.",
+      "tier": "Both",
+      "question": "Aqueous copper chloride is electrolysed using inert electrodes. Predict the product at each electrode and explain your answer using the rules for aqueous electrolysis.",
       "marks": 4,
-      "modelAnswer": "Overall ionic: Zn + Cu²⁺ → Zn²⁺ + Cu.\nOxidation: Zn → Zn²⁺ + 2e⁻.\nReduction: Cu²⁺ + 2e⁻ → Cu.",
+      "modelAnswer": "At the cathode, copper is produced because copper is less reactive than hydrogen: Cu²⁺ + 2e⁻ → Cu.\nAt the anode, chlorine is produced because chloride is a halide ion: 2Cl⁻ → Cl₂ + 2e⁻.\nIn aqueous electrolysis, hydrogen is made at the cathode only when the metal is more reactive than hydrogen; halides form halogens at the anode.",
       "markingPoints": [
-        "Overall ionic: Zn + Cu²⁺ → Zn²⁺ + Cu.",
-        "Oxidation: Zn → Zn²⁺ + 2e⁻.",
-        "Reduction: Cu²⁺ + 2e⁻ → Cu."
+        "At the cathode, copper is produced because copper is less reactive than hydrogen: Cu²⁺ + 2e⁻ → Cu.",
+        "At the anode, chlorine is produced because chloride is a halide ion: 2Cl⁻ → Cl₂ + 2e⁻.",
+        "In aqueous electrolysis, hydrogen is made at the cathode only when the metal is more reactive than hydrogen; halides form halogens at the anode."
       ],
-      "commandWord": "Write",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-154VYBY",
-      "databaseId": "CHE-T4-EX3"
-    },
-    {
-      "id": "T4-EX4",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Determine",
-      "subtopic": "T4 Chemical Changes · 4.4.2.4",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
-      "tier": "Chemistry only",
-      "question": "Design a titration method to determine the concentration of hydrochloric acid using known sodium hydroxide.",
-      "marks": 6,
-      "modelAnswer": "Pipette a fixed acid volume into a conical flask.\nAdd indicator.\nRinse/fill burette with known NaOH.\nAdd while swirling, dropwise near end point.\nRecord titre.\nRepeat to obtain concordant titres.\nCalculate mean, moles NaOH, use equation ratio, then concentration acid.",
-      "markingPoints": [
-        "Pipette a fixed acid volume into a conical flask.",
-        "Add indicator.",
-        "Rinse/fill burette with known NaOH.",
-        "Add while swirling, dropwise near end point.",
-        "Record titre.",
-        "Repeat to obtain concordant titres.",
-        "Calculate mean, moles NaOH, use equation ratio, then concentration acid."
-      ],
-      "commandWord": "Determine",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.4.2.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-1JW6EAB",
-      "databaseId": "CHE-T4-EX4"
-    },
-    {
-      "id": "T4-EX5",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Explain",
-      "subtopic": "T4 Chemical Changes · 4.4.3.5",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
-      "tier": "Both",
-      "question": "Explain why cryolite reduces the energy cost of aluminium extraction.",
-      "marks": 3,
-      "modelAnswer": "Cryolite lowers the melting point of aluminium oxide, so less electrical energy is needed to keep the electrolyte molten.\nThis reduces cost.",
-      "markingPoints": [
-        "Cryolite lowers the melting point of aluminium oxide, so less electrical energy is needed to keep the electrolyte molten.",
-        "This reduces cost."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.3.5",
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1/AO2",
+      "specificationReference": "4.4.3.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-FAM-1R7IT65",
-      "databaseId": "CHE-T4-EX5",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ022",
-        "diagnostic": "CHE-T4-MQ022",
-        "easier": "CHE-T4-MQ022",
-        "parallel": "CHE-T4-MQ022",
-        "harder": "CHE-T4-MQ022"
-      }
-    },
-    {
-      "id": "T4-PD01",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Describe",
-      "subtopic": "T4 Chemical Changes · 4.4.2.3",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
-      "tier": "Both",
-      "question": "Describe how to prepare pure, dry copper sulfate crystals from copper oxide and dilute sulfuric acid.",
-      "marks": 6,
-      "modelAnswer": "Warm dilute sulfuric acid.\nAdd copper oxide in small portions until some remains, showing acid has reacted.\nFilter off excess solid.\nGently evaporate some water.\nCool to crystallise.\nFilter crystals.\nWash with a little cold distilled water.\nDry between filter papers.",
-      "markingPoints": [
-        "Warm dilute sulfuric acid.",
-        "Add copper oxide in small portions until some remains, showing acid has reacted.",
-        "Filter off excess solid.",
-        "Gently evaporate some water.",
-        "Cool to crystallise.",
-        "Filter crystals.",
-        "Wash with a little cold distilled water.",
-        "Dry between filter papers."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.4.2.3",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-17LI2CG",
-      "databaseId": "CHE-T4-PD01",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ012",
-        "diagnostic": "CHE-T4-MQ012",
-        "easier": "CHE-T4-MQ012",
-        "parallel": "CHE-T4-MQ012",
-        "harder": "CHE-T4-MQ012"
-      }
-    },
-    {
-      "id": "T4-PD02",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.3 · Explain",
-      "subtopic": "T4 Chemical Changes · 4.4.2.3",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.3",
-      "tier": "Both",
-      "question": "Explain why excess insoluble copper oxide is added when making copper sulfate.",
-      "marks": 3,
-      "modelAnswer": "It ensures all sulfuric acid is neutralised.\nExcess solid can then be removed by filtration, preventing acid contamination of the crystals.",
-      "markingPoints": [
-        "It ensures all sulfuric acid is neutralised.",
-        "Excess solid can then be removed by filtration, preventing acid contamination of the crystals."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.4.2.3",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical + disciplinary",
-      "questionFamilyId": "CHE-FAM-0VNYZF8",
-      "databaseId": "CHE-T4-PD02",
-      "adaptiveRelationships": {
-        "prerequisite": "CHE-T4-MQ029",
-        "diagnostic": "CHE-T4-MQ029",
-        "easier": "CHE-T4-MQ029",
-        "parallel": "CHE-T4-MQ029",
-        "harder": "CHE-T4-MQ029"
-      }
-    },
-    {
-      "id": "T4-PD03",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Describe",
-      "subtopic": "T4 Chemical Changes · 4.4.2.4",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
-      "tier": "Chemistry only",
-      "question": "Describe the measurements needed for an acid–alkali titration using a pipette, burette and indicator.",
-      "marks": 6,
-      "modelAnswer": "Rinse pipette with alkali and transfer a fixed volume to a flask.\nAdd indicator.\nRinse and fill burette with acid and record initial reading at eye level.\nAdd acid while swirling, dropwise near end point.\nRecord final reading.\nCalculate titre.\nRepeat to obtain concordant titres.",
-      "markingPoints": [
-        "Rinse pipette with alkali and transfer a fixed volume to a flask.",
-        "Add indicator.",
-        "Rinse and fill burette with acid and record initial reading at eye level.",
-        "Add acid while swirling, dropwise near end point.",
-        "Record final reading.",
-        "Calculate titre.",
-        "Repeat to obtain concordant titres."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.4.2.4",
-      "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-FAM-0HGI1JV",
-      "databaseId": "CHE-T4-PD03"
-    },
-    {
-      "id": "T4-PD04",
-      "questionFamily": "T4 Chemical Changes · 4.4.2.4 · Explain",
-      "subtopic": "T4 Chemical Changes · 4.4.2.4",
-      "sourceSubtopic": "T4 Chemical Changes · 4.4.2.4",
-      "tier": "Chemistry only",
-      "question": "Explain why a burette is rinsed with the solution it will contain rather than only with water.",
-      "marks": 3,
-      "modelAnswer": "Residual water would dilute the solution, changing its concentration and titre.\nRinsing with the solution removes water without changing concentration.",
-      "markingPoints": [
-        "Residual water would dilute the solution, changing its concentration and titre.",
-        "Rinsing with the solution removes water without changing concentration."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.4.2.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-067QQ21",
-      "databaseId": "CHE-T4-PD04"
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
+      "databaseId": "CHE-T4-MQ037"
     },
     {
       "id": "T4-PD05",
-      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Plan",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
       "subtopic": "T4 Chemical Changes · 4.4.3.4",
       "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
       "tier": "Both",
@@ -1044,12 +3209,12 @@
         "Control concentration/current/time.",
         "Use small quantities, ventilation and eye protection because chlorine is toxic."
       ],
-      "commandWord": "Plan",
+      "commandWord": "Answer",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.3.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary",
-      "questionFamilyId": "CHE-FAM-0XG6OYW",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
       "databaseId": "CHE-T4-PD05"
     },
     {
@@ -1070,8 +3235,475 @@
       "specificationReference": "4.4.3.4",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-FAM-1S0CZXI",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-explain",
       "databaseId": "CHE-T4-PD06"
+    },
+    {
+      "id": "T4-QUIZ087",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "What ions are present in all aqueous solutions?",
+      "marks": 1,
+      "modelAnswer": "H+ and OH-.",
+      "markingPoints": [
+        "H+ and OH-."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
+      "databaseId": "CHE-T4-QUIZ087"
+    },
+    {
+      "id": "T4-QUIZ088",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "What affects the ions discharged when an aqueous solution is electrolysed?",
+      "marks": 1,
+      "modelAnswer": "The relative reactivity of the elements involved.",
+      "markingPoints": [
+        "The relative reactivity of the elements involved."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
+      "databaseId": "CHE-T4-QUIZ088"
+    },
+    {
+      "id": "T4-QUIZ089",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "Explain what will be discharged from a negative electrode (cathode) during the electrolysis of an aqueous solution?",
+      "marks": 1,
+      "modelAnswer": "If the metal ion is less reactive than hydrogen the metal will be formed. Otherwise, hydrogen will be released.",
+      "markingPoints": [
+        "If the metal ion is less reactive than hydrogen the metal will be formed. Otherwise, hydrogen will be released."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-explain",
+      "databaseId": "CHE-T4-QUIZ089"
+    },
+    {
+      "id": "T4-QUIZ090",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "Explain what will be discharged from a positive electrode (anode) during the electrolysis of an aqueous solution?",
+      "marks": 1,
+      "modelAnswer": "Oxygen is produced unless the solution contains halide ions in which event a halogen will be produced.",
+      "markingPoints": [
+        "Oxygen is produced unless the solution contains halide ions in which event a halogen will be produced."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-explain",
+      "databaseId": "CHE-T4-QUIZ090"
+    },
+    {
+      "id": "T4-QUIZ091",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "What are the ions found in a solution of copper sulfate (CuSO4)?",
+      "marks": 1,
+      "modelAnswer": "H+, OH-, Cu2+ and SO42-",
+      "markingPoints": [
+        "H+, OH-, Cu2+ and SO42-"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
+      "databaseId": "CHE-T4-QUIZ091"
+    },
+    {
+      "id": "T4-QUIZ092",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "Explain what will happen when an aqueous solution of copper sulfate is electrolysed?",
+      "marks": 1,
+      "modelAnswer": "Copper is less reactive than hydrogen so copper is formed at the negative electrode (cathode). As copper sulfate contains no halide ions oxygen will be formed at the positive electrode (anode).",
+      "markingPoints": [
+        "Copper is less reactive than hydrogen so copper is formed at the negative electrode (cathode). As copper sulfate contains no halide ions oxygen will be formed at the positive electrode (anode)."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-explain",
+      "databaseId": "CHE-T4-QUIZ092"
+    },
+    {
+      "id": "T4-QUIZ093",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "What are the ions found in a solution of sodium chloride (NaCl) (aq)?",
+      "marks": 1,
+      "modelAnswer": "H+, OH-, Na+ and Cl-",
+      "markingPoints": [
+        "H+, OH-, Na+ and Cl-"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-answer",
+      "databaseId": "CHE-T4-QUIZ093"
+    },
+    {
+      "id": "T4-QUIZ094",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.4 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.3.4",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.4",
+      "tier": "Foundation and Higher",
+      "question": "Explain what will happen when an aqueous solution of sodium chloride is electrolysed?",
+      "marks": 1,
+      "modelAnswer": "Sodium is more reactive than hydrogen so copper is formed at the negative electrode (cathode). As there are halide ions present in solution (the chloride ions) chlorine gas will be given off at the positive electrode (anode).",
+      "markingPoints": [
+        "Sodium is more reactive than hydrogen so copper is formed at the negative electrode (cathode). As there are halide ions present in solution (the chloride ions) chlorine gas will be given off at the positive electrode (anode)."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.4",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-4-explain",
+      "databaseId": "CHE-T4-QUIZ094"
+    },
+    {
+      "id": "T4-EX5",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Explain",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Both",
+      "question": "Explain why cryolite reduces the energy cost of aluminium extraction.",
+      "marks": 3,
+      "modelAnswer": "Cryolite lowers the melting point of aluminium oxide, so less electrical energy is needed to keep the electrolyte molten.\nThis reduces cost.",
+      "markingPoints": [
+        "Cryolite lowers the melting point of aluminium oxide, so less electrical energy is needed to keep the electrolyte molten.",
+        "This reduces cost."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-explain",
+      "databaseId": "CHE-T4-EX5"
+    },
+    {
+      "id": "T4-MQ017-A",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher",
+      "question": "Write the half equation for aluminium formation during electrolysis.",
+      "marks": 2,
+      "modelAnswer": "Al³⁺ + 3e⁻ → Al.",
+      "markingPoints": [
+        "Al³⁺ + 3e⁻ → Al."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-MQ017-A"
+    },
+    {
+      "id": "T4-MQ017-B",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher",
+      "question": "Write the half equation for copper formation during electrolysis.",
+      "marks": 2,
+      "modelAnswer": "Cu²⁺ + 2e⁻ → Cu.",
+      "markingPoints": [
+        "Cu²⁺ + 2e⁻ → Cu."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-MQ017-B"
+    },
+    {
+      "id": "T4-MQ017-C",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher",
+      "question": "Write the half equation for hydrogen formation during electrolysis.",
+      "marks": 2,
+      "modelAnswer": "2H⁺ + 2e⁻ → H₂.",
+      "markingPoints": [
+        "2H⁺ + 2e⁻ → H₂."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-MQ017-C"
+    },
+    {
+      "id": "T4-MQ017-D",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher",
+      "question": "Write the half equation for chlorine formation during electrolysis.",
+      "marks": 2,
+      "modelAnswer": "2Cl⁻ → Cl₂ + 2e⁻.",
+      "markingPoints": [
+        "2Cl⁻ → Cl₂ + 2e⁻."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-MQ017-D"
+    },
+    {
+      "id": "T4-MQ017-E",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher",
+      "question": "Write the half equation for oxygen formation during electrolysis.",
+      "marks": 2,
+      "modelAnswer": "4OH⁻ → O₂ + 2H₂O + 4e⁻.",
+      "markingPoints": [
+        "4OH⁻ → O₂ + 2H₂O + 4e⁻."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-MQ017-E"
+    },
+    {
+      "id": "T4-MQ022",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher",
+      "question": "A copper cathode gains 1.27 g in 20 minutes. Explain how increasing current or time affects deposited mass, assuming other factors remain constant.",
+      "marks": 5,
+      "modelAnswer": "Higher current means more charge/electrons pass each second.\nLonger time means charge passes for longer.\nMore Cu²⁺ ions gain electrons, so more copper deposits.\nDeposited mass is proportional to charge Q = It.",
+      "markingPoints": [
+        "Higher current means more charge/electrons pass each second.",
+        "Longer time means charge passes for longer.",
+        "More Cu²⁺ ions gain electrons, so more copper deposits.",
+        "Deposited mass is proportional to charge Q = It."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-answer",
+      "databaseId": "CHE-T4-MQ022"
+    },
+    {
+      "id": "T4-MQ027",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher",
+      "question": "A current of 2.0 A passes for 15 minutes. Calculate the charge transferred and explain why doubling the charge doubles metal deposited.",
+      "marks": 5,
+      "modelAnswer": "T=900 s\nQ=It=2.0×900=1800 C.\nCharge measures electrons transferred.\nTwice as many electrons reduce twice as many fixed-charge metal ions, so twice the amount/mass deposits.",
+      "markingPoints": [
+        "T=900 s",
+        "Q=It=2.0×900=1800 C.",
+        "Charge measures electrons transferred.",
+        "Twice as many electrons reduce twice as many fixed-charge metal ions, so twice the amount/mass deposits."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-answer",
+      "databaseId": "CHE-T4-MQ027"
+    },
+    {
+      "id": "T4-QUIZ095",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Foundation and Higher",
+      "question": "What happens at the cathode (negative electrode) during electrolysis?",
+      "marks": 1,
+      "modelAnswer": "Positive metal ions or hydrogen gain electrons.",
+      "markingPoints": [
+        "Positive metal ions or hydrogen gain electrons."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-answer",
+      "databaseId": "CHE-T4-QUIZ095"
+    },
+    {
+      "id": "T4-QUIZ096",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Foundation and Higher",
+      "question": "What type of reaction occurs at the cathode (negative electrode)?",
+      "marks": 1,
+      "modelAnswer": "Reduction.",
+      "markingPoints": [
+        "Reduction."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-answer",
+      "databaseId": "CHE-T4-QUIZ096"
+    },
+    {
+      "id": "T4-QUIZ097",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Foundation and Higher",
+      "question": "What happens at the anode (positive electrode) during electrolysis?",
+      "marks": 1,
+      "modelAnswer": "Negative non-metal ions lose electrons",
+      "markingPoints": [
+        "Negative non-metal ions lose electrons"
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-answer",
+      "databaseId": "CHE-T4-QUIZ097"
+    },
+    {
+      "id": "T4-QUIZ098",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · Answer",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Foundation and Higher",
+      "question": "What type of reaction occurs at the anode (positive electrode)?",
+      "marks": 1,
+      "modelAnswer": "Oxidation.",
+      "markingPoints": [
+        "Oxidation."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-answer",
+      "databaseId": "CHE-T4-QUIZ098"
+    },
+    {
+      "id": "T4-QUIZ099",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Foundation and Higher",
+      "question": "Write out the half equations for the electrolysis of copper sulfate solution?",
+      "marks": 1,
+      "modelAnswer": "Cathode: Cu²⁺ + 2e⁻ → Cu. Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻.",
+      "markingPoints": [
+        "Cathode: Cu²⁺ + 2e⁻ → Cu. Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-QUIZ099"
+    },
+    {
+      "id": "T4-QUIZ100",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Foundation and Higher",
+      "question": "Write out the half equations for the electrolysis of sodium chloride solution?",
+      "marks": 1,
+      "modelAnswer": "Cathode: 2H⁺ + 2e⁻ → H₂. Anode: 2Cl⁻ → Cl₂ + 2e⁻.",
+      "markingPoints": [
+        "Cathode: 2H⁺ + 2e⁻ → H₂. Anode: 2Cl⁻ → Cl₂ + 2e⁻."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "Low",
+      "knowledgeType": "Quiz recall",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-QUIZ100"
+    },
+    {
+      "id": "T4-QZ02",
+      "questionFamily": "T4 Chemical Changes · 4.4.3.5 · State",
+      "subtopic": "T4 Chemical Changes · 4.4.3.5",
+      "sourceSubtopic": "T4 Chemical Changes · 4.4.3.5",
+      "tier": "Higher only",
+      "question": "Write the ionic half-equations for electrolysis of aqueous copper sulfate using inert electrodes.",
+      "marks": 4,
+      "modelAnswer": "Cathode: Cu²⁺ + 2e⁻ → Cu. Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻.",
+      "markingPoints": [
+        "Cathode: Cu²⁺ + 2e⁻ → Cu. Anode: 4OH⁻ → O₂ + 2H₂O + 4e⁻."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.4.3.5",
+      "gradeDemand": "High",
+      "knowledgeType": "Electrolysis",
+      "questionFamilyId": "CHE-t4-chemical-changes-4-4-3-5-state",
+      "databaseId": "CHE-T4-QZ02"
     }
   ]
 }
