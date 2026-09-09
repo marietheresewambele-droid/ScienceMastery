@@ -96,6 +96,7 @@ export default function RevisionCenter({
       return questions.map((question) => {
         const review = progress.reviews[question.id];
           return {
+            key: `${topic.id}:${question.id}`,
           topic,
           question,
           priority:
@@ -153,7 +154,7 @@ export default function RevisionCenter({
     (rating: ReviewRating, hintsUsed = 0) => {
       const item = session[index];
       if (!item) return;
-      saveRating(item.topic, item.question.id, rating);
+      saveRating(item.topic, item.question.id, rating, hintsUsed, isExam || flipped);
       void recordAdaptiveAttempt({
         question: item.question,
         evidence: { rating, hintsUsed, answerRevealed: isExam || flipped },

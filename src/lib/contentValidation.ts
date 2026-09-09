@@ -14,7 +14,7 @@ export function validateQuestionWorkbook(questions: MasteryQuestion[], relations
     if (!question.modelAnswer?.trim() && question.markingPoints.length === 0) issues.push({ code: "MISSING_ANSWER", message: "Model answer or marking points are required", row: index + 1, id: question.id });
     if (question.marks !== question.markingPoints.length && question.markingPoints.length > 0) issues.push({ code: "MARK_MISMATCH", message: `Marks do not match marking points for ${question.id}`, row: index + 1, id: question.id });
     if (!/^AO[123](\/AO[123])*$/.test(question.assessmentObjective)) issues.push({ code: "INVALID_AO", message: `Invalid assessment objective for ${question.id}`, row: index + 1, id: question.id });
-    if (question.hints && question.hints.length !== 3) issues.push({ code: "INVALID_HINTS", message: `Exactly three hints are required for ${question.id}`, row: index + 1, id: question.id });
+    if (question.hints && question.hints.length !== 2) issues.push({ code: "INVALID_HINTS", message: `Exactly two hints are required for ${question.id}`, row: index + 1, id: question.id });
   }
   for (const [index, relationship] of relationships.entries()) {
     if (!relationship.sourceId || !ids.has(relationship.sourceId) || !relationship.targetId || !ids.has(relationship.targetId)) issues.push({ code: "BROKEN_RELATIONSHIP", message: "Relationship source and target must reference existing questions", row: index + 1 });

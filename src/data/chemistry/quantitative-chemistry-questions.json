@@ -10,68 +10,81 @@
   "questions": [
     {
       "id": "T3-MQ001",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.1.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.1.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.1.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.1.2",
       "tier": "Both",
       "question": "Using Ar: H=1, C=12, N=14, O=16, calculate Mr of HNO₃ and (NH₄)₂CO₃.",
       "marks": 5,
-      "modelAnswer": "HNO₃=1+14+48=63. (NH₄)₂CO₃=2(14+4)+12+48=96.",
+      "modelAnswer": "HNO₃=1+14+48=63.\n(NH₄)₂CO₃=2(14+4)+12+48=96.",
       "markingPoints": [
         "HNO₃=1+14+48=63.",
         "(NH₄)₂CO₃=2(14+4)+12+48=96."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.1.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0KKED5R",
+      "databaseId": "CHE-T3-MQ001",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ022",
+        "diagnostic": "CHE-T3-MQ022",
+        "easier": "CHE-T3-MQ022",
+        "parallel": "CHE-T3-MQ022",
+        "harder": "CHE-T3-MQ022"
+      }
     },
     {
       "id": "T3-MQ002",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.1.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.1.1 · Explain",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.1.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.1.1",
       "tier": "Both",
       "question": "Magnesium gains mass when heated in air. Explain why and why total mass is conserved.",
       "marks": 5,
-      "modelAnswer": "Magnesium reacts with oxygen. Oxygen atoms join the solid, increasing its measured mass. In a closed system total reactant mass equals total product mass because atoms are rearranged, not created/destroyed.",
+      "modelAnswer": "Magnesium reacts with oxygen.\nOxygen atoms join the solid, increasing its measured mass.\nIn a closed system total reactant mass equals total product mass because atoms are rearranged, not created/destroyed.",
       "markingPoints": [
         "Magnesium reacts with oxygen.",
         "Oxygen atoms join the solid, increasing its measured mass.",
         "In a closed system total reactant mass equals total product mass because atoms are rearranged, not created/destroyed."
       ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.1.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0FTMUN9",
+      "databaseId": "CHE-T3-MQ002"
     },
     {
       "id": "T3-MQ003",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.1.3",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.1.3 · Explain",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.1.3",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.1.3",
       "tier": "Both",
       "question": "Calcium carbonate is heated in an open test tube and the remaining solid has lower mass. Explain the apparent mass loss.",
       "marks": 5,
-      "modelAnswer": "CaCO₃ → CaO + CO₂. Carbon dioxide gas escapes from the open apparatus. Including the gas, total mass is conserved.",
+      "modelAnswer": "CaCO₃ → CaO + CO₂.\nCarbon dioxide gas escapes from the open apparatus.\nIncluding the gas, total mass is conserved.",
       "markingPoints": [
         "CaCO₃ → CaO + CO₂.",
         "Carbon dioxide gas escapes from the open apparatus.",
         "Including the gas, total mass is conserved."
       ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.1.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0E15QRV",
+      "databaseId": "CHE-T3-MQ003"
     },
     {
       "id": "T3-MQ004",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.1.4",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.1.4 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.1.4",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.1.4",
       "tier": "Both",
       "question": "A balance reads 2.50 g with uncertainty ±0.01 g. Calculate percentage uncertainty.",
       "marks": 5,
@@ -79,55 +92,82 @@
       "markingPoints": [
         "(0.01/2.50)×100=0.40%."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.1.4",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-FAM-1F955AH",
+      "databaseId": "CHE-T3-MQ004",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ026",
+        "diagnostic": "CHE-T3-MQ026",
+        "easier": "CHE-T3-MQ026",
+        "parallel": "CHE-T3-MQ026",
+        "harder": "CHE-T3-MQ026"
+      }
     },
     {
       "id": "T3-MQ005",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.1 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.1",
       "tier": "Both",
       "question": "Calculate moles in 9.80 g sulfuric acid, H₂SO₄. Ar: H=1, S=32, O=16.",
       "marks": 5,
-      "modelAnswer": "Mr=98 Moles=9.80/98=0.100 mol.",
+      "modelAnswer": "Mr=98\nMoles=9.80/98=0.100 mol.",
       "markingPoints": [
         "Mr=98",
         "Moles=9.80/98=0.100 mol."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0TMVL8J",
+      "databaseId": "CHE-T3-MQ005",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ006",
+        "diagnostic": "CHE-T3-MQ006",
+        "easier": "CHE-T3-MQ006",
+        "parallel": "CHE-T3-MQ006",
+        "harder": "CHE-T3-MQ007"
+      }
     },
     {
       "id": "T3-MQ006",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.1 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.1",
       "tier": "Both",
       "question": "Calculate the mass of 0.350 mol calcium carbonate, CaCO₃. Ar: Ca=40, C=12, O=16.",
       "marks": 5,
-      "modelAnswer": "Mr=100 Mass=0.350×100=35.0 g.",
+      "modelAnswer": "Mr=100\nMass=0.350×100=35.0 g.",
       "markingPoints": [
         "Mr=100",
         "Mass=0.350×100=35.0 g."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0TMVL8J",
+      "databaseId": "CHE-T3-MQ006",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ005",
+        "diagnostic": "CHE-T3-MQ005",
+        "easier": "CHE-T3-MQ005",
+        "parallel": "CHE-T3-MQ005",
+        "harder": "CHE-T3-MQ007"
+      }
     },
     {
       "id": "T3-MQ007",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.1 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.1",
       "tier": "Higher",
       "question": "Calculate the number of molecules in 0.250 mol CO₂. Use 6.02×10²³ mol⁻¹.",
       "marks": 6,
@@ -135,172 +175,250 @@
       "markingPoints": [
         "0.250×6.02×10²³=1.505×10²³ ≈1.51×10²³ molecules."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.1",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0TMVL8J",
+      "databaseId": "CHE-T3-MQ007",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ005",
+        "diagnostic": "CHE-T3-MQ005",
+        "easier": "CHE-T3-MQ005",
+        "parallel": "CHE-T3-MQ005"
+      }
     },
     {
       "id": "T3-MQ008",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.2",
       "tier": "Both",
       "question": "N₂ + 3H₂ → 2NH₃. Calculate moles of ammonia made from 4.0 mol nitrogen with excess hydrogen.",
       "marks": 5,
-      "modelAnswer": "Ratio N₂:NH₃=1:2. 4.0×2=8.0 mol NH₃.",
+      "modelAnswer": "Ratio N₂:NH₃=1:2.\n4.0×2=8.0 mol NH₃.",
       "markingPoints": [
         "Ratio N₂:NH₃=1:2.",
         "4.0×2=8.0 mol NH₃."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1WHVOJM",
+      "databaseId": "CHE-T3-MQ008",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX2",
+        "diagnostic": "CHE-T3-EX2",
+        "easier": "CHE-T3-EX2",
+        "parallel": "CHE-T3-MQ009",
+        "harder": "CHE-T3-MQ009"
+      }
     },
     {
       "id": "T3-MQ009",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.2",
       "tier": "Both",
       "question": "2Mg + O₂ → 2MgO. Calculate mass of MgO formed from 12.0 g Mg. Ar: Mg=24, O=16.",
       "marks": 7,
-      "modelAnswer": "Moles Mg=12/24=0.500. Ratio 1:1, so 0.500 mol MgO. Mr=40 Mass=20.0 g.",
+      "modelAnswer": "Moles Mg=12/24=0.500.\nRatio 1:1, so 0.500 mol MgO.\nMr=40\nMass=20.0 g.",
       "markingPoints": [
         "Moles Mg=12/24=0.500.",
         "Ratio 1:1, so 0.500 mol MgO.",
         "Mr=40",
         "Mass=20.0 g."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1WHVOJM",
+      "databaseId": "CHE-T3-MQ009",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX2",
+        "diagnostic": "CHE-T3-EX2",
+        "easier": "CHE-T3-MQ008",
+        "parallel": "CHE-T3-MQ025"
+      }
     },
     {
       "id": "T3-MQ010",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.4",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.4 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.4",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.4",
       "tier": "Higher",
       "question": "N₂ + 3H₂ → 2NH₃. 2.0 mol N₂ reacts with 4.5 mol H₂. Identify the limiting reactant and calculate ammonia produced.",
       "marks": 8,
-      "modelAnswer": "2.0 mol N₂ needs 6.0 mol H₂, but only 4.5 available H₂ limiting. NH₃=4.5×(2/3)=3.0 mol.",
+      "modelAnswer": "2.0 mol N₂ needs 6.0 mol H₂, but only 4.5 available\nH₂ limiting.\nNH₃=4.5×(2/3)=3.0 mol.",
       "markingPoints": [
         "2.0 mol N₂ needs 6.0 mol H₂, but only 4.5 available",
         "H₂ limiting.",
         "NH₃=4.5×(2/3)=3.0 mol."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.4",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1JMXQI8",
+      "databaseId": "CHE-T3-MQ010",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX1",
+        "diagnostic": "CHE-T3-EX1",
+        "easier": "CHE-T3-MQ011",
+        "parallel": "CHE-T3-MQ011"
+      }
     },
     {
       "id": "T3-MQ011",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.4",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.4 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.4",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.4",
       "tier": "Higher",
       "question": "Using the mixture in T3-MQ010, calculate moles of nitrogen left after reaction.",
       "marks": 7,
-      "modelAnswer": "N₂ used=4.5/3=1.5 mol Remaining=2.0−1.5=0.50 mol.",
+      "modelAnswer": "N₂ used=4.5/3=1.5 mol\nRemaining=2.0−1.5=0.50 mol.",
       "markingPoints": [
         "N₂ used=4.5/3=1.5 mol",
         "Remaining=2.0−1.5=0.50 mol."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.4",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1JMXQI8",
+      "databaseId": "CHE-T3-MQ011",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX1",
+        "diagnostic": "CHE-T3-EX1",
+        "easier": "CHE-T3-EX1",
+        "parallel": "CHE-T3-MQ010",
+        "harder": "CHE-T3-MQ010"
+      }
     },
     {
       "id": "T3-MQ012",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.5",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.5 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.5",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.5",
       "tier": "Both",
       "question": "5.00 g sodium chloride is dissolved to make 250 cm³ solution. Calculate concentration in g/dm³.",
       "marks": 5,
-      "modelAnswer": "250 cm³=0.250 dm³ 5.00/0.250=20.0 g/dm³.",
+      "modelAnswer": "250 cm³=0.250 dm³\n5.00/0.250=20.0 g/dm³.",
       "markingPoints": [
         "250 cm³=0.250 dm³",
         "5.00/0.250=20.0 g/dm³."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.5",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1HXPP9Z",
+      "databaseId": "CHE-T3-MQ012",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ013",
+        "diagnostic": "CHE-T3-MQ013",
+        "easier": "CHE-T3-MQ013",
+        "parallel": "CHE-T3-MQ013",
+        "harder": "CHE-T3-MQ013"
+      }
     },
     {
       "id": "T3-MQ013",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.5",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.5 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.5",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.5",
       "tier": "Higher",
       "question": "0.200 mol NaOH is dissolved to make 500 cm³ solution. Calculate concentration in mol/dm³.",
       "marks": 6,
-      "modelAnswer": "500 cm³=0.500 dm³ C=n/V=0.200/0.500=0.400 mol/dm³.",
+      "modelAnswer": "500 cm³=0.500 dm³\nC=n/V=0.200/0.500=0.400 mol/dm³.",
       "markingPoints": [
         "500 cm³=0.500 dm³",
         "C=n/V=0.200/0.500=0.400 mol/dm³."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.5",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1HXPP9Z",
+      "databaseId": "CHE-T3-MQ013",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ012",
+        "diagnostic": "CHE-T3-MQ012",
+        "easier": "CHE-T3-MQ012",
+        "parallel": "CHE-T3-MQ014",
+        "harder": "CHE-T3-MQ015"
+      }
     },
     {
       "id": "T3-MQ014",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.5",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.5 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.5",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.5",
       "tier": "Both",
       "question": "Calculate mass of solute needed to make 300 cm³ of a 12 g/dm³ solution.",
       "marks": 6,
-      "modelAnswer": "300 cm³=0.300 dm³ Mass=c×V=12×0.300=3.6 g.",
+      "modelAnswer": "300 cm³=0.300 dm³\nMass=c×V=12×0.300=3.6 g.",
       "markingPoints": [
         "300 cm³=0.300 dm³",
         "Mass=c×V=12×0.300=3.6 g."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.5",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1HXPP9Z",
+      "databaseId": "CHE-T3-MQ014",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ012",
+        "diagnostic": "CHE-T3-MQ012",
+        "easier": "CHE-T3-MQ012",
+        "parallel": "CHE-T3-MQ013",
+        "harder": "CHE-T3-MQ015"
+      }
     },
     {
       "id": "T3-MQ015",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.5",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.5 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.5",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.5",
       "tier": "Higher",
       "question": "25.0 cm³ HCl is neutralised by 20.0 cm³ of 0.150 mol/dm³ NaOH. HCl + NaOH → NaCl + H₂O. Calculate [HCl].",
       "marks": 8,
-      "modelAnswer": "N(NaOH)=0.150×0.0200=0.00300 mol. Ratio 1:1, n(HCl)=0.00300. [HCl]=0.00300/0.0250=0.120 mol/dm³.",
+      "modelAnswer": "N(NaOH)=0.150×0.0200=0.00300 mol.\nRatio 1:1, n(HCl)=0.00300. [HCl]=0.00300/0.0250=0.120 mol/dm³.",
       "markingPoints": [
         "N(NaOH)=0.150×0.0200=0.00300 mol.",
         "Ratio 1:1, n(HCl)=0.00300. [HCl]=0.00300/0.0250=0.120 mol/dm³."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.5",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1HXPP9Z",
+      "databaseId": "CHE-T3-MQ015",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ012",
+        "diagnostic": "CHE-T3-MQ012",
+        "easier": "CHE-T3-MQ013",
+        "parallel": "CHE-T3-MQ013",
+        "harder": "CHE-T3-MQ029"
+      }
     },
     {
       "id": "T3-MQ016",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.6",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.6 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.6",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.6",
       "tier": "Higher",
       "question": "At room temperature and pressure, 1 mol gas occupies 24 dm³. Calculate volume of 0.075 mol CO₂ in dm³ and cm³.",
       "marks": 6,
@@ -308,55 +426,80 @@
       "markingPoints": [
         "0.075×24=1.80 dm³=1800 cm³."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.6",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0LGQ9VQ",
+      "databaseId": "CHE-T3-MQ016",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ017",
+        "diagnostic": "CHE-T3-MQ017",
+        "easier": "CHE-T3-MQ017",
+        "parallel": "CHE-T3-MQ017"
+      }
     },
     {
       "id": "T3-MQ017",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.6",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.6 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.6",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.6",
       "tier": "Higher",
       "question": "A reaction produces 600 cm³ hydrogen at RTP. Calculate moles of hydrogen.",
       "marks": 5,
-      "modelAnswer": "600 cm³=0.600 dm³ N=0.600/24=0.0250 mol.",
+      "modelAnswer": "600 cm³=0.600 dm³\nN=0.600/24=0.0250 mol.",
       "markingPoints": [
         "600 cm³=0.600 dm³",
         "N=0.600/24=0.0250 mol."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.6",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0LGQ9VQ",
+      "databaseId": "CHE-T3-MQ017",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ016",
+        "diagnostic": "CHE-T3-MQ016",
+        "easier": "CHE-T3-MQ016",
+        "parallel": "CHE-T3-MQ016",
+        "harder": "CHE-T3-MQ016"
+      }
     },
     {
       "id": "T3-MQ018",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.1 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.1",
       "tier": "Both",
       "question": "The theoretical yield is 12.0 g and actual yield is 9.30 g. Calculate percentage yield and give two reasons it is below 100%.",
       "marks": 6,
-      "modelAnswer": "(9.30/12.0)×100=77.5%. Reasons: incomplete/reversible reaction, side reactions, product lost during separation/transfer.",
+      "modelAnswer": "(9.30/12.0)×100=77.5%.\nReasons: incomplete/reversible reaction, side reactions, product lost during separation/transfer.",
       "markingPoints": [
         "(9.30/12.0)×100=77.5%.",
         "Reasons: incomplete/reversible reaction, side reactions, product lost during separation/transfer."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1TL44MG",
+      "databaseId": "CHE-T3-MQ018",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX3",
+        "diagnostic": "CHE-T3-EX3",
+        "easier": "CHE-T3-MQ019",
+        "parallel": "CHE-T3-MQ019"
+      }
     },
     {
       "id": "T3-MQ019",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.1 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.1",
       "tier": "Both",
       "question": "A process has theoretical yield 80.0 kg and percentage yield 72%. Calculate actual yield.",
       "marks": 5,
@@ -364,17 +507,26 @@
       "markingPoints": [
         "0.72×80.0=57.6 kg."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1TL44MG",
+      "databaseId": "CHE-T3-MQ019",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX3",
+        "diagnostic": "CHE-T3-EX3",
+        "easier": "CHE-T3-EX3",
+        "parallel": "CHE-T3-MQ018",
+        "harder": "CHE-T3-MQ018"
+      }
     },
     {
       "id": "T3-MQ020",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.2",
       "tier": "Both",
       "question": "CaCO₃ → CaO + CO₂. Calculate atom economy for CaO. Mr: CaCO₃=100, CaO=56.",
       "marks": 6,
@@ -382,116 +534,152 @@
       "markingPoints": [
         "Atom economy=(56/100)×100=56%."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1K68Z5P",
+      "databaseId": "CHE-T3-MQ020",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX5",
+        "diagnostic": "CHE-T3-EX5",
+        "easier": "CHE-T3-EX5",
+        "parallel": "CHE-T3-EX5"
+      }
     },
     {
       "id": "T3-MQ021",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.2 · Explain",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.2",
       "tier": "Both",
       "question": "Explain why high atom economy is desirable even if percentage yield is high.",
       "marks": 5,
-      "modelAnswer": "A high-yield reaction can still make much waste. High atom economy puts a larger fraction of reactant atoms into desired product, conserving resources, reducing waste/separation costs and environmental impact.",
+      "modelAnswer": "A high-yield reaction can still make much waste.\nHigh atom economy puts a larger fraction of reactant atoms into desired product, conserving resources, reducing waste/separation costs and environmental impact.",
       "markingPoints": [
         "A high-yield reaction can still make much waste.",
         "High atom economy puts a larger fraction of reactant atoms into desired product, conserving resources, reducing waste/separation costs and environmental impact."
       ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-04S1CGE",
+      "databaseId": "CHE-T3-MQ021",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-PD04",
+        "diagnostic": "CHE-T3-PD04",
+        "easier": "CHE-T3-PD04",
+        "parallel": "CHE-T3-PD04"
+      }
     },
     {
       "id": "T3-MQ022",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.1.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.1.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.1.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.1.2",
       "tier": "Both",
       "question": "Calculate percentage by mass of nitrogen in ammonium nitrate, NH₄NO₃. Ar: H=1, N=14, O=16.",
       "marks": 6,
-      "modelAnswer": "Mr=80 Nitrogen mass=28. (28/80)×100=35.0%.",
+      "modelAnswer": "Mr=80\nNitrogen mass=28.\n(28/80)×100=35.0%.",
       "markingPoints": [
         "Mr=80",
         "Nitrogen mass=28.",
         "(28/80)×100=35.0%."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.1.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0KKED5R",
+      "databaseId": "CHE-T3-MQ022",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ001",
+        "diagnostic": "CHE-T3-MQ001",
+        "easier": "CHE-T3-MQ001",
+        "parallel": "CHE-T3-MQ001"
+      }
     },
     {
       "id": "T3-MQ023",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.3",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.3 · Write",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.3",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.3",
       "tier": "Higher",
-      "question": "A reaction uses 4.0 mol aluminium for every 3.0 mol oxygen molecules and forms 2.0 mol aluminium oxide units. Use the mole ratio to write the balanced symbol equation.",
+      "question": "A reaction uses 4.0 mol aluminium for every 3.0 mol oxygen molecules and forms 2.0 mol aluminium oxide units.\nUse the mole ratio to write the balanced symbol equation.",
       "marks": 8,
-      "modelAnswer": "The simplest ratio is Al:O₂:Al₂O₃ = 4:3:2, so 4Al + 3O₂ → 2Al₂O₃. Check: 4 Al atoms and 6 O atoms on each side.",
+      "modelAnswer": "The simplest ratio is Al:O₂:Al₂O₃ = 4:3:2, so 4Al + 3O₂ → 2Al₂O₃.\nCheck: 4 Al atoms and 6 O atoms on each side.",
       "markingPoints": [
         "The simplest ratio is Al:O₂:Al₂O₃ = 4:3:2, so 4Al + 3O₂ → 2Al₂O₃.",
         "Check: 4 Al atoms and 6 O atoms on each side."
       ],
+      "commandWord": "Write",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.3",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0ZOYTAM",
+      "databaseId": "CHE-T3-MQ023"
     },
     {
       "id": "T3-MQ024",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.2 · Determine",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.2",
       "tier": "Higher",
       "question": "2.4 g magnesium reacts with 1.6 g oxygen. Determine the empirical formula of the oxide. Ar: Mg=24, O=16.",
       "marks": 8,
-      "modelAnswer": "Moles Mg=2.4/24=0.10. O=1.6/16=0.10 Ratio 1:1. MgO.",
+      "modelAnswer": "Moles Mg=2.4/24=0.10.\nO=1.6/16=0.10\nRatio 1:1.\nMgO.",
       "markingPoints": [
         "Moles Mg=2.4/24=0.10.",
         "O=1.6/16=0.10",
         "Ratio 1:1.",
         "MgO."
       ],
+      "commandWord": "Determine",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1K6OCSJ",
+      "databaseId": "CHE-T3-MQ024"
     },
     {
       "id": "T3-MQ025",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.2",
       "tier": "Both",
       "question": "CH₄ + 2O₂ → CO₂ + 2H₂O. Calculate oxygen mass required to burn 8.0 g methane. Mr: CH₄=16, O₂=32.",
       "marks": 7,
-      "modelAnswer": "N(CH₄)=8/16=0.50 mol N(O₂)=1.00 mol Mass=1.00×32=32 g.",
+      "modelAnswer": "N(CH₄)=8/16=0.50 mol\nN(O₂)=1.00 mol\nMass=1.00×32=32 g.",
       "markingPoints": [
         "N(CH₄)=8/16=0.50 mol",
         "N(O₂)=1.00 mol",
         "Mass=1.00×32=32 g."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1WHVOJM",
+      "databaseId": "CHE-T3-MQ025",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-EX2",
+        "diagnostic": "CHE-T3-EX2",
+        "easier": "CHE-T3-MQ008",
+        "parallel": "CHE-T3-MQ009"
+      }
     },
     {
       "id": "T3-MQ026",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.1.4",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.1.4 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.1.4",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.1.4",
       "tier": "Higher",
       "question": "A 10.0 g impure limestone sample contains 8.50 g CaCO₃. Calculate percentage purity.",
       "marks": 7,
@@ -499,42 +687,52 @@
       "markingPoints": [
         "(8.50/10.0)×100=85.0%."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.1.4",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1F955AH",
+      "databaseId": "CHE-T3-MQ026",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ004",
+        "diagnostic": "CHE-T3-MQ004",
+        "easier": "CHE-T3-MQ004",
+        "parallel": "CHE-T3-MQ004"
+      }
     },
     {
       "id": "T3-MQ027",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.1; 4.3.3.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.1; 4.3.3.2 · State",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.1; 4.3.3.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.1; 4.3.3.2",
       "tier": "Both",
       "question": "Distinguish percentage yield from atom economy and state one way each can be improved.",
       "marks": 6,
-      "modelAnswer": "Yield compares actual product with theoretical product. Improve reaction completion or reduce product loss. Atom economy compares Mr of desired product with total products from equation. Improve by choosing a different reaction route with fewer waste products.",
+      "modelAnswer": "Yield compares actual product with theoretical product.\nImprove reaction completion or reduce product loss.\nAtom economy compares Mr of desired product with total products from equation.\nImprove by choosing a different reaction route with fewer waste products.",
       "markingPoints": [
         "Yield compares actual product with theoretical product.",
         "Improve reaction completion or reduce product loss.",
         "Atom economy compares Mr of desired product with total products from equation.",
         "Improve by choosing a different reaction route with fewer waste products."
       ],
+      "commandWord": "State",
       "assessmentObjective": "AO1/AO3",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.1; 4.3.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-FAM-0Q3LZUM",
+      "databaseId": "CHE-T3-MQ027"
     },
     {
       "id": "T3-MQ028",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.2 · Give",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.2",
       "tier": "Both",
       "question": "Give the general method for a reacting-mass calculation from a known reactant mass to an unknown product mass.",
       "marks": 5,
-      "modelAnswer": "Balance equation. Calculate Mr. Known mass÷Mr to get moles. Use equation mole ratio. Multiply required moles by product Mr. Include units and sensible significant figures.",
+      "modelAnswer": "Balance equation.\nCalculate Mr.\nKnown mass÷Mr to get moles.\nUse equation mole ratio.\nMultiply required moles by product Mr.\nInclude units and sensible significant figures.",
       "markingPoints": [
         "Balance equation.",
         "Calculate Mr.",
@@ -543,156 +741,206 @@
         "Multiply required moles by product Mr.",
         "Include units and sensible significant figures."
       ],
+      "commandWord": "Give",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-0FB1CWZ",
+      "databaseId": "CHE-T3-MQ028"
     },
     {
       "id": "T3-MQ029",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.5",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.5 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.5",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.5",
       "tier": "Both",
       "question": "Titres are 24.80, 24.75, 25.60 and 24.85 cm³. Identify concordant results and calculate their mean.",
       "marks": 6,
-      "modelAnswer": "24.80, 24.75 and 24.85 are within 0.10 cm³ 25.60 is anomalous. Mean=(24.80+24.75+24.85)/3=24.80 cm³.",
+      "modelAnswer": "24.80, 24.75 and 24.85 are within 0.10 cm³\n25.60 is anomalous.\nMean=(24.80+24.75+24.85)/3=24.80 cm³.",
       "markingPoints": [
         "24.80, 24.75 and 24.85 are within 0.10 cm³",
         "25.60 is anomalous.",
         "Mean=(24.80+24.75+24.85)/3=24.80 cm³."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.5",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1HXPP9Z",
+      "databaseId": "CHE-T3-MQ029",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ012",
+        "diagnostic": "CHE-T3-MQ012",
+        "easier": "CHE-T3-MQ015",
+        "parallel": "CHE-T3-MQ015"
+      }
     },
     {
       "id": "T3-MQ030",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.2; 4.3.2.6",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.2; 4.3.2.6 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.2; 4.3.2.6",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.2; 4.3.2.6",
       "tier": "Higher",
       "question": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. Calculate CO₂ volume at RTP from 5.00 g pure CaCO₃. Mr CaCO₃=100; molar gas volume=24 dm³/mol.",
       "marks": 9,
-      "modelAnswer": "N(CaCO₃)=5.00/100=0.0500 mol. Ratio 1:1, n(CO₂)=0.0500 mol. Volume=0.0500×24=1.20 dm³ (1200 cm³).",
+      "modelAnswer": "N(CaCO₃)=5.00/100=0.0500 mol.\nRatio 1:1, n(CO₂)=0.0500 mol.\nVolume=0.0500×24=1.20 dm³ (1200 cm³).",
       "markingPoints": [
         "N(CaCO₃)=5.00/100=0.0500 mol.",
         "Ratio 1:1, n(CO₂)=0.0500 mol.",
         "Volume=0.0500×24=1.20 dm³ (1200 cm³)."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.2; 4.3.2.6",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1EI8Y56",
+      "databaseId": "CHE-T3-MQ030"
     },
     {
       "id": "T3-EX1",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.4",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.4 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.4",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.4",
       "tier": "Higher",
       "question": "25.0 cm³ of 0.200 mol/dm³ HCl neutralises NaOH. Calculate the moles of HCl used.",
       "marks": 3,
-      "modelAnswer": "Convert volume: 25.0 cm³ = 0.0250 dm³. Moles = concentration × volume = 0.200 × 0.0250 = 0.00500 mol.",
+      "modelAnswer": "Convert volume: 25.0 cm³ = 0.0250 dm³.\nMoles = concentration × volume = 0.200 × 0.0250 = 0.00500 mol.",
       "markingPoints": [
         "Convert volume: 25.0 cm³ = 0.0250 dm³.",
         "Moles = concentration × volume = 0.200 × 0.0250 = 0.00500 mol."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.4",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1JMXQI8",
+      "databaseId": "CHE-T3-EX1",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ011",
+        "diagnostic": "CHE-T3-MQ011",
+        "easier": "CHE-T3-MQ011",
+        "parallel": "CHE-T3-MQ011",
+        "harder": "CHE-T3-MQ011"
+      }
     },
     {
       "id": "T3-EX2",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.2",
       "tier": "Both",
       "question": "CaCO₃ → CaO + CO₂. Calculate the maximum mass of CaO made from 25.0 g CaCO₃. Mr values: CaCO₃ = 100, CaO = 56.",
       "marks": 4,
-      "modelAnswer": "Moles CaCO₃ = 25.0 ÷ 100 = 0.250 mol. Ratio 1:1, so 0.250 mol CaO. Mass = 0.250 × 56 = 14.0 g.",
+      "modelAnswer": "Moles CaCO₃ = 25.0 ÷ 100 = 0.250 mol.\nRatio 1:1, so 0.250 mol CaO.\nMass = 0.250 × 56 = 14.0 g.",
       "markingPoints": [
         "Moles CaCO₃ = 25.0 ÷ 100 = 0.250 mol.",
         "Ratio 1:1, so 0.250 mol CaO.",
         "Mass = 0.250 × 56 = 14.0 g."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.2",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1WHVOJM",
+      "databaseId": "CHE-T3-EX2",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ008",
+        "diagnostic": "CHE-T3-MQ008",
+        "easier": "CHE-T3-MQ008",
+        "parallel": "CHE-T3-MQ008",
+        "harder": "CHE-T3-MQ008"
+      }
     },
     {
       "id": "T3-EX3",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.1 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.1",
       "tier": "Chemistry only",
       "question": "A process has theoretical yield 18.0 g and actual yield 13.5 g. Calculate percentage yield and give two reasons it is below 100%.",
       "marks": 4,
-      "modelAnswer": "Percentage yield = 13.5 ÷ 18.0 × 100 = 75.0%. Reasons: reversible/incomplete reaction, side reactions, or product lost during separation/transfer.",
+      "modelAnswer": "Percentage yield = 13.5 ÷ 18.0 × 100 = 75.0%.\nReasons: reversible/incomplete reaction, side reactions, or product lost during separation/transfer.",
       "markingPoints": [
         "Percentage yield = 13.5 ÷ 18.0 × 100 = 75.0%.",
         "Reasons: reversible/incomplete reaction, side reactions, or product lost during separation/transfer."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.1",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1TL44MG",
+      "databaseId": "CHE-T3-EX3",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ019",
+        "diagnostic": "CHE-T3-MQ019",
+        "easier": "CHE-T3-MQ019",
+        "parallel": "CHE-T3-MQ019",
+        "harder": "CHE-T3-MQ019"
+      }
     },
     {
       "id": "T3-EX4",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.3",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.3 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.3",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.3",
       "tier": "Higher",
       "question": "For 2SO₂ + O₂ → 2SO₃, identify the limiting reactant when 3.0 mol SO₂ reacts with 2.0 mol O₂, and calculate moles of SO₃.",
       "marks": 4,
-      "modelAnswer": "3.0 mol SO₂ needs 1.5 mol O₂, so SO₂ is limiting and O₂ is excess. The 2:2 ratio gives 3.0 mol SO₃.",
+      "modelAnswer": "3.0 mol SO₂ needs 1.5 mol O₂, so SO₂ is limiting and O₂ is excess.\nThe 2:2 ratio gives 3.0 mol SO₃.",
       "markingPoints": [
         "3.0 mol SO₂ needs 1.5 mol O₂, so SO₂ is limiting and O₂ is excess.",
         "The 2:2 ratio gives 3.0 mol SO₃."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1TDNOU9",
+      "databaseId": "CHE-T3-EX4"
     },
     {
       "id": "T3-EX5",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.2 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.2",
       "tier": "Chemistry only",
-      "question": "Calculate the atom economy for making desired product C (Mr 80) in A + B → C + D, where Mr(D)=20.",
+      "question": "Calculate the atom economy for making desired product C (Mr 80) in A + B → C + D, where Mr\nPart (d): =20.",
       "marks": 3,
       "modelAnswer": "Atom economy = Mr desired product ÷ total Mr products × 100 = 80 ÷ (80 + 20) × 100 = 80%.",
       "markingPoints": [
         "Atom economy = Mr desired product ÷ total Mr products × 100 = 80 ÷ (80 + 20) × 100 = 80%."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.2",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "CHE-FAM-1K68Z5P",
+      "databaseId": "CHE-T3-EX5",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ020",
+        "diagnostic": "CHE-T3-MQ020",
+        "easier": "CHE-T3-MQ020",
+        "parallel": "CHE-T3-MQ020",
+        "harder": "CHE-T3-MQ020"
+      }
     },
     {
       "id": "T3-PD01",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.2.1",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.2.1 · Describe",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.2.1",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.2.1",
       "tier": "Both",
       "question": "Describe how to obtain an accurate mass of a solid added from a weighing boat by difference.",
       "marks": 4,
-      "modelAnswer": "Measure mass of boat plus solid. Transfer the solid. Reweigh the boat and residue. Subtract final mass from initial mass. This accounts for solid left on the boat.",
+      "modelAnswer": "Measure mass of boat plus solid.\nTransfer the solid.\nReweigh the boat and residue.\nSubtract final mass from initial mass.\nThis accounts for solid left on the boat.",
       "markingPoints": [
         "Measure mass of boat plus solid.",
         "Transfer the solid.",
@@ -700,17 +948,19 @@
         "Subtract final mass from initial mass.",
         "This accounts for solid left on the boat."
       ],
+      "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "CHE-FAM-1UPBO9W",
+      "databaseId": "CHE-T3-PD01"
     },
     {
       "id": "T3-PD02",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "WS 3.4",
+      "questionFamily": "T3 Quantitative Chemistry · WS 3.4 · Calculate",
+      "subtopic": "T3 Quantitative Chemistry · WS 3.4",
+      "sourceSubtopic": "T3 Quantitative Chemistry · WS 3.4",
       "tier": "Higher",
       "question": "A product mass is 8.40 g with an uncertainty of ±0.05 g. Calculate the percentage uncertainty.",
       "marks": 3,
@@ -718,89 +968,106 @@
       "markingPoints": [
         "Percentage uncertainty = (0.05 ÷ 8.40) × 100 = 0.595%, approximately 0.60%."
       ],
+      "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "WS 3.4",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-FAM-0OJL5NG",
+      "databaseId": "CHE-T3-PD02"
     },
     {
       "id": "T3-PD03",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "WS 3.4",
+      "questionFamily": "T3 Quantitative Chemistry · WS 3.4 · Explain",
+      "subtopic": "T3 Quantitative Chemistry · WS 3.4",
+      "sourceSubtopic": "T3 Quantitative Chemistry · WS 3.4",
       "tier": "Higher",
       "question": "Explain why percentage uncertainty is usually larger when the same apparatus measures a smaller quantity.",
       "marks": 3,
-      "modelAnswer": "The absolute uncertainty is similar, but it is divided by a smaller measured value. Therefore it forms a larger fraction and percentage of the measurement.",
+      "modelAnswer": "The absolute uncertainty is similar, but it is divided by a smaller measured value.\nTherefore it forms a larger fraction and percentage of the measurement.",
       "markingPoints": [
         "The absolute uncertainty is similar, but it is divided by a smaller measured value.",
         "Therefore it forms a larger fraction and percentage of the measurement."
       ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "WS 3.4",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-FAM-0YU7T33",
+      "databaseId": "CHE-T3-PD03"
     },
     {
       "id": "T3-PD04",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.3.3.2",
+      "questionFamily": "T3 Quantitative Chemistry · 4.3.3.2 · Explain",
+      "subtopic": "T3 Quantitative Chemistry · 4.3.3.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.3.3.2",
       "tier": "Both",
       "question": "A reaction gives a percentage yield above 100%. Give two practical causes and explain each.",
       "marks": 4,
-      "modelAnswer": "The product may be wet or contaminated, adding mass that is not product. Unreacted starting material may remain mixed with it. Either makes measured product mass too high.",
+      "modelAnswer": "The product may be wet or contaminated, adding mass that is not product.\nUnreacted starting material may remain mixed with it.\nEither makes measured product mass too high.",
       "markingPoints": [
         "The product may be wet or contaminated, adding mass that is not product.",
         "Unreacted starting material may remain mixed with it.",
         "Either makes measured product mass too high."
       ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.3.3.2",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-FAM-04S1CGE",
+      "databaseId": "CHE-T3-PD04",
+      "adaptiveRelationships": {
+        "prerequisite": "CHE-T3-MQ021",
+        "diagnostic": "CHE-T3-MQ021",
+        "easier": "CHE-T3-MQ021",
+        "parallel": "CHE-T3-MQ021",
+        "harder": "CHE-T3-MQ021"
+      }
     },
     {
       "id": "T3-PD05",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "4.4.2.4; WS 3.7",
+      "questionFamily": "T3 Quantitative Chemistry · 4.4.2.4; WS 3.7 · Explain",
+      "subtopic": "T3 Quantitative Chemistry · 4.4.2.4; WS 3.7",
+      "sourceSubtopic": "T3 Quantitative Chemistry · 4.4.2.4; WS 3.7",
       "tier": "Chemistry only",
       "question": "Explain why a mean titre should be calculated from concordant results rather than every result.",
       "marks": 4,
-      "modelAnswer": "Concordant titres closely agree and are likely to represent the repeatable end point. A rough or anomalous titre would distort the mean. Select titres within the accepted close range and report an appropriate precision.",
+      "modelAnswer": "Concordant titres closely agree and are likely to represent the repeatable end point.\nA rough or anomalous titre would distort the mean.\nSelect titres within the accepted close range and report an appropriate precision.",
       "markingPoints": [
         "Concordant titres closely agree and are likely to represent the repeatable end point.",
         "A rough or anomalous titre would distort the mean.",
         "Select titres within the accepted close range and report an appropriate precision."
       ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "4.4.2.4; WS 3.7",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-FAM-1ANM44H",
+      "databaseId": "CHE-T3-PD05"
     },
     {
       "id": "T3-PD06",
-      "questionFamily": "Quantitative Chemistry",
-      "subtopic": "Quantitative Chemistry",
-      "sourceSubtopic": "WS 2.2",
+      "questionFamily": "T3 Quantitative Chemistry · WS 2.2 · Explain",
+      "subtopic": "T3 Quantitative Chemistry · WS 2.2",
+      "sourceSubtopic": "T3 Quantitative Chemistry · WS 2.2",
       "tier": "Both",
-      "question": "A student changes both reactant concentration and reactant volume between trials. Explain why the results cannot show the effect of concentration alone.",
+      "question": "A student changes both reactant concentration and reactant volume between trials.\nExplain why the results cannot show the effect of concentration alone.",
       "marks": 3,
-      "modelAnswer": "Two independent variables changed, so any change in product or rate could be caused by concentration, amount of reactant, or both. Keep volume and other variables controlled.",
+      "modelAnswer": "Two independent variables changed, so any change in product or rate could be caused by concentration, amount of reactant, or both.\nKeep volume and other variables controlled.",
       "markingPoints": [
         "Two independent variables changed, so any change in product or rate could be caused by concentration, amount of reactant, or both.",
         "Keep volume and other variables controlled."
       ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Quantitative Chemistry mastery workbook",
       "specificationReference": "WS 2.2",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "CHE-FAM-1G17U8Y",
+      "databaseId": "CHE-T3-PD06"
     }
   ]
 }

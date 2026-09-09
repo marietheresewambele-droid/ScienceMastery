@@ -7,6 +7,10 @@ export function useHomeHref() {
   const [homeHref, setHomeHref] = useState("/");
 
   useEffect(() => {
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY) {
+      return;
+    }
+
     const supabase = getSupabaseBrowserClient();
 
     supabase.auth.getSession().then(({ data }) => {

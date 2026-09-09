@@ -19,6 +19,10 @@ export async function recordAdaptiveAttempt({
   mode: "adaptive" | "mixed" | "flashcards" | "exam" | "bookmarks" | "due";
   responseTimeMs?: number;
 }) {
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY) {
+    return { synced: false as const, reason: "supabase_not_configured" as const };
+  }
+
   const supabase = getSupabaseBrowserClient();
   const { data: auth } = await supabase.auth.getUser();
   const user = auth.user;

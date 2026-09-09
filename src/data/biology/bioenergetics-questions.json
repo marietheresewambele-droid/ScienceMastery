@@ -8,15 +8,27 @@
       "tier": "Both / not separated",
       "question": "Complete the equation for photosynthesis.",
       "marks": 3,
-      "modelAnswer": "LHS – carbon dioxide / CO2 1 RHS in either order glucose / carbohydrate / sugar 1 oxygen",
+      "modelAnswer": "LHS.\nCarbon dioxide / CO2\nRHS in either order glucose / carbohydrate / sugar\noxygen.",
       "markingPoints": [
-        "LHS – carbon dioxide / CO2 1 RHS in either order glucose / carbohydrate / sugar 1 oxygen"
+        "LHS.",
+        "Carbon dioxide / CO2",
+        "RHS in either order glucose / carbohydrate / sugar",
+        "oxygen."
       ],
       "commandWord": "Complete",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-19UHFVG",
+      "databaseId": "BIO-BV001",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV038",
+        "diagnostic": "BIO-BV038",
+        "easier": "BIO-BV038",
+        "parallel": "BIO-BV038",
+        "harder": "BIO-BV035"
+      }
     },
     {
       "id": "BV002",
@@ -24,17 +36,27 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Lactic acid production during exercise affects an athlete’s performance. Explain why lactic acid is produced during exercise. (Total 2 marks)",
+      "question": "Lactic acid production during exercise affects an athlete’s performance. Explain why lactic acid is produced during exercise.",
       "marks": 4,
-      "modelAnswer": "insufficient / no oxygen available 1 for (just) aerobic respiration or respires anaerobically 1",
+      "modelAnswer": "Insufficient / no oxygen available\nfor (just) aerobic respiration or respires anaerobically 1.",
       "markingPoints": [
-        "insufficient / no oxygen available 1 for (just) aerobic respiration or respires anaerobically 1"
+        "Insufficient / no oxygen available",
+        "for (just) aerobic respiration or respires anaerobically 1."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV002",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV023",
+        "diagnostic": "BIO-BV023",
+        "easier": "BIO-BV011",
+        "parallel": "BIO-BV011",
+        "harder": "BIO-BV076"
+      }
     },
     {
       "id": "BV004",
@@ -42,24 +64,33 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "A gardener wants to add compost to the soil to increase his yield of strawberries. The gardener wants to make his own compost. Some of the leaves from the gardener’s strawberry plant die. The dead leaves fall off the strawberry plant onto the ground. The carbon in the dead leaves is recycled through the carbon cycle. Explain how the carbon is recycled into the growth of new leaves.",
+      "question": "A gardener wants to add compost to the soil to increase his yield of strawberries.\nThe gardener wants to make his own compost.\nSome of the leaves from the gardener’s strawberry plant die.\nThe dead leaves fall off the strawberry plant onto the ground.\nThe carbon in the dead leaves is recycled through the carbon cycle.\nPart (a): Explain how the carbon is recycled into the growth of new leaves.",
       "marks": 6,
-      "modelAnswer": "statements: (carbon compounds in) dead leaves are broken down by microorganisms / decomposers / bacteria / fungi photosynthesis uses carbon dioxide explanations: (microorganisms) respire (and) release the carbon from the leaves as carbon dioxide plants take in the carbon dioxide released to use in photosynthesis to produce glucose use of carbon in growth: glucose produced in photosynthesis is used to make amino acids / proteins / cellulose (which are) required for the growth of new leaves 6",
+      "modelAnswer": "Statements:\n(carbon compounds in) dead leaves are broken down by microorganisms / decomposers / bacteria / fungi.\nPhotosynthesis uses carbon dioxide explanations:\n(microorganisms) respire.\n(and) release the carbon from the leaves as carbon dioxide.\nPlants take in the carbon dioxide released to use in photosynthesis to produce glucose use of carbon in growth:\nGlucose produced in photosynthesis is used to make amino acids / proteins / cellulose.\n(which are) required for the growth of new leaves 6.",
       "markingPoints": [
-        "statements:",
-        "(carbon compounds in) dead leaves are broken down by microorganisms / decomposers / bacteria / fungi",
-        "photosynthesis uses carbon dioxide explanations:",
-        "(microorganisms) respire",
-        "(and) release the carbon from the leaves as carbon dioxide",
-        "plants take in the carbon dioxide released to use in photosynthesis to produce glucose use of carbon in growth:",
-        "glucose produced in photosynthesis is used to make amino acids / proteins / cellulose",
-        "(which are) required for the growth of new leaves 6"
+        "Statements:",
+        "(carbon compounds in) dead leaves are broken down by microorganisms / decomposers / bacteria / fungi.",
+        "Photosynthesis uses carbon dioxide explanations:",
+        "(microorganisms) respire.",
+        "(and) release the carbon from the leaves as carbon dioxide.",
+        "Plants take in the carbon dioxide released to use in photosynthesis to produce glucose use of carbon in growth:",
+        "Glucose produced in photosynthesis is used to make amino acids / proteins / cellulose.",
+        "(which are) required for the growth of new leaves 6."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0XV5L8H",
+      "databaseId": "BIO-BV004",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV051",
+        "diagnostic": "BIO-BV051",
+        "easier": "BIO-BV009",
+        "parallel": "BIO-BV049",
+        "harder": "BIO-BV079"
+      }
     },
     {
       "id": "BV006",
@@ -67,22 +98,33 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "The rate of photosynthesis in a plant depends on several factors in the environment. These factors include light intensity and the availability of water. Describe and explain the effects of two other factors that affect the rate of photosynthesis. You may include one or more sketch graphs in your answer.",
+      "question": "The rate of photosynthesis in a plant depends on several factors in the environment.\nThese factors include light intensity and the availability of water.\nYou may include one or more sketch graphs in your answer.\nPart (a): Explain the effects of two other factors that affect the rate of photosynthesis.",
       "marks": 5,
-      "modelAnswer": "factor 1: CO2 (concentration) effect - as CO2 increases so does rate and then it levels off or shown in a graph explanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate. factor 2: temperature effect – as temperature increases, so does the rate and then it decreases or shown in a graph explanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5",
+      "modelAnswer": "Factor 1: CO2 (concentration).\nEffect.\nAs CO2 increases so does rate and then it levels off or shown in a graph.\nExplanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate.\nFactor 2: temperature.\nEffect.\nAs temperature increases, so does the rate and then it decreases or shown in a graph.\nExplanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5",
       "markingPoints": [
-        "factor 1: CO2 (concentration)",
-        "effect - as CO2 increases so does rate and then it levels off or shown in a graph",
-        "explanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate.",
-        "factor 2: temperature",
-        "effect – as temperature increases, so does the rate and then it decreases or shown in a graph",
-        "explanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5"
+        "Factor 1: CO2 (concentration).",
+        "Effect.",
+        "As CO2 increases so does rate and then it levels off or shown in a graph.",
+        "Explanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate.",
+        "Factor 2: temperature.",
+        "Effect.",
+        "As temperature increases, so does the rate and then it decreases or shown in a graph.",
+        "Explanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5"
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0Y66J8T",
+      "databaseId": "BIO-BV006",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV007",
+        "diagnostic": "BIO-BV007",
+        "easier": "BIO-BV007",
+        "parallel": "BIO-BV075",
+        "harder": "BIO-BV075"
+      }
     },
     {
       "id": "BV007",
@@ -90,17 +132,28 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Some students studied bluebell plants growing in two different habitats. Habitat A was a sunny field next to woodland. Habitat B was a shady, moist woodland. A bluebell plant can have several flowers on one flower stalk. The students counted the number of flowers on each of 40 bluebell flower stalks growing in each habitat. The bar charts show the results. Habitat A: Sunny field next to woodland Number of flowers per stalk Habitat B: Shady, moist woodland Number of flowers per stalk Suggest how the students could test their hypothesis for the two habitats.",
+      "question": "Some students studied bluebell plants growing in two different habitats.\nHabitat A was a sunny field next to woodland.\nHabitat B was a shady, moist woodland.\nA bluebell plant can have several flowers on one flower stalk.\nThe students counted the number of flowers on each of 40 bluebell flower stalks growing in each habitat.\nThe bar charts show the results.\nHabitat A: Sunny field next to woodland Number of flowers per stalk Habitat B: Shady, moist woodland Number of flowers per stalk Suggest how the students could test their hypothesis for the two habitats.",
       "marks": 2,
-      "modelAnswer": "use light meter / measure light intensity in both habitats 1 take many measurements at same time of the day 1 or laboratory / field investigation with 2 batches high light and low light count or number of flowers in each counting point is dependent on investigation point",
+      "modelAnswer": "Use light meter / measure light intensity in both habitats\ntake many measurements at same time of the day\nor laboratory / field investigation with 2 batches high light and low light count or number of flowers in each counting point is dependent on investigation point.",
       "markingPoints": [
-        "use light meter / measure light intensity in both habitats 1 take many measurements at same time of the day 1 or laboratory / field investigation with 2 batches high light and low light count or number of flowers in each counting point is dependent on investigation point"
+        "Use light meter / measure light intensity in both habitats",
+        "take many measurements at same time of the day",
+        "or laboratory / field investigation with 2 batches high light and low light count or number of flowers in each counting point is dependent on investigation point."
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0Y66J8T",
+      "databaseId": "BIO-BV007",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV006",
+        "diagnostic": "BIO-BV006",
+        "easier": "BIO-BV006",
+        "parallel": "BIO-BV006",
+        "harder": "BIO-BV006"
+      }
     },
     {
       "id": "BV008",
@@ -108,21 +161,31 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Foundation",
-      "question": "Photosynthesis produces oxygen. Give one hazard the student would need to consider when using the apparatus in this investigation. Give the risk the hazard would cause. Hazard Risk",
+      "question": "Photosynthesis produces oxygen.\nHazard Risk\nPart (a): Give one hazard the student would need to consider when using the apparatus in this investigation.\nPart (b): Give the risk the hazard would cause.",
       "marks": 2,
-      "modelAnswer": "pair from: bulb / lamp is hot 1 (so) may burn you / skin 1 glassware is breakable (so) may cut skin electricity in close proximity to water scissors / scalpel (to cut pondweed) are sharp may cut skin mark in pairs",
+      "modelAnswer": "Pair from:\nBulb / lamp is hot\n(so) may burn you / skin 1.\nGlassware is breakable (so) may cut skin.\nElectricity in close proximity to water.\nScissors / scalpel (to cut pondweed) are sharp may cut skin mark in pairs.",
       "markingPoints": [
-        "pair from:",
-        "bulb / lamp is hot 1 (so) may burn you / skin 1",
-        "glassware is breakable (so) may cut skin",
-        "electricity in close proximity to water",
-        "scissors / scalpel (to cut pondweed) are sharp may cut skin mark in pairs"
+        "Pair from:",
+        "Bulb / lamp is hot",
+        "(so) may burn you / skin 1.",
+        "Glassware is breakable (so) may cut skin.",
+        "Electricity in close proximity to water.",
+        "Scissors / scalpel (to cut pondweed) are sharp may cut skin mark in pairs."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV008",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV041",
+        "diagnostic": "BIO-BV041",
+        "easier": "BIO-BV019",
+        "parallel": "BIO-BV019",
+        "harder": "BIO-BV080"
+      }
     },
     {
       "id": "BV009",
@@ -130,17 +193,30 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Green plants can make glucose. Plants can use the glucose they have made to supply them with energy. Give four other ways in which plants use the glucose they have made.",
+      "question": "Green plants can make glucose.\nPlants can use the glucose they have made to supply them with energy.\nGive four other ways in which plants use the glucose they have made.",
       "marks": 4,
-      "modelAnswer": "(to make) starch (for storage) 1 (to make) fat / oil (for storage) 1 (to make) amino acids / proteins / enzymes 1 (to make) cellulose / cell walls . 1 mark 1",
+      "modelAnswer": "(to make) starch (for storage)\n(to make) fat / oil (for storage)\n(to make) amino acids / proteins / enzymes\n(to make) cellulose / cell walls .\n1.",
       "markingPoints": [
-        "(to make) starch (for storage) 1 (to make) fat / oil (for storage) 1 (to make) amino acids / proteins / enzymes 1 (to make) cellulose / cell walls . 1 mark 1"
+        "(to make) starch (for storage)",
+        "(to make) fat / oil (for storage)",
+        "(to make) amino acids / proteins / enzymes",
+        "(to make) cellulose / cell walls .",
+        "1."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0XV5L8H",
+      "databaseId": "BIO-BV009",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV051",
+        "diagnostic": "BIO-BV051",
+        "easier": "BIO-BV047",
+        "parallel": "BIO-BV047",
+        "harder": "BIO-BV004"
+      }
     },
     {
       "id": "BV011",
@@ -148,17 +224,28 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "All living organisms respire. On day 10, the pond snail died. Explain why the death of the pond snail caused the concentration of carbon dioxide to increase after day 10.",
+      "question": "All living organisms respire.\nOn day 10, the pond snail died.\nExplain why the death of the pond snail caused the concentration of carbon dioxide to increase after day 10.",
       "marks": 3,
-      "modelAnswer": "snail is being decayed / decomposed / broken down 1 (by) decomposers / bacteria (in pond water / snail) 1 (therefore) respiration (of decomposers / bacteria) releases CO2 1",
+      "modelAnswer": "Snail is being decayed / decomposed / broken down\n(by) decomposers / bacteria (in pond water / snail)\n(therefore) respiration (of decomposers / bacteria) releases CO2 1.",
       "markingPoints": [
-        "snail is being decayed / decomposed / broken down 1 (by) decomposers / bacteria (in pond water / snail) 1 (therefore) respiration (of decomposers / bacteria) releases CO2 1"
+        "Snail is being decayed / decomposed / broken down",
+        "(by) decomposers / bacteria (in pond water / snail)",
+        "(therefore) respiration (of decomposers / bacteria) releases CO2 1."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV011",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV023",
+        "diagnostic": "BIO-BV023",
+        "easier": "BIO-BV022",
+        "parallel": "BIO-BV024",
+        "harder": "BIO-BV002"
+      }
     },
     {
       "id": "BV013",
@@ -166,11 +253,11 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "The mean metabolic rate of males is 10.6 units at age 5 and 7.2 units at age 45. Calculate the percentage decrease. Give your answer to 3 significant figures.",
+      "question": "The mean metabolic rate of males is 10.6 units at age 5 and 7.2 units at age 45.\nCalculate the percentage decrease.\nGive your answer to 3 significant figures.",
       "marks": 3,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100. Percentage decrease = ((10.6 − 7.2) ÷ 10.6) × 100 = 32.075...% = 32.1% to 3 significant figures. Answer: Percentage decrease = ((10.6 − 7.2) ÷ 10.6) × 100 = 32.075...% = 32.1% to 3 significant figures.",
+      "modelAnswer": "Percentage change = (change ÷ original value) × 100.\nPercentage decrease = ((10.6 − 7.2) ÷ 10.6) × 100 = 32.075...% = 32.1% to 3 significant figures.\nAnswer: Percentage decrease = ((10.6 − 7.2) ÷ 10.6) × 100 = 32.075...% = 32.1% to 3 significant figures.",
       "markingPoints": [
-        "percentage change = (change ÷ original value) × 100.",
+        "Percentage change = (change ÷ original value) × 100.",
         "Percentage decrease = ((10.6 − 7.2) ÷ 10.6) × 100 = 32.075...% = 32.1% to 3 significant figures.",
         "Answer: Percentage decrease = ((10.6 − 7.2) ÷ 10.6) × 100 = 32.075...% = 32.1% to 3 significant figures."
       ],
@@ -178,7 +265,16 @@
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV013",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV032",
+        "diagnostic": "BIO-BV032",
+        "easier": "BIO-BV030",
+        "parallel": "BIO-BV030",
+        "harder": "BIO-BV015"
+      }
     },
     {
       "id": "BV015",
@@ -186,23 +282,31 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Metabolism is the sum of all the chemical reactions in the cells of the body. One metabolic reaction is the formation of lipids. A student made the following hypothesis about the heart rate of smokers and non-smokers during exercise. “During exercise, the heart rate of smokers increases more than the heart rate of non-smokers.” Design an investigation that would allow you to test this hypothesis.",
+      "question": "Metabolism is the sum of all the chemical reactions in the cells of the body.\nOne metabolic reaction is the formation of lipids.\nA student made the following hypothesis about the heart rate of smokers and non-smokers during exercise. “During exercise, the heart rate of smokers increases more than the heart rate of non-smokers.” Design an investigation that would allow you to test this hypothesis.",
       "marks": 6,
-      "modelAnswer": "two groups of people − non-smokers and smokers have at least five people in each group or large groups get each person to do (named) exercise controlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise record heart rate for each person before and after exercise calculate increase in heart rate for each person after exercise compare results for each group for",
+      "modelAnswer": "Two groups of people − non-smokers and smokers\nHave at least five people in each group or large groups.\nGet each person to do (named) exercise.\nControlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise\nRecord heart rate for each person before and after exercise.\nCalculate increase in heart rate for each person after exercise.\nCompare results for each group for.",
       "markingPoints": [
-        "two groups of people − non-smokers and smokers",
-        "have at least five people in each group or large groups",
-        "get each person to do (named) exercise",
-        "controlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise",
-        "record heart rate for each person before and after exercise",
-        "calculate increase in heart rate for each person after exercise",
-        "compare results for each group for"
+        "Two groups of people − non-smokers and smokers",
+        "Have at least five people in each group or large groups.",
+        "Get each person to do (named) exercise.",
+        "Controlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise",
+        "Record heart rate for each person before and after exercise.",
+        "Calculate increase in heart rate for each person after exercise.",
+        "Compare results for each group for."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV015",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV032",
+        "diagnostic": "BIO-BV032",
+        "easier": "BIO-BV013",
+        "parallel": "BIO-BV077"
+      }
     },
     {
       "id": "BV016",
@@ -210,17 +314,26 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Higher",
-      "question": "This question is about exercise. What type of cell is created when a mouse lymphocyte and a tumour cell combine? (biology only) (HT only) Tick (✓) one box. Embryo Hybridoma Phagocyte Stem cell",
+      "question": "This question is about exercise.\nWhat type of cell is created when a mouse lymphocyte and a tumour cell combine?\n(biology only) (HT only) Tick (✓) one box.\nEmbryo Hybridoma Phagocyte Stem cell",
       "marks": 1,
-      "modelAnswer": "hybridoma 1",
+      "modelAnswer": "Hybridoma 1.",
       "markingPoints": [
-        "hybridoma 1"
+        "Hybridoma 1."
       ],
       "commandWord": "Select",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV016",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV032",
+        "diagnostic": "BIO-BV032",
+        "easier": "BIO-BV028",
+        "parallel": "BIO-BV033",
+        "harder": "BIO-BV030"
+      }
     },
     {
       "id": "BV018",
@@ -228,17 +341,27 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "All living organisms respire. Explain why the concentration of carbon dioxide in the tube stayed the same between day 0 and day 5.",
+      "question": "All living organisms respire. Explain why the concentration of carbon dioxide in the tube stayed the same between day 0 and day\n5.",
       "marks": 2,
-      "modelAnswer": "pondweed takes in CO2 for photosynthesis 1 snail and pondweed are respiring producing CO2",
+      "modelAnswer": "Pondweed takes in CO2 for photosynthesis\nsnail and pondweed are respiring producing CO2.",
       "markingPoints": [
-        "pondweed takes in CO2 for photosynthesis 1 snail and pondweed are respiring producing CO2"
+        "Pondweed takes in CO2 for photosynthesis",
+        "snail and pondweed are respiring producing CO2."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV018",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV041",
+        "diagnostic": "BIO-BV041",
+        "easier": "BIO-BV042",
+        "parallel": "BIO-BV039",
+        "harder": "BIO-BV019"
+      }
     },
     {
       "id": "BV019",
@@ -246,17 +369,26 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "This question is about photosynthesis. What was the independent variable in the investigation? Tick (✓) one box. Power output of bulb Rate of photosynthesis Time to collect oxygen Volume of oxygen collected",
+      "question": "This question is about photosynthesis.\nWhat was the independent variable in the investigation?\nTick (✓) one box.\nPower output of bulb Rate of photosynthesis Time to collect oxygen Volume of oxygen collected",
       "marks": 1,
-      "modelAnswer": "power output of bulb 1",
+      "modelAnswer": "Power output of bulb 1.",
       "markingPoints": [
-        "power output of bulb 1"
+        "Power output of bulb 1."
       ],
       "commandWord": "Select",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV019",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV041",
+        "diagnostic": "BIO-BV041",
+        "easier": "BIO-BV018",
+        "parallel": "BIO-BV040",
+        "harder": "BIO-BV008"
+      }
     },
     {
       "id": "BV022",
@@ -266,19 +398,28 @@
       "tier": "Both / not separated",
       "question": "All living organisms respire. Describe two differences between aerobic and anaerobic respiration in humans. Do not refer to oxygen in your answer. 1 2",
       "marks": 2,
-      "modelAnswer": "anaerobic produces lactic acid and aerobic does not aerobic produces carbon dioxide and anaerobic does not aerobic produces water and anaerobic does not aerobic occurs (mainly) in the mitochondria and anaerobic does not anaerobic releases less energy than aerobic",
+      "modelAnswer": "Anaerobic produces lactic acid and aerobic does not.\nAerobic produces carbon dioxide and anaerobic does not.\nAerobic produces water and anaerobic does not.\nAerobic occurs (mainly) in the mitochondria and anaerobic does not.\nAnaerobic releases less energy than aerobic.",
       "markingPoints": [
-        "anaerobic produces lactic acid and aerobic does not",
-        "aerobic produces carbon dioxide and anaerobic does not",
-        "aerobic produces water and anaerobic does not",
-        "aerobic occurs (mainly) in the mitochondria and anaerobic does not",
-        "anaerobic releases less energy than aerobic"
+        "Anaerobic produces lactic acid and aerobic does not.",
+        "Aerobic produces carbon dioxide and anaerobic does not.",
+        "Aerobic produces water and anaerobic does not.",
+        "Aerobic occurs (mainly) in the mitochondria and anaerobic does not.",
+        "Anaerobic releases less energy than aerobic."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV022",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV023",
+        "diagnostic": "BIO-BV023",
+        "easier": "BIO-BV023",
+        "parallel": "BIO-BV011",
+        "harder": "BIO-BV011"
+      }
     },
     {
       "id": "BV023",
@@ -288,15 +429,23 @@
       "tier": "Both / not separated",
       "question": "All living organisms respire. Name the sub-cellular structures where aerobic respiration takes place.",
       "marks": 1,
-      "modelAnswer": "mitochondria / mitochondrion 1",
+      "modelAnswer": "Mitochondria / mitochondrion 1.",
       "markingPoints": [
-        "mitochondria / mitochondrion 1"
+        "Mitochondria / mitochondrion 1."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV023",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV025",
+        "easier": "BIO-BV025",
+        "parallel": "BIO-BV025",
+        "harder": "BIO-BV022"
+      }
     },
     {
       "id": "BV024",
@@ -306,15 +455,26 @@
       "tier": "Both / not separated",
       "question": "All living cells respire. Compare anaerobic respiration in a yeast cell with anaerobic respiration in a muscle cell.",
       "marks": 3,
-      "modelAnswer": "yeast produces ethanol but muscles produce lactic acid marks can be awarded from correct word or balanced symbol equations 1 yeast produces CO2 but muscles do not answers must be comparative 1 both release small amounts of energy 1",
+      "modelAnswer": "Yeast produces ethanol but muscles produce lactic acid marks can be awarded from correct word or balanced symbol equations\nyeast produces CO2 but muscles do not answers must be comparative\nboth release small amounts of energy 1.",
       "markingPoints": [
-        "yeast produces ethanol but muscles produce lactic acid marks can be awarded from correct word or balanced symbol equations 1 yeast produces CO2 but muscles do not answers must be comparative 1 both release small amounts of energy 1"
+        "Yeast produces ethanol but muscles produce lactic acid marks can be awarded from correct word or balanced symbol equations",
+        "yeast produces CO2 but muscles do not answers must be comparative",
+        "both release small amounts of energy 1."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV024",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV023",
+        "diagnostic": "BIO-BV023",
+        "easier": "BIO-BV022",
+        "parallel": "BIO-BV011",
+        "harder": "BIO-BV002"
+      }
     },
     {
       "id": "BV025",
@@ -324,15 +484,23 @@
       "tier": "Both / not separated",
       "question": "Glucose is broken down in respiration. Complete the equation for anaerobic respiration in yeast. glucose ⟶ carbon dioxide +",
       "marks": 1,
-      "modelAnswer": "alcohol / ethanol 1",
+      "modelAnswer": "Alcohol / ethanol 1.",
       "markingPoints": [
-        "alcohol / ethanol 1"
+        "Alcohol / ethanol 1."
       ],
       "commandWord": "Complete",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV025",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV023",
+        "easier": "BIO-BV023",
+        "parallel": "BIO-BV023",
+        "harder": "BIO-BV022"
+      }
     },
     {
       "id": "BV026",
@@ -340,17 +508,25 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Anaerobic respiration happens in muscle cells and yeast cells. The equation describes anaerobic respiration in muscle cells. glucose lactic acid Anaerobic respiration in yeast is also called fermentation. Fermentation produces ethanol. Give one use of fermentation in the food industry.",
+      "question": "Anaerobic respiration happens in muscle cells and yeast cells.\nThe equation describes anaerobic respiration in muscle cells. glucose lactic acid Anaerobic respiration in yeast is also called fermentation.\nFermentation produces ethanol.\nPart (a): Give one use of fermentation in the food industry.",
       "marks": 1,
-      "modelAnswer": "brewing / bread making 1",
+      "modelAnswer": "Brewing / bread making 1.",
       "markingPoints": [
-        "brewing / bread making 1"
+        "Brewing / bread making 1."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV026",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV023",
+        "easier": "BIO-BV023",
+        "parallel": "BIO-BV023",
+        "harder": "BIO-BV022"
+      }
     },
     {
       "id": "BV028",
@@ -358,20 +534,29 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Higher",
-      "question": "This question is about exercise. Describe how scientists make monoclonal antibodies using the cell created when a mouse lymphocyte and a tumour cell combine. (biology only) (HT only)",
+      "question": "This question is about exercise.\n(biology only) (HT only)\nPart (a): Describe how scientists make monoclonal antibodies using the cell created when a mouse lymphocyte and a tumour cell combine.",
       "marks": 3,
-      "modelAnswer": "(cell) is cloned many (identical) cells are produced all the cells make the same antibody the antibody is (collected and) purified 3",
+      "modelAnswer": "(cell) is cloned.\nMany (identical) cells are produced.\nAll the cells make the same antibody.\nThe antibody is (collected and) purified 3.",
       "markingPoints": [
-        "(cell) is cloned",
-        "many (identical) cells are produced",
-        "all the cells make the same antibody",
-        "the antibody is (collected and) purified 3"
+        "(cell) is cloned.",
+        "Many (identical) cells are produced.",
+        "All the cells make the same antibody.",
+        "The antibody is (collected and) purified 3."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV028",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV032",
+        "diagnostic": "BIO-BV032",
+        "easier": "BIO-BV032",
+        "parallel": "BIO-BV016",
+        "harder": "BIO-BV016"
+      }
     },
     {
       "id": "BV030",
@@ -381,15 +566,25 @@
       "tier": "Higher",
       "question": "This question is about exercise. Explain how taking anabolic steroids could improve an athlete’s performance.",
       "marks": 2,
-      "modelAnswer": "(athlete is) faster / stronger 1 (because more muscle mass so) more / stronger muscle contractions 1",
+      "modelAnswer": "(athlete is) faster / stronger\n(because more muscle mass so) more / stronger muscle contractions 1.",
       "markingPoints": [
-        "(athlete is) faster / stronger 1 (because more muscle mass so) more / stronger muscle contractions 1"
+        "(athlete is) faster / stronger",
+        "(because more muscle mass so) more / stronger muscle contractions 1."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV030",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV032",
+        "diagnostic": "BIO-BV032",
+        "easier": "BIO-BV016",
+        "parallel": "BIO-BV016",
+        "harder": "BIO-BV013"
+      }
     },
     {
       "id": "BV032",
@@ -397,17 +592,25 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Higher",
-      "question": "This question is about exercise. What property makes a monoclonal antibody useful in detecting the presence of an anabolic steroid in urine? (biology only) (HT only) Tick (✓) one box. A monoclonal antibody is quick and easy to produce. A monoclonal antibody is specific to only one person’s urine. A monoclonal antibody only binds to the anabolic steroid. A monoclonal antibody can identify many different drugs at the same time.",
+      "question": "This question is about exercise.\nWhat property makes a monoclonal antibody useful in detecting the presence of an anabolic steroid in urine?\n(biology only) (HT only) Tick (✓) one box.\nA monoclonal antibody is quick and easy to produce.\nA monoclonal antibody is specific to only one person’s urine.\nA monoclonal antibody only binds to the anabolic steroid.\nA monoclonal antibody can identify many different drugs at the same time.",
       "marks": 1,
-      "modelAnswer": "a monoclonal antibody only binds to the anabolic steroid 1",
+      "modelAnswer": "A monoclonal antibody only binds to the anabolic steroid 1.",
       "markingPoints": [
-        "a monoclonal antibody only binds to the anabolic steroid 1"
+        "A monoclonal antibody only binds to the anabolic steroid 1."
       ],
       "commandWord": "Identify",
       "assessmentObjective": "AO1",
       "specificationReference": "4.3.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV032",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV028",
+        "easier": "BIO-BV028",
+        "parallel": "BIO-BV028",
+        "harder": "BIO-BV028"
+      }
     },
     {
       "id": "BV033",
@@ -417,15 +620,24 @@
       "tier": "Higher",
       "question": "This question is about exercise. Suggest the purpose of the control area in the test strip. (biology only) (HT only)",
       "marks": 1,
-      "modelAnswer": "to show that the test is working",
+      "modelAnswer": "To show that the test is working.",
       "markingPoints": [
-        "to show that the test is working"
+        "To show that the test is working."
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV033",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV032",
+        "diagnostic": "BIO-BV032",
+        "easier": "BIO-BV028",
+        "parallel": "BIO-BV016",
+        "harder": "BIO-BV030"
+      }
     },
     {
       "id": "BV035",
@@ -433,17 +645,26 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Plants may grow faster if they have more carbon dioxide. Indigestion tablets dissolve in water to form a solution. This solution slowly gives off carbon dioxide. A student set up an investigation to see what concentration of carbon dioxide is best for increasing the growth of geranium plants. The student:  put a geranium plant in a clear plastic bag  put a dish containing water and one tablet in the bag  sealed the top of the bag. The student:  set up 5 more experiments each with water and a different number of tablets  left all the plants in a well-lit place for four weeks. The student used a clear plastic bag, not a black plastic bag. Explain why.",
+      "question": "Plants may grow faster if they have more carbon dioxide.\nIndigestion tablets dissolve in water to form a solution.\nThis solution slowly gives off carbon dioxide.\nA student set up an investigation to see what concentration of carbon dioxide is best for increasing the growth of geranium plants.\nThe student:  put a geranium plant in a clear plastic bag  put a dish containing water and one tablet in the bag  sealed the top of the bag.\nThe student:  set up 5 more experiments each with water and a different number of tablets  left all the plants in a well-lit place for four weeks.\nThe student used a clear plastic bag, not a black plastic bag.\nPart (a): Explain why.",
       "marks": 2,
-      "modelAnswer": "1 for photosynthesis / make sugar / glucose so there would be no photosynthesis do not",
+      "modelAnswer": "1 for photosynthesis / make sugar / glucose so there would be no photosynthesis do not.",
       "markingPoints": [
-        "1 for photosynthesis / make sugar / glucose so there would be no photosynthesis do not"
+        "1 for photosynthesis / make sugar / glucose so there would be no photosynthesis do not."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-19UHFVG",
+      "databaseId": "BIO-BV035",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV038",
+        "diagnostic": "BIO-BV038",
+        "easier": "BIO-BV001",
+        "parallel": "BIO-BV074",
+        "harder": "BIO-BV074"
+      }
     },
     {
       "id": "BV038",
@@ -451,17 +672,25 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Anaerobic respiration happens in muscle cells and yeast cells. The equation describes anaerobic respiration in muscle cells. glucose lactic acid How can you tell from the equation that this process is anaerobic?",
+      "question": "Anaerobic respiration happens in muscle cells and yeast cells.\nThe equation describes anaerobic respiration in muscle cells. glucose lactic acid How can you tell from the equation that this process is anaerobic?",
       "marks": 1,
-      "modelAnswer": "no oxygen (is used) 1",
+      "modelAnswer": "No oxygen (is used) 1.",
       "markingPoints": [
-        "no oxygen (is used) 1"
+        "No oxygen (is used) 1."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-19UHFVG",
+      "databaseId": "BIO-BV038",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV001",
+        "easier": "BIO-BV001",
+        "parallel": "BIO-BV001",
+        "harder": "BIO-BV001"
+      }
     },
     {
       "id": "BV039",
@@ -469,19 +698,30 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "At 40 cm from a pondweed, four repeat counts are 9, 11, 10 and 30 bubbles per minute. Identify the anomalous result and calculate the mean after excluding it.",
+      "question": "At 40 cm from a pondweed, four repeat counts are 9, 11, 10 and 30 bubbles per minute.\nIdentify the anomalous result and calculate the mean after excluding it.",
       "marks": 2,
-      "modelAnswer": "mean = sum of values ÷ number of values. 30 is anomalous. Mean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute. Answer: 30 is anomalous. Mean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute.",
+      "modelAnswer": "Mean = sum of values ÷ number of values.\n30 is anomalous.\nMean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute.\nAnswer: 30 is anomalous.\nMean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute.",
       "markingPoints": [
-        "mean = sum of values ÷ number of values.",
-        "30 is anomalous. Mean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute.",
-        "Answer: 30 is anomalous. Mean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute."
+        "Mean = sum of values ÷ number of values.",
+        "30 is anomalous.",
+        "Mean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute.",
+        "Answer: 30 is anomalous.",
+        "Mean = (9 + 11 + 10) ÷ 3 = 10 bubbles per minute."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV039",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV041",
+        "diagnostic": "BIO-BV041",
+        "easier": "BIO-BV042",
+        "parallel": "BIO-BV018",
+        "harder": "BIO-BV019"
+      }
     },
     {
       "id": "BV040",
@@ -489,17 +729,26 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Foundation",
-      "question": "Photosynthesis produces oxygen. The student needed to keep the temperature of the water in the beaker the same throughout the investigation. Describe how the student could keep the temperature of the water the same.",
+      "question": "Photosynthesis produces oxygen.\nThe student needed to keep the temperature of the water in the beaker the same throughout the investigation.\nPart (a): Describe how the student could keep the temperature of the water the same.",
       "marks": 1,
-      "modelAnswer": "(use a) water bath",
+      "modelAnswer": "(use a) water bath.",
       "markingPoints": [
-        "(use a) water bath"
+        "(use a) water bath."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV040",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV041",
+        "diagnostic": "BIO-BV041",
+        "easier": "BIO-BV018",
+        "parallel": "BIO-BV019",
+        "harder": "BIO-BV008"
+      }
     },
     {
       "id": "BV041",
@@ -507,19 +756,27 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Foundation",
-      "question": "Photosynthesis produces oxygen. The student wanted to measure the volume of oxygen the pondweed produced in 2 minutes. Name one piece of apparatus the student could use to measure the volume of oxygen.",
+      "question": "Photosynthesis produces oxygen.\nThe student wanted to measure the volume of oxygen the pondweed produced in 2 minutes.\nPart (a): Name one piece of apparatus the student could use to measure the volume of oxygen.",
       "marks": 1,
-      "modelAnswer": "measuring cylinder (gas) syringe burette 1",
+      "modelAnswer": "Measuring cylinder.\n(gas) syringe.\nBurette 1.",
       "markingPoints": [
-        "measuring cylinder",
-        "(gas) syringe",
-        "burette 1"
+        "Measuring cylinder.",
+        "(gas) syringe.",
+        "Burette 1."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV041",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV042",
+        "easier": "BIO-BV042",
+        "parallel": "BIO-BV042",
+        "harder": "BIO-BV042"
+      }
     },
     {
       "id": "BV042",
@@ -527,17 +784,26 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Anaerobic respiration happens in muscle cells and yeast cells. The equation describes anaerobic respiration in muscle cells. glucose lactic acid Describe how you could use tube B to measure the rate of the reaction in tube A.",
+      "question": "Anaerobic respiration happens in muscle cells and yeast cells.\nThe equation describes anaerobic respiration in muscle cells. glucose lactic acid Describe how you could use tube B to measure the rate of the reaction in tube A.",
       "marks": 2,
-      "modelAnswer": "count the bubbles or measure volume of gas 1 in a given time 1",
+      "modelAnswer": "Count the bubbles or measure volume of gas\nin a given time 1.",
       "markingPoints": [
-        "count the bubbles or measure volume of gas 1 in a given time 1"
+        "Count the bubbles or measure volume of gas",
+        "in a given time 1."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV042",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV041",
+        "easier": "BIO-BV041",
+        "parallel": "BIO-BV041",
+        "harder": "BIO-BV018"
+      }
     },
     {
       "id": "BV043",
@@ -545,19 +811,30 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "The growth of daisy plants on a lawn is affected by biotic factors and by abiotic factors. Using the mean from this investigation to calculate the number of daisy plants on the lawn may not be accurate. Give two reasons why. 1 2",
+      "question": "The growth of daisy plants on a lawn is affected by biotic factors and by abiotic factors.\nPart (a): Using the mean from this investigation to calculate the number of daisy plants on the lawn may not be accurate.\nPart (b): Give two reasons why. 1\n2.",
       "marks": 2,
-      "modelAnswer": "mean = sum of values ÷ number of values. too few quadrats or quadrat too small 1 sample may not be representative of the lawn 1 Answer: too few quadrats or quadrat too small 1 sample may not be representative of the lawn 1",
+      "modelAnswer": "Mean = sum of values ÷ number of values.\nToo few quadrats or quadrat too small\nsample may not be representative of the lawn 1.\nAnswer: too few quadrats or quadrat too small\nsample may not be representative of the lawn 1.",
       "markingPoints": [
-        "mean = sum of values ÷ number of values.",
-        "too few quadrats or quadrat too small 1 sample may not be representative of the lawn 1",
-        "Answer: too few quadrats or quadrat too small 1 sample may not be representative of the lawn 1"
+        "Mean = sum of values ÷ number of values.",
+        "Too few quadrats or quadrat too small",
+        "sample may not be representative of the lawn 1.",
+        "Answer: too few quadrats or quadrat too small",
+        "sample may not be representative of the lawn 1."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0MF8Y2G",
+      "databaseId": "BIO-BV043",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV046",
+        "diagnostic": "BIO-BV046",
+        "easier": "BIO-BV046",
+        "parallel": "BIO-BV081",
+        "harder": "BIO-BV081"
+      }
     },
     {
       "id": "BV046",
@@ -565,17 +842,28 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Foundation",
-      "question": "Cystic fibrosis (CF) is an inherited disorder caused by a faulty gene. Gas exchange happens in the alveoli in the lungs. Describe three features of the alveoli that help maximise gas exchange. 1 2 3",
+      "question": "Cystic fibrosis (CF) is an inherited disorder caused by a faulty gene.\nGas exchange happens in the alveoli in the lungs.\nPart (a): Describe three features of the alveoli that help maximise gas exchange. 1 2\n3.",
       "marks": 3,
-      "modelAnswer": "large surface / area 1 (large) capillary network or good / efficient blood supply 1 walls are thin or walls are one cell thick",
+      "modelAnswer": "Large surface / area\n(large) capillary network or good / efficient blood supply\nwalls are thin or walls are one cell thick.",
       "markingPoints": [
-        "large surface / area 1 (large) capillary network or good / efficient blood supply 1 walls are thin or walls are one cell thick"
+        "Large surface / area",
+        "(large) capillary network or good / efficient blood supply",
+        "walls are thin or walls are one cell thick."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0MF8Y2G",
+      "databaseId": "BIO-BV046",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV043",
+        "diagnostic": "BIO-BV043",
+        "easier": "BIO-BV043",
+        "parallel": "BIO-BV043",
+        "harder": "BIO-BV043"
+      }
     },
     {
       "id": "BV047",
@@ -585,15 +873,24 @@
       "tier": "Both / not separated",
       "question": "Lipases break down lipids. Describe how the students would find out if the liquid from the leaf contained starch.",
       "marks": 2,
-      "modelAnswer": "add iodine solution / reagent (to the liquid) 1 (if starch is present) it changes colour to blue / black (from yellow / orange / brown) 1",
+      "modelAnswer": "Add iodine solution / reagent (to the liquid)\n(if starch is present) it changes colour to blue / black (from yellow / orange / brown) 1.",
       "markingPoints": [
-        "add iodine solution / reagent (to the liquid) 1 (if starch is present) it changes colour to blue / black (from yellow / orange / brown) 1"
+        "Add iodine solution / reagent (to the liquid)",
+        "(if starch is present) it changes colour to blue / black (from yellow / orange / brown) 1."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0XV5L8H",
+      "databaseId": "BIO-BV047",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV051",
+        "easier": "BIO-BV051",
+        "parallel": "BIO-BV051",
+        "harder": "BIO-BV009"
+      }
     },
     {
       "id": "BV049",
@@ -601,21 +898,30 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Lipases break down lipids. Suggest one way the students could develop the investigation to find out more about glucose and starch production in plants.",
+      "question": "Lipases break down lipids.\nSuggest one way the students could develop the investigation to find out more about glucose and starch production in plants.",
       "marks": 1,
-      "modelAnswer": "test roots / stems of plants (in the light and dark) test other species of plant measure the concentrations of glucose and starch vary the time in the dark / light test variegated leaves 1",
+      "modelAnswer": "Test roots / stems of plants (in the light and dark).\nTest other species of plant.\nMeasure the concentrations of glucose and starch.\nVary the time in the dark / light.\nTest variegated leaves 1.",
       "markingPoints": [
-        "test roots / stems of plants (in the light and dark)",
-        "test other species of plant",
-        "measure the concentrations of glucose and starch",
-        "vary the time in the dark / light",
-        "test variegated leaves 1"
+        "Test roots / stems of plants (in the light and dark).",
+        "Test other species of plant.",
+        "Measure the concentrations of glucose and starch.",
+        "Vary the time in the dark / light.",
+        "Test variegated leaves 1."
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0XV5L8H",
+      "databaseId": "BIO-BV049",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV051",
+        "diagnostic": "BIO-BV051",
+        "easier": "BIO-BV009",
+        "parallel": "BIO-BV004",
+        "harder": "BIO-BV079"
+      }
     },
     {
       "id": "BV050",
@@ -623,29 +929,38 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Foundation",
-      "question": "Cystic fibrosis (CF) is an inherited disorder caused by a faulty gene. The pancreas produces several digestive enzymes. CF reduces the amount of each enzyme that reaches the small intestine. Explain why a person with CF has: • difficulty digesting food • difficulty gaining body mass.",
+      "question": "Cystic fibrosis (CF) is an inherited disorder caused by a faulty gene.\nThe pancreas produces several digestive enzymes.\nCF reduces the amount of each enzyme that reaches the small intestine.\nPart (a): Explain why a person with CF has: • difficulty digesting food • difficulty gaining body mass.",
       "marks": 6,
-      "modelAnswer": "Difficulty digesting food less / no lipase (so) less / no fat broken down ○ into fatty acids ○ into glycerol less / no carbohydrase / amylase (so) less / no carbohydrate / starch broken down ○ into glucose / sugar less / no protease (so) less / no protein broken down ○ into amino acids Difficulty gaining body mass less / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids fewer molecules or fewer amino acids available for building protein / muscle / cells / tissues less fat stored less respiration less energy (so less energy) for building new molecules / cells / tissues For",
+      "modelAnswer": "Difficulty digesting food.\nLess / no lipase.\n(so) less / no fat broken down ○ into fatty acids ○ into glycerol.\nLess / no carbohydrase / amylase.\n(so) less / no carbohydrate / starch broken down ○ into glucose / sugar.\nLess / no protease.\n(so) less / no protein broken down ○ into amino acids Difficulty gaining body mass.\nLess / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids.\nFewer molecules or fewer amino acids available for building protein / muscle / cells / tissues.\nLess fat stored.\nLess respiration.\nLess energy.\n(so less energy) for building new molecules / cells / tissues For.",
       "markingPoints": [
-        "Difficulty digesting food",
-        "less / no lipase",
-        "(so) less / no fat broken down ○ into fatty acids ○ into glycerol",
-        "less / no carbohydrase / amylase",
-        "(so) less / no carbohydrate / starch broken down ○ into glucose / sugar",
-        "less / no protease",
-        "(so) less / no protein broken down ○ into amino acids Difficulty gaining body mass",
-        "less / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids",
-        "fewer molecules or fewer amino acids available for building protein / muscle / cells / tissues",
-        "less fat stored",
-        "less respiration",
-        "less energy",
-        "(so less energy) for building new molecules / cells / tissues For"
+        "Difficulty digesting food.",
+        "Less / no lipase.",
+        "(so) less / no fat broken down ○ into fatty acids ○ into glycerol.",
+        "Less / no carbohydrase / amylase.",
+        "(so) less / no carbohydrate / starch broken down ○ into glucose / sugar.",
+        "Less / no protease.",
+        "(so) less / no protein broken down ○ into amino acids Difficulty gaining body mass.",
+        "Less / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids.",
+        "Fewer molecules or fewer amino acids available for building protein / muscle / cells / tissues.",
+        "Less fat stored.",
+        "Less respiration.",
+        "Less energy.",
+        "(so less energy) for building new molecules / cells / tissues For."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0XV5L8H",
+      "databaseId": "BIO-BV050",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV051",
+        "diagnostic": "BIO-BV051",
+        "easier": "BIO-BV009",
+        "parallel": "BIO-BV004",
+        "harder": "BIO-BV079"
+      }
     },
     {
       "id": "BV051",
@@ -653,21 +968,29 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Metabolism is the sum of all the chemical reactions in the cells of the body. One metabolic reaction is the formation of lipids. Give one other metabolic reaction in cells.",
+      "question": "Metabolism is the sum of all the chemical reactions in the cells of the body.\nOne metabolic reaction is the formation of lipids.\nGive one other metabolic reaction in cells.",
       "marks": 1,
-      "modelAnswer": "respiration formation of proteins formation / breakdown of glycogen breakdown of (excess) protein or formation of urea photosynthesis or formation of glucose / starch (in plants) 1",
+      "modelAnswer": "Respiration.\nFormation of proteins.\nFormation / breakdown of glycogen.\nBreakdown of (excess) protein or formation of urea.\nPhotosynthesis or formation of glucose / starch (in plants) 1.",
       "markingPoints": [
-        "respiration",
-        "formation of proteins",
-        "formation / breakdown of glycogen",
-        "breakdown of (excess) protein or formation of urea",
-        "photosynthesis or formation of glucose / starch (in plants) 1"
+        "Respiration.",
+        "Formation of proteins.",
+        "Formation / breakdown of glycogen.",
+        "Breakdown of (excess) protein or formation of urea.",
+        "Photosynthesis or formation of glucose / starch (in plants) 1."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0XV5L8H",
+      "databaseId": "BIO-BV051",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV047",
+        "easier": "BIO-BV047",
+        "parallel": "BIO-BV047",
+        "harder": "BIO-BV047"
+      }
     },
     {
       "id": "BV052",
@@ -675,7 +998,7 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Explain the linked biological knowledge or skill identified in the source question. Give a precise, fully linked answer and show every calculation step where relevant.",
+      "question": "Explain the linked biological knowledge or skill identified in the source question.\nGive a precise, fully linked answer and show every calculation step where relevant.",
       "marks": 4,
       "modelAnswer": "Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
       "markingPoints": [
@@ -685,7 +1008,16 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV052",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV058",
+        "parallel": "BIO-IV075",
+        "harder": "BIO-IV087"
+      }
     },
     {
       "id": "BV053",
@@ -695,18 +1027,27 @@
       "tier": "Both / not separated",
       "question": "A thermometer was placed in the glass beaker. Why was it important to use a thermometer in this investigation?",
       "marks": 3,
-      "modelAnswer": "(measure) temperature to check that the temperature isn’t changing rate of reaction changes with temperature temperature is a variable that needs to be controlled",
+      "modelAnswer": "(measure) temperature.\nTo check that the temperature isn’t changing.\nRate of reaction changes with temperature.\nTemperature is a variable that needs to be controlled.",
       "markingPoints": [
-        "(measure) temperature",
-        "to check that the temperature isn’t changing",
-        "rate of reaction changes with temperature",
-        "temperature is a variable that needs to be controlled"
+        "(measure) temperature.",
+        "To check that the temperature isn’t changing.",
+        "Rate of reaction changes with temperature.",
+        "Temperature is a variable that needs to be controlled."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV053",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV069",
+        "parallel": "BIO-BV060",
+        "harder": "BIO-EV087"
+      }
     },
     {
       "id": "BV054",
@@ -724,7 +1065,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV054",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV056",
+        "parallel": "BIO-BV059",
+        "harder": "BIO-EV089"
+      }
     },
     {
       "id": "BV055",
@@ -732,7 +1081,7 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Suggest the linked biological knowledge or skill identified in the source question. Give a precise, fully linked answer and show every calculation step where relevant.",
+      "question": "Suggest the linked biological knowledge or skill identified in the source question.\nGive a precise, fully linked answer and show every calculation step where relevant.",
       "marks": 3,
       "modelAnswer": "Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
       "markingPoints": [
@@ -742,7 +1091,16 @@
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV055",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV057",
+        "parallel": "BIO-IV090",
+        "harder": "BIO-BV071"
+      }
     },
     {
       "id": "BV056",
@@ -750,17 +1108,25 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "This question is about what happens during decay. Draw a ring around the correct word to complete each sentence. animals. After living things die, they are decayed by microorganisms. plants.",
+      "question": "This question is about what happens during decay.\nDraw a ring around the correct word to complete each sentence. animals.\nAfter living things die, they are decayed by microorganisms. plants.",
       "marks": 1,
-      "modelAnswer": "microorganisms 1",
+      "modelAnswer": "Microorganisms 1.",
       "markingPoints": [
-        "microorganisms 1"
+        "Microorganisms 1."
       ],
       "commandWord": "Complete",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV056",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV063",
+        "easier": "BIO-BV063",
+        "parallel": "BIO-BV063",
+        "harder": "BIO-BV054"
+      }
     },
     {
       "id": "BV057",
@@ -768,19 +1134,36 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Calculate the linked biological knowledge or skill identified in the source question. Give a precise, fully linked answer and show every calculation step where relevant.",
+      "question": "Calculate the linked biological knowledge or skill identified in the source question.\nGive a precise, fully linked answer and show every calculation step where relevant.",
       "marks": 2,
-      "modelAnswer": "use the relevant relationship from the question. Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge. Answer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
+      "modelAnswer": "Use the relevant relationship from the question.\nShow the relevant mathematical method using the values in the written dataset.\nFor percentage change: ((new value − original value) ÷ original value) × 100.\nFor a rate: change ÷ time.\nGive the final value with appropriate units and sensible rounding.\nInterpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.\nAnswer: Show the relevant mathematical method using the values in the written dataset.\nFor percentage change: ((new value − original value) ÷ original value) × 100.\nFor a rate: change ÷ time.\nGive the final value with appropriate units and sensible rounding.\nInterpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
       "markingPoints": [
-        "use the relevant relationship from the question.",
-        "Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
-        "Answer: Show the relevant mathematical method using the values in the written dataset. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge."
+        "Use the relevant relationship from the question.",
+        "Show the relevant mathematical method using the values in the written dataset.",
+        "For percentage change: ((new value − original value) ÷ original value) × 100.",
+        "For a rate: change ÷ time.",
+        "Give the final value with appropriate units and sensible rounding.",
+        "Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
+        "Answer: Show the relevant mathematical method using the values in the written dataset.",
+        "For percentage change: ((new value − original value) ÷ original value) × 100.",
+        "For a rate: change ÷ time.",
+        "Give the final value with appropriate units and sensible rounding.",
+        "Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV057",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-IV087",
+        "parallel": "BIO-BV065",
+        "harder": "BIO-BV055"
+      }
     },
     {
       "id": "BV058",
@@ -790,15 +1173,26 @@
       "tier": "Both / not separated",
       "question": "Lipases break down lipids. Describe how the students would find out if the liquid from the leaf contained glucose.",
       "marks": 3,
-      "modelAnswer": "add Benedict’s (solution / reagent to the liquid) 1 boil / heat 65 °C or above 1 (if glucose is present the blue) colour changes to yellow / green / orange / brown / (brick) red 1",
+      "modelAnswer": "Add Benedict’s (solution / reagent to the liquid)\nboil / heat 65 °C or above\n(if glucose is present the blue) colour changes to yellow / green / orange / brown / (brick) red 1.",
       "markingPoints": [
-        "add Benedict’s (solution / reagent to the liquid) 1 boil / heat 65 °C or above 1 (if glucose is present the blue) colour changes to yellow / green / orange / brown / (brick) red 1"
+        "Add Benedict’s (solution / reagent to the liquid)",
+        "boil / heat 65 °C or above",
+        "(if glucose is present the blue) colour changes to yellow / green / orange / brown / (brick) red 1."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV058",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-EV089",
+        "parallel": "BIO-IV092",
+        "harder": "BIO-BV052"
+      }
     },
     {
       "id": "BV059",
@@ -806,17 +1200,26 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "The growth of daisy plants on a lawn is affected by biotic factors and by abiotic factors. How should the student decide where to place the quadrat? Give the reason for your answer.",
+      "question": "The growth of daisy plants on a lawn is affected by biotic factors and by abiotic factors.\nHow should the student decide where to place the quadrat?\nPart (a): Give the reason for your answer.",
       "marks": 2,
-      "modelAnswer": "(grid and) coordinates 1 to achieve randomness 2 marks",
+      "modelAnswer": "(grid and) coordinates\nto achieve randomness 2 marks.",
       "markingPoints": [
-        "(grid and) coordinates 1 to achieve randomness 2 marks"
+        "(grid and) coordinates",
+        "to achieve randomness 2 marks."
       ],
       "commandWord": "Give",
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV059",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV056",
+        "parallel": "BIO-BV054",
+        "harder": "BIO-EV089"
+      }
     },
     {
       "id": "BV060",
@@ -824,17 +1227,28 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "A teacher asks the student to investigate if students who take part in sports activities can breathe in a larger volume of air than students who do not take part. Describe briefly how the student could use the same apparatus to do the investigation.",
+      "question": "A teacher asks the student to investigate if students who take part in sports activities can breathe in a larger volume of air than students who do not take part.\nPart (a): Describe briefly how the student could use the same apparatus to do the investigation.",
       "marks": 3,
-      "modelAnswer": "two groups of students − one group sports activity participants, other not 1 fair test eg groups same height / same mass / same sex 1 measure air breathed in by each student / repeat previous experiment then calculate mean for group 1",
+      "modelAnswer": "Two groups of students − one group sports activity participants, other not\nfair test eg groups same height / same mass / same sex\nmeasure air breathed in by each student / repeat previous experiment then calculate mean for group",
       "markingPoints": [
-        "two groups of students − one group sports activity participants, other not 1 fair test eg groups same height / same mass / same sex 1 measure air breathed in by each student / repeat previous experiment then calculate mean for group 1"
+        "Two groups of students − one group sports activity participants, other not",
+        "fair test eg groups same height / same mass / same sex",
+        "measure air breathed in by each student / repeat previous experiment then calculate mean for group"
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV060",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV069",
+        "parallel": "BIO-BV053",
+        "harder": "BIO-EV087"
+      }
     },
     {
       "id": "BV061",
@@ -842,7 +1256,7 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Describe the linked biological knowledge or skill identified in the source question. Give a precise, fully linked answer and show every calculation step where relevant.",
+      "question": "Describe the linked biological knowledge or skill identified in the source question.\nGive a precise, fully linked answer and show every calculation step where relevant.",
       "marks": 2,
       "modelAnswer": "Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
       "markingPoints": [
@@ -852,7 +1266,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV061",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV056",
+        "parallel": "BIO-BV054",
+        "harder": "BIO-EV089"
+      }
     },
     {
       "id": "BV062",
@@ -860,19 +1282,34 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "The growth of daisy plants on a lawn is affected by biotic factors and by abiotic factors. The mean number of daisy plants in each quadrat is 6. Calculate the number of daisy plants on the lawn. Give your answer to 3 significant figures. Number of daisy plants on the lawn =",
+      "question": "The growth of daisy plants on a lawn is affected by biotic factors and by abiotic factors.\nThe mean number of daisy plants in each quadrat is 6.\nNumber of daisy plants on the lawn =\nPart (a): Calculate the number of daisy plants on the lawn.\nPart (b): Give your answer to 3 significant figures.",
       "marks": 6,
-      "modelAnswer": "mean = sum of values ÷ number of values. (mean per m2 =) 24 or 6 × 4 1 (calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18 1 (area of lawn =) 62 m2 24 × 62 1 1488 1 (answer to 3 sig figs =) 1490 3 sig figs 1 Answer: (mean per m2 =) 24 or 6 × 4 1 (calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18 1 (area of lawn =) 62 m2 24 × 62 1 1488 1 (answer to 3 sig figs =) 1490 3 sig figs 1",
+      "modelAnswer": "Mean = sum of values ÷ number of values.\n(mean per m2 =) 24 or 6 × 4\n(calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18\n(area of lawn =) 62 m2 24 × 62 1 1488\n(answer to 3 sig figs =) 1490 3 sig figs\nAnswer: (mean per m2 =) 24 or 6 × 4\n(calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18\n(area of lawn =) 62 m2 24 × 62 1 1488\n(answer to 3 sig figs =) 1490 3 sig figs",
       "markingPoints": [
-        "mean = sum of values ÷ number of values.",
-        "(mean per m2 =) 24 or 6 × 4 1 (calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18 1 (area of lawn =) 62 m2 24 × 62 1 1488 1 (answer to 3 sig figs =) 1490 3 sig figs 1",
-        "Answer: (mean per m2 =) 24 or 6 × 4 1 (calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18 1 (area of lawn =) 62 m2 24 × 62 1 1488 1 (answer to 3 sig figs =) 1490 3 sig figs 1"
+        "Mean = sum of values ÷ number of values.",
+        "(mean per m2 =) 24 or 6 × 4",
+        "(calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18",
+        "(area of lawn =) 62 m2 24 × 62 1 1488",
+        "(answer to 3 sig figs =) 1490 3 sig figs",
+        "Answer: (mean per m2 =) 24 or 6 × 4",
+        "(calculation of area of lawn =) (½ × 16 × 10) – (6 × 3) or 80 – 18",
+        "(area of lawn =) 62 m2 24 × 62 1 1488",
+        "(answer to 3 sig figs =) 1490 3 sig figs"
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV062",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-EV099",
+        "parallel": "BIO-BV066",
+        "harder": "BIO-BV069"
+      }
     },
     {
       "id": "BV063",
@@ -880,7 +1317,7 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Name the linked biological knowledge or skill identified in the source question. Give a precise, fully linked answer and show every calculation step where relevant.",
+      "question": "Name the linked biological knowledge or skill identified in the source question.\nGive a precise, fully linked answer and show every calculation step where relevant.",
       "marks": 1,
       "modelAnswer": "Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
       "markingPoints": [
@@ -890,7 +1327,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV063",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV056",
+        "parallel": "BIO-BV056",
+        "harder": "BIO-BV054"
+      }
     },
     {
       "id": "BV065",
@@ -898,17 +1343,27 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Some students studied bluebell plants growing in two different habitats. Habitat A was a sunny field next to woodland. Habitat B was a shady, moist woodland. A bluebell plant can have several flowers on one flower stalk. The students counted the number of flowers on each of 40 bluebell flower stalks growing in each habitat. The bar charts show the results. Habitat A: Sunny field next to woodland Number of flowers per stalk Habitat B: Shady, moist woodland Number of flowers per stalk Suggest how receiving more sunlight could result in the plants producing more flowers per stalk.",
+      "question": "Some students studied bluebell plants growing in two different habitats.\nHabitat A was a sunny field next to woodland.\nHabitat B was a shady, moist woodland.\nA bluebell plant can have several flowers on one flower stalk.\nThe students counted the number of flowers on each of 40 bluebell flower stalks growing in each habitat.\nThe bar charts show the results.\nHabitat A: Sunny field next to woodland Number of flowers per stalk Habitat B: Shady, moist woodland Number of flowers per stalk Suggest how receiving more sunlight could result in the plants producing more flowers per stalk.",
       "marks": 2,
-      "modelAnswer": "more glucose / energy available 1 for growth dependent on 1st mark 1 \\",
+      "modelAnswer": "More glucose / energy available\nfor growth dependent on 1st mark 1 \\.",
       "markingPoints": [
-        "more glucose / energy available 1 for growth dependent on 1st mark 1 \\"
+        "More glucose / energy available",
+        "for growth dependent on 1st mark 1 \\."
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV065",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-IV087",
+        "parallel": "BIO-BV057",
+        "harder": "BIO-BV055"
+      }
     },
     {
       "id": "BV066",
@@ -918,15 +1373,24 @@
       "tier": "Both / not separated",
       "question": "Glucose is broken down in respiration. Flask A acts as a control in this investigation. What is the purpose of a control?",
       "marks": 1,
-      "modelAnswer": "for comparison / to compare .g. or to check that no other factor / variable is influencing the results to prove that the results obtained were due to the woodlice respiring and nothing else or to prove that the woodlice produced the carbon dioxide and nothing else 1",
+      "modelAnswer": "For comparison / to compare .g. or to check that no other factor / variable is influencing the results to prove that the results obtained were due to the woodlice respiring and nothing else or to prove that the woodlice produced the carbon dioxide and nothing else 1.",
       "markingPoints": [
-        "for comparison / to compare .g. or to check that no other factor / variable is influencing the results to prove that the results obtained were due to the woodlice respiring and nothing else or to prove that the woodlice produced the carbon dioxide and nothing else 1"
+        "For comparison / to compare .g. or to check that no other factor / variable is influencing the results to prove that the results obtained were due to the woodlice respiring and nothing else or to prove that the woodlice produced the carbon dioxide and nothing else 1."
       ],
       "commandWord": "Other / not explicit",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV066",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-EV099",
+        "parallel": "BIO-BV062",
+        "harder": "BIO-BV069"
+      }
     },
     {
       "id": "BV068",
@@ -934,17 +1398,27 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Some students studied bluebell plants growing in two different habitats. Habitat A was a sunny field next to woodland. Habitat B was a shady, moist woodland. A bluebell plant can have several flowers on one flower stalk. The students counted the number of flowers on each of 40 bluebell flower stalks growing in each habitat. The bar charts show the results. Habitat A: Sunny field next to woodland Number of flowers per stalk Habitat B: Shady, moist woodland Number of flowers per stalk The students suggested the following hypothesis: ‘The difference in the modes is due to the plants receiving different amounts of sunlight.’ Suggest why.",
+      "question": "Some students studied bluebell plants growing in two different habitats.\nHabitat A was a sunny field next to woodland.\nHabitat B was a shady, moist woodland.\nA bluebell plant can have several flowers on one flower stalk.\nThe students counted the number of flowers on each of 40 bluebell flower stalks growing in each habitat.\nThe bar charts show the results.\nHabitat A: Sunny field next to woodland Number of flowers per stalk Habitat B: Shady, moist woodland Number of flowers per stalk The students suggested the following hypothesis: ‘The difference in the modes is due to the plants receiving different amounts of sunlight.’ Suggest why.",
       "marks": 2,
-      "modelAnswer": "more light in A / in field / where sunny 1 more / better / faster photosynthesis in A / with more light",
+      "modelAnswer": "More light in A / in field / where sunny\nmore / better / faster photosynthesis in A / with more light.",
       "markingPoints": [
-        "more light in A / in field / where sunny 1 more / better / faster photosynthesis in A / with more light"
+        "More light in A / in field / where sunny",
+        "more / better / faster photosynthesis in A / with more light."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV068",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-IV087",
+        "parallel": "BIO-BV057",
+        "harder": "BIO-BV055"
+      }
     },
     {
       "id": "BV069",
@@ -952,7 +1426,7 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Compare the linked biological knowledge or skill identified in the source question. Give a precise, fully linked answer and show every calculation step where relevant.",
+      "question": "Compare the linked biological knowledge or skill identified in the source question.\nGive a precise, fully linked answer and show every calculation step where relevant.",
       "marks": 2,
       "modelAnswer": "Interpret the unfamiliar infection context using precise pathogen, immune-response or plant-defence knowledge.",
       "markingPoints": [
@@ -962,7 +1436,16 @@
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV069",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV062",
+        "parallel": "BIO-IV084",
+        "harder": "BIO-BV053"
+      }
     },
     {
       "id": "BV071",
@@ -970,17 +1453,34 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "An athlete ran as fast as he could until he was exhausted. For how many minutes did the athlete run? Time = (1) Explain how the change in blood flow to the athlete’s muscles helps him to run.",
+      "question": "An athlete ran as fast as he could until he was exhausted.\nFor how many minutes did the athlete run?\nTime = (1) Explain how the change in blood flow to the athlete’s muscles helps him to run.",
       "marks": 4,
-      "modelAnswer": "(a) (i) without oxygen 1 (ii) more / high / increased lactic acid (at end) 1 (b) (i) 1.5 .5 / 1½ / one and a half 1 (ii) increases at first and levels off 1 suitable use of numbers eg rises to 10 / by 9 (dm3 per min) or increases up to 1.5 (min) / levels off after 1.5 (min) (of x axis timescale) .4 to 1.5 or after the first minute (of the run) 1 (iii) supplies (more) oxygen 1 supplies (more) glucose 1 need ‘more/faster’ once only for full marks 1 releases (more) energy (for muscle contraction) do not 1",
+      "modelAnswer": "Part (a): (i) without oxygen\n(ii) more / high / increased lactic acid (at end)\nPart (b): (i) 1.5 .5 / 1½ / one and a half\n(ii) increases at first and levels off\nsuitable use of numbers eg rises to 10 / by 9 (dm3 per min) or increases up to 1.5 (min) / levels off after 1.5 (min) (of x axis timescale) .4 to 1.5 or after the first minute (of the run)\n(iii) supplies (more) oxygen\nsupplies (more) glucose\nneed ‘more/faster’ once only for full marks\nreleases (more) energy (for muscle contraction) do not 1.",
       "markingPoints": [
-        "(a) (i) without oxygen 1 (ii) more / high / increased lactic acid (at end) 1 (b) (i) 1.5 .5 / 1½ / one and a half 1 (ii) increases at first and levels off 1 suitable use of numbers eg rises to 10 / by 9 (dm3 per min) or increases up to 1.5 (min) / levels off after 1.5 (min) (of x axis timescale) .4 to 1.5 or after the first minute (of the run) 1 (iii) supplies (more) oxygen 1 supplies (more) glucose 1 need ‘more/faster’ once only for full marks 1 releases (more) energy (for muscle contraction) do not 1"
+        "Part (a): (i) without oxygen",
+        "(ii) more / high / increased lactic acid (at end)",
+        "Part (b): (i) 1.5 .5 / 1½ / one and a half",
+        "(ii) increases at first and levels off",
+        "suitable use of numbers eg rises to 10 / by 9 (dm3 per min) or increases up to 1.5 (min) / levels off after 1.5 (min) (of x axis timescale) .4 to 1.5 or after the first minute (of the run)",
+        "(iii) supplies (more) oxygen",
+        "supplies (more) glucose",
+        "need ‘more/faster’ once only for full marks",
+        "releases (more) energy (for muscle contraction) do not 1."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV071",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-BV055",
+        "parallel": "BIO-IV078",
+        "harder": "BIO-EV092"
+      }
     },
     {
       "id": "BV073",
@@ -988,17 +1488,27 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "All living cells respire. Suggest how the experiment could be changed to give a reproducible way to measure the rate of the reaction. Include any apparatus you would use.",
+      "question": "All living cells respire.\nSuggest how the experiment could be changed to give a reproducible way to measure the rate of the reaction.\nInclude any apparatus you would use.",
       "marks": 2,
-      "modelAnswer": "collect the CO2 / gas with a measuring cylinder / gas syringe 1 (volume collected) in a certain time using a timer / watch 1",
+      "modelAnswer": "Collect the CO2 / gas with a measuring cylinder / gas syringe\n(volume collected) in a certain time using a timer / watch 1.",
       "markingPoints": [
-        "collect the CO2 / gas with a measuring cylinder / gas syringe 1 (volume collected) in a certain time using a timer / watch 1"
+        "Collect the CO2 / gas with a measuring cylinder / gas syringe",
+        "(volume collected) in a certain time using a timer / watch 1."
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV073",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-IV087",
+        "parallel": "BIO-BV057",
+        "harder": "BIO-BV055"
+      }
     },
     {
       "id": "BV074",
@@ -1008,15 +1518,35 @@
       "tier": "Both / not separated",
       "question": "Write the word and balanced symbol equations for photosynthesis. Explain why photosynthesis is endothermic and how its products are used by the plant.",
       "marks": 6,
-      "modelAnswer": "(a) LHS: carbon dioxide AND water in either order 1 RHS: sugar(s) / glucose / starch / carbohydrate(s) 1 (b) (i) light is needed for photosynthesis or no photosynthesis occurred (so no oxygen produced) 1 (ii) oxygen is needed / used for (aerobic) respiration full statement respiration occurs or oxygen is needed for anaerobic respiration gains 1 mark 2 (c) (i) (with increasing temperature) rise then fall in rate 1 use of figures, ie max. production at 40 °C or maximum rate of 37.5 to 38 1 (ii) 25 – 35 °C either faster movement of particles / molecules / more collisions or particles have more energy / enzymes have more energy 1 or temperature is a limiting factor over this range 40 – 50 °C denaturation of proteins / enzymes 1 (d) above 35 °C (to 40 °C) – little increase in rate or > 40 °C – causes decrease in rate 1 so waste of money or less profit / expensive 1 because respiration rate is higher at > 35 °C or respiration reduces the effect of photosynthesis 1",
+      "modelAnswer": "Part (a): LHS: carbon dioxide AND water in either order\nRHS: sugar(s) / glucose / starch / carbohydrate(s)\nPart (b): (i) light is needed for photosynthesis or no photosynthesis occurred (so no oxygen produced)\n(ii) oxygen is needed / used for (aerobic) respiration full statement respiration occurs or oxygen is needed for anaerobic respiration gains  2\nPart (c): (i) (with increasing temperature) rise then fall in rate\nuse of figures, ie max. production at 40 °C or maximum rate of 37.5 to 38\n(ii) 25 – 35 °C either faster movement of particles / molecules / more collisions or particles have more energy / enzymes have more energy\nor temperature is a limiting factor over this range 40 – 50 °C denaturation of proteins / enzymes\nPart (d): above 35 °C (to 40 °C).\nLittle increase in rate or > 40 °C.\nCauses decrease in rate\nso waste of money or less profit / expensive\nbecause respiration rate is higher at > 35 °C or respiration reduces the effect of photosynthesis 1.",
       "markingPoints": [
-        "(a) LHS: carbon dioxide AND water in either order 1 RHS: sugar(s) / glucose / starch / carbohydrate(s) 1 (b) (i) light is needed for photosynthesis or no photosynthesis occurred (so no oxygen produced) 1 (ii) oxygen is needed / used for (aerobic) respiration full statement respiration occurs or oxygen is needed for anaerobic respiration gains 1 mark 2 (c) (i) (with increasing temperature) rise then fall in rate 1 use of figures, ie max. production at 40 °C or maximum rate of 37.5 to 38 1 (ii) 25 – 35 °C either faster movement of particles / molecules / more collisions or particles have more energy / enzymes have more energy 1 or temperature is a limiting factor over this range 40 – 50 °C denaturation of proteins / enzymes 1 (d) above 35 °C (to 40 °C) – little increase in rate or > 40 °C – causes decrease in rate 1 so waste of money or less profit / expensive 1 because respiration rate is higher at > 35 °C or respiration reduces the effect of photosynthesis 1"
+        "Part (a): LHS: carbon dioxide AND water in either order",
+        "RHS: sugar(s) / glucose / starch / carbohydrate(s)",
+        "Part (b): (i) light is needed for photosynthesis or no photosynthesis occurred (so no oxygen produced)",
+        "(ii) oxygen is needed / used for (aerobic) respiration full statement respiration occurs or oxygen is needed for anaerobic respiration gains  2",
+        "Part (c): (i) (with increasing temperature) rise then fall in rate",
+        "use of figures, ie max. production at 40 °C or maximum rate of 37.5 to 38",
+        "(ii) 25 – 35 °C either faster movement of particles / molecules / more collisions or particles have more energy / enzymes have more energy",
+        "or temperature is a limiting factor over this range 40 – 50 °C denaturation of proteins / enzymes",
+        "Part (d): above 35 °C (to 40 °C).",
+        "Little increase in rate or > 40 °C.",
+        "Causes decrease in rate",
+        "so waste of money or less profit / expensive",
+        "because respiration rate is higher at > 35 °C or respiration reduces the effect of photosynthesis 1."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-19UHFVG",
+      "databaseId": "BIO-BV074",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV038",
+        "diagnostic": "BIO-BV038",
+        "easier": "BIO-BV035",
+        "parallel": "BIO-BV035"
+      }
     },
     {
       "id": "BV075",
@@ -1024,22 +1554,32 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Explain how light intensity, carbon dioxide concentration, temperature and chlorophyll content can limit photosynthesis. Explain why the limiting factor can change and interpret a graph with two interacting factors.",
+      "question": "Part (a): Explain how light intensity, carbon dioxide concentration, temperature and chlorophyll content can limit photosynthesis.\nPart (b): Explain why the limiting factor can change and interpret a graph with two interacting factors.",
       "marks": 6,
-      "modelAnswer": "factor 1: CO2 (concentration) effect - as CO2 increases so does rate and then it levels off or shown in a graph explanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate. factor 2: temperature effect – as temperature increases, so does the rate and then it decreases or shown in a graph explanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5",
+      "modelAnswer": "Factor 1: CO2 (concentration).\nEffect.\nAs CO2 increases so does rate and then it levels off or shown in a graph.\nExplanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate.\nFactor 2: temperature.\nEffect.\nAs temperature increases, so does the rate and then it decreases or shown in a graph.\nExplanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5",
       "markingPoints": [
-        "factor 1: CO2 (concentration)",
-        "effect - as CO2 increases so does rate and then it levels off or shown in a graph",
-        "explanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate.",
-        "factor 2: temperature",
-        "effect – as temperature increases, so does the rate and then it decreases or shown in a graph",
-        "explanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5"
+        "Factor 1: CO2 (concentration).",
+        "Effect.",
+        "As CO2 increases so does rate and then it levels off or shown in a graph.",
+        "Explanation:(graph increases) because CO2 is the raw material or used in photosynthesis / converted to organic substance / named egor(graph levels off) when another factor limits the rate.",
+        "Factor 2: temperature.",
+        "Effect.",
+        "As temperature increases, so does the rate and then it decreases or shown in a graph.",
+        "Explanation:(rise in temp) increases rate of chemical reactions / more kinetic energy . context must be clear = high temperature 5"
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0Y66J8T",
+      "databaseId": "BIO-BV075",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV007",
+        "diagnostic": "BIO-BV007",
+        "easier": "BIO-BV006",
+        "parallel": "BIO-BV006"
+      }
     },
     {
       "id": "BV076",
@@ -1049,19 +1589,27 @@
       "tier": "Both / not separated",
       "question": "Write the word equation for aerobic respiration and explain how energy transferred by respiration is used in cells.",
       "marks": 6,
-      "modelAnswer": "anaerobic produces lactic acid and aerobic does not aerobic produces carbon dioxide and anaerobic does not aerobic produces water and anaerobic does not aerobic occurs (mainly) in the mitochondria and anaerobic does not anaerobic releases less energy than aerobic",
+      "modelAnswer": "Anaerobic produces lactic acid and aerobic does not.\nAerobic produces carbon dioxide and anaerobic does not.\nAerobic produces water and anaerobic does not.\nAerobic occurs (mainly) in the mitochondria and anaerobic does not.\nAnaerobic releases less energy than aerobic.",
       "markingPoints": [
-        "anaerobic produces lactic acid and aerobic does not",
-        "aerobic produces carbon dioxide and anaerobic does not",
-        "aerobic produces water and anaerobic does not",
-        "aerobic occurs (mainly) in the mitochondria and anaerobic does not",
-        "anaerobic releases less energy than aerobic"
+        "Anaerobic produces lactic acid and aerobic does not.",
+        "Aerobic produces carbon dioxide and anaerobic does not.",
+        "Aerobic produces water and anaerobic does not.",
+        "Aerobic occurs (mainly) in the mitochondria and anaerobic does not.",
+        "Anaerobic releases less energy than aerobic."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EAR3DG",
+      "databaseId": "BIO-BV076",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV023",
+        "diagnostic": "BIO-BV023",
+        "easier": "BIO-BV002",
+        "parallel": "BIO-BV002"
+      }
     },
     {
       "id": "BV077",
@@ -1069,23 +1617,31 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Explain the changes in heart rate, breathing rate and blood flow during exercise and how these changes meet the increased demand for respiration in muscles. Include oxygen debt and removal of lactic acid.",
+      "question": "Part (a): Explain the changes in heart rate, breathing rate and blood flow during exercise and how these changes meet the increased demand for respiration in muscles.\nPart (b): Include oxygen debt and removal of lactic acid.",
       "marks": 6,
-      "modelAnswer": "two groups of people − non-smokers and smokers have at least five people in each group or large groups get each person to do (named) exercise controlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise record heart rate for each person before and after exercise calculate increase in heart rate for each person after exercise compare results for each group for",
+      "modelAnswer": "Two groups of people − non-smokers and smokers\nHave at least five people in each group or large groups.\nGet each person to do (named) exercise.\nControlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise\nRecord heart rate for each person before and after exercise.\nCalculate increase in heart rate for each person after exercise.\nCompare results for each group for.",
       "markingPoints": [
-        "two groups of people − non-smokers and smokers",
-        "have at least five people in each group or large groups",
-        "get each person to do (named) exercise",
-        "controlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise",
-        "record heart rate for each person before and after exercise",
-        "calculate increase in heart rate for each person after exercise",
-        "compare results for each group for"
+        "Two groups of people − non-smokers and smokers",
+        "Have at least five people in each group or large groups.",
+        "Get each person to do (named) exercise.",
+        "Controlled variables: − same number of people in each group or large groups − same gender − same level of activity / exercise − same age − no health issues / illnesses − same type of exercise − same time for exercise",
+        "Record heart rate for each person before and after exercise.",
+        "Calculate increase in heart rate for each person after exercise.",
+        "Compare results for each group for."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CN3NK0",
+      "databaseId": "BIO-BV077",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV032",
+        "diagnostic": "BIO-BV032",
+        "easier": "BIO-BV013",
+        "parallel": "BIO-BV015"
+      }
     },
     {
       "id": "BV078",
@@ -1095,16 +1651,20 @@
       "tier": "Both / not separated",
       "question": "Write the word equation for anaerobic respiration in yeast and explain its uses in bread-making and brewing.",
       "marks": 6,
-      "modelAnswer": "glucose → ethanol + carbon dioxide. Carbon dioxide makes bread rise ethanol is produced in brewing. Less energy is transferred than in aerobic respiration.",
+      "modelAnswer": "Glucose → ethanol + carbon dioxide.\nCarbon dioxide makes bread rise.\nEthanol is produced in brewing.\nLess energy is transferred than in aerobic respiration.",
       "markingPoints": [
-        "glucose → ethanol + carbon dioxide. Carbon dioxide makes bread rise",
-        "ethanol is produced in brewing. Less energy is transferred than in aerobic respiration."
+        "Glucose → ethanol + carbon dioxide.",
+        "Carbon dioxide makes bread rise.",
+        "Ethanol is produced in brewing.",
+        "Less energy is transferred than in aerobic respiration."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0K2R433",
+      "databaseId": "BIO-BV078"
     },
     {
       "id": "BV079",
@@ -1114,27 +1674,35 @@
       "tier": "Foundation",
       "question": "Explain how glucose made in photosynthesis is used to make starch, cellulose, amino acids and lipids and is also used in respiration.",
       "marks": 6,
-      "modelAnswer": "Difficulty digesting food less / no lipase (so) less / no fat broken down ○ into fatty acids ○ into glycerol less / no carbohydrase / amylase (so) less / no carbohydrate / starch broken down ○ into glucose / sugar less / no protease (so) less / no protein broken down ○ into amino acids Difficulty gaining body mass less / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids fewer molecules or fewer amino acids available for building protein / muscle / cells / tissues less fat stored less respiration less energy (so less energy) for building new molecules / cells / tissues For",
+      "modelAnswer": "Difficulty digesting food.\nLess / no lipase.\n(so) less / no fat broken down ○ into fatty acids ○ into glycerol.\nLess / no carbohydrase / amylase.\n(so) less / no carbohydrate / starch broken down ○ into glucose / sugar.\nLess / no protease.\n(so) less / no protein broken down ○ into amino acids Difficulty gaining body mass.\nLess / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids.\nFewer molecules or fewer amino acids available for building protein / muscle / cells / tissues.\nLess fat stored.\nLess respiration.\nLess energy.\n(so less energy) for building new molecules / cells / tissues For.",
       "markingPoints": [
-        "Difficulty digesting food",
-        "less / no lipase",
-        "(so) less / no fat broken down ○ into fatty acids ○ into glycerol",
-        "less / no carbohydrase / amylase",
-        "(so) less / no carbohydrate / starch broken down ○ into glucose / sugar",
-        "less / no protease",
-        "(so) less / no protein broken down ○ into amino acids Difficulty gaining body mass",
-        "less / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids",
-        "fewer molecules or fewer amino acids available for building protein / muscle / cells / tissues",
-        "less fat stored",
-        "less respiration",
-        "less energy",
-        "(so less energy) for building new molecules / cells / tissues For"
+        "Difficulty digesting food.",
+        "Less / no lipase.",
+        "(so) less / no fat broken down ○ into fatty acids ○ into glycerol.",
+        "Less / no carbohydrase / amylase.",
+        "(so) less / no carbohydrate / starch broken down ○ into glucose / sugar.",
+        "Less / no protease.",
+        "(so) less / no protein broken down ○ into amino acids Difficulty gaining body mass.",
+        "Less / no absorption ○ of small / soluble molecules ○ of fatty acids ○ of glycerol ○ of glucose / sugar ○ of amino acids.",
+        "Fewer molecules or fewer amino acids available for building protein / muscle / cells / tissues.",
+        "Less fat stored.",
+        "Less respiration.",
+        "Less energy.",
+        "(so less energy) for building new molecules / cells / tissues For."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0XV5L8H",
+      "databaseId": "BIO-BV079",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV051",
+        "diagnostic": "BIO-BV051",
+        "easier": "BIO-BV004",
+        "parallel": "BIO-BV004"
+      }
     },
     {
       "id": "BV080",
@@ -1142,19 +1710,32 @@
       "subtopic": "4.1 Photosynthesis",
       "sourceSubtopic": "4.1 Photosynthesis",
       "tier": "Both / not separated",
-      "question": "Plan the pondweed investigation of the effect of light intensity on photosynthesis. Include variables, measurement, repeats, safety, limitations and improvements.",
+      "question": "Plan the pondweed investigation of the effect of light intensity on photosynthesis.\nInclude variables, measurement, repeats, safety, limitations and improvements.",
       "marks": 6,
-      "modelAnswer": "Place pondweed in sodium hydrogencarbonate solution. Position a lamp at measured distances or use measured light intensities. . Repeat each condition and calculate a mean. Keep pondweed length/species, carbon dioxide concentration, solution volume, measurement time and temperature constant use a heat shield or water bath. Keep electrical equipment away from water. Bubble size varies, so oxygen volume is more valid than bubble count use more light levels and repeats to improve the evidence.",
+      "modelAnswer": "Place pondweed in sodium hydrogencarbonate solution.\nPosition a lamp at measured distances or use measured light intensities. .\nRepeat each condition and calculate a mean.\nKeep pondweed length/species, carbon dioxide concentration, solution volume, measurement time and temperature constant.\nUse a heat shield or water bath.\nKeep electrical equipment away from water.\nBubble size varies, so oxygen volume is more valid than bubble count.\nUse more light levels and repeats to improve the evidence.",
       "markingPoints": [
-        "Place pondweed in sodium hydrogencarbonate solution. Position a lamp at measured distances or use measured light intensities. . Repeat each condition and calculate a mean. Keep pondweed length/species, carbon dioxide concentration, solution volume, measurement time and temperature constant",
-        "use a heat shield or water bath. Keep electrical equipment away from water. Bubble size varies, so oxygen volume is more valid than bubble count",
-        "use more light levels and repeats to improve the evidence."
+        "Place pondweed in sodium hydrogencarbonate solution.",
+        "Position a lamp at measured distances or use measured light intensities. .",
+        "Repeat each condition and calculate a mean.",
+        "Keep pondweed length/species, carbon dioxide concentration, solution volume, measurement time and temperature constant.",
+        "Use a heat shield or water bath.",
+        "Keep electrical equipment away from water.",
+        "Bubble size varies, so oxygen volume is more valid than bubble count.",
+        "Use more light levels and repeats to improve the evidence."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1D5ICKZ",
+      "databaseId": "BIO-BV080",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV041",
+        "diagnostic": "BIO-BV041",
+        "easier": "BIO-BV008",
+        "parallel": "BIO-BV008"
+      }
     },
     {
       "id": "BV081",
@@ -1164,17 +1745,35 @@
       "tier": "Both / not separated",
       "question": "Use a supplied photosynthesis or respiration dataset to calculate a mean, rate, percentage change and inverse-square light intensity, then describe and explain the graph.",
       "marks": 6,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100. Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Rate = change in measured quantity ÷ time. Include units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors. Answer: Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Rate = change in measured quantity ÷ time. Include units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors.",
+      "modelAnswer": "Percentage change = (change ÷ original value) × 100.\nShow the relevant mathematical method using the values in F1.\nFor percentage change: ((new value − original value) ÷ original value) × 100.\nFor a rate: change ÷ time.\nGive the final value with appropriate units and sensible rounding.\nRate = change in measured quantity ÷ time.\nInclude units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors.\nAnswer: Show the relevant mathematical method using the values in F1.\nFor percentage change: ((new value − original value) ÷ original value) × 100.\nFor a rate: change ÷ time.\nGive the final value with appropriate units and sensible rounding.\nRate = change in measured quantity ÷ time.\nInclude units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors.",
       "markingPoints": [
-        "percentage change = (change ÷ original value) × 100.",
-        "Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Rate = change in measured quantity ÷ time. Include units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors.",
-        "Answer: Show the relevant mathematical method using the values in F1. For percentage change: ((new value − original value) ÷ original value) × 100. For a rate: change ÷ time. Give the final value with appropriate units and sensible rounding. Rate = change in measured quantity ÷ time. Include units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors."
+        "Percentage change = (change ÷ original value) × 100.",
+        "Show the relevant mathematical method using the values in F1.",
+        "For percentage change: ((new value − original value) ÷ original value) × 100.",
+        "For a rate: change ÷ time.",
+        "Give the final value with appropriate units and sensible rounding.",
+        "Rate = change in measured quantity ÷ time.",
+        "Include units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors.",
+        "Answer: Show the relevant mathematical method using the values in F1.",
+        "For percentage change: ((new value − original value) ÷ original value) × 100.",
+        "For a rate: change ÷ time.",
+        "Give the final value with appropriate units and sensible rounding.",
+        "Rate = change in measured quantity ÷ time.",
+        "Include units, convert time units, use a tangent for instantaneous gradient, repeat and calculate means, identify anomalies, and explain slopes/plateaus using limiting factors."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0MF8Y2G",
+      "databaseId": "BIO-BV081",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV046",
+        "diagnostic": "BIO-BV046",
+        "easier": "BIO-BV043",
+        "parallel": "BIO-BV043"
+      }
     },
     {
       "id": "BV082",
@@ -1184,15 +1783,18 @@
       "tier": "Both / not separated",
       "question": "Write the word equation for anaerobic respiration in muscle and explain lactic-acid accumulation, fatigue and oxygen debt.",
       "marks": 6,
-      "modelAnswer": "Lactate accumulation contributes to fatigue. After exercise, extra oxygen is needed to oxidise lactic acid or convert it in the liver and restore normal conditions.",
+      "modelAnswer": "Lactate accumulation contributes to fatigue.\nAfter exercise, extra oxygen is needed to oxidise lactic acid or convert it in the liver and restore normal conditions.",
       "markingPoints": [
-        "Lactate accumulation contributes to fatigue. After exercise, extra oxygen is needed to oxidise lactic acid or convert it in the liver and restore normal conditions."
+        "Lactate accumulation contributes to fatigue.",
+        "After exercise, extra oxygen is needed to oxidise lactic acid or convert it in the liver and restore normal conditions."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1V6Q0MX",
+      "databaseId": "BIO-BV082"
     },
     {
       "id": "BV083",
@@ -1200,20 +1802,44 @@
       "subtopic": "4.2 Respiration",
       "sourceSubtopic": "4.2 Respiration",
       "tier": "Both / not separated",
-      "question": "Answer a linked data or practical question from a Bioenergetics exam pack: identify the exact command word, select the relevant biological mechanism, use quantitative evidence and show any calculation with units.",
+      "question": "Answer a linked data or practical question from a Bioenergetics exam pack: identify the exact command word, select the relevant biological mechanism, use quantitative evidence\nPart (a): Show any calculation with units.",
       "marks": 6,
-      "modelAnswer": "(a) (i) A lung 1 B rib 1 C diaphragm 1 D alveolus / alveoli 1 (ii) (B moves) up(wards) / out / up and out 1 (C moves) down(wards) / flattens do not 1 mark for correct reference to muscle contraction 1 (b) (i) 1640 1 1440 1 1720 1 for 3 correct values using of bottom of piston: 1380 + 1180 + 1480 to 1485 1 (ii) 1600 correct answer gains 2 marks if answer incorrect 1 mark for evidence of (1640 + 1440 + 1720) ÷ 3 1680 for 2 marks 2 (c) two groups of students − one group sports activity participants, other not 1 fair test eg groups same height / same mass / same sex 1 measure air breathed in by each student / repeat previous experiment then calculate mean for group 1 (d) pointer remains still after breathing / cylinder will move down after breathing (in) 1 error reading volume less likely 1 (e) (i) operator squeezes bag 1 air forced / pushed into lungs or positive pressure ventilator 1 (ii) air pressure / volume not regulated operator will tire / must be present at all times / variable intervals too much / too little air 2",
+      "modelAnswer": "Part (a): (i) A lung\nB rib\nC diaphragm\nD alveolus / alveoli\n(ii) (B moves) up(wards) / out / up and out\n(C moves) down(wards) / flattens do not  for correct reference to muscle contraction\nPart (b): (i) 1640 1 1440 1 1720\nfor 3 correct values using of bottom of piston: 1380 + 1180 + 1480 to 1485\n(ii) 1600 correct answer gains 2 marks if answer incorrect  for evidence of (1640 + 1440 + 1720) ÷ 3 1680 for 2 marks 2\nPart (c): two groups of students − one group sports activity participants, other not\nfair test eg groups same height / same mass / same sex\nmeasure air breathed in by each student / repeat previous experiment then calculate mean for group\nPart (d): pointer remains still after breathing / cylinder will move down after breathing (in)\nerror reading volume less likely\nPart (e): (i) operator squeezes bag\nair forced / pushed into lungs or positive pressure ventilator\n(ii)\nAir pressure / volume not regulated.\nOperator will tire / must be present at all times / variable intervals.\nToo much / too little air 2.",
       "markingPoints": [
-        "(a) (i) A lung 1 B rib 1 C diaphragm 1 D alveolus / alveoli 1 (ii) (B moves) up(wards) / out / up and out 1 (C moves) down(wards) / flattens do not 1 mark for correct reference to muscle contraction 1 (b) (i) 1640 1 1440 1 1720 1 for 3 correct values using of bottom of piston: 1380 + 1180 + 1480 to 1485 1 (ii) 1600 correct answer gains 2 marks if answer incorrect 1 mark for evidence of (1640 + 1440 + 1720) ÷ 3 1680 for 2 marks 2 (c) two groups of students − one group sports activity participants, other not 1 fair test eg groups same height / same mass / same sex 1 measure air breathed in by each student / repeat previous experiment then calculate mean for group 1 (d) pointer remains still after breathing / cylinder will move down after breathing (in) 1 error reading volume less likely 1 (e) (i) operator squeezes bag 1 air forced / pushed into lungs or positive pressure ventilator 1 (ii)",
-        "air pressure / volume not regulated",
-        "operator will tire / must be present at all times / variable intervals",
-        "too much / too little air 2"
+        "Part (a): (i) A lung",
+        "B rib",
+        "C diaphragm",
+        "D alveolus / alveoli",
+        "(ii) (B moves) up(wards) / out / up and out",
+        "(C moves) down(wards) / flattens do not  for correct reference to muscle contraction",
+        "Part (b): (i) 1640 1 1440 1 1720",
+        "for 3 correct values using of bottom of piston: 1380 + 1180 + 1480 to 1485",
+        "(ii) 1600 correct answer gains 2 marks if answer incorrect  for evidence of (1640 + 1440 + 1720) ÷ 3 1680 for 2 marks 2",
+        "Part (c): two groups of students − one group sports activity participants, other not",
+        "fair test eg groups same height / same mass / same sex",
+        "measure air breathed in by each student / repeat previous experiment then calculate mean for group",
+        "Part (d): pointer remains still after breathing / cylinder will move down after breathing (in)",
+        "error reading volume less likely",
+        "Part (e): (i) operator squeezes bag",
+        "air forced / pushed into lungs or positive pressure ventilator",
+        "(ii)",
+        "Air pressure / volume not regulated.",
+        "Operator will tire / must be present at all times / variable intervals.",
+        "Too much / too little air 2."
       ],
       "commandWord": "Explain / evaluate",
       "assessmentObjective": "AO1 / AO2 / AO3",
       "specificationReference": "4.4.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1O8VY32",
+      "databaseId": "BIO-BV083",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-BV056",
+        "diagnostic": "BIO-BV056",
+        "easier": "BIO-EV096",
+        "parallel": "BIO-IV106"
+      }
     },
     {
       "id": "BE-EX1",
@@ -1221,18 +1847,22 @@
       "subtopic": "Photosynthesis",
       "sourceSubtopic": "Photosynthesis",
       "tier": "Both",
-      "question": "A plant is moved closer to a lamp and its rate of photosynthesis increases, then becomes constant. Explain the complete pattern and how a student could identify the new limiting factor.",
+      "question": "A plant is moved closer to a lamp and its rate of photosynthesis increases, then becomes constant.\nPart (a): Explain the complete pattern and how a student could identify the new limiting factor.",
       "marks": 5,
-      "modelAnswer": "Initially light intensity is limiting, so more light raises the rate. At high light intensity another factor becomes limiting, so the rate plateaus. Repeat while independently increasing carbon dioxide concentration or temperature the factor that increases the plateau rate was limiting, while controlling the other variables.",
+      "modelAnswer": "Initially light intensity is limiting, so more light raises the rate.\nAt high light intensity another factor becomes limiting, so the rate plateaus.\nRepeat while independently increasing carbon dioxide concentration or temperature.\nThe factor that increases the plateau rate was limiting, while controlling the other variables.",
       "markingPoints": [
-        "Initially light intensity is limiting, so more light raises the rate. At high light intensity another factor becomes limiting, so the rate plateaus. Repeat while independently increasing carbon dioxide concentration or temperature",
-        "the factor that increases the plateau rate was limiting, while controlling the other variables."
+        "Initially light intensity is limiting, so more light raises the rate.",
+        "At high light intensity another factor becomes limiting, so the rate plateaus.",
+        "Repeat while independently increasing carbon dioxide concentration or temperature.",
+        "The factor that increases the plateau rate was limiting, while controlling the other variables."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2/AO3",
       "specificationReference": "4.4.1.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-15JWN8Y",
+      "databaseId": "BIO-BE-EX1"
     },
     {
       "id": "BE-EX2",
@@ -1242,17 +1872,25 @@
       "tier": "Both",
       "question": "A runner transfers 720 kJ in 12 minutes. Calculate mean power in watts and explain why the runner continues breathing rapidly after finishing.",
       "marks": 4,
-      "modelAnswer": "mean = sum of values ÷ number of values. 720 kJ = 720,000 J; 12 min = 720 s; power = energy ÷ time = 1000 W. Rapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt. Answer: 720 kJ = 720,000 J; 12 min = 720 s; power = energy ÷ time = 1000 W. Rapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt.",
+      "modelAnswer": "Mean = sum of values ÷ number of values.\n720 kJ = 720,000 J\n12 min = 720 s\nPower = energy ÷ time = 1000 W.\nRapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt.\nAnswer: 720 kJ = 720,000 J\n12 min = 720 s\nPower = energy ÷ time = 1000 W.\nRapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt.",
       "markingPoints": [
-        "mean = sum of values ÷ number of values.",
-        "720 kJ = 720,000 J; 12 min = 720 s; power = energy ÷ time = 1000 W. Rapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt.",
-        "Answer: 720 kJ = 720,000 J; 12 min = 720 s; power = energy ÷ time = 1000 W. Rapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt."
+        "Mean = sum of values ÷ number of values.",
+        "720 kJ = 720,000 J",
+        "12 min = 720 s",
+        "Power = energy ÷ time = 1000 W.",
+        "Rapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt.",
+        "Answer: 720 kJ = 720,000 J",
+        "12 min = 720 s",
+        "Power = energy ÷ time = 1000 W.",
+        "Rapid breathing supplies oxygen to oxidise accumulated lactic acid and remove carbon dioxide, repaying oxygen debt."
       ],
       "commandWord": "Calculate and explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.2.2, 4.4.2.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1PBVTB3",
+      "databaseId": "BIO-BE-EX2"
     },
     {
       "id": "PK01",
@@ -1262,19 +1900,21 @@
       "tier": "Both",
       "question": "Plan an investigation of the effect of light intensity on the rate of photosynthesis in pondweed.",
       "marks": 6,
-      "modelAnswer": "Place pondweed in sodium hydrogencarbonate solution vary lamp distance or measure light intensity measure oxygen volume with a gas syringe or count bubbles for a fixed time keep temperature, carbon dioxide concentration, pondweed species/length and time constant repeat and calculate means.",
+      "modelAnswer": "Place pondweed in sodium hydrogencarbonate solution.\nVary lamp distance or measure light intensity.\nMeasure oxygen volume with a gas syringe or count bubbles for a fixed time.\nKeep temperature, carbon dioxide concentration, pondweed species/length and time constant.\nRepeat and calculate means.",
       "markingPoints": [
-        "Place pondweed in sodium hydrogencarbonate solution",
-        "vary lamp distance or measure light intensity",
-        "measure oxygen volume with a gas syringe or count bubbles for a fixed time",
-        "keep temperature, carbon dioxide concentration, pondweed species/length and time constant",
-        "repeat and calculate means."
+        "Place pondweed in sodium hydrogencarbonate solution.",
+        "Vary lamp distance or measure light intensity.",
+        "Measure oxygen volume with a gas syringe or count bubbles for a fixed time.",
+        "Keep temperature, carbon dioxide concentration, pondweed species/length and time constant.",
+        "Repeat and calculate means."
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical + disciplinary"
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "BIO-FAM-0LW90WM",
+      "databaseId": "BIO-PK01"
     },
     {
       "id": "PK02",
@@ -1284,15 +1924,18 @@
       "tier": "Both",
       "question": "Explain why measuring oxygen volume is better than counting bubbles when estimating photosynthesis rate.",
       "marks": 3,
-      "modelAnswer": "Bubbles have different volumes and may merge, so bubble count is not proportional to oxygen volume. A gas syringe measures oxygen volume directly and gives more valid quantitative data.",
+      "modelAnswer": "Bubbles have different volumes and may merge, so bubble count is not proportional to oxygen volume.\nA gas syringe measures oxygen volume directly and gives more valid quantitative data.",
       "markingPoints": [
-        "Bubbles have different volumes and may merge, so bubble count is not proportional to oxygen volume. A gas syringe measures oxygen volume directly and gives more valid quantitative data."
+        "Bubbles have different volumes and may merge, so bubble count is not proportional to oxygen volume.",
+        "A gas syringe measures oxygen volume directly and gives more valid quantitative data."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1.2",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0B8BVUC",
+      "databaseId": "BIO-PK02"
     },
     {
       "id": "PK03",
@@ -1302,17 +1945,21 @@
       "tier": "Higher",
       "question": "A lamp is moved from 10 cm to 20 cm from pondweed. Estimate the new light intensity as a fraction of the original and explain the assumption.",
       "marks": 3,
-      "modelAnswer": "use the relevant relationship from the question. Light intensity is proportional to 1/distance². Doubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light. Answer: Light intensity is proportional to 1/distance². Doubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light.",
+      "modelAnswer": "Use the relevant relationship from the question.\nLight intensity is proportional to 1/distance².\nDoubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light.\nAnswer: Light intensity is proportional to 1/distance².\nDoubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light.",
       "markingPoints": [
-        "use the relevant relationship from the question.",
-        "Light intensity is proportional to 1/distance². Doubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light.",
-        "Answer: Light intensity is proportional to 1/distance². Doubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light."
+        "Use the relevant relationship from the question.",
+        "Light intensity is proportional to 1/distance².",
+        "Doubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light.",
+        "Answer: Light intensity is proportional to 1/distance².",
+        "Doubling distance gives 1/2² = one quarter of the original intensity, assuming a point source and negligible background light."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.4.1.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1CQMF7R",
+      "databaseId": "BIO-PK03"
     },
     {
       "id": "PK04",
@@ -1322,15 +1969,18 @@
       "tier": "Both",
       "question": "Explain why a transparent heat shield or water bath may be placed between a lamp and pondweed.",
       "marks": 3,
-      "modelAnswer": "The lamp can warm the pondweed. Temperature affects enzyme-controlled photosynthesis, so controlling temperature prevents it becoming a confounding variable when light intensity is changed.",
+      "modelAnswer": "The lamp can warm the pondweed.\nTemperature affects enzyme-controlled photosynthesis, so controlling temperature prevents it becoming a confounding variable when light intensity is changed.",
       "markingPoints": [
-        "The lamp can warm the pondweed. Temperature affects enzyme-controlled photosynthesis, so controlling temperature prevents it becoming a confounding variable when light intensity is changed."
+        "The lamp can warm the pondweed.",
+        "Temperature affects enzyme-controlled photosynthesis, so controlling temperature prevents it becoming a confounding variable when light intensity is changed."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1.2",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-08MP66G",
+      "databaseId": "BIO-PK04"
     },
     {
       "id": "PK05",
@@ -1340,15 +1990,18 @@
       "tier": "Higher",
       "question": "A photosynthesis graph levels off at high light intensity. Design one change that could test which factor is now limiting.",
       "marks": 4,
-      "modelAnswer": "Repeat at a higher controlled carbon dioxide concentration while keeping temperature and other variables constant, or repeat at a different controlled temperature. If the plateau rate increases, that altered factor had been limiting.",
+      "modelAnswer": "Repeat at a higher controlled carbon dioxide concentration while keeping temperature and other variables constant, or repeat at a different controlled temperature.\nIf the plateau rate increases, that altered factor had been limiting.",
       "markingPoints": [
-        "Repeat at a higher controlled carbon dioxide concentration while keeping temperature and other variables constant, or repeat at a different controlled temperature. If the plateau rate increases, that altered factor had been limiting."
+        "Repeat at a higher controlled carbon dioxide concentration while keeping temperature and other variables constant, or repeat at a different controlled temperature.",
+        "If the plateau rate increases, that altered factor had been limiting."
       ],
       "commandWord": "Design",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.1.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Practical + disciplinary"
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "BIO-FAM-0BWDMAQ",
+      "databaseId": "BIO-PK05"
     },
     {
       "id": "PK06",
@@ -1358,20 +2011,22 @@
       "tier": "Both",
       "question": "Describe how a respirometer could compare respiration rates of germinating and non-germinating seeds.",
       "marks": 5,
-      "modelAnswer": "Use equal masses of seeds in sealed respirometers include soda lime to absorb carbon dioxide keep temperature and time constant use non-germinating seeds as a comparison measure movement of the coloured liquid caused by oxygen uptake repeat and compare mean movement per unit time.",
+      "modelAnswer": "Use equal masses of seeds in sealed respirometers.\nInclude soda lime to absorb carbon dioxide.\nKeep temperature and time constant.\nUse non-germinating seeds as a comparison.\nMeasure movement of the coloured liquid caused by oxygen uptake.\nRepeat and compare mean movement per unit time.",
       "markingPoints": [
-        "Use equal masses of seeds in sealed respirometers",
-        "include soda lime to absorb carbon dioxide",
-        "keep temperature and time constant",
-        "use non-germinating seeds as a comparison",
-        "measure movement of the coloured liquid caused by oxygen uptake",
-        "repeat and compare mean movement per unit time."
+        "Use equal masses of seeds in sealed respirometers.",
+        "Include soda lime to absorb carbon dioxide.",
+        "Keep temperature and time constant.",
+        "Use non-germinating seeds as a comparison.",
+        "Measure movement of the coloured liquid caused by oxygen uptake.",
+        "Repeat and compare mean movement per unit time."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO3",
       "specificationReference": "4.4.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical + disciplinary"
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "BIO-FAM-13ES46N",
+      "databaseId": "BIO-PK06"
     }
   ]
 }

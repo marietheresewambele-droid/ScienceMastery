@@ -52,11 +52,32 @@ const lines = [
 for (const item of records) {
   const model = item.modelAnswer || (item.markingPoints || []).join(" ");
   lines.push(`insert into public.question_catalog (id,content_version_id,subject,topic_slug,topic,subtopic,family_id,question,model_answer,marking_points,marks,assessment_objective,command_word,tier,grade_demand,specification_reference,initial_retrieval_days,active) values (${q(item.catalogId)},${q(item.version)},${q(item.subject)},${q(item.topicSlug)},${q(item.topic || item.topicSlug)},${q(item.subtopic || item.sourceSubtopic || "General")},${q(item.familyId)},${q(item.question)},${q(model)},${json(item.markingPoints)},${Number(item.marks || 1)},${q(item.assessmentObjective || "AO1")},${q(command(item))},${q(item.tier || "Both")},${q(item.gradeDemand)},${q(item.specificationReference)},${retrieval(item)},true) on conflict (id) do update set question=excluded.question, model_answer=excluded.model_answer, marking_points=excluded.marking_points, active=true;`);
-  const hints = [
-    [`${command(item)}: plan ${item.marks} distinct marking point${item.marks === 1 ? "" : "s"}. Use the scientific terms in the question.`, "structure"],
-    [`Focus on ${item.subtopic || "the named concept"}. State the relevant scientific idea, then apply it directly to this situation.`, "guided"],
-    [(item.markingPoints || []).length ? `Begin with this approved marking point, then complete the explanation yourself: ${item.markingPoints[0]}` : `Use the exact scientific term needed for this ${item.assessmentObjective || "AO1"} question.`, "strong_scaffold"],
-  ];
+  const source = String(item.modelAnswer || (item.markingPoints || []).join(" ")).trim();
+  const calculation = /\d/.test(String(item.question)) && /\d/.test(source) && /[=÷×*/^]/.test(source);
+  const stopWords = new Set("a an and are as at be because by can for from has have if in is it of on or that the their then this to use was were with you your".split(" "));
+  const words = source.split(/(\s+)/);
+  const candidates = words.reduce((indexes, word, index) => {
+    const clean = word.replace(/[^A-Za-z]/g, "").toLowerCase();
+    if (clean.length >= 5 && !stopWords.has(clean)) indexes.push(index);
+    return indexes;
+  }, []);
+  let hintOne;
+  let hintTwo;
+  if (calculation) {
+    const formula = source.match(/[^.!?]*(?:=|÷|×|\*|\/|\^)[^.!?]*/)?.[0]?.trim() || source;
+    const result = formula.match(/^(.+?=\s*[^=]+?)(?:\s*=\s*([^\s]+))?(\s+[^=]*)?$/);
+    const expression = result?.[1] || formula;
+    hintOne = `Formula: ${expression.replace(/\d+(?:\.\d+)?/g, "____")}`;
+    hintTwo = `Substitute the values into the formula: ${expression}${result?.[2] ? " = ____" : ""}${result?.[3] || ""}`;
+  } else {
+    hintOne = words.map((word, index) => candidates.includes(index) ? "____" : word).join("");
+    const revealCount = Math.max(1, Math.floor(candidates.length / 2));
+    const revealed = new Set(candidates.slice(0, revealCount));
+    hintTwo = words.map((word, index) => candidates.includes(index) && !revealed.has(index) ? "____" : word).join("");
+    hintOne = `Complete the answer: ${hintOne}`;
+    hintTwo = `Complete the remaining key terms: ${hintTwo}`;
+  }
+  const hints = [[hintOne, "answer_frame"], [hintTwo, "partial_reveal"]];
   hints.forEach(([hint, type], i) => lines.push(`insert into public.question_hints (id,question_id,level,hint,support_type) values (${q(`${item.catalogId}-H${i + 1}`)},${q(item.catalogId)},${i + 1},${q(hint)},${q(type)}) on conflict (question_id,level) do update set hint=excluded.hint,support_type=excluded.support_type;`));
   const errors = ["ERR-COMMAND", "ERR-INCOMPLETE", String(item.assessmentObjective).includes("AO3") ? "ERR-AO3" : String(item.assessmentObjective).includes("AO2") ? "ERR-AO2-CONTEXT" : "ERR-AO1-TERM"];
   errors.forEach((id) => lines.push(`insert into public.question_misconceptions (question_id,misconception_id) values (${q(item.catalogId)},${q(id)}) on conflict do nothing;`));

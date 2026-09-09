@@ -1,4 +1,5 @@
 import type { MasteryQuestion } from "@/types/questions";
+import { retrievalDays } from "@/lib/adaptive-engine";
 
 export type MasteryLevel = "New" | "Learning" | "Secure";
 export type LearningEvidence = {
@@ -17,6 +18,7 @@ export type QuestionMastery = {
   independentSuccesses: number;
   supportedSuccesses: number;
   retrievalSuccesses: number;
+  intervalDays: number;
   lastAttemptAt: string;
   nextReviewAt: string;
 };
@@ -91,7 +93,8 @@ export class AdaptiveEngine {
       supportedSuccesses: (previous?.supportedSuccesses ?? 0) + (supported && !independent ? 1 : 0),
       retrievalSuccesses: (previous?.retrievalSuccesses ?? 0) + (retrieval ? 1 : 0),
       lastAttemptAt: new Date().toISOString(),
-      nextReviewAt: new Date(Date.now() + (independent ? 3 : 1) * 86400000).toISOString(),
+      intervalDays: retrievalDays(evidence.question, { rating: evidence.score >= evidence.maxScore ? "good" : "again", hintsUsed: evidence.hintsUsed, answerRevealed: evidence.fullAnswerViewed }, previous?.intervalDays ?? 0),
+      nextReviewAt: new Date(Date.now() + retrievalDays(evidence.question, { rating: evidence.score >= evidence.maxScore ? "good" : "again", hintsUsed: evidence.hintsUsed, answerRevealed: evidence.fullAnswerViewed }, previous?.intervalDays ?? 0) * 86400000).toISOString(),
     };
     if (next.independentSuccesses >= 2 && next.retrievalSuccesses >= 1) next.level = "Secure";
     else if (independent || supported) next.level = "Learning";

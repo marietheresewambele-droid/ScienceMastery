@@ -21,6 +21,14 @@ Signed-out students can read published content and continue using local progress
 
 The curriculum workbooks remain the authoring source. Approved workbook exports are normalized into the subject JSON files under `src/data`, then the reproducible seed is generated with:
 
+With the supplied adaptive-ready workbooks in the default Desktop folder, import them with:
+
+```bash
+npm run content:import-workbooks
+```
+
+The importer reads the topic sheets' self-contained questions and model answers, and uses the adaptive map for permanent relationships. To use another folder, set `SCIENCEMASTERY_WORKBOOK_DIR` before running the command.
+
 ```bash
 npm run adaptive:seed
 ```

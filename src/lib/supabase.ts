@@ -7,16 +7,16 @@ function requireEnv(name: string, value: string | undefined): string {
   return value;
 }
 
-const supabaseUrl = requireEnv("NEXT_PUBLIC_SUPABASE_URL", process.env.NEXT_PUBLIC_SUPABASE_URL);
-const supabasePublishableKey = requireEnv(
-  "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
-  process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
-);
-
 let browserClient: SupabaseClient | undefined;
 
 export function getSupabaseBrowserClient() {
   if (!browserClient) {
+    const supabaseUrl = requireEnv("NEXT_PUBLIC_SUPABASE_URL", process.env.NEXT_PUBLIC_SUPABASE_URL);
+    const supabasePublishableKey = requireEnv(
+      "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
+    );
+
     browserClient = createClient(supabaseUrl, supabasePublishableKey, {
       auth: {
         persistSession: true,

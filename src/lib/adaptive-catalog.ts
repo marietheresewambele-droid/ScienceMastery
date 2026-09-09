@@ -74,7 +74,7 @@ export async function loadAdaptiveCatalog(subjects: string[]): Promise<MasteryQu
       gradeDemand: row.grade_demand || undefined,
       specificationReference: row.specification_reference || undefined,
       questionFamily: row.family_id,
-      adaptiveHints: approvedHints?.length === 3 ? approvedHints as [string, string, string] : undefined,
+      adaptiveHints: approvedHints?.length === 2 ? approvedHints as [string, string] : undefined,
       adaptiveRelationships: relationshipMap.get(row.id),
     };
   });

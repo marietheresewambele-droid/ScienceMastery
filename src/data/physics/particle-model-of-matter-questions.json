@@ -24,17 +24,18 @@
       "tier": "Both",
       "question": "Define density and give its SI unit.",
       "marks": 2,
-      "modelAnswer": "Mass per unit volume. Kg/m³.",
+      "modelAnswer": "Mass per unit volume.\nKg/m³.",
       "markingPoints": [
         "Mass per unit volume.",
         "Kg/m³."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1Q5ZIGR",
+      "databaseId": "PHY-PM001"
     },
     {
       "id": "PM002",
@@ -44,7 +45,7 @@
       "tier": "Both",
       "question": "Compare particle arrangement and movement in solids, liquids and gases.",
       "marks": 6,
-      "modelAnswer": "Solid: closely packed, regular arrangement, vibrate about fixed positions. Liquid: close together, irregular, move past each other. Gas: far apart, random rapid motion.",
+      "modelAnswer": "Solid: closely packed, regular arrangement, vibrate about fixed positions.\nLiquid: close together, irregular, move past each other.\nGas: far apart, random rapid motion.",
       "markingPoints": [
         "Solid: closely packed, regular arrangement, vibrate about fixed positions.",
         "Liquid: close together, irregular, move past each other.",
@@ -52,10 +53,11 @@
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0CZB50G",
+      "databaseId": "PHY-PM002"
     },
     {
       "id": "PM003",
@@ -65,7 +67,7 @@
       "tier": "Both",
       "question": "Name the changes of state between solid, liquid and gas.",
       "marks": 6,
-      "modelAnswer": "Solid→liquid melting. Liquid→solid freezing. Liquid→gas boiling/evaporation. Gas→liquid condensation. Solid→gas sublimation. Gas→solid deposition.",
+      "modelAnswer": "Solid→liquid melting.\nLiquid→solid freezing.\nLiquid→gas boiling/evaporation.\nGas→liquid condensation.\nSolid→gas sublimation.\nGas→solid deposition.",
       "markingPoints": [
         "Solid→liquid melting.",
         "Liquid→solid freezing.",
@@ -76,10 +78,11 @@
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0H7FFXQ",
+      "databaseId": "PHY-PM003"
     },
     {
       "id": "PM004",
@@ -89,7 +92,7 @@
       "tier": "Both",
       "question": "Explain why a change of state is a physical change.",
       "marks": 3,
-      "modelAnswer": "No new substance forms. The particles remain the same substance. The change is reversible by changing temperature.",
+      "modelAnswer": "No new substance forms.\nThe particles remain the same substance.\nThe change is reversible by changing temperature.",
       "markingPoints": [
         "No new substance forms.",
         "The particles remain the same substance.",
@@ -97,10 +100,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-005I9N5",
+      "databaseId": "PHY-PM004"
     },
     {
       "id": "PM005",
@@ -116,10 +120,11 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0PBQ2LW",
+      "databaseId": "PHY-PM005"
     },
     {
       "id": "PM006",
@@ -129,7 +134,7 @@
       "tier": "Both",
       "question": "Explain what happens to particle energy when a substance is heated without changing state.",
       "marks": 3,
-      "modelAnswer": "Energy enters the internal store. Particles gain kinetic energy. Their mean speed and temperature increase.",
+      "modelAnswer": "Energy enters the internal store.\nParticles gain kinetic energy.\nTheir mean speed and temperature increase.",
       "markingPoints": [
         "Energy enters the internal store.",
         "Particles gain kinetic energy.",
@@ -137,10 +142,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1BXSFZ9",
+      "databaseId": "PHY-PM006"
     },
     {
       "id": "PM007",
@@ -150,7 +156,7 @@
       "tier": "Both",
       "question": "Explain why temperature remains constant while a pure substance changes state.",
       "marks": 3,
-      "modelAnswer": "Transferred energy increases particles’ potential energy by overcoming attractions. It does not increase mean kinetic energy. So temperature does not rise.",
+      "modelAnswer": "Transferred energy increases particles’ potential energy by overcoming attractions.\nIt does not increase mean kinetic energy.\nSo temperature does not rise.",
       "markingPoints": [
         "Transferred energy increases particles’ potential energy by overcoming attractions.",
         "It does not increase mean kinetic energy.",
@@ -158,10 +164,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0QA3S4V",
+      "databaseId": "PHY-PM007"
     },
     {
       "id": "PM008",
@@ -177,10 +184,18 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0NU28BH",
+      "databaseId": "PHY-PM008",
+      "adaptiveRelationships": {
+        "prerequisite": "PHY-PM015",
+        "diagnostic": "PHY-PM015",
+        "easier": "PHY-PM015",
+        "parallel": "PHY-PM015",
+        "harder": "PHY-PM015"
+      }
     },
     {
       "id": "PM009",
@@ -190,7 +205,7 @@
       "tier": "Both",
       "question": "Explain how gas particles produce pressure on the walls of a container.",
       "marks": 3,
-      "modelAnswer": "Particles move randomly. Collide with walls and change momentum. Collisions exert a force per unit area on the walls.",
+      "modelAnswer": "Particles move randomly.\nCollide with walls and change momentum.\nCollisions exert a force per unit area on the walls.",
       "markingPoints": [
         "Particles move randomly.",
         "Collide with walls and change momentum.",
@@ -198,10 +213,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1CLGZ09",
+      "databaseId": "PHY-PM009"
     },
     {
       "id": "PM010",
@@ -211,7 +227,7 @@
       "tier": "Both",
       "question": "Explain why heating a gas in a sealed rigid container increases its pressure.",
       "marks": 4,
-      "modelAnswer": "Particles gain kinetic energy and move faster. Collisions with walls are more frequent. Each collision has a greater change in momentum/force. Pressure rises.",
+      "modelAnswer": "Particles gain kinetic energy and move faster.\nCollisions with walls are more frequent.\nEach collision has a greater change in momentum/force.\nPressure rises.",
       "markingPoints": [
         "Particles gain kinetic energy and move faster.",
         "Collisions with walls are more frequent.",
@@ -220,10 +236,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1L4EL1F",
+      "databaseId": "PHY-PM010"
     },
     {
       "id": "PM011",
@@ -233,7 +250,7 @@
       "tier": "Physics only / Higher",
       "question": "Explain why reducing the volume of a fixed mass of gas at constant temperature increases pressure.",
       "marks": 3,
-      "modelAnswer": "Particles travel a shorter distance between wall collisions. Collision frequency increases. Force per unit area increases.",
+      "modelAnswer": "Particles travel a shorter distance between wall collisions.\nCollision frequency increases.\nForce per unit area increases.",
       "markingPoints": [
         "Particles travel a shorter distance between wall collisions.",
         "Collision frequency increases.",
@@ -241,10 +258,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1NF4CPH",
+      "databaseId": "PHY-PM011"
     },
     {
       "id": "PM012",
@@ -254,7 +272,7 @@
       "tier": "Both",
       "question": "A block has mass 540 g and volume 200 cm³. Calculate its density in g/cm³.",
       "marks": 3,
-      "modelAnswer": "ρ = m ÷ V ρ = 540 ÷ 200 ρ = 2.70 g/cm³",
+      "modelAnswer": "ρ = m ÷ V\nρ = 540 ÷ 200\nρ = 2.70 g/cm³",
       "markingPoints": [
         "ρ = m ÷ V",
         "ρ = 540 ÷ 200",
@@ -262,10 +280,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3.1.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1XG6FHM",
+      "databaseId": "PHY-PM012"
     },
     {
       "id": "PM013",
@@ -275,7 +294,7 @@
       "tier": "Higher",
       "question": "A liquid has density 0.80 g/cm³. Convert this to kg/m³.",
       "marks": 3,
-      "modelAnswer": "1 g/cm³ = 1000 kg/m³ 0.80 × 1000 = 800 kg/m³",
+      "modelAnswer": "1 g/cm³ = 1000 kg/m³\n0.80 × 1000\n= 800 kg/m³",
       "markingPoints": [
         "1 g/cm³ = 1000 kg/m³",
         "0.80 × 1000",
@@ -283,10 +302,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3.1.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0RNS9TT",
+      "databaseId": "PHY-PM013"
     },
     {
       "id": "PM014",
@@ -296,7 +316,7 @@
       "tier": "Both",
       "question": "A 2.0 kg block receives 18,000 J and its temperature rises by 15 °C. Calculate its specific heat capacity.",
       "marks": 4,
-      "modelAnswer": "ΔE = mcΔθ C = ΔE ÷ (mΔθ) C = 18,000 ÷ (2.0 × 15) C = 600 J/kg °C",
+      "modelAnswer": "ΔE = mcΔθ\nC = ΔE ÷ (mΔθ)\nC = 18,000 ÷ (2.0 × 15)\nC = 600 J/kg °C",
       "markingPoints": [
         "ΔE = mcΔθ",
         "C = ΔE ÷ (mΔθ)",
@@ -305,10 +325,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1TA4JZR",
+      "databaseId": "PHY-PM014"
     },
     {
       "id": "PM015",
@@ -318,7 +339,7 @@
       "tier": "Both",
       "question": "Melting 0.50 kg of a solid requires 167,000 J. Calculate its specific latent heat of fusion.",
       "marks": 4,
-      "modelAnswer": "E = mL L = E ÷ m L = 167,000 ÷ 0.50 L = 334,000 J/kg",
+      "modelAnswer": "E = mL\nL = E ÷ m\nL = 167,000 ÷ 0.50\nL = 334,000 J/kg",
       "markingPoints": [
         "E = mL",
         "L = E ÷ m",
@@ -327,10 +348,17 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3.2.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0NU28BH",
+      "databaseId": "PHY-PM015",
+      "adaptiveRelationships": {
+        "prerequisite": "PHY-PM008",
+        "diagnostic": "PHY-PM008",
+        "easier": "PHY-PM008",
+        "parallel": "PHY-PM008"
+      }
     },
     {
       "id": "PM016",
@@ -340,7 +368,7 @@
       "tier": "Physics only / Higher",
       "question": "A trapped gas has volume 60 cm³ at 100 kPa. Its volume is reduced to 40 cm³ at constant temperature. Calculate the new pressure.",
       "marks": 4,
-      "modelAnswer": "P₁V₁ = p₂V₂ P₂ = p₁V₁ ÷ V₂ P₂ = 100 × 60 ÷ 40 P₂ = 150 kPa",
+      "modelAnswer": "P₁V₁ = p₂V₂\nP₂ = p₁V₁ ÷ V₂\nP₂ = 100 × 60 ÷ 40\nP₂ = 150 kPa",
       "markingPoints": [
         "P₁V₁ = p₂V₂",
         "P₂ = p₁V₁ ÷ V₂",
@@ -349,10 +377,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3.3.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0AOWTVB",
+      "databaseId": "PHY-PM016"
     },
     {
       "id": "PM017",
@@ -362,7 +391,7 @@
       "tier": "Both",
       "question": "Describe how to determine the density of an irregular solid.",
       "marks": 5,
-      "modelAnswer": "Measure mass using a balance. Partly fill a measuring cylinder and record initial volume. Fully submerge the object and record final volume. Object volume = final − initial. Density = mass ÷ volume. Remove trapped air and read the meniscus at eye level.",
+      "modelAnswer": "Measure mass using a balance.\nPartly fill a measuring cylinder and record initial volume.\nFully submerge the object and record final volume.\nObject volume = final − initial.\nDensity = mass ÷ volume.\nRemove trapped air and read the meniscus at eye level.",
       "markingPoints": [
         "Measure mass using a balance.",
         "Partly fill a measuring cylinder and record initial volume.",
@@ -373,10 +402,11 @@
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3.1.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical and disciplinary knowledge"
+      "knowledgeType": "Practical and disciplinary knowledge",
+      "questionFamilyId": "PHY-FAM-0DTXJSR",
+      "databaseId": "PHY-PM017"
     },
     {
       "id": "PM018",
@@ -386,7 +416,7 @@
       "tier": "Both",
       "question": "A liquid has density 920 kg/m³ and volume 0.015 m³. Calculate its mass.",
       "marks": 3,
-      "modelAnswer": "ρ = m ÷ V M = ρV M = 920 × 0.015 M = 13.8 kg",
+      "modelAnswer": "ρ = m ÷ V\nM = ρV\nM = 920 × 0.015\nM = 13.8 kg",
       "markingPoints": [
         "ρ = m ÷ V",
         "M = ρV",
@@ -395,10 +425,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Particle Model of Matter mastery workbook",
       "specificationReference": "4.3.1.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0UGK5J7",
+      "databaseId": "PHY-PM018"
     }
   ]
 }

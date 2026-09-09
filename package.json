@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "adaptive:seed": "node scripts/generate-adaptive-seed.mjs"
+    "adaptive:seed": "node scripts/generate-adaptive-seed.mjs",
+    "content:import-workbooks": "node scripts/import-adaptive-workbooks.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "2.112.3",
@@ -23,6 +24,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "xlsx": "^0.18.5"
   }
 }

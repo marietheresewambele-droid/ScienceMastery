@@ -37,14 +37,14 @@ export interface MasteryQuestion {
   gradeDemand?: string;
   questionFamily?: string;
   originalSubtopic?: string;
-  hints?: [string, string, string];
+  hints?: [string, string];
   prerequisiteIds?: string[];
   easierQuestionIds?: string[];
   parallelQuestionIds?: string[];
   harderQuestionIds?: string[];
   misconceptionIds?: string[];
   databaseId?: string;
-  adaptiveHints?: [string, string, string];
+  adaptiveHints?: [string, string];
   adaptiveRelationships?: Partial<Record<"prerequisite" | "diagnostic" | "easier" | "parallel" | "harder", string>>;
 
 }

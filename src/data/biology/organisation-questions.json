@@ -16,7 +16,9 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0SO3YGF",
+      "databaseId": "BIO-OR01"
     },
     {
       "id": "OR02",
@@ -34,7 +36,9 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-11JBPE3",
+      "databaseId": "BIO-OR02"
     },
     {
       "id": "OR03",
@@ -44,16 +48,18 @@
       "tier": "Both",
       "question": "Define an organ and give one example.",
       "marks": 2,
-      "modelAnswer": "A group of different tissues working together to perform a particular function e.g. heart, stomach or leaf.",
+      "modelAnswer": "A group of different tissues working together to perform a particular function.\nE.g. heart, stomach or leaf.",
       "markingPoints": [
-        "A group of different tissues working together to perform a particular function",
-        "e.g. heart, stomach or leaf."
+        "A group of different tissues working together to perform a particular function.",
+        "E.g. heart, stomach or leaf."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1NRQ837",
+      "databaseId": "BIO-OR03"
     },
     {
       "id": "OR04",
@@ -63,16 +69,18 @@
       "tier": "Both",
       "question": "Define an organ system and give one example.",
       "marks": 2,
-      "modelAnswer": "A group of organs working together to perform a major body function e.g. digestive or circulatory system.",
+      "modelAnswer": "A group of organs working together to perform a major body function.\nE.g. digestive or circulatory system.",
       "markingPoints": [
-        "A group of organs working together to perform a major body function",
-        "e.g. digestive or circulatory system."
+        "A group of organs working together to perform a major body function.",
+        "E.g. digestive or circulatory system."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1MXVK0C",
+      "databaseId": "BIO-OR04"
     },
     {
       "id": "OR05",
@@ -82,16 +90,18 @@
       "tier": "Both",
       "question": "Explain why the stomach is described as an organ rather than a tissue.",
       "marks": 2,
-      "modelAnswer": "It contains several different tissues the tissues work together to carry out digestion.",
+      "modelAnswer": "It contains several different tissues.\nThe tissues work together to carry out digestion.",
       "markingPoints": [
-        "It contains several different tissues",
-        "the tissues work together to carry out digestion."
+        "It contains several different tissues.",
+        "The tissues work together to carry out digestion."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-18SKBFP",
+      "databaseId": "BIO-OR05"
     },
     {
       "id": "DG01",
@@ -101,16 +111,18 @@
       "tier": "Both",
       "question": "State the main function of the digestive system.",
       "marks": 2,
-      "modelAnswer": "Breaks large insoluble food molecules into small soluble molecules the small molecules can then be absorbed into the blood.",
+      "modelAnswer": "Breaks large insoluble food molecules into small soluble molecules.\nThe small molecules can then be absorbed into the blood.",
       "markingPoints": [
-        "Breaks large insoluble food molecules into small soluble molecules",
-        "the small molecules can then be absorbed into the blood."
+        "Breaks large insoluble food molecules into small soluble molecules.",
+        "The small molecules can then be absorbed into the blood."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-14GKZ0A",
+      "databaseId": "BIO-DG01"
     },
     {
       "id": "DG02",
@@ -128,7 +140,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1M8XOB1",
+      "databaseId": "BIO-DG02",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-DG04",
+        "easier": "BIO-DG04",
+        "parallel": "BIO-DG04",
+        "harder": "BIO-DG03"
+      }
     },
     {
       "id": "DG03",
@@ -138,17 +158,24 @@
       "tier": "Both",
       "question": "State two functions of the stomach.",
       "marks": 2,
-      "modelAnswer": "Churns food / mechanical digestion produces hydrochloric acid produces protease enzymes.",
+      "modelAnswer": "Churns food / mechanical digestion.\nProduces hydrochloric acid.\nProduces protease enzymes.",
       "markingPoints": [
-        "Churns food / mechanical digestion",
-        "produces hydrochloric acid",
-        "produces protease enzymes."
+        "Churns food / mechanical digestion.",
+        "Produces hydrochloric acid.",
+        "Produces protease enzymes."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1M8XOB1",
+      "databaseId": "BIO-DG03",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-DG02",
+        "easier": "BIO-DG02",
+        "parallel": "BIO-DG06"
+      }
     },
     {
       "id": "DG04",
@@ -166,7 +193,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1M8XOB1",
+      "databaseId": "BIO-DG04",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-DG02",
+        "easier": "BIO-DG02",
+        "parallel": "BIO-DG02",
+        "harder": "BIO-DG03"
+      }
     },
     {
       "id": "DG05",
@@ -184,7 +219,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1M8XOB1",
+      "databaseId": "BIO-DG05",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-DG02",
+        "easier": "BIO-DG02",
+        "parallel": "BIO-DG02",
+        "harder": "BIO-DG03"
+      }
     },
     {
       "id": "DG06",
@@ -194,16 +237,23 @@
       "tier": "Both",
       "question": "State the digestive function of the pancreas.",
       "marks": 2,
-      "modelAnswer": "Produces digestive enzymes releases them into the small intestine.",
+      "modelAnswer": "Produces digestive enzymes.\nReleases them into the small intestine.",
       "markingPoints": [
-        "Produces digestive enzymes",
-        "releases them into the small intestine."
+        "Produces digestive enzymes.",
+        "Releases them into the small intestine."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1M8XOB1",
+      "databaseId": "BIO-DG06",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-DG02",
+        "easier": "BIO-DG02",
+        "parallel": "BIO-DG03"
+      }
     },
     {
       "id": "DG07",
@@ -213,18 +263,20 @@
       "tier": "Both",
       "question": "Explain how bile helps the digestion of fats.",
       "marks": 4,
-      "modelAnswer": "Bile is alkaline it neutralises hydrochloric acid from the stomach and provides an alkaline pH for enzymes in the small intestine it emulsifies fat into small droplets this increases the surface area for lipase action.",
+      "modelAnswer": "Bile is alkaline.\nIt neutralises hydrochloric acid from the stomach and provides an alkaline pH for enzymes in the small intestine.\nIt emulsifies fat into small droplets.\nThis increases the surface area for lipase action.",
       "markingPoints": [
-        "Bile is alkaline",
-        "it neutralises hydrochloric acid from the stomach and provides an alkaline pH for enzymes in the small intestine",
-        "it emulsifies fat into small droplets",
-        "this increases the surface area for lipase action."
+        "Bile is alkaline.",
+        "It neutralises hydrochloric acid from the stomach and provides an alkaline pH for enzymes in the small intestine.",
+        "It emulsifies fat into small droplets.",
+        "This increases the surface area for lipase action."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0CO2XD3",
+      "databaseId": "BIO-DG07"
     },
     {
       "id": "DG08",
@@ -234,18 +286,20 @@
       "tier": "Both",
       "question": "Explain how villi are adapted for rapid absorption of digested food molecules.",
       "marks": 4,
-      "modelAnswer": "Many villi/microvilli provide a large surface area epithelium is one cell thick, giving a short diffusion distance good blood supply maintains concentration gradients lacteals absorb products of fat digestion.",
+      "modelAnswer": "Many villi/microvilli provide a large surface area.\nEpithelium is one cell thick, giving a short diffusion distance.\nGood blood supply maintains concentration gradients.\nLacteals absorb products of fat digestion.",
       "markingPoints": [
-        "Many villi/microvilli provide a large surface area",
-        "epithelium is one cell thick, giving a short diffusion distance",
-        "good blood supply maintains concentration gradients",
-        "lacteals absorb products of fat digestion."
+        "Many villi/microvilli provide a large surface area.",
+        "Epithelium is one cell thick, giving a short diffusion distance.",
+        "Good blood supply maintains concentration gradients.",
+        "Lacteals absorb products of fat digestion."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1PQWGLF",
+      "databaseId": "BIO-DG08"
     },
     {
       "id": "DG09",
@@ -255,17 +309,19 @@
       "tier": "Both",
       "question": "Explain why starch must be digested before it can be absorbed into the blood.",
       "marks": 3,
-      "modelAnswer": "Starch molecules are large and insoluble they cannot pass through the wall of the small intestine digestion produces small soluble sugars that can be absorbed.",
+      "modelAnswer": "Starch molecules are large and insoluble.\nThey cannot pass through the wall of the small intestine.\nDigestion produces small soluble sugars that can be absorbed.",
       "markingPoints": [
-        "Starch molecules are large and insoluble",
-        "they cannot pass through the wall of the small intestine",
-        "digestion produces small soluble sugars that can be absorbed."
+        "Starch molecules are large and insoluble.",
+        "They cannot pass through the wall of the small intestine.",
+        "Digestion produces small soluble sugars that can be absorbed."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1F7PNS1",
+      "databaseId": "BIO-DG09"
     },
     {
       "id": "DG10",
@@ -275,16 +331,18 @@
       "tier": "Both",
       "question": "Describe the role of muscles in the digestive system.",
       "marks": 2,
-      "modelAnswer": "Muscles in the gut wall contract in waves peristalsis moves food through the digestive system / mixes food with digestive juices.",
+      "modelAnswer": "Muscles in the gut wall contract in waves.\nPeristalsis moves food through the digestive system / mixes food with digestive juices.",
       "markingPoints": [
-        "Muscles in the gut wall contract in waves",
-        "peristalsis moves food through the digestive system / mixes food with digestive juices."
+        "Muscles in the gut wall contract in waves.",
+        "Peristalsis moves food through the digestive system / mixes food with digestive juices."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0SE6AFA",
+      "databaseId": "BIO-DG10"
     },
     {
       "id": "EN01",
@@ -294,16 +352,18 @@
       "tier": "Both",
       "question": "Define an enzyme.",
       "marks": 2,
-      "modelAnswer": "A biological catalyst it increases the rate of a reaction without being used up.",
+      "modelAnswer": "A biological catalyst.\nIt increases the rate of a reaction without being used up.",
       "markingPoints": [
-        "A biological catalyst",
-        "it increases the rate of a reaction without being used up."
+        "A biological catalyst.",
+        "It increases the rate of a reaction without being used up."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-10UMTBM",
+      "databaseId": "BIO-EN01"
     },
     {
       "id": "EN02",
@@ -313,17 +373,19 @@
       "tier": "Both",
       "question": "Explain why one enzyme usually catalyses only one type of reaction.",
       "marks": 3,
-      "modelAnswer": "The enzyme has an active site with a specific shape only a substrate with a complementary shape binds an enzyme–substrate complex forms.",
+      "modelAnswer": "The enzyme has an active site with a specific shape.\nOnly a substrate with a complementary shape binds.\nAn enzyme–substrate complex forms.",
       "markingPoints": [
-        "The enzyme has an active site with a specific shape",
-        "only a substrate with a complementary shape binds",
-        "an enzyme–substrate complex forms."
+        "The enzyme has an active site with a specific shape.",
+        "Only a substrate with a complementary shape binds.",
+        "An enzyme–substrate complex forms."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0PM2K9H",
+      "databaseId": "BIO-EN02"
     },
     {
       "id": "EN03",
@@ -333,18 +395,20 @@
       "tier": "Both",
       "question": "Describe the lock-and-key model of enzyme action.",
       "marks": 4,
-      "modelAnswer": "Substrate collides with the active site the substrate has a complementary shape an enzyme–substrate complex forms products are released while the enzyme remains unchanged and can be reused.",
+      "modelAnswer": "Substrate collides with the active site.\nThe substrate has a complementary shape.\nAn enzyme–substrate complex forms.\nProducts are released while the enzyme remains unchanged and can be reused.",
       "markingPoints": [
-        "Substrate collides with the active site",
-        "the substrate has a complementary shape",
-        "an enzyme–substrate complex forms",
-        "products are released while the enzyme remains unchanged and can be reused."
+        "Substrate collides with the active site.",
+        "The substrate has a complementary shape.",
+        "An enzyme–substrate complex forms.",
+        "Products are released while the enzyme remains unchanged and can be reused."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1QU9P85",
+      "databaseId": "BIO-EN03"
     },
     {
       "id": "EN04",
@@ -354,17 +418,26 @@
       "tier": "Both",
       "question": "Explain why increasing temperature initially increases the rate of an enzyme-controlled reaction.",
       "marks": 3,
-      "modelAnswer": "Particles gain kinetic energy enzyme and substrate collide more frequently more successful collisions / enzyme–substrate complexes form each second.",
+      "modelAnswer": "Particles gain kinetic energy.\nEnzyme and substrate collide more frequently.\nMore successful collisions / enzyme–substrate complexes form each second.",
       "markingPoints": [
-        "Particles gain kinetic energy",
-        "enzyme and substrate collide more frequently",
-        "more successful collisions / enzyme–substrate complexes form each second."
+        "Particles gain kinetic energy.",
+        "Enzyme and substrate collide more frequently.",
+        "More successful collisions / enzyme–substrate complexes form each second."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1DMAEWL",
+      "databaseId": "BIO-EN04",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-EN05",
+        "diagnostic": "BIO-EN05",
+        "easier": "BIO-EN05",
+        "parallel": "BIO-EN05",
+        "harder": "BIO-EN05"
+      }
     },
     {
       "id": "EN05",
@@ -374,18 +447,26 @@
       "tier": "Both",
       "question": "Explain why an enzyme-controlled reaction becomes very slow above the optimum temperature.",
       "marks": 4,
-      "modelAnswer": "High temperature breaks bonds that maintain the enzyme's shape the active site changes shape / enzyme denatures the substrate is no longer complementary fewer enzyme–substrate complexes form.",
+      "modelAnswer": "High temperature breaks bonds that maintain the enzyme's shape.\nThe active site changes shape / enzyme denatures.\nThe substrate is no longer complementary.\nFewer enzyme–substrate complexes form.",
       "markingPoints": [
-        "High temperature breaks bonds that maintain the enzyme's shape",
-        "the active site changes shape / enzyme denatures",
-        "the substrate is no longer complementary",
-        "fewer enzyme–substrate complexes form."
+        "High temperature breaks bonds that maintain the enzyme's shape.",
+        "The active site changes shape / enzyme denatures.",
+        "The substrate is no longer complementary.",
+        "Fewer enzyme–substrate complexes form."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1DMAEWL",
+      "databaseId": "BIO-EN05",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-EN04",
+        "diagnostic": "BIO-EN04",
+        "easier": "BIO-EN04",
+        "parallel": "BIO-EN04"
+      }
     },
     {
       "id": "EN06",
@@ -395,17 +476,19 @@
       "tier": "Both",
       "question": "Explain how a pH far from an enzyme's optimum affects its activity.",
       "marks": 3,
-      "modelAnswer": "The pH disrupts bonds that maintain enzyme shape the active site changes shape / enzyme denatures fewer substrates bind, so the reaction rate decreases.",
+      "modelAnswer": "The pH disrupts bonds that maintain enzyme shape.\nThe active site changes shape / enzyme denatures.\nFewer substrates bind, so the reaction rate decreases.",
       "markingPoints": [
-        "The pH disrupts bonds that maintain enzyme shape",
-        "the active site changes shape / enzyme denatures",
-        "fewer substrates bind, so the reaction rate decreases."
+        "The pH disrupts bonds that maintain enzyme shape.",
+        "The active site changes shape / enzyme denatures.",
+        "Fewer substrates bind, so the reaction rate decreases."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1VSFSDH",
+      "databaseId": "BIO-EN06"
     },
     {
       "id": "EN07",
@@ -415,16 +498,18 @@
       "tier": "Both",
       "question": "State the substrate and products of carbohydrase enzymes.",
       "marks": 2,
-      "modelAnswer": "Substrate: carbohydrates such as starch products: simple sugars.",
+      "modelAnswer": "Substrate: carbohydrates such as starch.\nProducts: simple sugars.",
       "markingPoints": [
-        "Substrate: carbohydrates such as starch",
-        "products: simple sugars."
+        "Substrate: carbohydrates such as starch.",
+        "Products: simple sugars."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0348FSE",
+      "databaseId": "BIO-EN07"
     },
     {
       "id": "EN08",
@@ -434,16 +519,18 @@
       "tier": "Both",
       "question": "State where amylase is produced and what reaction it catalyses.",
       "marks": 3,
-      "modelAnswer": "Produced by salivary glands, pancreas and small intestine catalyses the breakdown of starch into sugars.",
+      "modelAnswer": "Produced by salivary glands, pancreas and small intestine.\nCatalyses the breakdown of starch into sugars.",
       "markingPoints": [
-        "Produced by salivary glands, pancreas and small intestine",
-        "catalyses the breakdown of starch into sugars."
+        "Produced by salivary glands, pancreas and small intestine.",
+        "Catalyses the breakdown of starch into sugars."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-196PV2T",
+      "databaseId": "BIO-EN08"
     },
     {
       "id": "EN09",
@@ -453,16 +540,18 @@
       "tier": "Both",
       "question": "State where proteases are produced and what reaction they catalyse.",
       "marks": 3,
-      "modelAnswer": "Produced in the stomach, pancreas and small intestine catalyse the breakdown of proteins into amino acids.",
+      "modelAnswer": "Produced in the stomach, pancreas and small intestine.\nCatalyse the breakdown of proteins into amino acids.",
       "markingPoints": [
-        "Produced in the stomach, pancreas and small intestine",
-        "catalyse the breakdown of proteins into amino acids."
+        "Produced in the stomach, pancreas and small intestine.",
+        "Catalyse the breakdown of proteins into amino acids."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-19FFA6M",
+      "databaseId": "BIO-EN09"
     },
     {
       "id": "EN10",
@@ -472,16 +561,18 @@
       "tier": "Both",
       "question": "State where lipases are produced and what reaction they catalyse.",
       "marks": 3,
-      "modelAnswer": "Produced by the pancreas and small intestine catalyse the breakdown of lipids into fatty acids and glycerol.",
+      "modelAnswer": "Produced by the pancreas and small intestine.\nCatalyse the breakdown of lipids into fatty acids and glycerol.",
       "markingPoints": [
-        "Produced by the pancreas and small intestine",
-        "catalyse the breakdown of lipids into fatty acids and glycerol."
+        "Produced by the pancreas and small intestine.",
+        "Catalyse the breakdown of lipids into fatty acids and glycerol."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0RSPXDT",
+      "databaseId": "BIO-EN10"
     },
     {
       "id": "EN11",
@@ -491,18 +582,20 @@
       "tier": "Both",
       "question": "A disorder reduces the amount of lipase entering the small intestine. Explain why the person may have difficulty gaining body mass.",
       "marks": 4,
-      "modelAnswer": "Less lipid is digested fewer fatty acids and glycerol are produced less is absorbed into the blood less material/energy is available for storage, growth and respiration.",
+      "modelAnswer": "Less lipid is digested.\nFewer fatty acids and glycerol are produced.\nLess is absorbed into the blood.\nLess material/energy is available for storage, growth and respiration.",
       "markingPoints": [
-        "Less lipid is digested",
-        "fewer fatty acids and glycerol are produced",
-        "less is absorbed into the blood",
-        "less material/energy is available for storage, growth and respiration."
+        "Less lipid is digested.",
+        "Fewer fatty acids and glycerol are produced.",
+        "Less is absorbed into the blood.",
+        "Less material/energy is available for storage, growth and respiration."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-13OKYJA",
+      "databaseId": "BIO-EN11"
     },
     {
       "id": "EN12",
@@ -512,9 +605,9 @@
       "tier": "Both",
       "question": "Starch disappears after 80 seconds in an amylase experiment. Calculate the rate using rate = 1 ÷ time. Give the unit.",
       "marks": 2,
-      "modelAnswer": "rate = 1 ÷ time. Rate = 1 ÷ 80 = 0.0125 s⁻¹. Answer: Rate = 1 ÷ 80 = 0.0125 s⁻¹.",
+      "modelAnswer": "Rate = 1 ÷ time.\nRate = 1 ÷ 80 = 0.0125 s⁻¹.\nAnswer: Rate = 1 ÷ 80 = 0.0125 s⁻¹.",
       "markingPoints": [
-        "rate = 1 ÷ time.",
+        "Rate = 1 ÷ time.",
         "Rate = 1 ÷ 80 = 0.0125 s⁻¹.",
         "Answer: Rate = 1 ÷ 80 = 0.0125 s⁻¹."
       ],
@@ -522,7 +615,9 @@
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-02GCZJQ",
+      "databaseId": "BIO-EN12"
     },
     {
       "id": "EN13",
@@ -530,20 +625,22 @@
       "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
-      "question": "Catalase produced foam heights of 1.1, 3.2, 5.2, 4.0, 2.1 and 0.0 cm at 10, 20, 30, 40, 50 and 60 °C respectively. State the supported optimum temperature, identify where catalase was denatured, and describe how the optimum could be found more precisely.",
+      "question": "Catalase produced foam heights of 1.1, 3.2, 5.2, 4.0, 2.1 and 0.0 cm at 10, 20, 30, 40, 50 and 60 °C respectively.\nPart (a): State the supported optimum temperature, identify where catalase was denatured.\nPart (b): Describe how the optimum could be found more precisely.",
       "marks": 4,
-      "modelAnswer": "The highest measured activity was at 30 °C, so 30 °C is the supported optimum among the temperatures tested zero foam at 60 °C supports denaturation repeat at smaller intervals between 30 and 40 °C repeat each temperature and compare means.",
+      "modelAnswer": "The highest measured activity was at 30 °C, so 30 °C is the supported optimum among the temperatures tested.\nZero foam at 60 °C supports denaturation.\nRepeat at smaller intervals between 30 and 40 °C.\nRepeat each temperature and compare means.",
       "markingPoints": [
-        "The highest measured activity was at 30 °C, so 30 °C is the supported optimum among the temperatures tested",
-        "zero foam at 60 °C supports denaturation",
-        "repeat at smaller intervals between 30 and 40 °C",
-        "repeat each temperature and compare means."
+        "The highest measured activity was at 30 °C, so 30 °C is the supported optimum among the temperatures tested.",
+        "Zero foam at 60 °C supports denaturation.",
+        "Repeat at smaller intervals between 30 and 40 °C.",
+        "Repeat each temperature and compare means."
       ],
       "commandWord": "Analyse",
       "assessmentObjective": "AO2/AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1229FFB",
+      "databaseId": "BIO-EN13"
     },
     {
       "id": "EN14",
@@ -553,20 +650,23 @@
       "tier": "Both",
       "question": "Plan an investigation to compare catalase activity in equal-mass samples from the root, stem, leaf and seed of the same plant species.",
       "marks": 6,
-      "modelAnswer": "Use equal masses and similarly sized or ground samples add each to the same volume and concentration of hydrogen peroxide keep temperature, pH and reaction time constant collect oxygen with a gas syringe or measure foam height repeat each tissue and calculate a mean compare mean oxygen volume or rate. Wear eye protection because hydrogen peroxide is an irritant.",
+      "modelAnswer": "Use equal masses and similarly sized or ground samples.\nAdd each to the same volume and concentration of hydrogen peroxide.\nKeep temperature, pH and reaction time constant.\nCollect oxygen with a gas syringe or measure foam height.\nRepeat each tissue and calculate a mean.\nCompare mean oxygen volume or rate.\nWear eye protection because hydrogen peroxide is an irritant.",
       "markingPoints": [
-        "Use equal masses and similarly sized or ground samples",
-        "add each to the same volume and concentration of hydrogen peroxide",
-        "keep temperature, pH and reaction time constant",
-        "collect oxygen with a gas syringe or measure foam height",
-        "repeat each tissue and calculate a mean",
-        "compare mean oxygen volume or rate. Wear eye protection because hydrogen peroxide is an irritant."
+        "Use equal masses and similarly sized or ground samples.",
+        "Add each to the same volume and concentration of hydrogen peroxide.",
+        "Keep temperature, pH and reaction time constant.",
+        "Collect oxygen with a gas syringe or measure foam height.",
+        "Repeat each tissue and calculate a mean.",
+        "Compare mean oxygen volume or rate.",
+        "Wear eye protection because hydrogen peroxide is an irritant."
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0BC2RGB",
+      "databaseId": "BIO-EN14"
     },
     {
       "id": "EN15",
@@ -574,19 +674,22 @@
       "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Higher",
-      "question": "Match each enzyme to an industrial use and explain one match: carbohydrase, protease and isomerase; converting starch to sugars, pre-digesting protein in baby food, and converting glucose syrup to fructose syrup.",
+      "question": "Match each enzyme to an industrial use\nPart (a): Explain one match: carbohydrase, protease and isomerase; converting starch to sugars, pre-digesting protein in baby food, and converting glucose syrup to fructose syrup.",
       "marks": 4,
-      "modelAnswer": "Carbohydrase converts starch to sugars protease pre-digests proteins in baby foods isomerase converts glucose syrup to fructose syrup. Example explanation: protease hydrolyses protein into smaller products, making it easier to digest.",
+      "modelAnswer": "Carbohydrase converts starch to sugars.\nProtease pre-digests proteins in baby foods.\nIsomerase converts glucose syrup to fructose syrup.\nExample explanation: protease hydrolyses protein into smaller products, making it easier to digest.",
       "markingPoints": [
-        "Carbohydrase converts starch to sugars",
-        "protease pre-digests proteins in baby foods",
-        "isomerase converts glucose syrup to fructose syrup. Example explanation: protease hydrolyses protein into smaller products, making it easier to digest."
+        "Carbohydrase converts starch to sugars.",
+        "Protease pre-digests proteins in baby foods.",
+        "Isomerase converts glucose syrup to fructose syrup.",
+        "Example explanation: protease hydrolyses protein into smaller products, making it easier to digest."
       ],
       "commandWord": "Match and explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-07Q3O7N",
+      "databaseId": "BIO-EN15"
     },
     {
       "id": "RP01",
@@ -596,22 +699,30 @@
       "tier": "Both",
       "question": "Describe a method to investigate the effect of pH on the rate at which amylase breaks down starch.",
       "marks": 6,
-      "modelAnswer": "Place iodine drops in wells of a spotting tile use buffers to set chosen pH values equilibrate amylase and starch in a water bath at constant temperature mix measured volumes and start the timer place a sample onto iodine at fixed intervals record the time when iodine remains orange-brown repeat for several pH values and repeat trials calculate mean time or rate = 1/time.",
+      "modelAnswer": "Place iodine drops in wells of a spotting tile.\nUse buffers to set chosen pH values.\nEquilibrate amylase and starch in a water bath at constant temperature.\nMix measured volumes and start the timer.\nPlace a sample onto iodine at fixed intervals.\nRecord the time when iodine remains orange-brown.\nRepeat for several pH values and repeat trials.\nCalculate mean time or rate = 1/time.",
       "markingPoints": [
-        "Place iodine drops in wells of a spotting tile",
-        "use buffers to set chosen pH values",
-        "equilibrate amylase and starch in a water bath at constant temperature",
-        "mix measured volumes and start the timer",
-        "place a sample onto iodine at fixed intervals",
-        "record the time when iodine remains orange-brown",
-        "repeat for several pH values and repeat trials",
-        "calculate mean time or rate = 1/time."
+        "Place iodine drops in wells of a spotting tile.",
+        "Use buffers to set chosen pH values.",
+        "Equilibrate amylase and starch in a water bath at constant temperature.",
+        "Mix measured volumes and start the timer.",
+        "Place a sample onto iodine at fixed intervals.",
+        "Record the time when iodine remains orange-brown.",
+        "Repeat for several pH values and repeat trials.",
+        "Calculate mean time or rate = 1/time."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-135L8KH",
+      "databaseId": "BIO-RP01",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-RP03",
+        "diagnostic": "BIO-RP03",
+        "easier": "BIO-RP02",
+        "parallel": "BIO-RP02"
+      }
     },
     {
       "id": "RP02",
@@ -621,15 +732,26 @@
       "tier": "Both",
       "question": "In the amylase pH investigation, identify the independent variable, dependent variable and three control variables.",
       "marks": 5,
-      "modelAnswer": "Independent: pH. Dependent: time for starch to disappear / rate. Controls: temperature, enzyme concentration/volume, starch concentration/volume, total volume, sampling interval. controls.",
+      "modelAnswer": "Independent: pH.\nDependent: time for starch to disappear / rate.\nControls: temperature, enzyme concentration/volume, starch concentration/volume, total volume, sampling interval. controls.",
       "markingPoints": [
-        "Independent: pH. Dependent: time for starch to disappear / rate. Controls: temperature, enzyme concentration/volume, starch concentration/volume, total volume, sampling interval. controls."
+        "Independent: pH.",
+        "Dependent: time for starch to disappear / rate.",
+        "Controls: temperature, enzyme concentration/volume, starch concentration/volume, total volume, sampling interval. controls."
       ],
       "commandWord": "Identify",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-135L8KH",
+      "databaseId": "BIO-RP02",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-RP03",
+        "diagnostic": "BIO-RP03",
+        "easier": "BIO-RP03",
+        "parallel": "BIO-RP01",
+        "harder": "BIO-RP01"
+      }
     },
     {
       "id": "RP03",
@@ -639,16 +761,25 @@
       "tier": "Both",
       "question": "Explain why a water bath and buffer solutions are used in the amylase investigation.",
       "marks": 2,
-      "modelAnswer": "Water bath keeps temperature constant buffer keeps the mixture at the chosen pH.",
+      "modelAnswer": "Water bath keeps temperature constant.\nBuffer keeps the mixture at the chosen pH.",
       "markingPoints": [
-        "Water bath keeps temperature constant",
-        "buffer keeps the mixture at the chosen pH."
+        "Water bath keeps temperature constant.",
+        "Buffer keeps the mixture at the chosen pH."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-135L8KH",
+      "databaseId": "BIO-RP03",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-RP04",
+        "diagnostic": "BIO-RP04",
+        "easier": "BIO-RP04",
+        "parallel": "BIO-RP04",
+        "harder": "BIO-RP02"
+      }
     },
     {
       "id": "RP04",
@@ -658,16 +789,25 @@
       "tier": "Both",
       "question": "Explain why the iodine endpoint in the amylase investigation is subjective and suggest one improvement.",
       "marks": 2,
-      "modelAnswer": "The exact colour change is judged by eye, so observers may disagree use a colorimeter / colour standard / the same observer.",
+      "modelAnswer": "The exact colour change is judged by eye, so observers may disagree.\nUse a colorimeter / colour standard / the same observer.",
       "markingPoints": [
-        "The exact colour change is judged by eye, so observers may disagree",
-        "use a colorimeter / colour standard / the same observer."
+        "The exact colour change is judged by eye, so observers may disagree.",
+        "Use a colorimeter / colour standard / the same observer."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-135L8KH",
+      "databaseId": "BIO-RP04",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-RP03",
+        "diagnostic": "BIO-RP03",
+        "easier": "BIO-RP03",
+        "parallel": "BIO-RP03",
+        "harder": "BIO-RP02"
+      }
     },
     {
       "id": "RP05",
@@ -677,17 +817,28 @@
       "tier": "Both",
       "question": "A student repeats a result three times and obtains 42 s, 44 s and 91 s. Identify the anomalous result and calculate the mean after excluding it.",
       "marks": 2,
-      "modelAnswer": "mean = sum of values ÷ number of values. 91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s. Answer: 91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s.",
+      "modelAnswer": "Mean = sum of values ÷ number of values.\n91 s is anomalous.\nMean = (42 + 44) ÷ 2 = 43 s.\nAnswer: 91 s is anomalous.\nMean = (42 + 44) ÷ 2 = 43 s.",
       "markingPoints": [
-        "mean = sum of values ÷ number of values.",
-        "91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s.",
-        "Answer: 91 s is anomalous; mean = (42 + 44) ÷ 2 = 43 s."
+        "Mean = sum of values ÷ number of values.",
+        "91 s is anomalous.",
+        "Mean = (42 + 44) ÷ 2 = 43 s.",
+        "Answer: 91 s is anomalous.",
+        "Mean = (42 + 44) ÷ 2 = 43 s."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2/AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-135L8KH",
+      "databaseId": "BIO-RP05",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-RP03",
+        "diagnostic": "BIO-RP03",
+        "easier": "BIO-RP03",
+        "parallel": "BIO-RP03",
+        "harder": "BIO-RP02"
+      }
     },
     {
       "id": "RP06",
@@ -697,17 +848,19 @@
       "tier": "Higher",
       "question": "A graph of enzyme rate against pH peaks at pH 7. Explain how to identify the optimum pH and why the rate falls on either side.",
       "marks": 3,
-      "modelAnswer": "Optimum is the pH giving the maximum rate away from the optimum, bonds/active-site shape are disrupted fewer enzyme–substrate complexes form.",
+      "modelAnswer": "Optimum is the pH giving the maximum rate.\nAway from the optimum, bonds/active-site shape are disrupted.\nFewer enzyme–substrate complexes form.",
       "markingPoints": [
-        "Optimum is the pH giving the maximum rate",
-        "away from the optimum, bonds/active-site shape are disrupted",
-        "fewer enzyme–substrate complexes form."
+        "Optimum is the pH giving the maximum rate.",
+        "Away from the optimum, bonds/active-site shape are disrupted.",
+        "Fewer enzyme–substrate complexes form."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0FELDCN",
+      "databaseId": "BIO-RP06"
     },
     {
       "id": "FT01",
@@ -717,16 +870,24 @@
       "tier": "Both",
       "question": "Describe the test for starch and give the positive result.",
       "marks": 2,
-      "modelAnswer": "Add iodine solution blue-black indicates starch (orange-brown if absent).",
+      "modelAnswer": "Add iodine solution.\nBlue-black indicates starch (orange-brown if absent).",
       "markingPoints": [
-        "Add iodine solution",
-        "blue-black indicates starch (orange-brown if absent)."
+        "Add iodine solution.",
+        "Blue-black indicates starch (orange-brown if absent)."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0R0ZRFO",
+      "databaseId": "BIO-FT01",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-FT03",
+        "easier": "BIO-FT03",
+        "parallel": "BIO-FT03",
+        "harder": "BIO-FT02"
+      }
     },
     {
       "id": "FT02",
@@ -736,17 +897,25 @@
       "tier": "Both",
       "question": "Describe the Benedict's test for reducing sugars and give the positive result.",
       "marks": 3,
-      "modelAnswer": "Add Benedict's reagent heat in a hot water bath a positive result changes from blue through green/yellow/orange to brick-red depending on concentration.",
+      "modelAnswer": "Add Benedict's reagent.\nHeat in a hot water bath.\nA positive result changes from blue through green/yellow/orange to brick-red depending on concentration.",
       "markingPoints": [
-        "Add Benedict's reagent",
-        "heat in a hot water bath",
-        "a positive result changes from blue through green/yellow/orange to brick-red depending on concentration."
+        "Add Benedict's reagent.",
+        "Heat in a hot water bath.",
+        "A positive result changes from blue through green/yellow/orange to brick-red depending on concentration."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0R0ZRFO",
+      "databaseId": "BIO-FT02",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-FT01",
+        "diagnostic": "BIO-FT01",
+        "easier": "BIO-FT01",
+        "parallel": "BIO-FT04"
+      }
     },
     {
       "id": "FT03",
@@ -756,16 +925,24 @@
       "tier": "Both",
       "question": "Describe the Biuret test for protein and give the positive result.",
       "marks": 2,
-      "modelAnswer": "Add Biuret reagent / sodium hydroxide followed by copper sulfate lilac/purple indicates protein.",
+      "modelAnswer": "Add Biuret reagent / sodium hydroxide followed by copper sulfate.\nLilac/purple indicates protein.",
       "markingPoints": [
-        "Add Biuret reagent / sodium hydroxide followed by copper sulfate",
-        "lilac/purple indicates protein."
+        "Add Biuret reagent / sodium hydroxide followed by copper sulfate.",
+        "Lilac/purple indicates protein."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0R0ZRFO",
+      "databaseId": "BIO-FT03",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-FT01",
+        "easier": "BIO-FT01",
+        "parallel": "BIO-FT01",
+        "harder": "BIO-FT02"
+      }
     },
     {
       "id": "FT04",
@@ -775,17 +952,25 @@
       "tier": "Both",
       "question": "Describe the emulsion test for lipids and give the positive result.",
       "marks": 3,
-      "modelAnswer": "Add ethanol and shake add water a cloudy white/milky emulsion indicates lipid.",
+      "modelAnswer": "Add ethanol and shake.\nAdd water.\nA cloudy white/milky emulsion indicates lipid.",
       "markingPoints": [
-        "Add ethanol and shake",
-        "add water",
-        "a cloudy white/milky emulsion indicates lipid."
+        "Add ethanol and shake.",
+        "Add water.",
+        "A cloudy white/milky emulsion indicates lipid."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0R0ZRFO",
+      "databaseId": "BIO-FT04",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-FT01",
+        "diagnostic": "BIO-FT01",
+        "easier": "BIO-FT01",
+        "parallel": "BIO-FT02"
+      }
     },
     {
       "id": "FT05",
@@ -795,16 +980,18 @@
       "tier": "Both",
       "question": "State one important safety precaution for Benedict's test and one for the emulsion test.",
       "marks": 2,
-      "modelAnswer": "Use a hot water bath / eye protection for heating Benedict's reagent keep ethanol away from flames because it is flammable.",
+      "modelAnswer": "Use a hot water bath / eye protection for heating Benedict's reagent.\nKeep ethanol away from flames because it is flammable.",
       "markingPoints": [
-        "Use a hot water bath / eye protection for heating Benedict's reagent",
-        "keep ethanol away from flames because it is flammable."
+        "Use a hot water bath / eye protection for heating Benedict's reagent.",
+        "Keep ethanol away from flames because it is flammable."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1B10C1A",
+      "databaseId": "BIO-FT05"
     },
     {
       "id": "FT06",
@@ -812,18 +999,20 @@
       "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
-      "question": "A food sample gives a blue-black iodine result, a lilac Biuret result, a brick-red Benedict's result and a clear emulsion test. State which nutrients are present.",
+      "question": "A food sample gives a blue-black iodine result, a lilac Biuret result, a brick-red Benedict's result and a clear emulsion test.\nState which nutrients are present.",
       "marks": 3,
-      "modelAnswer": "Starch, protein and reducing sugar are present lipid is absent.",
+      "modelAnswer": "Starch, protein and reducing sugar are present.\nLipid is absent.",
       "markingPoints": [
-        "Starch, protein and reducing sugar are present",
-        "lipid is absent."
+        "Starch, protein and reducing sugar are present.",
+        "Lipid is absent."
       ],
       "commandWord": "Interpret",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0PWQPHC",
+      "databaseId": "BIO-FT06"
     },
     {
       "id": "CV01",
@@ -833,16 +1022,18 @@
       "tier": "Both",
       "question": "Explain why humans are described as having a double circulatory system.",
       "marks": 2,
-      "modelAnswer": "Blood passes through the heart twice in one complete circuit one circuit is heart–lungs–heart and the other is heart–body–heart.",
+      "modelAnswer": "Blood passes through the heart twice in one complete circuit.\nOne circuit is heart–lungs–heart and the other is heart–body–heart.",
       "markingPoints": [
-        "Blood passes through the heart twice in one complete circuit",
-        "one circuit is heart–lungs–heart and the other is heart–body–heart."
+        "Blood passes through the heart twice in one complete circuit.",
+        "One circuit is heart–lungs–heart and the other is heart–body–heart."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-17SIK5E",
+      "databaseId": "BIO-CV01"
     },
     {
       "id": "CV02",
@@ -860,7 +1051,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0L2V43T",
+      "databaseId": "BIO-CV02",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CV03",
+        "diagnostic": "BIO-CV03",
+        "easier": "BIO-CV03",
+        "parallel": "BIO-CV03"
+      }
     },
     {
       "id": "CV03",
@@ -878,7 +1077,15 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0L2V43T",
+      "databaseId": "BIO-CV03",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CV02",
+        "diagnostic": "BIO-CV02",
+        "easier": "BIO-CV02",
+        "parallel": "BIO-CV02"
+      }
     },
     {
       "id": "CV04",
@@ -888,17 +1095,19 @@
       "tier": "Both",
       "question": "Explain why the wall of the left ventricle is thicker than the wall of the right ventricle.",
       "marks": 3,
-      "modelAnswer": "The left ventricle pumps blood around the whole body it must produce a higher pressure / contract more forcefully the right ventricle only pumps to the nearby lungs.",
+      "modelAnswer": "The left ventricle pumps blood around the whole body.\nIt must produce a higher pressure / contract more forcefully.\nThe right ventricle only pumps to the nearby lungs.",
       "markingPoints": [
-        "The left ventricle pumps blood around the whole body",
-        "it must produce a higher pressure / contract more forcefully",
-        "the right ventricle only pumps to the nearby lungs."
+        "The left ventricle pumps blood around the whole body.",
+        "It must produce a higher pressure / contract more forcefully.",
+        "The right ventricle only pumps to the nearby lungs."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1MGZ98A",
+      "databaseId": "BIO-CV04"
     },
     {
       "id": "CV05",
@@ -908,17 +1117,19 @@
       "tier": "Both",
       "question": "State the function of heart valves and explain what opens and closes them.",
       "marks": 3,
-      "modelAnswer": "Valves prevent backflow they open when pressure behind them is greater they close when pressure in front becomes greater / blood begins to move backwards.",
+      "modelAnswer": "Valves prevent backflow.\nThey open when pressure behind them is greater.\nThey close when pressure in front becomes greater / blood begins to move backwards.",
       "markingPoints": [
-        "Valves prevent backflow",
-        "they open when pressure behind them is greater",
-        "they close when pressure in front becomes greater / blood begins to move backwards."
+        "Valves prevent backflow.",
+        "They open when pressure behind them is greater.",
+        "They close when pressure in front becomes greater / blood begins to move backwards."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0QXGZYY",
+      "databaseId": "BIO-CV05"
     },
     {
       "id": "CV06",
@@ -936,7 +1147,9 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-035YEEP",
+      "databaseId": "BIO-CV06"
     },
     {
       "id": "CV07",
@@ -946,16 +1159,18 @@
       "tier": "Both",
       "question": "State the role of the heart's natural pacemaker.",
       "marks": 2,
-      "modelAnswer": "Produces electrical impulses controls the resting heart rate / coordinates contractions.",
+      "modelAnswer": "Produces electrical impulses.\nControls the resting heart rate / coordinates contractions.",
       "markingPoints": [
-        "Produces electrical impulses",
-        "controls the resting heart rate / coordinates contractions."
+        "Produces electrical impulses.",
+        "Controls the resting heart rate / coordinates contractions."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0A9NBNR",
+      "databaseId": "BIO-CV07"
     },
     {
       "id": "CV08",
@@ -965,16 +1180,18 @@
       "tier": "Both",
       "question": "Explain how an artificial pacemaker can treat an irregular heart rhythm.",
       "marks": 2,
-      "modelAnswer": "It detects/controls heart rhythm and sends electrical impulses these stimulate regular contractions at an appropriate rate.",
+      "modelAnswer": "It detects/controls heart rhythm and sends electrical impulses.\nThese stimulate regular contractions at an appropriate rate.",
       "markingPoints": [
-        "It detects/controls heart rhythm and sends electrical impulses",
-        "these stimulate regular contractions at an appropriate rate."
+        "It detects/controls heart rhythm and sends electrical impulses.",
+        "These stimulate regular contractions at an appropriate rate."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-13BBPA4",
+      "databaseId": "BIO-CV08"
     },
     {
       "id": "CV09",
@@ -984,17 +1201,21 @@
       "tier": "Both",
       "question": "Write the equation for cardiac output and calculate it for a heart rate of 72 beats per minute and a stroke volume of 70 cm³.",
       "marks": 3,
-      "modelAnswer": "cardiac output = heart rate × stroke volume. Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹). Answer: Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
+      "modelAnswer": "Cardiac output = heart rate × stroke volume.\nCardiac output = heart rate × stroke volume\n72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).\nAnswer: Cardiac output = heart rate × stroke volume\n72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
       "markingPoints": [
-        "cardiac output = heart rate × stroke volume.",
-        "Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
-        "Answer: Cardiac output = heart rate × stroke volume; 72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹)."
+        "Cardiac output = heart rate × stroke volume.",
+        "Cardiac output = heart rate × stroke volume",
+        "72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹).",
+        "Answer: Cardiac output = heart rate × stroke volume",
+        "72 × 70 = 5040 cm³ min⁻¹ (5.04 dm³ min⁻¹)."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1A6GRDN",
+      "databaseId": "BIO-CV09"
     },
     {
       "id": "CV10",
@@ -1004,18 +1225,26 @@
       "tier": "Both",
       "question": "Explain why heart rate and breathing rate increase during exercise.",
       "marks": 4,
-      "modelAnswer": "Muscles respire more rapidly they need more oxygen and glucose faster circulation and ventilation deliver these substances carbon dioxide is removed more rapidly.",
+      "modelAnswer": "Muscles respire more rapidly.\nThey need more oxygen and glucose.\nFaster circulation and ventilation deliver these substances.\nCarbon dioxide is removed more rapidly.",
       "markingPoints": [
-        "Muscles respire more rapidly",
-        "they need more oxygen and glucose",
-        "faster circulation and ventilation deliver these substances",
-        "carbon dioxide is removed more rapidly."
+        "Muscles respire more rapidly.",
+        "They need more oxygen and glucose.",
+        "Faster circulation and ventilation deliver these substances.",
+        "Carbon dioxide is removed more rapidly."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0J12A6Z",
+      "databaseId": "BIO-CV10",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-XL10",
+        "diagnostic": "BIO-XL10",
+        "easier": "BIO-XL10",
+        "parallel": "BIO-XL10"
+      }
     },
     {
       "id": "CV12",
@@ -1025,17 +1254,23 @@
       "tier": "Higher",
       "question": "During exercise, cardiac output is 12.6 dm³ min⁻¹ and heart rate is 140 beats min⁻¹. Calculate stroke volume in cm³ per beat.",
       "marks": 3,
-      "modelAnswer": "stroke volume = cardiac output ÷ heart rate. Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat. Answer: Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat.",
+      "modelAnswer": "Stroke volume = cardiac output ÷ heart rate.\nStroke volume = cardiac output ÷ heart rate\n12.6 dm³ = 12 600 cm³\n12 600 ÷ 140 = 90 cm³ per beat.\nAnswer: Stroke volume = cardiac output ÷ heart rate\n12.6 dm³ = 12 600 cm³\n12 600 ÷ 140 = 90 cm³ per beat.",
       "markingPoints": [
-        "stroke volume = cardiac output ÷ heart rate.",
-        "Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat.",
-        "Answer: Stroke volume = cardiac output ÷ heart rate; 12.6 dm³ = 12 600 cm³; 12 600 ÷ 140 = 90 cm³ per beat."
+        "Stroke volume = cardiac output ÷ heart rate.",
+        "Stroke volume = cardiac output ÷ heart rate",
+        "12.6 dm³ = 12 600 cm³",
+        "12 600 ÷ 140 = 90 cm³ per beat.",
+        "Answer: Stroke volume = cardiac output ÷ heart rate",
+        "12.6 dm³ = 12 600 cm³",
+        "12 600 ÷ 140 = 90 cm³ per beat."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-13EGBYO",
+      "databaseId": "BIO-CV12"
     },
     {
       "id": "BV01",
@@ -1045,18 +1280,20 @@
       "tier": "Both",
       "question": "Explain how arteries are adapted to carry blood away from the heart.",
       "marks": 4,
-      "modelAnswer": "Thick muscular and elastic walls withstand high pressure elastic fibres stretch and recoil to maintain pressure relatively small lumen helps maintain pressure smooth lining reduces friction.",
+      "modelAnswer": "Thick muscular and elastic walls withstand high pressure.\nElastic fibres stretch and recoil to maintain pressure.\nRelatively small lumen helps maintain pressure.\nSmooth lining reduces friction.",
       "markingPoints": [
-        "Thick muscular and elastic walls withstand high pressure",
-        "elastic fibres stretch and recoil to maintain pressure",
-        "relatively small lumen helps maintain pressure",
-        "smooth lining reduces friction."
+        "Thick muscular and elastic walls withstand high pressure.",
+        "Elastic fibres stretch and recoil to maintain pressure.",
+        "Relatively small lumen helps maintain pressure.",
+        "Smooth lining reduces friction."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1UYOXVC",
+      "databaseId": "BIO-BV01"
     },
     {
       "id": "BV02",
@@ -1066,18 +1303,20 @@
       "tier": "Both",
       "question": "Explain how veins are adapted to return blood to the heart.",
       "marks": 4,
-      "modelAnswer": "Large lumen reduces resistance at low pressure thinner walls because pressure is lower valves prevent backflow contraction of surrounding muscles helps move blood.",
+      "modelAnswer": "Large lumen reduces resistance at low pressure.\nThinner walls because pressure is lower.\nValves prevent backflow.\nContraction of surrounding muscles helps move blood.",
       "markingPoints": [
-        "Large lumen reduces resistance at low pressure",
-        "thinner walls because pressure is lower",
-        "valves prevent backflow",
-        "contraction of surrounding muscles helps move blood."
+        "Large lumen reduces resistance at low pressure.",
+        "Thinner walls because pressure is lower.",
+        "Valves prevent backflow.",
+        "Contraction of surrounding muscles helps move blood."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-17KAMPK",
+      "databaseId": "BIO-BV02"
     },
     {
       "id": "BV03",
@@ -1087,18 +1326,20 @@
       "tier": "Both",
       "question": "Explain how capillaries are adapted for exchange with tissues.",
       "marks": 4,
-      "modelAnswer": "Walls are one cell thick, giving a short diffusion distance narrow lumen keeps blood close to cells and slows flow extensive networks give a large surface area permeable walls .",
+      "modelAnswer": "Walls are one cell thick, giving a short diffusion distance.\nNarrow lumen keeps blood close to cells and slows flow.\nExtensive networks give a large surface area.\nPermeable walls .",
       "markingPoints": [
-        "Walls are one cell thick, giving a short diffusion distance",
-        "narrow lumen keeps blood close to cells and slows flow",
-        "extensive networks give a large surface area",
-        "permeable walls ."
+        "Walls are one cell thick, giving a short diffusion distance.",
+        "Narrow lumen keeps blood close to cells and slows flow.",
+        "Extensive networks give a large surface area.",
+        "Permeable walls ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0LA0GI8",
+      "databaseId": "BIO-BV03"
     },
     {
       "id": "BV04",
@@ -1108,15 +1349,19 @@
       "tier": "Both",
       "question": "Compare arteries, veins and capillaries.",
       "marks": 6,
-      "modelAnswer": "Arteries: away from heart, high pressure, thick muscular/elastic walls, small lumen, no valves. Veins: toward heart, low pressure, thinner walls, large lumen, valves. Capillaries: exchange, one-cell-thick walls, very narrow lumen and large networks.",
+      "modelAnswer": "Arteries: away from heart, high pressure, thick muscular/elastic walls, small lumen, no valves.\nVeins: toward heart, low pressure, thinner walls, large lumen, valves.\nCapillaries: exchange, one-cell-thick walls, very narrow lumen and large networks.",
       "markingPoints": [
-        "Arteries: away from heart, high pressure, thick muscular/elastic walls, small lumen, no valves. Veins: toward heart, low pressure, thinner walls, large lumen, valves. Capillaries: exchange, one-cell-thick walls, very narrow lumen and large networks."
+        "Arteries: away from heart, high pressure, thick muscular/elastic walls, small lumen, no valves.",
+        "Veins: toward heart, low pressure, thinner walls, large lumen, valves.",
+        "Capillaries: exchange, one-cell-thick walls, very narrow lumen and large networks."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1D0X4WP",
+      "databaseId": "BIO-BV04"
     },
     {
       "id": "BL01",
@@ -1126,18 +1371,20 @@
       "tier": "Both",
       "question": "Name the four main components of blood.",
       "marks": 4,
-      "modelAnswer": "Plasma red blood cells white blood cells platelets.",
+      "modelAnswer": "Plasma.\nRed blood cells.\nWhite blood cells.\nPlatelets.",
       "markingPoints": [
-        "Plasma",
-        "red blood cells",
-        "white blood cells",
-        "platelets."
+        "Plasma.",
+        "Red blood cells.",
+        "White blood cells.",
+        "Platelets."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0R3204P",
+      "databaseId": "BIO-BL01"
     },
     {
       "id": "BL02",
@@ -1147,15 +1394,17 @@
       "tier": "Both",
       "question": "State three substances transported by plasma.",
       "marks": 3,
-      "modelAnswer": "carbon dioxide, urea, soluble products of digestion such as glucose/amino acids, hormones, antibodies, heat.",
+      "modelAnswer": "Carbon dioxide, urea, soluble products of digestion such as glucose/amino acids, hormones, antibodies, heat.",
       "markingPoints": [
-        "carbon dioxide, urea, soluble products of digestion such as glucose/amino acids, hormones, antibodies, heat."
+        "Carbon dioxide, urea, soluble products of digestion such as glucose/amino acids, hormones, antibodies, heat."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0N3Y5OF",
+      "databaseId": "BIO-BL02"
     },
     {
       "id": "BL03",
@@ -1165,18 +1414,20 @@
       "tier": "Both",
       "question": "Explain how red blood cells are adapted to transport oxygen.",
       "marks": 4,
-      "modelAnswer": "Contain haemoglobin that binds oxygen biconcave shape gives a large surface area no nucleus leaves more space for haemoglobin small/flexible to pass through capillaries.",
+      "modelAnswer": "Contain haemoglobin that binds oxygen.\nBiconcave shape gives a large surface area.\nNo nucleus leaves more space for haemoglobin.\nSmall/flexible to pass through capillaries.",
       "markingPoints": [
-        "Contain haemoglobin that binds oxygen",
-        "biconcave shape gives a large surface area",
-        "no nucleus leaves more space for haemoglobin",
-        "small/flexible to pass through capillaries."
+        "Contain haemoglobin that binds oxygen.",
+        "Biconcave shape gives a large surface area.",
+        "No nucleus leaves more space for haemoglobin.",
+        "Small/flexible to pass through capillaries."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-08GT4G1",
+      "databaseId": "BIO-BL03"
     },
     {
       "id": "BL04",
@@ -1186,17 +1437,19 @@
       "tier": "Both",
       "question": "Describe two ways white blood cells defend the body.",
       "marks": 4,
-      "modelAnswer": "Phagocytes engulf and digest pathogens lymphocytes produce specific antibodies lymphocytes may produce antitoxins. mechanisms with detail.",
+      "modelAnswer": "Phagocytes engulf and digest pathogens.\nLymphocytes produce specific antibodies.\nLymphocytes may produce antitoxins. mechanisms with detail.",
       "markingPoints": [
-        "Phagocytes engulf and digest pathogens",
-        "lymphocytes produce specific antibodies",
-        "lymphocytes may produce antitoxins. mechanisms with detail."
+        "Phagocytes engulf and digest pathogens.",
+        "Lymphocytes produce specific antibodies.",
+        "Lymphocytes may produce antitoxins. mechanisms with detail."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-04BYJKV",
+      "databaseId": "BIO-BL04"
     },
     {
       "id": "BL05",
@@ -1206,16 +1459,18 @@
       "tier": "Both",
       "question": "State the function of platelets.",
       "marks": 2,
-      "modelAnswer": "Cause blood to clot prevents excessive blood loss and entry of microorganisms.",
+      "modelAnswer": "Cause blood to clot.\nPrevents excessive blood loss and entry of microorganisms.",
       "markingPoints": [
-        "Cause blood to clot",
-        "prevents excessive blood loss and entry of microorganisms."
+        "Cause blood to clot.",
+        "Prevents excessive blood loss and entry of microorganisms."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0J0SQJP",
+      "databaseId": "BIO-BL05"
     },
     {
       "id": "BL06",
@@ -1225,16 +1480,18 @@
       "tier": "Both",
       "question": "A patient has a very low platelet count. Explain one likely consequence.",
       "marks": 2,
-      "modelAnswer": "Blood clots more slowly / bleeding continues risk of excessive blood loss and pathogen entry increases.",
+      "modelAnswer": "Blood clots more slowly / bleeding continues.\nRisk of excessive blood loss and pathogen entry increases.",
       "markingPoints": [
-        "Blood clots more slowly / bleeding continues",
-        "risk of excessive blood loss and pathogen entry increases."
+        "Blood clots more slowly / bleeding continues.",
+        "Risk of excessive blood loss and pathogen entry increases."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1BFWYQ7",
+      "databaseId": "BIO-BL06"
     },
     {
       "id": "CH01",
@@ -1244,19 +1501,21 @@
       "tier": "Both",
       "question": "Explain how fatty deposits in coronary arteries can lead to a heart attack.",
       "marks": 5,
-      "modelAnswer": "Deposits narrow/block coronary arteries blood flow to heart muscle decreases less oxygen and glucose reach cells less aerobic respiration/energy release occurs heart muscle cells may die, causing a heart attack.",
+      "modelAnswer": "Deposits narrow/block coronary arteries.\nBlood flow to heart muscle decreases.\nLess oxygen and glucose reach cells.\nLess aerobic respiration/energy release occurs.\nHeart muscle cells may die, causing a heart attack.",
       "markingPoints": [
-        "Deposits narrow/block coronary arteries",
-        "blood flow to heart muscle decreases",
-        "less oxygen and glucose reach cells",
-        "less aerobic respiration/energy release occurs",
-        "heart muscle cells may die, causing a heart attack."
+        "Deposits narrow/block coronary arteries.",
+        "Blood flow to heart muscle decreases.",
+        "Less oxygen and glucose reach cells.",
+        "Less aerobic respiration/energy release occurs.",
+        "Heart muscle cells may die, causing a heart attack."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-03UP6G2",
+      "databaseId": "BIO-CH01"
     },
     {
       "id": "CH02",
@@ -1266,17 +1525,19 @@
       "tier": "Both",
       "question": "Explain how a stent treats coronary heart disease and give one risk.",
       "marks": 3,
-      "modelAnswer": "Stent holds the artery open restores/increases blood and oxygen flow to heart muscle risk includes blood clot/thrombosis, infection or artery damage.",
+      "modelAnswer": "Stent holds the artery open.\nRestores/increases blood and oxygen flow to heart muscle.\nRisk includes blood clot/thrombosis, infection or artery damage.",
       "markingPoints": [
-        "Stent holds the artery open",
-        "restores/increases blood and oxygen flow to heart muscle",
-        "risk includes blood clot/thrombosis, infection or artery damage."
+        "Stent holds the artery open.",
+        "Restores/increases blood and oxygen flow to heart muscle.",
+        "Risk includes blood clot/thrombosis, infection or artery damage."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1OFM5L0",
+      "databaseId": "BIO-CH02"
     },
     {
       "id": "CH03",
@@ -1286,17 +1547,19 @@
       "tier": "Both",
       "question": "Explain how statins reduce the risk of coronary heart disease and give one disadvantage.",
       "marks": 3,
-      "modelAnswer": "Reduce blood cholesterol slow fatty-deposit formation and reduce narrowing disadvantages include long-term use, side effects or delayed effect.",
+      "modelAnswer": "Reduce blood cholesterol.\nSlow fatty-deposit formation and reduce narrowing.\nDisadvantages include long-term use, side effects or delayed effect.",
       "markingPoints": [
-        "Reduce blood cholesterol",
-        "slow fatty-deposit formation and reduce narrowing",
-        "disadvantages include long-term use, side effects or delayed effect."
+        "Reduce blood cholesterol.",
+        "Slow fatty-deposit formation and reduce narrowing.",
+        "Disadvantages include long-term use, side effects or delayed effect."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1XI3ESD",
+      "databaseId": "BIO-CH03"
     },
     {
       "id": "CH04",
@@ -1306,16 +1569,18 @@
       "tier": "Both",
       "question": "Explain how coronary bypass surgery improves oxygen supply to heart muscle.",
       "marks": 2,
-      "modelAnswer": "A blood vessel is grafted to provide a route around the blocked/narrowed artery this increases blood/oxygen supply to heart muscle.",
+      "modelAnswer": "A blood vessel is grafted to provide a route around the blocked/narrowed artery.\nThis increases blood/oxygen supply to heart muscle.",
       "markingPoints": [
-        "A blood vessel is grafted to provide a route around the blocked/narrowed artery",
-        "this increases blood/oxygen supply to heart muscle."
+        "A blood vessel is grafted to provide a route around the blocked/narrowed artery.",
+        "This increases blood/oxygen supply to heart muscle."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-15SQJHA",
+      "databaseId": "BIO-CH04"
     },
     {
       "id": "CH05",
@@ -1325,16 +1590,20 @@
       "tier": "Biology only",
       "question": "Evaluate the use of a donor heart compared with an artificial heart.",
       "marks": 6,
-      "modelAnswer": "Donor heart can give long-term, responsive pumping but donors are scarce major surgery, rejection and immunosuppressants are risks. Artificial hearts are immediately available and avoid rejection / may rest the heart, but require power, may cause clots/infection, can fail and are often temporary. A justified conclusion should use the patient's context.",
+      "modelAnswer": "Donor heart can give long-term, responsive pumping but donors are scarce.\nMajor surgery, rejection and immunosuppressants are risks.\nArtificial hearts are immediately available and avoid rejection / may rest the heart, but require power, may cause clots/infection, can fail and are often temporary.\nA justified conclusion should use the patient's context.",
       "markingPoints": [
-        "Donor heart can give long-term, responsive pumping but donors are scarce",
-        "major surgery, rejection and immunosuppressants are risks. Artificial hearts are immediately available and avoid rejection / may rest the heart, but require power, may cause clots/infection, can fail and are often temporary. A justified conclusion should use the patient's context."
+        "Donor heart can give long-term, responsive pumping but donors are scarce.",
+        "Major surgery, rejection and immunosuppressants are risks.",
+        "Artificial hearts are immediately available and avoid rejection / may rest the heart, but require power, may cause clots/infection, can fail and are often temporary.",
+        "A justified conclusion should use the patient's context."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1C1WVZV",
+      "databaseId": "BIO-CH05"
     },
     {
       "id": "CH06",
@@ -1344,15 +1613,18 @@
       "tier": "Both",
       "question": "Give one advantage and one disadvantage of a biological replacement heart valve compared with a mechanical valve.",
       "marks": 2,
-      "modelAnswer": "Biological valve: less need for lifelong anticoagulants / quieter, but wears out sooner. Mechanical valve: lasts longer, but may require anticoagulants and can cause clots.",
+      "modelAnswer": "Biological valve: less need for lifelong anticoagulants / quieter, but wears out sooner.\nMechanical valve: lasts longer, but may require anticoagulants and can cause clots.",
       "markingPoints": [
-        "Biological valve: less need for lifelong anticoagulants / quieter, but wears out sooner. Mechanical valve: lasts longer, but may require anticoagulants and can cause clots."
+        "Biological valve: less need for lifelong anticoagulants / quieter, but wears out sooner.",
+        "Mechanical valve: lasts longer, but may require anticoagulants and can cause clots."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO2/AO3",
       "specificationReference": "4.2.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-061WVZP",
+      "databaseId": "BIO-CH06"
     },
     {
       "id": "CH07",
@@ -1362,16 +1634,19 @@
       "tier": "Both",
       "question": "Suggest four risk factors for coronary heart disease and distinguish a risk factor from a direct cause.",
       "marks": 5,
-      "modelAnswer": "smoking, diet high in saturated fat, inactivity, obesity, high blood pressure, high blood cholesterol, genetic predisposition. A risk factor increases probability it does not prove that every exposed person will develop the disease or establish causation by itself.",
+      "modelAnswer": "Smoking, diet high in saturated fat, inactivity, obesity, high blood pressure, high blood cholesterol, genetic predisposition.\nA risk factor increases probability.\nIt does not prove that every exposed person will develop the disease or establish causation by itself.",
       "markingPoints": [
-        "smoking, diet high in saturated fat, inactivity, obesity, high blood pressure, high blood cholesterol, genetic predisposition. A risk factor increases probability",
-        "it does not prove that every exposed person will develop the disease or establish causation by itself."
+        "Smoking, diet high in saturated fat, inactivity, obesity, high blood pressure, high blood cholesterol, genetic predisposition.",
+        "A risk factor increases probability.",
+        "It does not prove that every exposed person will develop the disease or establish causation by itself."
       ],
       "commandWord": "Suggest",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0US2RNN",
+      "databaseId": "BIO-CH07"
     },
     {
       "id": "CH08",
@@ -1379,20 +1654,22 @@
       "subtopic": "2.2 Animal Tissues, Organs & Systems",
       "sourceSubtopic": "2.2 Animal Tissues, Organs & Systems",
       "tier": "Both",
-      "question": "A coronary artery blockage increases from 0% to 10%, 20%, 50% and 80%; measured blood flows are 100, 64, 42, 8 and 2 cm³ min⁻¹. Describe the relationship and explain its biological consequence.",
+      "question": "A coronary artery blockage increases from 0% to 10%, 20%, 50% and 80%; measured blood flows are 100, 64, 42, 8 and 2 cm³ min⁻¹.\nPart (a): Describe the relationship.\nPart (b): Explain its biological consequence.",
       "marks": 4,
-      "modelAnswer": "As percentage blockage increases, blood flow decreases the decrease is not linear and becomes severe at larger blockages less oxygen and glucose reach heart muscle aerobic respiration and energy release fall and cells may die, causing a heart attack.",
+      "modelAnswer": "As percentage blockage increases, blood flow decreases.\nThe decrease is not linear and becomes severe at larger blockages.\nLess oxygen and glucose reach heart muscle.\nAerobic respiration and energy release fall and cells may die, causing a heart attack.",
       "markingPoints": [
-        "As percentage blockage increases, blood flow decreases",
-        "the decrease is not linear and becomes severe at larger blockages",
-        "less oxygen and glucose reach heart muscle",
-        "aerobic respiration and energy release fall and cells may die, causing a heart attack."
+        "As percentage blockage increases, blood flow decreases.",
+        "The decrease is not linear and becomes severe at larger blockages.",
+        "Less oxygen and glucose reach heart muscle.",
+        "Aerobic respiration and energy release fall and cells may die, causing a heart attack."
       ],
       "commandWord": "Describe and explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1K7WFVK",
+      "databaseId": "BIO-CH08"
     },
     {
       "id": "HD01",
@@ -1410,7 +1687,9 @@
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-15PRJI8",
+      "databaseId": "BIO-HD01"
     },
     {
       "id": "HD02",
@@ -1420,16 +1699,18 @@
       "tier": "Both",
       "question": "Distinguish between communicable and non-communicable diseases and give one example of each.",
       "marks": 4,
-      "modelAnswer": "Communicable diseases are infectious and can be transmitted between organisms, e.g. measles non-communicable diseases are not infectious and cannot be transmitted, e.g. coronary heart disease or cancer.",
+      "modelAnswer": "Communicable diseases are infectious and can be transmitted between organisms, e.g. measles.\nNon-communicable diseases are not infectious and cannot be transmitted, e.g. coronary heart disease or cancer.",
       "markingPoints": [
-        "Communicable diseases are infectious and can be transmitted between organisms, e.g. measles",
-        "non-communicable diseases are not infectious and cannot be transmitted, e.g. coronary heart disease or cancer."
+        "Communicable diseases are infectious and can be transmitted between organisms, e.g. measles.",
+        "Non-communicable diseases are not infectious and cannot be transmitted, e.g. coronary heart disease or cancer."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0Q6J5LS",
+      "databaseId": "BIO-HD02"
     },
     {
       "id": "HD03",
@@ -1439,18 +1720,20 @@
       "tier": "Both",
       "question": "Give two ways in which one disease can make another health problem more likely.",
       "marks": 2,
-      "modelAnswer": "Examples: immune-system defects increase infection risk viruses can trigger cancers severe physical illness can cause mental ill health immune reactions to pathogens can trigger allergies.",
+      "modelAnswer": "Examples: immune-system defects increase infection risk.\nViruses can trigger cancers.\nSevere physical illness can cause mental ill health.\nImmune reactions to pathogens can trigger allergies.",
       "markingPoints": [
-        "Examples: immune-system defects increase infection risk",
-        "viruses can trigger cancers",
-        "severe physical illness can cause mental ill health",
-        "immune reactions to pathogens can trigger allergies."
+        "Examples: immune-system defects increase infection risk.",
+        "Viruses can trigger cancers.",
+        "Severe physical illness can cause mental ill health.",
+        "Immune reactions to pathogens can trigger allergies."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1QS1SQ2",
+      "databaseId": "BIO-HD03"
     },
     {
       "id": "HD04",
@@ -1460,17 +1743,19 @@
       "tier": "Both",
       "question": "Explain why a correlation between a risk factor and a disease does not prove that the factor causes the disease.",
       "marks": 3,
-      "modelAnswer": "A correlation is an association, not proof of causation another/confounding variable may affect both further controlled evidence and a plausible mechanism are needed.",
+      "modelAnswer": "A correlation is an association, not proof of causation.\nAnother/confounding variable may affect both.\nFurther controlled evidence and a plausible mechanism are needed.",
       "markingPoints": [
-        "A correlation is an association, not proof of causation",
-        "another/confounding variable may affect both",
-        "further controlled evidence and a plausible mechanism are needed."
+        "A correlation is an association, not proof of causation.",
+        "Another/confounding variable may affect both.",
+        "Further controlled evidence and a plausible mechanism are needed."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1RFSQ0U",
+      "databaseId": "BIO-HD04"
     },
     {
       "id": "HD05",
@@ -1480,17 +1765,19 @@
       "tier": "Both",
       "question": "State one disease associated with each of these risk factors: smoking, obesity and excessive alcohol consumption.",
       "marks": 3,
-      "modelAnswer": "Smoking: cardiovascular disease or lung cancer obesity: type 2 diabetes or cardiovascular disease excess alcohol: liver disease / impaired liver function.",
+      "modelAnswer": "Smoking: cardiovascular disease or lung cancer.\nObesity: type 2 diabetes or cardiovascular disease.\nExcess alcohol: liver disease / impaired liver function.",
       "markingPoints": [
-        "Smoking: cardiovascular disease or lung cancer",
-        "obesity: type 2 diabetes or cardiovascular disease",
-        "excess alcohol: liver disease / impaired liver function."
+        "Smoking: cardiovascular disease or lung cancer.",
+        "Obesity: type 2 diabetes or cardiovascular disease.",
+        "Excess alcohol: liver disease / impaired liver function."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0QN2TPF",
+      "databaseId": "BIO-HD05"
     },
     {
       "id": "HD06",
@@ -1500,17 +1787,23 @@
       "tier": "Both",
       "question": "In a study, 18 of 600 smokers and 6 of 600 non-smokers developed a disease. Calculate the percentage in each group and state what the data suggest.",
       "marks": 3,
-      "modelAnswer": "percentage = (part ÷ total) × 100. Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation. Answer: Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation.",
+      "modelAnswer": "Percentage = (part ÷ total) × 100.\nSmokers: 18/600 × 100 = 3%\nNon-smokers: 6/600 × 100 = 1%\nThe disease was three times as common / associated with smoking, but this alone does not prove causation.\nAnswer: Smokers: 18/600 × 100 = 3%\nNon-smokers: 6/600 × 100 = 1%\nThe disease was three times as common / associated with smoking, but this alone does not prove causation.",
       "markingPoints": [
-        "percentage = (part ÷ total) × 100.",
-        "Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation.",
-        "Answer: Smokers: 18/600 × 100 = 3%; non-smokers: 6/600 × 100 = 1%; the disease was three times as common / associated with smoking, but this alone does not prove causation."
+        "Percentage = (part ÷ total) × 100.",
+        "Smokers: 18/600 × 100 = 3%",
+        "Non-smokers: 6/600 × 100 = 1%",
+        "The disease was three times as common / associated with smoking, but this alone does not prove causation.",
+        "Answer: Smokers: 18/600 × 100 = 3%",
+        "Non-smokers: 6/600 × 100 = 1%",
+        "The disease was three times as common / associated with smoking, but this alone does not prove causation."
       ],
       "commandWord": "Calculate and interpret",
       "assessmentObjective": "AO2/AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1VWZNB2",
+      "databaseId": "BIO-HD06"
     },
     {
       "id": "HD08",
@@ -1520,17 +1813,19 @@
       "tier": "Both",
       "question": "Explain how smoking can increase the risk of cancer.",
       "marks": 3,
-      "modelAnswer": "Tobacco smoke contains carcinogens these cause mutations/DNA damage mutations in genes controlling the cell cycle can cause uncontrolled cell division and tumour formation.",
+      "modelAnswer": "Tobacco smoke contains carcinogens.\nThese cause mutations/DNA damage.\nMutations in genes controlling the cell cycle can cause uncontrolled cell division and tumour formation.",
       "markingPoints": [
-        "Tobacco smoke contains carcinogens",
-        "these cause mutations/DNA damage",
-        "mutations in genes controlling the cell cycle can cause uncontrolled cell division and tumour formation."
+        "Tobacco smoke contains carcinogens.",
+        "These cause mutations/DNA damage.",
+        "Mutations in genes controlling the cell cycle can cause uncontrolled cell division and tumour formation."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.2.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1TKV7Z4",
+      "databaseId": "BIO-HD08"
     },
     {
       "id": "PL01",
@@ -1540,18 +1835,20 @@
       "tier": "Both",
       "question": "Name four plant organs.",
       "marks": 4,
-      "modelAnswer": "Roots stem leaves flowers.",
+      "modelAnswer": "Roots.\nStem.\nLeaves.\nFlowers.",
       "markingPoints": [
-        "Roots",
-        "stem",
-        "leaves",
-        "flowers."
+        "Roots.",
+        "Stem.",
+        "Leaves.",
+        "Flowers."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CSMXGW",
+      "databaseId": "BIO-PL01"
     },
     {
       "id": "PL02",
@@ -1561,17 +1858,19 @@
       "tier": "Both",
       "question": "State two functions or adaptations of epidermal tissue in a leaf.",
       "marks": 2,
-      "modelAnswer": "Covers/protects the leaf transparent so light reaches palisade cells produces a waxy cuticle that reduces water loss.",
+      "modelAnswer": "Covers/protects the leaf.\nTransparent so light reaches palisade cells.\nProduces a waxy cuticle that reduces water loss.",
       "markingPoints": [
-        "Covers/protects the leaf",
-        "transparent so light reaches palisade cells",
-        "produces a waxy cuticle that reduces water loss."
+        "Covers/protects the leaf.",
+        "Transparent so light reaches palisade cells.",
+        "Produces a waxy cuticle that reduces water loss."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-133XNZV",
+      "databaseId": "BIO-PL02"
     },
     {
       "id": "PL03",
@@ -1581,17 +1880,19 @@
       "tier": "Both",
       "question": "Explain how palisade mesophyll tissue is adapted for photosynthesis.",
       "marks": 3,
-      "modelAnswer": "Near the upper surface where light intensity is high cells are tightly packed contain many chloroplasts to absorb light.",
+      "modelAnswer": "Near the upper surface where light intensity is high.\nCells are tightly packed.\nContain many chloroplasts to absorb light.",
       "markingPoints": [
-        "Near the upper surface where light intensity is high",
-        "cells are tightly packed",
-        "contain many chloroplasts to absorb light."
+        "Near the upper surface where light intensity is high.",
+        "Cells are tightly packed.",
+        "Contain many chloroplasts to absorb light."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1EFH72D",
+      "databaseId": "BIO-PL03"
     },
     {
       "id": "PL04",
@@ -1601,17 +1902,19 @@
       "tier": "Both",
       "question": "Explain how spongy mesophyll tissue is adapted for gas exchange.",
       "marks": 3,
-      "modelAnswer": "Large air spaces create internal surface area gases diffuse through the air spaces thin moist cell surfaces / short diffusion distance enable rapid exchange.",
+      "modelAnswer": "Large air spaces create internal surface area.\nGases diffuse through the air spaces.\nThin moist cell surfaces / short diffusion distance enable rapid exchange.",
       "markingPoints": [
-        "Large air spaces create internal surface area",
-        "gases diffuse through the air spaces",
-        "thin moist cell surfaces / short diffusion distance enable rapid exchange."
+        "Large air spaces create internal surface area.",
+        "Gases diffuse through the air spaces.",
+        "Thin moist cell surfaces / short diffusion distance enable rapid exchange."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0MTE3WS",
+      "databaseId": "BIO-PL04"
     },
     {
       "id": "PL05",
@@ -1621,16 +1924,18 @@
       "tier": "Both",
       "question": "State where meristem tissue is found and its function.",
       "marks": 2,
-      "modelAnswer": "Found at growing tips of roots and shoots cells divide by mitosis and differentiate to produce new tissues/growth.",
+      "modelAnswer": "Found at growing tips of roots and shoots.\nCells divide by mitosis and differentiate to produce new tissues/growth.",
       "markingPoints": [
-        "Found at growing tips of roots and shoots",
-        "cells divide by mitosis and differentiate to produce new tissues/growth."
+        "Found at growing tips of roots and shoots.",
+        "Cells divide by mitosis and differentiate to produce new tissues/growth."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0TOEU4Q",
+      "databaseId": "BIO-PL05"
     },
     {
       "id": "PL06",
@@ -1640,21 +1945,23 @@
       "tier": "Both",
       "question": "Explain how a leaf is adapted for photosynthesis and gas exchange.",
       "marks": 6,
-      "modelAnswer": "Broad/large surface area absorbs light thin gives short diffusion distance transparent epidermis/cuticle lets light through palisade cells contain many chloroplasts stomata air spaces permit diffusion veins supply water and remove sugars. linked points.",
+      "modelAnswer": "Broad/large surface area absorbs light.\nThin gives short diffusion distance.\nTransparent epidermis/cuticle lets light through.\nPalisade cells contain many chloroplasts.\nStomata.\nAir spaces permit diffusion.\nVeins supply water and remove sugars. linked points.",
       "markingPoints": [
-        "Broad/large surface area absorbs light",
-        "thin gives short diffusion distance",
-        "transparent epidermis/cuticle lets light through",
-        "palisade cells contain many chloroplasts",
-        "stomata",
-        "air spaces permit diffusion",
-        "veins supply water and remove sugars. linked points."
+        "Broad/large surface area absorbs light.",
+        "Thin gives short diffusion distance.",
+        "Transparent epidermis/cuticle lets light through.",
+        "Palisade cells contain many chloroplasts.",
+        "Stomata.",
+        "Air spaces permit diffusion.",
+        "Veins supply water and remove sugars. linked points."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-07X1JHJ",
+      "databaseId": "BIO-PL06"
     },
     {
       "id": "XT01",
@@ -1664,19 +1971,21 @@
       "tier": "Both",
       "question": "Describe the structure and function of xylem vessels.",
       "marks": 5,
-      "modelAnswer": "Transport water and mineral ions from roots to stems/leaves made from dead cells joined end-to-end no end walls/cell contents form a hollow tube walls contain lignin for strength/waterproofing support the plant.",
+      "modelAnswer": "Transport water and mineral ions from roots to stems/leaves.\nMade from dead cells joined end-to-end.\nNo end walls/cell contents form a hollow tube.\nWalls contain lignin for strength/waterproofing.\nSupport the plant.",
       "markingPoints": [
-        "Transport water and mineral ions from roots to stems/leaves",
-        "made from dead cells joined end-to-end",
-        "no end walls/cell contents form a hollow tube",
-        "walls contain lignin for strength/waterproofing",
-        "support the plant."
+        "Transport water and mineral ions from roots to stems/leaves.",
+        "Made from dead cells joined end-to-end.",
+        "No end walls/cell contents form a hollow tube.",
+        "Walls contain lignin for strength/waterproofing.",
+        "Support the plant."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-04MJZI0",
+      "databaseId": "BIO-XT01"
     },
     {
       "id": "XT02",
@@ -1686,17 +1995,19 @@
       "tier": "Both",
       "question": "Describe the function of phloem tissue.",
       "marks": 3,
-      "modelAnswer": "Transports dissolved sugars, mainly sucrose, and other assimilates movement is called translocation can occur from sources to sinks in either direction along the plant.",
+      "modelAnswer": "Transports dissolved sugars, mainly sucrose, and other assimilates.\nMovement is called translocation.\nCan occur from sources to sinks in either direction along the plant.",
       "markingPoints": [
-        "Transports dissolved sugars, mainly sucrose, and other assimilates",
-        "movement is called translocation",
-        "can occur from sources to sinks in either direction along the plant."
+        "Transports dissolved sugars, mainly sucrose, and other assimilates.",
+        "Movement is called translocation.",
+        "Can occur from sources to sinks in either direction along the plant."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-16FFC42",
+      "databaseId": "BIO-XT02"
     },
     {
       "id": "XT03",
@@ -1706,15 +2017,18 @@
       "tier": "Both",
       "question": "Compare transport in xylem and phloem.",
       "marks": 6,
-      "modelAnswer": "Xylem carries water/mineral ions mainly upward, in dead lignified vessels, as part of the transpiration stream. Phloem carries dissolved sugars/assimilates from sources to sinks, can move in either direction in living tissue, and translocation requires energy.",
+      "modelAnswer": "Xylem carries water/mineral ions mainly upward, in dead lignified vessels, as part of the transpiration stream.\nPhloem carries dissolved sugars/assimilates from sources to sinks, can move in either direction in living tissue, and translocation requires energy.",
       "markingPoints": [
-        "Xylem carries water/mineral ions mainly upward, in dead lignified vessels, as part of the transpiration stream. Phloem carries dissolved sugars/assimilates from sources to sinks, can move in either direction in living tissue, and translocation requires energy."
+        "Xylem carries water/mineral ions mainly upward, in dead lignified vessels, as part of the transpiration stream.",
+        "Phloem carries dissolved sugars/assimilates from sources to sinks, can move in either direction in living tissue, and translocation requires energy."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0GTWX8U",
+      "databaseId": "BIO-XT03"
     },
     {
       "id": "XT04",
@@ -1724,16 +2038,18 @@
       "tier": "Both",
       "question": "Explain how water and mineral ions enter root hair cells.",
       "marks": 4,
-      "modelAnswer": "Water enters by osmosis from higher water concentration in soil to lower water concentration in cells through a partially permeable membrane mineral ions may enter by active transport against their concentration gradient using energy from respiration.",
+      "modelAnswer": "Water enters by osmosis from higher water concentration in soil to lower water concentration in cells through a partially permeable membrane.\nMineral ions may enter by active transport against their concentration gradient using energy from respiration.",
       "markingPoints": [
-        "Water enters by osmosis from higher water concentration in soil to lower water concentration in cells through a partially permeable membrane",
-        "mineral ions may enter by active transport against their concentration gradient using energy from respiration."
+        "Water enters by osmosis from higher water concentration in soil to lower water concentration in cells through a partially permeable membrane.",
+        "Mineral ions may enter by active transport against their concentration gradient using energy from respiration."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0EX46UO",
+      "databaseId": "BIO-XT04"
     },
     {
       "id": "XT05",
@@ -1743,17 +2059,19 @@
       "tier": "Both",
       "question": "Explain how root hair cells are adapted for absorption.",
       "marks": 3,
-      "modelAnswer": "Long projection provides a large surface area thin wall gives a short transport distance many mitochondria release energy for active transport of mineral ions.",
+      "modelAnswer": "Long projection provides a large surface area.\nThin wall gives a short transport distance.\nMany mitochondria release energy for active transport of mineral ions.",
       "markingPoints": [
-        "Long projection provides a large surface area",
-        "thin wall gives a short transport distance",
-        "many mitochondria release energy for active transport of mineral ions."
+        "Long projection provides a large surface area.",
+        "Thin wall gives a short transport distance.",
+        "Many mitochondria release energy for active transport of mineral ions."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-01T58ID",
+      "databaseId": "BIO-XT05"
     },
     {
       "id": "TR01",
@@ -1763,16 +2081,18 @@
       "tier": "Both",
       "question": "Define transpiration.",
       "marks": 2,
-      "modelAnswer": "Loss of water vapour from leaves water evaporates from mesophyll cell surfaces and diffuses out through stomata.",
+      "modelAnswer": "Loss of water vapour from leaves.\nWater evaporates from mesophyll cell surfaces and diffuses out through stomata.",
       "markingPoints": [
-        "Loss of water vapour from leaves",
-        "water evaporates from mesophyll cell surfaces and diffuses out through stomata."
+        "Loss of water vapour from leaves.",
+        "Water evaporates from mesophyll cell surfaces and diffuses out through stomata."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-17QZBA9",
+      "databaseId": "BIO-TR01"
     },
     {
       "id": "TR02",
@@ -1782,19 +2102,21 @@
       "tier": "Both",
       "question": "Explain how water moves from the roots to the leaves in the transpiration stream.",
       "marks": 5,
-      "modelAnswer": "Water enters roots by osmosis moves into xylem evaporates from mesophyll surfaces water vapour diffuses out through stomata this water loss creates tension/pull that draws a continuous column of water upward through xylem.",
+      "modelAnswer": "Water enters roots by osmosis.\nMoves into xylem.\nEvaporates from mesophyll surfaces.\nWater vapour diffuses out through stomata.\nThis water loss creates tension/pull that draws a continuous column of water upward through xylem.",
       "markingPoints": [
-        "Water enters roots by osmosis",
-        "moves into xylem",
-        "evaporates from mesophyll surfaces",
-        "water vapour diffuses out through stomata",
-        "this water loss creates tension/pull that draws a continuous column of water upward through xylem."
+        "Water enters roots by osmosis.",
+        "Moves into xylem.",
+        "Evaporates from mesophyll surfaces.",
+        "Water vapour diffuses out through stomata.",
+        "This water loss creates tension/pull that draws a continuous column of water upward through xylem."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1NV7BY3",
+      "databaseId": "BIO-TR02"
     },
     {
       "id": "TR03",
@@ -1804,17 +2126,19 @@
       "tier": "Both",
       "question": "Explain why increasing light intensity usually increases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Stomata open for carbon dioxide uptake/photosynthesis more open stomata increase the area/pathway for water-vapour diffusion more water is lost.",
+      "modelAnswer": "Stomata open for carbon dioxide uptake/photosynthesis.\nMore open stomata increase the area/pathway for water-vapour diffusion.\nMore water is lost.",
       "markingPoints": [
-        "Stomata open for carbon dioxide uptake/photosynthesis",
-        "more open stomata increase the area/pathway for water-vapour diffusion",
-        "more water is lost."
+        "Stomata open for carbon dioxide uptake/photosynthesis.",
+        "More open stomata increase the area/pathway for water-vapour diffusion.",
+        "More water is lost."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VX9FL8",
+      "databaseId": "BIO-TR03"
     },
     {
       "id": "TR04",
@@ -1824,17 +2148,19 @@
       "tier": "Both",
       "question": "Explain why increasing temperature usually increases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Water molecules gain kinetic energy evaporation from mesophyll surfaces increases water vapour diffuses out faster.",
+      "modelAnswer": "Water molecules gain kinetic energy.\nEvaporation from mesophyll surfaces increases.\nWater vapour diffuses out faster.",
       "markingPoints": [
-        "Water molecules gain kinetic energy",
-        "evaporation from mesophyll surfaces increases",
-        "water vapour diffuses out faster."
+        "Water molecules gain kinetic energy.",
+        "Evaporation from mesophyll surfaces increases.",
+        "Water vapour diffuses out faster."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1T1245Y",
+      "databaseId": "BIO-TR04"
     },
     {
       "id": "TR05",
@@ -1844,17 +2170,19 @@
       "tier": "Both",
       "question": "Explain why increasing humidity decreases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Water-vapour concentration outside the leaf increases the concentration gradient between leaf air spaces and outside decreases diffusion of water vapour slows.",
+      "modelAnswer": "Water-vapour concentration outside the leaf increases.\nThe concentration gradient between leaf air spaces and outside decreases.\nDiffusion of water vapour slows.",
       "markingPoints": [
-        "Water-vapour concentration outside the leaf increases",
-        "the concentration gradient between leaf air spaces and outside decreases",
-        "diffusion of water vapour slows."
+        "Water-vapour concentration outside the leaf increases.",
+        "The concentration gradient between leaf air spaces and outside decreases.",
+        "Diffusion of water vapour slows."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1RAPTVN",
+      "databaseId": "BIO-TR05"
     },
     {
       "id": "TR06",
@@ -1864,17 +2192,19 @@
       "tier": "Both",
       "question": "Explain why increasing air movement increases transpiration rate.",
       "marks": 3,
-      "modelAnswer": "Moving air removes water vapour from around the leaf maintains a steep concentration gradient water vapour diffuses out faster.",
+      "modelAnswer": "Moving air removes water vapour from around the leaf.\nMaintains a steep concentration gradient.\nWater vapour diffuses out faster.",
       "markingPoints": [
-        "Moving air removes water vapour from around the leaf",
-        "maintains a steep concentration gradient",
-        "water vapour diffuses out faster."
+        "Moving air removes water vapour from around the leaf.",
+        "Maintains a steep concentration gradient.",
+        "Water vapour diffuses out faster."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0J9OSJV",
+      "databaseId": "BIO-TR06"
     },
     {
       "id": "TR07",
@@ -1884,18 +2214,20 @@
       "tier": "Both",
       "question": "Explain how guard cells control gas exchange and water loss.",
       "marks": 4,
-      "modelAnswer": "Guard cells change shape/turgor when turgid they open the stoma and when flaccid they close it open stomata closure reduces water loss.",
+      "modelAnswer": "Guard cells change shape/turgor.\nWhen turgid they open the stoma and when flaccid they close it.\nOpen stomata.\nClosure reduces water loss.",
       "markingPoints": [
-        "Guard cells change shape/turgor",
-        "when turgid they open the stoma and when flaccid they close it",
-        "open stomata",
-        "closure reduces water loss."
+        "Guard cells change shape/turgor.",
+        "When turgid they open the stoma and when flaccid they close it.",
+        "Open stomata.",
+        "Closure reduces water loss."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0QIA51R",
+      "databaseId": "BIO-TR07"
     },
     {
       "id": "TR08",
@@ -1905,16 +2237,18 @@
       "tier": "Both",
       "question": "Explain why many terrestrial plants have more stomata on the lower surface of the leaf.",
       "marks": 2,
-      "modelAnswer": "The lower surface is cooler/less exposed to wind and sun this reduces evaporation and water loss while allowing gas exchange.",
+      "modelAnswer": "The lower surface is cooler/less exposed to wind and sun.\nThis reduces evaporation and water loss while allowing gas exchange.",
       "markingPoints": [
-        "The lower surface is cooler/less exposed to wind and sun",
-        "this reduces evaporation and water loss while allowing gas exchange."
+        "The lower surface is cooler/less exposed to wind and sun.",
+        "This reduces evaporation and water loss while allowing gas exchange."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0BGQ8XK",
+      "databaseId": "BIO-TR08"
     },
     {
       "id": "TR09",
@@ -1922,19 +2256,28 @@
       "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Higher",
-      "question": "A circular microscope field has diameter 0.375 mm and contains four open stomata. Calculate the number of open stomata per mm². Use area = πr² and give the final answer to two significant figures.",
+      "question": "A circular microscope field has diameter 0.375 mm and contains four open stomata.\nPart (a): Calculate the number of open stomata per mm².\nPart (b): Use area = πr².\nPart (c): Give the final answer to two significant figures.",
       "marks": 4,
-      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2. Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻². Answer: Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻².",
+      "modelAnswer": "Area of a circle = πr²\nR = diameter ÷ 2.\nRadius = 0.1875 mm\nArea = π × 0.1875² = 0.1104 mm²\nDensity = 4 ÷ 0.1104 = 36.2...\nTo two significant figures = 36 stomata mm⁻².\nAnswer: Radius = 0.1875 mm\nArea = π × 0.1875² = 0.1104 mm²\nDensity = 4 ÷ 0.1104 = 36.2...\nTo two significant figures = 36 stomata mm⁻².",
       "markingPoints": [
-        "area of a circle = πr²; r = diameter ÷ 2.",
-        "Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻².",
-        "Answer: Radius = 0.1875 mm; area = π × 0.1875² = 0.1104 mm²; density = 4 ÷ 0.1104 = 36.2...; to two significant figures = 36 stomata mm⁻²."
+        "Area of a circle = πr²",
+        "R = diameter ÷ 2.",
+        "Radius = 0.1875 mm",
+        "Area = π × 0.1875² = 0.1104 mm²",
+        "Density = 4 ÷ 0.1104 = 36.2...",
+        "To two significant figures = 36 stomata mm⁻².",
+        "Answer: Radius = 0.1875 mm",
+        "Area = π × 0.1875² = 0.1104 mm²",
+        "Density = 4 ÷ 0.1104 = 36.2...",
+        "To two significant figures = 36 stomata mm⁻²."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0I4OO4M",
+      "databaseId": "BIO-TR09"
     },
     {
       "id": "TR10",
@@ -1942,20 +2285,23 @@
       "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Higher",
-      "question": "Leaf epidermis in salt solutions of 0.0, 0.1, 0.2, 0.3, 0.4 and 0.5 mol dm⁻³ has 86, 84, 72, 60, 38 and 12% open stomata. Estimate the concentration that would give 50% open stomata and explain how potassium ions can cause a stoma to open.",
+      "question": "Leaf epidermis in salt solutions of 0.0, 0.1, 0.2, 0.3, 0.4 and 0.5 mol dm⁻³ has 86, 84, 72, 60, 38 and 12% open stomata.\nEstimate the concentration that would give 50% open stomata\nPart (a): Explain how potassium ions can cause a stoma to open.",
       "marks": 5,
-      "modelAnswer": "50% lies between 0.3 and 0.4 mol dm⁻³ linear interpolation gives about 0.35 mol dm⁻³. Potassium ions enter guard cells, increasing solute concentration/lowering water potential water enters by osmosis guard cells become turgid and curve because the inner wall is less flexible, opening the pore.",
+      "modelAnswer": "50% lies between 0.3 and 0.4 mol dm⁻³\nLinear interpolation gives about 0.35 mol dm⁻³.\nPotassium ions enter guard cells, increasing solute concentration/lowering water potential.\nWater enters by osmosis.\nGuard cells become turgid and curve because the inner wall is less flexible, opening the pore.",
       "markingPoints": [
         "50% lies between 0.3 and 0.4 mol dm⁻³",
-        "linear interpolation gives about 0.35 mol dm⁻³. Potassium ions enter guard cells, increasing solute concentration/lowering water potential",
-        "water enters by osmosis",
-        "guard cells become turgid and curve because the inner wall is less flexible, opening the pore."
+        "Linear interpolation gives about 0.35 mol dm⁻³.",
+        "Potassium ions enter guard cells, increasing solute concentration/lowering water potential.",
+        "Water enters by osmosis.",
+        "Guard cells become turgid and curve because the inner wall is less flexible, opening the pore."
       ],
       "commandWord": "Estimate and explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0RO57T2",
+      "databaseId": "BIO-TR10"
     },
     {
       "id": "TR11",
@@ -1963,19 +2309,21 @@
       "subtopic": "2.3 Plant Tissues, Organs & Systems",
       "sourceSubtopic": "2.3 Plant Tissues, Organs & Systems",
       "tier": "Higher",
-      "question": "Plants grown at increasing carbon dioxide concentration developed fewer stomata per mm². Describe this relationship and suggest an adaptive explanation.",
+      "question": "Plants grown at increasing carbon dioxide concentration developed fewer stomata per mm².\nDescribe this relationship and suggest an adaptive explanation.",
       "marks": 3,
-      "modelAnswer": "There is a negative correlation: as carbon dioxide concentration increases, stomatal density decreases sufficient carbon dioxide can enter through fewer stomata fewer stomata reduce water loss while still permitting photosynthesis.",
+      "modelAnswer": "There is a negative correlation: as carbon dioxide concentration increases, stomatal density decreases.\nSufficient carbon dioxide can enter through fewer stomata.\nFewer stomata reduce water loss while still permitting photosynthesis.",
       "markingPoints": [
-        "There is a negative correlation: as carbon dioxide concentration increases, stomatal density decreases",
-        "sufficient carbon dioxide can enter through fewer stomata",
-        "fewer stomata reduce water loss while still permitting photosynthesis."
+        "There is a negative correlation: as carbon dioxide concentration increases, stomatal density decreases.",
+        "Sufficient carbon dioxide can enter through fewer stomata.",
+        "Fewer stomata reduce water loss while still permitting photosynthesis."
       ],
       "commandWord": "Describe and suggest",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0IBV7EA",
+      "databaseId": "BIO-TR11"
     },
     {
       "id": "PO01",
@@ -1985,22 +2333,24 @@
       "tier": "Both",
       "question": "Describe how to use a bubble potometer to investigate the effect of wind speed on water uptake.",
       "marks": 6,
-      "modelAnswer": "Cut a leafy shoot under water and assemble the apparatus under water seal joints so it is airtight/watertight introduce an air bubble place a fan at measured distances/use set wind speeds measure bubble distance in a fixed time reset and repeat keep temperature, light intensity, humidity and leaf area constant calculate mean rate.",
+      "modelAnswer": "Cut a leafy shoot under water and assemble the apparatus under water.\nSeal joints so it is airtight/watertight.\nIntroduce an air bubble.\nPlace a fan at measured distances/use set wind speeds.\nMeasure bubble distance in a fixed time.\nReset and repeat.\nKeep temperature, light intensity, humidity and leaf area constant.\nCalculate mean rate.",
       "markingPoints": [
-        "Cut a leafy shoot under water and assemble the apparatus under water",
-        "seal joints so it is airtight/watertight",
-        "introduce an air bubble",
-        "place a fan at measured distances/use set wind speeds",
-        "measure bubble distance in a fixed time",
-        "reset and repeat",
-        "keep temperature, light intensity, humidity and leaf area constant",
-        "calculate mean rate."
+        "Cut a leafy shoot under water and assemble the apparatus under water.",
+        "Seal joints so it is airtight/watertight.",
+        "Introduce an air bubble.",
+        "Place a fan at measured distances/use set wind speeds.",
+        "Measure bubble distance in a fixed time.",
+        "Reset and repeat.",
+        "Keep temperature, light intensity, humidity and leaf area constant.",
+        "Calculate mean rate."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO3",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0RQOE7P",
+      "databaseId": "BIO-PO01"
     },
     {
       "id": "PO02",
@@ -2010,17 +2360,22 @@
       "tier": "Both",
       "question": "In 5 minutes, an air bubble moves 36 mm along a capillary tube with cross-sectional area 0.50 mm². Calculate the volume of water taken up per minute.",
       "marks": 3,
-      "modelAnswer": "volume = distance × cross-sectional area; rate = volume ÷ time. Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹. Answer: Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
+      "modelAnswer": "Volume = distance × cross-sectional area\nRate = volume ÷ time.\nVolume = distance × area = 36 × 0.50 = 18 mm³\nRate = 18 ÷ 5 = 3.6 mm³ min⁻¹.\nAnswer: Volume = distance × area = 36 × 0.50 = 18 mm³\nRate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
       "markingPoints": [
-        "volume = distance × cross-sectional area; rate = volume ÷ time.",
-        "Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
-        "Answer: Volume = distance × area = 36 × 0.50 = 18 mm³; rate = 18 ÷ 5 = 3.6 mm³ min⁻¹."
+        "Volume = distance × cross-sectional area",
+        "Rate = volume ÷ time.",
+        "Volume = distance × area = 36 × 0.50 = 18 mm³",
+        "Rate = 18 ÷ 5 = 3.6 mm³ min⁻¹.",
+        "Answer: Volume = distance × area = 36 × 0.50 = 18 mm³",
+        "Rate = 18 ÷ 5 = 3.6 mm³ min⁻¹."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1HVMTT3",
+      "databaseId": "BIO-PO02"
     },
     {
       "id": "PO03",
@@ -2030,16 +2385,18 @@
       "tier": "Both",
       "question": "Explain why a potometer does not directly measure transpiration rate.",
       "marks": 2,
-      "modelAnswer": "It measures water uptake, not water loss some absorbed water is used in photosynthesis, growth or maintaining turgor rather than being transpired.",
+      "modelAnswer": "It measures water uptake, not water loss.\nSome absorbed water is used in photosynthesis, growth or maintaining turgor rather than being transpired.",
       "markingPoints": [
-        "It measures water uptake, not water loss",
-        "some absorbed water is used in photosynthesis, growth or maintaining turgor rather than being transpired."
+        "It measures water uptake, not water loss.",
+        "Some absorbed water is used in photosynthesis, growth or maintaining turgor rather than being transpired."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0KTH7GY",
+      "databaseId": "BIO-PO03"
     },
     {
       "id": "PO04",
@@ -2049,16 +2406,18 @@
       "tier": "Both",
       "question": "Explain why the potometer apparatus must be sealed and the shoot cut under water.",
       "marks": 2,
-      "modelAnswer": "Sealing prevents leaks/air entry so bubble movement is due to water uptake cutting under water prevents air entering and breaking the continuous xylem water column.",
+      "modelAnswer": "Sealing prevents leaks/air entry so bubble movement is due to water uptake.\nCutting under water prevents air entering and breaking the continuous xylem water column.",
       "markingPoints": [
-        "Sealing prevents leaks/air entry so bubble movement is due to water uptake",
-        "cutting under water prevents air entering and breaking the continuous xylem water column."
+        "Sealing prevents leaks/air entry so bubble movement is due to water uptake.",
+        "Cutting under water prevents air entering and breaking the continuous xylem water column."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-075ARX4",
+      "databaseId": "BIO-PO04"
     },
     {
       "id": "PO05",
@@ -2068,17 +2427,21 @@
       "tier": "Higher",
       "question": "A plant loses 24 cm³ of water in 3 hours. Calculate the mean rate in cm³ per minute and give the answer in standard form.",
       "marks": 3,
-      "modelAnswer": "mean rate = total change ÷ total time. 3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹. Answer: 3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
+      "modelAnswer": "Mean rate = total change ÷ total time.\n3 hours = 180 minutes\n24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.\nAnswer: 3 hours = 180 minutes\n24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
       "markingPoints": [
-        "mean rate = total change ÷ total time.",
-        "3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
-        "Answer: 3 hours = 180 minutes; 24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹."
+        "Mean rate = total change ÷ total time.",
+        "3 hours = 180 minutes",
+        "24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹.",
+        "Answer: 3 hours = 180 minutes",
+        "24 ÷ 180 = 0.133... cm³ min⁻¹ = 1.33 × 10⁻¹ cm³ min⁻¹."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0FILD0B",
+      "databaseId": "BIO-PO05"
     },
     {
       "id": "PO07",
@@ -2088,21 +2451,23 @@
       "tier": "Both",
       "question": "Plan an investigation using change in mass to compare water loss from shoots at 20 °C without a fan, 20 °C with a fan, 35 °C without a fan and 35 °C with a fan.",
       "marks": 6,
-      "modelAnswer": "Use shoots of the same species with equal leaf area place each in equal water volumes and cover/seal the water surface to prevent direct evaporation record initial mass expose for the same time record final mass and calculate mass loss per unit time control light and humidity repeat and calculate means.",
+      "modelAnswer": "Use shoots of the same species with equal leaf area.\nPlace each in equal water volumes and cover/seal the water surface to prevent direct evaporation.\nRecord initial mass.\nExpose for the same time.\nRecord final mass and calculate mass loss per unit time.\nControl light and humidity.\nRepeat and calculate means.",
       "markingPoints": [
-        "Use shoots of the same species with equal leaf area",
-        "place each in equal water volumes and cover/seal the water surface to prevent direct evaporation",
-        "record initial mass",
-        "expose for the same time",
-        "record final mass and calculate mass loss per unit time",
-        "control light and humidity",
-        "repeat and calculate means."
+        "Use shoots of the same species with equal leaf area.",
+        "Place each in equal water volumes and cover/seal the water surface to prevent direct evaporation.",
+        "Record initial mass.",
+        "Expose for the same time.",
+        "Record final mass and calculate mass loss per unit time.",
+        "Control light and humidity.",
+        "Repeat and calculate means."
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-16M8EAJ",
+      "databaseId": "BIO-PO07"
     },
     {
       "id": "PO08",
@@ -2112,16 +2477,18 @@
       "tier": "Both",
       "question": "Explain why the same shoot or shoots with the same total leaf area should be used when comparing potometer conditions.",
       "marks": 2,
-      "modelAnswer": "Different shoots can have different leaf areas, numbers of leaves and stomata this would change water uptake independently of the tested condition, so leaf area must be controlled for a valid comparison.",
+      "modelAnswer": "Different shoots can have different leaf areas, numbers of leaves and stomata.\nThis would change water uptake independently of the tested condition, so leaf area must be controlled for a valid comparison.",
       "markingPoints": [
-        "Different shoots can have different leaf areas, numbers of leaves and stomata",
-        "this would change water uptake independently of the tested condition, so leaf area must be controlled for a valid comparison."
+        "Different shoots can have different leaf areas, numbers of leaves and stomata.",
+        "This would change water uptake independently of the tested condition, so leaf area must be controlled for a valid comparison."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-18K0I84",
+      "databaseId": "BIO-PO08"
     },
     {
       "id": "OR-EX1",
@@ -2131,15 +2498,19 @@
       "tier": "Both",
       "question": "Explain how the structure of an alveolus and its blood supply maintain a rapid rate of oxygen diffusion during exercise.",
       "marks": 5,
-      "modelAnswer": "Large surface area and thin alveolar/capillary walls give a short diffusion distance. Ventilation maintains high alveolar oxygen concentration. A dense capillary network and rapid blood flow remove absorbed oxygen, maintaining a steep concentration gradient.",
+      "modelAnswer": "Large surface area and thin alveolar/capillary walls give a short diffusion distance.\nVentilation maintains high alveolar oxygen concentration.\nA dense capillary network and rapid blood flow remove absorbed oxygen, maintaining a steep concentration gradient.",
       "markingPoints": [
-        "Large surface area and thin alveolar/capillary walls give a short diffusion distance. Ventilation maintains high alveolar oxygen concentration. A dense capillary network and rapid blood flow remove absorbed oxygen, maintaining a steep concentration gradient."
+        "Large surface area and thin alveolar/capillary walls give a short diffusion distance.",
+        "Ventilation maintains high alveolar oxygen concentration.",
+        "A dense capillary network and rapid blood flow remove absorbed oxygen, maintaining a steep concentration gradient."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
       "specificationReference": "4.2.2.2, 4.2.2.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-04J7I1P",
+      "databaseId": "BIO-OR-EX1"
     },
     {
       "id": "OR-EX2",
@@ -2149,15 +2520,19 @@
       "tier": "Both",
       "question": "Evaluate using a stent rather than a heart transplant to treat coronary heart disease.",
       "marks": 6,
-      "modelAnswer": "Stents widen coronary arteries, restore blood flow quickly, are less invasive and avoid donor shortage/rejection, but carry surgical risks and do not remove underlying causes. A transplant can replace a severely damaged heart but needs a donor, major surgery and immunosuppressants, with infection and rejection risks. Choice depends on disease severity.",
+      "modelAnswer": "Stents widen coronary arteries, restore blood flow quickly, are less invasive and avoid donor shortage/rejection, but carry surgical risks and do not remove underlying causes.\nA transplant can replace a severely damaged heart but needs a donor, major surgery and immunosuppressants, with infection and rejection risks.\nChoice depends on disease severity.",
       "markingPoints": [
-        "Stents widen coronary arteries, restore blood flow quickly, are less invasive and avoid donor shortage/rejection, but carry surgical risks and do not remove underlying causes. A transplant can replace a severely damaged heart but needs a donor, major surgery and immunosuppressants, with infection and rejection risks. Choice depends on disease severity."
+        "Stents widen coronary arteries, restore blood flow quickly, are less invasive and avoid donor shortage/rejection, but carry surgical risks and do not remove underlying causes.",
+        "A transplant can replace a severely damaged heart but needs a donor, major surgery and immunosuppressants, with infection and rejection risks.",
+        "Choice depends on disease severity."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.4",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-042P16V",
+      "databaseId": "BIO-OR-EX2"
     },
     {
       "id": "PK01",
@@ -2167,19 +2542,24 @@
       "tier": "Both",
       "question": "Describe the tests for starch, reducing sugars, protein and lipids, including each positive result.",
       "marks": 8,
-      "modelAnswer": "Starch: add iodine solution blue-black is positive. Reducing sugar: add Benedict’s solution and heat in a water bath green/yellow/orange/brick-red precipitate is positive. Protein: add Biuret reagent lilac/purple is positive. Lipid: add ethanol, shake, then add water a white cloudy emulsion is positive.",
+      "modelAnswer": "Starch: add iodine solution.\nBlue-black is positive.\nReducing sugar: add Benedict’s solution and heat in a water bath.\nGreen/yellow/orange/brick-red precipitate is positive.\nProtein: add Biuret reagent.\nLilac/purple is positive.\nLipid: add ethanol, shake, then add water.\nA white cloudy emulsion is positive.",
       "markingPoints": [
-        "Starch: add iodine solution",
-        "blue-black is positive. Reducing sugar: add Benedict’s solution and heat in a water bath",
-        "green/yellow/orange/brick-red precipitate is positive. Protein: add Biuret reagent",
-        "lilac/purple is positive. Lipid: add ethanol, shake, then add water",
-        "a white cloudy emulsion is positive."
+        "Starch: add iodine solution.",
+        "Blue-black is positive.",
+        "Reducing sugar: add Benedict’s solution and heat in a water bath.",
+        "Green/yellow/orange/brick-red precipitate is positive.",
+        "Protein: add Biuret reagent.",
+        "Lilac/purple is positive.",
+        "Lipid: add ethanol, shake, then add water.",
+        "A white cloudy emulsion is positive."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 4–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0LW90WM",
+      "databaseId": "BIO-PK01"
     },
     {
       "id": "PK02",
@@ -2189,15 +2569,19 @@
       "tier": "Both",
       "question": "Explain why a positive control and a negative control are useful in food tests.",
       "marks": 4,
-      "modelAnswer": "A positive control contains the nutrient and shows that the reagents and procedure can produce the expected result. A negative control lacks the nutrient and shows the colour when no nutrient is present. Together they make interpretation more valid.",
+      "modelAnswer": "A positive control contains the nutrient and shows that the reagents and procedure can produce the expected result.\nA negative control lacks the nutrient and shows the colour when no nutrient is present.\nTogether they make interpretation more valid.",
       "markingPoints": [
-        "A positive control contains the nutrient and shows that the reagents and procedure can produce the expected result. A negative control lacks the nutrient and shows the colour when no nutrient is present. Together they make interpretation more valid."
+        "A positive control contains the nutrient and shows that the reagents and procedure can produce the expected result.",
+        "A negative control lacks the nutrient and shows the colour when no nutrient is present.",
+        "Together they make interpretation more valid."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0B8BVUC",
+      "databaseId": "BIO-PK02"
     },
     {
       "id": "PK03",
@@ -2207,22 +2591,24 @@
       "tier": "Both",
       "question": "Plan an investigation of the effect of pH on the rate at which amylase breaks down starch.",
       "marks": 6,
-      "modelAnswer": "Use buffer solutions of different pH keep amylase and starch concentrations and volumes constant keep temperature constant in a water bath mix amylase and starch and start timing place samples onto iodine at regular intervals record the time when iodine stays orange-brown calculate rate as 1 ÷ time repeat and calculate means.",
+      "modelAnswer": "Use buffer solutions of different pH.\nKeep amylase and starch concentrations and volumes constant.\nKeep temperature constant in a water bath.\nMix amylase and starch and start timing.\nPlace samples onto iodine at regular intervals.\nRecord the time when iodine stays orange-brown.\nCalculate rate as 1 ÷ time\nRepeat and calculate means.",
       "markingPoints": [
-        "Use buffer solutions of different pH",
-        "keep amylase and starch concentrations and volumes constant",
-        "keep temperature constant in a water bath",
-        "mix amylase and starch and start timing",
-        "place samples onto iodine at regular intervals",
-        "record the time when iodine stays orange-brown",
-        "calculate rate as 1 ÷ time",
-        "repeat and calculate means."
+        "Use buffer solutions of different pH.",
+        "Keep amylase and starch concentrations and volumes constant.",
+        "Keep temperature constant in a water bath.",
+        "Mix amylase and starch and start timing.",
+        "Place samples onto iodine at regular intervals.",
+        "Record the time when iodine stays orange-brown.",
+        "Calculate rate as 1 ÷ time",
+        "Repeat and calculate means."
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical + disciplinary"
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "BIO-FAM-1CQMF7R",
+      "databaseId": "BIO-PK03"
     },
     {
       "id": "PK04",
@@ -2232,15 +2618,18 @@
       "tier": "Both",
       "question": "Explain why deciding when iodine no longer turns blue-black can reduce the precision of an amylase investigation.",
       "marks": 3,
-      "modelAnswer": "The colour judgement is subjective and samples are taken only at intervals, so the true end point lies between observations. Use a colorimeter or shorter fixed sampling intervals to obtain a more objective or higher-resolution measurement.",
+      "modelAnswer": "The colour judgement is subjective and samples are taken only at intervals, so the true end point lies between observations.\nUse a colorimeter or shorter fixed sampling intervals to obtain a more objective or higher-resolution measurement.",
       "markingPoints": [
-        "The colour judgement is subjective and samples are taken only at intervals, so the true end point lies between observations. Use a colorimeter or shorter fixed sampling intervals to obtain a more objective or higher-resolution measurement."
+        "The colour judgement is subjective and samples are taken only at intervals, so the true end point lies between observations.",
+        "Use a colorimeter or shorter fixed sampling intervals to obtain a more objective or higher-resolution measurement."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-08MP66G",
+      "databaseId": "BIO-PK04"
     },
     {
       "id": "PK05",
@@ -2250,15 +2639,18 @@
       "tier": "Both",
       "question": "Explain why the reaction mixtures should reach the water-bath temperature before an enzyme investigation begins.",
       "marks": 3,
-      "modelAnswer": "Enzyme activity depends on temperature. If mixtures begin at different temperatures, temperature becomes a confounding variable, so differences cannot be attributed only to the independent variable.",
+      "modelAnswer": "Enzyme activity depends on temperature.\nIf mixtures begin at different temperatures, temperature becomes a confounding variable, so differences cannot be attributed only to the independent variable.",
       "markingPoints": [
-        "Enzyme activity depends on temperature. If mixtures begin at different temperatures, temperature becomes a confounding variable, so differences cannot be attributed only to the independent variable."
+        "Enzyme activity depends on temperature.",
+        "If mixtures begin at different temperatures, temperature becomes a confounding variable, so differences cannot be attributed only to the independent variable."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0BWDMAQ",
+      "databaseId": "BIO-PK05"
     },
     {
       "id": "PK06",
@@ -2268,15 +2660,19 @@
       "tier": "Both",
       "question": "Replicate enzyme results vary slightly at the same pH. Distinguish an anomalous result from normal random variation.",
       "marks": 3,
-      "modelAnswer": "Random variation gives a small scatter around the pattern. An anomaly lies well away from the other repeats or overall trend. It should be checked and repeated rather than automatically deleted.",
+      "modelAnswer": "Random variation gives a small scatter around the pattern.\nAn anomaly lies well away from the other repeats or overall trend.\nIt should be checked and repeated rather than automatically deleted.",
       "markingPoints": [
-        "Random variation gives a small scatter around the pattern. An anomaly lies well away from the other repeats or overall trend. It should be checked and repeated rather than automatically deleted."
+        "Random variation gives a small scatter around the pattern.",
+        "An anomaly lies well away from the other repeats or overall trend.",
+        "It should be checked and repeated rather than automatically deleted."
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO3",
       "specificationReference": "4.2.2.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-13ES46N",
+      "databaseId": "BIO-PK06"
     }
   ]
 }

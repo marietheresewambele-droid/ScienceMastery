@@ -24,18 +24,47 @@ export function classifyOutcome({ rating, hintsUsed }: AdaptiveEvidence): Adapti
   return "independent_correct";
 }
 
-export function getAdaptiveHints(question: MasteryQuestion): [string, string, string] {
-  if (question.adaptiveHints) return question.adaptiveHints;
-  const command = question.commandWord || "answer";
-  const points = question.markingPoints.filter(Boolean);
-  const structure = `${command}: plan ${question.marks} distinct marking point${question.marks === 1 ? "" : "s"}. Use the scientific terms in the question.`;
-  const guided = question.subtopic
-    ? `Focus on ${question.subtopic}. State the relevant scientific idea, then apply it directly to this situation.`
-    : "State the relevant scientific idea, then apply it directly to the situation in the question.";
-  const scaffold = points.length
-    ? `Begin with this approved marking point, then complete the explanation yourself: ${points[0]}`
-    : `Use the exact scientific term needed for this ${question.assessmentObjective} question.`;
-  return [structure, guided, scaffold];
+const stopWords = new Set("a an and are as at be because by can for from has have if in is it of on or that the their then this to use was were with you your".split(" "));
+const scientificWord = (word: string) => {
+  const clean = word.replace(/[^A-Za-z]/g, "").toLowerCase();
+  return clean.length >= 5 && !stopWords.has(clean);
+};
+
+function answerSource(question: MasteryQuestion) {
+  return (question.modelAnswer || question.markingPoints.filter(Boolean).join(" ")).trim();
+}
+
+function isCalculation(question: MasteryQuestion, source: string) {
+  return /\d/.test(question.question) && /\d/.test(source) && /[=÷×*/^]/.test(source);
+}
+
+function calculationHint(question: MasteryQuestion, source: string, revealValues: boolean) {
+  const formula = source.match(/[^.!?]*(?:=|÷|×|\*|\/|\^)[^.!?]*/)?.[0]?.trim() || source;
+  const result = formula.match(/^(.+?=\s*[^=]+?)(?:\s*=\s*([^\s]+))?(\s+[^=]*)?$/);
+  if (!result) return `Formula: ${formula.replace(/\d+(?:\.\d+)?/g, "____")}`;
+  const expression = result[1];
+  if (!revealValues) return `Formula: ${expression.replace(/\d+(?:\.\d+)?/g, "____")}`;
+  return `Substitute the values into the formula: ${expression}${result[2] ? " = ____" : ""}${result[3] || ""}`;
+}
+
+function wordHints(source: string): [string, string] {
+  const words = source.split(/(\s+)/);
+  const candidates = words.reduce<number[]>((indexes, word, index) => {
+    if (scientificWord(word)) indexes.push(index);
+    return indexes;
+  }, []);
+  const hintOne = words.map((word, index) => candidates.includes(index) ? "____" : word).join("");
+  const revealCount = Math.max(1, Math.floor(candidates.length / 2));
+  const revealed = new Set(candidates.slice(0, revealCount));
+  const hintTwo = words.map((word, index) => candidates.includes(index) && !revealed.has(index) ? "____" : word).join("");
+  return [`Complete the answer: ${hintOne}`, `Complete the remaining key terms: ${hintTwo}`];
+}
+
+export function getAdaptiveHints(question: MasteryQuestion): [string, string] {
+  if (question.adaptiveHints?.length === 2) return question.adaptiveHints;
+  const source = answerSource(question);
+  if (!source) return ["Use the wording of the question to structure your answer.", "State the key point asked for in the question."];
+  return isCalculation(question, source) ? [calculationHint(question, source, false), calculationHint(question, source, true)] : wordHints(source);
 }
 
 export function relatedQuestion(
@@ -76,6 +105,9 @@ export function nextAdaptiveQuestion(current: MasteryQuestion, questions: Master
 export function retrievalDays(question: MasteryQuestion, evidence: AdaptiveEvidence, previousDays = 0) {
   const outcome = classifyOutcome(evidence);
   if (outcome === "incorrect") return 0;
-  if (outcome === "supported_correct") return Math.max(1, previousDays || (aoRank(question.assessmentObjective) >= 3 ? 2 : 3));
-  return Math.max(3, previousDays ? Math.round(previousDays * (evidence.rating === "easy" ? 3 : 2)) : aoRank(question.assessmentObjective) >= 3 ? 3 : 7);
+  if (evidence.answerRevealed) return 1;
+  if (evidence.hintsUsed >= 2) return 2;
+  if (evidence.hintsUsed === 1) return 3;
+  const intervals = [7, 14, 30, 60];
+  return intervals[Math.min(intervals.length - 1, Math.max(0, intervals.indexOf(previousDays) + 1))];
 }

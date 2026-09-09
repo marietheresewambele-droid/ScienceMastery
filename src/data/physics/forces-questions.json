@@ -40,17 +40,18 @@
       "tier": "Both",
       "question": "Distinguish scalar and vector quantities and give two examples of each.",
       "marks": 4,
-      "modelAnswer": "Scalars have magnitude only, e.g. speed, distance, mass, time. Vectors have magnitude and direction, e.g. velocity, displacement, force, acceleration.",
+      "modelAnswer": "Scalars have magnitude only, e.g. speed, distance, mass, time.\nVectors have magnitude and direction, e.g. velocity, displacement, force, acceleration.",
       "markingPoints": [
         "Scalars have magnitude only, e.g. speed, distance, mass, time.",
         "Vectors have magnitude and direction, e.g. velocity, displacement, force, acceleration."
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1DGI6IN",
+      "databaseId": "PHY-FO001"
     },
     {
       "id": "FO002",
@@ -60,17 +61,18 @@
       "tier": "Both",
       "question": "Classify friction, air resistance, tension, normal contact force, gravity, electrostatic force and magnetic force as contact or non-contact.",
       "marks": 4,
-      "modelAnswer": "Contact: friction, air resistance, tension, normal contact. Non-contact: gravity, electrostatic and magnetic forces.",
+      "modelAnswer": "Contact: friction, air resistance, tension, normal contact.\nNon-contact: gravity, electrostatic and magnetic forces.",
       "markingPoints": [
         "Contact: friction, air resistance, tension, normal contact.",
         "Non-contact: gravity, electrostatic and magnetic forces."
       ],
       "commandWord": "Classify",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1DLCLAP",
+      "databaseId": "PHY-FO002"
     },
     {
       "id": "FO003",
@@ -80,17 +82,18 @@
       "tier": "Both",
       "question": "Explain what a resultant force is.",
       "marks": 2,
-      "modelAnswer": "A single force with the same effect as all forces acting together. It is the vector sum of the forces.",
+      "modelAnswer": "A single force with the same effect as all forces acting together.\nIt is the vector sum of the forces.",
       "markingPoints": [
         "A single force with the same effect as all forces acting together.",
         "It is the vector sum of the forces."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1IRURP6",
+      "databaseId": "PHY-FO003"
     },
     {
       "id": "FO004",
@@ -100,7 +103,7 @@
       "tier": "Both",
       "question": "State three rules for drawing a free-body diagram.",
       "marks": 3,
-      "modelAnswer": "Represent the object as a box or point. Draw labelled force arrows from the object. Arrow direction shows direction and arrow length should represent magnitude.",
+      "modelAnswer": "Represent the object as a box or point.\nDraw labelled force arrows from the object.\nArrow direction shows direction and arrow length should represent magnitude.",
       "markingPoints": [
         "Represent the object as a box or point.",
         "Draw labelled force arrows from the object.",
@@ -108,10 +111,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-18JUD7K",
+      "databaseId": "PHY-FO004"
     },
     {
       "id": "FO005",
@@ -121,17 +125,18 @@
       "tier": "Both",
       "question": "Distinguish mass from weight.",
       "marks": 4,
-      "modelAnswer": "Mass is the amount of matter, measured in kg and is a scalar. Weight is the gravitational force on a mass, measured in N, is a vector and depends on gravitational field strength.",
+      "modelAnswer": "Mass is the amount of matter, measured in kg and is a scalar.\nWeight is the gravitational force on a mass, measured in N, is a vector and depends on gravitational field strength.",
       "markingPoints": [
         "Mass is the amount of matter, measured in kg and is a scalar.",
         "Weight is the gravitational force on a mass, measured in N, is a vector and depends on gravitational field strength."
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0PZ6YRW",
+      "databaseId": "PHY-FO005"
     },
     {
       "id": "FO006",
@@ -141,17 +146,25 @@
       "tier": "Both",
       "question": "Explain the link between work done and energy transfer.",
       "marks": 2,
-      "modelAnswer": "When a force moves an object through a distance, work is done. The work done equals the energy transferred.",
+      "modelAnswer": "When a force moves an object through a distance, work is done.\nThe work done equals the energy transferred.",
       "markingPoints": [
         "When a force moves an object through a distance, work is done.",
         "The work done equals the energy transferred."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1FMOMQ8",
+      "databaseId": "PHY-FO006",
+      "adaptiveRelationships": {
+        "prerequisite": "PHY-FO023",
+        "diagnostic": "PHY-FO023",
+        "easier": "PHY-FO023",
+        "parallel": "PHY-FO023",
+        "harder": "PHY-FO023"
+      }
     },
     {
       "id": "FO007",
@@ -161,7 +174,7 @@
       "tier": "Both",
       "question": "Distinguish elastic deformation from inelastic deformation.",
       "marks": 3,
-      "modelAnswer": "Elastic deformation reverses when the force is removed. Inelastic deformation is permanent. The object does not return fully to its original shape.",
+      "modelAnswer": "Elastic deformation reverses when the force is removed.\nInelastic deformation is permanent.\nThe object does not return fully to its original shape.",
       "markingPoints": [
         "Elastic deformation reverses when the force is removed.",
         "Inelastic deformation is permanent.",
@@ -169,10 +182,11 @@
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-03EV15M",
+      "databaseId": "PHY-FO007"
     },
     {
       "id": "FO008",
@@ -182,17 +196,18 @@
       "tier": "Both",
       "question": "State Hooke’s law and the condition under which it applies.",
       "marks": 3,
-      "modelAnswer": "Extension is directly proportional to force. This applies only up to the limit of proportionality.",
+      "modelAnswer": "Extension is directly proportional to force.\nThis applies only up to the limit of proportionality.",
       "markingPoints": [
         "Extension is directly proportional to force.",
         "This applies only up to the limit of proportionality."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0NFZP3P",
+      "databaseId": "PHY-FO008"
     },
     {
       "id": "FO009",
@@ -208,10 +223,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1TDLWZU",
+      "databaseId": "PHY-FO009"
     },
     {
       "id": "FO010",
@@ -221,7 +237,7 @@
       "tier": "Physics only",
       "question": "Explain how a lever can act as a force multiplier.",
       "marks": 3,
-      "modelAnswer": "A small force is applied farther from the pivot. Its moment equals a larger force acting closer to the pivot. Increasing perpendicular distance increases moment.",
+      "modelAnswer": "A small force is applied farther from the pivot.\nIts moment equals a larger force acting closer to the pivot.\nIncreasing perpendicular distance increases moment.",
       "markingPoints": [
         "A small force is applied farther from the pivot.",
         "Its moment equals a larger force acting closer to the pivot.",
@@ -229,10 +245,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0D7G8P9",
+      "databaseId": "PHY-FO010"
     },
     {
       "id": "FO011",
@@ -242,7 +259,7 @@
       "tier": "Physics only",
       "question": "Explain why liquid pressure increases with depth.",
       "marks": 3,
-      "modelAnswer": "There is a taller column of liquid above. Its weight is greater. Therefore force per unit area and pressure are greater.",
+      "modelAnswer": "There is a taller column of liquid above.\nIts weight is greater.\nTherefore force per unit area and pressure are greater.",
       "markingPoints": [
         "There is a taller column of liquid above.",
         "Its weight is greater.",
@@ -250,10 +267,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0OLQ7GM",
+      "databaseId": "PHY-FO011"
     },
     {
       "id": "FO012",
@@ -263,7 +281,7 @@
       "tier": "Physics only",
       "question": "Explain why atmospheric pressure decreases with altitude.",
       "marks": 3,
-      "modelAnswer": "There is less air above. The air column has less weight and density is lower. Fewer particle collisions produce less pressure.",
+      "modelAnswer": "There is less air above.\nThe air column has less weight and density is lower.\nFewer particle collisions produce less pressure.",
       "markingPoints": [
         "There is less air above.",
         "The air column has less weight and density is lower.",
@@ -271,10 +289,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0DSJ10T",
+      "databaseId": "PHY-FO012"
     },
     {
       "id": "FO013",
@@ -290,10 +309,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0LIQGIG",
+      "databaseId": "PHY-FO013"
     },
     {
       "id": "FO014",
@@ -303,17 +323,18 @@
       "tier": "Both",
       "question": "State Newton’s second law.",
       "marks": 2,
-      "modelAnswer": "Acceleration is proportional to resultant force and inversely proportional to mass. F = ma.",
+      "modelAnswer": "Acceleration is proportional to resultant force and inversely proportional to mass.\nF = ma.",
       "markingPoints": [
         "Acceleration is proportional to resultant force and inversely proportional to mass.",
         "F = ma."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-11HN3CY",
+      "databaseId": "PHY-FO014"
     },
     {
       "id": "FO015",
@@ -323,17 +344,18 @@
       "tier": "Both",
       "question": "State Newton’s third law and clarify where the two forces act.",
       "marks": 3,
-      "modelAnswer": "When two objects interact, they exert equal and opposite forces on each other. The forces act on different objects.",
+      "modelAnswer": "When two objects interact, they exert equal and opposite forces on each other.\nThe forces act on different objects.",
       "markingPoints": [
         "When two objects interact, they exert equal and opposite forces on each other.",
         "The forces act on different objects."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0FVOZ73",
+      "databaseId": "PHY-FO015"
     },
     {
       "id": "FO016",
@@ -349,10 +371,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1M3F4CK",
+      "databaseId": "PHY-FO016"
     },
     {
       "id": "FO017",
@@ -362,17 +385,18 @@
       "tier": "Both",
       "question": "Explain how tiredness and wet roads affect stopping distance.",
       "marks": 4,
-      "modelAnswer": "Tiredness increases reaction time, so thinking distance increases. Wet roads reduce tyre-road friction, reducing braking force and increasing braking distance.",
+      "modelAnswer": "Tiredness increases reaction time, so thinking distance increases.\nWet roads reduce tyre-road friction, reducing braking force and increasing braking distance.",
       "markingPoints": [
         "Tiredness increases reaction time, so thinking distance increases.",
         "Wet roads reduce tyre-road friction, reducing braking force and increasing braking distance."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1MYEGK5",
+      "databaseId": "PHY-FO017"
     },
     {
       "id": "FO018",
@@ -382,7 +406,7 @@
       "tier": "Both",
       "question": "Explain how a falling object reaches terminal velocity.",
       "marks": 5,
-      "modelAnswer": "Initially weight exceeds drag, so it accelerates. As speed rises, drag rises. Eventually drag equals weight, resultant force becomes zero, acceleration becomes zero and speed stays constant.",
+      "modelAnswer": "Initially weight exceeds drag, so it accelerates.\nAs speed rises, drag rises.\nEventually drag equals weight, resultant force becomes zero, acceleration becomes zero and speed stays constant.",
       "markingPoints": [
         "Initially weight exceeds drag, so it accelerates.",
         "As speed rises, drag rises.",
@@ -390,10 +414,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0ABGONO",
+      "databaseId": "PHY-FO018"
     },
     {
       "id": "FO019",
@@ -403,17 +428,25 @@
       "tier": "Both",
       "question": "Define momentum and state its unit.",
       "marks": 2,
-      "modelAnswer": "Momentum = mass × velocity Kg m/s.",
+      "modelAnswer": "Momentum = mass × velocity\nKg m/s.",
       "markingPoints": [
         "Momentum = mass × velocity",
         "Kg m/s."
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0DG7M5R",
+      "databaseId": "PHY-FO019",
+      "adaptiveRelationships": {
+        "prerequisite": "PHY-FO030",
+        "diagnostic": "PHY-FO030",
+        "easier": "PHY-FO030",
+        "parallel": "PHY-FO030",
+        "harder": "PHY-FO030"
+      }
     },
     {
       "id": "FO020",
@@ -429,10 +462,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1NWRGML",
+      "databaseId": "PHY-FO020"
     },
     {
       "id": "FO021",
@@ -442,7 +476,7 @@
       "tier": "Both",
       "question": "Explain how an airbag reduces the force on a passenger in a collision.",
       "marks": 4,
-      "modelAnswer": "The passenger’s momentum changes to zero. The airbag increases the time over which the change occurs. Force = change in momentum ÷ time So the mean force is reduced.",
+      "modelAnswer": "The passenger’s momentum changes to zero.\nThe airbag increases the time over which the change occurs.\nForce = change in momentum ÷ time\nSo the mean force is reduced.",
       "markingPoints": [
         "The passenger’s momentum changes to zero.",
         "The airbag increases the time over which the change occurs.",
@@ -451,10 +485,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-07KVEA9",
+      "databaseId": "PHY-FO021"
     },
     {
       "id": "FO022",
@@ -464,7 +499,7 @@
       "tier": "Both",
       "question": "Calculate the weight of a 65 kg person where g = 9.8 N/kg.",
       "marks": 3,
-      "modelAnswer": "W = mg W = 65 × 9.8 W = 637 N",
+      "modelAnswer": "W = mg\nW = 65 × 9.8\nW = 637 N",
       "markingPoints": [
         "W = mg",
         "W = 65 × 9.8",
@@ -472,10 +507,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.1.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-16I5EXL",
+      "databaseId": "PHY-FO022"
     },
     {
       "id": "FO023",
@@ -485,7 +521,7 @@
       "tier": "Both",
       "question": "A force of 120 N moves a box 3.5 m in the force direction. Calculate the work done.",
       "marks": 3,
-      "modelAnswer": "W = Fs W = 120 × 3.5 W = 420 J",
+      "modelAnswer": "W = Fs\nW = 120 × 3.5\nW = 420 J",
       "markingPoints": [
         "W = Fs",
         "W = 120 × 3.5",
@@ -493,10 +529,17 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1FMOMQ8",
+      "databaseId": "PHY-FO023",
+      "adaptiveRelationships": {
+        "prerequisite": "PHY-FO006",
+        "diagnostic": "PHY-FO006",
+        "easier": "PHY-FO006",
+        "parallel": "PHY-FO006"
+      }
     },
     {
       "id": "FO024",
@@ -506,7 +549,7 @@
       "tier": "Both",
       "question": "A force of 18 N extends a spring by 0.060 m. Calculate the spring constant.",
       "marks": 3,
-      "modelAnswer": "F = ke K = F ÷ e K = 18 ÷ 0.060 K = 300 N/m",
+      "modelAnswer": "F = ke\nK = F ÷ e\nK = 18 ÷ 0.060\nK = 300 N/m",
       "markingPoints": [
         "F = ke",
         "K = F ÷ e",
@@ -515,10 +558,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0HY5AK0",
+      "databaseId": "PHY-FO024"
     },
     {
       "id": "FO025",
@@ -528,7 +572,7 @@
       "tier": "Physics only",
       "question": "A perpendicular force of 35 N acts 0.40 m from a pivot. Calculate the moment.",
       "marks": 3,
-      "modelAnswer": "M = Fd M = 35 × 0.40 M = 14 N m",
+      "modelAnswer": "M = Fd\nM = 35 × 0.40\nM = 14 N m",
       "markingPoints": [
         "M = Fd",
         "M = 35 × 0.40",
@@ -536,10 +580,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.4.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1XAE7Y5",
+      "databaseId": "PHY-FO025"
     },
     {
       "id": "FO026",
@@ -549,7 +594,7 @@
       "tier": "Physics only",
       "question": "A force of 900 N acts over an area of 0.030 m². Calculate the pressure.",
       "marks": 3,
-      "modelAnswer": "P = F ÷ A P = 900 ÷ 0.030 P = 30,000 Pa",
+      "modelAnswer": "P = F ÷ A\nP = 900 ÷ 0.030\nP = 30,000 Pa",
       "markingPoints": [
         "P = F ÷ A",
         "P = 900 ÷ 0.030",
@@ -557,10 +602,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.5.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1IZ0Z42",
+      "databaseId": "PHY-FO026"
     },
     {
       "id": "FO027",
@@ -570,7 +616,7 @@
       "tier": "Physics only",
       "question": "Calculate the pressure due to 2.5 m of water. Use density = 1000 kg/m³ and g = 9.8 N/kg.",
       "marks": 4,
-      "modelAnswer": "P = hρg P = 2.5 × 1000 × 9.8 P = 24,500 Pa",
+      "modelAnswer": "P = hρg\nP = 2.5 × 1000 × 9.8\nP = 24,500 Pa",
       "markingPoints": [
         "P = hρg",
         "P = 2.5 × 1000 × 9.8",
@@ -578,10 +624,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.5.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1W8EQBO",
+      "databaseId": "PHY-FO027"
     },
     {
       "id": "FO028",
@@ -591,7 +638,7 @@
       "tier": "Both",
       "question": "A car changes velocity from 5.0 m/s to 23 m/s in 6.0 s. Calculate its acceleration.",
       "marks": 3,
-      "modelAnswer": "A = Δv ÷ t A = (23 − 5.0) ÷ 6.0 A = 3.0 m/s²",
+      "modelAnswer": "A = Δv ÷ t\nA = (23 − 5.0) ÷ 6.0\nA = 3.0 m/s²",
       "markingPoints": [
         "A = Δv ÷ t",
         "A = (23 − 5.0) ÷ 6.0",
@@ -599,10 +646,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.6.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0XKGQT9",
+      "databaseId": "PHY-FO028"
     },
     {
       "id": "FO029",
@@ -612,7 +660,7 @@
       "tier": "Both",
       "question": "A 1,500 kg car accelerates at 2.4 m/s². Calculate the resultant force.",
       "marks": 3,
-      "modelAnswer": "F = ma F = 1500 × 2.4 F = 3600 N",
+      "modelAnswer": "F = ma\nF = 1500 × 2.4\nF = 3600 N",
       "markingPoints": [
         "F = ma",
         "F = 1500 × 2.4",
@@ -620,10 +668,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.6.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1HL3LKM",
+      "databaseId": "PHY-FO029"
     },
     {
       "id": "FO030",
@@ -633,7 +682,7 @@
       "tier": "Both",
       "question": "Calculate the momentum of a 0.15 kg ball moving at 24 m/s.",
       "marks": 3,
-      "modelAnswer": "P = mv P = 0.15 × 24 P = 3.6 kg m/s",
+      "modelAnswer": "P = mv\nP = 0.15 × 24\nP = 3.6 kg m/s",
       "markingPoints": [
         "P = mv",
         "P = 0.15 × 24",
@@ -641,10 +690,17 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.7.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0DG7M5R",
+      "databaseId": "PHY-FO030",
+      "adaptiveRelationships": {
+        "prerequisite": "PHY-FO019",
+        "diagnostic": "PHY-FO019",
+        "easier": "PHY-FO019",
+        "parallel": "PHY-FO019"
+      }
     },
     {
       "id": "FO031",
@@ -654,7 +710,7 @@
       "tier": "Higher",
       "question": "A 2.0 kg trolley moving at 3.0 m/s sticks to a stationary 1.0 kg trolley. Calculate their shared velocity.",
       "marks": 5,
-      "modelAnswer": "Total momentum before = (2.0 × 3.0) + (1.0 × 0) = 6.0 kg m/s Total mass after = 3.0 kg V = p ÷ m V = 6.0 ÷ 3.0 V = 2.0 m/s",
+      "modelAnswer": "Total momentum before = (2.0 × 3.0) + (1.0 × 0) = 6.0 kg m/s\nTotal mass after = 3.0 kg\nV = p ÷ m\nV = 6.0 ÷ 3.0\nV = 2.0 m/s",
       "markingPoints": [
         "Total momentum before = (2.0 × 3.0) + (1.0 × 0) = 6.0 kg m/s",
         "Total mass after = 3.0 kg",
@@ -664,10 +720,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.7.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-186Q3C8",
+      "databaseId": "PHY-FO031"
     },
     {
       "id": "FO032",
@@ -677,7 +734,7 @@
       "tier": "Both",
       "question": "Describe how to investigate the relationship between force and extension for a spring.",
       "marks": 6,
-      "modelAnswer": "Measure original spring length. Add known masses one at a time and calculate force using W = mg. Measure new length and calculate extension. Repeat readings, stay below elastic limit and plot force against extension. Control the same spring and measure at eye level beside a fixed ruler.",
+      "modelAnswer": "Measure original spring length.\nAdd known masses one at a time and calculate force using W = mg.\nMeasure new length and calculate extension.\nRepeat readings, stay below elastic limit and plot force against extension.\nControl the same spring and measure at eye level beside a fixed ruler.",
       "markingPoints": [
         "Measure original spring length.",
         "Add known masses one at a time and calculate force using W = mg.",
@@ -687,10 +744,11 @@
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical and disciplinary knowledge"
+      "knowledgeType": "Practical and disciplinary knowledge",
+      "questionFamilyId": "PHY-FAM-00WW5ZM",
+      "databaseId": "PHY-FO032"
     },
     {
       "id": "FO033",
@@ -700,7 +758,7 @@
       "tier": "Both",
       "question": "Describe an investigation of how force affects acceleration for a trolley of constant mass.",
       "marks": 6,
-      "modelAnswer": "Use a trolley on a level runway attached over a pulley to a hanging mass. Use light gates/motion sensor to measure acceleration. Keep total system mass constant by moving masses from trolley to hanger, increasing pulling force. Repeat and plot acceleration against force. Reduce friction or measure/allow for it.",
+      "modelAnswer": "Use a trolley on a level runway attached over a pulley to a hanging mass.\nUse light gates/motion sensor to measure acceleration.\nKeep total system mass constant by moving masses from trolley to hanger, increasing pulling force.\nRepeat and plot acceleration against force.\nReduce friction or measure/allow for it.",
       "markingPoints": [
         "Use a trolley on a level runway attached over a pulley to a hanging mass.",
         "Use light gates/motion sensor to measure acceleration.",
@@ -710,10 +768,11 @@
       ],
       "commandWord": "Describe / explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.6.5",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical and disciplinary knowledge"
+      "knowledgeType": "Practical and disciplinary knowledge",
+      "questionFamilyId": "PHY-FAM-0LWGQUL",
+      "databaseId": "PHY-FO033"
     },
     {
       "id": "FO034",
@@ -723,7 +782,7 @@
       "tier": "Both",
       "question": "A car travels at 12 m/s for 8 s, then at 20 m/s for 5 s. Calculate total distance.",
       "marks": 4,
-      "modelAnswer": "Distance = area under a velocity–time graph D₁ = 12 × 8 = 96 m D₂ = 20 × 5 = 100 m Total = 196 m",
+      "modelAnswer": "Distance = area under a velocity–time graph\nD₁ = 12 × 8 = 96 m\nD₂ = 20 × 5 = 100 m\nTotal = 196 m",
       "markingPoints": [
         "Distance = area under a velocity–time graph",
         "D₁ = 12 × 8 = 96 m",
@@ -732,10 +791,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.6.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1MTAD1A",
+      "databaseId": "PHY-FO034"
     },
     {
       "id": "FO035",
@@ -745,7 +805,7 @@
       "tier": "Higher",
       "question": "A 0.25 kg ball changes velocity from +18 m/s to −12 m/s in 0.060 s. Calculate the mean force.",
       "marks": 5,
-      "modelAnswer": "Δp = m(v − u) Δp = 0.25 × (−12 − 18) = −7.5 kg m/s F = Δp ÷ t F = −7.5 ÷ 0.060 = −125 N Magnitude 125 N, opposite to initial motion.",
+      "modelAnswer": "Δp = m(v − u)\nΔp = 0.25 × (−12 − 18) = −7.5 kg m/s\nF = Δp ÷ t\nF = −7.5 ÷ 0.060 = −125 N\nMagnitude 125 N, opposite to initial motion.",
       "markingPoints": [
         "Δp = m(v − u)",
         "Δp = 0.25 × (−12 − 18) = −7.5 kg m/s",
@@ -755,10 +815,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Forces mastery workbook",
       "specificationReference": "4.5.7.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1PNDKOH",
+      "databaseId": "PHY-FO035"
     }
   ]
 }

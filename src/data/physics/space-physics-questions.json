@@ -20,7 +20,7 @@
       "tier": "Physics only",
       "question": "List the main components of the Solar System.",
       "marks": 5,
-      "modelAnswer": "The Sun. Eight planets and their moons. Dwarf planets. Asteroids. Comets. Artificial satellites.",
+      "modelAnswer": "The Sun.\nEight planets and their moons.\nDwarf planets.\nAsteroids.\nComets.\nArtificial satellites.",
       "markingPoints": [
         "The Sun.",
         "Eight planets and their moons.",
@@ -31,10 +31,11 @@
       ],
       "commandWord": "List",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0R3AFJF",
+      "databaseId": "PHY-SP001"
     },
     {
       "id": "SP002",
@@ -44,7 +45,7 @@
       "tier": "Physics only",
       "question": "Describe how a star forms from a nebula.",
       "marks": 4,
-      "modelAnswer": "Gravity pulls gas and dust together. The cloud collapses and forms a protostar. Gravitational energy heats it. When temperature and pressure are high enough, hydrogen fusion begins and a stable main-sequence star forms.",
+      "modelAnswer": "Gravity pulls gas and dust together.\nThe cloud collapses and forms a protostar.\nGravitational energy heats it.\nWhen temperature and pressure are high enough, hydrogen fusion begins and a stable main-sequence star forms.",
       "markingPoints": [
         "Gravity pulls gas and dust together.",
         "The cloud collapses and forms a protostar.",
@@ -53,10 +54,11 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-17RZCAI",
+      "databaseId": "PHY-SP002"
     },
     {
       "id": "SP003",
@@ -66,17 +68,18 @@
       "tier": "Physics only",
       "question": "Explain why a main-sequence star is stable.",
       "marks": 3,
-      "modelAnswer": "Inward gravitational force is balanced by outward pressure/radiation produced by energy from nuclear fusion. The star is in equilibrium.",
+      "modelAnswer": "Inward gravitational force is balanced by outward pressure/radiation produced by energy from nuclear fusion.\nThe star is in equilibrium.",
       "markingPoints": [
         "Inward gravitational force is balanced by outward pressure/radiation produced by energy from nuclear fusion.",
         "The star is in equilibrium."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1NJVRLX",
+      "databaseId": "PHY-SP003"
     },
     {
       "id": "SP004",
@@ -86,17 +89,18 @@
       "tier": "Physics only",
       "question": "Describe the life cycle of a star with a mass similar to the Sun.",
       "marks": 5,
-      "modelAnswer": "Nebula → protostar → main sequence → red giant → planetary nebula → white dwarf The white dwarf eventually cools.",
+      "modelAnswer": "Nebula → protostar → main sequence → red giant → planetary nebula → white dwarf\nThe white dwarf eventually cools.",
       "markingPoints": [
         "Nebula → protostar → main sequence → red giant → planetary nebula → white dwarf",
         "The white dwarf eventually cools."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1S3Y4BV",
+      "databaseId": "PHY-SP004"
     },
     {
       "id": "SP005",
@@ -112,10 +116,11 @@
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0GO4ZJX",
+      "databaseId": "PHY-SP005"
     },
     {
       "id": "SP006",
@@ -125,7 +130,7 @@
       "tier": "Physics only",
       "question": "Explain how stars produce and distribute elements.",
       "marks": 5,
-      "modelAnswer": "Fusion in stars makes elements up to iron. Heavier elements are produced in supernova explosions. The explosion distributes elements into space. Later stars and planets form from enriched material.",
+      "modelAnswer": "Fusion in stars makes elements up to iron.\nHeavier elements are produced in supernova explosions.\nThe explosion distributes elements into space.\nLater stars and planets form from enriched material.",
       "markingPoints": [
         "Fusion in stars makes elements up to iron.",
         "Heavier elements are produced in supernova explosions.",
@@ -134,10 +139,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-109P87W",
+      "databaseId": "PHY-SP006"
     },
     {
       "id": "SP007",
@@ -147,7 +153,7 @@
       "tier": "Physics only",
       "question": "Explain why a planet remains in a near-circular orbit around the Sun.",
       "marks": 4,
-      "modelAnswer": "Gravity provides a force towards the Sun. This centripetal force changes the direction of velocity. The planet continually falls towards the Sun but moves sideways fast enough to miss it.",
+      "modelAnswer": "Gravity provides a force towards the Sun.\nThis centripetal force changes the direction of velocity.\nThe planet continually falls towards the Sun but moves sideways fast enough to miss it.",
       "markingPoints": [
         "Gravity provides a force towards the Sun.",
         "This centripetal force changes the direction of velocity.",
@@ -155,10 +161,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1MEPJMC",
+      "databaseId": "PHY-SP007"
     },
     {
       "id": "SP008",
@@ -174,10 +181,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1JKS429",
+      "databaseId": "PHY-SP008"
     },
     {
       "id": "SP009",
@@ -187,7 +195,7 @@
       "tier": "Physics only",
       "question": "Distinguish natural and artificial satellites and give one use of an artificial satellite.",
       "marks": 3,
-      "modelAnswer": "Natural satellites orbit naturally, e.g. the Moon. Artificial satellites are human-made. Uses include communication, weather monitoring, navigation or Earth observation.",
+      "modelAnswer": "Natural satellites orbit naturally, e.g. the Moon.\nArtificial satellites are human-made.\nUses include communication, weather monitoring, navigation or Earth observation.",
       "markingPoints": [
         "Natural satellites orbit naturally, e.g. the Moon.",
         "Artificial satellites are human-made.",
@@ -195,10 +203,11 @@
       ],
       "commandWord": "Distinguish",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-1W8A1OB",
+      "databaseId": "PHY-SP009"
     },
     {
       "id": "SP010",
@@ -208,7 +217,7 @@
       "tier": "Physics only",
       "question": "Explain red-shift in light from distant galaxies.",
       "marks": 4,
-      "modelAnswer": "Spectral lines are shifted to longer wavelengths/lower frequencies. This occurs because galaxies are moving away. Greater red-shift indicates greater recession speed.",
+      "modelAnswer": "Spectral lines are shifted to longer wavelengths/lower frequencies.\nThis occurs because galaxies are moving away.\nGreater red-shift indicates greater recession speed.",
       "markingPoints": [
         "Spectral lines are shifted to longer wavelengths/lower frequencies.",
         "This occurs because galaxies are moving away.",
@@ -216,10 +225,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0RJRVNL",
+      "databaseId": "PHY-SP010"
     },
     {
       "id": "SP011",
@@ -229,7 +239,7 @@
       "tier": "Physics only",
       "question": "Explain how red-shift provides evidence that the Universe is expanding.",
       "marks": 4,
-      "modelAnswer": "Most galaxies show red-shift, so they are receding. More distant galaxies generally recede faster. This pattern is consistent with space expanding.",
+      "modelAnswer": "Most galaxies show red-shift, so they are receding.\nMore distant galaxies generally recede faster.\nThis pattern is consistent with space expanding.",
       "markingPoints": [
         "Most galaxies show red-shift, so they are receding.",
         "More distant galaxies generally recede faster.",
@@ -237,10 +247,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-19XZ89Z",
+      "databaseId": "PHY-SP011"
     },
     {
       "id": "SP012",
@@ -250,17 +261,18 @@
       "tier": "Physics only",
       "question": "State two key observations supporting the Big Bang model.",
       "marks": 4,
-      "modelAnswer": "Red-shift/recession of galaxies supports expansion. Cosmic microwave background radiation is remnant radiation from a hot early Universe.",
+      "modelAnswer": "Red-shift/recession of galaxies supports expansion.\nCosmic microwave background radiation is remnant radiation from a hot early Universe.",
       "markingPoints": [
         "Red-shift/recession of galaxies supports expansion.",
         "Cosmic microwave background radiation is remnant radiation from a hot early Universe."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-033GPUT",
+      "databaseId": "PHY-SP012"
     },
     {
       "id": "SP013",
@@ -270,7 +282,7 @@
       "tier": "Physics only",
       "question": "Explain why cosmic microwave background radiation supports the Big Bang model.",
       "marks": 3,
-      "modelAnswer": "A hot early Universe should leave background radiation. Expansion stretches and cools it into the microwave region. It is detected uniformly across space.",
+      "modelAnswer": "A hot early Universe should leave background radiation.\nExpansion stretches and cools it into the microwave region.\nIt is detected uniformly across space.",
       "markingPoints": [
         "A hot early Universe should leave background radiation.",
         "Expansion stretches and cools it into the microwave region.",
@@ -278,10 +290,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-021OTRX",
+      "databaseId": "PHY-SP013"
     },
     {
       "id": "SP014",
@@ -291,7 +304,7 @@
       "tier": "Physics only",
       "question": "Explain why scientific models of the Universe may change.",
       "marks": 4,
-      "modelAnswer": "New observations or improved measurements may conflict with predictions. Evidence is evaluated and replicated. Models are modified or replaced to explain the full evidence base.",
+      "modelAnswer": "New observations or improved measurements may conflict with predictions.\nEvidence is evaluated and replicated.\nModels are modified or replaced to explain the full evidence base.",
       "markingPoints": [
         "New observations or improved measurements may conflict with predictions.",
         "Evidence is evaluated and replicated.",
@@ -299,10 +312,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "PHY-FAM-0Z2H80Y",
+      "databaseId": "PHY-SP014"
     },
     {
       "id": "SP015",
@@ -312,7 +326,7 @@
       "tier": "Physics only / Higher",
       "question": "A satellite moves in a circular orbit of radius 7.0 × 10⁶ m with period 5.8 × 10³ s. Calculate its orbital speed.",
       "marks": 5,
-      "modelAnswer": "Circumference = 2πr Distance = 2π × 7.0 × 10⁶ = 4.40 × 10⁷ m V = distance ÷ time V = 4.40 × 10⁷ ÷ 5.8 × 10³ V = 7.6 × 10³ m/s",
+      "modelAnswer": "Circumference = 2πr\nDistance = 2π × 7.0 × 10⁶ = 4.40 × 10⁷ m\nV = distance ÷ time\nV = 4.40 × 10⁷ ÷ 5.8 × 10³\nV = 7.6 × 10³ m/s",
       "markingPoints": [
         "Circumference = 2πr",
         "Distance = 2π × 7.0 × 10⁶ = 4.40 × 10⁷ m",
@@ -322,10 +336,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-09II16X",
+      "databaseId": "PHY-SP015"
     },
     {
       "id": "SP016",
@@ -335,7 +350,7 @@
       "tier": "Physics only / Higher",
       "question": "Light travels at 3.0 × 10⁸ m/s. Calculate the distance travelled in one year of 365 days.",
       "marks": 5,
-      "modelAnswer": "T = 365 × 24 × 60 × 60 = 3.1536 × 10⁷ s D = vt D = 3.0 × 10⁸ × 3.1536 × 10⁷ D = 9.46 × 10¹⁵ m",
+      "modelAnswer": "T = 365 × 24 × 60 × 60 = 3.1536 × 10⁷ s\nD = vt\nD = 3.0 × 10⁸ × 3.1536 × 10⁷\nD = 9.46 × 10¹⁵ m",
       "markingPoints": [
         "T = 365 × 24 × 60 × 60 = 3.1536 × 10⁷ s",
         "D = vt",
@@ -344,10 +359,11 @@
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Space Physics mastery workbook",
       "specificationReference": "4.8.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "PHY-FAM-0LMWW6J",
+      "databaseId": "PHY-SP016"
     }
   ]
 }

@@ -14,7 +14,7 @@ class MemoryStore {
 const question: MasteryQuestion = {
   id: "BIO-TEST-001", subject: "biology", topicSlug: "cells", topic: "Cell Biology", subtopic: "Transport",
   question: "Explain osmosis", marks: 1, assessmentObjective: "AO2", markingPoints: ["Water moves through a partially permeable membrane"],
-  questionFamily: "Osmosis", hints: ["Name the process", "Identify the membrane", "State the direction"],
+  questionFamily: "Osmosis", hints: ["Name the process", "Identify the membrane"],
 };
 
 test("full answer view does not increase mastery", () => {

@@ -8,19 +8,20 @@
       "tier": "Both",
       "question": "Name four structures found in most animal cells.",
       "marks": 4,
-      "modelAnswer": "Nucleus cytoplasm cell membrane mitochondria.",
+      "modelAnswer": "Nucleus.\nCytoplasm.\nCell membrane.\nMitochondria.",
       "markingPoints": [
-        "Nucleus",
-        "cytoplasm",
-        "cell membrane",
-        "mitochondria."
+        "Nucleus.",
+        "Cytoplasm.",
+        "Cell membrane.",
+        "Mitochondria."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0BJFCG8",
+      "databaseId": "BIO-CS01"
     },
     {
       "id": "CS02",
@@ -30,18 +31,19 @@
       "tier": "Both",
       "question": "Name three structures found in plant cells but not animal cells.",
       "marks": 3,
-      "modelAnswer": "Cell wall chloroplasts permanent vacuole.",
+      "modelAnswer": "Cell wall.\nChloroplasts.\nPermanent vacuole.",
       "markingPoints": [
-        "Cell wall",
-        "chloroplasts",
-        "permanent vacuole."
+        "Cell wall.",
+        "Chloroplasts.",
+        "Permanent vacuole."
       ],
       "commandWord": "Name",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-06HG213",
+      "databaseId": "BIO-CS02"
     },
     {
       "id": "CS03",
@@ -57,10 +59,17 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1IWIJ90",
+      "databaseId": "BIO-CS03",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS04",
+        "easier": "BIO-CS04",
+        "parallel": "BIO-CS04",
+        "harder": "BIO-CS21"
+      }
     },
     {
       "id": "CS04",
@@ -76,10 +85,17 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1IWIJ90",
+      "databaseId": "BIO-CS04",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS03",
+        "easier": "BIO-CS03",
+        "parallel": "BIO-CS03",
+        "harder": "BIO-CS21"
+      }
     },
     {
       "id": "CS05",
@@ -95,10 +111,17 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1IWIJ90",
+      "databaseId": "BIO-CS05",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS03",
+        "easier": "BIO-CS03",
+        "parallel": "BIO-CS03",
+        "harder": "BIO-CS21"
+      }
     },
     {
       "id": "CS06",
@@ -114,10 +137,17 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1IWIJ90",
+      "databaseId": "BIO-CS06",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS03",
+        "easier": "BIO-CS03",
+        "parallel": "BIO-CS03",
+        "harder": "BIO-CS21"
+      }
     },
     {
       "id": "CS07",
@@ -127,18 +157,25 @@
       "tier": "Both",
       "question": "Explain how a root hair cell is adapted to its function.",
       "marks": 3,
-      "modelAnswer": "Long extension gives a large surface area thin surface gives a short diffusion distance many mitochondria release energy for active transport of mineral ions.",
+      "modelAnswer": "Long extension gives a large surface area.\nThin surface gives a short diffusion distance.\nMany mitochondria release energy for active transport of mineral ions.",
       "markingPoints": [
-        "Long extension gives a large surface area",
-        "thin surface gives a short diffusion distance",
-        "many mitochondria release energy for active transport of mineral ions."
+        "Long extension gives a large surface area.",
+        "Thin surface gives a short diffusion distance.",
+        "Many mitochondria release energy for active transport of mineral ions."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.3; 4.1.3.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0YA3J13",
+      "databaseId": "BIO-CS07",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS22",
+        "diagnostic": "BIO-CS22",
+        "easier": "BIO-CS22",
+        "parallel": "BIO-CS22"
+      }
     },
     {
       "id": "CS08",
@@ -148,19 +185,27 @@
       "tier": "Both",
       "question": "Explain how a sperm cell is adapted for fertilisation.",
       "marks": 3,
-      "modelAnswer": "Tail allows swimming many mitochondria release energy acrosome contains enzymes to digest the egg membrane haploid nucleus contains genetic material.",
+      "modelAnswer": "Tail allows swimming.\nMany mitochondria release energy.\nAcrosome contains enzymes to digest the egg membrane.\nHaploid nucleus contains genetic material.",
       "markingPoints": [
-        "Tail allows swimming",
-        "many mitochondria release energy",
-        "acrosome contains enzymes to digest the egg membrane",
-        "haploid nucleus contains genetic material."
+        "Tail allows swimming.",
+        "Many mitochondria release energy.",
+        "Acrosome contains enzymes to digest the egg membrane.",
+        "Haploid nucleus contains genetic material."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VXQI4S",
+      "databaseId": "BIO-CS08",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS23",
+        "diagnostic": "BIO-CS23",
+        "easier": "BIO-CS23",
+        "parallel": "BIO-CS23",
+        "harder": "BIO-CS26"
+      }
     },
     {
       "id": "CS09",
@@ -170,17 +215,25 @@
       "tier": "Both",
       "question": "Give two similarities and two differences between bacterial and animal cells.",
       "marks": 4,
-      "modelAnswer": "Similarities: cell membrane, cytoplasm, ribosomes. Differences: bacteria have no nucleus and their DNA is a single circular loop bacteria may also contain plasmids and a cell wall. valid similarities and two differences.",
+      "modelAnswer": "Similarities: cell membrane, cytoplasm, ribosomes.\nDifferences: bacteria have no nucleus and their DNA is a single circular loop.\nBacteria may also contain plasmids and a cell wall. valid similarities and two differences.",
       "markingPoints": [
-        "Similarities: cell membrane, cytoplasm, ribosomes. Differences: bacteria have no nucleus and their DNA is a single circular loop",
-        "bacteria may also contain plasmids and a cell wall. valid similarities and two differences."
+        "Similarities: cell membrane, cytoplasm, ribosomes.",
+        "Differences: bacteria have no nucleus and their DNA is a single circular loop.",
+        "Bacteria may also contain plasmids and a cell wall. valid similarities and two differences."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-14282GM",
+      "databaseId": "BIO-CS09",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS10",
+        "diagnostic": "BIO-CS10",
+        "easier": "BIO-CS10",
+        "parallel": "BIO-CS10"
+      }
     },
     {
       "id": "CS10",
@@ -190,17 +243,24 @@
       "tier": "Higher",
       "question": "Describe the genetic material in a bacterial cell.",
       "marks": 2,
-      "modelAnswer": "One circular loop of DNA free in the cytoplasm small rings of DNA called plasmids may also be present.",
+      "modelAnswer": "One circular loop of DNA free in the cytoplasm.\nSmall rings of DNA called plasmids may also be present.",
       "markingPoints": [
-        "One circular loop of DNA free in the cytoplasm",
-        "small rings of DNA called plasmids may also be present."
+        "One circular loop of DNA free in the cytoplasm.",
+        "Small rings of DNA called plasmids may also be present."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure (H) QP/MS",
       "specificationReference": "4.1.1.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-14282GM",
+      "databaseId": "BIO-CS10",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS09",
+        "easier": "BIO-CS09",
+        "parallel": "BIO-CS09",
+        "harder": "BIO-CS09"
+      }
     },
     {
       "id": "CS11",
@@ -210,19 +270,26 @@
       "tier": "Both",
       "question": "Describe how to prepare an onion epidermis slide for viewing with a light microscope.",
       "marks": 4,
-      "modelAnswer": "Peel a thin epidermal layer place flat on a slide add iodine stain lower a coverslip at an angle to avoid air bubbles.",
+      "modelAnswer": "Peel a thin epidermal layer.\nPlace flat on a slide.\nAdd iodine stain.\nLower a coverslip at an angle to avoid air bubbles.",
       "markingPoints": [
-        "Peel a thin epidermal layer",
-        "place flat on a slide",
-        "add iodine stain",
-        "lower a coverslip at an angle to avoid air bubbles."
+        "Peel a thin epidermal layer.",
+        "Place flat on a slide.",
+        "Add iodine stain.",
+        "Lower a coverslip at an angle to avoid air bubbles."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "1.1 Cell Structure (H) QP/MS",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-08IAVP1",
+      "databaseId": "BIO-CS11",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS13",
+        "diagnostic": "BIO-CS13",
+        "easier": "BIO-CS12",
+        "parallel": "BIO-CS12"
+      }
     },
     {
       "id": "CS12",
@@ -232,17 +299,25 @@
       "tier": "Both",
       "question": "Explain why a thin specimen and a stain are used when preparing a microscope slide.",
       "marks": 2,
-      "modelAnswer": "A thin specimen lets light pass through / allows individual cells to be seen stain increases contrast so cell structures can be seen.",
+      "modelAnswer": "A thin specimen lets light pass through / allows individual cells to be seen.\nStain increases contrast so cell structures can be seen.",
       "markingPoints": [
-        "A thin specimen lets light pass through / allows individual cells to be seen",
-        "stain increases contrast so cell structures can be seen."
+        "A thin specimen lets light pass through / allows individual cells to be seen.",
+        "Stain increases contrast so cell structures can be seen."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.1 Cell Structure (H) QP/MS",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-08IAVP1",
+      "databaseId": "BIO-CS12",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS13",
+        "diagnostic": "BIO-CS13",
+        "easier": "BIO-CS13",
+        "parallel": "BIO-CS11",
+        "harder": "BIO-CS11"
+      }
     },
     {
       "id": "CS13",
@@ -252,19 +327,27 @@
       "tier": "Both",
       "question": "Give the correct sequence for focusing a light microscope, starting with placing the slide on the stage.",
       "marks": 4,
-      "modelAnswer": "Select the lowest-power objective use the coarse focus to bring the image into view use fine focus to sharpen it move to a higher-power objective if needed and refocus.",
+      "modelAnswer": "Select the lowest-power objective.\nUse the coarse focus to bring the image into view.\nUse fine focus to sharpen it.\nMove to a higher-power objective if needed and refocus.",
       "markingPoints": [
-        "Select the lowest-power objective",
-        "use the coarse focus to bring the image into view",
-        "use fine focus to sharpen it",
-        "move to a higher-power objective if needed and refocus."
+        "Select the lowest-power objective.",
+        "Use the coarse focus to bring the image into view.",
+        "Use fine focus to sharpen it.",
+        "Move to a higher-power objective if needed and refocus."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-08IAVP1",
+      "databaseId": "BIO-CS13",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS12",
+        "diagnostic": "BIO-CS12",
+        "easier": "BIO-CS12",
+        "parallel": "BIO-CS12",
+        "harder": "BIO-CS12"
+      }
     },
     {
       "id": "CS14",
@@ -280,10 +363,17 @@
       ],
       "commandWord": "Recall",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1GEEZHU",
+      "databaseId": "BIO-CS14",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS15",
+        "easier": "BIO-CS15",
+        "parallel": "BIO-CS15",
+        "harder": "BIO-CS15"
+      }
     },
     {
       "id": "CS15",
@@ -293,18 +383,26 @@
       "tier": "Both",
       "question": "A cell image is 36 mm long. The real cell is 0.12 mm long. Calculate the magnification.",
       "marks": 2,
-      "modelAnswer": "magnification = image size ÷ actual size. Magnification = 36 ÷ 0.12 = ×300. Answer: Magnification = 36 ÷ 0.12 = ×300.",
+      "modelAnswer": "Magnification = image size ÷ actual size.\nMagnification = 36 ÷ 0.12 = ×300.\nAnswer: Magnification = 36 ÷ 0.12 = ×300.",
       "markingPoints": [
-        "magnification = image size ÷ actual size.",
+        "Magnification = image size ÷ actual size.",
         "Magnification = 36 ÷ 0.12 = ×300.",
         "Answer: Magnification = 36 ÷ 0.12 = ×300."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1GEEZHU",
+      "databaseId": "BIO-CS15",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS14",
+        "diagnostic": "BIO-CS14",
+        "easier": "BIO-CS14",
+        "parallel": "BIO-CS29",
+        "harder": "BIO-CS29"
+      }
     },
     {
       "id": "CS16",
@@ -314,18 +412,19 @@
       "tier": "Both",
       "question": "Convert 0.25 mm into micrometres.",
       "marks": 1,
-      "modelAnswer": "use the relevant relationship from the question. 0.25 × 1000 = 250 µm. Answer: 0.25 × 1000 = 250 µm.",
+      "modelAnswer": "Use the relevant relationship from the question.\n0.25 × 1000 = 250 µm.\nAnswer: 0.25 × 1000 = 250 µm.",
       "markingPoints": [
-        "use the relevant relationship from the question.",
+        "Use the relevant relationship from the question.",
         "0.25 × 1000 = 250 µm.",
         "Answer: 0.25 × 1000 = 250 µm."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-144IV9H",
+      "databaseId": "BIO-CS16"
     },
     {
       "id": "CS17",
@@ -335,17 +434,25 @@
       "tier": "Both",
       "question": "Compare electron microscopes with light microscopes.",
       "marks": 3,
-      "modelAnswer": "Electron microscopes have greater magnification and resolving power, so they show smaller structures and more detail. Light microscopes can view living specimens electron microscopes cannot.",
+      "modelAnswer": "Electron microscopes have greater magnification and resolving power, so they show smaller structures and more detail.\nLight microscopes can view living specimens.\nElectron microscopes cannot.",
       "markingPoints": [
-        "Electron microscopes have greater magnification and resolving power, so they show smaller structures and more detail. Light microscopes can view living specimens",
-        "electron microscopes cannot."
+        "Electron microscopes have greater magnification and resolving power, so they show smaller structures and more detail.",
+        "Light microscopes can view living specimens.",
+        "Electron microscopes cannot."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "1.1 Cell Structure QP/MS",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1IBTXZA",
+      "databaseId": "BIO-CS17",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS32",
+        "diagnostic": "BIO-CS32",
+        "easier": "BIO-CS32",
+        "parallel": "BIO-CS32"
+      }
     },
     {
       "id": "CS18",
@@ -355,18 +462,27 @@
       "tier": "Higher",
       "question": "Describe two aseptic techniques used when culturing bacteria and explain why each is used.",
       "marks": 4,
-      "modelAnswer": "Examples: sterilise Petri dishes/agar or flame the inoculating loop to kill unwanted microbes open the lid as little as possible / work near a flame to reduce contamination from air tape the lid to reduce entry or escape of microbes. Two techniques with reasons.",
+      "modelAnswer": "Examples: sterilise Petri dishes/agar or flame the inoculating loop to kill unwanted microbes.\nOpen the lid as little as possible / work near a flame to reduce contamination from air.\nTape the lid to reduce entry or escape of microbes.\nTwo techniques with reasons.",
       "markingPoints": [
-        "Examples: sterilise Petri dishes/agar or flame the inoculating loop to kill unwanted microbes",
-        "open the lid as little as possible / work near a flame to reduce contamination from air",
-        "tape the lid to reduce entry or escape of microbes. Two techniques with reasons."
+        "Examples: sterilise Petri dishes/agar or flame the inoculating loop to kill unwanted microbes.",
+        "Open the lid as little as possible / work near a flame to reduce contamination from air.",
+        "Tape the lid to reduce entry or escape of microbes.",
+        "Two techniques with reasons."
       ],
       "commandWord": "Describe and explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.1 Cell Structure (H) QP/MS",
       "specificationReference": "4.1.1.6",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1WVQJJV",
+      "databaseId": "BIO-CS18",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS19",
+        "diagnostic": "BIO-CS19",
+        "easier": "BIO-CS19",
+        "parallel": "BIO-CS34",
+        "harder": "BIO-CS34"
+      }
     },
     {
       "id": "CS19",
@@ -376,17 +492,25 @@
       "tier": "Higher",
       "question": "Explain why school cultures are incubated at 25 °C rather than 37 °C.",
       "marks": 2,
-      "modelAnswer": "Human pathogens grow well near body temperature (37 °C) 25 °C reduces the growth of harmful pathogens and therefore reduces risk.",
+      "modelAnswer": "Human pathogens grow well near body temperature (37 °C).\n25 °C reduces the growth of harmful pathogens and therefore reduces risk.",
       "markingPoints": [
-        "Human pathogens grow well near body temperature (37 °C)",
+        "Human pathogens grow well near body temperature (37 °C).",
         "25 °C reduces the growth of harmful pathogens and therefore reduces risk."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.1 Cell Structure (H) QP/MS",
       "specificationReference": "4.1.1.6",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1WVQJJV",
+      "databaseId": "BIO-CS19",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS18",
+        "diagnostic": "BIO-CS18",
+        "easier": "BIO-CS18",
+        "parallel": "BIO-CS18",
+        "harder": "BIO-CS18"
+      }
     },
     {
       "id": "CS20",
@@ -396,18 +520,25 @@
       "tier": "Higher",
       "question": "In a disc-diffusion test, explain the purpose of a disc containing no antibiotic and how antibiotic effectiveness is compared quantitatively.",
       "marks": 3,
-      "modelAnswer": "The no-antibiotic disc is a control showing that any inhibition is caused by the antibiotic measure the diameter/radius or calculate the area of each clear zone a larger zone indicates greater inhibition.",
+      "modelAnswer": "The no-antibiotic disc is a control showing that any inhibition is caused by the antibiotic.\nMeasure the diameter/radius or calculate the area of each clear zone.\nA larger zone indicates greater inhibition.",
       "markingPoints": [
-        "The no-antibiotic disc is a control showing that any inhibition is caused by the antibiotic",
-        "measure the diameter/radius or calculate the area of each clear zone",
-        "a larger zone indicates greater inhibition."
+        "The no-antibiotic disc is a control showing that any inhibition is caused by the antibiotic.",
+        "Measure the diameter/radius or calculate the area of each clear zone.",
+        "A larger zone indicates greater inhibition."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "1.1 Cell Structure (H) QP/MS",
       "specificationReference": "4.1.1.6; 4.3.1.8",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0M3EISZ",
+      "databaseId": "BIO-CS20",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS35",
+        "diagnostic": "BIO-CS35",
+        "easier": "BIO-CS35",
+        "parallel": "BIO-CS36"
+      }
     },
     {
       "id": "CS21",
@@ -417,17 +548,24 @@
       "tier": "Both",
       "question": "State the function of the cytoplasm and the function of the plant cell wall.",
       "marks": 2,
-      "modelAnswer": "Cytoplasm: where most chemical reactions occur / contains enzymes for reactions . Cell wall: strengthens/supports the cell / maintains shape .",
+      "modelAnswer": "Cytoplasm: where most chemical reactions occur / contains enzymes for reactions .\nCell wall: strengthens/supports the cell / maintains shape.\n.",
       "markingPoints": [
-        "Cytoplasm: where most chemical reactions occur / contains enzymes for reactions . Cell wall: strengthens/supports the cell / maintains shape",
+        "Cytoplasm: where most chemical reactions occur / contains enzymes for reactions .",
+        "Cell wall: strengthens/supports the cell / maintains shape.",
         "."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Recurring AQA Cell Structure family",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1IWIJ90",
+      "databaseId": "BIO-CS21",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS03",
+        "easier": "BIO-CS03",
+        "parallel": "BIO-CS03"
+      }
     },
     {
       "id": "CS22",
@@ -437,16 +575,24 @@
       "tier": "Both",
       "question": "State the functions of chloroplasts and the permanent vacuole.",
       "marks": 2,
-      "modelAnswer": "Chloroplasts contain chlorophyll and are the site of photosynthesis . Permanent vacuole contains cell sap and helps keep the cell turgid/rigid .",
+      "modelAnswer": "Chloroplasts contain chlorophyll and are the site of photosynthesis .\nPermanent vacuole contains cell sap and helps keep the cell turgid/rigid .",
       "markingPoints": [
-        "Chloroplasts contain chlorophyll and are the site of photosynthesis . Permanent vacuole contains cell sap and helps keep the cell turgid/rigid ."
+        "Chloroplasts contain chlorophyll and are the site of photosynthesis .",
+        "Permanent vacuole contains cell sap and helps keep the cell turgid/rigid ."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Recurring AQA Cell Structure family",
       "specificationReference": "4.1.1.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0YA3J13",
+      "databaseId": "BIO-CS22",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-CS07",
+        "easier": "BIO-CS07",
+        "parallel": "BIO-CS07",
+        "harder": "BIO-CS07"
+      }
     },
     {
       "id": "CS23",
@@ -456,18 +602,26 @@
       "tier": "Both",
       "question": "Explain how a nerve cell is adapted to transmit electrical impulses around the body.",
       "marks": 3,
-      "modelAnswer": "Long axon carries impulses over long distances branched ends/dendrites connect with many cells insulating myelin sheath speeds transmission / prevents loss of signal .",
+      "modelAnswer": "Long axon carries impulses over long distances.\nBranched ends/dendrites connect with many cells.\nInsulating myelin sheath speeds transmission / prevents loss of signal .",
       "markingPoints": [
-        "Long axon carries impulses over long distances",
-        "branched ends/dendrites connect with many cells",
-        "insulating myelin sheath speeds transmission / prevents loss of signal ."
+        "Long axon carries impulses over long distances.",
+        "Branched ends/dendrites connect with many cells.",
+        "Insulating myelin sheath speeds transmission / prevents loss of signal ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring specialised-cell family",
       "specificationReference": "4.1.1.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VXQI4S",
+      "databaseId": "BIO-CS23",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS08",
+        "diagnostic": "BIO-CS08",
+        "easier": "BIO-CS08",
+        "parallel": "BIO-CS08",
+        "harder": "BIO-CS26"
+      }
     },
     {
       "id": "CS24",
@@ -477,17 +631,25 @@
       "tier": "Both",
       "question": "Explain how a muscle cell is adapted for contraction.",
       "marks": 3,
-      "modelAnswer": "Contains contractile protein fibres that shorten many mitochondria release energy by respiration for contraction .",
+      "modelAnswer": "Contains contractile protein fibres that shorten.\nMany mitochondria release energy by respiration for contraction .",
       "markingPoints": [
-        "Contains contractile protein fibres that shorten",
-        "many mitochondria release energy by respiration for contraction ."
+        "Contains contractile protein fibres that shorten.",
+        "Many mitochondria release energy by respiration for contraction ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring specialised-cell family",
       "specificationReference": "4.1.1.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VXQI4S",
+      "databaseId": "BIO-CS24",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS08",
+        "diagnostic": "BIO-CS08",
+        "easier": "BIO-CS08",
+        "parallel": "BIO-CS08",
+        "harder": "BIO-CS26"
+      }
     },
     {
       "id": "CS25",
@@ -497,18 +659,26 @@
       "tier": "Both",
       "question": "Explain how a ciliated epithelial cell helps protect the gas-exchange system.",
       "marks": 3,
-      "modelAnswer": "Goblet cells make mucus which traps pathogens/particles cilia beat moving mucus towards the throat to be swallowed/removed .",
+      "modelAnswer": "Goblet cells make mucus which traps pathogens/particles.\nCilia beat.\nMoving mucus towards the throat to be swallowed/removed .",
       "markingPoints": [
-        "Goblet cells make mucus which traps pathogens/particles",
-        "cilia beat",
-        "moving mucus towards the throat to be swallowed/removed ."
+        "Goblet cells make mucus which traps pathogens/particles.",
+        "Cilia beat.",
+        "Moving mucus towards the throat to be swallowed/removed ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring specialised-cell family",
       "specificationReference": "4.1.1.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VXQI4S",
+      "databaseId": "BIO-CS25",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS08",
+        "diagnostic": "BIO-CS08",
+        "easier": "BIO-CS08",
+        "parallel": "BIO-CS08",
+        "harder": "BIO-CS26"
+      }
     },
     {
       "id": "CS26",
@@ -518,18 +688,25 @@
       "tier": "Both",
       "question": "Explain how a xylem vessel cell is adapted to transport water and support a plant.",
       "marks": 4,
-      "modelAnswer": "Cells are dead/hollow with no end walls, forming a continuous tube no cytoplasm gives little resistance to water flow walls contain lignin , which strengthens/waterproofs the vessel and prevents collapse .",
+      "modelAnswer": "Cells are dead/hollow with no end walls, forming a continuous tube.\nNo cytoplasm gives little resistance to water flow.\nWalls contain lignin , which strengthens/waterproofs the vessel and prevents collapse .",
       "markingPoints": [
-        "Cells are dead/hollow with no end walls, forming a continuous tube",
-        "no cytoplasm gives little resistance to water flow",
-        "walls contain lignin , which strengthens/waterproofs the vessel and prevents collapse ."
+        "Cells are dead/hollow with no end walls, forming a continuous tube.",
+        "No cytoplasm gives little resistance to water flow.",
+        "Walls contain lignin , which strengthens/waterproofs the vessel and prevents collapse ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring specialised-cell family",
       "specificationReference": "4.1.1.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VXQI4S",
+      "databaseId": "BIO-CS26",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS08",
+        "diagnostic": "BIO-CS08",
+        "easier": "BIO-CS08",
+        "parallel": "BIO-CS08"
+      }
     },
     {
       "id": "CS27",
@@ -539,16 +716,25 @@
       "tier": "Both",
       "question": "Compare differentiation in animals and plants.",
       "marks": 3,
-      "modelAnswer": "Differentiation is the process by which a cell changes to become specialised . Most animal cells differentiate early in development and then lose this ability . Many plant cells retain the ability to differentiate throughout life .",
+      "modelAnswer": "Differentiation is the process by which a cell changes to become specialised .\nMost animal cells differentiate early in development and then lose this ability .\nMany plant cells retain the ability to differentiate throughout life .",
       "markingPoints": [
-        "Differentiation is the process by which a cell changes to become specialised . Most animal cells differentiate early in development and then lose this ability . Many plant cells retain the ability to differentiate throughout life ."
+        "Differentiation is the process by which a cell changes to become specialised .",
+        "Most animal cells differentiate early in development and then lose this ability .",
+        "Many plant cells retain the ability to differentiate throughout life ."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring differentiation family",
       "specificationReference": "4.1.1.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-11HAP4Q",
+      "databaseId": "BIO-CS27",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD25",
+        "diagnostic": "BIO-CD25",
+        "easier": "BIO-CD25",
+        "parallel": "BIO-CD25"
+      }
     },
     {
       "id": "CS28",
@@ -558,16 +744,18 @@
       "tier": "Both",
       "question": "Put these structures in order from smallest to largest: bacterial cell, animal cell, nucleus, chromosome, gene.",
       "marks": 2,
-      "modelAnswer": "Gene → chromosome → nucleus → bacterial cell → animal cell . Award 1 mark for a substantially correct order with one adjacent error.",
+      "modelAnswer": "Gene → chromosome → nucleus → bacterial cell → animal cell .\nAward 1 mark for a substantially correct order with one adjacent error.",
       "markingPoints": [
-        "Gene → chromosome → nucleus → bacterial cell → animal cell . Award 1 mark for a substantially correct order with one adjacent error."
+        "Gene → chromosome → nucleus → bacterial cell → animal cell .",
+        "Award 1 mark for a substantially correct order with one adjacent error."
       ],
       "commandWord": "Order",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring scale/order family",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-06HJOCM",
+      "databaseId": "BIO-CS28"
     },
     {
       "id": "CS29",
@@ -577,18 +765,29 @@
       "tier": "Both",
       "question": "A micrograph shows a cell that is 48 mm long. The actual cell length is 80 µm. Calculate the magnification. Show the unit conversion.",
       "marks": 3,
-      "modelAnswer": "magnification = image size ÷ actual size. 48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 . Answer: 48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 .",
+      "modelAnswer": "Magnification = image size ÷ actual size.\n48 mm = 48 000 µm\nMagnification = image size ÷ actual size\n48 000 ÷ 80 = ×600 .\nAnswer: 48 mm = 48 000 µm\nMagnification = image size ÷ actual size\n48 000 ÷ 80 = ×600 .",
       "markingPoints": [
-        "magnification = image size ÷ actual size.",
-        "48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 .",
-        "Answer: 48 mm = 48 000 µm ; magnification = image size ÷ actual size ; 48 000 ÷ 80 = ×600 ."
+        "Magnification = image size ÷ actual size.",
+        "48 mm = 48 000 µm",
+        "Magnification = image size ÷ actual size",
+        "48 000 ÷ 80 = ×600 .",
+        "Answer: 48 mm = 48 000 µm",
+        "Magnification = image size ÷ actual size",
+        "48 000 ÷ 80 = ×600 ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring magnification family; self-contained values",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1GEEZHU",
+      "databaseId": "BIO-CS29",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS14",
+        "diagnostic": "BIO-CS14",
+        "easier": "BIO-CS15",
+        "parallel": "BIO-CS30"
+      }
     },
     {
       "id": "CS30",
@@ -598,18 +797,29 @@
       "tier": "Higher",
       "question": "An image was produced at ×2500 magnification and measures 75 mm. Calculate the actual size of the object in micrometres.",
       "marks": 3,
-      "modelAnswer": "actual size = image size ÷ magnification. Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm . Answer: Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm .",
+      "modelAnswer": "Actual size = image size ÷ magnification.\nActual size = image size ÷ magnification\n75 ÷ 2500 = 0.030 mm\n0.030 mm = 30 µm .\nAnswer: Actual size = image size ÷ magnification\n75 ÷ 2500 = 0.030 mm\n0.030 mm = 30 µm .",
       "markingPoints": [
-        "actual size = image size ÷ magnification.",
-        "Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm .",
-        "Answer: Actual size = image size ÷ magnification ; 75 ÷ 2500 = 0.030 mm ; 0.030 mm = 30 µm ."
+        "Actual size = image size ÷ magnification.",
+        "Actual size = image size ÷ magnification",
+        "75 ÷ 2500 = 0.030 mm",
+        "0.030 mm = 30 µm .",
+        "Answer: Actual size = image size ÷ magnification",
+        "75 ÷ 2500 = 0.030 mm",
+        "0.030 mm = 30 µm ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring magnification family; self-contained values",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1GEEZHU",
+      "databaseId": "BIO-CS30",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS14",
+        "diagnostic": "BIO-CS14",
+        "easier": "BIO-CS15",
+        "parallel": "BIO-CS29"
+      }
     },
     {
       "id": "CS31",
@@ -619,18 +829,23 @@
       "tier": "Both",
       "question": "A student counts 24 cells across a field of view 1.8 mm wide. Estimate the mean width of one cell in micrometres.",
       "marks": 3,
-      "modelAnswer": "mean = sum of values ÷ number of values. Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm . Answer: Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm .",
+      "modelAnswer": "Mean = sum of values ÷ number of values.\nMean width = 1.8 mm ÷ 24 = 0.075 mm\nConversion ×1000.\n75 µm .\nAnswer: Mean width = 1.8 mm ÷ 24 = 0.075 mm\nConversion ×1000.\n75 µm .",
       "markingPoints": [
-        "mean = sum of values ÷ number of values.",
-        "Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm .",
-        "Answer: Mean width = 1.8 mm ÷ 24 = 0.075 mm ; conversion ×1000 ; 75 µm ."
+        "Mean = sum of values ÷ number of values.",
+        "Mean width = 1.8 mm ÷ 24 = 0.075 mm",
+        "Conversion ×1000.",
+        "75 µm .",
+        "Answer: Mean width = 1.8 mm ÷ 24 = 0.075 mm",
+        "Conversion ×1000.",
+        "75 µm ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring microscopy calculation; no figure required",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1NVJNBR",
+      "databaseId": "BIO-CS31"
     },
     {
       "id": "CS32",
@@ -638,20 +853,27 @@
       "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Both",
-      "question": "A light microscope has a resolution of 200 nm and an electron microscope has a resolution of 0.2 nm. Explain why the electron microscope reveals more cell detail.",
+      "question": "A light microscope has a resolution of 200 nm and an electron microscope has a resolution of 0.2 nm.\nExplain why the electron microscope reveals more cell detail.",
       "marks": 3,
-      "modelAnswer": "Electron microscope has much higher resolving power / smaller resolution value it can distinguish points that are closer together therefore smaller organelles/finer internal structures can be seen .",
+      "modelAnswer": "Electron microscope has much higher resolving power / smaller resolution value.\nIt can distinguish points that are closer together.\nTherefore smaller organelles/finer internal structures can be seen .",
       "markingPoints": [
-        "Electron microscope has much higher resolving power / smaller resolution value",
-        "it can distinguish points that are closer together",
-        "therefore smaller organelles/finer internal structures can be seen ."
+        "Electron microscope has much higher resolving power / smaller resolution value.",
+        "It can distinguish points that are closer together.",
+        "Therefore smaller organelles/finer internal structures can be seen ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring microscope comparison family",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1IBTXZA",
+      "databaseId": "BIO-CS32",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS17",
+        "diagnostic": "BIO-CS17",
+        "easier": "BIO-CS17",
+        "parallel": "BIO-CS17"
+      }
     },
     {
       "id": "CS33",
@@ -661,18 +883,23 @@
       "tier": "Higher",
       "question": "A bacterial population doubles every 20 minutes. It starts with 150 cells. Calculate the number of cells after 2 hours.",
       "marks": 3,
-      "modelAnswer": "final population = starting population × 2ⁿ. 2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells . Answer: 2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells .",
+      "modelAnswer": "Final population = starting population × 2ⁿ.\n2 hours = 120 minutes\n120 ÷ 20 = 6 divisions/doublings\n150 × 2^6 = 9600 cells .\nAnswer: 2 hours = 120 minutes\n120 ÷ 20 = 6 divisions/doublings\n150 × 2^6 = 9600 cells .",
       "markingPoints": [
-        "final population = starting population × 2ⁿ.",
-        "2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells .",
-        "Answer: 2 hours = 120 minutes ; 120 ÷ 20 = 6 divisions/doublings ; 150 × 2^6 = 9600 cells ."
+        "Final population = starting population × 2ⁿ.",
+        "2 hours = 120 minutes",
+        "120 ÷ 20 = 6 divisions/doublings",
+        "150 × 2^6 = 9600 cells .",
+        "Answer: 2 hours = 120 minutes",
+        "120 ÷ 20 = 6 divisions/doublings",
+        "150 × 2^6 = 9600 cells ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring bacterial growth calculation",
       "specificationReference": "4.1.1.6",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-13FC7N5",
+      "databaseId": "BIO-CS33"
     },
     {
       "id": "CS34",
@@ -682,21 +909,28 @@
       "tier": "Biology only",
       "question": "Describe a safe method for preparing an uncontaminated culture of bacteria on an agar plate.",
       "marks": 6,
-      "modelAnswer": "Sterilise Petri dish/agar/inoculating loop disinfect work surface and wash hands use aseptic technique, e.g. flame loop and open lid minimally spread bacteria evenly on sterile nutrient agar secure lid with tape but do not seal completely incubate inverted at 25 °C in school .",
+      "modelAnswer": "Sterilise Petri dish/agar/inoculating loop.\nDisinfect work surface and wash hands.\nUse aseptic technique, e.g. flame loop and open lid minimally.\nSpread bacteria evenly on sterile nutrient agar.\nSecure lid with tape but do not seal completely.\nIncubate inverted at 25 °C in school .",
       "markingPoints": [
-        "Sterilise Petri dish/agar/inoculating loop",
-        "disinfect work surface and wash hands",
-        "use aseptic technique, e.g. flame loop and open lid minimally",
-        "spread bacteria evenly on sterile nutrient agar",
-        "secure lid with tape but do not seal completely",
-        "incubate inverted at 25 °C in school ."
+        "Sterilise Petri dish/agar/inoculating loop.",
+        "Disinfect work surface and wash hands.",
+        "Use aseptic technique, e.g. flame loop and open lid minimally.",
+        "Spread bacteria evenly on sterile nutrient agar.",
+        "Secure lid with tape but do not seal completely.",
+        "Incubate inverted at 25 °C in school ."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Biology-only practical family",
       "specificationReference": "4.1.1.6",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1WVQJJV",
+      "databaseId": "BIO-CS34",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS19",
+        "diagnostic": "BIO-CS19",
+        "easier": "BIO-CS18",
+        "parallel": "BIO-CS18"
+      }
     },
     {
       "id": "CS35",
@@ -706,18 +940,31 @@
       "tier": "Biology only",
       "question": "A disinfectant produces a clear circular zone with a diameter of 18 mm. Calculate the area of the clear zone in mm². Use π = 3.14.",
       "marks": 3,
-      "modelAnswer": "area of a circle = πr²; r = diameter ÷ 2. Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² . Answer: Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² .",
+      "modelAnswer": "Area of a circle = πr²\nR = diameter ÷ 2.\nRadius = 9 mm\nArea = πr²\n3.14 × 9² = 254.34 mm², 254 mm² .\nAnswer: Radius = 9 mm\nArea = πr²\n3.14 × 9² = 254.34 mm², 254 mm² .",
       "markingPoints": [
-        "area of a circle = πr²; r = diameter ÷ 2.",
-        "Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² .",
-        "Answer: Radius = 9 mm ; area = πr² ; 3.14 × 9² = 254.34 mm², 254 mm² ."
+        "Area of a circle = πr²",
+        "R = diameter ÷ 2.",
+        "Radius = 9 mm",
+        "Area = πr²",
+        "3.14 × 9² = 254.34 mm², 254 mm² .",
+        "Answer: Radius = 9 mm",
+        "Area = πr²",
+        "3.14 × 9² = 254.34 mm², 254 mm² ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Biology-only inhibition-zone calculation",
       "specificationReference": "4.1.1.6; 4.3.1.8",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0M3EISZ",
+      "databaseId": "BIO-CS35",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS20",
+        "diagnostic": "BIO-CS20",
+        "easier": "BIO-CS20",
+        "parallel": "BIO-CS20",
+        "harder": "BIO-CS20"
+      }
     },
     {
       "id": "CS36",
@@ -725,18 +972,27 @@
       "subtopic": "1.1 Cell Structure",
       "sourceSubtopic": "1.1 Cell Structure",
       "tier": "Biology only",
-      "question": "Three antibiotics produce mean clear-zone diameters of 8 mm, 15 mm and 21 mm under identical conditions. Which is most effective, and why is this conclusion only valid if the same bacterium and antibiotic-disc size are used?",
+      "question": "Three antibiotics produce mean clear-zone diameters of 8 mm, 15 mm and 21 mm under identical conditions.\nWhich is most effective, and why is this conclusion only valid if the same bacterium and antibiotic-disc size are used?",
       "marks": 3,
-      "modelAnswer": "The 21 mm antibiotic is most effective because it produces the largest zone / inhibits most bacterial growth . Same bacterial species/strain is needed because susceptibility differs . Same disc size/antibiotic amount is needed for a fair comparison .",
+      "modelAnswer": "The 21 mm antibiotic is most effective because it produces the largest zone / inhibits most bacterial growth .\nSame bacterial species/strain is needed because susceptibility differs .\nSame disc size/antibiotic amount is needed for a fair comparison .",
       "markingPoints": [
-        "The 21 mm antibiotic is most effective because it produces the largest zone / inhibits most bacterial growth . Same bacterial species/strain is needed because susceptibility differs . Same disc size/antibiotic amount is needed for a fair comparison ."
+        "The 21 mm antibiotic is most effective because it produces the largest zone / inhibits most bacterial growth .",
+        "Same bacterial species/strain is needed because susceptibility differs .",
+        "Same disc size/antibiotic amount is needed for a fair comparison ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Biology-only data interpretation; no figure required",
       "specificationReference": "4.1.1.6; 4.3.1.8",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0M3EISZ",
+      "databaseId": "BIO-CS36",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS35",
+        "diagnostic": "BIO-CS35",
+        "easier": "BIO-CS35",
+        "parallel": "BIO-CS20"
+      }
     },
     {
       "id": "CD01",
@@ -752,10 +1008,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0QOK898",
+      "databaseId": "BIO-CD01"
     },
     {
       "id": "CD02",
@@ -771,10 +1028,11 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.6.1.4",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0NP9SLO",
+      "databaseId": "BIO-CD02"
     },
     {
       "id": "CD03",
@@ -790,10 +1048,11 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.6.1.4",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0MS9A3A",
+      "databaseId": "BIO-CD03"
     },
     {
       "id": "CD04",
@@ -803,18 +1062,19 @@
       "tier": "Both",
       "question": "State three reasons why organisms need mitosis.",
       "marks": 3,
-      "modelAnswer": "Growth repair or replacement of damaged cells asexual reproduction.",
+      "modelAnswer": "Growth.\nRepair or replacement of damaged cells.\nAsexual reproduction.",
       "markingPoints": [
-        "Growth",
-        "repair or replacement of damaged cells",
-        "asexual reproduction."
+        "Growth.",
+        "Repair or replacement of damaged cells.",
+        "Asexual reproduction."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1TJGQK6",
+      "databaseId": "BIO-CD04"
     },
     {
       "id": "CD05",
@@ -824,18 +1084,19 @@
       "tier": "Both",
       "question": "Describe what happens during the first stage of the cell cycle before mitosis.",
       "marks": 3,
-      "modelAnswer": "The cell grows the number of sub-cellular structures such as mitochondria and ribosomes increases DNA replicates to form two copies of each chromosome.",
+      "modelAnswer": "The cell grows.\nThe number of sub-cellular structures such as mitochondria and ribosomes increases.\nDNA replicates to form two copies of each chromosome.",
       "markingPoints": [
-        "The cell grows",
-        "the number of sub-cellular structures such as mitochondria and ribosomes increases",
+        "The cell grows.",
+        "The number of sub-cellular structures such as mitochondria and ribosomes increases.",
         "DNA replicates to form two copies of each chromosome."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1H6ZZF8",
+      "databaseId": "BIO-CD05"
     },
     {
       "id": "CD06",
@@ -845,18 +1106,19 @@
       "tier": "Both",
       "question": "Describe what happens during mitosis and cytokinesis.",
       "marks": 3,
-      "modelAnswer": "One set of chromosomes is pulled to each end of the cell the nucleus divides the cytoplasm and cell membrane divide to form two genetically identical cells.",
+      "modelAnswer": "One set of chromosomes is pulled to each end of the cell.\nThe nucleus divides.\nThe cytoplasm and cell membrane divide to form two genetically identical cells.",
       "markingPoints": [
-        "One set of chromosomes is pulled to each end of the cell",
-        "the nucleus divides",
-        "the cytoplasm and cell membrane divide to form two genetically identical cells."
+        "One set of chromosomes is pulled to each end of the cell.",
+        "The nucleus divides.",
+        "The cytoplasm and cell membrane divide to form two genetically identical cells."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0Y11VK5",
+      "databaseId": "BIO-CD06"
     },
     {
       "id": "CD07",
@@ -866,18 +1128,22 @@
       "tier": "Both",
       "question": "A human body cell containing 46 chromosomes divides by mitosis. How many chromosomes will each daughter cell contain? Explain.",
       "marks": 2,
-      "modelAnswer": "mitosis keeps the chromosome number; meiosis halves it. 46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell. Answer: 46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell.",
+      "modelAnswer": "Mitosis keeps the chromosome number.\nMeiosis halves it.\n46.\nMitosis produces daughter cells with the same number and type of chromosomes as the parent cell.\nAnswer: 46.\nMitosis produces daughter cells with the same number and type of chromosomes as the parent cell.",
       "markingPoints": [
-        "mitosis keeps the chromosome number; meiosis halves it.",
-        "46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell.",
-        "Answer: 46. Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell."
+        "Mitosis keeps the chromosome number.",
+        "Meiosis halves it.",
+        "46.",
+        "Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell.",
+        "Answer: 46.",
+        "Mitosis produces daughter cells with the same number and type of chromosomes as the parent cell."
       ],
       "commandWord": "Calculate and explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1L9CM2B",
+      "databaseId": "BIO-CD07"
     },
     {
       "id": "CD08",
@@ -893,10 +1159,11 @@
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0ZP89AB",
+      "databaseId": "BIO-CD08"
     },
     {
       "id": "CD09",
@@ -906,18 +1173,26 @@
       "tier": "Both",
       "question": "Give three differences between mitosis and meiosis.",
       "marks": 3,
-      "modelAnswer": "Mitosis has one division while meiosis has two mitosis produces two cells while meiosis produces four mitosis gives genetically identical diploid cells while meiosis gives genetically different haploid cells.",
+      "modelAnswer": "Mitosis has one division while meiosis has two.\nMitosis produces two cells while meiosis produces four.\nMitosis gives genetically identical diploid cells while meiosis gives genetically different haploid cells.",
       "markingPoints": [
-        "Mitosis has one division while meiosis has two",
-        "mitosis produces two cells while meiosis produces four",
-        "mitosis gives genetically identical diploid cells while meiosis gives genetically different haploid cells."
+        "Mitosis has one division while meiosis has two.",
+        "Mitosis produces two cells while meiosis produces four.",
+        "Mitosis gives genetically identical diploid cells while meiosis gives genetically different haploid cells."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0JJ4HP5",
+      "databaseId": "BIO-CD09",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD33",
+        "diagnostic": "BIO-CD33",
+        "easier": "BIO-CD33",
+        "parallel": "BIO-CD33",
+        "harder": "BIO-CD33"
+      }
     },
     {
       "id": "CD10",
@@ -927,18 +1202,26 @@
       "tier": "Both",
       "question": "A body cell has 24 chromosomes. How many chromosomes will a gamete contain?",
       "marks": 1,
-      "modelAnswer": "mitosis keeps the chromosome number; meiosis halves it. 12 chromosomes. Answer: 12 chromosomes.",
+      "modelAnswer": "Mitosis keeps the chromosome number.\nMeiosis halves it.\n12 chromosomes.\nAnswer: 12 chromosomes.",
       "markingPoints": [
-        "mitosis keeps the chromosome number; meiosis halves it.",
+        "Mitosis keeps the chromosome number.",
+        "Meiosis halves it.",
         "12 chromosomes.",
         "Answer: 12 chromosomes."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1CHP06K",
+      "databaseId": "BIO-CD10",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD08",
+        "diagnostic": "BIO-CD08",
+        "easier": "BIO-CD08",
+        "parallel": "BIO-CD08"
+      }
     },
     {
       "id": "CD11",
@@ -954,10 +1237,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0QKWNHA",
+      "databaseId": "BIO-CD11"
     },
     {
       "id": "CD12",
@@ -973,10 +1257,11 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1XYBLLX",
+      "databaseId": "BIO-CD12"
     },
     {
       "id": "CD13",
@@ -992,10 +1277,18 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0HPZ93P",
+      "databaseId": "BIO-CD13",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD26",
+        "diagnostic": "BIO-CD26",
+        "easier": "BIO-CD26",
+        "parallel": "BIO-CD26",
+        "harder": "BIO-CD26"
+      }
     },
     {
       "id": "CD14",
@@ -1005,17 +1298,18 @@
       "tier": "Both",
       "question": "Where are adult stem cells found and what is one limitation compared with embryonic stem cells?",
       "marks": 2,
-      "modelAnswer": "They are found in tissues such as bone marrow they can form only a limited range of cell types (for example, blood cells).",
+      "modelAnswer": "They are found in tissues such as bone marrow.\nThey can form only a limited range of cell types (for example, blood cells).",
       "markingPoints": [
-        "They are found in tissues such as bone marrow",
-        "they can form only a limited range of cell types (for example, blood cells)."
+        "They are found in tissues such as bone marrow.",
+        "They can form only a limited range of cell types (for example, blood cells)."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1GE4PU5",
+      "databaseId": "BIO-CD14"
     },
     {
       "id": "CD15",
@@ -1025,18 +1319,26 @@
       "tier": "Both",
       "question": "Where are plant stem cells found and how can they be used?",
       "marks": 3,
-      "modelAnswer": "They are found in meristems they can produce clones of plants quickly this can preserve rare species or produce crops with desirable features.",
+      "modelAnswer": "They are found in meristems.\nThey can produce clones of plants quickly.\nThis can preserve rare species or produce crops with desirable features.",
       "markingPoints": [
-        "They are found in meristems",
-        "they can produce clones of plants quickly",
-        "this can preserve rare species or produce crops with desirable features."
+        "They are found in meristems.",
+        "They can produce clones of plants quickly.",
+        "This can preserve rare species or produce crops with desirable features."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-06U5R52",
+      "databaseId": "BIO-CD15",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD29",
+        "diagnostic": "BIO-CD29",
+        "easier": "BIO-CD29",
+        "parallel": "BIO-CD29",
+        "harder": "BIO-CD29"
+      }
     },
     {
       "id": "CD16",
@@ -1046,21 +1348,30 @@
       "tier": "Both",
       "question": "Give two benefits and two risks or ethical concerns associated with embryonic stem-cell treatment.",
       "marks": 4,
-      "modelAnswer": "Benefits: may treat serious disease can replace damaged cells can form many cell types. Risks/concerns: rejection or immune response infection/virus transfer tumour formation destruction of embryos / religious or ethical objections. of each.",
+      "modelAnswer": "Benefits: may treat serious disease.\nCan replace damaged cells.\nCan form many cell types.\nRisks/concerns: rejection or immune response.\nInfection/virus transfer.\nTumour formation.\nDestruction of embryos / religious or ethical objections. of each.",
       "markingPoints": [
-        "Benefits: may treat serious disease",
-        "can replace damaged cells",
-        "can form many cell types. Risks/concerns: rejection or immune response",
-        "infection/virus transfer",
-        "tumour formation",
-        "destruction of embryos / religious or ethical objections. of each."
+        "Benefits: may treat serious disease.",
+        "Can replace damaged cells.",
+        "Can form many cell types.",
+        "Risks/concerns: rejection or immune response.",
+        "Infection/virus transfer.",
+        "Tumour formation.",
+        "Destruction of embryos / religious or ethical objections. of each."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1ONJ117",
+      "databaseId": "BIO-CD16",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD28",
+        "diagnostic": "BIO-CD28",
+        "easier": "BIO-CD28",
+        "parallel": "BIO-CD28",
+        "harder": "BIO-CD28"
+      }
     },
     {
       "id": "CD17",
@@ -1070,18 +1381,25 @@
       "tier": "Higher",
       "question": "Explain how a change in cell-cycle control can lead to a tumour.",
       "marks": 3,
-      "modelAnswer": "A mutation affects genes controlling the cell cycle cells divide uncontrollably by mitosis a mass of abnormal cells forms.",
+      "modelAnswer": "A mutation affects genes controlling the cell cycle.\nCells divide uncontrollably by mitosis.\nA mass of abnormal cells forms.",
       "markingPoints": [
-        "A mutation affects genes controlling the cell cycle",
-        "cells divide uncontrollably by mitosis",
-        "a mass of abnormal cells forms."
+        "A mutation affects genes controlling the cell cycle.",
+        "Cells divide uncontrollably by mitosis.",
+        "A mass of abnormal cells forms."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.2 Cell Division (H) QP/MS",
       "specificationReference": "4.2.2.7",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-09WGK4L",
+      "databaseId": "BIO-CD17",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD31",
+        "diagnostic": "BIO-CD31",
+        "easier": "BIO-CD31",
+        "parallel": "BIO-CD31"
+      }
     },
     {
       "id": "CD18",
@@ -1091,18 +1409,19 @@
       "tier": "Both",
       "question": "A microscope image shows 80 cells, 12 of which are undergoing mitosis. Calculate the percentage undergoing mitosis.",
       "marks": 2,
-      "modelAnswer": "percentage = (part ÷ total) × 100. (12 ÷ 80) × 100 = 15%. Answer: (12 ÷ 80) × 100 = 15%.",
+      "modelAnswer": "Percentage = (part ÷ total) × 100.\n(12 ÷ 80) × 100 = 15%.\nAnswer: (12 ÷ 80) × 100 = 15%.",
       "markingPoints": [
-        "percentage = (part ÷ total) × 100.",
+        "Percentage = (part ÷ total) × 100.",
         "(12 ÷ 80) × 100 = 15%.",
         "Answer: (12 ÷ 80) × 100 = 15%."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.2 Cell Division QP/MS",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0RVXVDG",
+      "databaseId": "BIO-CD18"
     },
     {
       "id": "CD19",
@@ -1112,20 +1431,27 @@
       "tier": "Both",
       "question": "Describe the complete cell cycle in the correct order.",
       "marks": 5,
-      "modelAnswer": "Cell grows/increases subcellular structures DNA replicates to form two copies of each chromosome mitosis: one set of chromosomes is pulled to each end / nucleus divides cytoplasm and cell membrane divide two genetically identical daughter cells are produced .",
+      "modelAnswer": "Cell grows/increases subcellular structures.\nDNA replicates to form two copies of each chromosome.\nMitosis: one set of chromosomes is pulled to each end / nucleus divides.\nCytoplasm and cell membrane divide.\nTwo genetically identical daughter cells are produced .",
       "markingPoints": [
-        "Cell grows/increases subcellular structures",
-        "DNA replicates to form two copies of each chromosome",
-        "mitosis: one set of chromosomes is pulled to each end / nucleus divides",
-        "cytoplasm and cell membrane divide",
-        "two genetically identical daughter cells are produced ."
+        "Cell grows/increases subcellular structures.",
+        "DNA replicates to form two copies of each chromosome.",
+        "Mitosis: one set of chromosomes is pulled to each end / nucleus divides.",
+        "Cytoplasm and cell membrane divide.",
+        "Two genetically identical daughter cells are produced ."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Recurring cell-cycle family",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1HMU28V",
+      "databaseId": "BIO-CD19",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD04",
+        "diagnostic": "BIO-CD04",
+        "easier": "BIO-CD04",
+        "parallel": "BIO-CD04"
+      }
     },
     {
       "id": "CD20",
@@ -1135,17 +1461,18 @@
       "tier": "Both",
       "question": "Explain why DNA must be replicated before mitosis.",
       "marks": 2,
-      "modelAnswer": "So there are two copies of each chromosome therefore each daughter cell receives a full/identical set of genetic information .",
+      "modelAnswer": "So there are two copies of each chromosome.\nTherefore each daughter cell receives a full/identical set of genetic information .",
       "markingPoints": [
-        "So there are two copies of each chromosome",
-        "therefore each daughter cell receives a full/identical set of genetic information ."
+        "So there are two copies of each chromosome.",
+        "Therefore each daughter cell receives a full/identical set of genetic information ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring cell-cycle reasoning",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1JQ9I7K",
+      "databaseId": "BIO-CD20"
     },
     {
       "id": "CD21",
@@ -1155,18 +1482,23 @@
       "tier": "Both",
       "question": "A cell population increases from 250 cells to 2000 cells. Assuming no cells die, calculate the minimum number of rounds of mitosis.",
       "marks": 3,
-      "modelAnswer": "final population = starting population × 2ⁿ. Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds . Answer: Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds .",
+      "modelAnswer": "Final population = starting population × 2ⁿ.\nEach round doubles the population.\n250 → 500 → 1000 → 2000\nThree rounds .\nAnswer: Each round doubles the population.\n250 → 500 → 1000 → 2000\nThree rounds .",
       "markingPoints": [
-        "final population = starting population × 2ⁿ.",
-        "Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds .",
-        "Answer: Each round doubles the population ; 250 → 500 → 1000 → 2000 ; three rounds ."
+        "Final population = starting population × 2ⁿ.",
+        "Each round doubles the population.",
+        "250 → 500 → 1000 → 2000",
+        "Three rounds .",
+        "Answer: Each round doubles the population.",
+        "250 → 500 → 1000 → 2000",
+        "Three rounds ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring mitosis calculation; self-contained",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-11V4NUQ",
+      "databaseId": "BIO-CD21"
     },
     {
       "id": "CD22",
@@ -1176,18 +1508,25 @@
       "tier": "Higher",
       "question": "In a root-tip sample, 18 of 240 cells are in mitosis. Calculate the mitotic index as a decimal and as a percentage.",
       "marks": 3,
-      "modelAnswer": "percentage = (part ÷ total) × 100. Mitotic index = 18 ÷ 240 = 0.075 = 7.5% . Answer: Mitotic index = 18 ÷ 240 = 0.075 = 7.5% .",
+      "modelAnswer": "Percentage = (part ÷ total) × 100.\nMitotic index = 18 ÷ 240 = 0.075 = 7.5% .\nAnswer: Mitotic index = 18 ÷ 240 = 0.075 = 7.5% .",
       "markingPoints": [
-        "percentage = (part ÷ total) × 100.",
+        "Percentage = (part ÷ total) × 100.",
         "Mitotic index = 18 ÷ 240 = 0.075 = 7.5% .",
         "Answer: Mitotic index = 18 ÷ 240 = 0.075 = 7.5% ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring mitotic-index family",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1TSJY0H",
+      "databaseId": "BIO-CD22",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD23",
+        "diagnostic": "BIO-CD23",
+        "easier": "BIO-CD23",
+        "parallel": "BIO-CD23"
+      }
     },
     {
       "id": "CD23",
@@ -1197,18 +1536,25 @@
       "tier": "Higher",
       "question": "A complete cell cycle lasts 16 hours. The mitotic index is 0.075. Estimate the time spent in mitosis in minutes.",
       "marks": 3,
-      "modelAnswer": "percentage = (part ÷ total) × 100. Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes . Answer: Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .",
+      "modelAnswer": "Percentage = (part ÷ total) × 100.\nTime in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .\nAnswer: Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .",
       "markingPoints": [
-        "percentage = (part ÷ total) × 100.",
+        "Percentage = (part ÷ total) × 100.",
         "Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes .",
         "Answer: Time in mitosis = 0.075 × 16 h = 1.2 h = 72 minutes ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring mitotic-index application",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1TSJY0H",
+      "databaseId": "BIO-CD23",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD22",
+        "diagnostic": "BIO-CD22",
+        "easier": "BIO-CD22",
+        "parallel": "BIO-CD22"
+      }
     },
     {
       "id": "CD24",
@@ -1218,18 +1564,19 @@
       "tier": "Both",
       "question": "Explain why mitosis is needed when a skin wound heals.",
       "marks": 3,
-      "modelAnswer": "Mitosis produces new cells daughter cells are genetically identical / have the same chromosome number these replace damaged/lost skin cells .",
+      "modelAnswer": "Mitosis produces new cells.\nDaughter cells are genetically identical / have the same chromosome number.\nThese replace damaged/lost skin cells .",
       "markingPoints": [
-        "Mitosis produces new cells",
-        "daughter cells are genetically identical / have the same chromosome number",
-        "these replace damaged/lost skin cells ."
+        "Mitosis produces new cells.",
+        "Daughter cells are genetically identical / have the same chromosome number.",
+        "These replace damaged/lost skin cells ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring mitosis application",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1UNMAXS",
+      "databaseId": "BIO-CD24"
     },
     {
       "id": "CD25",
@@ -1239,18 +1586,25 @@
       "tier": "Both",
       "question": "Explain how an unspecialised cell becomes specialised.",
       "marks": 3,
-      "modelAnswer": "The cell differentiates different genes are switched on/off / expressed producing different proteins and subcellular structures suited to its function .",
+      "modelAnswer": "The cell differentiates.\nDifferent genes are switched on/off / expressed.\nProducing different proteins and subcellular structures suited to its function .",
       "markingPoints": [
-        "The cell differentiates",
-        "different genes are switched on/off / expressed",
-        "producing different proteins and subcellular structures suited to its function ."
+        "The cell differentiates.",
+        "Different genes are switched on/off / expressed.",
+        "Producing different proteins and subcellular structures suited to its function ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring differentiation mechanism",
       "specificationReference": "4.1.1.4",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-11HAP4Q",
+      "databaseId": "BIO-CD25",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CS27",
+        "diagnostic": "BIO-CS27",
+        "easier": "BIO-CS27",
+        "parallel": "BIO-CS27"
+      }
     },
     {
       "id": "CD26",
@@ -1260,19 +1614,26 @@
       "tier": "Both",
       "question": "Explain how embryonic stem cells could be used to treat paralysis caused by damaged spinal nerve cells.",
       "marks": 4,
-      "modelAnswer": "Embryonic stem cells can divide by mitosis and differentiate into nerve cells transplanted cells could replace damaged nerve cells / restore connections treatment must avoid immune rejection / uncontrolled division .",
+      "modelAnswer": "Embryonic stem cells can divide by mitosis.\nDifferentiate into nerve cells.\nTransplanted cells could replace damaged nerve cells / restore connections.\nTreatment must avoid immune rejection / uncontrolled division .",
       "markingPoints": [
-        "Embryonic stem cells can divide by mitosis",
-        "and differentiate into nerve cells",
-        "transplanted cells could replace damaged nerve cells / restore connections",
-        "treatment must avoid immune rejection / uncontrolled division ."
+        "Embryonic stem cells can divide by mitosis.",
+        "Differentiate into nerve cells.",
+        "Transplanted cells could replace damaged nerve cells / restore connections.",
+        "Treatment must avoid immune rejection / uncontrolled division ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring stem-cell application",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0HPZ93P",
+      "databaseId": "BIO-CD26",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD13",
+        "diagnostic": "BIO-CD13",
+        "easier": "BIO-CD13",
+        "parallel": "BIO-CD13"
+      }
     },
     {
       "id": "CD27",
@@ -1282,19 +1643,20 @@
       "tier": "Higher",
       "question": "Explain how therapeutic cloning can reduce the risk of rejection in stem-cell treatment.",
       "marks": 4,
-      "modelAnswer": "Nucleus/genetic material from the patient is placed into an egg cell whose nucleus was removed the embryo produced is genetically identical to the patient stem cells are collected and differentiated into the required cell type the immune system is less likely to recognise them as foreign / reject them .",
+      "modelAnswer": "Nucleus/genetic material from the patient is placed into an egg cell whose nucleus was removed.\nThe embryo produced is genetically identical to the patient.\nStem cells are collected and differentiated into the required cell type.\nThe immune system is less likely to recognise them as foreign / reject them .",
       "markingPoints": [
-        "Nucleus/genetic material from the patient is placed into an egg cell whose nucleus was removed",
-        "the embryo produced is genetically identical to the patient",
-        "stem cells are collected and differentiated into the required cell type",
-        "the immune system is less likely to recognise them as foreign / reject them ."
+        "Nucleus/genetic material from the patient is placed into an egg cell whose nucleus was removed.",
+        "The embryo produced is genetically identical to the patient.",
+        "Stem cells are collected and differentiated into the required cell type.",
+        "The immune system is less likely to recognise them as foreign / reject them ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring therapeutic-cloning family",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1XF54NP",
+      "databaseId": "BIO-CD27"
     },
     {
       "id": "CD28",
@@ -1304,19 +1666,28 @@
       "tier": "Both",
       "question": "A patient can receive either adult bone-marrow stem cells or embryonic stem cells. Evaluate the choices.",
       "marks": 6,
-      "modelAnswer": "Embryonic cells can differentiate into most cell types , so may treat a wider range of conditions but embryo is destroyed / ethical or religious objection risk of uncontrolled division/tumour, infection or rejection . Adult bone-marrow cells avoid embryo concerns / may be taken from patient, reducing rejection but form a limited range of cell types / may be difficult to obtain in sufficient numbers . Credit a justified conclusion based on the patient/context.",
+      "modelAnswer": "Embryonic cells can differentiate into most cell types , so may treat a wider range of conditions.\nBut embryo is destroyed / ethical or religious objection.\nRisk of uncontrolled division/tumour, infection or rejection .\nAdult bone-marrow cells avoid embryo concerns / may be taken from patient, reducing rejection.\nBut form a limited range of cell types / may be difficult to obtain in sufficient numbers .\nCredit a justified conclusion based on the patient/context.",
       "markingPoints": [
-        "Embryonic cells can differentiate into most cell types , so may treat a wider range of conditions",
-        "but embryo is destroyed / ethical or religious objection",
-        "risk of uncontrolled division/tumour, infection or rejection . Adult bone-marrow cells avoid embryo concerns / may be taken from patient, reducing rejection",
-        "but form a limited range of cell types / may be difficult to obtain in sufficient numbers . Credit a justified conclusion based on the patient/context."
+        "Embryonic cells can differentiate into most cell types , so may treat a wider range of conditions.",
+        "But embryo is destroyed / ethical or religious objection.",
+        "Risk of uncontrolled division/tumour, infection or rejection .",
+        "Adult bone-marrow cells avoid embryo concerns / may be taken from patient, reducing rejection.",
+        "But form a limited range of cell types / may be difficult to obtain in sufficient numbers .",
+        "Credit a justified conclusion based on the patient/context."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Recurring 6-mark stem-cell evaluation",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1ONJ117",
+      "databaseId": "BIO-CD28",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD16",
+        "diagnostic": "BIO-CD16",
+        "easier": "BIO-CD16",
+        "parallel": "BIO-CD16"
+      }
     },
     {
       "id": "CD29",
@@ -1326,19 +1697,26 @@
       "tier": "Both",
       "question": "Explain how meristem cells can be used to produce many identical disease-resistant crop plants.",
       "marks": 4,
-      "modelAnswer": "Take meristem tissue/cells from a disease-resistant plant grow under sterile conditions on nutrient medium with hormones cells divide by mitosis and differentiate into whole plants plants are clones/genetically identical and retain disease resistance .",
+      "modelAnswer": "Take meristem tissue/cells from a disease-resistant plant.\nGrow under sterile conditions on nutrient medium with hormones.\nCells divide by mitosis and differentiate into whole plants.\nPlants are clones/genetically identical and retain disease resistance .",
       "markingPoints": [
-        "Take meristem tissue/cells from a disease-resistant plant",
-        "grow under sterile conditions on nutrient medium with hormones",
-        "cells divide by mitosis and differentiate into whole plants",
-        "plants are clones/genetically identical and retain disease resistance ."
+        "Take meristem tissue/cells from a disease-resistant plant.",
+        "Grow under sterile conditions on nutrient medium with hormones.",
+        "Cells divide by mitosis and differentiate into whole plants.",
+        "Plants are clones/genetically identical and retain disease resistance ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring plant cloning family",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-06U5R52",
+      "databaseId": "BIO-CD29",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD15",
+        "diagnostic": "BIO-CD15",
+        "easier": "BIO-CD15",
+        "parallel": "BIO-CD15"
+      }
     },
     {
       "id": "CD30",
@@ -1346,20 +1724,27 @@
       "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
-      "question": "In a trial, 60 patients receive a stem-cell treatment and 45 improve. Of 60 control patients, 24 improve. Calculate the percentage improvement in each group and state one reason this does not prove the treatment caused the improvement.",
+      "question": "In a trial, 60 patients receive a stem-cell treatment and 45 improve.\nOf 60 control patients, 24 improve.\nPart (a): Calculate the percentage improvement in each group.\nPart (b): State one reason this does not prove the treatment caused the improvement.",
       "marks": 4,
-      "modelAnswer": "percentage = (part ÷ total) × 100. Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication . Answer: Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
+      "modelAnswer": "Percentage = (part ÷ total) × 100.\nTreatment: 45/60 ×100 = 75%\nControl: 24/60 ×100 = 40%\nTreatment group improved by a greater proportion.\nDoes not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .\nAnswer: Treatment: 45/60 ×100 = 75%\nControl: 24/60 ×100 = 40%\nTreatment group improved by a greater proportion.\nDoes not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
       "markingPoints": [
-        "percentage = (part ÷ total) × 100.",
-        "Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
-        "Answer: Treatment: 45/60 ×100 = 75% ; control: 24/60 ×100 = 40% ; treatment group improved by a greater proportion ; does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication ."
+        "Percentage = (part ÷ total) × 100.",
+        "Treatment: 45/60 ×100 = 75%",
+        "Control: 24/60 ×100 = 40%",
+        "Treatment group improved by a greater proportion.",
+        "Does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication .",
+        "Answer: Treatment: 45/60 ×100 = 75%",
+        "Control: 24/60 ×100 = 40%",
+        "Treatment group improved by a greater proportion.",
+        "Does not prove causation because of possible chance/confounding variables, lack of randomisation/blinding, or need for statistical testing/replication ."
       ],
       "commandWord": "Calculate and evaluate",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Recurring clinical-data family; no graph required",
       "specificationReference": "4.1.2.3",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0GQRLRC",
+      "databaseId": "BIO-CD30"
     },
     {
       "id": "CD31",
@@ -1369,18 +1754,25 @@
       "tier": "Higher",
       "question": "A mutation makes a cell divide every 8 hours instead of every 24 hours. Explain how this may lead to cancer.",
       "marks": 3,
-      "modelAnswer": "Mutation affects genes controlling the cell cycle cells divide uncontrollably / too frequently producing a mass of abnormal cells / tumour, which may invade tissues .",
+      "modelAnswer": "Mutation affects genes controlling the cell cycle.\nCells divide uncontrollably / too frequently.\nProducing a mass of abnormal cells / tumour, which may invade tissues .",
       "markingPoints": [
-        "Mutation affects genes controlling the cell cycle",
-        "cells divide uncontrollably / too frequently",
-        "producing a mass of abnormal cells / tumour, which may invade tissues ."
+        "Mutation affects genes controlling the cell cycle.",
+        "Cells divide uncontrollably / too frequently.",
+        "Producing a mass of abnormal cells / tumour, which may invade tissues ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring cancer/cell-cycle family",
       "specificationReference": "4.2.2.7",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-09WGK4L",
+      "databaseId": "BIO-CD31",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD17",
+        "diagnostic": "BIO-CD17",
+        "easier": "BIO-CD17",
+        "parallel": "BIO-CD17"
+      }
     },
     {
       "id": "CD32",
@@ -1390,16 +1782,24 @@
       "tier": "Both",
       "question": "A diploid cell contains 14 chromosomes. State the chromosome number in each daughter cell after mitosis and in each gamete after meiosis.",
       "marks": 2,
-      "modelAnswer": "After mitosis: 14 . After meiosis: 7 .",
+      "modelAnswer": "After mitosis: 14 .\nAfter meiosis: 7 .",
       "markingPoints": [
-        "After mitosis: 14 . After meiosis: 7 ."
+        "After mitosis: 14 .",
+        "After meiosis: 7 ."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring chromosome-number application",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-01OPPLE",
+      "databaseId": "BIO-CD32",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD01",
+        "diagnostic": "BIO-CD01",
+        "easier": "BIO-CD01",
+        "parallel": "BIO-CD01"
+      }
     },
     {
       "id": "CD33",
@@ -1409,18 +1809,26 @@
       "tier": "Both",
       "question": "Explain why mitosis produces genetically identical cells whereas meiosis produces genetically varied gametes.",
       "marks": 4,
-      "modelAnswer": "In mitosis, replicated chromosomes are separated once so each daughter receives the same copies one division produces diploid cells . In meiosis homologous chromosomes/alleles are assorted and genetic material is recombined two divisions produce haploid gametes with different allele combinations .",
+      "modelAnswer": "In mitosis, replicated chromosomes are separated once so each daughter receives the same copies.\nOne division produces diploid cells .\nIn meiosis homologous chromosomes/alleles are assorted and genetic material is recombined.\nTwo divisions produce haploid gametes with different allele combinations .",
       "markingPoints": [
-        "In mitosis, replicated chromosomes are separated once so each daughter receives the same copies",
-        "one division produces diploid cells . In meiosis homologous chromosomes/alleles are assorted and genetic material is recombined",
-        "two divisions produce haploid gametes with different allele combinations ."
+        "In mitosis, replicated chromosomes are separated once so each daughter receives the same copies.",
+        "One division produces diploid cells .",
+        "In meiosis homologous chromosomes/alleles are assorted and genetic material is recombined.",
+        "Two divisions produce haploid gametes with different allele combinations ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring comparison family",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0JJ4HP5",
+      "databaseId": "BIO-CD33",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD09",
+        "diagnostic": "BIO-CD09",
+        "easier": "BIO-CD09",
+        "parallel": "BIO-CD09"
+      }
     },
     {
       "id": "CD34",
@@ -1428,19 +1836,29 @@
       "subtopic": "1.2 Cell Division",
       "sourceSubtopic": "1.2 Cell Division",
       "tier": "Higher",
-      "question": "A student compares mitotic index in root tips exposed to three chemical concentrations. State the independent variable, dependent variable and two control variables.",
+      "question": "A student compares mitotic index in root tips exposed to three chemical concentrations.\nState the independent variable, dependent variable and two control variables.",
       "marks": 4,
-      "modelAnswer": "Independent variable: chemical concentration . Dependent variable: mitotic index / proportion or percentage of cells in mitosis . Controls: plant species/age, exposure time, temperature, root region sampled, staining/microscope method, number of cells counted .",
+      "modelAnswer": "Independent variable: chemical concentration .\nDependent variable: mitotic index / proportion or percentage of cells in mitosis .\nControls: plant species/age, exposure time, temperature, root region sampled, staining/microscope method, number of cells counted.\n.",
       "markingPoints": [
-        "Independent variable: chemical concentration . Dependent variable: mitotic index / proportion or percentage of cells in mitosis . Controls: plant species/age, exposure time, temperature, root region sampled, staining/microscope method, number of cells counted",
+        "Independent variable: chemical concentration .",
+        "Dependent variable: mitotic index / proportion or percentage of cells in mitosis .",
+        "Controls: plant species/age, exposure time, temperature, root region sampled, staining/microscope method, number of cells counted.",
         "."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Recurring practical-design family",
       "specificationReference": "4.1.2.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1HEBKAF",
+      "databaseId": "BIO-CD34",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC38",
+        "diagnostic": "BIO-TC38",
+        "easier": "BIO-TC38",
+        "parallel": "BIO-TC38",
+        "harder": "BIO-TC38"
+      }
     },
     {
       "id": "TC01",
@@ -1456,10 +1874,17 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1LRDXNO",
+      "databaseId": "BIO-TC01",
+      "adaptiveRelationships": {
+        "diagnostic": "BIO-TC21",
+        "easier": "BIO-TC21",
+        "parallel": "BIO-TC21",
+        "harder": "BIO-TC21"
+      }
     },
     {
       "id": "TC02",
@@ -1469,18 +1894,26 @@
       "tier": "Both",
       "question": "State three factors that increase the rate of diffusion.",
       "marks": 3,
-      "modelAnswer": "A steeper concentration gradient a higher temperature a larger surface area (and a shorter diffusion distance / thinner membrane).",
+      "modelAnswer": "A steeper concentration gradient.\nA higher temperature.\nA larger surface area (and a shorter diffusion distance / thinner membrane).",
       "markingPoints": [
-        "A steeper concentration gradient",
-        "a higher temperature",
-        "a larger surface area (and a shorter diffusion distance / thinner membrane)."
+        "A steeper concentration gradient.",
+        "A higher temperature.",
+        "A larger surface area (and a shorter diffusion distance / thinner membrane)."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0YYDMOU",
+      "databaseId": "BIO-TC02",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC23",
+        "diagnostic": "BIO-TC23",
+        "easier": "BIO-TC23",
+        "parallel": "BIO-TC23",
+        "harder": "BIO-TC23"
+      }
     },
     {
       "id": "TC03",
@@ -1490,18 +1923,19 @@
       "tier": "Both",
       "question": "Explain how oxygen moves from an alveolus into the blood.",
       "marks": 3,
-      "modelAnswer": "Oxygen concentration is higher in the alveolus than in the blood oxygen diffuses down its concentration gradient it crosses the thin alveolar and capillary walls.",
+      "modelAnswer": "Oxygen concentration is higher in the alveolus than in the blood.\nOxygen diffuses down its concentration gradient.\nIt crosses the thin alveolar and capillary walls.",
       "markingPoints": [
-        "Oxygen concentration is higher in the alveolus than in the blood",
-        "oxygen diffuses down its concentration gradient",
-        "it crosses the thin alveolar and capillary walls."
+        "Oxygen concentration is higher in the alveolus than in the blood.",
+        "Oxygen diffuses down its concentration gradient.",
+        "It crosses the thin alveolar and capillary walls."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.1; 4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0LUZEHJ",
+      "databaseId": "BIO-TC03"
     },
     {
       "id": "TC04",
@@ -1511,19 +1945,20 @@
       "tier": "Both",
       "question": "Explain three ways an alveolus is adapted for rapid gas exchange.",
       "marks": 3,
-      "modelAnswer": "Large surface area walls one cell thick giving a short diffusion distance good blood supply and ventilation maintain steep concentration gradients moist surface dissolves gases.",
+      "modelAnswer": "Large surface area.\nWalls one cell thick giving a short diffusion distance.\nGood blood supply and ventilation maintain steep concentration gradients.\nMoist surface dissolves gases.",
       "markingPoints": [
-        "Large surface area",
-        "walls one cell thick giving a short diffusion distance",
-        "good blood supply and ventilation maintain steep concentration gradients",
-        "moist surface dissolves gases."
+        "Large surface area.",
+        "Walls one cell thick giving a short diffusion distance.",
+        "Good blood supply and ventilation maintain steep concentration gradients.",
+        "Moist surface dissolves gases."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.1; 4.2.2.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-10XOSFH",
+      "databaseId": "BIO-TC04"
     },
     {
       "id": "TC05",
@@ -1533,18 +1968,26 @@
       "tier": "Both",
       "question": "Explain why multicellular organisms need specialised exchange surfaces and transport systems.",
       "marks": 3,
-      "modelAnswer": "They have a small surface-area-to-volume ratio distances to internal cells are large diffusion across the body surface would be too slow to meet demand.",
+      "modelAnswer": "They have a small surface-area-to-volume ratio.\nDistances to internal cells are large.\nDiffusion across the body surface would be too slow to meet demand.",
       "markingPoints": [
-        "They have a small surface-area-to-volume ratio",
-        "distances to internal cells are large",
-        "diffusion across the body surface would be too slow to meet demand."
+        "They have a small surface-area-to-volume ratio.",
+        "Distances to internal cells are large.",
+        "Diffusion across the body surface would be too slow to meet demand."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0IWS8XC",
+      "databaseId": "BIO-TC05",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC06",
+        "diagnostic": "BIO-TC06",
+        "easier": "BIO-TC06",
+        "parallel": "BIO-TC06",
+        "harder": "BIO-TC25"
+      }
     },
     {
       "id": "TC06",
@@ -1554,18 +1997,32 @@
       "tier": "Both",
       "question": "A cube has sides of 3 cm. Calculate its surface area, volume and surface-area-to-volume ratio.",
       "marks": 3,
-      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume. Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1. Answer: Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1.",
+      "modelAnswer": "Surface area of a cube = 6l²\nVolume = l³\nSA:V = surface area ÷ volume.\nSurface area = 6 × 3² = 54 cm²\nVolume = 3³ = 27 cm³\nRatio = 54:27 = 2:1.\nAnswer: Surface area = 6 × 3² = 54 cm²\nVolume = 3³ = 27 cm³\nRatio = 54:27 = 2:1.",
       "markingPoints": [
-        "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.",
-        "Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1.",
-        "Answer: Surface area = 6 × 3² = 54 cm²; volume = 3³ = 27 cm³; ratio = 54:27 = 2:1."
+        "Surface area of a cube = 6l²",
+        "Volume = l³",
+        "SA:V = surface area ÷ volume.",
+        "Surface area = 6 × 3² = 54 cm²",
+        "Volume = 3³ = 27 cm³",
+        "Ratio = 54:27 = 2:1.",
+        "Answer: Surface area = 6 × 3² = 54 cm²",
+        "Volume = 3³ = 27 cm³",
+        "Ratio = 54:27 = 2:1."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0IWS8XC",
+      "databaseId": "BIO-TC06",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC05",
+        "diagnostic": "BIO-TC05",
+        "easier": "BIO-TC05",
+        "parallel": "BIO-TC05",
+        "harder": "BIO-TC25"
+      }
     },
     {
       "id": "TC07",
@@ -1581,10 +2038,18 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0NTUZNS",
+      "databaseId": "BIO-TC07",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC28",
+        "diagnostic": "BIO-TC28",
+        "easier": "BIO-TC28",
+        "parallel": "BIO-TC28",
+        "harder": "BIO-TC28"
+      }
     },
     {
       "id": "TC08",
@@ -1594,18 +2059,26 @@
       "tier": "Both",
       "question": "Explain what happens to a plant cell placed in a dilute solution.",
       "marks": 3,
-      "modelAnswer": "Water enters by osmosis the vacuole/cytoplasm swells the cell becomes turgid because the cell wall resists further expansion.",
+      "modelAnswer": "Water enters by osmosis.\nThe vacuole/cytoplasm swells.\nThe cell becomes turgid because the cell wall resists further expansion.",
       "markingPoints": [
-        "Water enters by osmosis",
-        "the vacuole/cytoplasm swells",
-        "the cell becomes turgid because the cell wall resists further expansion."
+        "Water enters by osmosis.",
+        "The vacuole/cytoplasm swells.",
+        "The cell becomes turgid because the cell wall resists further expansion."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0A6BYXV",
+      "databaseId": "BIO-TC08",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC29",
+        "diagnostic": "BIO-TC29",
+        "easier": "BIO-TC29",
+        "parallel": "BIO-TC29",
+        "harder": "BIO-TC29"
+      }
     },
     {
       "id": "TC09",
@@ -1615,18 +2088,19 @@
       "tier": "Both",
       "question": "Explain why an animal cell may burst in a very dilute solution but a plant cell normally does not.",
       "marks": 3,
-      "modelAnswer": "Water enters both cells by osmosis an animal cell has no cell wall so its membrane may rupture a plant cell wall supports the cell and resists the pressure.",
+      "modelAnswer": "Water enters both cells by osmosis.\nAn animal cell has no cell wall so its membrane may rupture.\nA plant cell wall supports the cell and resists the pressure.",
       "markingPoints": [
-        "Water enters both cells by osmosis",
-        "an animal cell has no cell wall so its membrane may rupture",
-        "a plant cell wall supports the cell and resists the pressure."
+        "Water enters both cells by osmosis.",
+        "An animal cell has no cell wall so its membrane may rupture.",
+        "A plant cell wall supports the cell and resists the pressure."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-05JLM9M",
+      "databaseId": "BIO-TC09"
     },
     {
       "id": "TC10",
@@ -1636,22 +2110,29 @@
       "tier": "Both",
       "question": "Plan an investigation into the effect of sugar concentration on the mass of potato cylinders.",
       "marks": 6,
-      "modelAnswer": "Use equal-sized potato cylinders measure initial mass place each in an equal volume of a different known sugar concentration keep time and temperature constant remove, blot dry and measure final mass calculate percentage change in mass repeat and calculate means.",
+      "modelAnswer": "Use equal-sized potato cylinders.\nMeasure initial mass.\nPlace each in an equal volume of a different known sugar concentration.\nKeep time and temperature constant.\nRemove, blot dry and measure final mass.\nCalculate percentage change in mass.\nRepeat and calculate means.",
       "markingPoints": [
-        "Use equal-sized potato cylinders",
-        "measure initial mass",
-        "place each in an equal volume of a different known sugar concentration",
-        "keep time and temperature constant",
-        "remove, blot dry and measure final mass",
-        "calculate percentage change in mass",
-        "repeat and calculate means."
+        "Use equal-sized potato cylinders.",
+        "Measure initial mass.",
+        "Place each in an equal volume of a different known sugar concentration.",
+        "Keep time and temperature constant.",
+        "Remove, blot dry and measure final mass.",
+        "Calculate percentage change in mass.",
+        "Repeat and calculate means."
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "1.3 Transport in Cells (H) QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1EE38SZ",
+      "databaseId": "BIO-TC10",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC32",
+        "diagnostic": "BIO-TC32",
+        "easier": "BIO-TC34",
+        "parallel": "BIO-PK04"
+      }
     },
     {
       "id": "TC11",
@@ -1661,18 +2142,19 @@
       "tier": "Both",
       "question": "A potato cylinder changes from 4.0 g to 4.6 g. Calculate the percentage change in mass.",
       "marks": 2,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100. ((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase. Answer: ((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.",
+      "modelAnswer": "Percentage change = (change ÷ original value) × 100.\n((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.\nAnswer: ((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.",
       "markingPoints": [
-        "percentage change = (change ÷ original value) × 100.",
+        "Percentage change = (change ÷ original value) × 100.",
         "((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase.",
         "Answer: ((4.6 − 4.0) ÷ 4.0) × 100 = 15% increase."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0H4DW5N",
+      "databaseId": "BIO-TC11"
     },
     {
       "id": "TC12",
@@ -1682,19 +2164,27 @@
       "tier": "Higher",
       "question": "Explain how results from a potato osmosis investigation can be used to estimate the concentration inside the potato cells.",
       "marks": 3,
-      "modelAnswer": "Plot percentage change in mass against solution concentration draw a best-fit line/curve find where percentage change is zero read the corresponding concentration from the x-axis.",
+      "modelAnswer": "Plot percentage change in mass against solution concentration.\nDraw a best-fit line/curve.\nFind where percentage change is zero.\nRead the corresponding concentration from the x-axis.",
       "markingPoints": [
-        "Plot percentage change in mass against solution concentration",
-        "draw a best-fit line/curve",
-        "find where percentage change is zero",
-        "read the corresponding concentration from the x-axis."
+        "Plot percentage change in mass against solution concentration.",
+        "Draw a best-fit line/curve.",
+        "Find where percentage change is zero.",
+        "Read the corresponding concentration from the x-axis."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "1.3 Transport in Cells (H) QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0VK6NKW",
+      "databaseId": "BIO-TC12",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC30",
+        "diagnostic": "BIO-TC30",
+        "easier": "BIO-TC30",
+        "parallel": "BIO-TC30",
+        "harder": "BIO-TC30"
+      }
     },
     {
       "id": "TC13",
@@ -1704,17 +2194,25 @@
       "tier": "Both",
       "question": "Explain why potato pieces are blotted dry before final mass is measured and why percentage change is better than change in mass.",
       "marks": 3,
-      "modelAnswer": "Blotting removes surface solution so only the potato mass is measured percentage change accounts for different starting masses and makes results comparable.",
+      "modelAnswer": "Blotting removes surface solution so only the potato mass is measured.\nPercentage change accounts for different starting masses and makes results comparable.",
       "markingPoints": [
-        "Blotting removes surface solution so only the potato mass is measured",
-        "percentage change accounts for different starting masses and makes results comparable."
+        "Blotting removes surface solution so only the potato mass is measured.",
+        "Percentage change accounts for different starting masses and makes results comparable."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1EE38SZ",
+      "databaseId": "BIO-TC13",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC32",
+        "diagnostic": "BIO-TC32",
+        "easier": "BIO-TC32",
+        "parallel": "BIO-TC33",
+        "harder": "BIO-TC34"
+      }
     },
     {
       "id": "TC14",
@@ -1730,10 +2228,18 @@
       ],
       "commandWord": "Define",
       "assessmentObjective": "AO1",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-141VL8A",
+      "databaseId": "BIO-TC14",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC36",
+        "diagnostic": "BIO-TC36",
+        "easier": "BIO-TC36",
+        "parallel": "BIO-TC36",
+        "harder": "BIO-TC36"
+      }
     },
     {
       "id": "TC15",
@@ -1743,18 +2249,19 @@
       "tier": "Both",
       "question": "Explain why mineral ions enter root hair cells by active transport rather than diffusion.",
       "marks": 3,
-      "modelAnswer": "Mineral-ion concentration can be lower in the soil than in root cells movement is against the concentration gradient energy from respiration is required.",
+      "modelAnswer": "Mineral-ion concentration can be lower in the soil than in root cells.\nMovement is against the concentration gradient.\nEnergy from respiration is required.",
       "markingPoints": [
-        "Mineral-ion concentration can be lower in the soil than in root cells",
-        "movement is against the concentration gradient",
-        "energy from respiration is required."
+        "Mineral-ion concentration can be lower in the soil than in root cells.",
+        "Movement is against the concentration gradient.",
+        "Energy from respiration is required."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0YRCNSI",
+      "databaseId": "BIO-TC15"
     },
     {
       "id": "TC16",
@@ -1770,10 +2277,11 @@
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1FH0DFN",
+      "databaseId": "BIO-TC16"
     },
     {
       "id": "TC17",
@@ -1783,18 +2291,26 @@
       "tier": "Both",
       "question": "Explain how a fish gill or root hair cell provides an efficient exchange surface.",
       "marks": 3,
-      "modelAnswer": "Large surface area thin barrier gives a short diffusion distance for gills, blood flow and water flow maintain a steep concentration gradient.",
+      "modelAnswer": "Large surface area.\nThin barrier gives a short diffusion distance.\nFor gills, blood flow and water flow maintain a steep concentration gradient.",
       "markingPoints": [
-        "Large surface area",
-        "thin barrier gives a short diffusion distance",
-        "for gills, blood flow and water flow maintain a steep concentration gradient."
+        "Large surface area.",
+        "Thin barrier gives a short diffusion distance.",
+        "For gills, blood flow and water flow maintain a steep concentration gradient."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "1.3 Transport in Cells QP/MS",
       "specificationReference": "4.1.3.1; 4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1AG46DK",
+      "databaseId": "BIO-TC17",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC27",
+        "diagnostic": "BIO-TC27",
+        "easier": "BIO-TC27",
+        "parallel": "BIO-TC27",
+        "harder": "BIO-TC27"
+      }
     },
     {
       "id": "TC18",
@@ -1804,17 +2320,18 @@
       "tier": "Higher",
       "question": "A student used only one potato cylinder at each concentration. Suggest two improvements and explain how they improve the evidence.",
       "marks": 4,
-      "modelAnswer": "Repeat at each concentration and calculate a mean to reduce random error / identify anomalies use more concentration values, especially near zero change, to improve resolution and the estimate of the isotonic concentration.",
+      "modelAnswer": "Repeat at each concentration and calculate a mean to reduce random error / identify anomalies.\nUse more concentration values, especially near zero change, to improve resolution and the estimate of the isotonic concentration.",
       "markingPoints": [
-        "Repeat at each concentration and calculate a mean to reduce random error / identify anomalies",
-        "use more concentration values, especially near zero change, to improve resolution and the estimate of the isotonic concentration."
+        "Repeat at each concentration and calculate a mean to reduce random error / identify anomalies.",
+        "Use more concentration values, especially near zero change, to improve resolution and the estimate of the isotonic concentration."
       ],
       "commandWord": "Suggest and explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "1.3 Transport in Cells (H) QP/MS",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0D43CAR",
+      "databaseId": "BIO-TC18"
     },
     {
       "id": "TC21",
@@ -1824,18 +2341,25 @@
       "tier": "Both",
       "question": "A drop of dye spreads through still water until the colour is uniform. Explain this using particle movement.",
       "marks": 3,
-      "modelAnswer": "Dye particles move randomly there is a net movement from high dye concentration to low dye concentration until particles are evenly distributed / no concentration gradient remains .",
+      "modelAnswer": "Dye particles move randomly.\nThere is a net movement from high dye concentration to low dye concentration.\nUntil particles are evenly distributed / no concentration gradient remains .",
       "markingPoints": [
-        "Dye particles move randomly",
-        "there is a net movement from high dye concentration to low dye concentration",
-        "until particles are evenly distributed / no concentration gradient remains ."
+        "Dye particles move randomly.",
+        "There is a net movement from high dye concentration to low dye concentration.",
+        "Until particles are evenly distributed / no concentration gradient remains ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring diffusion application",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1LRDXNO",
+      "databaseId": "BIO-TC21",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC01",
+        "diagnostic": "BIO-TC01",
+        "easier": "BIO-TC01",
+        "parallel": "BIO-TC01"
+      }
     },
     {
       "id": "TC22",
@@ -1843,20 +2367,27 @@
       "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
-      "question": "Two identical agar cubes contain indicator. Cube A is placed in acid at 20 °C and cube B at 40 °C. Predict which cube loses its colour first and explain why.",
+      "question": "Two identical agar cubes contain indicator.\nCube A is placed in acid at 20 °C and cube B at 40 °C.\nPredict which cube loses its colour first and explain why.",
       "marks": 3,
-      "modelAnswer": "Cube B / 40 °C particles have more kinetic energy and move faster causing a greater diffusion rate / more frequent movement into the agar .",
+      "modelAnswer": "Cube B / 40 °C.\nParticles have more kinetic energy and move faster.\nCausing a greater diffusion rate / more frequent movement into the agar .",
       "markingPoints": [
-        "Cube B / 40 °C",
-        "particles have more kinetic energy and move faster",
-        "causing a greater diffusion rate / more frequent movement into the agar ."
+        "Cube B / 40 °C.",
+        "Particles have more kinetic energy and move faster.",
+        "Causing a greater diffusion rate / more frequent movement into the agar ."
       ],
       "commandWord": "Predict and explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring diffusion-rate application",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0YYDMOU",
+      "databaseId": "BIO-TC22",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC02",
+        "diagnostic": "BIO-TC02",
+        "easier": "BIO-TC23",
+        "parallel": "BIO-TC23"
+      }
     },
     {
       "id": "TC23",
@@ -1866,17 +2397,25 @@
       "tier": "Higher",
       "question": "A membrane is 4 µm thick in sample A and 2 µm thick in sample B. All other factors are equal. Explain the effect on diffusion rate.",
       "marks": 2,
-      "modelAnswer": "Sample B has a shorter diffusion distance so diffusion is faster / rate increases . .",
+      "modelAnswer": "Sample B has a shorter diffusion distance.\nSo diffusion is faster / rate increases . .",
       "markingPoints": [
-        "Sample B has a shorter diffusion distance",
-        "so diffusion is faster / rate increases . ."
+        "Sample B has a shorter diffusion distance.",
+        "So diffusion is faster / rate increases . ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring diffusion-distance family",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0YYDMOU",
+      "databaseId": "BIO-TC23",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC02",
+        "diagnostic": "BIO-TC02",
+        "easier": "BIO-TC02",
+        "parallel": "BIO-TC22",
+        "harder": "BIO-TC22"
+      }
     },
     {
       "id": "TC24",
@@ -1886,18 +2425,32 @@
       "tier": "Both",
       "question": "Calculate the surface-area-to-volume ratio of a cube with side length 2 mm.",
       "marks": 3,
-      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume. Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 . Answer: Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 .",
+      "modelAnswer": "Surface area of a cube = 6l²\nVolume = l³\nSA:V = surface area ÷ volume.\nSurface area = 6 × 2² = 24 mm²\nVolume = 2³ = 8 mm³\nSA:V = 24:8 = 3:1 .\nAnswer: Surface area = 6 × 2² = 24 mm²\nVolume = 2³ = 8 mm³\nSA:V = 24:8 = 3:1 .",
       "markingPoints": [
-        "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.",
-        "Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 .",
-        "Answer: Surface area = 6 × 2² = 24 mm² ; volume = 2³ = 8 mm³ ; SA:V = 24:8 = 3:1 ."
+        "Surface area of a cube = 6l²",
+        "Volume = l³",
+        "SA:V = surface area ÷ volume.",
+        "Surface area = 6 × 2² = 24 mm²",
+        "Volume = 2³ = 8 mm³",
+        "SA:V = 24:8 = 3:1 .",
+        "Answer: Surface area = 6 × 2² = 24 mm²",
+        "Volume = 2³ = 8 mm³",
+        "SA:V = 24:8 = 3:1 ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring SA:V calculation",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0IWS8XC",
+      "databaseId": "BIO-TC24",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC05",
+        "diagnostic": "BIO-TC05",
+        "easier": "BIO-TC05",
+        "parallel": "BIO-TC05",
+        "harder": "BIO-TC25"
+      }
     },
     {
       "id": "TC25",
@@ -1905,20 +2458,33 @@
       "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
-      "question": "Cube A has side length 1 mm and cube B has side length 4 mm. Calculate each surface-area-to-volume ratio and explain which would exchange substances faster per unit volume.",
+      "question": "Cube A has side length 1 mm and cube B has side length 4 mm.\nCalculate each surface-area-to-volume ratio and explain which would exchange substances faster per unit volume.",
       "marks": 5,
-      "modelAnswer": "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume. Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume . Answer: Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .",
+      "modelAnswer": "Surface area of a cube = 6l²\nVolume = l³\nSA:V = surface area ÷ volume.\nCube A: SA 6 mm², volume 1 mm³, SA:V 6:1 .\nCube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 .\nCube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .\nAnswer: Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 .\nCube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 .\nCube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .",
       "markingPoints": [
-        "surface area of a cube = 6l²; volume = l³; SA:V = surface area ÷ volume.",
-        "Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .",
-        "Answer: Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 . Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 . Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume ."
+        "Surface area of a cube = 6l²",
+        "Volume = l³",
+        "SA:V = surface area ÷ volume.",
+        "Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 .",
+        "Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 .",
+        "Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume .",
+        "Answer: Cube A: SA 6 mm², volume 1 mm³, SA:V 6:1 .",
+        "Cube B: SA 96 mm², volume 64 mm³, SA:V 1.5:1 .",
+        "Cube A exchanges faster per unit volume because it has the larger SA:V / more surface per unit volume ."
       ],
       "commandWord": "Calculate and explain",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring SA:V comparison; no diagram required",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0IWS8XC",
+      "databaseId": "BIO-TC25",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC05",
+        "diagnostic": "BIO-TC05",
+        "easier": "BIO-TC05",
+        "parallel": "BIO-TC05"
+      }
     },
     {
       "id": "TC26",
@@ -1928,20 +2494,27 @@
       "tier": "Both",
       "question": "Explain how the small intestine is adapted for rapid absorption of digested food molecules.",
       "marks": 5,
-      "modelAnswer": "Villi and microvilli provide a large surface area epithelium is one cell thick / short diffusion distance good blood supply maintains concentration gradients many mitochondria provide energy for active transport membrane transport proteins enable uptake .",
+      "modelAnswer": "Villi and microvilli provide a large surface area.\nEpithelium is one cell thick / short diffusion distance.\nGood blood supply maintains concentration gradients.\nMany mitochondria provide energy for active transport.\nMembrane transport proteins enable uptake .",
       "markingPoints": [
-        "Villi and microvilli provide a large surface area",
-        "epithelium is one cell thick / short diffusion distance",
-        "good blood supply maintains concentration gradients",
-        "many mitochondria provide energy for active transport",
-        "membrane transport proteins enable uptake ."
+        "Villi and microvilli provide a large surface area.",
+        "Epithelium is one cell thick / short diffusion distance.",
+        "Good blood supply maintains concentration gradients.",
+        "Many mitochondria provide energy for active transport.",
+        "Membrane transport proteins enable uptake ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring exchange-surface family",
       "specificationReference": "4.1.3.1; 4.2.3.1",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1AG46DK",
+      "databaseId": "BIO-TC26",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC17",
+        "diagnostic": "BIO-TC17",
+        "easier": "BIO-TC27",
+        "parallel": "BIO-TC27"
+      }
     },
     {
       "id": "TC27",
@@ -1951,19 +2524,27 @@
       "tier": "Both",
       "question": "Explain how a leaf is adapted for rapid gas exchange.",
       "marks": 4,
-      "modelAnswer": "Broad/large surface area thin leaf gives short diffusion distance stomata internal air spaces provide a large moist surface and short pathway to cells .",
+      "modelAnswer": "Broad/large surface area.\nThin leaf gives short diffusion distance.\nStomata.\nInternal air spaces provide a large moist surface and short pathway to cells .",
       "markingPoints": [
-        "Broad/large surface area",
-        "thin leaf gives short diffusion distance",
-        "stomata",
-        "internal air spaces provide a large moist surface and short pathway to cells ."
+        "Broad/large surface area.",
+        "Thin leaf gives short diffusion distance.",
+        "Stomata.",
+        "Internal air spaces provide a large moist surface and short pathway to cells ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring exchange-surface family",
       "specificationReference": "4.1.3.1; 4.2.3.1",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-1AG46DK",
+      "databaseId": "BIO-TC27",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC17",
+        "diagnostic": "BIO-TC17",
+        "easier": "BIO-TC17",
+        "parallel": "BIO-TC17",
+        "harder": "BIO-TC26"
+      }
     },
     {
       "id": "TC28",
@@ -1973,18 +2554,25 @@
       "tier": "Both",
       "question": "A partially permeable membrane separates pure water from a concentrated sugar solution. Describe and explain the net movement of water.",
       "marks": 4,
-      "modelAnswer": "Water moves from the pure-water side to the sugar-solution side by osmosis through a partially permeable membrane from a dilute solution/high water concentration to a concentrated solution/low water concentration .",
+      "modelAnswer": "Water moves from the pure-water side to the sugar-solution side.\nBy osmosis through a partially permeable membrane.\nFrom a dilute solution/high water concentration to a concentrated solution/low water concentration .",
       "markingPoints": [
-        "Water moves from the pure-water side to the sugar-solution side",
-        "by osmosis through a partially permeable membrane",
-        "from a dilute solution/high water concentration to a concentrated solution/low water concentration ."
+        "Water moves from the pure-water side to the sugar-solution side.",
+        "By osmosis through a partially permeable membrane.",
+        "From a dilute solution/high water concentration to a concentrated solution/low water concentration ."
       ],
       "commandWord": "Describe and explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring osmosis family; no diagram required",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0NTUZNS",
+      "databaseId": "BIO-TC28",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC07",
+        "diagnostic": "BIO-TC07",
+        "easier": "BIO-TC07",
+        "parallel": "BIO-TC07"
+      }
     },
     {
       "id": "TC29",
@@ -1994,18 +2582,26 @@
       "tier": "Both",
       "question": "Compare a plant cell placed in a dilute solution with one placed in a concentrated solution.",
       "marks": 6,
-      "modelAnswer": "Dilute: water enters by osmosis from higher water concentration outside vacuole swells and cell becomes turgid , with cell wall preventing bursting . Concentrated: water leaves by osmosis vacuole/cytoplasm shrinks and cell becomes flaccid/plasmolysed as membrane pulls from wall .",
+      "modelAnswer": "Dilute: water enters by osmosis from higher water concentration outside.\nVacuole swells and cell becomes turgid , with cell wall preventing bursting .\nConcentrated: water leaves by osmosis.\nVacuole/cytoplasm shrinks and cell becomes flaccid/plasmolysed as membrane pulls from wall .",
       "markingPoints": [
-        "Dilute: water enters by osmosis from higher water concentration outside",
-        "vacuole swells and cell becomes turgid , with cell wall preventing bursting . Concentrated: water leaves by osmosis",
-        "vacuole/cytoplasm shrinks and cell becomes flaccid/plasmolysed as membrane pulls from wall ."
+        "Dilute: water enters by osmosis from higher water concentration outside.",
+        "Vacuole swells and cell becomes turgid , with cell wall preventing bursting .",
+        "Concentrated: water leaves by osmosis.",
+        "Vacuole/cytoplasm shrinks and cell becomes flaccid/plasmolysed as membrane pulls from wall ."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "Recurring plant-osmosis family",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0A6BYXV",
+      "databaseId": "BIO-TC29",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC08",
+        "diagnostic": "BIO-TC08",
+        "easier": "BIO-TC08",
+        "parallel": "BIO-TC08"
+      }
     },
     {
       "id": "TC30",
@@ -2013,20 +2609,34 @@
       "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
-      "question": "Potato cylinders are placed in sucrose solutions. Mean percentage mass changes are: 0.0 mol/dm³, +12%; 0.2 mol/dm³, +6%; 0.4 mol/dm³, +1%; 0.6 mol/dm³, −5%; 0.8 mol/dm³, −11%. Estimate the concentration inside the potato cells and explain.",
+      "question": "Potato cylinders are placed in sucrose solutions.\nMean percentage mass changes are: 0.0 mol/dm³, +12%; 0.2 mol/dm³, +6%; 0.4 mol/dm³, +1%; 0.6 mol/dm³, −5%; 0.8 mol/dm³, −11%.\nEstimate the concentration inside the potato cells\nPart (a): Explain.",
       "marks": 4,
-      "modelAnswer": "percentage = (part ÷ total) × 100. Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential . Answer: Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential .",
+      "modelAnswer": "Percentage = (part ÷ total) × 100.\nIsotonic point is where percentage change is zero.\nThis lies between 0.4 and 0.6 mol/dm³.\nLinear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method).\nAt this point there is no net movement of water / equal water concentration or water potential .\nAnswer: Isotonic point is where percentage change is zero.\nThis lies between 0.4 and 0.6 mol/dm³.\nLinear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method).\nAt this point there is no net movement of water / equal water concentration or water potential .",
       "markingPoints": [
-        "percentage = (part ÷ total) × 100.",
-        "Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential .",
-        "Answer: Isotonic point is where percentage change is zero ; this lies between 0.4 and 0.6 mol/dm³ ; linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method) ; at this point there is no net movement of water / equal water concentration or water potential ."
+        "Percentage = (part ÷ total) × 100.",
+        "Isotonic point is where percentage change is zero.",
+        "This lies between 0.4 and 0.6 mol/dm³.",
+        "Linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method).",
+        "At this point there is no net movement of water / equal water concentration or water potential .",
+        "Answer: Isotonic point is where percentage change is zero.",
+        "This lies between 0.4 and 0.6 mol/dm³.",
+        "Linear estimate about 0.42 mol/dm³ (.4–0.5 estimate with method).",
+        "At this point there is no net movement of water / equal water concentration or water potential ."
       ],
       "commandWord": "Calculate and explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Recurring osmosis graph family converted to self-contained data",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VK6NKW",
+      "databaseId": "BIO-TC30",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC12",
+        "diagnostic": "BIO-TC12",
+        "easier": "BIO-TC12",
+        "parallel": "BIO-TC12",
+        "harder": "BIO-TC31"
+      }
     },
     {
       "id": "TC31",
@@ -2034,20 +2644,35 @@
       "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Both",
-      "question": "Three potato cylinders have initial masses 3.0 g, 4.0 g and 5.0 g. Each gains 0.6 g. Calculate the percentage gain for each and explain why percentage change should be compared.",
+      "question": "Three potato cylinders have initial masses 3.0 g, 4.0 g and 5.0 g.\nEach gains 0.6 g.\nCalculate the percentage gain for each and explain why percentage change should be compared.",
       "marks": 5,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100. 3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly . Answer: 3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly .",
+      "modelAnswer": "Percentage change = (change ÷ original value) × 100.\n3.0 g: 20%.\n4.0 g: 15%.\n5.0 g: 12%.\nPercentage change accounts for different starting masses/sizes.\nSo results can be compared fairly .\nAnswer: 3.0 g: 20%.\n4.0 g: 15%.\n5.0 g: 12%.\nPercentage change accounts for different starting masses/sizes.\nSo results can be compared fairly .",
       "markingPoints": [
-        "percentage change = (change ÷ original value) × 100.",
-        "3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly .",
-        "Answer: 3.0 g: 20% ; 4.0 g: 15% ; 5.0 g: 12% ; percentage change accounts for different starting masses/sizes ; so results can be compared fairly ."
+        "Percentage change = (change ÷ original value) × 100.",
+        "3.0 g: 20%.",
+        "4.0 g: 15%.",
+        "5.0 g: 12%.",
+        "Percentage change accounts for different starting masses/sizes.",
+        "So results can be compared fairly .",
+        "Answer: 3.0 g: 20%.",
+        "4.0 g: 15%.",
+        "5.0 g: 12%.",
+        "Percentage change accounts for different starting masses/sizes.",
+        "So results can be compared fairly ."
       ],
       "commandWord": "Calculate and explain",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Recurring percentage-change family",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-0VK6NKW",
+      "databaseId": "BIO-TC31",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC12",
+        "diagnostic": "BIO-TC12",
+        "easier": "BIO-TC30",
+        "parallel": "BIO-TC30"
+      }
     },
     {
       "id": "TC32",
@@ -2057,18 +2682,30 @@
       "tier": "Both",
       "question": "Write the equation for percentage change in mass and calculate the result when mass changes from 5.40 g to 4.86 g.",
       "marks": 3,
-      "modelAnswer": "percentage change = (change ÷ original value) × 100. Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% . Answer: Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% .",
+      "modelAnswer": "Percentage change = (change ÷ original value) × 100.\nPercentage change = (final mass − initial mass) ÷ initial mass ×100\nChange = −0.54 g\n−0.54/5.40 ×100 = −10.0% .\nAnswer: Percentage change = (final mass − initial mass) ÷ initial mass ×100\nChange = −0.54 g\n−0.54/5.40 ×100 = −10.0% .",
       "markingPoints": [
-        "percentage change = (change ÷ original value) × 100.",
-        "Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% .",
-        "Answer: Percentage change = (final mass − initial mass) ÷ initial mass ×100 ; change = −0.54 g ; −0.54/5.40 ×100 = −10.0% ."
+        "Percentage change = (change ÷ original value) × 100.",
+        "Percentage change = (final mass − initial mass) ÷ initial mass ×100",
+        "Change = −0.54 g",
+        "−0.54/5.40 ×100 = −10.0% .",
+        "Answer: Percentage change = (final mass − initial mass) ÷ initial mass ×100",
+        "Change = −0.54 g",
+        "−0.54/5.40 ×100 = −10.0% ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring required-practical calculation",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1EE38SZ",
+      "databaseId": "BIO-TC32",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC13",
+        "diagnostic": "BIO-TC13",
+        "easier": "BIO-TC13",
+        "parallel": "BIO-TC13",
+        "harder": "BIO-TC13"
+      }
     },
     {
       "id": "TC33",
@@ -2078,18 +2715,26 @@
       "tier": "Higher",
       "question": "A student's potato results contain one value far from the trend. Describe how the student should deal with this anomalous result.",
       "marks": 3,
-      "modelAnswer": "Do not simply delete it without evidence repeat that concentration / take additional repeats identify anomaly and calculate a mean excluding it only with justification, while reporting the decision .",
+      "modelAnswer": "Do not simply delete it without evidence.\nRepeat that concentration / take additional repeats.\nIdentify anomaly and calculate a mean excluding it only with justification, while reporting the decision .",
       "markingPoints": [
-        "Do not simply delete it without evidence",
-        "repeat that concentration / take additional repeats",
-        "identify anomaly and calculate a mean excluding it only with justification, while reporting the decision ."
+        "Do not simply delete it without evidence.",
+        "Repeat that concentration / take additional repeats.",
+        "Identify anomaly and calculate a mean excluding it only with justification, while reporting the decision ."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Recurring anomaly/evaluation family",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1EE38SZ",
+      "databaseId": "BIO-TC33",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC32",
+        "diagnostic": "BIO-TC32",
+        "easier": "BIO-TC32",
+        "parallel": "BIO-TC13",
+        "harder": "BIO-TC34"
+      }
     },
     {
       "id": "TC34",
@@ -2099,19 +2744,27 @@
       "tier": "Higher",
       "question": "Explain why potato cylinders should have the same diameter and length, remain in solution for the same time, and be kept at the same temperature.",
       "marks": 4,
-      "modelAnswer": "Same dimensions control starting surface area/volume and mass same time controls duration available for osmosis same temperature controls particle kinetic energy/rate of osmosis therefore sucrose concentration is the only systematic difference / valid fair test .",
+      "modelAnswer": "Same dimensions control starting surface area/volume and mass.\nSame time controls duration available for osmosis.\nSame temperature controls particle kinetic energy/rate of osmosis.\nTherefore sucrose concentration is the only systematic difference / valid fair test .",
       "markingPoints": [
-        "Same dimensions control starting surface area/volume and mass",
-        "same time controls duration available for osmosis",
-        "same temperature controls particle kinetic energy/rate of osmosis",
-        "therefore sucrose concentration is the only systematic difference / valid fair test ."
+        "Same dimensions control starting surface area/volume and mass.",
+        "Same time controls duration available for osmosis.",
+        "Same temperature controls particle kinetic energy/rate of osmosis.",
+        "Therefore sucrose concentration is the only systematic difference / valid fair test ."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Recurring control-variable family",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-1EE38SZ",
+      "databaseId": "BIO-TC34",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC32",
+        "diagnostic": "BIO-TC32",
+        "easier": "BIO-TC13",
+        "parallel": "BIO-TC35",
+        "harder": "BIO-TC10"
+      }
     },
     {
       "id": "TC35",
@@ -2119,20 +2772,32 @@
       "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
-      "question": "A student obtains percentage mass changes of 4%, 7% and 19% at one concentration. Calculate the mean, identify the anomaly and calculate a justified mean.",
+      "question": "A student obtains percentage mass changes of 4%, 7% and 19% at one concentration.\nCalculate the mean, identify the anomaly and calculate a justified mean.",
       "marks": 4,
-      "modelAnswer": "percentage = (part ÷ total) × 100. Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% . Answer: Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% .",
+      "modelAnswer": "Percentage = (part ÷ total) × 100.\nInitial mean = (4+7+19)/3 = 10%\n19% is anomalous.\nJustified mean = (4+7)/2 = 5.5% .\nAnswer: Initial mean = (4+7+19)/3 = 10%\n19% is anomalous.\nJustified mean = (4+7)/2 = 5.5% .",
       "markingPoints": [
-        "percentage = (part ÷ total) × 100.",
-        "Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% .",
-        "Answer: Initial mean = (4+7+19)/3 = 10% ; 19% is anomalous ; justified mean = (4+7)/2 = 5.5% ."
+        "Percentage = (part ÷ total) × 100.",
+        "Initial mean = (4+7+19)/3 = 10%",
+        "19% is anomalous.",
+        "Justified mean = (4+7)/2 = 5.5% .",
+        "Answer: Initial mean = (4+7+19)/3 = 10%",
+        "19% is anomalous.",
+        "Justified mean = (4+7)/2 = 5.5% ."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2/AO3",
-      "evidenceSource": "Recurring repeat/anomaly calculation",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1EE38SZ",
+      "databaseId": "BIO-TC35",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC32",
+        "diagnostic": "BIO-TC32",
+        "easier": "BIO-TC13",
+        "parallel": "BIO-TC34",
+        "harder": "BIO-TC10"
+      }
     },
     {
       "id": "TC36",
@@ -2142,16 +2807,26 @@
       "tier": "Both",
       "question": "Compare diffusion, osmosis and active transport.",
       "marks": 6,
-      "modelAnswer": "Diffusion: net movement of particles from high to low concentration , passive/no energy required . Osmosis: net movement of water only through a partially permeable membrane from dilute to concentrated solution . Active transport: moves substances from low to high concentration / against the gradient , requiring energy from respiration .",
+      "modelAnswer": "Diffusion: net movement of particles from high to low concentration , passive/no energy required .\nOsmosis: net movement of water only through a partially permeable membrane from dilute to concentrated solution .\nActive transport: moves substances from low to high concentration / against the gradient , requiring energy from respiration .",
       "markingPoints": [
-        "Diffusion: net movement of particles from high to low concentration , passive/no energy required . Osmosis: net movement of water only through a partially permeable membrane from dilute to concentrated solution . Active transport: moves substances from low to high concentration / against the gradient , requiring energy from respiration ."
+        "Diffusion: net movement of particles from high to low concentration , passive/no energy required .",
+        "Osmosis: net movement of water only through a partially permeable membrane from dilute to concentrated solution .",
+        "Active transport: moves substances from low to high concentration / against the gradient , requiring energy from respiration ."
       ],
       "commandWord": "Compare",
       "assessmentObjective": "AO1",
-      "evidenceSource": "Recurring transport-process comparison",
       "specificationReference": "4.1.3.3",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-141VL8A",
+      "databaseId": "BIO-TC36",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC14",
+        "diagnostic": "BIO-TC14",
+        "easier": "BIO-TC14",
+        "parallel": "BIO-TC37",
+        "harder": "BIO-TC37"
+      }
     },
     {
       "id": "TC37",
@@ -2159,21 +2834,28 @@
       "subtopic": "1.3 Transport in Cells",
       "sourceSubtopic": "1.3 Transport in Cells",
       "tier": "Higher",
-      "question": "Root cells contain 0.80 arbitrary units of nitrate while soil contains 0.15 units. Explain nitrate uptake and predict the effect of an inhibitor of respiration.",
+      "question": "Root cells contain 0.80 arbitrary units of nitrate while soil contains 0.15 units.\nExplain nitrate uptake and predict the effect of an inhibitor of respiration.",
       "marks": 4,
-      "modelAnswer": "Nitrate moves from lower concentration in soil to higher concentration in root cell / against gradient by active transport energy is supplied by respiration inhibitor reduces/stops respiration so nitrate uptake decreases/stops .",
+      "modelAnswer": "Nitrate moves from lower concentration in soil to higher concentration in root cell / against gradient.\nBy active transport.\nEnergy is supplied by respiration.\nInhibitor reduces/stops respiration so nitrate uptake decreases/stops .",
       "markingPoints": [
-        "Nitrate moves from lower concentration in soil to higher concentration in root cell / against gradient",
-        "by active transport",
-        "energy is supplied by respiration",
-        "inhibitor reduces/stops respiration so nitrate uptake decreases/stops ."
+        "Nitrate moves from lower concentration in soil to higher concentration in root cell / against gradient.",
+        "By active transport.",
+        "Energy is supplied by respiration.",
+        "Inhibitor reduces/stops respiration so nitrate uptake decreases/stops ."
       ],
       "commandWord": "Explain and predict",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Recurring active-transport application",
       "specificationReference": "4.1.3.3",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge"
+      "knowledgeType": "Substantive knowledge",
+      "questionFamilyId": "BIO-FAM-141VL8A",
+      "databaseId": "BIO-TC37",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-TC14",
+        "diagnostic": "BIO-TC14",
+        "easier": "BIO-TC36",
+        "parallel": "BIO-TC36"
+      }
     },
     {
       "id": "TC38",
@@ -2183,21 +2865,28 @@
       "tier": "Higher",
       "question": "Plan an investigation using agar cubes to test how surface-area-to-volume ratio affects diffusion time. No diagram is available.",
       "marks": 6,
-      "modelAnswer": "Prepare agar cubes of different known side lengths containing indicator calculate/record each SA:V ratio place cubes in equal volumes/concentrations of acid keep temperature and agar composition constant measure time for colour to disappear or diffusion depth after a fixed time repeat each size and calculate means / compare diffusion time or percentage penetrated with SA:V .",
+      "modelAnswer": "Prepare agar cubes of different known side lengths containing indicator.\nCalculate/record each SA:V ratio.\nPlace cubes in equal volumes/concentrations of acid.\nKeep temperature and agar composition constant.\nMeasure time for colour to disappear or diffusion depth after a fixed time.\nRepeat each size and calculate means / compare diffusion time or percentage penetrated with SA:V .",
       "markingPoints": [
-        "Prepare agar cubes of different known side lengths containing indicator",
-        "calculate/record each SA:V ratio",
-        "place cubes in equal volumes/concentrations of acid",
-        "keep temperature and agar composition constant",
-        "measure time for colour to disappear or diffusion depth after a fixed time",
-        "repeat each size and calculate means / compare diffusion time or percentage penetrated with SA:V ."
+        "Prepare agar cubes of different known side lengths containing indicator.",
+        "Calculate/record each SA:V ratio.",
+        "Place cubes in equal volumes/concentrations of acid.",
+        "Keep temperature and agar composition constant.",
+        "Measure time for colour to disappear or diffusion depth after a fixed time.",
+        "Repeat each size and calculate means / compare diffusion time or percentage penetrated with SA:V ."
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Recurring diffusion practical; fully self-contained",
       "specificationReference": "4.1.3.1",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1HEBKAF",
+      "databaseId": "BIO-TC38",
+      "adaptiveRelationships": {
+        "prerequisite": "BIO-CD34",
+        "diagnostic": "BIO-CD34",
+        "easier": "BIO-CD34",
+        "parallel": "BIO-CD34"
+      }
     },
     {
       "id": "CB-EX1",
@@ -2207,18 +2896,23 @@
       "tier": "Both",
       "question": "A cell image is 42 mm long at a magnification of ×700. Calculate the actual cell length in micrometres.",
       "marks": 3,
-      "modelAnswer": "actual size = image size ÷ magnification. actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm. Answer: actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm.",
+      "modelAnswer": "Actual size = image size ÷ magnification.\nActual size = image size ÷ magnification\n42 mm ÷ 700 = 0.060 mm\n0.060 mm × 1000 = 60 μm.\nAnswer: actual size = image size ÷ magnification\n42 mm ÷ 700 = 0.060 mm\n0.060 mm × 1000 = 60 μm.",
       "markingPoints": [
-        "actual size = image size ÷ magnification.",
-        "actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm.",
-        "Answer: actual size = image size ÷ magnification; 42 mm ÷ 700 = 0.060 mm; 0.060 mm × 1000 = 60 μm."
+        "Actual size = image size ÷ magnification.",
+        "Actual size = image size ÷ magnification",
+        "42 mm ÷ 700 = 0.060 mm",
+        "0.060 mm × 1000 = 60 μm.",
+        "Answer: actual size = image size ÷ magnification",
+        "42 mm ÷ 700 = 0.060 mm",
+        "0.060 mm × 1000 = 60 μm."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-02D2JM5",
+      "databaseId": "BIO-CB-EX1"
     },
     {
       "id": "CB-EX2",
@@ -2226,18 +2920,20 @@
       "subtopic": "Osmosis required practical",
       "sourceSubtopic": "Osmosis required practical",
       "tier": "Both",
-      "question": "A student uses percentage change in mass to compare osmosis in potato cylinders of different starting masses. Explain why percentage change is more valid than change in mass alone, and state two improvements to the investigation.",
+      "question": "A student uses percentage change in mass to compare osmosis in potato cylinders of different starting masses.\nPart (a): Explain why percentage change is more valid than change in mass alone.\nPart (b): State two improvements to the investigation.",
       "marks": 4,
-      "modelAnswer": "Percentage change accounts for different starting masses, allowing a fair comparison. Improvements include cylinders of equal diameter/length, blotting dry consistently, controlling time and temperature, using repeats and calculating a mean, and using more concentrations near the isotonic point.",
+      "modelAnswer": "Percentage change accounts for different starting masses, allowing a fair comparison.\nImprovements include cylinders of equal diameter/length, blotting dry consistently, controlling time and temperature, using repeats and calculating a mean, and using more concentrations near the isotonic point.",
       "markingPoints": [
-        "Percentage change accounts for different starting masses, allowing a fair comparison. Improvements include cylinders of equal diameter/length, blotting dry consistently, controlling time and temperature, using repeats and calculating a mean, and using more concentrations near the isotonic point."
+        "Percentage change accounts for different starting masses, allowing a fair comparison.",
+        "Improvements include cylinders of equal diameter/length, blotting dry consistently, controlling time and temperature, using repeats and calculating a mean, and using more concentrations near the isotonic point."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "Targeted Grade 8–9 extension",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1CEFQDC",
+      "databaseId": "BIO-CB-EX2"
     },
     {
       "id": "PK01",
@@ -2247,22 +2943,23 @@
       "tier": "Both",
       "question": "Describe how to prepare and observe a stained onion-cell slide using a light microscope.",
       "marks": 6,
-      "modelAnswer": "Place a thin onion epidermis on a slide add a drop of iodine stain lower a coverslip at an angle to avoid air bubbles place the slide on the stage begin with the lowest-power objective focus using the coarse then fine adjustment increase magnification if needed.",
+      "modelAnswer": "Place a thin onion epidermis on a slide.\nAdd a drop of iodine stain.\nLower a coverslip at an angle to avoid air bubbles.\nPlace the slide on the stage.\nBegin with the lowest-power objective.\nFocus using the coarse then fine adjustment.\nIncrease magnification if needed.",
       "markingPoints": [
-        "Place a thin onion epidermis on a slide",
-        "add a drop of iodine stain",
-        "lower a coverslip at an angle to avoid air bubbles",
-        "place the slide on the stage",
-        "begin with the lowest-power objective",
-        "focus using the coarse then fine adjustment",
-        "increase magnification if needed."
+        "Place a thin onion epidermis on a slide.",
+        "Add a drop of iodine stain.",
+        "Lower a coverslip at an angle to avoid air bubbles.",
+        "Place the slide on the stage.",
+        "Begin with the lowest-power objective.",
+        "Focus using the coarse then fine adjustment.",
+        "Increase magnification if needed."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 4–6",
-      "knowledgeType": "Practical knowledge"
+      "knowledgeType": "Practical knowledge",
+      "questionFamilyId": "BIO-FAM-0LW90WM",
+      "databaseId": "BIO-PK01"
     },
     {
       "id": "PK02",
@@ -2272,18 +2969,21 @@
       "tier": "Both",
       "question": "An image of a cell is 36 mm long. Its actual length is 60 μm. Calculate the magnification.",
       "marks": 3,
-      "modelAnswer": "magnification = image size ÷ actual size. Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600. Answer: Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.",
+      "modelAnswer": "Magnification = image size ÷ actual size.\nConvert 36 mm to 36 000 μm.\nMagnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.\nAnswer: Convert 36 mm to 36 000 μm.\nMagnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.",
       "markingPoints": [
-        "magnification = image size ÷ actual size.",
-        "Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.",
-        "Answer: Convert 36 mm to 36 000 μm. Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600."
+        "Magnification = image size ÷ actual size.",
+        "Convert 36 mm to 36 000 μm.",
+        "Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600.",
+        "Answer: Convert 36 mm to 36 000 μm.",
+        "Magnification = image size ÷ actual size = 36 000 ÷ 60 = ×600."
       ],
       "commandWord": "Calculate",
       "assessmentObjective": "AO2",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0B8BVUC",
+      "databaseId": "BIO-PK02"
     },
     {
       "id": "PK03",
@@ -2293,16 +2993,18 @@
       "tier": "Both",
       "question": "A student measures only one cell to estimate the mean cell length. Explain how to improve the reliability of the estimate.",
       "marks": 3,
-      "modelAnswer": "Measure many cells from several fields of view, calculate a mean and exclude an anomalous measurement only with a scientific reason. A larger sample reduces the effect of biological variation and random error.",
+      "modelAnswer": "Measure many cells from several fields of view, calculate a mean and exclude an anomalous measurement only with a scientific reason.\nA larger sample reduces the effect of biological variation and random error.",
       "markingPoints": [
-        "Measure many cells from several fields of view, calculate a mean and exclude an anomalous measurement only with a scientific reason. A larger sample reduces the effect of biological variation and random error."
+        "Measure many cells from several fields of view, calculate a mean and exclude an anomalous measurement only with a scientific reason.",
+        "A larger sample reduces the effect of biological variation and random error."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.1.1.5",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-1CQMF7R",
+      "databaseId": "BIO-PK03"
     },
     {
       "id": "PK04",
@@ -2312,23 +3014,24 @@
       "tier": "Both",
       "question": "Plan an investigation of how sucrose concentration affects the mass of potato cylinders.",
       "marks": 6,
-      "modelAnswer": "Prepare a range of sucrose concentrations cut equal-size potato cylinders from the same potato measure initial mass place cylinders in equal volumes for the same time and temperature blot dry consistently measure final mass calculate percentage change in mass repeat each concentration and calculate a mean.",
+      "modelAnswer": "Prepare a range of sucrose concentrations.\nCut equal-size potato cylinders from the same potato.\nMeasure initial mass.\nPlace cylinders in equal volumes for the same time and temperature.\nBlot dry consistently.\nMeasure final mass.\nCalculate percentage change in mass.\nRepeat each concentration and calculate a mean.",
       "markingPoints": [
-        "Prepare a range of sucrose concentrations",
-        "cut equal-size potato cylinders from the same potato",
-        "measure initial mass",
-        "place cylinders in equal volumes for the same time and temperature",
-        "blot dry consistently",
-        "measure final mass",
-        "calculate percentage change in mass",
-        "repeat each concentration and calculate a mean."
+        "Prepare a range of sucrose concentrations.",
+        "Cut equal-size potato cylinders from the same potato.",
+        "Measure initial mass.",
+        "Place cylinders in equal volumes for the same time and temperature.",
+        "Blot dry consistently.",
+        "Measure final mass.",
+        "Calculate percentage change in mass.",
+        "Repeat each concentration and calculate a mean."
       ],
       "commandWord": "Plan",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Practical + disciplinary"
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "BIO-FAM-08MP66G",
+      "databaseId": "BIO-PK04"
     },
     {
       "id": "PK05",
@@ -2338,16 +3041,18 @@
       "tier": "Both",
       "question": "Explain why potato cylinders should be blotted dry before their final mass is measured.",
       "marks": 2,
-      "modelAnswer": "Surface solution would add to the measured mass. Blotting consistently means the mass change is due to water entering or leaving the potato tissue, improving validity.",
+      "modelAnswer": "Surface solution would add to the measured mass.\nBlotting consistently means the mass change is due to water entering or leaving the potato tissue, improving validity.",
       "markingPoints": [
-        "Surface solution would add to the measured mass. Blotting consistently means the mass change is due to water entering or leaving the potato tissue, improving validity."
+        "Surface solution would add to the measured mass.",
+        "Blotting consistently means the mass change is due to water entering or leaving the potato tissue, improving validity."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.1.3.2",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Disciplinary knowledge"
+      "knowledgeType": "Disciplinary knowledge",
+      "questionFamilyId": "BIO-FAM-0BWDMAQ",
+      "databaseId": "BIO-PK05"
     },
     {
       "id": "PK06",
@@ -2357,20 +3062,21 @@
       "tier": "Biology only",
       "question": "Explain three aseptic techniques used when culturing bacteria and the reason for each.",
       "marks": 6,
-      "modelAnswer": "Disinfect the work surface to reduce contamination sterilise the Petri dish, agar and inoculating loop to kill unwanted microorganisms open the lid only slightly and briefly to reduce entry of airborne microbes tape the lid at intervals so it is secure but oxygen can enter incubate at 25 °C in school to reduce growth of pathogens.",
+      "modelAnswer": "Disinfect the work surface to reduce contamination.\nSterilise the Petri dish, agar and inoculating loop to kill unwanted microorganisms.\nOpen the lid only slightly and briefly to reduce entry of airborne microbes.\nTape the lid at intervals so it is secure but oxygen can enter.\nIncubate at 25 °C in school to reduce growth of pathogens.",
       "markingPoints": [
-        "Disinfect the work surface to reduce contamination",
-        "sterilise the Petri dish, agar and inoculating loop to kill unwanted microorganisms",
-        "open the lid only slightly and briefly to reduce entry of airborne microbes",
-        "tape the lid at intervals so it is secure but oxygen can enter",
-        "incubate at 25 °C in school to reduce growth of pathogens."
+        "Disinfect the work surface to reduce contamination.",
+        "Sterilise the Petri dish, agar and inoculating loop to kill unwanted microorganisms.",
+        "Open the lid only slightly and briefly to reduce entry of airborne microbes.",
+        "Tape the lid at intervals so it is secure but oxygen can enter.",
+        "Incubate at 25 °C in school to reduce growth of pathogens."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1/AO2",
-      "evidenceSource": "AQA specification / practical and disciplinary coverage",
       "specificationReference": "4.1.1.6",
       "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Practical + disciplinary"
+      "knowledgeType": "Practical + disciplinary",
+      "questionFamilyId": "BIO-FAM-13ES46N",
+      "databaseId": "BIO-PK06"
     }
   ]
 }

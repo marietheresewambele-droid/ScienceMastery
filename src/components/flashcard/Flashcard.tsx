@@ -43,6 +43,9 @@ export default function Flashcard({
 }: FlashcardProps) {
   const hints = getAdaptiveHints(question);
 
+  const markingPoints = question.markingPoints.flatMap((point) =>
+    point.split(/\r?\n+/).map((section) => section.trim()).filter(Boolean),
+  );
   const clickable = !isExam || flipped;
 
   const handleCardClick = () => {
@@ -55,7 +58,6 @@ export default function Flashcard({
   return (
     <div style={{ perspective: "1600px" }}>
       <article
-        onClick={handleCardClick}
         tabIndex={clickable ? 0 : undefined}
         onKeyDown={(event) => {
           if (clickable && (event.key === "Enter" || event.key === " ")) {
@@ -79,11 +81,11 @@ export default function Flashcard({
             <div className="flex shrink-0 gap-2">
               <button
                 type="button"
-                aria-label={hintLevel >= 3 ? "Hints exhausted" : `Show hint ${hintLevel + 1}`}
+                aria-label={hintLevel >= 2 ? "Hints exhausted" : `Show hint ${hintLevel + 1}`}
                 aria-pressed={hintLevel > 0}
                 onClick={(event) => {
                   event.stopPropagation();
-                  onHintLevelChange(Math.min(3, hintLevel + 1));
+                  onHintLevelChange(Math.min(2, hintLevel + 1));
                 }}
                 disabled={hintLevel >= 3}
                 className={`flex h-9 w-9 items-center justify-center rounded-full border-2 transition disabled:opacity-40 ${
@@ -127,11 +129,11 @@ export default function Flashcard({
               onClick={(event) => event.stopPropagation()}
               className="mt-4 rounded-xl border-2 border-ink bg-yellow-soft p-4 text-sm leading-6 text-ink"
             >
-              <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint {hintLevel} of 3</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint {hintLevel} of 2</p>
               <div className="mt-2 space-y-2">
                 {hints.slice(0, hintLevel).map((hint, index) => <p key={index}>{hint}</p>)}
               </div>
-              {hintLevel < 3 && <p className="mt-2 text-xs font-semibold text-ink-soft">Tap the lightbulb again for more support.</p>}
+              {hintLevel < 2 && <p className="mt-2 text-xs font-semibold text-ink-soft">Tap the lightbulb again for more support.</p>}
 
             </div>
           )}
@@ -186,8 +188,8 @@ export default function Flashcard({
             </button>
           </div>
 
-          <div className="mt-4 space-y-2.5 text-[15px] leading-6 text-ink">
-            {question.markingPoints.map((point, pointIndex) => (
+          <div className="mt-4 space-y-3 text-[15px] leading-6 text-ink">
+            {markingPoints.map((point, pointIndex) => (
               <p key={pointIndex} className="flex gap-2">
                 <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 border-ink bg-moss text-xs font-bold text-white">
                   ✓
@@ -195,9 +197,6 @@ export default function Flashcard({
                 <span>{point}</span>
               </p>
             ))}
-            {question.modelAnswer && (
-              <p className="rounded-xl border-2 border-ink bg-cream-soft p-4">{question.modelAnswer}</p>
-            )}
           </div>
 
           <div className="mt-auto pt-6">
