@@ -1,5 +1,5 @@
 import type { MasteryQuestion } from "@/types/questions";
-import { retrievalDays } from "@/lib/adaptive-engine";
+import { catalogQuestionId, retrievalDays } from "@/lib/adaptive-engine";
 
 export type MasteryLevel = "New" | "Learning" | "Secure";
 export type LearningEvidence = {
@@ -82,7 +82,8 @@ export class AdaptiveEngine {
 
   evaluateAttempt(evidence: LearningEvidence): QuestionMastery {
     const snapshot = this.store.read();
-    const previous = snapshot.mastery[evidence.question.id];
+    const key = catalogQuestionId(evidence.question);
+    const previous = snapshot.mastery[key];
     const independent = !evidence.fullAnswerViewed && evidence.hintsUsed === 0 && evidence.score >= evidence.maxScore;
     const supported = !evidence.fullAnswerViewed && evidence.score >= evidence.maxScore;
     const retrieval = independent && Boolean(previous?.lastAttemptAt) &&
@@ -98,8 +99,8 @@ export class AdaptiveEngine {
     };
     if (next.independentSuccesses >= 2 && next.retrievalSuccesses >= 1) next.level = "Secure";
     else if (independent || supported) next.level = "Learning";
-    snapshot.mastery[evidence.question.id] = next;
-    snapshot.attempts.push({ ...evidence, id: `${evidence.question.id}:${Date.now()}`, createdAt: new Date().toISOString() });
+    snapshot.mastery[key] = next;
+    snapshot.attempts.push({ ...evidence, id: `${key}:${Date.now()}`, createdAt: new Date().toISOString() });
     this.store.write(snapshot);
     return next;
   }
@@ -122,21 +123,22 @@ export class AdaptiveEngine {
 export function aggregateMastery(snapshot: LearningSnapshot, questions: MasteryQuestion[]): Record<string, MasteryAggregate> {
   const groups = new Map<string, { questions: Set<string>; attempts: number; independent: number; supported: number; secure: number }>();
   for (const question of questions) {
+    const questionId = catalogQuestionId(question);
     const dimensions = [
-      ["question", question.id],
+      ["question", questionId],
       ["family", question.questionFamily ?? "Uncategorised"],
       ["subtopic", question.subtopic],
       ["topic", question.topicSlug],
       ["subject", question.subject],
       ...question.assessmentObjective.split("/").map((ao) => ["ao", ao]),
     ];
-    const mastery = snapshot.mastery[question.id];
+    const mastery = snapshot.mastery[questionId];
     for (const [dimension, value] of dimensions) {
       const key = `${dimension}:${value}`;
       const group = groups.get(key) ?? { questions: new Set<string>(), attempts: 0, independent: 0, supported: 0, secure: 0 };
-      group.questions.add(question.id);
+      group.questions.add(questionId);
       if (mastery) {
-        group.attempts += snapshot.attempts.filter((attempt) => attempt.question.id === question.id).length;
+        group.attempts += snapshot.attempts.filter((attempt) => catalogQuestionId(attempt.question) === questionId).length;
         group.independent += mastery.independentSuccesses;
         group.supported += mastery.supportedSuccesses;
         if (mastery.level === "Secure") group.secure += 1;
