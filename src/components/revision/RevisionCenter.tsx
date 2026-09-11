@@ -44,7 +44,7 @@ export default function RevisionCenter({
   initialTopic?: string;
   initialSubtopic?: string;
 }) {
-  const skipSetup = Boolean(initialSubject && initialTopic && initialSubtopic);
+  const skipSetup = Boolean(initialSubject && initialTopic);
 
   const [mode, setMode] = useState<Mode>(initialMode);
   const [subjects, setSubjects] = useState<string[]>(

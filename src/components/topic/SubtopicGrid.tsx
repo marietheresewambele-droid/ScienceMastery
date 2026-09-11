@@ -54,14 +54,7 @@ function SubtopicCard({
       </div>
 
       <div className="mt-4">
-        <span
-          className={`text-xs font-bold ${
-            hasQuestions ? "text-orange-dark" : "text-ink-soft/50"
-          }`}
-        >
-          {questionCount} {questionCount === 1 ? "question" : "questions"}
-        </span>
-        <div className="mt-3 grid grid-cols-2 gap-2">
+        <div className="grid grid-cols-2 gap-2">
           {hasQuestions ? (
             <>
               <Link

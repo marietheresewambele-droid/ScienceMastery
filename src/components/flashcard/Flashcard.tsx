@@ -42,6 +42,7 @@ export default function Flashcard({
   onRate,
 }: FlashcardProps) {
   const hints = getAdaptiveHints(question);
+  const activeHint = hints[Math.min(Math.max(hintLevel - 1, 0), hints.length - 1)] ?? hints[0] ?? "";
 
   const markingPoints = question.markingPoints.flatMap((point) =>
     point.split(/\r?\n+/).map((section) => section.trim()).filter(Boolean),
@@ -52,13 +53,13 @@ export default function Flashcard({
     if (!clickable) return;
     onFlip();
     onHintLevelChange(0);
-
   };
 
   return (
     <div style={{ perspective: "1600px" }}>
       <article
         tabIndex={clickable ? 0 : undefined}
+        onClick={handleCardClick}
         onKeyDown={(event) => {
           if (clickable && (event.key === "Enter" || event.key === " ")) {
             event.preventDefault();
@@ -129,12 +130,11 @@ export default function Flashcard({
               onClick={(event) => event.stopPropagation()}
               className="mt-4 rounded-xl border-2 border-ink bg-yellow-soft p-4 text-sm leading-6 text-ink"
             >
-              <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint {hintLevel} of 2</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint {Math.min(hintLevel, 2)} of 2</p>
               <div className="mt-2 space-y-2">
-                {hints.slice(0, hintLevel).map((hint, index) => <p key={index}>{hint}</p>)}
+                <p>{activeHint}</p>
               </div>
               {hintLevel < 2 && <p className="mt-2 text-xs font-semibold text-ink-soft">Tap the lightbulb again for more support.</p>}
-
             </div>
           )}
 

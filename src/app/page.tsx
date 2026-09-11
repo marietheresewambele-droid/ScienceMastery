@@ -79,8 +79,6 @@ export default function Home() {
             <span className="rounded-md border-2 border-ink bg-card px-3 py-1 text-xs font-bold" style={{color:subject.dark}}>{subject.code}</span>
           </div>
           <h3 className="mt-5 font-display text-2xl font-bold">{subject.name}</h3>
-          <p className="mt-2 text-sm text-ink-soft">{subject.topics} topics · {subject.questions} mastery questions</p>
-          <div className="mt-5 flex flex-wrap gap-2">{subject.names.map(name=><span key={name} className="rounded-md border border-ink/40 bg-card px-2.5 py-1 text-xs font-semibold text-ink-soft">{name}</span>)}</div>
         </div>
         <div className="p-5"><Link href={subject.route} className="flex w-full items-center justify-center rounded-xl border-2 border-ink px-5 py-3 font-display font-semibold text-white" style={{backgroundColor:subject.colour}}>Explore {subject.name} →</Link></div>
       </article>)}</div>

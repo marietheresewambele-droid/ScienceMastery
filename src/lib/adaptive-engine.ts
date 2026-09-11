@@ -53,21 +53,33 @@ function wordHints(source: string): [string, string] {
     if (scientificWord(word)) indexes.push(index);
     return indexes;
   }, []);
-  const hintOne = words.map((word, index) => candidates.includes(index) ? "____" : word).join("");
-  const revealCount = Math.max(1, Math.floor(candidates.length / 2));
-  const revealed = new Set(candidates.slice(0, revealCount));
-  const hintTwo = words.map((word, index) => candidates.includes(index) && !revealed.has(index) ? "____" : word).join("");
-  return [`Complete the answer: ${hintOne}`, `Complete the remaining key terms: ${hintTwo}`];
+
+  const mask = (hiddenIndices: Set<number>) =>
+    words.map((word, index) => (candidates.includes(index) && hiddenIndices.has(index) ? "____" : word)).join("");
+
+  const firstHidden = new Set(candidates.slice(0, Math.max(1, Math.ceil(candidates.length / 2))));
+  const secondHidden = new Set(candidates.slice(0, Math.max(1, Math.ceil(candidates.length * 0.75))));
+
+  return [
+    `Complete the answer: ${mask(firstHidden)}`,
+    `Complete the remaining key terms: ${mask(secondHidden)}`,
+  ];
 }
 
 function keywordHints(source: string, keywords: string[]): [string, string] {
   const approved = [...new Set(keywords.map((keyword) => keyword.trim()).filter(Boolean))]
     .sort((left, right) => right.length - left.length);
   if (!approved.length) return wordHints(source);
+
   const pattern = new RegExp(`(${approved.map((keyword) => keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "gi");
   const structure = source.replace(pattern, "____");
+  const partial = source.replace(pattern, (_, match) => {
+    const matchLength = match.length;
+    return matchLength > 4 ? "____" : match;
+  });
+
   return [
-    `Complete the answer structure:\n${structure}`,
+    `Complete the answer structure:\n${partial}`,
     `Complete the remaining key terms:\n${structure}`,
   ];
 }
