@@ -5,6 +5,7 @@ interface RawChemistryQuestion {
   tier?: "Foundation" | "Higher" | "Both" | string; marks?: number; modelAnswer?: string;
   markingPoints?: string[]; commandWord?: string; assessmentObjective?: string;
   specificationReference?: string; gradeDemand?: string; knowledgeType?: string;
+  hintKeywords?: string[];
 }
 export interface RawChemistryQuestionBank {
   metadata?: { subtopics?: Array<{ title?: string; questionCount?: number }> };
@@ -26,7 +27,8 @@ export function createChemistryQuestions(bank: RawChemistryQuestionBank, topicSl
     const tier=question.tier === "Foundation" || question.tier === "Higher" || question.tier === "Both" ? question.tier : undefined;
     return { id:question.id, subject:"chemistry", topicSlug, topic:topicTitle, subtopic, question:question.question, marks:question.marks,
       assessmentObjective:ao, difficulty:tier, tier, commandWord:question.commandWord, specificationReference:question.specificationReference,
-      markingPoints, modelAnswer:question.modelAnswer, gradeDemand:question.gradeDemand, questionFamily:question.questionFamily, originalSubtopic:question.sourceSubtopic };
+      markingPoints, modelAnswer:question.modelAnswer, gradeDemand:question.gradeDemand, questionFamily:question.questionFamily,
+      originalSubtopic:question.sourceSubtopic, hintKeywords:question.hintKeywords };
   });
 }
 export function createChemistrySubtopics(bank: RawChemistryQuestionBank): BiologySubtopicConfig[] {

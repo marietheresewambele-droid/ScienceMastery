@@ -60,10 +60,23 @@ function wordHints(source: string): [string, string] {
   return [`Complete the answer: ${hintOne}`, `Complete the remaining key terms: ${hintTwo}`];
 }
 
+function keywordHints(source: string, keywords: string[]): [string, string] {
+  const approved = [...new Set(keywords.map((keyword) => keyword.trim()).filter(Boolean))]
+    .sort((left, right) => right.length - left.length);
+  if (!approved.length) return wordHints(source);
+  const pattern = new RegExp(`(${approved.map((keyword) => keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "gi");
+  const structure = source.replace(pattern, "____");
+  return [
+    `Complete the answer structure:\n${structure}`,
+    `Use these key terms: ${approved.join(", ")}\n\nNow complete the answer structure:\n${structure}`,
+  ];
+}
+
 export function getAdaptiveHints(question: MasteryQuestion): [string, string] {
   if (question.adaptiveHints?.length === 2) return question.adaptiveHints;
   const source = answerSource(question);
   if (!source) return ["Use the wording of the question to structure your answer.", "State the key point asked for in the question."];
+  if (question.hintKeywords?.length) return keywordHints(source, question.hintKeywords);
   return isCalculation(question, source) ? [calculationHint(question, source, false), calculationHint(question, source, true)] : wordHints(source);
 }
 

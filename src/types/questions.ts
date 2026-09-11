@@ -37,6 +37,8 @@ export interface MasteryQuestion {
   gradeDemand?: string;
   questionFamily?: string;
   originalSubtopic?: string;
+  /** Approved answer terms used to build scaffolded, fill-the-gap hints. */
+  hintKeywords?: string[];
   hints?: [string, string];
   prerequisiteIds?: string[];
   easierQuestionIds?: string[];

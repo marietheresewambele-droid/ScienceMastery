@@ -3,7 +3,7 @@
     "subtopics": [
       {
         "title": "T7 Organic Chemistry · 4.7.1.1",
-        "questionCount": 18
+        "questionCount": 8
       },
       {
         "title": "T7 Organic Chemistry · 4.7.1.1; 4.7.2.1",
@@ -11,15 +11,15 @@
       },
       {
         "title": "T7 Organic Chemistry · 4.7.1.2",
-        "questionCount": 11
+        "questionCount": 4
       },
       {
         "title": "T7 Organic Chemistry · 4.7.1.3",
-        "questionCount": 15
+        "questionCount": 7
       },
       {
         "title": "T7 Organic Chemistry · 4.7.1.4",
-        "questionCount": 18
+        "questionCount": 9
       },
       {
         "title": "T7 Organic Chemistry · 4.7.2.1",
@@ -52,36 +52,113 @@
       {
         "title": "T7 Organic Chemistry · 4.7.3.4",
         "questionCount": 1
-      },
-      {
-        "title": "T7 Organic Chemistry · AQA Chemistry",
-        "questionCount": 1
       }
     ]
   },
   "questions": [
     {
-      "id": "7.3-S1",
+      "id": "CHEM-T07-Q001",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.1.1",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
       "tier": "All",
-      "question": "Write a balanced symbol equation for the complete combustion of propane.",
-      "marks": 2,
-      "modelAnswer": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.",
+      "question": "Define a hydrocarbon.",
+      "marks": 1,
+      "modelAnswer": "A compound containing hydrogen and carbon atoms only.",
       "markingPoints": [
-        "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O."
+        "A compound containing hydrogen and carbon atoms only."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "compound",
+        "containing",
+        "hydrogen",
+        "carbon"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
+      "databaseId": "CHE-CHEM-T07-Q001"
+    },
+    {
+      "id": "CHEM-T07-Q002",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "tier": "All",
+      "question": "Why is crude oil described as a finite resource?",
+      "marks": 2,
+      "modelAnswer": "It forms over millions of years and is used much faster than it is naturally replaced.",
+      "markingPoints": [
+        "It forms over millions of years and is used much faster than it is naturally replaced."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "millions",
+        "faster",
+        "naturally",
+        "replaced"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
+      "databaseId": "CHE-CHEM-T07-Q002"
+    },
+    {
+      "id": "CHEM-T07-Q003",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "tier": "All",
+      "question": "Give the molecular formula of hexane.",
+      "marks": 2,
+      "modelAnswer": "Alkanes have formula CnH2n+2.\nFor n=6 the formula is C6H14.",
+      "markingPoints": [
+        "Alkanes have formula CnH2n+2.",
+        "For n=6 the formula is C6H14."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO2",
       "specificationReference": "4.7.1.1",
-      "gradeDemand": "Grades 7–9",
+      "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "formula",
+        "CnH",
+        "C6H14"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
-      "databaseId": "CHE-7.3-S1"
+      "databaseId": "CHE-CHEM-T07-Q003"
     },
     {
-      "id": "7.3-S2",
+      "id": "CHEM-T07-Q004",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "tier": "All",
+      "question": "What is a homologous series?",
+      "marks": 3,
+      "modelAnswer": "A family of compounds with the same functional group and general formula, similar chemical properties and a gradual trend in physical properties.",
+      "markingPoints": [
+        "A family of compounds with the same functional group and general formula, similar chemical properties and a gradual trend in physical properties."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "formula"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
+      "databaseId": "CHE-CHEM-T07-Q004"
+    },
+    {
+      "id": "CHEM-T07-Q005",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Explain",
       "subtopic": "T7 Organic Chemistry · 4.7.1.1",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
@@ -97,17 +174,69 @@
       "specificationReference": "4.7.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "carbon monoxide"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-explain",
-      "databaseId": "CHE-7.3-S2"
+      "databaseId": "CHE-CHEM-T07-Q005"
     },
     {
-      "id": "7.6",
+      "id": "CHEM-T07-Q006",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "tier": "All",
+      "question": "Write a balanced symbol equation for the complete combustion of propane.",
+      "marks": 2,
+      "modelAnswer": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.",
+      "markingPoints": [
+        "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "C₃H₈",
+        "H₂O"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
+      "databaseId": "CHE-CHEM-T07-Q006"
+    },
+    {
+      "id": "CHEM-T07-Q007",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Explain",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
+      "tier": "All",
+      "question": "Explain why crude oil is described as both a fuel resource and a feedstock, and evaluate one reason for conserving it.",
+      "marks": 4,
+      "modelAnswer": "Fractions burn to release energy.\nMolecules are starting materials for polymers/solvents/detergents.\nFinite, environmental impacts/CO2, and higher-value chemical uses support conservation.",
+      "markingPoints": [
+        "Fractions burn to release energy.",
+        "Molecules are starting materials for polymers/solvents/detergents.",
+        "Finite, environmental impacts/CO2, and higher-value chemical uses support conservation."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.7.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "energy"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-explain",
+      "databaseId": "CHE-CHEM-T07-Q007"
+    },
+    {
+      "id": "CHEM-T07-Q009",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Compare",
       "subtopic": "T7 Organic Chemistry · 4.7.1.1",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
       "tier": "All",
       "question": "Compare complete and incomplete combustion in terms of oxygen supply, products, energy release and environmental effects.",
-      "marks": 7,
+      "marks": 6,
       "modelAnswer": "Plentiful O2 gives CO2+H2O and more complete energy transfer.\nLimited O2 gives CO and/or carbon+H2O and less energy.\nCO toxic, soot respiratory/global dimming, CO2 greenhouse gas.",
       "markingPoints": [
         "Plentiful O2 gives CO2+H2O and more complete energy transfer.",
@@ -119,11 +248,17 @@
       "specificationReference": "4.7.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "O2",
+        "H2O",
+        "energy",
+        "greenhouse gas"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-compare",
-      "databaseId": "CHE-7.6"
+      "databaseId": "CHE-CHEM-T07-Q009"
     },
     {
-      "id": "7.7",
+      "id": "CHEM-T07-Q008",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.1; 4.7.2.1 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.1.1; 4.7.2.1",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1; 4.7.2.1",
@@ -142,377 +277,20 @@
       "specificationReference": "4.7.1.1; 4.7.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "C2H6",
+        "C3H8",
+        "C4H10",
+        "CnH",
+        "C-C",
+        "C2H4",
+        "C3H6"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-4-7-2-1-state",
-      "databaseId": "CHE-7.7"
+      "databaseId": "CHE-CHEM-T07-Q008"
     },
     {
-      "id": "7.15",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "All",
-      "question": "Explain why crude oil is described as both a fuel resource and a feedstock, and evaluate one reason for conserving it.",
-      "marks": 4,
-      "modelAnswer": "Fractions burn to release energy.\nMolecules are starting materials for polymers/solvents/detergents.\nFinite, environmental impacts/CO2, and higher-value chemical uses support conservation.",
-      "markingPoints": [
-        "Fractions burn to release energy.",
-        "Molecules are starting materials for polymers/solvents/detergents.",
-        "Finite, environmental impacts/CO2, and higher-value chemical uses support conservation."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-explain",
-      "databaseId": "CHE-7.15"
-    },
-    {
-      "id": "7.16",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "All",
-      "question": "Define a hydrocarbon.",
-      "marks": 1,
-      "modelAnswer": "A compound containing hydrogen and carbon atoms only.",
-      "markingPoints": [
-        "A compound containing hydrogen and carbon atoms only."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
-      "databaseId": "CHE-7.16"
-    },
-    {
-      "id": "7.17",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "All",
-      "question": "Why is crude oil described as a finite resource?",
-      "marks": 2,
-      "modelAnswer": "It forms over millions of years and is used much faster than it is naturally replaced.",
-      "markingPoints": [
-        "It forms over millions of years and is used much faster than it is naturally replaced."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-7.17"
-    },
-    {
-      "id": "7.18",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "All",
-      "question": "What is a homologous series?",
-      "marks": 3,
-      "modelAnswer": "A family of compounds with the same functional group and general formula, similar chemical properties and a gradual trend in physical properties.",
-      "markingPoints": [
-        "A family of compounds with the same functional group and general formula, similar chemical properties and a gradual trend in physical properties."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-7.18"
-    },
-    {
-      "id": "7.19",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "All",
-      "question": "Give the molecular formula of hexane.",
-      "marks": 2,
-      "modelAnswer": "Alkanes have formula CnH2n+2.\nFor n=6 the formula is C6H14.",
-      "markingPoints": [
-        "Alkanes have formula CnH2n+2.",
-        "For n=6 the formula is C6H14."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
-      "databaseId": "CHE-7.19"
-    },
-    {
-      "id": "T7-QUIZ001",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is crude oil made from?",
-      "marks": 1,
-      "modelAnswer": "Crude oil is the remains of biomass consisting mainly of plankton buried in mud.",
-      "markingPoints": [
-        "Crude oil is the remains of biomass consisting mainly of plankton buried in mud."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-T7-QUIZ001"
-    },
-    {
-      "id": "T7-QUIZ002",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is crude oil?",
-      "marks": 1,
-      "modelAnswer": "Crude oil is a mixture of a very large number of compounds, mainly hydrocarbons.",
-      "markingPoints": [
-        "Crude oil is a mixture of a very large number of compounds, mainly hydrocarbons."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-T7-QUIZ002"
-    },
-    {
-      "id": "T7-QUIZ003",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What are hydrocarbons?",
-      "marks": 1,
-      "modelAnswer": "Hydrocarbons are molecules made up of carbon and hydrogen only.",
-      "markingPoints": [
-        "Hydrocarbons are molecules made up of carbon and hydrogen only."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-T7-QUIZ003"
-    },
-    {
-      "id": "T7-QUIZ004",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What type of molecules are most of the hydrocarbons found in crude oil?",
-      "marks": 1,
-      "modelAnswer": "Alkanes.",
-      "markingPoints": [
-        "Alkanes."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-T7-QUIZ004"
-    },
-    {
-      "id": "T7-QUIZ005",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the general formula for alkanes?",
-      "marks": 1,
-      "modelAnswer": "CnH2n+2.",
-      "markingPoints": [
-        "CnH2n+2."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-T7-QUIZ005"
-    },
-    {
-      "id": "T7-QUIZ006",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "Name the first four members of the alkanes?",
-      "marks": 1,
-      "modelAnswer": "Methane (C1), ethane (C2), propane (C3) and butane(C4).",
-      "markingPoints": [
-        "Methane (C1), ethane (C2), propane (C3) and butane(C4)."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
-      "databaseId": "CHE-T7-QUIZ006"
-    },
-    {
-      "id": "T7-QUIZ007",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the formula of methane?",
-      "marks": 1,
-      "modelAnswer": "CH4.",
-      "markingPoints": [
-        "CH4."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-T7-QUIZ007"
-    },
-    {
-      "id": "T7-QUIZ008",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "Draw the structure of ethane?",
-      "marks": 1,
-      "modelAnswer": "Draw CH₃–CH₃.",
-      "markingPoints": [
-        "Draw CH₃–CH₃."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
-      "databaseId": "CHE-T7-QUIZ008"
-    },
-    {
-      "id": "T7-QUIZ009",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the formula of propane?",
-      "marks": 1,
-      "modelAnswer": "C3H8.",
-      "markingPoints": [
-        "C3H8."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-answer",
-      "databaseId": "CHE-T7-QUIZ009"
-    },
-    {
-      "id": "T7-QUIZ010",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.1 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.1",
-      "tier": "Foundation and Higher",
-      "question": "Draw the structure of butane?",
-      "marks": 1,
-      "modelAnswer": "Draw CH₃–CH₂–CH₂–CH₃.",
-      "markingPoints": [
-        "Draw CH₃–CH₂–CH₂–CH₃."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-1-state",
-      "databaseId": "CHE-T7-QUIZ010"
-    },
-    {
-      "id": "7.1-S1",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "All",
-      "question": "Explain how fractional distillation separates crude oil.",
-      "marks": 4,
-      "modelAnswer": "Crude oil is heated so most of it vaporises. Vapours rise through a fractionating column and cool. Different hydrocarbons condense at different heights because they have different boiling points.",
-      "markingPoints": [
-        "Crude oil is heated so most of it vaporises. Vapours rise through a fractionating column and cool. Different hydrocarbons condense at different heights because they have different boiling points."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-explain",
-      "databaseId": "CHE-7.1-S1"
-    },
-    {
-      "id": "7.1-S2",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "All",
-      "question": "Explain why a fraction from crude oil contains several hydrocarbons rather than one compound.",
-      "marks": 2,
-      "modelAnswer": "A fraction contains hydrocarbons with similar boiling points. It condenses over a range of temperatures, not at one precise temperature.",
-      "markingPoints": [
-        "A fraction contains hydrocarbons with similar boiling points. It condenses over a range of temperatures, not at one precise temperature."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-explain",
-      "databaseId": "CHE-7.1-S2"
-    },
-    {
-      "id": "T7-EX1",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Both",
-      "question": "Explain how fractional distillation separates crude oil into fractions.",
-      "marks": 5,
-      "modelAnswer": "Crude oil is vaporised and enters a column hot at bottom/cooler at top.\nHydrocarbons have different boiling points.\nVapours rise and condense where temperature falls below their boiling point.\nFractions are collected at different heights.",
-      "markingPoints": [
-        "Crude oil is vaporised and enters a column hot at bottom/cooler at top.",
-        "Hydrocarbons have different boiling points.",
-        "Vapours rise and condense where temperature falls below their boiling point.",
-        "Fractions are collected at different heights."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-explain",
-      "databaseId": "CHE-T7-EX1"
-    },
-    {
-      "id": "T7-PD01",
+      "id": "CHEM-T07-Q010",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Describe",
       "subtopic": "T7 Organic Chemistry · 4.7.1.2",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
@@ -531,231 +309,92 @@
       "specificationReference": "4.7.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "vaporises",
+        "Fractions",
+        "different",
+        "Separation"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-describe",
-      "databaseId": "CHE-T7-PD01"
+      "databaseId": "CHE-CHEM-T07-Q010"
     },
     {
-      "id": "T7-QUIZ011",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What is a crude oil fraction?",
-      "marks": 1,
-      "modelAnswer": "Groups of molecules with a similar number of carbon atoms.",
-      "markingPoints": [
-        "Groups of molecules with a similar number of carbon atoms."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-answer",
-      "databaseId": "CHE-T7-QUIZ011"
-    },
-    {
-      "id": "T7-QUIZ012",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Foundation and Higher",
-      "question": "How can crude oil be separated into fractions?",
-      "marks": 1,
-      "modelAnswer": "Fractional distillation.",
-      "markingPoints": [
-        "Fractional distillation."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-answer",
-      "databaseId": "CHE-T7-QUIZ012"
-    },
-    {
-      "id": "T7-QUIZ013",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Foundation and Higher",
-      "question": "How does the petrochemical industry use different fractions?",
-      "marks": 1,
-      "modelAnswer": "The petrochemical industry processes fractions for fuels and feedstock.",
-      "markingPoints": [
-        "The petrochemical industry processes fractions for fuels and feedstock."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-answer",
-      "databaseId": "CHE-T7-QUIZ013"
-    },
-    {
-      "id": "T7-QUIZ014",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What are the five main crude oil fractions?",
-      "marks": 1,
-      "modelAnswer": "Petrol, diesel oil, kerosene, heavy fuel oil and liquified petroleum gas.",
-      "markingPoints": [
-        "Petrol, diesel oil, kerosene, heavy fuel oil and liquified petroleum gas."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-answer",
-      "databaseId": "CHE-T7-QUIZ014"
-    },
-    {
-      "id": "T7-QUIZ015",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Name four useful materials produced by the petrochemical industry?",
-      "marks": 1,
-      "modelAnswer": "Solvents, lubricants, polymers and detergents.",
-      "markingPoints": [
-        "Solvents, lubricants, polymers and detergents."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-state",
-      "databaseId": "CHE-T7-QUIZ015"
-    },
-    {
-      "id": "T7-QUIZ016",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Why are there are vast array of natural and synthetic carbon compounds?",
-      "marks": 1,
-      "modelAnswer": "Carbon atoms have the ability to form families of similar compounds.",
-      "markingPoints": [
-        "Carbon atoms have the ability to form families of similar compounds."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-answer",
-      "databaseId": "CHE-T7-QUIZ016"
-    },
-    {
-      "id": "T7-QUIZ017",
+      "id": "CHEM-T07-Q011",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Explain",
       "subtopic": "T7 Organic Chemistry · 4.7.1.2",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Explain how fractional distillation works?",
-      "marks": 1,
-      "modelAnswer": "Crude oil is heated until most of it turns to gas. The gases enter the base of the fractionating column. The fractionating column has a temperature gradient. It is hot at the bottom and cool at the top. The longer hydrocarbons have high boiling points so they condense at the bottom of the column (e.g. bitumen, heavy fuel oil and diesel oil). Shorter hydrocarbons have low boiling points so they condense at the top of the column (e.g. kerosene, petrol and liquified petroleum gas).",
+      "tier": "Both",
+      "question": "Explain how fractional distillation separates crude oil into fractions.",
+      "marks": 5,
+      "modelAnswer": "Crude oil is vaporised and enters a column hot at bottom/cooler at top.\nHydrocarbons have different boiling points.\nVapours rise and condense where temperature falls below their boiling point.\nFractions are collected at different heights.",
       "markingPoints": [
-        "Crude oil is heated until most of it turns to gas. The gases enter the base of the fractionating column. The fractionating column has a temperature gradient. It is hot at the bottom and cool at the top. The longer hydrocarbons have high boiling points so they condense at the bottom of the column (e.g. bitumen, heavy fuel oil and diesel oil). Shorter hydrocarbons have low boiling points so they condense at the top of the column (e.g. kerosene, petrol and liquified petroleum gas)."
+        "Crude oil is vaporised and enters a column hot at bottom/cooler at top.",
+        "Hydrocarbons have different boiling points.",
+        "Vapours rise and condense where temperature falls below their boiling point.",
+        "Fractions are collected at different heights."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.1.2",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "temperature"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-explain",
+      "databaseId": "CHE-CHEM-T07-Q011"
+    },
+    {
+      "id": "CHEM-T07-Q012",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Explain",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
+      "tier": "All",
+      "question": "Explain why a fraction from crude oil contains several hydrocarbons rather than one compound.",
+      "marks": 2,
+      "modelAnswer": "A fraction contains hydrocarbons with similar boiling points. It condenses over a range of temperatures, not at one precise temperature.",
+      "markingPoints": [
+        "A fraction contains hydrocarbons with similar boiling points. It condenses over a range of temperatures, not at one precise temperature."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
       "specificationReference": "4.7.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "temperature"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-explain",
-      "databaseId": "CHE-T7-QUIZ017"
+      "databaseId": "CHE-CHEM-T07-Q012"
     },
     {
-      "id": "7.2-A",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "id": "CHEM-T07-Q013",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.2 · Explain",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.2",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.2",
       "tier": "All",
-      "question": "State how alkane boiling point changes as chain length increases.",
-      "marks": 1,
-      "modelAnswer": "It increases.",
+      "question": "Explain how fractional distillation separates crude oil.",
+      "marks": 4,
+      "modelAnswer": "Crude oil is heated so most of it vaporises. Vapours rise through a fractionating column and cool. Different hydrocarbons condense at different heights because they have different boiling points.",
       "markingPoints": [
-        "It increases."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-7.2-A"
-    },
-    {
-      "id": "7.2-B",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "All",
-      "question": "State how alkane viscosity changes as chain length increases.",
-      "marks": 1,
-      "modelAnswer": "It increases.",
-      "markingPoints": [
-        "It increases."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-7.2-B"
-    },
-    {
-      "id": "7.2-C",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "All",
-      "question": "State how alkane volatility changes as chain length increases.",
-      "marks": 1,
-      "modelAnswer": "It decreases.",
-      "markingPoints": [
-        "It decreases."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-7.2-C"
-    },
-    {
-      "id": "7.2-D",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "All",
-      "question": "Explain why these trends occur.",
-      "marks": 2,
-      "modelAnswer": "Larger molecules have stronger intermolecular forces, so more energy is needed to separate them.",
-      "markingPoints": [
-        "Larger molecules have stronger intermolecular forces, so more energy is needed to separate them."
+        "Crude oil is heated so most of it vaporises. Vapours rise through a fractionating column and cool. Different hydrocarbons condense at different heights because they have different boiling points."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
+      "specificationReference": "4.7.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-explain",
-      "databaseId": "CHE-7.2-D"
+      "hintKeywords": [
+        "vaporises",
+        "fractionating",
+        "Different",
+        "hydrocarbons"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-2-explain",
+      "databaseId": "CHE-CHEM-T07-Q013"
     },
     {
-      "id": "7.20",
+      "id": "CHEM-T07-Q014",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Answer",
       "subtopic": "T7 Organic Chemistry · 4.7.1.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
@@ -771,11 +410,15 @@
       "specificationReference": "4.7.1.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "intermolecular forces",
+        "energy"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-answer",
-      "databaseId": "CHE-7.20"
+      "databaseId": "CHE-CHEM-T07-Q014"
     },
     {
-      "id": "T7-EX2",
+      "id": "CHEM-T07-Q015",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.1.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
@@ -793,11 +436,109 @@
       "specificationReference": "4.7.1.3",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "C₃H₈",
+        "H₂O",
+        "carbon monoxide"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-T7-EX2"
+      "databaseId": "CHE-CHEM-T07-Q015"
     },
     {
-      "id": "T7-PD02",
+      "id": "CHEM-T07-Q016",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "tier": "All",
+      "question": "State how alkane boiling point changes as chain length increases.",
+      "marks": 1,
+      "modelAnswer": "It increases.",
+      "markingPoints": [
+        "It increases."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "increases"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
+      "databaseId": "CHE-CHEM-T07-Q016"
+    },
+    {
+      "id": "CHEM-T07-Q017",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "tier": "All",
+      "question": "State how alkane viscosity changes as chain length increases.",
+      "marks": 1,
+      "modelAnswer": "It increases.",
+      "markingPoints": [
+        "It increases."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "increases"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
+      "databaseId": "CHE-CHEM-T07-Q017"
+    },
+    {
+      "id": "CHEM-T07-Q018",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "tier": "All",
+      "question": "State how alkane volatility changes as chain length increases.",
+      "marks": 1,
+      "modelAnswer": "It decreases.",
+      "markingPoints": [
+        "It decreases."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "decreases"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
+      "databaseId": "CHE-CHEM-T07-Q018"
+    },
+    {
+      "id": "CHEM-T07-Q019",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Explain",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
+      "tier": "All",
+      "question": "Explain why these trends occur.",
+      "marks": 2,
+      "modelAnswer": "Larger molecules have stronger intermolecular forces, so more energy is needed to separate them.",
+      "markingPoints": [
+        "Larger molecules have stronger intermolecular forces, so more energy is needed to separate them."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "intermolecular forces",
+        "energy"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-explain",
+      "databaseId": "CHE-CHEM-T07-Q019"
+    },
+    {
+      "id": "CHEM-T07-Q020",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Answer",
       "subtopic": "T7 Organic Chemistry · 4.7.1.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
@@ -817,234 +558,39 @@
       "specificationReference": "4.7.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary",
+      "hintKeywords": [
+        "temperature"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-answer",
-      "databaseId": "CHE-T7-PD02"
+      "databaseId": "CHE-CHEM-T07-Q020"
     },
     {
-      "id": "T7-QUIZ018",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Name three properties of hydrocarbons which depend on the size of the molecule?",
-      "marks": 1,
-      "modelAnswer": "Chromatography is a method of separating mixtures and identifying substances.",
-      "markingPoints": [
-        "Chromatography is a method of separating mixtures and identifying substances."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-T7-QUIZ018"
-    },
-    {
-      "id": "T7-QUIZ019",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is viscosity?",
-      "marks": 1,
-      "modelAnswer": "The solvent in which the stationary phase is placed.",
-      "markingPoints": [
-        "The solvent in which the stationary phase is placed."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-answer",
-      "databaseId": "CHE-T7-QUIZ019"
-    },
-    {
-      "id": "T7-QUIZ020",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Describe",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe how these properties change with increasing molecular size?",
-      "marks": 1,
-      "modelAnswer": "Usually a solid on which the samples are placed.",
-      "markingPoints": [
-        "Usually a solid on which the samples are placed."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-describe",
-      "databaseId": "CHE-T7-QUIZ020"
-    },
-    {
-      "id": "T7-QUIZ021",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is released by the combustion of fuels?",
-      "marks": 1,
-      "modelAnswer": "Energy is released to the surroundings, usually as heat and light.",
-      "markingPoints": [
-        "Energy is released to the surroundings, usually as heat and light."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-answer",
-      "databaseId": "CHE-T7-QUIZ021"
-    },
-    {
-      "id": "T7-QUIZ022",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What two substances are oxidised during combustion?",
-      "marks": 1,
-      "modelAnswer": "The line at the bottom of the paper where the samples are placed.",
-      "markingPoints": [
-        "The line at the bottom of the paper where the samples are placed."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-answer",
-      "databaseId": "CHE-T7-QUIZ022"
-    },
-    {
-      "id": "T7-QUIZ023",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Write a word equation for the complete combustion of a hydrocarbon?",
-      "marks": 1,
-      "modelAnswer": "The line to denote the distance travelled by the mobile phase.",
-      "markingPoints": [
-        "The line to denote the distance travelled by the mobile phase."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-T7-QUIZ023"
-    },
-    {
-      "id": "T7-QUIZ024",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Write a balanced chemical equation for the complete combustion of methane?",
-      "marks": 1,
-      "modelAnswer": "Relative front.",
-      "markingPoints": [
-        "Relative front."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-T7-QUIZ024"
-    },
-    {
-      "id": "T7-QUIZ025",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.3 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Write a balanced chemical equation for the complete combustion of butane?",
-      "marks": 1,
-      "modelAnswer": "Rf = distance moved by substance / distance moved by solvent",
-      "markingPoints": [
-        "Rf = distance moved by substance / distance moved by solvent"
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-3-state",
-      "databaseId": "CHE-T7-QUIZ025"
-    },
-    {
-      "id": "7.4",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "All",
-      "question": "A refinery has excess long-chain fractions but high demand for petrol and alkene feedstock.\nExplain cracking, give suitable conditions and identify the useful product types.",
-      "marks": 6,
-      "modelAnswer": "Vaporise long-chain hydrocarbons.\nHigh temperature over catalyst or steam cracking.\nC-C bonds break.\nShorter alkanes are fuels and alkenes make polymers/chemicals.",
-      "markingPoints": [
-        "Vaporise long-chain hydrocarbons.",
-        "High temperature over catalyst or steam cracking.",
-        "C-C bonds break.",
-        "Shorter alkanes are fuels and alkenes make polymers/chemicals."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
-      "databaseId": "CHE-7.4"
-    },
-    {
-      "id": "7.5-S1",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "All",
-      "question": "Decane cracks to form ethene and one other hydrocarbon. Deduce the formula of the other hydrocarbon.",
-      "marks": 2,
-      "modelAnswer": "C₁₀H₂₂ → C₂H₄ + C₈H₁₈, so the other hydrocarbon is C₈H₁₈.",
-      "markingPoints": [
-        "C₁₀H₂₂ → C₂H₄ + C₈H₁₈, so the other hydrocarbon is C₈H₁₈."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
-      "databaseId": "CHE-7.5-S1"
-    },
-    {
-      "id": "7.5-S2",
+      "id": "CHEM-T07-Q021",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Describe",
       "subtopic": "T7 Organic Chemistry · 4.7.1.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "All",
-      "question": "Describe how bromine water distinguishes ethene from the alkane made when decane cracks.",
+      "tier": "Foundation and Higher",
+      "question": "Describe the test for an alkene and state the positive result.",
       "marks": 2,
-      "modelAnswer": "Ethene decolourises orange bromine water. The alkane does not change the colour under these conditions.",
+      "modelAnswer": "Shake with bromine water. An alkene changes orange bromine water to colourless.",
       "markingPoints": [
-        "Ethene decolourises orange bromine water. The alkane does not change the colour under these conditions."
+        "Shake with bromine water. An alkene changes orange bromine water to colourless."
       ],
       "commandWord": "Describe",
-      "assessmentObjective": "AO2",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.7.1.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
+      "gradeDemand": "Low",
+      "knowledgeType": "Alkenes",
+      "hintKeywords": [
+        "bromine",
+        "changes",
+        "colourless"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-describe",
-      "databaseId": "CHE-7.5-S2"
+      "databaseId": "CHE-CHEM-T07-Q021"
     },
     {
-      "id": "7.21",
+      "id": "CHEM-T07-Q022",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.1.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
@@ -1060,11 +606,40 @@
       "specificationReference": "4.7.1.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "catalyst"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-state",
-      "databaseId": "CHE-7.21"
+      "databaseId": "CHE-CHEM-T07-Q022"
     },
     {
-      "id": "T7-EX5",
+      "id": "CHEM-T07-Q023",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · State",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "tier": "Foundation and Higher",
+      "question": "Define cracking and state the products formed when a long-chain hydrocarbon is cracked.",
+      "marks": 3,
+      "modelAnswer": "Cracking is the breaking of long-chain hydrocarbons into shorter molecules. It produces shorter alkanes and alkenes.",
+      "markingPoints": [
+        "Cracking is the breaking of long-chain hydrocarbons into shorter molecules. It produces shorter alkanes and alkenes."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.1.4",
+      "gradeDemand": "Medium",
+      "knowledgeType": "Cracking",
+      "hintKeywords": [
+        "Cracking",
+        "breaking",
+        "hydrocarbons",
+        "molecules"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-state",
+      "databaseId": "CHE-CHEM-T07-Q023"
+    },
+    {
+      "id": "CHEM-T07-Q024",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Explain",
       "subtopic": "T7 Organic Chemistry · 4.7.1.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
@@ -1082,11 +657,94 @@
       "specificationReference": "4.7.1.4",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "catalyst",
+        "temperature"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-explain",
-      "databaseId": "CHE-T7-EX5"
+      "databaseId": "CHE-CHEM-T07-Q024"
     },
     {
-      "id": "T7-PD03",
+      "id": "CHEM-T07-Q025",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "tier": "All",
+      "question": "Decane cracks to form ethene and one other hydrocarbon. Deduce the formula of the other hydrocarbon.",
+      "marks": 2,
+      "modelAnswer": "C₁₀H₂₂ → C₂H₄ + C₈H₁₈, so the other hydrocarbon is C₈H₁₈.",
+      "markingPoints": [
+        "C₁₀H₂₂ → C₂H₄ + C₈H₁₈, so the other hydrocarbon is C₈H₁₈."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "C₁₀H₂₂",
+        "C₂H₄",
+        "C₈H₁₈"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
+      "databaseId": "CHE-CHEM-T07-Q025"
+    },
+    {
+      "id": "CHEM-T07-Q026",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Describe",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "tier": "All",
+      "question": "Describe how bromine water distinguishes ethene from the alkane made when decane cracks.",
+      "marks": 2,
+      "modelAnswer": "Ethene decolourises orange bromine water. The alkane does not change the colour under these conditions.",
+      "markingPoints": [
+        "Ethene decolourises orange bromine water. The alkane does not change the colour under these conditions."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Ethene",
+        "decolourises",
+        "bromine",
+        "conditions"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-describe",
+      "databaseId": "CHE-CHEM-T07-Q026"
+    },
+    {
+      "id": "CHEM-T07-Q027",
+      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
+      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
+      "tier": "All",
+      "question": "A refinery has excess long-chain fractions but high demand for petrol and alkene feedstock.\nExplain cracking, give suitable conditions and identify the useful product types.",
+      "marks": 6,
+      "modelAnswer": "Vaporise long-chain hydrocarbons.\nHigh temperature over catalyst or steam cracking.\nC-C bonds break.\nShorter alkanes are fuels and alkenes make polymers/chemicals.",
+      "markingPoints": [
+        "Vaporise long-chain hydrocarbons.",
+        "High temperature over catalyst or steam cracking.",
+        "C-C bonds break.",
+        "Shorter alkanes are fuels and alkenes make polymers/chemicals."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "temperature",
+        "catalyst",
+        "C-C"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
+      "databaseId": "CHE-CHEM-T07-Q027"
+    },
+    {
+      "id": "CHEM-T07-Q028",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Describe",
       "subtopic": "T7 Organic Chemistry · 4.7.1.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
@@ -1105,11 +763,14 @@
       "specificationReference": "4.7.1.4",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "catalyst"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-describe",
-      "databaseId": "CHE-T7-PD03"
+      "databaseId": "CHE-CHEM-T07-Q028"
     },
     {
-      "id": "T7-PD04",
+      "id": "CHEM-T07-Q029",
       "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Explain",
       "subtopic": "T7 Organic Chemistry · 4.7.1.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
@@ -1127,231 +788,44 @@
       "specificationReference": "4.7.1.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "identifies",
+        "unsaturation",
+        "molecular",
+        "analytical"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-explain",
-      "databaseId": "CHE-T7-PD04"
+      "databaseId": "CHE-CHEM-T07-Q029"
     },
     {
-      "id": "T7-QUIZ026",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "What is cracking?",
-      "marks": 1,
-      "modelAnswer": "The breakdown of hydrocarbons into smaller, more useful molecules.",
-      "markingPoints": [
-        "The breakdown of hydrocarbons into smaller, more useful molecules."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
-      "databaseId": "CHE-T7-QUIZ026"
-    },
-    {
-      "id": "T7-QUIZ027",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Name two methods of cracking?",
-      "marks": 1,
-      "modelAnswer": "Catalytic cracking and steam cracking.",
-      "markingPoints": [
-        "Catalytic cracking and steam cracking."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-state",
-      "databaseId": "CHE-T7-QUIZ027"
-    },
-    {
-      "id": "T7-QUIZ028",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Describe",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe the the two methods of cracking hydrocarbons?",
-      "marks": 1,
-      "modelAnswer": "Catalytic cracking is when long chain hydrocarbons are heated and vapourised. The gas is passed over a catalyst (e.g. aluminium oxide powder) where the long chains are broken down into smaller chains. Steam cracking is when long chain hydrocarbons are heated, vapourised and mixed with steam. The mixture is heated to a high temperature and the long chains are broken down into short chains.",
-      "markingPoints": [
-        "Catalytic cracking is when long chain hydrocarbons are heated and vapourised. The gas is passed over a catalyst (e.g. aluminium oxide powder) where the long chains are broken down into smaller chains. Steam cracking is when long chain hydrocarbons are heated, vapourised and mixed with steam. The mixture is heated to a high temperature and the long chains are broken down into short chains."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-describe",
-      "databaseId": "CHE-T7-QUIZ028"
-    },
-    {
-      "id": "T7-QUIZ029",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "What are the products of cracking?",
-      "marks": 1,
-      "modelAnswer": "Alkanes and alkenes.",
-      "markingPoints": [
-        "Alkanes and alkenes."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
-      "databaseId": "CHE-T7-QUIZ029"
-    },
-    {
-      "id": "T7-QUIZ030",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Compare",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Compare the reactivity of alkanes and alkenes?",
-      "marks": 1,
-      "modelAnswer": "Alkenes are more reactive than alkanes.",
-      "markingPoints": [
-        "Alkenes are more reactive than alkanes."
-      ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-compare",
-      "databaseId": "CHE-T7-QUIZ030"
-    },
-    {
-      "id": "T7-QUIZ031",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Describe",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe the test for alkenes?",
-      "marks": 1,
-      "modelAnswer": "Orange bromine water is added to the hydrocarbon. The mixture is shaken. If the hydrocarbon is an alkene the orange bromine water will become colourless. If the hydrocarbon is an alkane, the bromine water will stay orange.",
-      "markingPoints": [
-        "Orange bromine water is added to the hydrocarbon. The mixture is shaken. If the hydrocarbon is an alkene the orange bromine water will become colourless. If the hydrocarbon is an alkane, the bromine water will stay orange."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-describe",
-      "databaseId": "CHE-T7-QUIZ031"
-    },
-    {
-      "id": "T7-QUIZ032",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Why is cracking required?",
-      "marks": 1,
-      "modelAnswer": "Because there is a high demand for fuels with small molecules.",
-      "markingPoints": [
-        "Because there is a high demand for fuels with small molecules."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
-      "databaseId": "CHE-T7-QUIZ032"
-    },
-    {
-      "id": "T7-QUIZ033",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "What are alkenes used for?",
-      "marks": 1,
-      "modelAnswer": "They are used to produce polymers and are the starting materials for many chemicals.",
-      "markingPoints": [
-        "They are used to produce polymers and are the starting materials for many chemicals."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-answer",
-      "databaseId": "CHE-T7-QUIZ033"
-    },
-    {
-      "id": "T7-QUIZ034",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Write a balanced equation for hexane (C6H14) being cracked into butane (C4H10)?",
-      "marks": 1,
-      "modelAnswer": "C₆H₁₄ → C₄H₁₀ + C₂H₄.",
-      "markingPoints": [
-        "C₆H₁₄ → C₄H₁₀ + C₂H₄."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-state",
-      "databaseId": "CHE-T7-QUIZ034"
-    },
-    {
-      "id": "T7-QZ01",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Define cracking and state the products formed when a long-chain hydrocarbon is cracked.",
-      "marks": 3,
-      "modelAnswer": "Cracking is the breaking of long-chain hydrocarbons into shorter molecules. It produces shorter alkanes and alkenes.",
-      "markingPoints": [
-        "Cracking is the breaking of long-chain hydrocarbons into shorter molecules. It produces shorter alkanes and alkenes."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Medium",
-      "knowledgeType": "Cracking",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-state",
-      "databaseId": "CHE-T7-QZ01"
-    },
-    {
-      "id": "T7-QZ02",
-      "questionFamily": "T7 Organic Chemistry · 4.7.1.4 · Describe",
-      "subtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe the test for an alkene and state the positive result.",
+      "id": "CHEM-T07-Q030",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.1 · Describe",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.1",
+      "tier": "All",
+      "question": "Describe the bromine-water test for an alkene.",
       "marks": 2,
-      "modelAnswer": "Shake with bromine water. An alkene changes orange bromine water to colourless.",
+      "modelAnswer": "Shake with orange bromine water.\nAn alkene decolourises it to colourless.",
       "markingPoints": [
-        "Shake with bromine water. An alkene changes orange bromine water to colourless."
+        "Shake with orange bromine water.",
+        "An alkene decolourises it to colourless."
       ],
       "commandWord": "Describe",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.7.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Alkenes",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-1-4-describe",
-      "databaseId": "CHE-T7-QZ02"
+      "specificationReference": "4.7.2.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "orange",
+        "bromine",
+        "decolourises",
+        "colourless"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-1-describe",
+      "databaseId": "CHE-CHEM-T07-Q030"
     },
     {
-      "id": "7.14",
+      "id": "CHEM-T07-Q031",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.1 · Answer",
       "subtopic": "T7 Organic Chemistry · 4.7.2.1",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.1",
@@ -1369,92 +843,15 @@
       "specificationReference": "4.7.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "CnH",
+        "Formula"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-1-answer",
-      "databaseId": "CHE-7.14"
+      "databaseId": "CHE-CHEM-T07-Q031"
     },
     {
-      "id": "7.22",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.1 · Describe",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.1",
-      "tier": "All",
-      "question": "Describe the bromine-water test for an alkene.",
-      "marks": 2,
-      "modelAnswer": "Shake with orange bromine water.\nAn alkene decolourises it to colourless.",
-      "markingPoints": [
-        "Shake with orange bromine water.",
-        "An alkene decolourises it to colourless."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.2.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-1-describe",
-      "databaseId": "CHE-7.22"
-    },
-    {
-      "id": "7.8-S1",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
-      "tier": "All",
-      "question": "Ethene reacts with hydrogen. Name the product and state the type of reaction.",
-      "marks": 2,
-      "modelAnswer": "Ethane is formed. This is an addition reaction.",
-      "markingPoints": [
-        "Ethane is formed. This is an addition reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.2.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-answer",
-      "databaseId": "CHE-7.8-S1"
-    },
-    {
-      "id": "7.8-S2",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
-      "tier": "All",
-      "question": "Ethene reacts with steam. Name the product and state the type of reaction.",
-      "marks": 2,
-      "modelAnswer": "Ethanol is formed. This is an addition reaction.",
-      "markingPoints": [
-        "Ethanol is formed. This is an addition reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.2.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-answer",
-      "databaseId": "CHE-7.8-S2"
-    },
-    {
-      "id": "7.8-S3",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · Answer",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.2",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
-      "tier": "All",
-      "question": "Ethene reacts with bromine. Name the product and state the type of reaction.",
-      "marks": 2,
-      "modelAnswer": "1,2-dibromoethane is formed. This is an addition reaction.",
-      "markingPoints": [
-        "1,2-dibromoethane is formed. This is an addition reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.2.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-answer",
-      "databaseId": "CHE-7.8-S3"
-    },
-    {
-      "id": "7.23",
+      "id": "CHEM-T07-Q032",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.2.2",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
@@ -1470,11 +867,14 @@
       "specificationReference": "4.7.2.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Ethanol"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-state",
-      "databaseId": "CHE-7.23"
+      "databaseId": "CHE-CHEM-T07-Q032"
     },
     {
-      "id": "7.24",
+      "id": "CHEM-T07-Q033",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.2.2",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
@@ -1490,33 +890,94 @@
       "specificationReference": "4.7.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "C2H4",
+        "H2O",
+        "C2H5OH"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-state",
-      "databaseId": "CHE-7.24"
+      "databaseId": "CHE-CHEM-T07-Q033"
     },
     {
-      "id": "7.9",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · Compare",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
+      "id": "CHEM-T07-Q034",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · Answer",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.2",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
       "tier": "All",
-      "question": "Compare ethanol manufacture by fermentation and hydration of ethene, including raw materials, conditions, rate, purity, energy, continuity and sustainability.",
-      "marks": 8,
-      "modelAnswer": "Fermentation: renewable sugar, yeast, anaerobic 30-40 C, slow/batch, dilute ethanol needs distillation.\nHydration: ethene+steam, high T/P, catalyst, fast/continuous, purer product, finite crude-oil feedstock, higher energy.\nBalanced judgement.",
+      "question": "Ethene reacts with bromine. Name the product and state the type of reaction.",
+      "marks": 2,
+      "modelAnswer": "1,2-dibromoethane is formed. This is an addition reaction.",
       "markingPoints": [
-        "Fermentation: renewable sugar, yeast, anaerobic 30-40 C, slow/batch, dilute ethanol needs distillation.",
-        "Hydration: ethene+steam, high T/P, catalyst, fast/continuous, purer product, finite crude-oil feedstock, higher energy.",
-        "Balanced judgement."
+        "1,2-dibromoethane is formed. This is an addition reaction."
       ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.7.2.3",
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-compare",
-      "databaseId": "CHE-7.9"
+      "hintKeywords": [
+        "dibromoethane",
+        "formed",
+        "addition",
+        "reaction"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-answer",
+      "databaseId": "CHE-CHEM-T07-Q034"
     },
     {
-      "id": "7.25",
+      "id": "CHEM-T07-Q035",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · Answer",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.2",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
+      "tier": "All",
+      "question": "Ethene reacts with hydrogen. Name the product and state the type of reaction.",
+      "marks": 2,
+      "modelAnswer": "Ethane is formed. This is an addition reaction.",
+      "markingPoints": [
+        "Ethane is formed. This is an addition reaction."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Ethane",
+        "formed",
+        "addition",
+        "reaction"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-answer",
+      "databaseId": "CHE-CHEM-T07-Q035"
+    },
+    {
+      "id": "CHEM-T07-Q036",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.2 · Answer",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.2",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.2",
+      "tier": "All",
+      "question": "Ethene reacts with steam. Name the product and state the type of reaction.",
+      "marks": 2,
+      "modelAnswer": "Ethanol is formed. This is an addition reaction.",
+      "markingPoints": [
+        "Ethanol is formed. This is an addition reaction."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Ethanol",
+        "formed",
+        "addition",
+        "reaction"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-2-answer",
+      "databaseId": "CHE-CHEM-T07-Q036"
+    },
+    {
+      "id": "CHEM-T07-Q037",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.2.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
@@ -1532,11 +993,45 @@
       "specificationReference": "4.7.2.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "hydroxyl",
+        "group"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-state",
-      "databaseId": "CHE-7.25"
+      "databaseId": "CHE-CHEM-T07-Q037"
     },
     {
-      "id": "7.26",
+      "id": "CHEM-T07-Q038",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · Compare",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.3",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
+      "tier": "All",
+      "question": "Compare ethanol manufacture by fermentation and hydration of ethene, including raw materials, conditions, rate, purity, energy, continuity and sustainability.",
+      "marks": 6,
+      "modelAnswer": "Fermentation: renewable sugar, yeast, anaerobic 30-40 C, slow/batch, dilute ethanol needs distillation.\nHydration: ethene+steam, high T/P, catalyst, fast/continuous, purer product, finite crude-oil feedstock, higher energy.\nBalanced judgement.",
+      "markingPoints": [
+        "Fermentation: renewable sugar, yeast, anaerobic 30-40 C, slow/batch, dilute ethanol needs distillation.",
+        "Hydration: ethene+steam, high T/P, catalyst, fast/continuous, purer product, finite crude-oil feedstock, higher energy.",
+        "Balanced judgement."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.7.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Fermentation",
+        "renewable",
+        "Hydration",
+        "catalyst",
+        "product",
+        "energy"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-compare",
+      "databaseId": "CHE-CHEM-T07-Q038"
+    },
+    {
+      "id": "CHEM-T07-Q039",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · Describe",
       "subtopic": "T7 Organic Chemistry · 4.7.2.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
@@ -1553,11 +1048,40 @@
       "specificationReference": "4.7.2.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Complete combustion"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-describe",
-      "databaseId": "CHE-7.26"
+      "databaseId": "CHE-CHEM-T07-Q039"
     },
     {
-      "id": "T7-EX3",
+      "id": "CHEM-T07-Q040",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · Explain",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.3",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
+      "tier": "Chemistry only",
+      "question": "Explain why a distillation temperature that rises during collection suggests the sample is a mixture rather than a pure liquid.",
+      "marks": 3,
+      "modelAnswer": "A pure liquid boils at a sharp, constant temperature at fixed pressure.\nA mixture contains components with different boiling points, so vapour composition and temperature change during distillation.",
+      "markingPoints": [
+        "A pure liquid boils at a sharp, constant temperature at fixed pressure.",
+        "A mixture contains components with different boiling points, so vapour composition and temperature change during distillation."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.7.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "temperature",
+        "pressure",
+        "temperature change"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-explain",
+      "databaseId": "CHE-CHEM-T07-Q040"
+    },
+    {
+      "id": "CHEM-T07-Q041",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · Compare",
       "subtopic": "T7 Organic Chemistry · 4.7.2.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
@@ -1575,11 +1099,20 @@
       "specificationReference": "4.7.2.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Fermentation",
+        "renewable",
+        "temperature",
+        "pressure",
+        "Hydration",
+        "catalyst",
+        "energy"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-compare",
-      "databaseId": "CHE-T7-EX3"
+      "databaseId": "CHE-CHEM-T07-Q041"
     },
     {
-      "id": "T7-PD05",
+      "id": "CHEM-T07-Q042",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · Compare",
       "subtopic": "T7 Organic Chemistry · 4.7.2.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
@@ -1597,92 +1130,18 @@
       "specificationReference": "4.7.2.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Fermentation",
+        "renewable",
+        "temperature",
+        "Hydration",
+        "pressure"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-compare",
-      "databaseId": "CHE-T7-PD05"
+      "databaseId": "CHE-CHEM-T07-Q042"
     },
     {
-      "id": "T7-PD06",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.3 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.3",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.3",
-      "tier": "Chemistry only",
-      "question": "Explain why a distillation temperature that rises during collection suggests the sample is a mixture rather than a pure liquid.",
-      "marks": 3,
-      "modelAnswer": "A pure liquid boils at a sharp, constant temperature at fixed pressure.\nA mixture contains components with different boiling points, so vapour composition and temperature change during distillation.",
-      "markingPoints": [
-        "A pure liquid boils at a sharp, constant temperature at fixed pressure.",
-        "A mixture contains components with different boiling points, so vapour composition and temperature change during distillation."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.7.2.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-3-explain",
-      "databaseId": "CHE-T7-PD06"
-    },
-    {
-      "id": "7.10-S1",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
-      "tier": "Chemistry only",
-      "question": "Explain why carboxylic acids are weak acids.",
-      "marks": 2,
-      "modelAnswer": "They only partially ionise in water, so only some molecules release hydrogen ions.",
-      "markingPoints": [
-        "They only partially ionise in water, so only some molecules release hydrogen ions."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.7.2.4",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-explain",
-      "databaseId": "CHE-7.10-S1"
-    },
-    {
-      "id": "7.10-S2",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · Predict",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
-      "tier": "Chemistry only",
-      "question": "Predict the products when a carboxylic acid reacts with sodium carbonate.",
-      "marks": 2,
-      "modelAnswer": "A salt, water and carbon dioxide are formed.",
-      "markingPoints": [
-        "A salt, water and carbon dioxide are formed."
-      ],
-      "commandWord": "Predict",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.7.2.4",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-predict",
-      "databaseId": "CHE-7.10-S2"
-    },
-    {
-      "id": "7.10-S3",
-      "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · Predict",
-      "subtopic": "T7 Organic Chemistry · 4.7.2.4",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
-      "tier": "Chemistry only",
-      "question": "Predict the products when a carboxylic acid reacts with an alcohol.",
-      "marks": 2,
-      "modelAnswer": "An ester and water are formed.",
-      "markingPoints": [
-        "An ester and water are formed."
-      ],
-      "commandWord": "Predict",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.7.2.4",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-predict",
-      "databaseId": "CHE-7.10-S3"
-    },
-    {
-      "id": "7.27",
+      "id": "CHEM-T07-Q043",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.2.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
@@ -1698,11 +1157,14 @@
       "specificationReference": "4.7.2.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "COOH"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-state",
-      "databaseId": "CHE-7.27"
+      "databaseId": "CHE-CHEM-T07-Q043"
     },
     {
-      "id": "7.28",
+      "id": "CHEM-T07-Q044",
       "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · State",
       "subtopic": "T7 Organic Chemistry · 4.7.2.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
@@ -1718,11 +1180,140 @@
       "specificationReference": "4.7.2.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Ethyl",
+        "ethanoate",
+        "water",
+        "formed"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-state",
-      "databaseId": "CHE-7.28"
+      "databaseId": "CHE-CHEM-T07-Q044"
     },
     {
-      "id": "7.11",
+      "id": "CHEM-T07-Q045",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · Explain",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.4",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
+      "tier": "Chemistry only",
+      "question": "Explain why carboxylic acids are weak acids.",
+      "marks": 2,
+      "modelAnswer": "They only partially ionise in water, so only some molecules release hydrogen ions.",
+      "markingPoints": [
+        "They only partially ionise in water, so only some molecules release hydrogen ions."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.2.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ions"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-explain",
+      "databaseId": "CHE-CHEM-T07-Q045"
+    },
+    {
+      "id": "CHEM-T07-Q046",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · Predict",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.4",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
+      "tier": "Chemistry only",
+      "question": "Predict the products when a carboxylic acid reacts with an alcohol.",
+      "marks": 2,
+      "modelAnswer": "An ester and water are formed.",
+      "markingPoints": [
+        "An ester and water are formed."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.2.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ester",
+        "water",
+        "formed"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-predict",
+      "databaseId": "CHE-CHEM-T07-Q046"
+    },
+    {
+      "id": "CHEM-T07-Q047",
+      "questionFamily": "T7 Organic Chemistry · 4.7.2.4 · Predict",
+      "subtopic": "T7 Organic Chemistry · 4.7.2.4",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.2.4",
+      "tier": "Chemistry only",
+      "question": "Predict the products when a carboxylic acid reacts with sodium carbonate.",
+      "marks": 2,
+      "modelAnswer": "A salt, water and carbon dioxide are formed.",
+      "markingPoints": [
+        "A salt, water and carbon dioxide are formed."
+      ],
+      "commandWord": "Predict",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.7.2.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "water",
+        "carbon",
+        "dioxide",
+        "formed"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-2-4-predict",
+      "databaseId": "CHE-CHEM-T07-Q047"
+    },
+    {
+      "id": "CHEM-T07-Q048",
+      "questionFamily": "T7 Organic Chemistry · 4.7.3.1 · State",
+      "subtopic": "T7 Organic Chemistry · 4.7.3.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.1",
+      "tier": "All",
+      "question": "Identify the monomer used to make poly(ethene).",
+      "marks": 1,
+      "modelAnswer": "Ethene.",
+      "markingPoints": [
+        "Ethene."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Ethene"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-1-state",
+      "databaseId": "CHE-CHEM-T07-Q048"
+    },
+    {
+      "id": "CHEM-T07-Q049",
+      "questionFamily": "T7 Organic Chemistry · 4.7.3.1 · Explain",
+      "subtopic": "T7 Organic Chemistry · 4.7.3.1",
+      "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.1",
+      "tier": "All",
+      "question": "Explain why most addition polymers are unreactive.",
+      "marks": 2,
+      "modelAnswer": "Their carbon backbone contains strong carbon–carbon single bonds and they have no reactive double-bond functional group.",
+      "markingPoints": [
+        "Their carbon backbone contains strong carbon–carbon single bonds and they have no reactive double-bond functional group."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.7.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "backbone",
+        "contains",
+        "reactive",
+        "functional"
+      ],
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-1-explain",
+      "databaseId": "CHE-CHEM-T07-Q049"
+    },
+    {
+      "id": "CHEM-T07-Q050",
       "questionFamily": "T7 Organic Chemistry · 4.7.3.1 · Describe",
       "subtopic": "T7 Organic Chemistry · 4.7.3.1",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.1",
@@ -1741,11 +1332,14 @@
       "specificationReference": "4.7.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "C-C"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-1-describe",
-      "databaseId": "CHE-7.11"
+      "databaseId": "CHE-CHEM-T07-Q050"
     },
     {
-      "id": "7.12",
+      "id": "CHEM-T07-Q051",
       "questionFamily": "T7 Organic Chemistry · 4.7.3.1–4.7.3.2 · Compare",
       "subtopic": "T7 Organic Chemistry · 4.7.3.1–4.7.3.2",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.1–4.7.3.2",
@@ -1763,51 +1357,14 @@
       "specificationReference": "4.7.3.1–4.7.3.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "product"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-1-4-7-3-2-compa",
-      "databaseId": "CHE-7.12"
+      "databaseId": "CHE-CHEM-T07-Q051"
     },
     {
-      "id": "7.29",
-      "questionFamily": "T7 Organic Chemistry · 4.7.3.1 · State",
-      "subtopic": "T7 Organic Chemistry · 4.7.3.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.1",
-      "tier": "All",
-      "question": "Identify the monomer used to make poly(ethene).",
-      "marks": 1,
-      "modelAnswer": "Ethene.",
-      "markingPoints": [
-        "Ethene."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.3.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-1-state",
-      "databaseId": "CHE-7.29"
-    },
-    {
-      "id": "7.30",
-      "questionFamily": "T7 Organic Chemistry · 4.7.3.1 · Explain",
-      "subtopic": "T7 Organic Chemistry · 4.7.3.1",
-      "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.1",
-      "tier": "All",
-      "question": "Explain why most addition polymers are unreactive.",
-      "marks": 2,
-      "modelAnswer": "Their carbon backbone contains strong carbon–carbon single bonds and they have no reactive double-bond functional group.",
-      "markingPoints": [
-        "Their carbon backbone contains strong carbon–carbon single bonds and they have no reactive double-bond functional group."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.7.3.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-1-explain",
-      "databaseId": "CHE-7.30"
-    },
-    {
-      "id": "7.13-A",
+      "id": "CHEM-T07-Q052",
       "questionFamily": "T7 Organic Chemistry · 4.7.3.2–4.7.3.3 · Describe",
       "subtopic": "T7 Organic Chemistry · 4.7.3.2–4.7.3.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.2–4.7.3.3",
@@ -1823,11 +1380,17 @@
       "specificationReference": "4.7.3.2–4.7.3.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "functional",
+        "groups",
+        "react",
+        "repeatedly"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-2-4-7-3-3-descr",
-      "databaseId": "CHE-7.13-A"
+      "databaseId": "CHE-CHEM-T07-Q052"
     },
     {
-      "id": "7.13-B",
+      "id": "CHEM-T07-Q053",
       "questionFamily": "T7 Organic Chemistry · 4.7.3.2–4.7.3.3 · Describe",
       "subtopic": "T7 Organic Chemistry · 4.7.3.2–4.7.3.3",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.2–4.7.3.3",
@@ -1843,11 +1406,17 @@
       "specificationReference": "4.7.3.2–4.7.3.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "carboxyl",
+        "groups",
+        "repeatedly",
+        "peptide"
+      ],
       "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-2-4-7-3-3-descr",
-      "databaseId": "CHE-7.13-B"
+      "databaseId": "CHE-CHEM-T07-Q053"
     },
     {
-      "id": "T7-EX4",
+      "id": "CHEM-T07-Q054",
       "questionFamily": "T7 Organic Chemistry · 4.7.3.4 · Answer",
       "subtopic": "T7 Organic Chemistry · 4.7.3.4",
       "sourceSubtopic": "T7 Organic Chemistry · 4.7.3.4",
@@ -1865,28 +1434,11 @@
       "specificationReference": "4.7.3.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-4-answer",
-      "databaseId": "CHE-T7-EX4"
-    },
-    {
-      "id": "Total marks",
-      "questionFamily": "T7 Organic Chemistry · AQA Chemistry · Answer",
-      "subtopic": "T7 Organic Chemistry · AQA Chemistry",
-      "sourceSubtopic": "T7 Organic Chemistry · AQA Chemistry",
-      "tier": "Foundation and Higher",
-      "question": "114",
-      "marks": 1,
-      "modelAnswer": "Student total.",
-      "markingPoints": [
-        "Student total."
+      "hintKeywords": [
+        "CHCH"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t7-organic-chemistry-answer",
-      "databaseId": "CHE-Total marks"
+      "questionFamilyId": "CHE-t7-organic-chemistry-4-7-3-4-answer",
+      "databaseId": "CHE-CHEM-T07-Q054"
     }
   ]
 }

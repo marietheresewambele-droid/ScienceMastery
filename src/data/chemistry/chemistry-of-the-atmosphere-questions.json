@@ -3,11 +3,11 @@
     "subtopics": [
       {
         "title": "T9 Atmosphere · 4.9.1.1",
-        "questionCount": 9
+        "questionCount": 5
       },
       {
         "title": "T9 Atmosphere · 4.9.1.2",
-        "questionCount": 10
+        "questionCount": 4
       },
       {
         "title": "T9 Atmosphere · 4.9.1.2–4.9.1.3",
@@ -15,7 +15,7 @@
       },
       {
         "title": "T9 Atmosphere · 4.9.1.3",
-        "questionCount": 9
+        "questionCount": 3
       },
       {
         "title": "T9 Atmosphere · 4.9.1.3–4.9.1.4",
@@ -23,11 +23,11 @@
       },
       {
         "title": "T9 Atmosphere · 4.9.1.4",
-        "questionCount": 3
+        "questionCount": 2
       },
       {
         "title": "T9 Atmosphere · 4.9.2.1",
-        "questionCount": 5
+        "questionCount": 3
       },
       {
         "title": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
@@ -35,7 +35,7 @@
       },
       {
         "title": "T9 Atmosphere · 4.9.2.2",
-        "questionCount": 10
+        "questionCount": 4
       },
       {
         "title": "T9 Atmosphere · 4.9.2.2–4.9.2.3",
@@ -43,58 +43,33 @@
       },
       {
         "title": "T9 Atmosphere · 4.9.2.3",
-        "questionCount": 12
+        "questionCount": 9
       },
       {
         "title": "T9 Atmosphere · 4.9.2.4",
-        "questionCount": 6
+        "questionCount": 2
+      },
+      {
+        "title": "T9 Atmosphere · 4.9.3.1",
+        "questionCount": 4
       },
       {
         "title": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
         "questionCount": 4
       },
       {
-        "title": "T9 Atmosphere · 4.9.3.1",
-        "questionCount": 13
-      },
-      {
         "title": "T9 Atmosphere · 4.9.3.2",
-        "questionCount": 10
+        "questionCount": 4
       },
       {
         "title": "T9 Atmosphere · WS 3.4",
-        "questionCount": 1
-      },
-      {
-        "title": "T9 Atmosphere · AQA Chemistry",
         "questionCount": 1
       }
     ]
   },
   "questions": [
     {
-      "id": "9.1",
-      "questionFamily": "T9 Atmosphere · 4.9.1.1 · State",
-      "subtopic": "T9 Atmosphere · 4.9.1.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
-      "tier": "All",
-      "question": "State the approximate composition of dry air and calculate the oxygen volume in 2.40 dm3 of air.",
-      "marks": 5,
-      "modelAnswer": "78% N2, 21% O2, ~0.9% Ar, ~0.04% CO2.\nOxygen = 0.21x2.40 = 0.504 dm3.",
-      "markingPoints": [
-        "78% N2, 21% O2, ~0.9% Ar, ~0.04% CO2.",
-        "Oxygen = 0.21x2.40 = 0.504 dm3."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.9.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-state",
-      "databaseId": "CHE-9.1"
-    },
-    {
-      "id": "9.16-S1",
+      "id": "CHEM-T09-Q001",
       "questionFamily": "T9 Atmosphere · 4.9.1.1 · State",
       "subtopic": "T9 Atmosphere · 4.9.1.1",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
@@ -110,31 +85,14 @@
       "specificationReference": "4.9.1.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-state",
-      "databaseId": "CHE-9.16-S1"
-    },
-    {
-      "id": "9.16-S2",
-      "questionFamily": "T9 Atmosphere · 4.9.1.1 · State",
-      "subtopic": "T9 Atmosphere · 4.9.1.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
-      "tier": "All",
-      "question": "State the approximate percentage of oxygen in present-day dry air.",
-      "marks": 1,
-      "modelAnswer": "About 21%.",
-      "markingPoints": [
-        "About 21%."
+      "hintKeywords": [
+        "78%"
       ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-state",
-      "databaseId": "CHE-9.16-S2"
+      "databaseId": "CHE-CHEM-T09-Q001"
     },
     {
-      "id": "9.16-S3",
+      "id": "CHEM-T09-Q002",
       "questionFamily": "T9 Atmosphere · 4.9.1.1 · State",
       "subtopic": "T9 Atmosphere · 4.9.1.1",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
@@ -150,11 +108,65 @@
       "specificationReference": "4.9.1.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "mainly",
+        "amount",
+        "carbon",
+        "dioxide"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-state",
-      "databaseId": "CHE-9.16-S3"
+      "databaseId": "CHE-CHEM-T09-Q002"
     },
     {
-      "id": "T9-PD01",
+      "id": "CHEM-T09-Q003",
+      "questionFamily": "T9 Atmosphere · 4.9.1.1 · State",
+      "subtopic": "T9 Atmosphere · 4.9.1.1",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
+      "tier": "All",
+      "question": "State the approximate percentage of oxygen in present-day dry air.",
+      "marks": 1,
+      "modelAnswer": "About 21%.",
+      "markingPoints": [
+        "About 21%."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.1.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "21%"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-state",
+      "databaseId": "CHE-CHEM-T09-Q003"
+    },
+    {
+      "id": "CHEM-T09-Q004",
+      "questionFamily": "T9 Atmosphere · 4.9.1.1 · State",
+      "subtopic": "T9 Atmosphere · 4.9.1.1",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
+      "tier": "All",
+      "question": "State the approximate composition of dry air and calculate the oxygen volume in 2.40 dm3 of air.",
+      "marks": 5,
+      "modelAnswer": "78% N2, 21% O2, ~0.9% Ar, ~0.04% CO2.\nOxygen = 0.21x2.40 = 0.504 dm3.",
+      "markingPoints": [
+        "78% N2, 21% O2, ~0.9% Ar, ~0.04% CO2.",
+        "Oxygen = 0.21x2.40 = 0.504 dm3."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.9.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "N2",
+        "O2"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-state",
+      "databaseId": "CHE-CHEM-T09-Q004"
+    },
+    {
+      "id": "CHEM-T09-Q005",
       "questionFamily": "T9 Atmosphere · 4.9.1.1 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.1.1",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
@@ -173,131 +185,14 @@
       "specificationReference": "4.9.1.1",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Isotope"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-explain",
-      "databaseId": "CHE-T9-PD01"
+      "databaseId": "CHE-CHEM-T09-Q005"
     },
     {
-      "id": "T9-QUIZ001",
-      "questionFamily": "T9 Atmosphere · 4.9.1.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
-      "tier": "Foundation and Higher",
-      "question": "For approximately how long have the proportions of the gases in the atmosphere today been this way?",
-      "marks": 1,
-      "modelAnswer": "200 million years",
-      "markingPoints": [
-        "200 million years"
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-answer",
-      "databaseId": "CHE-T9-QUIZ001"
-    },
-    {
-      "id": "T9-QUIZ002",
-      "questionFamily": "T9 Atmosphere · 4.9.1.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the proportion of nitrogen in the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Four-fifths (about 80%)",
-      "markingPoints": [
-        "Four-fifths (about 80%)"
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-answer",
-      "databaseId": "CHE-T9-QUIZ002"
-    },
-    {
-      "id": "T9-QUIZ003",
-      "questionFamily": "T9 Atmosphere · 4.9.1.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the proportion of oxygen in the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "One-fifth (about 20%)",
-      "markingPoints": [
-        "One-fifth (about 20%)"
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-answer",
-      "databaseId": "CHE-T9-QUIZ003"
-    },
-    {
-      "id": "T9-QUIZ004",
-      "questionFamily": "T9 Atmosphere · 4.9.1.1 · State",
-      "subtopic": "T9 Atmosphere · 4.9.1.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.1",
-      "tier": "Foundation and Higher",
-      "question": "Name three other components that are found in small proportions in the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Carbon dioxide, water vapour and noble gases.",
-      "markingPoints": [
-        "Carbon dioxide, water vapour and noble gases."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-1-state",
-      "databaseId": "CHE-T9-QUIZ004"
-    },
-    {
-      "id": "9.2-A",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "All",
-      "question": "Describe the likely composition of the early atmosphere.",
-      "marks": 3,
-      "modelAnswer": "Mainly carbon dioxide and water vapour, with small amounts of methane and ammonia, and little or no oxygen.",
-      "markingPoints": [
-        "Mainly carbon dioxide and water vapour, with small amounts of methane and ammonia, and little or no oxygen."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-describe",
-      "databaseId": "CHE-9.2-A"
-    },
-    {
-      "id": "9.2-B",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Explain",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "All",
-      "question": "Explain why scientists use cautious language about the early atmosphere.",
-      "marks": 2,
-      "modelAnswer": "It formed billions of years ago, so direct evidence is limited and models may change.",
-      "markingPoints": [
-        "It formed billions of years ago, so direct evidence is limited and models may change."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-explain",
-      "databaseId": "CHE-9.2-B"
-    },
-    {
-      "id": "9.17",
+      "id": "CHEM-T09-Q006",
       "questionFamily": "T9 Atmosphere · 4.9.1.2 · State",
       "subtopic": "T9 Atmosphere · 4.9.1.2",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
@@ -313,11 +208,15 @@
       "specificationReference": "4.9.1.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Carbon",
+        "dioxide"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-state",
-      "databaseId": "CHE-9.17"
+      "databaseId": "CHE-CHEM-T09-Q006"
     },
     {
-      "id": "9.18",
+      "id": "CHEM-T09-Q007",
       "questionFamily": "T9 Atmosphere · 4.9.1.2–4.9.1.3 · Answer",
       "subtopic": "T9 Atmosphere · 4.9.1.2–4.9.1.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.2–4.9.1.3",
@@ -333,11 +232,69 @@
       "specificationReference": "4.9.1.2–4.9.1.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "photosynthesising",
+        "organisms",
+        "initially",
+        "produced"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-4-9-1-3-answer",
-      "databaseId": "CHE-9.18"
+      "databaseId": "CHE-CHEM-T09-Q007"
     },
     {
-      "id": "T9-EX1",
+      "id": "CHEM-T09-Q008",
+      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Explain",
+      "subtopic": "T9 Atmosphere · 4.9.1.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
+      "tier": "All",
+      "question": "Explain why scientists use cautious language about the early atmosphere.",
+      "marks": 2,
+      "modelAnswer": "It formed billions of years ago, so direct evidence is limited and models may change.",
+      "markingPoints": [
+        "It formed billions of years ago, so direct evidence is limited and models may change."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.9.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "formed",
+        "billions",
+        "evidence",
+        "limited"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-explain",
+      "databaseId": "CHE-CHEM-T09-Q008"
+    },
+    {
+      "id": "CHEM-T09-Q009",
+      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Describe",
+      "subtopic": "T9 Atmosphere · 4.9.1.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
+      "tier": "All",
+      "question": "Describe the likely composition of the early atmosphere.",
+      "marks": 3,
+      "modelAnswer": "Mainly carbon dioxide and water vapour, with small amounts of methane and ammonia, and little or no oxygen.",
+      "markingPoints": [
+        "Mainly carbon dioxide and water vapour, with small amounts of methane and ammonia, and little or no oxygen."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.9.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "dioxide",
+        "amounts",
+        "methane",
+        "ammonia"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-describe",
+      "databaseId": "CHE-CHEM-T09-Q009"
+    },
+    {
+      "id": "CHEM-T09-Q010",
       "questionFamily": "T9 Atmosphere · 4.9.1.2 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.1.2",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
@@ -355,153 +312,43 @@
       "specificationReference": "4.9.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "CO₂",
+        "Earth",
+        "cooled",
+        "water",
+        "vapour",
+        "condensed"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-explain",
-      "databaseId": "CHE-T9-EX1"
+      "databaseId": "CHE-CHEM-T09-Q010"
     },
     {
-      "id": "T9-QUIZ005",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "Foundation and Higher",
-      "question": "How old is the Earth thought to be?",
-      "marks": 1,
-      "modelAnswer": "4.6 billion years",
-      "markingPoints": [
-        "4.6 billion years"
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-answer",
-      "databaseId": "CHE-T9-QUIZ005"
-    },
-    {
-      "id": "T9-QUIZ006",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What was the atmosphere of Earth initially thought to be like?",
-      "marks": 1,
-      "modelAnswer": "Consisted mainly of carbon dioxide with little or no oxygen. It may have been similar to the atmospheres of Mars or Venus today.",
-      "markingPoints": [
-        "Consisted mainly of carbon dioxide with little or no oxygen. It may have been similar to the atmospheres of Mars or Venus today."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-answer",
-      "databaseId": "CHE-T9-QUIZ006"
-    },
-    {
-      "id": "T9-QUIZ007",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe how the atmosphere is thought to have developed in the first billion years?",
-      "marks": 1,
-      "modelAnswer": "Intense volcanic activity released gases and water vapour that formed the early atmosphere. The water vapour condensed to form the oceans.",
-      "markingPoints": [
-        "Intense volcanic activity released gases and water vapour that formed the early atmosphere. The water vapour condensed to form the oceans."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-describe",
-      "databaseId": "CHE-T9-QUIZ007"
-    },
-    {
-      "id": "T9-QUIZ008",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What caused the build up of nitrogen in the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Volcanic activity.",
-      "markingPoints": [
-        "Volcanic activity."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-answer",
-      "databaseId": "CHE-T9-QUIZ008"
-    },
-    {
-      "id": "T9-QUIZ009",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "Foundation and Higher",
-      "question": "As well as nitrogen which two other gases may have formed in small proportions?",
-      "marks": 1,
-      "modelAnswer": "Methane and ammonia.",
-      "markingPoints": [
-        "Methane and ammonia."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-answer",
-      "databaseId": "CHE-T9-QUIZ009"
-    },
-    {
-      "id": "T9-QUIZ010",
-      "questionFamily": "T9 Atmosphere · 4.9.1.2 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.1.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe how carbon dioxide concentrations in the atmosphere were reduced?",
-      "marks": 1,
-      "modelAnswer": "After the oceans were formed carbon dioxide dissolved in the water to form carbonates. These carbonates precipitated out of the water and were laid down as sediments (e.g. chalk). This reduced the levels of carbon dioxide in the atmosphere.",
-      "markingPoints": [
-        "After the oceans were formed carbon dioxide dissolved in the water to form carbonates. These carbonates precipitated out of the water and were laid down as sediments (e.g. chalk). This reduced the levels of carbon dioxide in the atmosphere."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-2-describe",
-      "databaseId": "CHE-T9-QUIZ010"
-    },
-    {
-      "id": "9.4",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · Explain",
+      "id": "CHEM-T09-Q011",
+      "questionFamily": "T9 Atmosphere · 4.9.1.3 · State",
       "subtopic": "T9 Atmosphere · 4.9.1.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "All",
-      "question": "Explain how atmospheric oxygen increased and why it did not immediately accumulate when photosynthesis began.",
-      "marks": 5,
-      "modelAnswer": "Algae/plants photosynthesised, releasing O2.\nInitially reacted with iron/rocks and other reducing materials/respiration.\nAccumulated only after sinks became saturated/production exceeded removal.",
+      "tier": "Foundation and Higher",
+      "question": "Write the balanced symbol equation for photosynthesis.",
+      "marks": 2,
+      "modelAnswer": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in the presence of light and chlorophyll).",
       "markingPoints": [
-        "Algae/plants photosynthesised, releasing O2.",
-        "Initially reacted with iron/rocks and other reducing materials/respiration.",
-        "Accumulated only after sinks became saturated/production exceeded removal."
+        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in the presence of light and chlorophyll)."
       ],
-      "commandWord": "Explain",
+      "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.9.1.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-explain",
-      "databaseId": "CHE-9.4"
+      "gradeDemand": "Medium",
+      "knowledgeType": "Atmospheric evolution",
+      "hintKeywords": [
+        "H₂O",
+        "C₆H₁₂O₆"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-state",
+      "databaseId": "CHE-CHEM-T09-Q011"
     },
     {
-      "id": "9.20",
+      "id": "CHEM-T09-Q012",
       "questionFamily": "T9 Atmosphere · 4.9.1.3–4.9.1.4 · Answer",
       "subtopic": "T9 Atmosphere · 4.9.1.3–4.9.1.4",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.3–4.9.1.4",
@@ -517,11 +364,14 @@
       "specificationReference": "4.9.1.3–4.9.1.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "O2"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-4-9-1-4-answer",
-      "databaseId": "CHE-9.20"
+      "databaseId": "CHE-CHEM-T09-Q012"
     },
     {
-      "id": "T9-EX5",
+      "id": "CHEM-T09-Q013",
       "questionFamily": "T9 Atmosphere · 4.9.1.3 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.1.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
@@ -539,151 +389,70 @@
       "specificationReference": "4.9.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "CO₂",
+        "O₂",
+        "Photosynthesis",
+        "removed",
+        "released",
+        "Oxygen"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-explain",
-      "databaseId": "CHE-T9-EX5"
+      "databaseId": "CHE-CHEM-T09-Q013"
     },
     {
-      "id": "T9-QUIZ011",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · Answer",
+      "id": "CHEM-T09-Q014",
+      "questionFamily": "T9 Atmosphere · 4.9.1.3 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.1.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "Foundation and Higher",
-      "question": "When was oxygen first produced?",
-      "marks": 1,
-      "modelAnswer": "Oxygen was first produced by photosynthesising algae and plants, about 2.7 billion years ago.",
+      "tier": "All",
+      "question": "Explain how atmospheric oxygen increased and why it did not immediately accumulate when photosynthesis began.",
+      "marks": 5,
+      "modelAnswer": "Algae/plants photosynthesised, releasing O2.\nInitially reacted with iron/rocks and other reducing materials/respiration.\nAccumulated only after sinks became saturated/production exceeded removal.",
       "markingPoints": [
-        "Oxygen was first produced by photosynthesising algae and plants, about 2.7 billion years ago."
+        "Algae/plants photosynthesised, releasing O2.",
+        "Initially reacted with iron/rocks and other reducing materials/respiration.",
+        "Accumulated only after sinks became saturated/production exceeded removal."
       ],
-      "commandWord": "Answer",
+      "commandWord": "Explain",
       "assessmentObjective": "AO1",
       "specificationReference": "4.9.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-answer",
-      "databaseId": "CHE-T9-QUIZ011"
-    },
-    {
-      "id": "T9-QUIZ012",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What was responsible for the production of oxygen?",
-      "marks": 1,
-      "modelAnswer": "Algae and plants.",
-      "markingPoints": [
-        "Algae and plants."
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "O2"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-answer",
-      "databaseId": "CHE-T9-QUIZ012"
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-explain",
+      "databaseId": "CHE-CHEM-T09-Q014"
     },
     {
-      "id": "T9-QUIZ013",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What process produced oxygen?",
-      "marks": 1,
-      "modelAnswer": "Photosynthesis.",
-      "markingPoints": [
-        "Photosynthesis."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-answer",
-      "databaseId": "CHE-T9-QUIZ013"
-    },
-    {
-      "id": "T9-QUIZ014",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · State",
-      "subtopic": "T9 Atmosphere · 4.9.1.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Write a word equation to show the production of oxygen?",
-      "marks": 1,
-      "modelAnswer": "carbon dioxide + water → glucose + oxygen",
-      "markingPoints": [
-        "carbon dioxide + water → glucose + oxygen"
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-state",
-      "databaseId": "CHE-T9-QUIZ014"
-    },
-    {
-      "id": "T9-QUIZ015",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · State",
-      "subtopic": "T9 Atmosphere · 4.9.1.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Write a balanced equation to show the production of oxygen?",
-      "marks": 1,
-      "modelAnswer": "6CO2 + 6H2O → C6H12O6 + 6O2",
-      "markingPoints": [
-        "6CO2 + 6H2O → C6H12O6 + 6O2"
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-state",
-      "databaseId": "CHE-T9-QUIZ015"
-    },
-    {
-      "id": "T9-QUIZ016",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.1.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe what happened to oxygen levels over the next billion years and the effect this had on life on Earth?",
-      "marks": 1,
-      "modelAnswer": "Plants evolved and the production of oxygen increased. This increase in oxygen enabled animals to evolve.",
-      "markingPoints": [
-        "Plants evolved and the production of oxygen increased. This increase in oxygen enabled animals to evolve."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-describe",
-      "databaseId": "CHE-T9-QUIZ016"
-    },
-    {
-      "id": "T9-QZ01",
-      "questionFamily": "T9 Atmosphere · 4.9.1.3 · State",
-      "subtopic": "T9 Atmosphere · 4.9.1.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Write the balanced symbol equation for photosynthesis.",
+      "id": "CHEM-T09-Q015",
+      "questionFamily": "T9 Atmosphere · 4.9.1.4 · Answer",
+      "subtopic": "T9 Atmosphere · 4.9.1.4",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.1.4",
+      "tier": "All",
+      "question": "How did oceans help reduce the concentration of atmospheric carbon dioxide?",
       "marks": 2,
-      "modelAnswer": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in the presence of light and chlorophyll).",
+      "modelAnswer": "Carbon dioxide dissolved in the oceans and became locked into carbonate sediments and rocks.",
       "markingPoints": [
-        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in the presence of light and chlorophyll)."
+        "Carbon dioxide dissolved in the oceans and became locked into carbonate sediments and rocks."
       ],
-      "commandWord": "State",
+      "commandWord": "Answer",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.3",
-      "gradeDemand": "Medium",
-      "knowledgeType": "Atmospheric evolution",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-3-state",
-      "databaseId": "CHE-T9-QZ01"
+      "specificationReference": "4.9.1.4",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "dioxide",
+        "dissolved",
+        "carbonate",
+        "sediments"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-4-answer",
+      "databaseId": "CHE-CHEM-T09-Q015"
     },
     {
-      "id": "9.3",
+      "id": "CHEM-T09-Q016",
       "questionFamily": "T9 Atmosphere · 4.9.1.4 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.1.4",
       "sourceSubtopic": "T9 Atmosphere · 4.9.1.4",
@@ -703,51 +472,120 @@
       "specificationReference": "4.9.1.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-4-explain",
-      "databaseId": "CHE-9.3"
-    },
-    {
-      "id": "9.19",
-      "questionFamily": "T9 Atmosphere · 4.9.1.4 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.1.4",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.4",
-      "tier": "All",
-      "question": "How did oceans help reduce the concentration of atmospheric carbon dioxide?",
-      "marks": 2,
-      "modelAnswer": "Carbon dioxide dissolved in the oceans and became locked into carbonate sediments and rocks.",
-      "markingPoints": [
-        "Carbon dioxide dissolved in the oceans and became locked into carbonate sediments and rocks."
+      "hintKeywords": [
+        "CO2",
+        "Dissolved",
+        "oceans",
+        "Photosynthesis",
+        "removed",
+        "Carbonate"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.4",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-4-answer",
-      "databaseId": "CHE-9.19"
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-4-explain",
+      "databaseId": "CHE-CHEM-T09-Q016"
     },
     {
-      "id": "T9-QUIZ017",
-      "questionFamily": "T9 Atmosphere · 4.9.1.4 · State",
-      "subtopic": "T9 Atmosphere · 4.9.1.4",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Name three ways by which carbon dioxide levels were decreased in the atmosphere",
-      "marks": 1,
-      "modelAnswer": "Carbon dioxide dissolved in oceans, was used by photosynthesis and became locked in carbonate rocks and fossil fuels.",
+      "id": "CHEM-T09-Q017",
+      "questionFamily": "T9 Atmosphere · 4.9.2.1 · State",
+      "subtopic": "T9 Atmosphere · 4.9.2.1",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1",
+      "tier": "All",
+      "question": "Name three greenhouse gases.",
+      "marks": 3,
+      "modelAnswer": "Carbon dioxide\nMethane\nWater vapour.",
       "markingPoints": [
-        "Carbon dioxide dissolved in oceans, was used by photosynthesis and became locked in carbonate rocks and fossil fuels."
+        "Carbon dioxide",
+        "Methane",
+        "Water vapour."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.9.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-1-4-state",
-      "databaseId": "CHE-T9-QUIZ017"
+      "specificationReference": "4.9.2.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Carbon",
+        "dioxide",
+        "Methane",
+        "vapour"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-state",
+      "databaseId": "CHE-CHEM-T09-Q017"
     },
     {
-      "id": "9.5",
+      "id": "CHEM-T09-Q018",
+      "questionFamily": "T9 Atmosphere · 4.9.2.1 · Explain",
+      "subtopic": "T9 Atmosphere · 4.9.2.1",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1",
+      "tier": "All",
+      "question": "Explain how greenhouse gases warm Earth’s surface.",
+      "marks": 4,
+      "modelAnswer": "Short-wave solar radiation reaches Earth.\nThe surface emits infrared radiation.\nGreenhouse gases absorb outgoing infrared and re-emit it in all directions, including back toward the surface.",
+      "markingPoints": [
+        "Short-wave solar radiation reaches Earth.",
+        "The surface emits infrared radiation.",
+        "Greenhouse gases absorb outgoing infrared and re-emit it in all directions, including back toward the surface."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.2.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "radiation",
+        "Greenhouse",
+        "directions"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-explain",
+      "databaseId": "CHE-CHEM-T09-Q018"
+    },
+    {
+      "id": "CHEM-T09-Q019",
+      "questionFamily": "T9 Atmosphere · 4.9.2.1; 4.9.3.2 · Answer",
+      "subtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
+      "tier": "All",
+      "question": "Distinguish between a greenhouse gas and an atmospheric pollutant.",
+      "marks": 2,
+      "modelAnswer": "A greenhouse gas absorbs outgoing infrared radiation and contributes to warming. An atmospheric pollutant is a substance in air that harms health or the environment.",
+      "markingPoints": [
+        "A greenhouse gas absorbs outgoing infrared radiation and contributes to warming. An atmospheric pollutant is a substance in air that harms health or the environment."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.9.2.1; 4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "greenhouse gas"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-4-9-3-2-answer",
+      "databaseId": "CHE-CHEM-T09-Q019"
+    },
+    {
+      "id": "CHEM-T09-Q020",
+      "questionFamily": "T9 Atmosphere · 4.9.2.1; 4.9.3.2 · Explain",
+      "subtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
+      "tier": "All",
+      "question": "Explain why a substance can be both a greenhouse gas and an atmospheric pollutant.",
+      "marks": 2,
+      "modelAnswer": "A substance can have more than one effect. For example, carbon dioxide is a greenhouse gas and high concentrations can affect the environment; nitrogen oxides can contribute to warming and harm health.",
+      "markingPoints": [
+        "A substance can have more than one effect. For example, carbon dioxide is a greenhouse gas and high concentrations can affect the environment; nitrogen oxides can contribute to warming and harm health."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.9.2.1; 4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "greenhouse gas"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-4-9-3-2-explain",
+      "databaseId": "CHE-CHEM-T09-Q020"
+    },
+    {
+      "id": "CHEM-T09-Q021",
       "questionFamily": "T9 Atmosphere · 4.9.2.1 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.2.1",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.1",
@@ -767,157 +605,67 @@
       "specificationReference": "4.9.2.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy",
+        "temperature"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-explain",
-      "databaseId": "CHE-9.5"
+      "databaseId": "CHE-CHEM-T09-Q021"
     },
     {
-      "id": "9.11-S1",
-      "questionFamily": "T9 Atmosphere · 4.9.2.1; 4.9.3.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
-      "tier": "All",
-      "question": "Distinguish between a greenhouse gas and an atmospheric pollutant.",
-      "marks": 2,
-      "modelAnswer": "A greenhouse gas absorbs outgoing infrared radiation and contributes to warming. An atmospheric pollutant is a substance in air that harms health or the environment.",
-      "markingPoints": [
-        "A greenhouse gas absorbs outgoing infrared radiation and contributes to warming. An atmospheric pollutant is a substance in air that harms health or the environment."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.9.2.1; 4.9.3.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-4-9-3-2-answer",
-      "databaseId": "CHE-9.11-S1"
-    },
-    {
-      "id": "9.11-S2",
-      "questionFamily": "T9 Atmosphere · 4.9.2.1; 4.9.3.2 · Explain",
-      "subtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1; 4.9.3.2",
-      "tier": "All",
-      "question": "Explain why a substance can be both a greenhouse gas and an atmospheric pollutant.",
-      "marks": 2,
-      "modelAnswer": "A substance can have more than one effect. For example, carbon dioxide is a greenhouse gas and high concentrations can affect the environment; nitrogen oxides can contribute to warming and harm health.",
-      "markingPoints": [
-        "A substance can have more than one effect. For example, carbon dioxide is a greenhouse gas and high concentrations can affect the environment; nitrogen oxides can contribute to warming and harm health."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.9.2.1; 4.9.3.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-4-9-3-2-explain",
-      "databaseId": "CHE-9.11-S2"
-    },
-    {
-      "id": "9.21",
-      "questionFamily": "T9 Atmosphere · 4.9.2.1 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1",
-      "tier": "All",
-      "question": "Name three greenhouse gases.",
-      "marks": 3,
-      "modelAnswer": "Carbon dioxide\nMethane\nWater vapour.",
-      "markingPoints": [
-        "Carbon dioxide",
-        "Methane",
-        "Water vapour."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-state",
-      "databaseId": "CHE-9.21"
-    },
-    {
-      "id": "9.22",
-      "questionFamily": "T9 Atmosphere · 4.9.2.1 · Explain",
-      "subtopic": "T9 Atmosphere · 4.9.2.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1",
-      "tier": "All",
-      "question": "Explain how greenhouse gases warm Earth’s surface.",
-      "marks": 4,
-      "modelAnswer": "Short-wave solar radiation reaches Earth.\nThe surface emits infrared radiation.\nGreenhouse gases absorb outgoing infrared and re-emit it in all directions, including back toward the surface.",
-      "markingPoints": [
-        "Short-wave solar radiation reaches Earth.",
-        "The surface emits infrared radiation.",
-        "Greenhouse gases absorb outgoing infrared and re-emit it in all directions, including back toward the surface."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-explain",
-      "databaseId": "CHE-9.22"
-    },
-    {
-      "id": "T9-QUIZ018",
-      "questionFamily": "T9 Atmosphere · 4.9.2.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.2.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the effect of greenhouse gases on the Earth?",
-      "marks": 1,
-      "modelAnswer": "Greenhouse gases maintain temperatures on Earth at a high enough level to support life.",
-      "markingPoints": [
-        "Greenhouse gases maintain temperatures on Earth at a high enough level to support life."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-answer",
-      "databaseId": "CHE-T9-QUIZ018"
-    },
-    {
-      "id": "T9-QUIZ019",
-      "questionFamily": "T9 Atmosphere · 4.9.2.1 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.2.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.1",
-      "tier": "Foundation and Higher",
-      "question": "Describe the greenhouse effect?",
-      "marks": 1,
-      "modelAnswer": "The sun emits short wave radiation which is not absorbed by greenhouse gases. The short wave radiation is absorbed by the Earth, warming it. This heat is emitted from the Earth as long wave radiation. Greenhouse gases absorb long wave radiation. The more greenhouse gases there are the more long wave radiation is absorbed causing a rise in temperature.",
-      "markingPoints": [
-        "The sun emits short wave radiation which is not absorbed by greenhouse gases. The short wave radiation is absorbed by the Earth, warming it. This heat is emitted from the Earth as long wave radiation. Greenhouse gases absorb long wave radiation. The more greenhouse gases there are the more long wave radiation is absorbed causing a rise in temperature."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-1-describe",
-      "databaseId": "CHE-T9-QUIZ019"
-    },
-    {
-      "id": "9.6",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · Answer",
+      "id": "CHEM-T09-Q022",
+      "questionFamily": "T9 Atmosphere · 4.9.2.2 · State",
       "subtopic": "T9 Atmosphere · 4.9.2.2",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
       "tier": "All",
-      "question": "Link human activities to increases in carbon dioxide and methane, giving at least two sources of each.",
-      "marks": 6,
-      "modelAnswer": "CO2: fossil-fuel combustion, deforestation, cement.\nCH4: cattle, rice, landfill, fossil-fuel extraction.\nExplain release/reduced uptake where relevant.",
+      "question": "Give two human activities that increase atmospheric carbon dioxide.",
+      "marks": 2,
+      "modelAnswer": "Burning fossil fuels and deforestation",
       "markingPoints": [
-        "CO2: fossil-fuel combustion, deforestation, cement.",
-        "CH4: cattle, rice, landfill, fossil-fuel extraction.",
-        "Explain release/reduced uptake where relevant."
+        "Burning fossil fuels and deforestation"
       ],
-      "commandWord": "Answer",
+      "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.9.2.2",
-      "gradeDemand": "Grades 7–9",
+      "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-answer",
-      "databaseId": "CHE-9.6"
+      "hintKeywords": [
+        "Burning",
+        "fossil",
+        "fuels",
+        "deforestation"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-state",
+      "databaseId": "CHE-CHEM-T09-Q022"
     },
     {
-      "id": "9.12",
+      "id": "CHEM-T09-Q023",
+      "questionFamily": "T9 Atmosphere · 4.9.2.2 · State",
+      "subtopic": "T9 Atmosphere · 4.9.2.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
+      "tier": "All",
+      "question": "Give two human activities that increase atmospheric methane.",
+      "marks": 2,
+      "modelAnswer": "Examples: cattle/rice farming, landfill and leaks during fossil-fuel extraction.",
+      "markingPoints": [
+        "Examples: cattle/rice farming, landfill and leaks during fossil-fuel extraction."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.2.2",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Examples",
+        "farming",
+        "landfill",
+        "extraction"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-state",
+      "databaseId": "CHE-CHEM-T09-Q023"
+    },
+    {
+      "id": "CHEM-T09-Q024",
       "questionFamily": "T9 Atmosphere · 4.9.2.2–4.9.2.3 · Answer",
       "subtopic": "T9 Atmosphere · 4.9.2.2–4.9.2.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.2–4.9.2.3",
@@ -935,51 +683,44 @@
       "specificationReference": "4.9.2.2–4.9.2.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "greenhouse gas"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-4-9-2-3-answer",
-      "databaseId": "CHE-9.12"
+      "databaseId": "CHE-CHEM-T09-Q024"
     },
     {
-      "id": "9.23",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · State",
+      "id": "CHEM-T09-Q025",
+      "questionFamily": "T9 Atmosphere · 4.9.2.2 · Answer",
       "subtopic": "T9 Atmosphere · 4.9.2.2",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
       "tier": "All",
-      "question": "Give two human activities that increase atmospheric methane.",
-      "marks": 2,
-      "modelAnswer": "Examples: cattle/rice farming, landfill and leaks during fossil-fuel extraction.",
+      "question": "Link human activities to increases in carbon dioxide and methane, giving at least two sources of each.",
+      "marks": 6,
+      "modelAnswer": "CO2: fossil-fuel combustion, deforestation, cement.\nCH4: cattle, rice, landfill, fossil-fuel extraction.\nExplain release/reduced uptake where relevant.",
       "markingPoints": [
-        "Examples: cattle/rice farming, landfill and leaks during fossil-fuel extraction."
+        "CO2: fossil-fuel combustion, deforestation, cement.",
+        "CH4: cattle, rice, landfill, fossil-fuel extraction.",
+        "Explain release/reduced uptake where relevant."
       ],
-      "commandWord": "State",
+      "commandWord": "Answer",
       "assessmentObjective": "AO1",
       "specificationReference": "4.9.2.2",
-      "gradeDemand": "Grades 3–5",
+      "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-state",
-      "databaseId": "CHE-9.23"
-    },
-    {
-      "id": "9.24",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
-      "tier": "All",
-      "question": "Give two human activities that increase atmospheric carbon dioxide.",
-      "marks": 2,
-      "modelAnswer": "Burning fossil fuels and deforestation",
-      "markingPoints": [
-        "Burning fossil fuels and deforestation"
+      "hintKeywords": [
+        "CO2",
+        "CH4",
+        "fossil",
+        "combustion",
+        "deforestation",
+        "cement"
       ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.2",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-state",
-      "databaseId": "CHE-9.24"
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-answer",
+      "databaseId": "CHE-CHEM-T09-Q025"
     },
     {
-      "id": "T9-EX2",
+      "id": "CHEM-T09-Q026",
       "questionFamily": "T9 Atmosphere · 4.9.2.2 · Evaluate",
       "subtopic": "T9 Atmosphere · 4.9.2.2",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
@@ -998,154 +739,155 @@
       "specificationReference": "4.9.2.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "CO₂",
+        "Correlation",
+        "alone",
+        "prove",
+        "causation",
+        "factors"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-evaluate",
-      "databaseId": "CHE-T9-EX2"
+      "databaseId": "CHE-CHEM-T09-Q026"
     },
     {
-      "id": "T9-QUIZ020",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
+      "id": "CHEM-T09-Q027",
+      "questionFamily": "T9 Atmosphere · 4.9.2.3 · State",
+      "subtopic": "T9 Atmosphere · 4.9.2.3",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
       "tier": "Foundation and Higher",
-      "question": "Name two greenhouse gases which have increased as a result of human activities?",
-      "marks": 1,
-      "modelAnswer": "Carbon dioxide and methane.",
+      "question": "State two possible effects of global climate change.",
+      "marks": 2,
+      "modelAnswer": "Any two: rising sea levels; changing rainfall patterns; more extreme weather; loss of habitats; changes in migration patterns; reduced biodiversity.",
       "markingPoints": [
-        "Carbon dioxide and methane."
+        "Any two: rising sea levels; changing rainfall patterns; more extreme weather; loss of habitats; changes in migration patterns; reduced biodiversity."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.2",
+      "specificationReference": "4.9.2.3",
       "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-state",
-      "databaseId": "CHE-T9-QUIZ020"
-    },
-    {
-      "id": "T9-QUIZ021",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Name two human activities which have increased the amount of carbon dioxide in the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Deforestation and burning fossil fuels.",
-      "markingPoints": [
-        "Deforestation and burning fossil fuels."
+      "knowledgeType": "Climate change",
+      "hintKeywords": [
+        "changing",
+        "rainfall",
+        "migration",
+        "biodiversity"
       ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-state",
-      "databaseId": "CHE-T9-QUIZ021"
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-state",
+      "databaseId": "CHE-CHEM-T09-Q027"
     },
     {
-      "id": "T9-QUIZ022",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Name two human activities which have increased the amount of methane in the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Agriculture (cattle ranches, rice) and landfill sites.",
-      "markingPoints": [
-        "Agriculture (cattle ranches, rice) and landfill sites."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-state",
-      "databaseId": "CHE-T9-QUIZ022"
-    },
-    {
-      "id": "T9-QUIZ023",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.2.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe what the effect of human activities will be on the Earth’s atmosphere?",
-      "marks": 1,
-      "modelAnswer": "An increase in the temperature of the Earth’s atmosphere which will result in global climate change.",
-      "markingPoints": [
-        "An increase in the temperature of the Earth’s atmosphere which will result in global climate change."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-describe",
-      "databaseId": "CHE-T9-QUIZ023"
-    },
-    {
-      "id": "T9-QUIZ024",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.2.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
-      "tier": "Foundation and Higher",
-      "question": "How can scientists trust the data that has been collected about effect of greenhouse gases?",
-      "marks": 1,
-      "modelAnswer": "The data published has been subjected to peer review (checked by other scientists) to ensure the data is not inaccurate or biased.",
-      "markingPoints": [
-        "The data published has been subjected to peer review (checked by other scientists) to ensure the data is not inaccurate or biased."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-answer",
-      "databaseId": "CHE-T9-QUIZ024"
-    },
-    {
-      "id": "T9-QUIZ025",
-      "questionFamily": "T9 Atmosphere · 4.9.2.2 · Explain",
-      "subtopic": "T9 Atmosphere · 4.9.2.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Explain why differing opinions are presented in the media about climate change?",
-      "marks": 1,
-      "modelAnswer": "It is difficult to model a complex system such as the environment. In an effort to help people understand the issue, simplified models are often used. This can lead speculation and opinions presented by the media which is based only on parts of the evidence and may be biased or lack all the evidence.",
-      "markingPoints": [
-        "It is difficult to model a complex system such as the environment. In an effort to help people understand the issue, simplified models are often used. This can lead speculation and opinions presented by the media which is based only on parts of the evidence and may be biased or lack all the evidence."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-2-explain",
-      "databaseId": "CHE-T9-QUIZ025"
-    },
-    {
-      "id": "9.7",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Evaluate",
+      "id": "CHEM-T09-Q028",
+      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Answer",
       "subtopic": "T9 Atmosphere · 4.9.2.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
       "tier": "All",
-      "question": "Evaluate the claim that correlation between CO2 and global temperature proves CO2 causes warming.",
-      "marks": 6,
-      "modelAnswer": "Correlation alone not proof.\nConfounders/feedback possible.\nBut known IR mechanism, lab evidence, historical data, models and multiple independent observations support causation.\nBalanced evidence-based conclusion.",
+      "question": "Why is peer review important when scientists publish climate research?",
+      "marks": 2,
+      "modelAnswer": "Other experts check the methods, evidence and reasoning, helping identify errors and improve confidence in conclusions.",
       "markingPoints": [
-        "Correlation alone not proof.",
-        "Confounders/feedback possible.",
-        "But known IR mechanism, lab evidence, historical data, models and multiple independent observations support causation.",
-        "Balanced evidence-based conclusion."
+        "Other experts check the methods, evidence and reasoning, helping identify errors and improve confidence in conclusions."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "evidence",
+        "reasoning",
+        "confidence",
+        "conclusions"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-answer",
+      "databaseId": "CHE-CHEM-T09-Q028"
+    },
+    {
+      "id": "CHEM-T09-Q029",
+      "questionFamily": "T9 Atmosphere · 4.9.2.3 · State",
+      "subtopic": "T9 Atmosphere · 4.9.2.3",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
+      "tier": "All",
+      "question": "State three possible consequences of global climate change.",
+      "marks": 3,
+      "modelAnswer": "Examples: sea-level rise, changing rainfall, more extreme weather, habitat loss, migration changes and reduced biodiversity/food security.",
+      "markingPoints": [
+        "Examples: sea-level rise, changing rainfall, more extreme weather, habitat loss, migration changes and reduced biodiversity/food security."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Examples",
+        "changing",
+        "migration",
+        "biodiversity"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-state",
+      "databaseId": "CHE-CHEM-T09-Q029"
+    },
+    {
+      "id": "CHEM-T09-Q030",
+      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Answer",
+      "subtopic": "T9 Atmosphere · 4.9.2.3",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
+      "tier": "All",
+      "question": "A graph shows temperature rising while solar output has no matching long-term rise. Explain how this evidence should be used in an argument.",
+      "marks": 4,
+      "modelAnswer": "Weakens solar-output explanation for trend.\nDoes not alone prove sole cause.\nCombine with greenhouse mechanism, gas records and other forcings.\nDistinguish correlation/evidence strength.",
+      "markingPoints": [
+        "Weakens solar-output explanation for trend.",
+        "Does not alone prove sole cause.",
+        "Combine with greenhouse mechanism, gas records and other forcings.",
+        "Distinguish correlation/evidence strength."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "explanation",
+        "greenhouse",
+        "Distinguish",
+        "correlation"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-answer",
+      "databaseId": "CHE-CHEM-T09-Q030"
+    },
+    {
+      "id": "CHEM-T09-Q031",
+      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Evaluate",
+      "subtopic": "T9 Atmosphere · 4.9.2.3",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
+      "tier": "Both",
+      "question": "Evaluate the claim that a short period of cooler weather disproves global warming.",
+      "marks": 4,
+      "modelAnswer": "Weather is short-term and local.\nClimate is a long-term global pattern.\nNatural variability can cause cool periods within a warming trend.\nUse long-term global datasets rather than one event.",
+      "markingPoints": [
+        "Weather is short-term and local.",
+        "Climate is a long-term global pattern.",
+        "Natural variability can cause cool periods within a warming trend.",
+        "Use long-term global datasets rather than one event."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
       "specificationReference": "4.9.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Weather",
+        "Climate",
+        "variability",
+        "datasets"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-evaluate",
-      "databaseId": "CHE-9.7"
+      "databaseId": "CHE-CHEM-T09-Q031"
     },
     {
-      "id": "9.8",
+      "id": "CHEM-T09-Q032",
       "questionFamily": "T9 Atmosphere · 4.9.2.3 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.2.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
@@ -1165,118 +907,48 @@
       "specificationReference": "4.9.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "emissions",
+        "behaviour",
+        "resolution",
+        "observations"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-explain",
-      "databaseId": "CHE-9.8"
+      "databaseId": "CHE-CHEM-T09-Q032"
     },
     {
-      "id": "9.15",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.2.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "All",
-      "question": "A graph shows temperature rising while solar output has no matching long-term rise. Explain how this evidence should be used in an argument.",
-      "marks": 4,
-      "modelAnswer": "Weakens solar-output explanation for trend.\nDoes not alone prove sole cause.\nCombine with greenhouse mechanism, gas records and other forcings.\nDistinguish correlation/evidence strength.",
-      "markingPoints": [
-        "Weakens solar-output explanation for trend.",
-        "Does not alone prove sole cause.",
-        "Combine with greenhouse mechanism, gas records and other forcings.",
-        "Distinguish correlation/evidence strength."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-answer",
-      "databaseId": "CHE-9.15"
-    },
-    {
-      "id": "9.25",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "All",
-      "question": "State three possible consequences of global climate change.",
-      "marks": 3,
-      "modelAnswer": "Examples: sea-level rise, changing rainfall, more extreme weather, habitat loss, migration changes and reduced biodiversity/food security.",
-      "markingPoints": [
-        "Examples: sea-level rise, changing rainfall, more extreme weather, habitat loss, migration changes and reduced biodiversity/food security."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-state",
-      "databaseId": "CHE-9.25"
-    },
-    {
-      "id": "9.26",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.2.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "All",
-      "question": "Why is peer review important when scientists publish climate research?",
-      "marks": 2,
-      "modelAnswer": "Other experts check the methods, evidence and reasoning, helping identify errors and improve confidence in conclusions.",
-      "markingPoints": [
-        "Other experts check the methods, evidence and reasoning, helping identify errors and improve confidence in conclusions."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-answer",
-      "databaseId": "CHE-9.26"
-    },
-    {
-      "id": "T9-PD02",
+      "id": "CHEM-T09-Q033",
       "questionFamily": "T9 Atmosphere · 4.9.2.3 · Evaluate",
       "subtopic": "T9 Atmosphere · 4.9.2.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "Both",
-      "question": "Evaluate the claim that a short period of cooler weather disproves global warming.",
-      "marks": 4,
-      "modelAnswer": "Weather is short-term and local.\nClimate is a long-term global pattern.\nNatural variability can cause cool periods within a warming trend.\nUse long-term global datasets rather than one event.",
+      "tier": "All",
+      "question": "Evaluate the claim that correlation between CO2 and global temperature proves CO2 causes warming.",
+      "marks": 6,
+      "modelAnswer": "Correlation alone not proof.\nConfounders/feedback possible.\nBut known IR mechanism, lab evidence, historical data, models and multiple independent observations support causation.\nBalanced evidence-based conclusion.",
       "markingPoints": [
-        "Weather is short-term and local.",
-        "Climate is a long-term global pattern.",
-        "Natural variability can cause cool periods within a warming trend.",
-        "Use long-term global datasets rather than one event."
+        "Correlation alone not proof.",
+        "Confounders/feedback possible.",
+        "But known IR mechanism, lab evidence, historical data, models and multiple independent observations support causation.",
+        "Balanced evidence-based conclusion."
       ],
       "commandWord": "Evaluate",
       "assessmentObjective": "AO3",
       "specificationReference": "4.9.2.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-evaluate",
-      "databaseId": "CHE-T9-PD02"
-    },
-    {
-      "id": "T9-PD04",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Explain",
-      "subtopic": "T9 Atmosphere · 4.9.2.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "Both",
-      "question": "Explain why correlation between atmospheric carbon dioxide and global temperature is not, by itself, complete proof of causation.",
-      "marks": 4,
-      "modelAnswer": "Correlation can be influenced by other variables and feedbacks.\nCausal confidence comes from mechanism, controlled/physical evidence, modelling and multiple independent datasets, not correlation alone.",
-      "markingPoints": [
-        "Correlation can be influenced by other variables and feedbacks.",
-        "Causal confidence comes from mechanism, controlled/physical evidence, modelling and multiple independent datasets, not correlation alone."
+      "hintKeywords": [
+        "Correlation",
+        "alone",
+        "proof",
+        "Confounders",
+        "feedback",
+        "possible"
       ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-explain",
-      "databaseId": "CHE-T9-PD04"
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-evaluate",
+      "databaseId": "CHE-CHEM-T09-Q033"
     },
     {
-      "id": "T9-PD06",
+      "id": "CHEM-T09-Q034",
       "questionFamily": "T9 Atmosphere · 4.9.2.3 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.2.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
@@ -1294,113 +966,43 @@
       "specificationReference": "4.9.2.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Historical",
+        "development",
+        "uncertainty",
+        "assumptions"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-explain",
-      "databaseId": "CHE-T9-PD06"
+      "databaseId": "CHE-CHEM-T09-Q034"
     },
     {
-      "id": "T9-QUIZ026",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Answer",
+      "id": "CHEM-T09-Q035",
+      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.2.3",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "Foundation and Higher",
-      "question": "What is a major cause of global climate change?",
-      "marks": 1,
-      "modelAnswer": "An increase in average global temperature.",
+      "tier": "Both",
+      "question": "Explain why correlation between atmospheric carbon dioxide and global temperature is not, by itself, complete proof of causation.",
+      "marks": 4,
+      "modelAnswer": "Correlation can be influenced by other variables and feedbacks.\nCausal confidence comes from mechanism, controlled/physical evidence, modelling and multiple independent datasets, not correlation alone.",
       "markingPoints": [
-        "An increase in average global temperature."
+        "Correlation can be influenced by other variables and feedbacks.",
+        "Causal confidence comes from mechanism, controlled/physical evidence, modelling and multiple independent datasets, not correlation alone."
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-answer",
-      "databaseId": "CHE-T9-QUIZ026"
-    },
-    {
-      "id": "T9-QUIZ027",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.2.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "Foundation and Higher",
-      "question": "List four potential effects of global climate change?",
-      "marks": 1,
-      "modelAnswer": "Polar ice caps melting, changes in rainfall, changes in temperature, frequency and severity of storms, availability of water.",
-      "markingPoints": [
-        "Polar ice caps melting, changes in rainfall, changes in temperature, frequency and severity of storms, availability of water."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-answer",
-      "databaseId": "CHE-T9-QUIZ027"
-    },
-    {
-      "id": "T9-QUIZ028",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.2.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "Foundation and Higher",
-      "question": "Discuss the environmental implications of global climate change?",
-      "marks": 1,
-      "modelAnswer": "Melting of ice caps could lead to a rise in sea levels, flooding and coastal erosion. Changes in rainfall patterns could cause a change in the distribution of water and affect the ability to produce food. Severe storms will damage infrastructure and cause more people to become homeless and increase the spread of diseases such as cholera. The rise in temperature and availability of water may affect habitats and affect the distribution of wild species.",
-      "markingPoints": [
-        "Melting of ice caps could lead to a rise in sea levels, flooding and coastal erosion. Changes in rainfall patterns could cause a change in the distribution of water and affect the ability to produce food. Severe storms will damage infrastructure and cause more people to become homeless and increase the spread of diseases such as cholera. The rise in temperature and availability of water may affect habitats and affect the distribution of wild species."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-answer",
-      "databaseId": "CHE-T9-QUIZ028"
-    },
-    {
-      "id": "T9-QZ02",
-      "questionFamily": "T9 Atmosphere · 4.9.2.3 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.3",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.3",
-      "tier": "Foundation and Higher",
-      "question": "State two possible effects of global climate change.",
-      "marks": 2,
-      "modelAnswer": "Any two: rising sea levels; changing rainfall patterns; more extreme weather; loss of habitats; changes in migration patterns; reduced biodiversity.",
-      "markingPoints": [
-        "Any two: rising sea levels; changing rainfall patterns; more extreme weather; loss of habitats; changes in migration patterns; reduced biodiversity."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Climate change",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-state",
-      "databaseId": "CHE-T9-QZ02"
-    },
-    {
-      "id": "9.9",
-      "questionFamily": "T9 Atmosphere · 4.9.2.4 · State",
-      "subtopic": "T9 Atmosphere · 4.9.2.4",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.4",
-      "tier": "All",
-      "question": "Define carbon footprint and evaluate three ways a school could reduce it, including one limitation for each.",
-      "marks": 8,
-      "modelAnswer": "Total direct+indirect greenhouse gases as CO2e.\nMeasures such as insulation/efficiency, renewable electricity, transport change, lower consumption/food waste.\nEvaluate cost, intermittency, behaviour, embodied impacts, feasibility and data.",
-      "markingPoints": [
-        "Total direct+indirect greenhouse gases as CO2e.",
-        "Measures such as insulation/efficiency, renewable electricity, transport change, lower consumption/food waste.",
-        "Evaluate cost, intermittency, behaviour, embodied impacts, feasibility and data."
-      ],
-      "commandWord": "State",
+      "commandWord": "Explain",
       "assessmentObjective": "AO3",
-      "specificationReference": "4.9.2.4",
-      "gradeDemand": "Grades 7–9",
+      "specificationReference": "4.9.2.3",
+      "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-4-state",
-      "databaseId": "CHE-9.9"
+      "hintKeywords": [
+        "Correlation",
+        "influenced",
+        "independent"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-3-explain",
+      "databaseId": "CHE-CHEM-T09-Q035"
     },
     {
-      "id": "9.27",
+      "id": "CHEM-T09-Q036",
       "questionFamily": "T9 Atmosphere · 4.9.2.4 · Answer",
       "subtopic": "T9 Atmosphere · 4.9.2.4",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.4",
@@ -1416,191 +1018,39 @@
       "specificationReference": "4.9.2.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "product"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-4-answer",
-      "databaseId": "CHE-9.27"
+      "databaseId": "CHE-CHEM-T09-Q036"
     },
     {
-      "id": "T9-QUIZ029",
+      "id": "CHEM-T09-Q037",
       "questionFamily": "T9 Atmosphere · 4.9.2.4 · State",
       "subtopic": "T9 Atmosphere · 4.9.2.4",
       "sourceSubtopic": "T9 Atmosphere · 4.9.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Define the term “carbon footprint”?",
-      "marks": 1,
-      "modelAnswer": "The total amount of carbon dioxide and other greenhouse gases emitted of the life cycle of a product service or event.",
+      "tier": "All",
+      "question": "Define carbon footprint and evaluate three ways a school could reduce it, including one limitation for each.",
+      "marks": 6,
+      "modelAnswer": "Total direct+indirect greenhouse gases as CO2e.\nMeasures such as insulation/efficiency, renewable electricity, transport change, lower consumption/food waste.\nEvaluate cost, intermittency, behaviour, embodied impacts, feasibility and data.",
       "markingPoints": [
-        "The total amount of carbon dioxide and other greenhouse gases emitted of the life cycle of a product service or event."
+        "Total direct+indirect greenhouse gases as CO2e.",
+        "Measures such as insulation/efficiency, renewable electricity, transport change, lower consumption/food waste.",
+        "Evaluate cost, intermittency, behaviour, embodied impacts, feasibility and data."
       ],
       "commandWord": "State",
-      "assessmentObjective": "AO1",
+      "assessmentObjective": "AO3",
       "specificationReference": "4.9.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "renewable"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-2-4-state",
-      "databaseId": "CHE-T9-QUIZ029"
+      "databaseId": "CHE-CHEM-T09-Q037"
     },
     {
-      "id": "T9-QUIZ030",
-      "questionFamily": "T9 Atmosphere · 4.9.2.4 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.2.4",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe how the carbon footprint can be reduced?",
-      "marks": 1,
-      "modelAnswer": "Reduce the emissions of carbon dioxide and methane.",
-      "markingPoints": [
-        "Reduce the emissions of carbon dioxide and methane."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-4-describe",
-      "databaseId": "CHE-T9-QUIZ030"
-    },
-    {
-      "id": "T9-QUIZ031",
-      "questionFamily": "T9 Atmosphere · 4.9.2.4 · Describe",
-      "subtopic": "T9 Atmosphere · 4.9.2.4",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe actions which can be taken to reduce carbon dioxide and methane emissions?",
-      "marks": 1,
-      "modelAnswer": "Use renewable energy or nuclear power. Use efficient processes to conserve energy and cut waste. Introduce a carbon tax to reward companies who reduce their carbon footprint. Put a cap on greenhouse emissions. Capture carbon dioxide from the atmosphere.",
-      "markingPoints": [
-        "Use renewable energy or nuclear power. Use efficient processes to conserve energy and cut waste. Introduce a carbon tax to reward companies who reduce their carbon footprint. Put a cap on greenhouse emissions. Capture carbon dioxide from the atmosphere."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-4-describe",
-      "databaseId": "CHE-T9-QUIZ031"
-    },
-    {
-      "id": "T9-QUIZ032",
-      "questionFamily": "T9 Atmosphere · 4.9.2.4 · Suggest",
-      "subtopic": "T9 Atmosphere · 4.9.2.4",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Suggest why the actions may have a limited effect?",
-      "marks": 1,
-      "modelAnswer": "Countries do not want to sacrifice economic development. Individuals need to change habits and need to be educated how to do so.",
-      "markingPoints": [
-        "Countries do not want to sacrifice economic development. Individuals need to change habits and need to be educated how to do so."
-      ],
-      "commandWord": "Suggest",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-2-4-suggest",
-      "databaseId": "CHE-T9-QUIZ032"
-    },
-    {
-      "id": "9.10-S1",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "tier": "All",
-      "question": "State how sulfur dioxide is formed during coal combustion and give one effect.",
-      "marks": 2,
-      "modelAnswer": "Sulfur impurities in coal react with oxygen. Sulfur dioxide causes acid rain and can cause respiratory problems.",
-      "markingPoints": [
-        "Sulfur impurities in coal react with oxygen. Sulfur dioxide causes acid rain and can cause respiratory problems."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1–4.9.3.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
-      "databaseId": "CHE-9.10-S1"
-    },
-    {
-      "id": "9.10-S2",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "tier": "All",
-      "question": "State how nitrogen oxides are formed during coal combustion and give one effect.",
-      "marks": 2,
-      "modelAnswer": "Nitrogen and oxygen from air react at high temperatures. Nitrogen oxides cause acid rain and respiratory problems.",
-      "markingPoints": [
-        "Nitrogen and oxygen from air react at high temperatures. Nitrogen oxides cause acid rain and respiratory problems."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1–4.9.3.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
-      "databaseId": "CHE-9.10-S2"
-    },
-    {
-      "id": "9.10-S3",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "tier": "All",
-      "question": "State how carbon monoxide is formed during coal combustion and give one effect.",
-      "marks": 2,
-      "modelAnswer": "It forms during incomplete combustion when oxygen is limited. It is toxic because it reduces the blood’s ability to carry oxygen.",
-      "markingPoints": [
-        "It forms during incomplete combustion when oxygen is limited. It is toxic because it reduces the blood’s ability to carry oxygen."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1–4.9.3.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
-      "databaseId": "CHE-9.10-S3"
-    },
-    {
-      "id": "9.10-S4",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
-      "tier": "All",
-      "question": "State how particulates are formed during coal combustion and give one effect.",
-      "marks": 2,
-      "modelAnswer": "They are tiny solid particles produced by incomplete combustion. They can cause respiratory problems and global dimming.",
-      "markingPoints": [
-        "They are tiny solid particles produced by incomplete combustion. They can cause respiratory problems and global dimming."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1–4.9.3.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
-      "databaseId": "CHE-9.10-S4"
-    },
-    {
-      "id": "9.28",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "All",
-      "question": "How is sulfur dioxide formed when fossil fuels burn?",
-      "marks": 2,
-      "modelAnswer": "Sulfur impurities in the fuel react with oxygen during combustion.",
-      "markingPoints": [
-        "Sulfur impurities in the fuel react with oxygen during combustion."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-9.28"
-    },
-    {
-      "id": "9.29",
+      "id": "CHEM-T09-Q038",
       "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
       "subtopic": "T9 Atmosphere · 4.9.3.1",
       "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
@@ -1616,11 +1066,159 @@
       "specificationReference": "4.9.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "temperatures",
+        "nitrogen",
+        "oxygen",
+        "react"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-9.29"
+      "databaseId": "CHE-CHEM-T09-Q038"
     },
     {
-      "id": "T9-EX3",
+      "id": "CHEM-T09-Q039",
+      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
+      "subtopic": "T9 Atmosphere · 4.9.3.1",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
+      "tier": "All",
+      "question": "How is sulfur dioxide formed when fossil fuels burn?",
+      "marks": 2,
+      "modelAnswer": "Sulfur impurities in the fuel react with oxygen during combustion.",
+      "markingPoints": [
+        "Sulfur impurities in the fuel react with oxygen during combustion."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Sulfur",
+        "impurities",
+        "oxygen",
+        "combustion"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
+      "databaseId": "CHE-CHEM-T09-Q039"
+    },
+    {
+      "id": "CHEM-T09-Q040",
+      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Explain",
+      "subtopic": "T9 Atmosphere · 4.9.3.1",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
+      "tier": "Both",
+      "question": "Explain why carbon monoxide is produced in a faulty gas heater and why it is dangerous.",
+      "marks": 4,
+      "modelAnswer": "Insufficient oxygen causes incomplete combustion, forming CO.\nCO is colourless/odourless and binds strongly to haemoglobin, reducing blood oxygen transport and potentially causing death.",
+      "markingPoints": [
+        "Insufficient oxygen causes incomplete combustion, forming CO.",
+        "CO is colourless/odourless and binds strongly to haemoglobin, reducing blood oxygen transport and potentially causing death."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.9.3.1",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "incomplete combustion"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-explain",
+      "databaseId": "CHE-CHEM-T09-Q040"
+    },
+    {
+      "id": "CHEM-T09-Q041",
+      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
+      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "tier": "All",
+      "question": "State how carbon monoxide is formed during coal combustion and give one effect.",
+      "marks": 2,
+      "modelAnswer": "It forms during incomplete combustion when oxygen is limited. It is toxic because it reduces the blood’s ability to carry oxygen.",
+      "markingPoints": [
+        "It forms during incomplete combustion when oxygen is limited. It is toxic because it reduces the blood’s ability to carry oxygen."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.3.1–4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "incomplete combustion"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
+      "databaseId": "CHE-CHEM-T09-Q041"
+    },
+    {
+      "id": "CHEM-T09-Q042",
+      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
+      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "tier": "All",
+      "question": "State how nitrogen oxides are formed during coal combustion and give one effect.",
+      "marks": 2,
+      "modelAnswer": "Nitrogen and oxygen from air react at high temperatures. Nitrogen oxides cause acid rain and respiratory problems.",
+      "markingPoints": [
+        "Nitrogen and oxygen from air react at high temperatures. Nitrogen oxides cause acid rain and respiratory problems."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.3.1–4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "acid rain"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
+      "databaseId": "CHE-CHEM-T09-Q042"
+    },
+    {
+      "id": "CHEM-T09-Q043",
+      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
+      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "tier": "All",
+      "question": "State how particulates are formed during coal combustion and give one effect.",
+      "marks": 2,
+      "modelAnswer": "They are tiny solid particles produced by incomplete combustion. They can cause respiratory problems and global dimming.",
+      "markingPoints": [
+        "They are tiny solid particles produced by incomplete combustion. They can cause respiratory problems and global dimming."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.3.1–4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "incomplete combustion"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
+      "databaseId": "CHE-CHEM-T09-Q043"
+    },
+    {
+      "id": "CHEM-T09-Q044",
+      "questionFamily": "T9 Atmosphere · 4.9.3.1–4.9.3.2 · State",
+      "subtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1–4.9.3.2",
+      "tier": "All",
+      "question": "State how sulfur dioxide is formed during coal combustion and give one effect.",
+      "marks": 2,
+      "modelAnswer": "Sulfur impurities in coal react with oxygen. Sulfur dioxide causes acid rain and can cause respiratory problems.",
+      "markingPoints": [
+        "Sulfur impurities in coal react with oxygen. Sulfur dioxide causes acid rain and can cause respiratory problems."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.3.1–4.9.3.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "acid rain"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-4-9-3-2-state",
+      "databaseId": "CHE-CHEM-T09-Q044"
+    },
+    {
+      "id": "CHEM-T09-Q045",
       "questionFamily": "T9 Atmosphere · 4.9.3.1 · Explain",
       "subtopic": "T9 Atmosphere · 4.9.3.1",
       "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
@@ -1638,252 +1236,15 @@
       "specificationReference": "4.9.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "acid rain",
+        "NOx"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-explain",
-      "databaseId": "CHE-T9-EX3"
+      "databaseId": "CHE-CHEM-T09-Q045"
     },
     {
-      "id": "T9-EX4",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Explain",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Both",
-      "question": "Explain why carbon monoxide is produced in a faulty gas heater and why it is dangerous.",
-      "marks": 4,
-      "modelAnswer": "Insufficient oxygen causes incomplete combustion, forming CO.\nCO is colourless/odourless and binds strongly to haemoglobin, reducing blood oxygen transport and potentially causing death.",
-      "markingPoints": [
-        "Insufficient oxygen causes incomplete combustion, forming CO.",
-        "CO is colourless/odourless and binds strongly to haemoglobin, reducing blood oxygen transport and potentially causing death."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-explain",
-      "databaseId": "CHE-T9-EX4"
-    },
-    {
-      "id": "T9-QUIZ033",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the major source of atmospheric pollutants?",
-      "marks": 1,
-      "modelAnswer": "Greenhouse gases maintain temperatures on Earth at a high enough level to support life.",
-      "markingPoints": [
-        "Greenhouse gases maintain temperatures on Earth at a high enough level to support life."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-T9-QUIZ033"
-    },
-    {
-      "id": "T9-QUIZ034",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "What elements do most fuels contain?",
-      "marks": 1,
-      "modelAnswer": "Water vapour, carbon dioxide and methane.",
-      "markingPoints": [
-        "Water vapour, carbon dioxide and methane."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-T9-QUIZ034"
-    },
-    {
-      "id": "T9-QUIZ035",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · State",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "Name five gases released into the atmosphere when fuel is burned?",
-      "marks": 1,
-      "modelAnswer": "Carbon dioxide, water vapour, carbon monoxide, sulfur dioxide and oxides of nitrogen.",
-      "markingPoints": [
-        "Carbon dioxide, water vapour, carbon monoxide, sulfur dioxide and oxides of nitrogen."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-state",
-      "databaseId": "CHE-T9-QUIZ035"
-    },
-    {
-      "id": "T9-QUIZ036",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · State",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "Name two substances which form particulates in the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Soot and fine solid particles of carbon.",
-      "markingPoints": [
-        "Soot and fine solid particles of carbon."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-state",
-      "databaseId": "CHE-T9-QUIZ036"
-    },
-    {
-      "id": "T9-QUIZ037",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "What is a particulate?",
-      "marks": 1,
-      "modelAnswer": "A tiny solid particle suspended in the air.",
-      "markingPoints": [
-        "A tiny solid particle suspended in the air."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-T9-QUIZ037"
-    },
-    {
-      "id": "T9-QUIZ038",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "What happens if there is not enough oxygen for the fuel to burn?",
-      "marks": 1,
-      "modelAnswer": "Incomplete combustion happens.",
-      "markingPoints": [
-        "Incomplete combustion happens."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-T9-QUIZ038"
-    },
-    {
-      "id": "T9-QUIZ039",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "What are the products formed as a result of incomplete combustion?",
-      "marks": 1,
-      "modelAnswer": "Carbon monoxide and particulates (soot) can form.",
-      "markingPoints": [
-        "Carbon monoxide and particulates (soot) can form."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-T9-QUIZ039"
-    },
-    {
-      "id": "T9-QUIZ040",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "Why is sulfur dioxide formed from the burning of fossil fuels?",
-      "marks": 1,
-      "modelAnswer": "Sulfur impurities in fossil fuels react with oxygen during combustion.",
-      "markingPoints": [
-        "Sulfur impurities in fossil fuels react with oxygen during combustion."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-T9-QUIZ040"
-    },
-    {
-      "id": "T9-QUIZ041",
-      "questionFamily": "T9 Atmosphere · 4.9.3.1 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.1",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.1",
-      "tier": "Foundation and Higher",
-      "question": "How are oxides of nitrogen formed?",
-      "marks": 1,
-      "modelAnswer": "Nitrogen and oxygen from the air react at the high temperatures in engines.",
-      "markingPoints": [
-        "Nitrogen and oxygen from the air react at the high temperatures in engines."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-1-answer",
-      "databaseId": "CHE-T9-QUIZ041"
-    },
-    {
-      "id": "9.13-S1",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · State",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "All",
-      "question": "Define carbon footprint.",
-      "marks": 1,
-      "modelAnswer": "The total amount of greenhouse gases released over the full life cycle of a product, service or activity.",
-      "markingPoints": [
-        "The total amount of greenhouse gases released over the full life cycle of a product, service or activity."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-state",
-      "databaseId": "CHE-9.13-S1"
-    },
-    {
-      "id": "9.13-S2",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Evaluate",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "All",
-      "question": "Evaluate three ways a school could reduce its carbon footprint.",
-      "marks": 6,
-      "modelAnswer": "Any three evaluated methods, for example: reduce energy use by switching off equipment; reduce travel emissions by promoting walking/cycling; reduce waste by reusing and recycling. Credit a relevant limitation or practical consideration for each.",
-      "markingPoints": [
-        "Any three evaluated methods, for example: reduce energy use by switching off equipment; reduce travel emissions by promoting walking/cycling; reduce waste by reusing and recycling. Credit a relevant limitation or practical consideration for each."
-      ],
-      "commandWord": "Evaluate",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-evaluate",
-      "databaseId": "CHE-9.13-S2"
-    },
-    {
-      "id": "9.30",
+      "id": "CHEM-T09-Q046",
       "questionFamily": "T9 Atmosphere · 4.9.3.2 · State",
       "subtopic": "T9 Atmosphere · 4.9.3.2",
       "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
@@ -1900,11 +1261,61 @@
       "specificationReference": "4.9.3.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "acid rain"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-state",
-      "databaseId": "CHE-9.30"
+      "databaseId": "CHE-CHEM-T09-Q046"
     },
     {
-      "id": "T9-PD03",
+      "id": "CHEM-T09-Q047",
+      "questionFamily": "T9 Atmosphere · 4.9.3.2 · State",
+      "subtopic": "T9 Atmosphere · 4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
+      "tier": "All",
+      "question": "Define carbon footprint.",
+      "marks": 1,
+      "modelAnswer": "The total amount of greenhouse gases released over the full life cycle of a product, service or activity.",
+      "markingPoints": [
+        "The total amount of greenhouse gases released over the full life cycle of a product, service or activity."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.3.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "product"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-state",
+      "databaseId": "CHE-CHEM-T09-Q047"
+    },
+    {
+      "id": "CHEM-T09-Q048",
+      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Evaluate",
+      "subtopic": "T9 Atmosphere · 4.9.3.2",
+      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
+      "tier": "All",
+      "question": "Evaluate three ways a school could reduce its carbon footprint.",
+      "marks": 6,
+      "modelAnswer": "Any three evaluated methods, for example: reduce energy use by switching off equipment; reduce travel emissions by promoting walking/cycling; reduce waste by reusing and recycling. Credit a relevant limitation or practical consideration for each.",
+      "markingPoints": [
+        "Any three evaluated methods, for example: reduce energy use by switching off equipment; reduce travel emissions by promoting walking/cycling; reduce waste by reusing and recycling. Credit a relevant limitation or practical consideration for each."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.9.3.2",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy",
+        "recycling"
+      ],
+      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-evaluate",
+      "databaseId": "CHE-CHEM-T09-Q048"
+    },
+    {
+      "id": "CHEM-T09-Q049",
       "questionFamily": "T9 Atmosphere · 4.9.3.2 · Describe",
       "subtopic": "T9 Atmosphere · 4.9.3.2",
       "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
@@ -1925,131 +1336,17 @@
       "specificationReference": "4.9.3.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary",
+      "hintKeywords": [
+        "collection",
+        "comparable",
+        "microscope",
+        "confounders"
+      ],
       "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-describe",
-      "databaseId": "CHE-T9-PD03"
+      "databaseId": "CHE-CHEM-T09-Q049"
     },
     {
-      "id": "T9-QUIZ042",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "Foundation and Higher",
-      "question": "What are the properties of carbon monoxide?",
-      "marks": 1,
-      "modelAnswer": "A toxic colourless and odourless gas.",
-      "markingPoints": [
-        "A toxic colourless and odourless gas."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-answer",
-      "databaseId": "CHE-T9-QUIZ042"
-    },
-    {
-      "id": "T9-QUIZ043",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the effect of carbon monoxide on the body?",
-      "marks": 1,
-      "modelAnswer": "Combines easily with haemoglobin in your blood and prevents oxygen from being taken up by the red blood cells.",
-      "markingPoints": [
-        "Combines easily with haemoglobin in your blood and prevents oxygen from being taken up by the red blood cells."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-answer",
-      "databaseId": "CHE-T9-QUIZ043"
-    },
-    {
-      "id": "T9-QUIZ044",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the effect of sulfur dioxide on the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Acid rain.",
-      "markingPoints": [
-        "Acid rain."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-answer",
-      "databaseId": "CHE-T9-QUIZ044"
-    },
-    {
-      "id": "T9-QUIZ045",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the effect of oxides of nitrogen on the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Acid rain.",
-      "markingPoints": [
-        "Acid rain."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-answer",
-      "databaseId": "CHE-T9-QUIZ045"
-    },
-    {
-      "id": "T9-QUIZ046",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "Foundation and Higher",
-      "question": "What are the effects of particulates on the body?",
-      "marks": 1,
-      "modelAnswer": "Health problems such as aggravating asthma.",
-      "markingPoints": [
-        "Health problems such as aggravating asthma."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-answer",
-      "databaseId": "CHE-T9-QUIZ046"
-    },
-    {
-      "id": "T9-QUIZ047",
-      "questionFamily": "T9 Atmosphere · 4.9.3.2 · Answer",
-      "subtopic": "T9 Atmosphere · 4.9.3.2",
-      "sourceSubtopic": "T9 Atmosphere · 4.9.3.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the effect of particulates on the atmosphere?",
-      "marks": 1,
-      "modelAnswer": "Global dimming.",
-      "markingPoints": [
-        "Global dimming."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.9.3.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t9-atmosphere-4-9-3-2-answer",
-      "databaseId": "CHE-T9-QUIZ047"
-    },
-    {
-      "id": "T9-PD05",
+      "id": "CHEM-T09-Q050",
       "questionFamily": "T9 Atmosphere · WS 3.4 · Answer",
       "subtopic": "T9 Atmosphere · WS 3.4",
       "sourceSubtopic": "T9 Atmosphere · WS 3.4",
@@ -2067,28 +1364,14 @@
       "specificationReference": "WS 3.4",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-ws-3-4-answer",
-      "databaseId": "CHE-T9-PD05"
-    },
-    {
-      "id": "Total marks",
-      "questionFamily": "T9 Atmosphere · AQA Chemistry · Answer",
-      "subtopic": "T9 Atmosphere · AQA Chemistry",
-      "sourceSubtopic": "T9 Atmosphere · AQA Chemistry",
-      "tier": "Foundation and Higher",
-      "question": "118",
-      "marks": 1,
-      "modelAnswer": "Student total.",
-      "markingPoints": [
-        "Student total."
+      "hintKeywords": [
+        "readings",
+        "systematic",
+        "precision",
+        "Recalibration"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t9-atmosphere-answer",
-      "databaseId": "CHE-Total marks"
+      "questionFamilyId": "CHE-t9-atmosphere-ws-3-4-answer",
+      "databaseId": "CHE-CHEM-T09-Q050"
     }
   ]
 }

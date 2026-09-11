@@ -2,24 +2,20 @@
   "metadata": {
     "subtopics": [
       {
+        "title": "T8 Chemical Analysis · 4.8.1.1",
+        "questionCount": 3
+      },
+      {
         "title": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
         "questionCount": 3
       },
       {
-        "title": "T8 Chemical Analysis · 4.8.1.1",
-        "questionCount": 5
-      },
-      {
         "title": "T8 Chemical Analysis · 4.8.1.2",
-        "questionCount": 4
+        "questionCount": 1
       },
       {
         "title": "T8 Chemical Analysis · 4.8.1.3",
-        "questionCount": 27
-      },
-      {
-        "title": "T8 Chemical Analysis · 4.8.2",
-        "questionCount": 4
+        "questionCount": 13
       },
       {
         "title": "T8 Chemical Analysis · 4.8.2.1",
@@ -54,106 +50,22 @@
         "questionCount": 1
       },
       {
-        "title": "T8 Chemical Analysis · 4.8.4.1",
-        "questionCount": 4
-      },
-      {
         "title": "T8 Chemical Analysis · 4.8.4.1–4.8.4.2",
         "questionCount": 1
       },
       {
-        "title": "T8 Chemical Analysis · 4.8.4.2",
-        "questionCount": 2
+        "title": "T8 Chemical Analysis · 4.8.4.1",
+        "questionCount": 4
       },
       {
-        "title": "T8 Chemical Analysis · AQA Chemistry",
-        "questionCount": 1
+        "title": "T8 Chemical Analysis · 4.8.4.2",
+        "questionCount": 2
       }
     ]
   },
   "questions": [
     {
-      "id": "8.1-A",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
-      "tier": "All",
-      "question": "Define a pure substance in chemistry.",
-      "marks": 1,
-      "modelAnswer": "One element or one compound only.",
-      "markingPoints": [
-        "One element or one compound only."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.1–4.8.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-4-8-1-2-state",
-      "databaseId": "CHE-8.1-A"
-    },
-    {
-      "id": "8.1-B",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
-      "tier": "All",
-      "question": "State the melting-point evidence for a pure substance.",
-      "marks": 1,
-      "modelAnswer": "A sharp, characteristic melting point.",
-      "markingPoints": [
-        "A sharp, characteristic melting point."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.1–4.8.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-4-8-1-2-state",
-      "databaseId": "CHE-8.1-B"
-    },
-    {
-      "id": "8.1-C",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
-      "tier": "All",
-      "question": "Distinguish a pure compound from a formulation.",
-      "marks": 2,
-      "modelAnswer": "A pure compound is one substance. A formulation is a measured mixture designed for a purpose.",
-      "markingPoints": [
-        "A pure compound is one substance. A formulation is a measured mixture designed for a purpose."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.1–4.8.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-4-8-1-2-answe",
-      "databaseId": "CHE-8.1-C"
-    },
-    {
-      "id": "8.16",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.1 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1",
-      "tier": "All",
-      "question": "What is meant by a pure substance in chemistry?",
-      "marks": 2,
-      "modelAnswer": "A single element or a single compound, not a mixture.",
-      "markingPoints": [
-        "A single element or a single compound, not a mixture."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-answer",
-      "databaseId": "CHE-8.16"
-    },
-    {
-      "id": "8.17",
+      "id": "CHEM-T08-Q001",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.1 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.1.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1",
@@ -170,11 +82,40 @@
       "specificationReference": "4.8.1.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "temperature"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-answer",
-      "databaseId": "CHE-8.17"
+      "databaseId": "CHE-CHEM-T08-Q001"
     },
     {
-      "id": "T8-EX4",
+      "id": "CHEM-T08-Q002",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.1 · Answer",
+      "subtopic": "T8 Chemical Analysis · 4.8.1.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1",
+      "tier": "All",
+      "question": "What is meant by a pure substance in chemistry?",
+      "marks": 2,
+      "modelAnswer": "A single element or a single compound, not a mixture.",
+      "markingPoints": [
+        "A single element or a single compound, not a mixture."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.1.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "single",
+        "element",
+        "compound",
+        "mixture"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-answer",
+      "databaseId": "CHE-CHEM-T08-Q002"
+    },
+    {
+      "id": "CHEM-T08-Q003",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.1 · Explain",
       "subtopic": "T8 Chemical Analysis · 4.8.1.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1",
@@ -191,51 +132,93 @@
       "specificationReference": "4.8.1.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "composition",
+        "characteristic",
+        "Impurities",
+        "temperatures"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-explain",
-      "databaseId": "CHE-T8-EX4"
+      "databaseId": "CHE-CHEM-T08-Q003"
     },
     {
-      "id": "T8-QUIZ001",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.1 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is a pure substance?",
+      "id": "CHEM-T08-Q004",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
+      "tier": "All",
+      "question": "Define a pure substance in chemistry.",
       "marks": 1,
-      "modelAnswer": "A single element or compound that is not mixed with any other substance.",
+      "modelAnswer": "One element or one compound only.",
       "markingPoints": [
-        "A single element or compound that is not mixed with any other substance."
+        "One element or one compound only."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.1.1–4.8.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "element",
+        "compound"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-4-8-1-2-state",
+      "databaseId": "CHE-CHEM-T08-Q004"
+    },
+    {
+      "id": "CHEM-T08-Q005",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
+      "tier": "All",
+      "question": "State the melting-point evidence for a pure substance.",
+      "marks": 1,
+      "modelAnswer": "A sharp, characteristic melting point.",
+      "markingPoints": [
+        "A sharp, characteristic melting point."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.1.1–4.8.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "sharp",
+        "characteristic",
+        "melting",
+        "point"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-4-8-1-2-state",
+      "databaseId": "CHE-CHEM-T08-Q005"
+    },
+    {
+      "id": "CHEM-T08-Q006",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2 · Answer",
+      "subtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1–4.8.1.2",
+      "tier": "All",
+      "question": "Distinguish a pure compound from a formulation.",
+      "marks": 2,
+      "modelAnswer": "A pure compound is one substance. A formulation is a measured mixture designed for a purpose.",
+      "markingPoints": [
+        "A pure compound is one substance. A formulation is a measured mixture designed for a purpose."
       ],
       "commandWord": "Answer",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-answer",
-      "databaseId": "CHE-T8-QUIZ001"
-    },
-    {
-      "id": "T8-QUIZ002",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.1 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.1",
-      "tier": "Foundation and Higher",
-      "question": "How can pure substances be distinguished from mixtures?",
-      "marks": 1,
-      "modelAnswer": "Pure substances have specific melting and boiling points.",
-      "markingPoints": [
-        "Pure substances have specific melting and boiling points."
+      "specificationReference": "4.8.1.1–4.8.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "compound",
+        "substance",
+        "formulation",
+        "measured"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-answer",
-      "databaseId": "CHE-T8-QUIZ002"
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-1-4-8-1-2-answe",
+      "databaseId": "CHE-CHEM-T08-Q006"
     },
     {
-      "id": "8.18",
+      "id": "CHEM-T08-Q007",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.2 · State",
       "subtopic": "T8 Chemical Analysis · 4.8.1.2",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.2",
@@ -252,144 +235,68 @@
       "specificationReference": "4.8.1.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "product"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-2-state",
-      "databaseId": "CHE-8.18"
+      "databaseId": "CHE-CHEM-T08-Q007"
     },
     {
-      "id": "T8-QUIZ003",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.2 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What is a formulation?",
-      "marks": 1,
-      "modelAnswer": "A mixture which has been designed as a useful product.",
-      "markingPoints": [
-        "A mixture which has been designed as a useful product."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-2-answer",
-      "databaseId": "CHE-T8-QUIZ003"
-    },
-    {
-      "id": "T8-QUIZ004",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.2 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.2",
-      "tier": "Foundation and Higher",
-      "question": "How are formulations made?",
-      "marks": 1,
-      "modelAnswer": "Formulations are made by mixing specific chemicals in measured quantities.",
-      "markingPoints": [
-        "Formulations are made by mixing specific chemicals in measured quantities."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-2-answer",
-      "databaseId": "CHE-T8-QUIZ004"
-    },
-    {
-      "id": "T8-QUIZ005",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.2 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Name seven examples of formulations?",
-      "marks": 1,
-      "modelAnswer": "Fuels, cleaning agents, paints, medicine, alloys, fertilisers and foods.",
-      "markingPoints": [
-        "Fuels, cleaning agents, paints, medicine, alloys, fertilisers and foods."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-2-state",
-      "databaseId": "CHE-T8-QUIZ005"
-    },
-    {
-      "id": "8.2",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Describe",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "All",
-      "question": "Describe the paper-chromatography method for separating dyes",
-      "marks": 8,
-      "modelAnswer": "Pencil baseline.\nSmall concentrated separated spots.\nSolvent below line.\nSuitable solvent.\nLid.\nAllow front to rise.\nRemove/mark front immediately.\nDry.\nSame paper/solvent/start line.\nAvoid contamination.",
-      "markingPoints": [
-        "Pencil baseline.",
-        "Small concentrated separated spots.",
-        "Solvent below line.",
-        "Suitable solvent.",
-        "Lid.",
-        "Allow front to rise.",
-        "Remove/mark front immediately.",
-        "Dry.",
-        "Same paper/solvent/start line.",
-        "Avoid contamination."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-describe",
-      "databaseId": "CHE-8.2"
-    },
-    {
-      "id": "8.3",
+      "id": "CHEM-T08-Q008",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
       "tier": "All",
-      "question": "A dye moves 4.2 cm and solvent front 7.0 cm. Calculate Rf, give its unit, and explain what a matching Rf can and cannot show.",
-      "marks": 5,
-      "modelAnswer": "Rf=4.2/7.0=0.60, no unit.\nUnder same solvent/conditions it supports same substance.\nDoes not prove identity because different substances may share Rf.",
+      "question": "Why must Rf values only be compared when the same solvent and conditions are used?",
+      "marks": 2,
+      "modelAnswer": "Rf depends on the solvent, paper/stationary phase and conditions, so changing them can change the value.",
       "markingPoints": [
-        "Rf=4.2/7.0=0.60, no unit.",
-        "Under same solvent/conditions it supports same substance.",
-        "Does not prove identity because different substances may share Rf."
+        "Rf depends on the solvent, paper/stationary phase and conditions, so changing them can change the value."
       ],
       "commandWord": "Answer",
-      "assessmentObjective": "AO2/AO3",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.8.1.3",
-      "gradeDemand": "Grades 7–9",
+      "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "depends",
+        "solvent",
+        "paper",
+        "stationary",
+        "phase",
+        "conditions"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-8.3"
+      "databaseId": "CHE-CHEM-T08-Q008"
     },
     {
-      "id": "8.4",
+      "id": "CHEM-T08-Q009",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
       "tier": "All",
-      "question": "A chromatogram shows one spot for sample X and three for Y. State the cautious conclusions and two reasons a component might not appear.",
-      "marks": 5,
-      "modelAnswer": "X appears pure in this solvent.\nY mixture of at least three soluble components.\nMissing if insoluble, colourless/not visualised, remains baseline, co-migrates, too dilute, solvent front/run unsuitable.",
+      "question": "Why must the solvent level begin below the sample spots in paper chromatography?",
+      "marks": 2,
+      "modelAnswer": "Otherwise the samples dissolve directly into the solvent reservoir instead of travelling up the paper.",
       "markingPoints": [
-        "X appears pure in this solvent.",
-        "Y mixture of at least three soluble components.",
-        "Missing if insoluble, colourless/not visualised, remains baseline, co-migrates, too dilute, solvent front/run unsuitable."
+        "Otherwise the samples dissolve directly into the solvent reservoir instead of travelling up the paper."
       ],
       "commandWord": "Answer",
-      "assessmentObjective": "AO3",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.8.1.3",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "Otherwise",
+        "dissolve",
+        "reservoir",
+        "travelling"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-8.4"
+      "databaseId": "CHE-CHEM-T08-Q009"
     },
     {
-      "id": "8.19",
+      "id": "CHEM-T08-Q010",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
@@ -406,92 +313,17 @@
       "specificationReference": "4.8.1.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-8.19"
-    },
-    {
-      "id": "8.20",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "All",
-      "question": "Why must the solvent level begin below the sample spots in paper chromatography?",
-      "marks": 2,
-      "modelAnswer": "Otherwise the samples dissolve directly into the solvent reservoir instead of travelling up the paper.",
-      "markingPoints": [
-        "Otherwise the samples dissolve directly into the solvent reservoir instead of travelling up the paper."
+      "hintKeywords": [
+        "Graphite",
+        "insoluble",
+        "solvent",
+        "dissolve"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge",
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-8.20"
+      "databaseId": "CHE-CHEM-T08-Q010"
     },
     {
-      "id": "8.21",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "All",
-      "question": "A substance has an Rf value of 0.65 and the solvent front moves 8.0 cm. Calculate the distance moved by the substance.",
-      "marks": 2,
-      "modelAnswer": "Distance = Rf × solvent distance = 0.65 × 8.0 = 5.2 cm.",
-      "markingPoints": [
-        "Distance = Rf × solvent distance = 0.65 × 8.0 = 5.2 cm."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-8.21"
-    },
-    {
-      "id": "8.22",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "All",
-      "question": "Why must Rf values only be compared when the same solvent and conditions are used?",
-      "marks": 2,
-      "modelAnswer": "Rf depends on the solvent, paper/stationary phase and conditions, so changing them can change the value.",
-      "markingPoints": [
-        "Rf depends on the solvent, paper/stationary phase and conditions, so changing them can change the value."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-8.22"
-    },
-    {
-      "id": "T8-EX1",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Both",
-      "question": "A chromatogram has solvent front 8.0 cm and a spot 5.6 cm from baseline. Calculate Rf and state one limitation of identification by Rf.",
-      "marks": 3,
-      "modelAnswer": "Rf = 5.6 ÷ 8.0 = 0.70.\nRf depends on solvent/stationary phase and conditions, and different substances may share similar values, so compare under identical conditions/use another test.",
-      "markingPoints": [
-        "Rf = 5.6 ÷ 8.0 = 0.70.",
-        "Rf depends on solvent/stationary phase and conditions, and different substances may share similar values, so compare under identical conditions/use another test."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Grades 6–8",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-EX1"
-    },
-    {
-      "id": "T8-PD01",
+      "id": "CHEM-T08-Q011",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
@@ -514,32 +346,62 @@
       "specificationReference": "4.8.1.3",
       "gradeDemand": "Grades 4–7",
       "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "solvent front"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-describe",
-      "databaseId": "CHE-T8-PD01"
+      "databaseId": "CHE-CHEM-T08-Q011"
     },
     {
-      "id": "T8-PD02",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Explain",
+      "id": "CHEM-T08-Q012",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · State",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Both",
-      "question": "Explain why the baseline is drawn in pencil and kept above the solvent.",
-      "marks": 4,
-      "modelAnswer": "Graphite is insoluble and does not travel, unlike many inks.\nKeeping spots above solvent prevents them dissolving directly into the reservoir instead of separating up the paper.",
+      "tier": "Foundation and Higher",
+      "question": "Define the Rf value and write its equation.",
+      "marks": 2,
+      "modelAnswer": "Rf = distance moved by substance ÷ distance moved by solvent front.",
       "markingPoints": [
-        "Graphite is insoluble and does not travel, unlike many inks.",
-        "Keeping spots above solvent prevents them dissolving directly into the reservoir instead of separating up the paper."
+        "Rf = distance moved by substance ÷ distance moved by solvent front."
       ],
-      "commandWord": "Explain",
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.1.3",
+      "gradeDemand": "Medium",
+      "knowledgeType": "Chromatography",
+      "hintKeywords": [
+        "solvent front"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-state",
+      "databaseId": "CHE-CHEM-T08-Q012"
+    },
+    {
+      "id": "CHEM-T08-Q013",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
+      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
+      "tier": "All",
+      "question": "A substance has an Rf value of 0.65 and the solvent front moves 8.0 cm. Calculate the distance moved by the substance.",
+      "marks": 2,
+      "modelAnswer": "Distance = Rf × solvent distance = 0.65 × 8.0 = 5.2 cm.",
+      "markingPoints": [
+        "Distance = Rf × solvent distance = 0.65 × 8.0 = 5.2 cm."
+      ],
+      "commandWord": "Answer",
       "assessmentObjective": "AO2",
       "specificationReference": "4.8.1.3",
       "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Practical + disciplinary",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-explain",
-      "databaseId": "CHE-T8-PD02"
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Distance",
+        "solvent",
+        "distance"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
+      "databaseId": "CHE-CHEM-T08-Q013"
     },
     {
-      "id": "T8-PD03",
+      "id": "CHEM-T08-Q014",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
@@ -556,11 +418,73 @@
       "specificationReference": "4.8.1.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "ratio",
+        "lengths",
+        "units",
+        "cancel"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-PD03"
+      "databaseId": "CHE-CHEM-T08-Q014"
     },
     {
-      "id": "T8-PD04",
+      "id": "CHEM-T08-Q015",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Explain",
+      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
+      "tier": "Both",
+      "question": "Explain why the baseline is drawn in pencil and kept above the solvent.",
+      "marks": 4,
+      "modelAnswer": "Graphite is insoluble and does not travel, unlike many inks.\nKeeping spots above solvent prevents them dissolving directly into the reservoir instead of separating up the paper.",
+      "markingPoints": [
+        "Graphite is insoluble and does not travel, unlike many inks.",
+        "Keeping spots above solvent prevents them dissolving directly into the reservoir instead of separating up the paper."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.8.1.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Practical + disciplinary",
+      "hintKeywords": [
+        "insoluble",
+        "dissolving",
+        "reservoir",
+        "separating"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-explain",
+      "databaseId": "CHE-CHEM-T08-Q015"
+    },
+    {
+      "id": "CHEM-T08-Q016",
+      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
+      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
+      "tier": "Both",
+      "question": "A chromatogram has solvent front 8.0 cm and a spot 5.6 cm from baseline. Calculate Rf and state one limitation of identification by Rf.",
+      "marks": 3,
+      "modelAnswer": "Rf = 5.6 ÷ 8.0 = 0.70.\nRf depends on solvent/stationary phase and conditions, and different substances may share similar values, so compare under identical conditions/use another test.",
+      "markingPoints": [
+        "Rf = 5.6 ÷ 8.0 = 0.70.",
+        "Rf depends on solvent/stationary phase and conditions, and different substances may share similar values, so compare under identical conditions/use another test."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.8.1.3",
+      "gradeDemand": "Grades 6–8",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "depends",
+        "solvent",
+        "stationary",
+        "phase",
+        "conditions",
+        "different"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
+      "databaseId": "CHE-CHEM-T08-Q016"
+    },
+    {
+      "id": "CHEM-T08-Q017",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Explain",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
@@ -577,553 +501,104 @@
       "specificationReference": "4.8.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "temperature"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-explain",
-      "databaseId": "CHE-T8-PD04"
+      "databaseId": "CHE-CHEM-T08-Q017"
     },
     {
-      "id": "T8-QUIZ006",
+      "id": "CHEM-T08-Q019",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is chromatography?",
-      "marks": 1,
-      "modelAnswer": "A technique used to separate mixtures of soluble substances.",
+      "tier": "All",
+      "question": "A chromatogram shows one spot for sample X and three for Y. State the cautious conclusions and two reasons a component might not appear.",
+      "marks": 5,
+      "modelAnswer": "X appears pure in this solvent.\nY mixture of at least three soluble components.\nMissing if insoluble, colourless/not visualised, remains baseline, co-migrates, too dilute, solvent front/run unsuitable.",
       "markingPoints": [
-        "A technique used to separate mixtures of soluble substances."
+        "X appears pure in this solvent.",
+        "Y mixture of at least three soluble components.",
+        "Missing if insoluble, colourless/not visualised, remains baseline, co-migrates, too dilute, solvent front/run unsuitable."
       ],
       "commandWord": "Answer",
-      "assessmentObjective": "AO1",
+      "assessmentObjective": "AO3",
       "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "solvent front"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ006"
+      "databaseId": "CHE-CHEM-T08-Q019"
     },
     {
-      "id": "T8-QUIZ007",
+      "id": "CHEM-T08-Q018",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is the mobile phase?",
-      "marks": 1,
-      "modelAnswer": "The mobile phase is the solvent that moves through the chromatography paper.",
+      "tier": "All",
+      "question": "A dye moves 4.2 cm and solvent front 7.0 cm. Calculate Rf, give its unit, and explain what a matching Rf can and cannot show.",
+      "marks": 5,
+      "modelAnswer": "Rf=4.2/7.0=0.60, no unit.\nUnder same solvent/conditions it supports same substance.\nDoes not prove identity because different substances may share Rf.",
       "markingPoints": [
-        "The mobile phase is the solvent that moves through the chromatography paper."
+        "Rf=4.2/7.0=0.60, no unit.",
+        "Under same solvent/conditions it supports same substance.",
+        "Does not prove identity because different substances may share Rf."
       ],
       "commandWord": "Answer",
-      "assessmentObjective": "AO1",
+      "assessmentObjective": "AO3",
       "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "solvent",
+        "conditions",
+        "supports",
+        "substance",
+        "prove",
+        "identity"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ007"
+      "databaseId": "CHE-CHEM-T08-Q018"
     },
     {
-      "id": "T8-QUIZ008",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is the stationary phase?",
-      "marks": 1,
-      "modelAnswer": "The stationary phase is the paper (or other material) that does not move.",
-      "markingPoints": [
-        "The stationary phase is the paper (or other material) that does not move."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ008"
-    },
-    {
-      "id": "T8-QUIZ009",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Explain",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Explain how chromatography works?",
-      "marks": 1,
-      "modelAnswer": "Substances move at different speeds because they have different solubilities in the solvent and different attractions to the paper.",
-      "markingPoints": [
-        "Substances move at different speeds because they have different solubilities in the solvent and different attractions to the paper."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-explain",
-      "databaseId": "CHE-T8-QUIZ009"
-    },
-    {
-      "id": "T8-QUIZ010",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is the origin?",
-      "marks": 1,
-      "modelAnswer": "The pencil baseline where samples are placed at the start.",
-      "markingPoints": [
-        "The pencil baseline where samples are placed at the start."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ010"
-    },
-    {
-      "id": "T8-QUIZ011",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is the solvent front?",
-      "marks": 1,
-      "modelAnswer": "The furthest point reached by the solvent.",
-      "markingPoints": [
-        "The furthest point reached by the solvent."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ011"
-    },
-    {
-      "id": "T8-QUIZ012",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What does Rf mean?",
-      "marks": 1,
-      "modelAnswer": "Retention factor.",
-      "markingPoints": [
-        "Retention factor."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ012"
-    },
-    {
-      "id": "T8-QUIZ013",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is the formula to calculate the Rf of a substance?",
-      "marks": 1,
-      "modelAnswer": "Rf = distance moved by substance ÷ distance moved by solvent front.",
-      "markingPoints": [
-        "Rf = distance moved by substance ÷ distance moved by solvent front."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ013"
-    },
-    {
-      "id": "T8-QUIZ014",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is the Rf value of a sample which has travelled half the distance of the solvent front?",
-      "marks": 1,
-      "modelAnswer": "0.50.",
-      "markingPoints": [
-        "0.50."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ014"
-    },
-    {
-      "id": "T8-QUIZ015",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What is the Rf value of a sample which has travelled a quarter of the distance of the solvent front?",
-      "marks": 1,
-      "modelAnswer": "0.25.",
-      "markingPoints": [
-        "0.25."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ015"
-    },
-    {
-      "id": "T8-QUIZ016",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "How can chromatography be used to determine if a substance is pure?",
-      "marks": 1,
-      "modelAnswer": "A pure substance gives one spot on a chromatogram in a given solvent; a mixture gives more than one spot.",
-      "markingPoints": [
-        "A pure substance gives one spot on a chromatogram in a given solvent; a mixture gives more than one spot."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ016"
-    },
-    {
-      "id": "T8-QUIZ017",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Calculate",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Calculate the Rf value for each sample from the following chromatograms. A. B. C?",
-      "marks": 1,
-      "modelAnswer": "Use Rf = distance moved by each spot ÷ distance moved by the solvent front, measured from the baseline. The numerical answers depend on the supplied chromatograms.",
-      "markingPoints": [
-        "Use Rf = distance moved by each spot ÷ distance moved by the solvent front, measured from the baseline. The numerical answers depend on the supplied chromatograms."
-      ],
-      "commandWord": "Calculate",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-calculate",
-      "databaseId": "CHE-T8-QUIZ017"
-    },
-    {
-      "id": "T8-QUIZ018",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Which of the chromatograms above shows a mixture?",
-      "marks": 1,
-      "modelAnswer": "The chromatogram with more than one spot is the mixture.",
-      "markingPoints": [
-        "The chromatogram with more than one spot is the mixture."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-answer",
-      "databaseId": "CHE-T8-QUIZ018"
-    },
-    {
-      "id": "T8-QUIZ019",
+      "id": "CHEM-T08-Q020",
       "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.1.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe an experiment to see if the colouring in sweets is pure or a mixture?",
-      "marks": 1,
-      "modelAnswer": "Dissolve the colouring in water, spot it on a pencil baseline, place the paper in a solvent below the line, allow the solvent to rise, then dry and count the spots.",
+      "tier": "All",
+      "question": "Describe the paper-chromatography method for separating dyes",
+      "marks": 6,
+      "modelAnswer": "Pencil baseline.\nSmall concentrated separated spots.\nSolvent below line.\nSuitable solvent.\nLid.\nAllow front to rise.\nRemove/mark front immediately.\nDry.\nSame paper/solvent/start line.\nAvoid contamination.",
       "markingPoints": [
-        "Dissolve the colouring in water, spot it on a pencil baseline, place the paper in a solvent below the line, allow the solvent to rise, then dry and count the spots."
+        "Pencil baseline.",
+        "Small concentrated separated spots.",
+        "Solvent below line.",
+        "Suitable solvent.",
+        "Lid.",
+        "Allow front to rise.",
+        "Remove/mark front immediately.",
+        "Dry.",
+        "Same paper/solvent/start line.",
+        "Avoid contamination."
       ],
       "commandWord": "Describe",
-      "assessmentObjective": "AO1",
+      "assessmentObjective": "AO3",
       "specificationReference": "4.8.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "concentrated",
+        "separated",
+        "immediately",
+        "contamination"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-describe",
-      "databaseId": "CHE-T8-QUIZ019"
+      "databaseId": "CHE-CHEM-T08-Q020"
     },
     {
-      "id": "T8-QZ01",
-      "questionFamily": "T8 Chemical Analysis · 4.8.1.3 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Define the Rf value and write its equation.",
-      "marks": 2,
-      "modelAnswer": "Rf = distance moved by substance ÷ distance moved by solvent front.",
-      "markingPoints": [
-        "Rf = distance moved by substance ÷ distance moved by solvent front."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.1.3",
-      "gradeDemand": "Medium",
-      "knowledgeType": "Chromatography",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-1-3-state",
-      "databaseId": "CHE-T8-QZ01"
-    },
-    {
-      "id": "T8-QUIZ020",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the test for hydrogen?",
-      "marks": 1,
-      "modelAnswer": "Hold a lighted splint at the gas. Hydrogen gives a squeaky pop.",
-      "markingPoints": [
-        "Hold a lighted splint at the gas. Hydrogen gives a squeaky pop."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-answer",
-      "databaseId": "CHE-T8-QUIZ020"
-    },
-    {
-      "id": "T8-QUIZ021",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2",
-      "tier": "Foundation and Higher",
-      "question": "What Is the test for oxygen?",
-      "marks": 1,
-      "modelAnswer": "Insert a glowing splint. Oxygen relights it.",
-      "markingPoints": [
-        "Insert a glowing splint. Oxygen relights it."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-answer",
-      "databaseId": "CHE-T8-QUIZ021"
-    },
-    {
-      "id": "T8-QUIZ022",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2",
-      "tier": "Foundation and Higher",
-      "question": "What Is the test for carbon dioxide?",
-      "marks": 1,
-      "modelAnswer": "Bubble the gas through limewater. Carbon dioxide turns limewater cloudy.",
-      "markingPoints": [
-        "Bubble the gas through limewater. Carbon dioxide turns limewater cloudy."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-answer",
-      "databaseId": "CHE-T8-QUIZ022"
-    },
-    {
-      "id": "T8-QUIZ023",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2",
-      "tier": "Foundation and Higher",
-      "question": "What Is the test for chlorine?",
-      "marks": 1,
-      "modelAnswer": "Hold damp blue litmus paper in the gas. Chlorine turns it red then bleaches it white.",
-      "markingPoints": [
-        "Hold damp blue litmus paper in the gas. Chlorine turns it red then bleaches it white."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-answer",
-      "databaseId": "CHE-T8-QUIZ023"
-    },
-    {
-      "id": "8.5-A",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "State the positive test for hydrogen.",
-      "marks": 1,
-      "modelAnswer": "A lit splint gives a squeaky pop.",
-      "markingPoints": [
-        "A lit splint gives a squeaky pop."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
-      "databaseId": "CHE-8.5-A"
-    },
-    {
-      "id": "8.5-B",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "State the positive test for oxygen.",
-      "marks": 1,
-      "modelAnswer": "A glowing splint relights.",
-      "markingPoints": [
-        "A glowing splint relights."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
-      "databaseId": "CHE-8.5-B"
-    },
-    {
-      "id": "8.5-C",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "State the positive test for carbon dioxide.",
-      "marks": 1,
-      "modelAnswer": "Limewater turns milky/cloudy.",
-      "markingPoints": [
-        "Limewater turns milky/cloudy."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
-      "databaseId": "CHE-8.5-C"
-    },
-    {
-      "id": "8.5-D",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "State the positive test for chlorine.",
-      "marks": 1,
-      "modelAnswer": "Damp litmus paper is bleached white.",
-      "markingPoints": [
-        "Damp litmus paper is bleached white."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
-      "databaseId": "CHE-8.5-D"
-    },
-    {
-      "id": "8.6-S1",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "A colourless gas extinguishes a flame. Explain why this observation does not identify the gas as carbon dioxide.",
-      "marks": 1,
-      "modelAnswer": "More than one gas can extinguish a flame, so this observation is not a unique test for carbon dioxide.",
-      "markingPoints": [
-        "More than one gas can extinguish a flame, so this observation is not a unique test for carbon dioxide."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-answer",
-      "databaseId": "CHE-8.6-S1"
-    },
-    {
-      "id": "8.6-S2",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "Describe a confirmatory test for carbon dioxide.",
-      "marks": 2,
-      "modelAnswer": "Bubble the gas through limewater. Limewater turns cloudy/milky if carbon dioxide is present.",
-      "markingPoints": [
-        "Bubble the gas through limewater. Limewater turns cloudy/milky if carbon dioxide is present."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
-      "databaseId": "CHE-8.6-S2"
-    },
-    {
-      "id": "8.23",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "Describe the test for hydrogen gas.",
-      "marks": 2,
-      "modelAnswer": "Place a lit splint at the mouth of the container.\nHydrogen burns with a squeaky pop.",
-      "markingPoints": [
-        "Place a lit splint at the mouth of the container.",
-        "Hydrogen burns with a squeaky pop."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
-      "databaseId": "CHE-8.23"
-    },
-    {
-      "id": "8.24",
-      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
-      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
-      "tier": "All",
-      "question": "Describe the test for oxygen gas.",
-      "marks": 2,
-      "modelAnswer": "Insert a glowing splint.\nIt relights.",
-      "markingPoints": [
-        "Insert a glowing splint.",
-        "It relights."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.2.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
-      "databaseId": "CHE-8.24"
-    },
-    {
-      "id": "8.25",
+      "id": "CHEM-T08-Q021",
       "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.2.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
@@ -1140,11 +615,16 @@
       "specificationReference": "4.8.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "Bubble",
+        "limewater",
+        "cloudy"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
-      "databaseId": "CHE-8.25"
+      "databaseId": "CHE-CHEM-T08-Q021"
     },
     {
-      "id": "8.26",
+      "id": "CHEM-T08-Q022",
       "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.2.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
@@ -1161,11 +641,71 @@
       "specificationReference": "4.8.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "Expose",
+        "litmus",
+        "paper",
+        "bleached"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
-      "databaseId": "CHE-8.26"
+      "databaseId": "CHE-CHEM-T08-Q022"
     },
     {
-      "id": "T8-QZ02",
+      "id": "CHEM-T08-Q023",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "Describe the test for hydrogen gas.",
+      "marks": 2,
+      "modelAnswer": "Place a lit splint at the mouth of the container.\nHydrogen burns with a squeaky pop.",
+      "markingPoints": [
+        "Place a lit splint at the mouth of the container.",
+        "Hydrogen burns with a squeaky pop."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "splint",
+        "container",
+        "Hydrogen",
+        "squeaky"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
+      "databaseId": "CHE-CHEM-T08-Q023"
+    },
+    {
+      "id": "CHEM-T08-Q024",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "Describe the test for oxygen gas.",
+      "marks": 2,
+      "modelAnswer": "Insert a glowing splint.\nIt relights.",
+      "markingPoints": [
+        "Insert a glowing splint.",
+        "It relights."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "Insert",
+        "glowing",
+        "splint",
+        "relights"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
+      "databaseId": "CHE-CHEM-T08-Q024"
+    },
+    {
+      "id": "CHEM-T08-Q025",
       "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
       "subtopic": "T8 Chemical Analysis · 4.8.2.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
@@ -1181,17 +721,176 @@
       "specificationReference": "4.8.2.1",
       "gradeDemand": "Medium",
       "knowledgeType": "Gas tests",
+      "hintKeywords": [
+        "litmus",
+        "paper",
+        "first",
+        "bleached"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
-      "databaseId": "CHE-T8-QZ02"
+      "databaseId": "CHE-CHEM-T08-Q025"
     },
     {
-      "id": "T8-PD05",
+      "id": "CHEM-T08-Q026",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "State the positive test for carbon dioxide.",
+      "marks": 1,
+      "modelAnswer": "Limewater turns milky/cloudy.",
+      "markingPoints": [
+        "Limewater turns milky/cloudy."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Limewater",
+        "turns",
+        "milky",
+        "cloudy"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
+      "databaseId": "CHE-CHEM-T08-Q026"
+    },
+    {
+      "id": "CHEM-T08-Q027",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "State the positive test for chlorine.",
+      "marks": 1,
+      "modelAnswer": "Damp litmus paper is bleached white.",
+      "markingPoints": [
+        "Damp litmus paper is bleached white."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "litmus",
+        "paper",
+        "bleached",
+        "white"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
+      "databaseId": "CHE-CHEM-T08-Q027"
+    },
+    {
+      "id": "CHEM-T08-Q028",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "State the positive test for hydrogen.",
+      "marks": 1,
+      "modelAnswer": "A lit splint gives a squeaky pop.",
+      "markingPoints": [
+        "A lit splint gives a squeaky pop."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "splint",
+        "gives",
+        "squeaky"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
+      "databaseId": "CHE-CHEM-T08-Q028"
+    },
+    {
+      "id": "CHEM-T08-Q029",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "State the positive test for oxygen.",
+      "marks": 1,
+      "modelAnswer": "A glowing splint relights.",
+      "markingPoints": [
+        "A glowing splint relights."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "glowing",
+        "splint",
+        "relights"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-state",
+      "databaseId": "CHE-CHEM-T08-Q029"
+    },
+    {
+      "id": "CHEM-T08-Q030",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Answer",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "A colourless gas extinguishes a flame. Explain why this observation does not identify the gas as carbon dioxide.",
+      "marks": 1,
+      "modelAnswer": "More than one gas can extinguish a flame, so this observation is not a unique test for carbon dioxide.",
+      "markingPoints": [
+        "More than one gas can extinguish a flame, so this observation is not a unique test for carbon dioxide."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "extinguish",
+        "observation",
+        "unique",
+        "dioxide"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-answer",
+      "databaseId": "CHE-CHEM-T08-Q030"
+    },
+    {
+      "id": "CHEM-T08-Q031",
+      "questionFamily": "T8 Chemical Analysis · 4.8.2.1 · Describe",
+      "subtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.2.1",
+      "tier": "All",
+      "question": "Describe a confirmatory test for carbon dioxide.",
+      "marks": 2,
+      "modelAnswer": "Bubble the gas through limewater. Limewater turns cloudy/milky if carbon dioxide is present.",
+      "markingPoints": [
+        "Bubble the gas through limewater. Limewater turns cloudy/milky if carbon dioxide is present."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "limewater",
+        "dioxide",
+        "present"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-2-1-describe",
+      "databaseId": "CHE-CHEM-T08-Q031"
+    },
+    {
+      "id": "CHEM-T08-Q032",
       "questionFamily": "T8 Chemical Analysis · 4.8.3 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3",
       "tier": "Chemistry only",
       "question": "Describe tests for carbonate, sulfate and halide ions, including reagents and positive observations.",
-      "marks": 8,
+      "marks": 6,
       "modelAnswer": "Carbonate: add dilute acid.\nEffervescence and carbon dioxide turns limewater milky.\nSulfate: acidify then add barium chloride.\nWhite precipitate.\nHalide: acidify with dilute nitric acid then add silver nitrate.\nChloride white, bromide cream, iodide yellow precipitate.",
       "markingPoints": [
         "Carbonate: add dilute acid.",
@@ -1206,138 +905,14 @@
       "specificationReference": "4.8.3",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "precipitate"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-describe",
-      "databaseId": "CHE-T8-PD05"
+      "databaseId": "CHE-CHEM-T08-Q032"
     },
     {
-      "id": "8.7-A-S1",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "tier": "Chemistry only",
-      "question": "State the flame-test colour for lithium ions.",
-      "marks": 1,
-      "modelAnswer": "Crimson red.",
-      "markingPoints": [
-        "Crimson red."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.8.3.1",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
-      "databaseId": "CHE-8.7-A-S1"
-    },
-    {
-      "id": "8.7-A-S2",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "tier": "Chemistry only",
-      "question": "State the flame-test colour for sodium ions.",
-      "marks": 1,
-      "modelAnswer": "Yellow/orange-yellow.",
-      "markingPoints": [
-        "Yellow/orange-yellow."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.8.3.1",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
-      "databaseId": "CHE-8.7-A-S2"
-    },
-    {
-      "id": "8.7-A-S3",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "tier": "Chemistry only",
-      "question": "State the flame-test colour for potassium ions.",
-      "marks": 1,
-      "modelAnswer": "Lilac.",
-      "markingPoints": [
-        "Lilac."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.8.3.1",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
-      "databaseId": "CHE-8.7-A-S3"
-    },
-    {
-      "id": "8.7-B",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "tier": "Chemistry only",
-      "question": "State the flame-test colours for calcium and copper ions.",
-      "marks": 2,
-      "modelAnswer": "Calcium: orange-red; copper: green.",
-      "markingPoints": [
-        "Calcium: orange-red; copper: green."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.8.3.1",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
-      "databaseId": "CHE-8.7-B"
-    },
-    {
-      "id": "8.7-C",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
-      "tier": "Chemistry only",
-      "question": "State one limitation of flame tests for mixtures.",
-      "marks": 1,
-      "modelAnswer": "Colours can overlap or sodium can mask another colour.",
-      "markingPoints": [
-        "Colours can overlap or sodium can mask another colour."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.8.3.1",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
-      "databaseId": "CHE-8.7-C"
-    },
-    {
-      "id": "8.12",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.1–4.8.3.5 · Answer",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.1–4.8.3.5",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1–4.8.3.5",
-      "tier": "Chemistry only",
-      "question": "Plan a sequence to identify a solution containing one metal ion and one negative ion without cross-contamination.",
-      "marks": 7,
-      "modelAnswer": "Use fresh portions.\nMetal test flame/NaOH.\nNegative-ion test chosen from carbonate/halide/sulfate.\nCorrect reagent order.\nClean apparatus.\nRecord positive/negative results.\nAvoid chloride acid before halide.\nConfirm using discriminatory observations.",
-      "markingPoints": [
-        "Use fresh portions.",
-        "Metal test flame/NaOH.",
-        "Negative-ion test chosen from carbonate/halide/sulfate.",
-        "Correct reagent order.",
-        "Clean apparatus.",
-        "Record positive/negative results.",
-        "Avoid chloride acid before halide.",
-        "Confirm using discriminatory observations."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.8.3.1–4.8.3.5",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-4-8-3-5-answe",
-      "databaseId": "CHE-8.12"
-    },
-    {
-      "id": "8.27",
+      "id": "CHEM-T08-Q033",
       "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.3.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
@@ -1353,11 +928,14 @@
       "specificationReference": "4.8.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Lilac"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-answer",
-      "databaseId": "CHE-8.27"
+      "databaseId": "CHE-CHEM-T08-Q033"
     },
     {
-      "id": "T8-EX2",
+      "id": "CHEM-T08-Q034",
       "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.3.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
@@ -1378,37 +956,170 @@
       "specificationReference": "4.8.3.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "precipitate",
+        "AgCl",
+        "AgBr",
+        "AgI"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-describe",
-      "databaseId": "CHE-T8-EX2"
+      "databaseId": "CHE-CHEM-T08-Q034"
     },
     {
-      "id": "8.8",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.2 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.2",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.2",
+      "id": "CHEM-T08-Q035",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
       "tier": "Chemistry only",
-      "question": "State sodium-hydroxide precipitate results for Al3+, Ca2+, Mg2+, Cu2+, Fe2+ and Fe3+, including the extra observation distinguishing aluminium.",
-      "marks": 8,
-      "modelAnswer": "Al white dissolves in excess.\nCa white.\nMg white.\nCu blue.\nFe2 green.\nFe3 brown.\nInsoluble metal hydroxides.",
+      "question": "State one limitation of flame tests for mixtures.",
+      "marks": 1,
+      "modelAnswer": "Colours can overlap or sodium can mask another colour.",
       "markingPoints": [
-        "Al white dissolves in excess.",
-        "Ca white.",
-        "Mg white.",
-        "Cu blue.",
-        "Fe2 green.",
-        "Fe3 brown.",
-        "Insoluble metal hydroxides."
+        "Colours can overlap or sodium can mask another colour."
       ],
       "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.3.2",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.3.1",
       "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-2-state",
-      "databaseId": "CHE-8.8"
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Colours",
+        "overlap",
+        "sodium",
+        "another"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
+      "databaseId": "CHE-CHEM-T08-Q035"
     },
     {
-      "id": "8.28",
+      "id": "CHEM-T08-Q036",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "tier": "Chemistry only",
+      "question": "State the flame-test colour for lithium ions.",
+      "marks": 1,
+      "modelAnswer": "Crimson red.",
+      "markingPoints": [
+        "Crimson red."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.3.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Crimson"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
+      "databaseId": "CHE-CHEM-T08-Q036"
+    },
+    {
+      "id": "CHEM-T08-Q037",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "tier": "Chemistry only",
+      "question": "State the flame-test colour for potassium ions.",
+      "marks": 1,
+      "modelAnswer": "Lilac.",
+      "markingPoints": [
+        "Lilac."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.3.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Lilac"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
+      "databaseId": "CHE-CHEM-T08-Q037"
+    },
+    {
+      "id": "CHEM-T08-Q038",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "tier": "Chemistry only",
+      "question": "State the flame-test colour for sodium ions.",
+      "marks": 1,
+      "modelAnswer": "Yellow/orange-yellow.",
+      "markingPoints": [
+        "Yellow/orange-yellow."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.3.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Yellow",
+        "orange"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
+      "databaseId": "CHE-CHEM-T08-Q038"
+    },
+    {
+      "id": "CHEM-T08-Q039",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.1 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1",
+      "tier": "Chemistry only",
+      "question": "State the flame-test colours for calcium and copper ions.",
+      "marks": 2,
+      "modelAnswer": "Calcium: orange-red; copper: green.",
+      "markingPoints": [
+        "Calcium: orange-red; copper: green."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.3.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Calcium",
+        "orange",
+        "copper",
+        "green"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-state",
+      "databaseId": "CHE-CHEM-T08-Q039"
+    },
+    {
+      "id": "CHEM-T08-Q040",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.1–4.8.3.5 · Answer",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.1–4.8.3.5",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.1–4.8.3.5",
+      "tier": "Chemistry only",
+      "question": "Plan a sequence to identify a solution containing one metal ion and one negative ion without cross-contamination.",
+      "marks": 6,
+      "modelAnswer": "Use fresh portions.\nMetal test flame/NaOH.\nNegative-ion test chosen from carbonate/halide/sulfate.\nCorrect reagent order.\nClean apparatus.\nRecord positive/negative results.\nAvoid chloride acid before halide.\nConfirm using discriminatory observations.",
+      "markingPoints": [
+        "Use fresh portions.",
+        "Metal test flame/NaOH.",
+        "Negative-ion test chosen from carbonate/halide/sulfate.",
+        "Correct reagent order.",
+        "Clean apparatus.",
+        "Record positive/negative results.",
+        "Avoid chloride acid before halide.",
+        "Confirm using discriminatory observations."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.3.1–4.8.3.5",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "NaOH",
+        "ion"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-1-4-8-3-5-answe",
+      "databaseId": "CHE-CHEM-T08-Q040"
+    },
+    {
+      "id": "CHEM-T08-Q041",
       "questionFamily": "T8 Chemical Analysis · 4.8.3.2 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.3.2",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.2",
@@ -1424,11 +1135,45 @@
       "specificationReference": "4.8.3.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ions",
+        "Cu2"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-2-answer",
-      "databaseId": "CHE-8.28"
+      "databaseId": "CHE-CHEM-T08-Q041"
     },
     {
-      "id": "8.9-S1",
+      "id": "CHEM-T08-Q042",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.2 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.2",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.2",
+      "tier": "Chemistry only",
+      "question": "State sodium-hydroxide precipitate results for Al3+, Ca2+, Mg2+, Cu2+, Fe2+ and Fe3+, including the extra observation distinguishing aluminium.",
+      "marks": 6,
+      "modelAnswer": "Al white dissolves in excess.\nCa white.\nMg white.\nCu blue.\nFe2 green.\nFe3 brown.\nInsoluble metal hydroxides.",
+      "markingPoints": [
+        "Al white dissolves in excess.",
+        "Ca white.",
+        "Mg white.",
+        "Cu blue.",
+        "Fe2 green.",
+        "Fe3 brown.",
+        "Insoluble metal hydroxides."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.8.3.2",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Fe2",
+        "Fe3"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-2-state",
+      "databaseId": "CHE-CHEM-T08-Q042"
+    },
+    {
+      "id": "CHEM-T08-Q043",
       "questionFamily": "T8 Chemical Analysis · 4.8.3.3 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.3.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.3",
@@ -1440,15 +1185,21 @@
         "Add dilute acid to the sample. Carbon dioxide is produced and turns limewater cloudy."
       ],
       "commandWord": "Describe",
-      "assessmentObjective": "AO1/AO2",
+      "assessmentObjective": "AO2",
       "specificationReference": "4.8.3.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "dilute",
+        "dioxide",
+        "produced",
+        "limewater"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-3-describe",
-      "databaseId": "CHE-8.9-S1"
+      "databaseId": "CHE-CHEM-T08-Q043"
     },
     {
-      "id": "8.9-S2",
+      "id": "CHEM-T08-Q044",
       "questionFamily": "T8 Chemical Analysis · 4.8.3.3 · State",
       "subtopic": "T8 Chemical Analysis · 4.8.3.3",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.3",
@@ -1460,75 +1211,18 @@
         "CO₃²⁻ + 2H⁺ → CO₂ + H₂O."
       ],
       "commandWord": "State",
-      "assessmentObjective": "AO1/AO2",
+      "assessmentObjective": "AO2",
       "specificationReference": "4.8.3.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "H₂O"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-3-state",
-      "databaseId": "CHE-8.9-S2"
+      "databaseId": "CHE-CHEM-T08-Q044"
     },
     {
-      "id": "8.10-S1",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.4 · Describe",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.4",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.4",
-      "tier": "Chemistry only",
-      "question": "Describe the test for halide ions.",
-      "marks": 2,
-      "modelAnswer": "Acidify the sample with dilute nitric acid, then add silver nitrate solution. A precipitate forms if a halide ion is present.",
-      "markingPoints": [
-        "Acidify the sample with dilute nitric acid, then add silver nitrate solution. A precipitate forms if a halide ion is present."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.8.3.4",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-4-describe",
-      "databaseId": "CHE-8.10-S1"
-    },
-    {
-      "id": "8.10-S2",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.4 · State",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.4",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.4",
-      "tier": "Chemistry only",
-      "question": "State the precipitate colours for chloride, bromide and iodide ions in the halide-ion test.",
-      "marks": 3,
-      "modelAnswer": "Chloride: white precipitate. Bromide: cream precipitate. Iodide: yellow precipitate.",
-      "markingPoints": [
-        "Chloride: white precipitate. Bromide: cream precipitate. Iodide: yellow precipitate."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.8.3.4",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-4-state",
-      "databaseId": "CHE-8.10-S2"
-    },
-    {
-      "id": "8.10-S3",
-      "questionFamily": "T8 Chemical Analysis · 4.8.3.4 · Explain",
-      "subtopic": "T8 Chemical Analysis · 4.8.3.4",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.4",
-      "tier": "Chemistry only",
-      "question": "Explain why nitric acid is used instead of hydrochloric acid before the halide-ion test.",
-      "marks": 2,
-      "modelAnswer": "Hydrochloric acid contains chloride ions, which would produce a white precipitate with silver nitrate and give a false positive. Nitric acid does not add halide ions.",
-      "markingPoints": [
-        "Hydrochloric acid contains chloride ions, which would produce a white precipitate with silver nitrate and give a false positive. Nitric acid does not add halide ions."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.8.3.4",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-4-explain",
-      "databaseId": "CHE-8.10-S3"
-    },
-    {
-      "id": "8.29",
+      "id": "CHEM-T08-Q045",
       "questionFamily": "T8 Chemical Analysis · 4.8.3.4 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.3.4",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.4",
@@ -1544,11 +1238,85 @@
       "specificationReference": "4.8.3.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ions"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-4-answer",
-      "databaseId": "CHE-8.29"
+      "databaseId": "CHE-CHEM-T08-Q045"
     },
     {
-      "id": "8.11",
+      "id": "CHEM-T08-Q046",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.4 · Describe",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.4",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.4",
+      "tier": "Chemistry only",
+      "question": "Describe the test for halide ions.",
+      "marks": 2,
+      "modelAnswer": "Acidify the sample with dilute nitric acid, then add silver nitrate solution. A precipitate forms if a halide ion is present.",
+      "markingPoints": [
+        "Acidify the sample with dilute nitric acid, then add silver nitrate solution. A precipitate forms if a halide ion is present."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.8.3.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "precipitate",
+        "ion"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-4-describe",
+      "databaseId": "CHE-CHEM-T08-Q046"
+    },
+    {
+      "id": "CHEM-T08-Q047",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.4 · Explain",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.4",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.4",
+      "tier": "Chemistry only",
+      "question": "Explain why nitric acid is used instead of hydrochloric acid before the halide-ion test.",
+      "marks": 2,
+      "modelAnswer": "Hydrochloric acid contains chloride ions, which would produce a white precipitate with silver nitrate and give a false positive. Nitric acid does not add halide ions.",
+      "markingPoints": [
+        "Hydrochloric acid contains chloride ions, which would produce a white precipitate with silver nitrate and give a false positive. Nitric acid does not add halide ions."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.8.3.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ions",
+        "precipitate"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-4-explain",
+      "databaseId": "CHE-CHEM-T08-Q047"
+    },
+    {
+      "id": "CHEM-T08-Q048",
+      "questionFamily": "T8 Chemical Analysis · 4.8.3.4 · State",
+      "subtopic": "T8 Chemical Analysis · 4.8.3.4",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.4",
+      "tier": "Chemistry only",
+      "question": "State the precipitate colours for chloride, bromide and iodide ions in the halide-ion test.",
+      "marks": 3,
+      "modelAnswer": "Chloride: white precipitate. Bromide: cream precipitate. Iodide: yellow precipitate.",
+      "markingPoints": [
+        "Chloride: white precipitate. Bromide: cream precipitate. Iodide: yellow precipitate."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.8.3.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "precipitate"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-4-state",
+      "databaseId": "CHE-CHEM-T08-Q048"
+    },
+    {
+      "id": "CHEM-T08-Q049",
       "questionFamily": "T8 Chemical Analysis · 4.8.3.5 · State",
       "subtopic": "T8 Chemical Analysis · 4.8.3.5",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.3.5",
@@ -1562,36 +1330,20 @@
         "Acid removes carbonate interference that could also form white barium carbonate."
       ],
       "commandWord": "State",
-      "assessmentObjective": "AO1/AO2",
+      "assessmentObjective": "AO2",
       "specificationReference": "4.8.3.5",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-5-state",
-      "databaseId": "CHE-8.11"
-    },
-    {
-      "id": "8.13",
-      "questionFamily": "T8 Chemical Analysis · 4.8.4.1 · Explain",
-      "subtopic": "T8 Chemical Analysis · 4.8.4.1",
-      "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.1",
-      "tier": "Chemistry only",
-      "question": "Explain why instrumental methods can be preferable to chemical tests and give one disadvantage.",
-      "marks": 4,
-      "modelAnswer": "More sensitive, accurate, rapid, small samples, quantitative/automated.\nExpensive equipment/calibration/training needed.",
-      "markingPoints": [
-        "More sensitive, accurate, rapid, small samples, quantitative/automated.",
-        "Expensive equipment/calibration/training needed."
+      "hintKeywords": [
+        "HCl",
+        "BaSO",
+        "precipitate"
       ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.8.4.1",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-1-explain",
-      "databaseId": "CHE-8.13"
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-3-5-state",
+      "databaseId": "CHE-CHEM-T08-Q049"
     },
     {
-      "id": "8.30",
+      "id": "CHEM-T08-Q050",
       "questionFamily": "T8 Chemical Analysis · 4.8.4.1–4.8.4.2 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.4.1–4.8.4.2",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.1–4.8.4.2",
@@ -1608,11 +1360,15 @@
       "specificationReference": "4.8.4.1–4.8.4.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "ion",
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-1-4-8-4-2-answe",
-      "databaseId": "CHE-8.30"
+      "databaseId": "CHE-CHEM-T08-Q050"
     },
     {
-      "id": "T8-EX3",
+      "id": "CHEM-T08-Q051",
       "questionFamily": "T8 Chemical Analysis · 4.8.4.1 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.4.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.1",
@@ -1629,11 +1385,41 @@
       "specificationReference": "4.8.4.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-1-answer",
-      "databaseId": "CHE-T8-EX3"
+      "databaseId": "CHE-CHEM-T08-Q051"
     },
     {
-      "id": "T8-EX5",
+      "id": "CHEM-T08-Q052",
+      "questionFamily": "T8 Chemical Analysis · 4.8.4.1 · Explain",
+      "subtopic": "T8 Chemical Analysis · 4.8.4.1",
+      "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.1",
+      "tier": "Chemistry only",
+      "question": "Explain why instrumental analysis is often preferred for very small concentrations in complex mixtures.",
+      "marks": 4,
+      "modelAnswer": "It is sensitive, rapid and can separate/identify components quantitatively using reference data.\nInstruments require calibration, trained operation and interpretation, so results still need quality control.",
+      "markingPoints": [
+        "It is sensitive, rapid and can separate/identify components quantitatively using reference data.",
+        "Instruments require calibration, trained operation and interpretation, so results still need quality control."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.8.4.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "quantitatively",
+        "Instruments",
+        "calibration",
+        "interpretation"
+      ],
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-1-explain",
+      "databaseId": "CHE-CHEM-T08-Q052"
+    },
+    {
+      "id": "CHEM-T08-Q053",
       "questionFamily": "T8 Chemical Analysis · 4.8.4.1 · Describe",
       "subtopic": "T8 Chemical Analysis · 4.8.4.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.1",
@@ -1652,32 +1438,42 @@
       "specificationReference": "4.8.4.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ions",
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-1-describe",
-      "databaseId": "CHE-T8-EX5"
+      "databaseId": "CHE-CHEM-T08-Q053"
     },
     {
-      "id": "T8-PD06",
+      "id": "CHEM-T08-Q054",
       "questionFamily": "T8 Chemical Analysis · 4.8.4.1 · Explain",
       "subtopic": "T8 Chemical Analysis · 4.8.4.1",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.1",
       "tier": "Chemistry only",
-      "question": "Explain why instrumental analysis is often preferred for very small concentrations in complex mixtures.",
+      "question": "Explain why instrumental methods can be preferable to chemical tests and give one disadvantage.",
       "marks": 4,
-      "modelAnswer": "It is sensitive, rapid and can separate/identify components quantitatively using reference data.\nInstruments require calibration, trained operation and interpretation, so results still need quality control.",
+      "modelAnswer": "More sensitive, accurate, rapid, small samples, quantitative/automated.\nExpensive equipment/calibration/training needed.",
       "markingPoints": [
-        "It is sensitive, rapid and can separate/identify components quantitatively using reference data.",
-        "Instruments require calibration, trained operation and interpretation, so results still need quality control."
+        "More sensitive, accurate, rapid, small samples, quantitative/automated.",
+        "Expensive equipment/calibration/training needed."
       ],
       "commandWord": "Explain",
-      "assessmentObjective": "AO3",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.8.4.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "sensitive",
+        "quantitative",
+        "automated",
+        "calibration"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-1-explain",
-      "databaseId": "CHE-T8-PD06"
+      "databaseId": "CHE-CHEM-T08-Q054"
     },
     {
-      "id": "8.14",
+      "id": "CHEM-T08-Q055",
       "questionFamily": "T8 Chemical Analysis · 4.8.4.2 · Answer",
       "subtopic": "T8 Chemical Analysis · 4.8.4.2",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.2",
@@ -1695,11 +1491,14 @@
       "specificationReference": "4.8.4.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-2-answer",
-      "databaseId": "CHE-8.14"
+      "databaseId": "CHE-CHEM-T08-Q055"
     },
     {
-      "id": "8.15",
+      "id": "CHEM-T08-Q056",
       "questionFamily": "T8 Chemical Analysis · 4.8.4.2 · Explain",
       "subtopic": "T8 Chemical Analysis · 4.8.4.2",
       "sourceSubtopic": "T8 Chemical Analysis · 4.8.4.2",
@@ -1721,28 +1520,11 @@
       "specificationReference": "4.8.4.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Practical knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-2-explain",
-      "databaseId": "CHE-8.15"
-    },
-    {
-      "id": "Total marks",
-      "questionFamily": "T8 Chemical Analysis · AQA Chemistry · Answer",
-      "subtopic": "T8 Chemical Analysis · AQA Chemistry",
-      "sourceSubtopic": "T8 Chemical Analysis · AQA Chemistry",
-      "tier": "Foundation and Higher",
-      "question": "117",
-      "marks": 1,
-      "modelAnswer": "Student total.",
-      "markingPoints": [
-        "Student total."
+      "hintKeywords": [
+        "concentration"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t8-chemical-analysis-answer",
-      "databaseId": "CHE-Total marks"
+      "questionFamilyId": "CHE-t8-chemical-analysis-4-8-4-2-explain",
+      "databaseId": "CHE-CHEM-T08-Q056"
     }
   ]
 }

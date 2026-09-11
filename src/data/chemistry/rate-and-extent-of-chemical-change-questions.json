@@ -3,62 +3,50 @@
     "subtopics": [
       {
         "title": "T6 Rates and Equilibrium · 4.6.1.1",
-        "questionCount": 18
+        "questionCount": 11
       },
       {
         "title": "T6 Rates and Equilibrium · 4.6.1.1; 4.6.1.3",
         "questionCount": 1
       },
       {
-        "title": "T6 Rates and Equilibrium · 4.6.1.2",
-        "questionCount": 12
-      },
-      {
         "title": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
         "questionCount": 2
       },
       {
+        "title": "T6 Rates and Equilibrium · 4.6.1.2",
+        "questionCount": 7
+      },
+      {
         "title": "T6 Rates and Equilibrium · 4.6.1.3",
-        "questionCount": 8
+        "questionCount": 2
       },
       {
         "title": "T6 Rates and Equilibrium · 4.6.1.4",
-        "questionCount": 8
-      },
-      {
-        "title": "T6 Rates and Equilibrium · 4.6.2.1",
         "questionCount": 5
       },
       {
-        "title": "T6 Rates and Equilibrium · 4.6.2.2",
-        "questionCount": 6
+        "title": "T6 Rates and Equilibrium · 4.6.2.1",
+        "questionCount": 1
       },
       {
-        "title": "T6 Rates and Equilibrium · 4.6.2.3",
+        "title": "T6 Rates and Equilibrium · 4.6.2.2",
         "questionCount": 2
       },
       {
         "title": "T6 Rates and Equilibrium · 4.6.2.4",
-        "questionCount": 7
-      },
-      {
-        "title": "T6 Rates and Equilibrium · 4.6.2.5",
-        "questionCount": 6
+        "questionCount": 1
       },
       {
         "title": "T6 Rates and Equilibrium · 4.6.2.6, 4.6.3.1",
         "questionCount": 1
       },
       {
-        "title": "T6 Rates and Equilibrium · 4.6.2.6",
-        "questionCount": 6
-      },
-      {
-        "title": "T6 Rates and Equilibrium · 4.6.2.7",
-        "questionCount": 4
-      },
-      {
         "title": "T6 Rates and Equilibrium · 4.6.3.1",
+        "questionCount": 3
+      },
+      {
+        "title": "T6 Rates and Equilibrium · 4.6.3.2",
         "questionCount": 3
       },
       {
@@ -66,20 +54,16 @@
         "questionCount": 1
       },
       {
-        "title": "T6 Rates and Equilibrium · 4.6.3.2",
-        "questionCount": 3
+        "title": "T6 Rates and Equilibrium · 4.6.3.3",
+        "questionCount": 1
       },
       {
-        "title": "T6 Rates and Equilibrium · 4.6.3.3",
+        "title": "T6 Rates and Equilibrium · 4.6.3.4",
         "questionCount": 1
       },
       {
         "title": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
         "questionCount": 2
-      },
-      {
-        "title": "T6 Rates and Equilibrium · 4.6.3.4",
-        "questionCount": 1
       },
       {
         "title": "T6 Rates and Equilibrium · 4.6.3.5",
@@ -88,128 +72,36 @@
       {
         "title": "T6 Rates and Equilibrium · WS 3.4",
         "questionCount": 1
-      },
-      {
-        "title": "T6 Rates and Equilibrium · AQA Chemistry",
-        "questionCount": 1
       }
     ]
   },
   "questions": [
     {
-      "id": "6.1",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "All",
-      "question": "A reaction produces 72 cm3 of gas in 90 s.\nThe tangent to the curve at 20 s passes through (10 s, 18 cm3) and (40 s, 57 cm3).\nPart (a): Calculate the mean rate.\nPart (b): Give the unit.\nPart (c): Calculate the instantaneous rate at 20 s.",
-      "marks": 6,
-      "modelAnswer": "Mean = 72/90 = 0.80 cm3/s.\nInstantaneous rate = gradient = (57-18)/(40-10) = 1.30 cm3/s.\nUse points on the tangent, not the curve.",
-      "markingPoints": [
-        "Mean = 72/90 = 0.80 cm3/s.",
-        "Instantaneous rate = gradient = (57-18)/(40-10) = 1.30 cm3/s.",
-        "Use points on the tangent, not the curve."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-6.1"
-    },
-    {
-      "id": "6.6",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "All",
-      "question": "Two gas-volume curves reach 60 cm3.\nCurve A reaches the plateau in 40 s and B in 85 s.\nState what can and cannot be concluded about rate, limiting amount and possible conditions.",
-      "marks": 5,
-      "modelAnswer": "A has greater initial/mean rate.\nEqual plateaux show equal final gas amount and likely same moles of limiting reactant.\nDifference could be temperature, concentration, pressure, surface area or catalyst.\nCurve alone cannot identify which.",
-      "markingPoints": [
-        "A has greater initial/mean rate.",
-        "Equal plateaux show equal final gas amount and likely same moles of limiting reactant.",
-        "Difference could be temperature, concentration, pressure, surface area or catalyst.",
-        "Curve alone cannot identify which."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-6.6"
-    },
-    {
-      "id": "6.11",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "All",
-      "question": "A solid loses 1.84 g in 230 s.\nThe balance reads to 0.01 g and time to 1 s.\nPart (a): Calculate mean mass-loss rate.\nPart (b): Explain which change would reduce percentage uncertainty in the mass change.",
-      "marks": 5,
-      "modelAnswer": "(a) Rate = 1.84/230 = 0.0080 g/s.\n(b) Measure a larger mass change/use balance with finer resolution.\nLarger measured change makes fixed absolute uncertainty a smaller percentage.\nRepeats do not remove systematic error.",
-      "markingPoints": [
-        "(a) Rate = 1.84/230 = 0.0080 g/s.",
-        "(b) Measure a larger mass change/use balance with finer resolution.",
-        "Larger measured change makes fixed absolute uncertainty a smaller percentage.",
-        "Repeats do not remove systematic error."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2/AO3",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-6.11"
-    },
-    {
-      "id": "6.13",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "All",
-      "question": "A reaction time falls from 120 s to 48 s for the same fixed change. Calculate the rate-factor increase using 1/time.",
-      "marks": 3,
-      "modelAnswer": "Factor = (1/48)/(1/120) = 120/48 = 2.5\nRate is 2.5 times greater.",
-      "markingPoints": [
-        "Factor = (1/48)/(1/120) = 120/48 = 2.5",
-        "Rate is 2.5 times greater."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-6.13"
-    },
-    {
-      "id": "6.15",
+      "id": "CHEM-T06-Q001",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · State",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "tier": "All",
-      "question": "Identify the limiting evidence needed before claiming that a changed condition altered yield rather than only rate in a gas-producing experiment.",
-      "marks": 4,
-      "modelAnswer": "Need complete curves/plateau values.\nSame starting moles and limiting reactant.\nAirtight apparatus/same conditions.\nCompare final gas amount after reaction completion, not volume at a fixed early time.",
+      "question": "Write the equation used to calculate the mean rate of a reaction.",
+      "marks": 1,
+      "modelAnswer": "Mean rate = quantity of reactant used or quantity of product formed divided by time.",
       "markingPoints": [
-        "Need complete curves/plateau values.",
-        "Same starting moles and limiting reactant.",
-        "Airtight apparatus/same conditions.",
-        "Compare final gas amount after reaction completion, not volume at a fixed early time."
+        "Mean rate = quantity of reactant used or quantity of product formed divided by time."
       ],
       "commandWord": "State",
-      "assessmentObjective": "AO3",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.6.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "reactant",
+        "product"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-state",
-      "databaseId": "CHE-6.15"
+      "databaseId": "CHE-CHEM-T06-Q001"
     },
     {
-      "id": "6.16",
+      "id": "CHEM-T06-Q002",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · State",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
@@ -226,31 +118,69 @@
       "specificationReference": "4.6.1.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "reactant",
+        "product",
+        "volume",
+        "mass",
+        "concentration",
+        "precipitate"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-state",
-      "databaseId": "CHE-6.16"
+      "databaseId": "CHE-CHEM-T06-Q002"
     },
     {
-      "id": "6.17",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · State",
+      "id": "CHEM-T06-Q003",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
+      "tier": "Foundation and Higher",
+      "question": "On a concentration–time graph, what does the gradient of a tangent represent?",
+      "marks": 1,
+      "modelAnswer": "The instantaneous rate of reaction at that point.",
+      "markingPoints": [
+        "The instantaneous rate of reaction at that point."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Medium",
+      "knowledgeType": "Rates",
+      "hintKeywords": [
+        "rate of reaction"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
+      "databaseId": "CHE-CHEM-T06-Q003"
+    },
+    {
+      "id": "CHEM-T06-Q004",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "tier": "All",
-      "question": "Write the equation used to calculate the mean rate of a reaction.",
-      "marks": 1,
-      "modelAnswer": "Mean rate = quantity of reactant used or quantity of product formed divided by time.",
+      "question": "A reaction time falls from 120 s to 48 s for the same fixed change. Calculate the rate-factor increase using 1/time.",
+      "marks": 3,
+      "modelAnswer": "Factor = (1/48)/(1/120) = 120/48 = 2.5\nRate is 2.5 times greater.",
       "markingPoints": [
-        "Mean rate = quantity of reactant used or quantity of product formed divided by time."
+        "Factor = (1/48)/(1/120) = 120/48 = 2.5",
+        "Rate is 2.5 times greater."
       ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
       "specificationReference": "4.6.1.1",
-      "gradeDemand": "Grades 3–5",
+      "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-state",
-      "databaseId": "CHE-6.17"
+      "hintKeywords": [
+        "Factor",
+        "Rate",
+        "times",
+        "greater"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
+      "databaseId": "CHE-CHEM-T06-Q004"
     },
     {
-      "id": "6.18",
+      "id": "CHEM-T06-Q005",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
@@ -267,11 +197,15 @@
       "specificationReference": "4.6.1.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Change",
+        "Rate"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-6.18"
+      "databaseId": "CHE-CHEM-T06-Q005"
     },
     {
-      "id": "6.19",
+      "id": "CHEM-T06-Q006",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1; 4.6.1.3 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1; 4.6.1.3",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1; 4.6.1.3",
@@ -287,11 +221,14 @@
       "specificationReference": "4.6.1.1; 4.6.1.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Reactant"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-4-6-1-3-a",
-      "databaseId": "CHE-6.19"
+      "databaseId": "CHE-CHEM-T06-Q006"
     },
     {
-      "id": "T6-EX2",
+      "id": "CHEM-T06-Q007",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
@@ -307,11 +244,14 @@
       "specificationReference": "4.6.1.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "volume"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-EX2"
+      "databaseId": "CHE-CHEM-T06-Q007"
     },
     {
-      "id": "T6-PD03",
+      "id": "CHEM-T06-Q008",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Describe",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
@@ -330,223 +270,229 @@
       "specificationReference": "4.6.1.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "volume"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-describe",
-      "databaseId": "CHE-T6-PD03"
+      "databaseId": "CHE-CHEM-T06-Q008"
     },
     {
-      "id": "T6-QUIZ001",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
+      "id": "CHEM-T06-Q009",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · State",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "How do you measure the rate of a chemical reaction?",
-      "marks": 1,
-      "modelAnswer": "By measuring the the quantity of the reactant as it is used or the quantity of the product as it is formed.",
-      "markingPoints": [
-        "By measuring the the quantity of the reactant as it is used or the quantity of the product as it is formed."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QUIZ001"
-    },
-    {
-      "id": "T6-QUIZ002",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the formula to calculate measure the mean rate of reaction from the reactants?",
-      "marks": 1,
-      "modelAnswer": "Mean rate of reaction = quantity of reactant used / time taken.",
-      "markingPoints": [
-        "Mean rate of reaction = quantity of reactant used / time taken."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QUIZ002"
-    },
-    {
-      "id": "T6-QUIZ003",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the formula to calculate the mean rate of reaction from the products?",
-      "marks": 1,
-      "modelAnswer": "Mean rate of reaction = quantity of product formed / time taken.",
-      "markingPoints": [
-        "Mean rate of reaction = quantity of product formed / time taken."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QUIZ003"
-    },
-    {
-      "id": "T6-QUIZ004",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What three quantities can be used to measure the the quantity of the product or reactant?",
-      "marks": 1,
-      "modelAnswer": "Mass in grams, volume in cm3 or moles.",
-      "markingPoints": [
-        "Mass in grams, volume in cm3 or moles."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QUIZ004"
-    },
-    {
-      "id": "T6-QUIZ005",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What are the units for rate of reaction?",
-      "marks": 1,
-      "modelAnswer": "g/s, cm3/s or mol/s",
-      "markingPoints": [
-        "g/s, cm3/s or mol/s"
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QUIZ005"
-    },
-    {
-      "id": "T6-QUIZ006",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is a tangent?",
-      "marks": 1,
-      "modelAnswer": "A straight line that touches a curve at one point and shows the gradient at that point.",
-      "markingPoints": [
-        "A straight line that touches a curve at one point and shows the gradient at that point."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QUIZ006"
-    },
-    {
-      "id": "T6-QUIZ007",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is the slope of a tangent used to calculate?",
-      "marks": 1,
-      "modelAnswer": "The instantaneous rate of reaction at that point.",
-      "markingPoints": [
-        "The instantaneous rate of reaction at that point."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QUIZ007"
-    },
-    {
-      "id": "T6-QZ01",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
-      "tier": "Foundation and Higher",
-      "question": "On a concentration–time graph, what does the gradient of a tangent represent?",
-      "marks": 1,
-      "modelAnswer": "The instantaneous rate of reaction at that point.",
-      "markingPoints": [
-        "The instantaneous rate of reaction at that point."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.1",
-      "gradeDemand": "Medium",
-      "knowledgeType": "Rates",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
-      "databaseId": "CHE-T6-QZ01"
-    },
-    {
-      "id": "6.2",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
       "tier": "All",
-      "question": "Part (a): Explain, using collision theory, why powdered calcium carbonate reacts faster than equal-mass lumps with the same acid, but produces the same final gas volume when acid is in excess.",
-      "marks": 5,
-      "modelAnswer": "Powder has greater surface area.\nMore particles are exposed.\nCollision frequency and successful collisions per second increase.\nSame moles of limiting calcium carbonate produce the same moles/final volume of CO2.",
+      "question": "Identify the limiting evidence needed before claiming that a changed condition altered yield rather than only rate in a gas-producing experiment.",
+      "marks": 4,
+      "modelAnswer": "Need complete curves/plateau values.\nSame starting moles and limiting reactant.\nAirtight apparatus/same conditions.\nCompare final gas amount after reaction completion, not volume at a fixed early time.",
       "markingPoints": [
-        "Powder has greater surface area.",
-        "More particles are exposed.",
-        "Collision frequency and successful collisions per second increase.",
-        "Same moles of limiting calcium carbonate produce the same moles/final volume of CO2."
+        "Need complete curves/plateau values.",
+        "Same starting moles and limiting reactant.",
+        "Airtight apparatus/same conditions.",
+        "Compare final gas amount after reaction completion, not volume at a fixed early time."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "moles",
+        "limiting reactant",
+        "volume"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-state",
+      "databaseId": "CHE-CHEM-T06-Q009"
+    },
+    {
+      "id": "CHEM-T06-Q010",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
+      "tier": "All",
+      "question": "A solid loses 1.84 g in 230 s.\nThe balance reads to 0.01 g and time to 1 s.\nPart (a): Calculate mean mass-loss rate.\nPart (b): Explain which change would reduce percentage uncertainty in the mass change.",
+      "marks": 5,
+      "modelAnswer": "(a) Rate = 1.84/230 = 0.0080 g/s.\n(b) Measure a larger mass change/use balance with finer resolution.\nLarger measured change makes fixed absolute uncertainty a smaller percentage.\nRepeats do not remove systematic error.",
+      "markingPoints": [
+        "(a) Rate = 1.84/230 = 0.0080 g/s.",
+        "(b) Measure a larger mass change/use balance with finer resolution.",
+        "Larger measured change makes fixed absolute uncertainty a smaller percentage.",
+        "Repeats do not remove systematic error."
       ],
       "commandWord": "Answer",
-      "assessmentObjective": "AO1/AO2",
-      "specificationReference": "4.6.1.2",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "mass"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
+      "databaseId": "CHE-CHEM-T06-Q010"
+    },
+    {
+      "id": "CHEM-T06-Q011",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
+      "tier": "All",
+      "question": "Two gas-volume curves reach 60 cm3.\nCurve A reaches the plateau in 40 s and B in 85 s.\nState what can and cannot be concluded about rate, limiting amount and possible conditions.",
+      "marks": 5,
+      "modelAnswer": "A has greater initial/mean rate.\nEqual plateaux show equal final gas amount and likely same moles of limiting reactant.\nDifference could be temperature, concentration, pressure, surface area or catalyst.\nCurve alone cannot identify which.",
+      "markingPoints": [
+        "A has greater initial/mean rate.",
+        "Equal plateaux show equal final gas amount and likely same moles of limiting reactant.",
+        "Difference could be temperature, concentration, pressure, surface area or catalyst.",
+        "Curve alone cannot identify which."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.6.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-answer",
-      "databaseId": "CHE-6.2"
+      "hintKeywords": [
+        "moles",
+        "limiting reactant",
+        "temperature",
+        "concentration",
+        "pressure",
+        "surface area",
+        "catalyst"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
+      "databaseId": "CHE-CHEM-T06-Q011"
     },
     {
-      "id": "6.4",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
+      "id": "CHEM-T06-Q012",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.1 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.1",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.1",
       "tier": "All",
-      "question": "A student investigates concentration using sodium thiosulfate and acid and times how long a cross takes to disappear.\nPart (a): Give a valid method, variables, one safety control and two improvements.",
-      "marks": 8,
-      "modelAnswer": "Measure fixed volumes.\nVary thiosulfate concentration while keeping total volume/acid volume and concentration/temperature/depth constant.\nMix and start timer.\nStop when cross disappears.\nRate proxy 1/time.\nWear eye protection.\nRepeat and mean.\nUse light sensor/colorimeter or same observer/end point.\nWater bath.\nSystematic concentration series.",
+      "question": "A reaction produces 72 cm3 of gas in 90 s.\nThe tangent to the curve at 20 s passes through (10 s, 18 cm3) and (40 s, 57 cm3).\nPart (a): Calculate the mean rate.\nPart (b): Give the unit.\nPart (c): Calculate the instantaneous rate at 20 s.",
+      "marks": 6,
+      "modelAnswer": "Mean = 72/90 = 0.80 cm3/s.\nInstantaneous rate = gradient = (57-18)/(40-10) = 1.30 cm3/s.\nUse points on the tangent, not the curve.",
       "markingPoints": [
-        "Measure fixed volumes.",
-        "Vary thiosulfate concentration while keeping total volume/acid volume and concentration/temperature/depth constant.",
-        "Mix and start timer.",
-        "Stop when cross disappears.",
-        "Rate proxy 1/time.",
-        "Wear eye protection.",
-        "Repeat and mean.",
-        "Use light sensor/colorimeter or same observer/end point.",
-        "Water bath.",
-        "Systematic concentration series."
+        "Mean = 72/90 = 0.80 cm3/s.",
+        "Instantaneous rate = gradient = (57-18)/(40-10) = 1.30 cm3/s.",
+        "Use points on the tangent, not the curve."
       ],
       "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.6.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Instantaneous",
+        "gradient",
+        "points",
+        "tangent"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-1-answer",
+      "databaseId": "CHE-CHEM-T06-Q012"
+    },
+    {
+      "id": "CHEM-T06-Q013",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3 · Explain",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
+      "tier": "All",
+      "question": "Explain why increasing the concentration of a solution increases reaction rate.",
+      "marks": 3,
+      "modelAnswer": "There are more reactant particles per unit volume, collisions occur more frequently, and so there are more successful collisions per second.",
+      "markingPoints": [
+        "There are more reactant particles per unit volume, collisions occur more frequently, and so there are more successful collisions per second."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.6.1.2–4.6.1.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "reactant",
+        "volume"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-4-6-1-3-e",
+      "databaseId": "CHE-CHEM-T06-Q013"
+    },
+    {
+      "id": "CHEM-T06-Q014",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3 · Explain",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
+      "tier": "All",
+      "question": "Explain why increasing the pressure of reacting gases increases reaction rate.",
+      "marks": 3,
+      "modelAnswer": "Gas particles are closer together/more particles occupy each unit volume, so collision frequency and successful collisions per second increase.",
+      "markingPoints": [
+        "Gas particles are closer together/more particles occupy each unit volume, so collision frequency and successful collisions per second increase."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.6.1.2–4.6.1.3",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "volume"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-4-6-1-3-e",
+      "databaseId": "CHE-CHEM-T06-Q014"
+    },
+    {
+      "id": "CHEM-T06-Q015",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Explain",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
+      "tier": "Both",
+      "question": "Explain why inserting the bung slowly causes a systematic error in a gas-volume rate experiment.",
+      "marks": 3,
+      "modelAnswer": "The reaction begins before sealing, so gas escapes unmeasured.\nVolumes are consistently too low, especially early readings.\nPractise or use apparatus that can be sealed before mixing.",
+      "markingPoints": [
+        "The reaction begins before sealing, so gas escapes unmeasured.",
+        "Volumes are consistently too low, especially early readings.",
+        "Practise or use apparatus that can be sealed before mixing."
+      ],
+      "commandWord": "Explain",
       "assessmentObjective": "AO3",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-answer",
-      "databaseId": "CHE-6.4"
+      "hintKeywords": [
+        "unmeasured",
+        "consistently",
+        "especially",
+        "apparatus"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-explain",
+      "databaseId": "CHE-CHEM-T06-Q015"
     },
     {
-      "id": "6.12",
+      "id": "CHEM-T06-Q016",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Explain",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
+      "tier": "Both",
+      "question": "Explain two systematic errors in a gas-syringe rate experiment and how each affects results.",
+      "marks": 4,
+      "modelAnswer": "Gas escaping before stopper insertion makes recorded volumes/rate too low.\nLeaking apparatus also lowers volume.\nA sticking plunger can delay/under-record volume.\nFit stopper promptly, test seals and ensure syringe moves freely.",
+      "markingPoints": [
+        "Gas escaping before stopper insertion makes recorded volumes/rate too low.",
+        "Leaking apparatus also lowers volume.",
+        "A sticking plunger can delay/under-record volume.",
+        "Fit stopper promptly, test seals and ensure syringe moves freely."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "volume"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-explain",
+      "databaseId": "CHE-CHEM-T06-Q016"
+    },
+    {
+      "id": "CHEM-T06-Q017",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Explain",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
@@ -567,74 +513,78 @@
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Temperature",
+        "Concentration",
+        "reactant"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-explain",
-      "databaseId": "CHE-6.12"
+      "databaseId": "CHE-CHEM-T06-Q017"
     },
     {
-      "id": "6.20",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3 · Explain",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
-      "tier": "All",
-      "question": "Explain why increasing the concentration of a solution increases reaction rate.",
-      "marks": 3,
-      "modelAnswer": "There are more reactant particles per unit volume, collisions occur more frequently, and so there are more successful collisions per second.",
-      "markingPoints": [
-        "There are more reactant particles per unit volume, collisions occur more frequently, and so there are more successful collisions per second."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.2–4.6.1.3",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-4-6-1-3-e",
-      "databaseId": "CHE-6.20"
-    },
-    {
-      "id": "6.21",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3 · Explain",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2–4.6.1.3",
-      "tier": "All",
-      "question": "Explain why increasing the pressure of reacting gases increases reaction rate.",
-      "marks": 3,
-      "modelAnswer": "Gas particles are closer together/more particles occupy each unit volume, so collision frequency and successful collisions per second increase.",
-      "markingPoints": [
-        "Gas particles are closer together/more particles occupy each unit volume, so collision frequency and successful collisions per second increase."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.2–4.6.1.3",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-4-6-1-3-e",
-      "databaseId": "CHE-6.21"
-    },
-    {
-      "id": "T6-EX5",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Explain",
+      "id": "CHEM-T06-Q018",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "tier": "Both",
-      "question": "Explain two systematic errors in a gas-syringe rate experiment and how each affects results.",
-      "marks": 4,
-      "modelAnswer": "Gas escaping before stopper insertion makes recorded volumes/rate too low.\nLeaking apparatus also lowers volume.\nA sticking plunger can delay/under-record volume.\nFit stopper promptly, test seals and ensure syringe moves freely.",
+      "tier": "All",
+      "question": "Part (a): Explain, using collision theory, why powdered calcium carbonate reacts faster than equal-mass lumps with the same acid, but produces the same final gas volume when acid is in excess.",
+      "marks": 5,
+      "modelAnswer": "Powder has greater surface area.\nMore particles are exposed.\nCollision frequency and successful collisions per second increase.\nSame moles of limiting calcium carbonate produce the same moles/final volume of CO2.",
       "markingPoints": [
-        "Gas escaping before stopper insertion makes recorded volumes/rate too low.",
-        "Leaking apparatus also lowers volume.",
-        "A sticking plunger can delay/under-record volume.",
-        "Fit stopper promptly, test seals and ensure syringe moves freely."
+        "Powder has greater surface area.",
+        "More particles are exposed.",
+        "Collision frequency and successful collisions per second increase.",
+        "Same moles of limiting calcium carbonate produce the same moles/final volume of CO2."
       ],
-      "commandWord": "Explain",
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.6.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "surface area",
+        "moles",
+        "volume"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-answer",
+      "databaseId": "CHE-CHEM-T06-Q018"
+    },
+    {
+      "id": "CHEM-T06-Q020",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
+      "tier": "All",
+      "question": "A student investigates concentration using sodium thiosulfate and acid and times how long a cross takes to disappear.\nPart (a): Give a valid method, variables, one safety control and two improvements.",
+      "marks": 6,
+      "modelAnswer": "Measure fixed volumes.\nVary thiosulfate concentration while keeping total volume/acid volume and concentration/temperature/depth constant.\nMix and start timer.\nStop when cross disappears.\nRate proxy 1/time.\nWear eye protection.\nRepeat and mean.\nUse light sensor/colorimeter or same observer/end point.\nWater bath.\nSystematic concentration series.",
+      "markingPoints": [
+        "Measure fixed volumes.",
+        "Vary thiosulfate concentration while keeping total volume/acid volume and concentration/temperature/depth constant.",
+        "Mix and start timer.",
+        "Stop when cross disappears.",
+        "Rate proxy 1/time.",
+        "Wear eye protection.",
+        "Repeat and mean.",
+        "Use light sensor/colorimeter or same observer/end point.",
+        "Water bath.",
+        "Systematic concentration series."
+      ],
+      "commandWord": "Answer",
       "assessmentObjective": "AO3",
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-explain",
-      "databaseId": "CHE-T6-EX5"
+      "hintKeywords": [
+        "concentration",
+        "volume",
+        "temperature"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-answer",
+      "databaseId": "CHE-CHEM-T06-Q020"
     },
     {
-      "id": "T6-PD01",
+      "id": "CHEM-T06-Q019",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
@@ -656,33 +606,15 @@
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-answer",
-      "databaseId": "CHE-T6-PD01"
-    },
-    {
-      "id": "T6-PD02",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Explain",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "tier": "Both",
-      "question": "Explain why inserting the bung slowly causes a systematic error in a gas-volume rate experiment.",
-      "marks": 3,
-      "modelAnswer": "The reaction begins before sealing, so gas escapes unmeasured.\nVolumes are consistently too low, especially early readings.\nPractise or use apparatus that can be sealed before mixing.",
-      "markingPoints": [
-        "The reaction begins before sealing, so gas escapes unmeasured.",
-        "Volumes are consistently too low, especially early readings.",
-        "Practise or use apparatus that can be sealed before mixing."
+      "hintKeywords": [
+        "volume",
+        "temperature"
       ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.6.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-explain",
-      "databaseId": "CHE-T6-PD02"
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-answer",
+      "databaseId": "CHE-CHEM-T06-Q019"
     },
     {
-      "id": "T6-PD04",
+      "id": "CHEM-T06-Q021",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Compare",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
@@ -700,111 +632,38 @@
       "specificationReference": "4.6.1.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Mass",
+        "volume"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-compare",
-      "databaseId": "CHE-T6-PD04"
+      "databaseId": "CHE-CHEM-T06-Q021"
     },
     {
-      "id": "T6-QUIZ008",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · State",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Name five factors which affect the rate of chemical reaction?",
+      "id": "CHEM-T06-Q022",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · State",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
+      "tier": "All",
+      "question": "Define activation energy.",
       "marks": 1,
-      "modelAnswer": "Concentration of reactants, pressure of reacting gases, surface area of reactants, temperature of the reaction and the presence of catalysts.",
+      "modelAnswer": "The minimum energy particles must have when they collide for a reaction to occur.",
       "markingPoints": [
-        "Concentration of reactants, pressure of reacting gases, surface area of reactants, temperature of the reaction and the presence of catalysts."
+        "The minimum energy particles must have when they collide for a reaction to occur."
       ],
       "commandWord": "State",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-state",
-      "databaseId": "CHE-T6-QUIZ008"
-    },
-    {
-      "id": "T6-QUIZ009",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of changing these factors on the rate of chemical reaction?",
-      "marks": 1,
-      "modelAnswer": "Increasing concentration of reactants increases the number of colliding molecules. Increasing pressure of reacting gases increases the number of collisions between molecules. Large surface area of reactants increases number of colliding molecules. Increasing temperature of the reaction increases number of collisions. The presence of catalysts lowers the activation energy.",
-      "markingPoints": [
-        "Increasing concentration of reactants increases the number of colliding molecules. Increasing pressure of reacting gases increases the number of collisions between molecules. Large surface area of reactants increases number of colliding molecules. Increasing temperature of the reaction increases number of collisions. The presence of catalysts lowers the activation energy."
+      "specificationReference": "4.6.1.3",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy"
       ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-describe",
-      "databaseId": "CHE-T6-QUIZ009"
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-state",
+      "databaseId": "CHE-CHEM-T06-Q022"
     },
     {
-      "id": "T6-QUIZ010",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What is turbidity?",
-      "marks": 1,
-      "modelAnswer": "A measure of how cloudy a solution is.",
-      "markingPoints": [
-        "A measure of how cloudy a solution is."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-answer",
-      "databaseId": "CHE-T6-QUIZ010"
-    },
-    {
-      "id": "T6-QUIZ011",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe an experiment involving colour change or turbidity to measure the effect of concentration on the rate of reaction?",
-      "marks": 1,
-      "modelAnswer": "Add a set volume and concentration of sodium thiosulfate to a conical flask. Place the flask on a black cross drawn on paper. Add a known volume of hydrochloric acid to the conical flask. Start the stopwatch. Time how long it takes for the cross to disappear (due to turbidity of the reacting solution). Repeat the reaction for different concentrations of hydrochloric acid.",
-      "markingPoints": [
-        "Add a set volume and concentration of sodium thiosulfate to a conical flask. Place the flask on a black cross drawn on paper. Add a known volume of hydrochloric acid to the conical flask. Start the stopwatch. Time how long it takes for the cross to disappear (due to turbidity of the reacting solution). Repeat the reaction for different concentrations of hydrochloric acid."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-describe",
-      "databaseId": "CHE-T6-QUIZ011"
-    },
-    {
-      "id": "T6-QUIZ012",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.2 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe an experiment involving the collection of gas to measure the effect of concentration on the rate of reaction?",
-      "marks": 1,
-      "modelAnswer": "Add a set volume and concentration of hydrochloric acid to a conical flask. Add a set mass of magnesium to the flask. Place a bung with a tube attached to a gas syringe on top of the flask. Start the timer. Note the volume of gas produced every 20 seconds until the reaction stops. Repeat the experiment using different concentrations of hydrochloric acid.",
-      "markingPoints": [
-        "Add a set volume and concentration of hydrochloric acid to a conical flask. Add a set mass of magnesium to the flask. Place a bung with a tube attached to a gas syringe on top of the flask. Start the timer. Note the volume of gas produced every 20 seconds until the reaction stops. Repeat the experiment using different concentrations of hydrochloric acid."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-2-describe",
-      "databaseId": "CHE-T6-QUIZ012"
-    },
-    {
-      "id": "6.3",
+      "id": "CHEM-T06-Q023",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · Explain",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
@@ -823,157 +682,120 @@
       "specificationReference": "4.6.1.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy",
+        "activation energy"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-explain",
-      "databaseId": "CHE-6.3"
+      "databaseId": "CHE-CHEM-T06-Q023"
     },
     {
-      "id": "6.22",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · State",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
+      "id": "CHEM-T06-Q024",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
       "tier": "All",
-      "question": "Define activation energy.",
-      "marks": 1,
-      "modelAnswer": "The minimum energy particles must have when they collide for a reaction to occur.",
+      "question": "A catalyst is recovered unchanged after a reaction. Explain why this observation is expected.",
+      "marks": 2,
+      "modelAnswer": "A catalyst increases rate but is not chemically changed or used up overall in the reaction.",
       "markingPoints": [
-        "The minimum energy particles must have when they collide for a reaction to occur."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.3",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-state",
-      "databaseId": "CHE-6.22"
-    },
-    {
-      "id": "T6-QUIZ013",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · Explain",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Explain collision theory?",
-      "marks": 1,
-      "modelAnswer": "Chemical reactions occur when reacting particles collide with each other and with sufficient energy.",
-      "markingPoints": [
-        "Chemical reactions occur when reacting particles collide with each other and with sufficient energy."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-explain",
-      "databaseId": "CHE-T6-QUIZ013"
-    },
-    {
-      "id": "T6-QUIZ014",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the concentration of reactants on the reaction rate using collision theory?",
-      "marks": 1,
-      "modelAnswer": "Higher concentration means more particles in a given volume, so collisions happen more frequently and the rate increases.",
-      "markingPoints": [
-        "Higher concentration means more particles in a given volume, so collisions happen more frequently and the rate increases."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-describe",
-      "databaseId": "CHE-T6-QUIZ014"
-    },
-    {
-      "id": "T6-QUIZ015",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the pressure of reactants on the reaction rate using collision theory?",
-      "marks": 1,
-      "modelAnswer": "Higher pressure means more gas particles in a given volume, so collisions happen more frequently and the rate increases.",
-      "markingPoints": [
-        "Higher pressure means more gas particles in a given volume, so collisions happen more frequently and the rate increases."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-describe",
-      "databaseId": "CHE-T6-QUIZ015"
-    },
-    {
-      "id": "T6-QUIZ016",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the surface area of reactants on the reaction rate using collision theory?",
-      "marks": 1,
-      "modelAnswer": "Greater surface area exposes more particles, so collisions happen more frequently and the rate increases.",
-      "markingPoints": [
-        "Greater surface area exposes more particles, so collisions happen more frequently and the rate increases."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-describe",
-      "databaseId": "CHE-T6-QUIZ016"
-    },
-    {
-      "id": "T6-QUIZ017",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "tier": "Foundation and Higher",
-      "question": "How does the surface area to volume ratio affect the rate of reaction?",
-      "marks": 1,
-      "modelAnswer": "Breaking up a solid into smaller pieces increases the surface area to volume ratio which will speed up the rate of reaction.",
-      "markingPoints": [
-        "Breaking up a solid into smaller pieces increases the surface area to volume ratio which will speed up the rate of reaction."
+        "A catalyst increases rate but is not chemically changed or used up overall in the reaction."
       ],
       "commandWord": "Answer",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-answer",
-      "databaseId": "CHE-T6-QUIZ017"
-    },
-    {
-      "id": "T6-QUIZ018",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.3 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the temperature of reactants on the reaction rate using collision theory?",
-      "marks": 1,
-      "modelAnswer": "Higher temperature gives particles more kinetic energy. They move faster, collide more often and a greater proportion have energy above the activation energy.",
-      "markingPoints": [
-        "Higher temperature gives particles more kinetic energy. They move faster, collide more often and a greater proportion have energy above the activation energy."
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "catalyst"
       ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-3-describe",
-      "databaseId": "CHE-T6-QUIZ018"
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-answer",
+      "databaseId": "CHE-CHEM-T06-Q024"
     },
     {
-      "id": "6.5",
+      "id": "CHEM-T06-Q025",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · State",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
+      "tier": "All",
+      "question": "State two things that a catalyst does not change.",
+      "marks": 2,
+      "modelAnswer": "A catalyst does not change the overall energy change of a reaction or the amounts/yield of products at equilibrium.",
+      "markingPoints": [
+        "A catalyst does not change the overall energy change of a reaction or the amounts/yield of products at equilibrium."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "catalyst",
+        "energy",
+        "yield"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-state",
+      "databaseId": "CHE-CHEM-T06-Q025"
+    },
+    {
+      "id": "CHEM-T06-Q026",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Explain",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
+      "tier": "All",
+      "question": "Explain how a catalyst changes a reaction profile and the reaction rate.",
+      "marks": 3,
+      "modelAnswer": "A catalyst provides an alternative pathway with lower activation energy. More particles have enough energy for successful collisions, so the reaction rate increases.",
+      "markingPoints": [
+        "A catalyst provides an alternative pathway with lower activation energy. More particles have enough energy for successful collisions, so the reaction rate increases."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "catalyst",
+        "activation energy",
+        "energy"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-explain",
+      "databaseId": "CHE-CHEM-T06-Q026"
+    },
+    {
+      "id": "CHEM-T06-Q027",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Explain",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
+      "tier": "Both",
+      "question": "Explain why increasing temperature often changes rate more than a similar increase in concentration.",
+      "marks": 5,
+      "modelAnswer": "Both increase collision frequency, but higher temperature also shifts the energy distribution so a much larger fraction of particles has energy at least equal to activation energy.\nSuccessful collisions rise substantially.",
+      "markingPoints": [
+        "Both increase collision frequency, but higher temperature also shifts the energy distribution so a much larger fraction of particles has energy at least equal to activation energy.",
+        "Successful collisions rise substantially."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.6.1.4",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "temperature",
+        "energy",
+        "activation energy"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-explain",
+      "databaseId": "CHE-CHEM-T06-Q027"
+    },
+    {
+      "id": "CHEM-T06-Q028",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
       "tier": "All",
       "question": "Design an investigation of catalyst concentration on hydrogen peroxide decomposition using a gas syringe.\nPart (a): State how to obtain initial rate and how to decide whether catalyst changes final yield.",
-      "marks": 8,
+      "marks": 6,
       "modelAnswer": "Fixed H2O2 volume/concentration/temperature.\nVary catalyst amount or concentration.\nAirtight gas syringe.\nStart together.\nRecord gas volume at short regular intervals.\nRepeats/mean.\nInitial rate from initial gradient.\nCompare plateau gas volumes.\nCatalyst should not alter final yield if starting limiting reagent unchanged.",
       "markingPoints": [
         "Fixed H2O2 volume/concentration/temperature.",
@@ -991,152 +813,20 @@
       "specificationReference": "4.6.1.4",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "H2O2",
+        "volume",
+        "concentration",
+        "temperature",
+        "catalyst",
+        "yield",
+        "limiting reagent"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-answer",
-      "databaseId": "CHE-6.5"
+      "databaseId": "CHE-CHEM-T06-Q028"
     },
     {
-      "id": "6.7-S1",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Explain",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "tier": "All",
-      "question": "Explain how a catalyst changes a reaction profile and the reaction rate.",
-      "marks": 3,
-      "modelAnswer": "A catalyst provides an alternative pathway with lower activation energy. More particles have enough energy for successful collisions, so the reaction rate increases.",
-      "markingPoints": [
-        "A catalyst provides an alternative pathway with lower activation energy. More particles have enough energy for successful collisions, so the reaction rate increases."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-explain",
-      "databaseId": "CHE-6.7-S1"
-    },
-    {
-      "id": "6.7-S2",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · State",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "tier": "All",
-      "question": "State two things that a catalyst does not change.",
-      "marks": 2,
-      "modelAnswer": "A catalyst does not change the overall energy change of a reaction or the amounts/yield of products at equilibrium.",
-      "markingPoints": [
-        "A catalyst does not change the overall energy change of a reaction or the amounts/yield of products at equilibrium."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-state",
-      "databaseId": "CHE-6.7-S2"
-    },
-    {
-      "id": "6.23",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "tier": "All",
-      "question": "A catalyst is recovered unchanged after a reaction. Explain why this observation is expected.",
-      "marks": 2,
-      "modelAnswer": "A catalyst increases rate but is not chemically changed or used up overall in the reaction.",
-      "markingPoints": [
-        "A catalyst increases rate but is not chemically changed or used up overall in the reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.4",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-answer",
-      "databaseId": "CHE-6.23"
-    },
-    {
-      "id": "T6-EX1",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Explain",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "tier": "Both",
-      "question": "Explain why increasing temperature often changes rate more than a similar increase in concentration.",
-      "marks": 5,
-      "modelAnswer": "Both increase collision frequency, but higher temperature also shifts the energy distribution so a much larger fraction of particles has energy at least equal to activation energy.\nSuccessful collisions rise substantially.",
-      "markingPoints": [
-        "Both increase collision frequency, but higher temperature also shifts the energy distribution so a much larger fraction of particles has energy at least equal to activation energy.",
-        "Successful collisions rise substantially."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.6.1.4",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-explain",
-      "databaseId": "CHE-T6-EX1"
-    },
-    {
-      "id": "T6-QUIZ019",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "tier": "Foundation and Higher",
-      "question": "What is a catalyst?",
-      "marks": 1,
-      "modelAnswer": "A substance that changes the rate of a chemical reaction but is not used up in the process.",
-      "markingPoints": [
-        "A substance that changes the rate of a chemical reaction but is not used up in the process."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-answer",
-      "databaseId": "CHE-T6-QUIZ019"
-    },
-    {
-      "id": "T6-QUIZ020",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "tier": "Foundation and Higher",
-      "question": "How do catalysts work?",
-      "marks": 1,
-      "modelAnswer": "Catalysts work by providing a pathway for the reaction which has a lower activation energy.",
-      "markingPoints": [
-        "Catalysts work by providing a pathway for the reaction which has a lower activation energy."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-answer",
-      "databaseId": "CHE-T6-QUIZ020"
-    },
-    {
-      "id": "T6-QUIZ021",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.1.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.1.4",
-      "tier": "Foundation and Higher",
-      "question": "What are enzymes?",
-      "marks": 1,
-      "modelAnswer": "Enzymes are biological catalysts found in living organisms.",
-      "markingPoints": [
-        "Enzymes are biological catalysts found in living organisms."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-1-4-answer",
-      "databaseId": "CHE-T6-QUIZ021"
-    },
-    {
-      "id": "6.24",
+      "id": "CHEM-T06-Q029",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.2.1 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.2.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.1",
@@ -1152,111 +842,17 @@
       "specificationReference": "4.6.2.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-1-answer",
-      "databaseId": "CHE-6.24"
-    },
-    {
-      "id": "T6-QUIZ022",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "tier": "Foundation and Higher",
-      "question": "What is a reversible reaction?",
-      "marks": 1,
-      "modelAnswer": "A reaction where the products of the reaction can react to produce the original reactants.",
-      "markingPoints": [
-        "A reaction where the products of the reaction can react to produce the original reactants."
+      "hintKeywords": [
+        "reaction",
+        "reversible",
+        "reactants",
+        "occurring"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-1-answer",
-      "databaseId": "CHE-T6-QUIZ022"
+      "databaseId": "CHE-CHEM-T06-Q029"
     },
     {
-      "id": "T6-QUIZ023",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "tier": "Foundation and Higher",
-      "question": "Represent a reversible reaction with the reactants A and B and the products C and D?",
-      "marks": 1,
-      "modelAnswer": "A + B ⇌ C + D.",
-      "markingPoints": [
-        "A + B ⇌ C + D."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-1-answer",
-      "databaseId": "CHE-T6-QUIZ023"
-    },
-    {
-      "id": "T6-QUIZ024",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "tier": "Foundation and Higher",
-      "question": "How can the direction of a reversible reaction be changed?",
-      "marks": 1,
-      "modelAnswer": "By changing the conditions of the reaction.",
-      "markingPoints": [
-        "By changing the conditions of the reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-1-answer",
-      "databaseId": "CHE-T6-QUIZ024"
-    },
-    {
-      "id": "T6-QUIZ025",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.1 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.1",
-      "tier": "Foundation and Higher",
-      "question": "How can the direction of the decomposition of ammonium chloride into ammonia and hydrogen chloride be changed?",
-      "marks": 1,
-      "modelAnswer": "Ammonium chloride ⇌ ammonia + hydrogen chloride. If heated the reaction will move to the right (produce ammonia and hydrogen chloride). If cooled the reaction will move to the left (produce ammonium chloride).",
-      "markingPoints": [
-        "Ammonium chloride ⇌ ammonia + hydrogen chloride. If heated the reaction will move to the right (produce ammonia and hydrogen chloride). If cooled the reaction will move to the left (produce ammonium chloride)."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-1-answer",
-      "databaseId": "CHE-T6-QUIZ025"
-    },
-    {
-      "id": "6.25",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.2 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "tier": "All",
-      "question": "Hydrated copper sulfate is heated. State the colour change and name the products.",
-      "marks": 3,
-      "modelAnswer": "Blue hydrated copper sulfate forms white anhydrous copper sulfate and water.",
-      "markingPoints": [
-        "Blue hydrated copper sulfate forms white anhydrous copper sulfate and water."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.2",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-2-answer",
-      "databaseId": "CHE-6.25"
-    },
-    {
-      "id": "6.26",
+      "id": "CHEM-T06-Q030",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.2.2 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.2.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.2",
@@ -1273,131 +869,42 @@
       "specificationReference": "4.6.2.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "reaction",
+        "magnitude",
+        "opposite",
+        "direction"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-2-answer",
-      "databaseId": "CHE-6.26"
+      "databaseId": "CHE-CHEM-T06-Q030"
     },
     {
-      "id": "T6-QUIZ026",
+      "id": "CHEM-T06-Q031",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.2.2 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.2.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "tier": "Foundation and Higher",
-      "question": "If a reaction is exothermic in one direction what will it be in the opposite direction?",
-      "marks": 1,
-      "modelAnswer": "Endothermic.",
+      "tier": "All",
+      "question": "Hydrated copper sulfate is heated. State the colour change and name the products.",
+      "marks": 3,
+      "modelAnswer": "Blue hydrated copper sulfate forms white anhydrous copper sulfate and water.",
       "markingPoints": [
-        "Endothermic."
+        "Blue hydrated copper sulfate forms white anhydrous copper sulfate and water."
       ],
       "commandWord": "Answer",
       "assessmentObjective": "AO1",
       "specificationReference": "4.6.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "hydrated",
+        "sulfate",
+        "anhydrous"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-2-answer",
-      "databaseId": "CHE-T6-QUIZ026"
+      "databaseId": "CHE-CHEM-T06-Q031"
     },
     {
-      "id": "T6-QUIZ027",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.2 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "tier": "Foundation and Higher",
-      "question": "What does hydrated mean?",
-      "marks": 1,
-      "modelAnswer": "The compound is associated with water molecules.",
-      "markingPoints": [
-        "The compound is associated with water molecules."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-2-answer",
-      "databaseId": "CHE-T6-QUIZ027"
-    },
-    {
-      "id": "T6-QUIZ028",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.2 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "tier": "Foundation and Higher",
-      "question": "What does anhydrous mean?",
-      "marks": 1,
-      "modelAnswer": "The compound has no water molecules associated with it.",
-      "markingPoints": [
-        "The compound has no water molecules associated with it."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-2-answer",
-      "databaseId": "CHE-T6-QUIZ028"
-    },
-    {
-      "id": "T6-QUIZ029",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.2 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.2",
-      "tier": "Foundation and Higher",
-      "question": "What are energy changes associated with the reversible reaction of hydrated copper sulfate changing into anhydrous copper sulfate and water?",
-      "marks": 1,
-      "modelAnswer": "Hydrated copper sulfate ⇌ anhydrous copper sulfate + water. The reaction is endothermic to the right (formation of anhydrous copper sulfate) and exothermic to the right (formation of hydrated copper sulfate).",
-      "markingPoints": [
-        "Hydrated copper sulfate ⇌ anhydrous copper sulfate + water. The reaction is endothermic to the right (formation of anhydrous copper sulfate) and exothermic to the right (formation of hydrated copper sulfate)."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-2-answer",
-      "databaseId": "CHE-T6-QUIZ029"
-    },
-    {
-      "id": "T6-QUIZ030",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.3 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.3",
-      "tier": "Foundation and Higher",
-      "question": "What is equilibrium?",
-      "marks": 1,
-      "modelAnswer": "Equilibrium occurs when the forward and reverse reactions occur at exactly the same rate (no apparent change).",
-      "markingPoints": [
-        "Equilibrium occurs when the forward and reverse reactions occur at exactly the same rate (no apparent change)."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-3-answer",
-      "databaseId": "CHE-T6-QUIZ030"
-    },
-    {
-      "id": "T6-QUIZ031",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.3 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.3",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.3",
-      "tier": "Foundation and Higher",
-      "question": "What is a closed system?",
-      "marks": 1,
-      "modelAnswer": "Apparatus which prevents the escape of the products or reactants of a reaction.",
-      "markingPoints": [
-        "Apparatus which prevents the escape of the products or reactants of a reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-3-answer",
-      "databaseId": "CHE-T6-QUIZ031"
-    },
-    {
-      "id": "T6-PD06",
+      "id": "CHEM-T06-Q032",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.2.4 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.2.4",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.4",
@@ -1417,251 +924,17 @@
       "specificationReference": "4.6.2.4",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Practical + disciplinary",
+      "hintKeywords": [
+        "temperature",
+        "pressure",
+        "catalyst",
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-4-answer",
-      "databaseId": "CHE-T6-PD06"
+      "databaseId": "CHE-CHEM-T06-Q032"
     },
     {
-      "id": "T6-QUIZ032",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "tier": "Foundation and Higher",
-      "question": "What do the relative amounts of reactants and products at equilibrium depend upon?",
-      "marks": 1,
-      "modelAnswer": "They depend on the conditions of the reaction.",
-      "markingPoints": [
-        "They depend on the conditions of the reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-4-answer",
-      "databaseId": "CHE-T6-QUIZ032"
-    },
-    {
-      "id": "T6-QUIZ033",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.4 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe what happens to a system at equilibrium when a change is made to one of the conditions?",
-      "marks": 1,
-      "modelAnswer": "The system will respond to counteract the change.",
-      "markingPoints": [
-        "The system will respond to counteract the change."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-4-describe",
-      "databaseId": "CHE-T6-QUIZ033"
-    },
-    {
-      "id": "T6-QUIZ034",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "tier": "Foundation and Higher",
-      "question": "What is Le Chatelier’s principle?",
-      "marks": 1,
-      "modelAnswer": "If the conditions of a reaction in equilibrium are changed the system will respond to counteract the change. This results in a new point of equilibrium.",
-      "markingPoints": [
-        "If the conditions of a reaction in equilibrium are changed the system will respond to counteract the change. This results in a new point of equilibrium."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-4-answer",
-      "databaseId": "CHE-T6-QUIZ034"
-    },
-    {
-      "id": "T6-QUIZ035",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Where will the position of equilibrium be when ammonium chloride is heated?",
-      "marks": 1,
-      "modelAnswer": "To the right (ammonia and hydrogen chloride formed).",
-      "markingPoints": [
-        "To the right (ammonia and hydrogen chloride formed)."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-4-answer",
-      "databaseId": "CHE-T6-QUIZ035"
-    },
-    {
-      "id": "T6-QUIZ036",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Where will the position of equilibrium be when ammonia and hydrogen chloride are cooled?",
-      "marks": 1,
-      "modelAnswer": "To the left (ammonium chloride formed).",
-      "markingPoints": [
-        "To the left (ammonium chloride formed)."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-4-answer",
-      "databaseId": "CHE-T6-QUIZ036"
-    },
-    {
-      "id": "T6-QUIZ037",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.4 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.4",
-      "tier": "Foundation and Higher",
-      "question": "Where will the position of equilibrium be when hydrated copper sulfate is heated?",
-      "marks": 1,
-      "modelAnswer": "To the right (anhydrous copper sulfate and water formed).",
-      "markingPoints": [
-        "To the right (anhydrous copper sulfate and water formed)."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-4-answer",
-      "databaseId": "CHE-T6-QUIZ037"
-    },
-    {
-      "id": "T6-QUIZ038",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.5 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "tier": "Foundation and Higher",
-      "question": "Describe what happens if the concentration of a reactant or product in a reversible reaction is changed?",
-      "marks": 1,
-      "modelAnswer": "The system will no longer be in equilibrium. The concentrations of the substance will change until equilibrium is reached again.",
-      "markingPoints": [
-        "The system will no longer be in equilibrium. The concentrations of the substance will change until equilibrium is reached again."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.5",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-5-describe",
-      "databaseId": "CHE-T6-QUIZ038"
-    },
-    {
-      "id": "T6-QUIZ039",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.5 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the concentration of a reactant in a reversible reaction?",
-      "marks": 1,
-      "modelAnswer": "More products will be formed until equilibrium is reached.",
-      "markingPoints": [
-        "More products will be formed until equilibrium is reached."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.5",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-5-describe",
-      "databaseId": "CHE-T6-QUIZ039"
-    },
-    {
-      "id": "T6-QUIZ040",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.5 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of decreasing the concentration of a product in a reversible reaction?",
-      "marks": 1,
-      "modelAnswer": "More reactants will react until equilibrium is reached.",
-      "markingPoints": [
-        "More reactants will react until equilibrium is reached."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.5",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-5-describe",
-      "databaseId": "CHE-T6-QUIZ040"
-    },
-    {
-      "id": "T6-QUIZ041",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.5 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "tier": "Foundation and Higher",
-      "question": "What happens is more nitrogen is added in the following reaction: N2 + 3H2 ⇌ 2NH3?",
-      "marks": 1,
-      "modelAnswer": "More is NH3 produced.",
-      "markingPoints": [
-        "More is NH3 produced."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.5",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-5-answer",
-      "databaseId": "CHE-T6-QUIZ041"
-    },
-    {
-      "id": "T6-QUIZ042",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.5 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "tier": "Foundation and Higher",
-      "question": "What happens is more hydrogen is added in the following reaction: N2 + 3H2 ⇌ 2NH3?",
-      "marks": 1,
-      "modelAnswer": "More is NH3 produced.",
-      "markingPoints": [
-        "More is NH3 produced."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.5",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-5-answer",
-      "databaseId": "CHE-T6-QUIZ042"
-    },
-    {
-      "id": "T6-QUIZ043",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.5 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.5",
-      "tier": "Foundation and Higher",
-      "question": "What happens if the concentration of ammonia is decreased in the following reaction? N2 + 3H2 ⇌ 2NH3?",
-      "marks": 1,
-      "modelAnswer": "N2 + 3H2 ⇌ 2NH3? More N2 + 3H2 will react.",
-      "markingPoints": [
-        "N2 + 3H2 ⇌ 2NH3? More N2 + 3H2 will react."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.5",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-5-answer",
-      "databaseId": "CHE-T6-QUIZ043"
-    },
-    {
-      "id": "T6-EX3",
+      "id": "CHEM-T06-Q033",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.2.6, 4.6.3.1 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.2.6, 4.6.3.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.6, 4.6.3.1",
@@ -1678,231 +951,17 @@
       "specificationReference": "4.6.2.6, 4.6.3.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "pressure",
+        "moles",
+        "yield",
+        "activation energy"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-6-4-6-3-1-a",
-      "databaseId": "CHE-T6-EX3"
+      "databaseId": "CHE-CHEM-T06-Q033"
     },
     {
-      "id": "T6-QUIZ044",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.6 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the temperature of a system at equilibrium on the relative amount of products for an exothermic reaction?",
-      "marks": 1,
-      "modelAnswer": "The relative amount of products at equilibrium decrease.",
-      "markingPoints": [
-        "The relative amount of products at equilibrium decrease."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.6",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-6-describe",
-      "databaseId": "CHE-T6-QUIZ044"
-    },
-    {
-      "id": "T6-QUIZ045",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.6 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the temperature of a system at equilibrium on the relative amount of products for an endothermic reaction?",
-      "marks": 1,
-      "modelAnswer": "The relative amount of products at equilibrium increase.",
-      "markingPoints": [
-        "The relative amount of products at equilibrium increase."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.6",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-6-describe",
-      "databaseId": "CHE-T6-QUIZ045"
-    },
-    {
-      "id": "T6-QUIZ046",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.6 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of decreasing the temperature of a system at equilibrium on the relative amount of products for an exothermic reaction?",
-      "marks": 1,
-      "modelAnswer": "The relative amount of products at equilibrium increase.",
-      "markingPoints": [
-        "The relative amount of products at equilibrium increase."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.6",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-6-describe",
-      "databaseId": "CHE-T6-QUIZ046"
-    },
-    {
-      "id": "T6-QUIZ047",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.6 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of decreasing the temperature of a system at equilibrium on the relative amount of products for an endothermic reaction?",
-      "marks": 1,
-      "modelAnswer": "The relative amount of products at equilibrium decrease.",
-      "markingPoints": [
-        "The relative amount of products at equilibrium decrease."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.6",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-6-describe",
-      "databaseId": "CHE-T6-QUIZ047"
-    },
-    {
-      "id": "T6-QUIZ048",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.6 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "tier": "Foundation and Higher",
-      "question": "The following reaction is exothermic in the forward direction and endothermic in the opposite direction: N2 + 3H2 ⇌ 2NH3. Describe what happens if the temperature is decreased?",
-      "marks": 1,
-      "modelAnswer": "The relative amounts of NH3 will increase at equilibrium.",
-      "markingPoints": [
-        "The relative amounts of NH3 will increase at equilibrium."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.6",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-6-answer",
-      "databaseId": "CHE-T6-QUIZ048"
-    },
-    {
-      "id": "T6-QUIZ049",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.6 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.6",
-      "tier": "Foundation and Higher",
-      "question": "The following reaction is exothermic in the forward direction and endothermic in the opposite direction: N2 + 3H2 ⇌ 2NH3. Describe what happens if the temperature is increased?",
-      "marks": 1,
-      "modelAnswer": "The relative amounts of NH3 will decrease at equilibrium.",
-      "markingPoints": [
-        "The relative amounts of NH3 will decrease at equilibrium."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.6",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-6-answer",
-      "databaseId": "CHE-T6-QUIZ049"
-    },
-    {
-      "id": "T6-QUIZ050",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.7 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of decreasing the pressure of a gaseous reaction at equilibrium?",
-      "marks": 1,
-      "modelAnswer": "A decrease in pressure will cause the reaction to shift to the side with the larger number of molecules (from the balanced symbol equation).",
-      "markingPoints": [
-        "A decrease in pressure will cause the reaction to shift to the side with the larger number of molecules (from the balanced symbol equation)."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.7",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-7-describe",
-      "databaseId": "CHE-T6-QUIZ050"
-    },
-    {
-      "id": "T6-QUIZ051",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.7 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "tier": "Foundation and Higher",
-      "question": "Describe the effect of increasing the pressure of a gaseous reaction at equilibrium?",
-      "marks": 1,
-      "modelAnswer": "An increase in pressure will cause the reaction to shift to the side with the smaller number of molecules (from the balanced symbol equation).",
-      "markingPoints": [
-        "An increase in pressure will cause the reaction to shift to the side with the smaller number of molecules (from the balanced symbol equation)."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.7",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-7-describe",
-      "databaseId": "CHE-T6-QUIZ051"
-    },
-    {
-      "id": "T6-QUIZ052",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.7 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "tier": "Foundation and Higher",
-      "question": "Describe what will happen to the equilibrium position if the pressure is increased for the following reaction: N2 + 3H2 ⇌ 2NH3?",
-      "marks": 1,
-      "modelAnswer": "The are less molecules on the left (2 moles compared to 4 moles) so the reaction will shift to the right (more NH3).",
-      "markingPoints": [
-        "The are less molecules on the left (2 moles compared to 4 moles) so the reaction will shift to the right (more NH3)."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.7",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-7-describe",
-      "databaseId": "CHE-T6-QUIZ052"
-    },
-    {
-      "id": "T6-QUIZ053",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.2.7 · Describe",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.2.7",
-      "tier": "Foundation and Higher",
-      "question": "Describe what will happen to the equilibrium position if the pressure is decreased for the following reaction: N2 + 3H2 ⇌ 2NH3?",
-      "marks": 1,
-      "modelAnswer": "The are more molecules on the right (4 moles compared to 2 moles) so the reaction will shift to the left (more N2 + H2).",
-      "markingPoints": [
-        "The are more molecules on the right (4 moles compared to 2 moles) so the reaction will shift to the left (more N2 + H2)."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.2.7",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-2-7-describe",
-      "databaseId": "CHE-T6-QUIZ053"
-    },
-    {
-      "id": "6.9-S1",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.1 · State",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.3.1",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.1",
-      "tier": "All",
-      "question": "Define dynamic equilibrium.",
-      "marks": 3,
-      "modelAnswer": "In a closed system, the forward and reverse reactions occur at the same rate.",
-      "markingPoints": [
-        "In a closed system, the forward and reverse reactions occur at the same rate."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.6.3.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-1-state",
-      "databaseId": "CHE-6.9-S1"
-    },
-    {
-      "id": "6.9-S2",
+      "id": "CHEM-T06-Q034",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.3.1 · Explain",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.1",
@@ -1918,11 +977,43 @@
       "specificationReference": "4.6.3.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "forward",
+        "reactions",
+        "reactants",
+        "products"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-1-explain",
-      "databaseId": "CHE-6.9-S2"
+      "databaseId": "CHE-CHEM-T06-Q034"
     },
     {
-      "id": "6.27",
+      "id": "CHEM-T06-Q035",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.1 · State",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.3.1",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.1",
+      "tier": "All",
+      "question": "Define dynamic equilibrium.",
+      "marks": 3,
+      "modelAnswer": "In a closed system, the forward and reverse reactions occur at the same rate.",
+      "markingPoints": [
+        "In a closed system, the forward and reverse reactions occur at the same rate."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.6.3.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "closed",
+        "forward",
+        "reverse",
+        "reactions"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-1-state",
+      "databaseId": "CHE-CHEM-T06-Q035"
+    },
+    {
+      "id": "CHEM-T06-Q036",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.3.1 · State",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.1",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.1",
@@ -1938,56 +1029,43 @@
       "specificationReference": "4.6.3.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-1-state",
-      "databaseId": "CHE-6.27"
-    },
-    {
-      "id": "6.10",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.2–4.6.3.5 · Evaluate",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.3.2–4.6.3.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.2–4.6.3.5",
-      "tier": "HT",
-      "question": "Evaluate using low temperature, high pressure and a catalyst for an exothermic industrial equilibrium with fewer gas molecules on the product side.",
-      "marks": 8,
-      "modelAnswer": "Low T raises equilibrium yield but slows rate.\nModerate compromise and heating cost.\nHigh pressure raises yield/rate but compression and strong vessels cost/raise risk.\nCatalyst speeds attainment and lowers operating energy but does not change yield.\nInclude overall economic/safety judgement.",
-      "markingPoints": [
-        "Low T raises equilibrium yield but slows rate.",
-        "Moderate compromise and heating cost.",
-        "High pressure raises yield/rate but compression and strong vessels cost/raise risk.",
-        "Catalyst speeds attainment and lowers operating energy but does not change yield.",
-        "Include overall economic/safety judgement."
+      "hintKeywords": [
+        "reaction",
+        "reversible",
+        "closed",
+        "system"
       ],
-      "commandWord": "Evaluate",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.6.3.2–4.6.3.5",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-2-4-6-3-5-e",
-      "databaseId": "CHE-6.10"
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-1-state",
+      "databaseId": "CHE-CHEM-T06-Q036"
     },
     {
-      "id": "6.30",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.2 · Explain",
+      "id": "CHEM-T06-Q037",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.2 · State",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.2",
-      "tier": "HT",
-      "question": "Explain why a catalyst does not change the position of equilibrium.",
-      "marks": 3,
-      "modelAnswer": "It lowers activation energy and speeds both forward and reverse reactions equally.\nEquilibrium is reached sooner but equilibrium concentrations/yield are unchanged.",
+      "tier": "Higher only",
+      "question": "Define a closed system in the context of dynamic equilibrium.",
+      "marks": 1,
+      "modelAnswer": "A system in which no substances can enter or leave.",
       "markingPoints": [
-        "It lowers activation energy and speeds both forward and reverse reactions equally.",
-        "Equilibrium is reached sooner but equilibrium concentrations/yield are unchanged."
+        "A system in which no substances can enter or leave."
       ],
-      "commandWord": "Explain",
+      "commandWord": "State",
       "assessmentObjective": "AO1",
       "specificationReference": "4.6.3.2",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-2-explain",
-      "databaseId": "CHE-6.30"
+      "gradeDemand": "Low",
+      "knowledgeType": "Equilibrium",
+      "hintKeywords": [
+        "system",
+        "substances",
+        "enter",
+        "leave"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-2-state",
+      "databaseId": "CHE-CHEM-T06-Q037"
     },
     {
-      "id": "T6-EX4",
+      "id": "CHEM-T06-Q040",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.3.2 · Evaluate",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.2",
@@ -2006,31 +1084,72 @@
       "specificationReference": "4.6.3.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "exothermic",
+        "temperature",
+        "yield",
+        "Catalyst"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-2-evaluate",
-      "databaseId": "CHE-T6-EX4"
+      "databaseId": "CHE-CHEM-T06-Q040"
     },
     {
-      "id": "T6-QZ02",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.2 · State",
+      "id": "CHEM-T06-Q038",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.2 · Explain",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.2",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.2",
-      "tier": "Higher only",
-      "question": "Define a closed system in the context of dynamic equilibrium.",
-      "marks": 1,
-      "modelAnswer": "A system in which no substances can enter or leave.",
+      "tier": "HT",
+      "question": "Explain why a catalyst does not change the position of equilibrium.",
+      "marks": 3,
+      "modelAnswer": "It lowers activation energy and speeds both forward and reverse reactions equally.\nEquilibrium is reached sooner but equilibrium concentrations/yield are unchanged.",
       "markingPoints": [
-        "A system in which no substances can enter or leave."
+        "It lowers activation energy and speeds both forward and reverse reactions equally.",
+        "Equilibrium is reached sooner but equilibrium concentrations/yield are unchanged."
       ],
-      "commandWord": "State",
+      "commandWord": "Explain",
       "assessmentObjective": "AO1",
       "specificationReference": "4.6.3.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Equilibrium",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-2-state",
-      "databaseId": "CHE-T6-QZ02"
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "activation energy",
+        "yield"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-2-explain",
+      "databaseId": "CHE-CHEM-T06-Q038"
     },
     {
-      "id": "6.28",
+      "id": "CHEM-T06-Q039",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.2–4.6.3.5 · Evaluate",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.3.2–4.6.3.5",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.2–4.6.3.5",
+      "tier": "HT",
+      "question": "Evaluate using low temperature, high pressure and a catalyst for an exothermic industrial equilibrium with fewer gas molecules on the product side.",
+      "marks": 6,
+      "modelAnswer": "Low T raises equilibrium yield but slows rate.\nModerate compromise and heating cost.\nHigh pressure raises yield/rate but compression and strong vessels cost/raise risk.\nCatalyst speeds attainment and lowers operating energy but does not change yield.\nInclude overall economic/safety judgement.",
+      "markingPoints": [
+        "Low T raises equilibrium yield but slows rate.",
+        "Moderate compromise and heating cost.",
+        "High pressure raises yield/rate but compression and strong vessels cost/raise risk.",
+        "Catalyst speeds attainment and lowers operating energy but does not change yield.",
+        "Include overall economic/safety judgement."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.6.3.2–4.6.3.5",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "yield",
+        "pressure",
+        "Catalyst",
+        "energy"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-2-4-6-3-5-e",
+      "databaseId": "CHE-CHEM-T06-Q039"
+    },
+    {
+      "id": "CHEM-T06-Q041",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.3.3 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.3",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.3",
@@ -2046,51 +1165,17 @@
       "specificationReference": "4.6.3.3",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "equilibrium",
+        "shifts",
+        "replace",
+        "formed"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-3-answer",
-      "databaseId": "CHE-6.28"
+      "databaseId": "CHE-CHEM-T06-Q041"
     },
     {
-      "id": "6.8-S1",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
-      "tier": "HT",
-      "question": "For N₂O₄(g) ⇌ 2NO₂(g), the forward reaction is endothermic. Predict and explain the effect of increasing pressure on the yield of NO₂.",
-      "marks": 3,
-      "modelAnswer": "The yield of NO₂ decreases. Increasing pressure shifts equilibrium to the side with fewer gas molecules, which is N₂O₄.",
-      "markingPoints": [
-        "The yield of NO₂ decreases. Increasing pressure shifts equilibrium to the side with fewer gas molecules, which is N₂O₄."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.6.3.4; 4.6.3.5",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-4-4-6-3-5-a",
-      "databaseId": "CHE-6.8-S1"
-    },
-    {
-      "id": "6.8-S2",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
-      "tier": "HT",
-      "question": "For N₂O₄(g) ⇌ 2NO₂(g), the forward reaction is endothermic. Predict and explain the effect of increasing temperature on the yield of NO₂.",
-      "marks": 3,
-      "modelAnswer": "The yield of NO₂ increases. Higher temperature favours the endothermic forward reaction.",
-      "markingPoints": [
-        "The yield of NO₂ increases. Higher temperature favours the endothermic forward reaction."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.6.3.4; 4.6.3.5",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-4-4-6-3-5-a",
-      "databaseId": "CHE-6.8-S2"
-    },
-    {
-      "id": "6.29",
+      "id": "CHEM-T06-Q042",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.3.4 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.4",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.4",
@@ -2106,31 +1191,66 @@
       "specificationReference": "4.6.3.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "exothermic",
+        "product",
+        "yield"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-4-answer",
-      "databaseId": "CHE-6.29"
+      "databaseId": "CHE-CHEM-T06-Q042"
     },
     {
-      "id": "6.14-S1",
-      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.5 · Answer",
-      "subtopic": "T6 Rates and Equilibrium · 4.6.3.5",
-      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.5",
+      "id": "CHEM-T06-Q043",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
       "tier": "HT",
-      "question": "For A(g) + B(g) ⇌ 2C(g), predict the effect of increasing pressure on the equilibrium position.",
-      "marks": 2,
-      "modelAnswer": "There is no effect on the equilibrium position because there are two moles of gas on each side of the equation.",
+      "question": "For N₂O₄(g) ⇌ 2NO₂(g), the forward reaction is endothermic. Predict and explain the effect of increasing pressure on the yield of NO₂.",
+      "marks": 3,
+      "modelAnswer": "The yield of NO₂ decreases. Increasing pressure shifts equilibrium to the side with fewer gas molecules, which is N₂O₄.",
       "markingPoints": [
-        "There is no effect on the equilibrium position because there are two moles of gas on each side of the equation."
+        "The yield of NO₂ decreases. Increasing pressure shifts equilibrium to the side with fewer gas molecules, which is N₂O₄."
       ],
       "commandWord": "Answer",
       "assessmentObjective": "AO2",
-      "specificationReference": "4.6.3.5",
-      "gradeDemand": "Grades 5–7",
+      "specificationReference": "4.6.3.4; 4.6.3.5",
+      "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-5-answer",
-      "databaseId": "CHE-6.14-S1"
+      "hintKeywords": [
+        "yield",
+        "pressure",
+        "N₂O₄"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-4-4-6-3-5-a",
+      "databaseId": "CHE-CHEM-T06-Q043"
     },
     {
-      "id": "6.14-S2",
+      "id": "CHEM-T06-Q044",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.4; 4.6.3.5",
+      "tier": "HT",
+      "question": "For N₂O₄(g) ⇌ 2NO₂(g), the forward reaction is endothermic. Predict and explain the effect of increasing temperature on the yield of NO₂.",
+      "marks": 3,
+      "modelAnswer": "The yield of NO₂ increases. Higher temperature favours the endothermic forward reaction.",
+      "markingPoints": [
+        "The yield of NO₂ increases. Higher temperature favours the endothermic forward reaction."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.6.3.4; 4.6.3.5",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "yield",
+        "temperature",
+        "endothermic"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-4-4-6-3-5-a",
+      "databaseId": "CHE-CHEM-T06-Q044"
+    },
+    {
+      "id": "CHEM-T06-Q045",
       "questionFamily": "T6 Rates and Equilibrium · 4.6.3.5 · Answer",
       "subtopic": "T6 Rates and Equilibrium · 4.6.3.5",
       "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.5",
@@ -2146,11 +1266,40 @@
       "specificationReference": "4.6.3.5",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "pressure",
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-5-answer",
-      "databaseId": "CHE-6.14-S2"
+      "databaseId": "CHE-CHEM-T06-Q045"
     },
     {
-      "id": "T6-PD05",
+      "id": "CHEM-T06-Q046",
+      "questionFamily": "T6 Rates and Equilibrium · 4.6.3.5 · Answer",
+      "subtopic": "T6 Rates and Equilibrium · 4.6.3.5",
+      "sourceSubtopic": "T6 Rates and Equilibrium · 4.6.3.5",
+      "tier": "HT",
+      "question": "For A(g) + B(g) ⇌ 2C(g), predict the effect of increasing pressure on the equilibrium position.",
+      "marks": 2,
+      "modelAnswer": "There is no effect on the equilibrium position because there are two moles of gas on each side of the equation.",
+      "markingPoints": [
+        "There is no effect on the equilibrium position because there are two moles of gas on each side of the equation."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.6.3.5",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "equilibrium position",
+        "moles",
+        "equation"
+      ],
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-4-6-3-5-answer",
+      "databaseId": "CHE-CHEM-T06-Q046"
+    },
+    {
+      "id": "CHEM-T06-Q047",
       "questionFamily": "T6 Rates and Equilibrium · WS 3.4 · Explain",
       "subtopic": "T6 Rates and Equilibrium · WS 3.4",
       "sourceSubtopic": "T6 Rates and Equilibrium · WS 3.4",
@@ -2167,28 +1316,14 @@
       "specificationReference": "WS 3.4",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-ws-3-4-explain",
-      "databaseId": "CHE-T6-PD05"
-    },
-    {
-      "id": "Total marks",
-      "questionFamily": "T6 Rates and Equilibrium · AQA Chemistry · Answer",
-      "subtopic": "T6 Rates and Equilibrium · AQA Chemistry",
-      "sourceSubtopic": "T6 Rates and Equilibrium · AQA Chemistry",
-      "tier": "Foundation and Higher",
-      "question": "114",
-      "marks": 1,
-      "modelAnswer": "Student total.",
-      "markingPoints": [
-        "Student total."
+      "hintKeywords": [
+        "systematic",
+        "Repeats",
+        "connection",
+        "apparatus"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t6-rates-and-equilibrium-answer",
-      "databaseId": "CHE-Total marks"
+      "questionFamilyId": "CHE-t6-rates-and-equilibrium-ws-3-4-explain",
+      "databaseId": "CHE-CHEM-T06-Q047"
     }
   ]
 }

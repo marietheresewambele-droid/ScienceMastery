@@ -3,38 +3,38 @@
     "subtopics": [
       {
         "title": "T10 Using Resources · 4.10.1.1",
-        "questionCount": 13
+        "questionCount": 5
       },
       {
         "title": "T10 Using Resources · 4.10.1.2",
-        "questionCount": 22
+        "questionCount": 12
       },
       {
         "title": "T10 Using Resources · 4.10.1.3",
-        "questionCount": 10
+        "questionCount": 5
       },
       {
         "title": "T10 Using Resources · 4.10.1.4",
-        "questionCount": 11
+        "questionCount": 4
       },
       {
         "title": "T10 Using Resources · 4.10.2.1",
-        "questionCount": 15
+        "questionCount": 9
       },
       {
         "title": "T10 Using Resources · 4.10.2.2",
-        "questionCount": 14
+        "questionCount": 4
       },
       {
         "title": "T10 Using Resources · 4.10.3.1",
         "questionCount": 5
       },
       {
-        "title": "T10 Using Resources · 4.10.3.2–4.10.3.4",
+        "title": "T10 Using Resources · 4.10.3.2",
         "questionCount": 1
       },
       {
-        "title": "T10 Using Resources · 4.10.3.2",
+        "title": "T10 Using Resources · 4.10.3.2–4.10.3.4",
         "questionCount": 1
       },
       {
@@ -48,96 +48,12 @@
       {
         "title": "T10 Using Resources · 4.10.4.2–4.10.4.3",
         "questionCount": 2
-      },
-      {
-        "title": "T10 Using Resources · AQA Chemistry",
-        "questionCount": 1
       }
     ]
   },
   "questions": [
     {
-      "id": "10.1-A",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "All",
-      "question": "Define a finite resource.",
-      "marks": 1,
-      "modelAnswer": "Used faster than it is formed.",
-      "markingPoints": [
-        "Used faster than it is formed."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
-      "databaseId": "CHE-10.1-A"
-    },
-    {
-      "id": "10.1-B",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "All",
-      "question": "Define a renewable resource.",
-      "marks": 1,
-      "modelAnswer": "Replenished on a human timescale.",
-      "markingPoints": [
-        "Replenished on a human timescale."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
-      "databaseId": "CHE-10.1-B"
-    },
-    {
-      "id": "10.1-C",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "All",
-      "question": "Define a sustainable resource.",
-      "marks": 1,
-      "modelAnswer": "Meets present needs without compromising future needs.",
-      "markingPoints": [
-        "Meets present needs without compromising future needs."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
-      "databaseId": "CHE-10.1-C"
-    },
-    {
-      "id": "10.1-D",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "All",
-      "question": "Explain why renewable does not always mean impact-free.",
-      "marks": 2,
-      "modelAnswer": "Extraction, land use and energy use can still harm ecosystems; use must not exceed replacement.",
-      "markingPoints": [
-        "Extraction, land use and energy use can still harm ecosystems; use must not exceed replacement."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-explain",
-      "databaseId": "CHE-10.1-D"
-    },
-    {
-      "id": "10.16",
+      "id": "CHEM-T10-Q001",
       "questionFamily": "T10 Using Resources · 4.10.1.1 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
@@ -153,284 +69,140 @@
       "specificationReference": "4.10.1.1",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-answer",
-      "databaseId": "CHE-10.16"
-    },
-    {
-      "id": "T10-QUIZ001",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What do humans use the Earth’s resources for?",
-      "marks": 1,
-      "modelAnswer": "To provide warmth, shelter, food and transport.",
-      "markingPoints": [
-        "To provide warmth, shelter, food and transport."
+      "hintKeywords": [
+        "Meeting",
+        "generations",
+        "compromising"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-answer",
-      "databaseId": "CHE-T10-QUIZ001"
+      "databaseId": "CHE-CHEM-T10-Q001"
     },
     {
-      "id": "T10-QUIZ002",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What do natural resources, supplemented by agriculture provide?",
-      "marks": 1,
-      "modelAnswer": "Food, timber, clothing and fuels.",
-      "markingPoints": [
-        "Food, timber, clothing and fuels."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-answer",
-      "databaseId": "CHE-T10-QUIZ002"
-    },
-    {
-      "id": "T10-QUIZ003",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What are processed finite resources from the earth, oceans and atmosphere used to provide?",
-      "marks": 1,
-      "modelAnswer": "Energy and materials.",
-      "markingPoints": [
-        "Energy and materials."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-answer",
-      "databaseId": "CHE-T10-QUIZ003"
-    },
-    {
-      "id": "T10-QUIZ004",
+      "id": "CHEM-T10-Q002",
       "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
       "subtopic": "T10 Using Resources · 4.10.1.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "Give three examples of natural products and their synthetic replacements?",
-      "marks": 1,
-      "modelAnswer": "Rubber (a natural product) has been replaced by man made polymers. Cotton (a natural product) has been replaced by synthetic fibres such as polyester or Lycra. Plant dyes (a natural product) have been replaced by synthetic dyes.",
-      "markingPoints": [
-        "Rubber (a natural product) has been replaced by man made polymers. Cotton (a natural product) has been replaced by synthetic fibres such as polyester or Lycra. Plant dyes (a natural product) have been replaced by synthetic dyes."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
-      "databaseId": "CHE-T10-QUIZ004"
-    },
-    {
-      "id": "T10-QUIZ005",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is a finite resource?",
-      "marks": 1,
-      "modelAnswer": "Resources which are not formed quickly enough to be replaceable.",
-      "markingPoints": [
-        "Resources which are not formed quickly enough to be replaceable."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-answer",
-      "databaseId": "CHE-T10-QUIZ005"
-    },
-    {
-      "id": "T10-QUIZ006",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "Give three examples of finite resources?",
-      "marks": 1,
-      "modelAnswer": "Fossil fuels, nuclear fuels and metal ores.",
-      "markingPoints": [
-        "Fossil fuels, nuclear fuels and metal ores."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
-      "databaseId": "CHE-T10-QUIZ006"
-    },
-    {
-      "id": "T10-QUIZ007",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "What is a renewable resource?",
-      "marks": 1,
-      "modelAnswer": "A resources that forms at a faster or similar rate than they are being used.",
-      "markingPoints": [
-        "A resources that forms at a faster or similar rate than they are being used."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-answer",
-      "databaseId": "CHE-T10-QUIZ007"
-    },
-    {
-      "id": "T10-QUIZ008",
-      "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
-      "tier": "Foundation and Higher",
-      "question": "Give three examples of renewable resources?",
-      "marks": 1,
-      "modelAnswer": "Timber, fresh water and food.",
-      "markingPoints": [
-        "Timber, fresh water and food."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
-      "databaseId": "CHE-T10-QUIZ008"
-    },
-    {
-      "id": "10.2-A",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
       "tier": "All",
-      "question": "Describe two stages in treating freshwater to make potable water.",
-      "marks": 2,
-      "modelAnswer": "Filter/sediment to remove solids\nSterilise by chlorine, ozone or UV to kill microbes.",
+      "question": "Define a finite resource.",
+      "marks": 1,
+      "modelAnswer": "Used faster than it is formed.",
       "markingPoints": [
-        "Filter/sediment to remove solids",
-        "Sterilise by chlorine, ozone or UV to kill microbes."
+        "Used faster than it is formed."
       ],
-      "commandWord": "Describe",
+      "commandWord": "State",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
+      "specificationReference": "4.10.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-describe",
-      "databaseId": "CHE-10.2-A"
+      "hintKeywords": [
+        "Used",
+        "faster",
+        "formed"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
+      "databaseId": "CHE-CHEM-T10-Q002"
     },
     {
-      "id": "10.2-B",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
+      "id": "CHEM-T10-Q003",
+      "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
+      "subtopic": "T10 Using Resources · 4.10.1.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
       "tier": "All",
-      "question": "Explain why potable water is not necessarily pure water.",
+      "question": "Define a renewable resource.",
       "marks": 1,
-      "modelAnswer": "It can contain safe levels of dissolved minerals.",
+      "modelAnswer": "Replenished on a human timescale.",
       "markingPoints": [
-        "It can contain safe levels of dissolved minerals."
+        "Replenished on a human timescale."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.10.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Replenished",
+        "human",
+        "timescale"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
+      "databaseId": "CHE-CHEM-T10-Q003"
+    },
+    {
+      "id": "CHEM-T10-Q004",
+      "questionFamily": "T10 Using Resources · 4.10.1.1 · State",
+      "subtopic": "T10 Using Resources · 4.10.1.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
+      "tier": "All",
+      "question": "Define a sustainable resource.",
+      "marks": 1,
+      "modelAnswer": "Meets present needs without compromising future needs.",
+      "markingPoints": [
+        "Meets present needs without compromising future needs."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.10.1.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "present",
+        "without",
+        "compromising",
+        "future"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-state",
+      "databaseId": "CHE-CHEM-T10-Q004"
+    },
+    {
+      "id": "CHEM-T10-Q005",
+      "questionFamily": "T10 Using Resources · 4.10.1.1 · Explain",
+      "subtopic": "T10 Using Resources · 4.10.1.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.1",
+      "tier": "All",
+      "question": "Explain why renewable does not always mean impact-free.",
+      "marks": 2,
+      "modelAnswer": "Extraction, land use and energy use can still harm ecosystems; use must not exceed replacement.",
+      "markingPoints": [
+        "Extraction, land use and energy use can still harm ecosystems; use must not exceed replacement."
       ],
       "commandWord": "Explain",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
+      "specificationReference": "4.10.1.1",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-explain",
-      "databaseId": "CHE-10.2-B"
+      "hintKeywords": [
+        "energy"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-1-explain",
+      "databaseId": "CHE-CHEM-T10-Q005"
     },
     {
-      "id": "10.3",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Compare",
+      "id": "CHEM-T10-Q006",
+      "questionFamily": "T10 Using Resources · 4.10.1.2 · State",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "All",
-      "question": "Compare distillation and reverse osmosis for desalination, including mechanism, energy/cost and environmental issue.",
-      "marks": 7,
-      "modelAnswer": "Distillation evaporates/condenses.\nHigh heat energy.\nRO high pressure through membrane.\nElectrical energy/membrane.\nBoth costly.\nConcentrated brine/ecosystem and carbon impacts.\nSuitability depends on energy/water scarcity.",
+      "tier": "Foundation and Higher",
+      "question": "Define potable water.",
+      "marks": 1,
+      "modelAnswer": "Water that is safe to drink; it does not need to be pure water.",
       "markingPoints": [
-        "Distillation evaporates/condenses.",
-        "High heat energy.",
-        "RO high pressure through membrane.",
-        "Electrical energy/membrane.",
-        "Both costly.",
-        "Concentrated brine/ecosystem and carbon impacts.",
-        "Suitability depends on energy/water scarcity."
+        "Water that is safe to drink; it does not need to be pure water."
       ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO1/AO3",
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.10.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-compare",
-      "databaseId": "CHE-10.3"
+      "gradeDemand": "Low",
+      "knowledgeType": "Potable water",
+      "hintKeywords": [
+        "Water",
+        "safe",
+        "drink"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-state",
+      "databaseId": "CHE-CHEM-T10-Q006"
     },
     {
-      "id": "10.5",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "All",
-      "question": "Plan the required practical to compare samples of water by measuring pH, dissolved solids and purity after distillation. Include one safety precaution.",
-      "marks": 8,
-      "modelAnswer": "Measure pH consistently.\nEvaporate known volume in preweighed dish, dry/cool/reweigh for solids.\nDistil with anti-bumping, condenser water flow, collect distillate.\nEye protection/heat care.\nRepeats, same volumes, avoid contamination.",
-      "markingPoints": [
-        "Measure pH consistently.",
-        "Evaporate known volume in preweighed dish, dry/cool/reweigh for solids.",
-        "Distil with anti-bumping, condenser water flow, collect distillate.",
-        "Eye protection/heat care.",
-        "Repeats, same volumes, avoid contamination."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-10.5"
-    },
-    {
-      "id": "10.6",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "All",
-      "question": "A dish is 42.36 g empty and 42.61 g after evaporating 50.0 cm3 water. Calculate dissolved-solids concentration in g/dm3.",
-      "marks": 5,
-      "modelAnswer": "Solids=0.25 g.\nVolume=0.0500 dm3.\nConcentration=0.25/0.0500=5.0 g/dm3.",
-      "markingPoints": [
-        "Solids=0.25 g.",
-        "Volume=0.0500 dm3.",
-        "Concentration=0.25/0.0500=5.0 g/dm3."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-10.6"
-    },
-    {
-      "id": "10.17",
+      "id": "CHEM-T10-Q007",
       "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
@@ -446,11 +218,15 @@
       "specificationReference": "4.10.1.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy",
+        "desalination"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-10.17"
+      "databaseId": "CHE-CHEM-T10-Q007"
     },
     {
-      "id": "10.18",
+      "id": "CHEM-T10-Q008",
       "questionFamily": "T10 Using Resources · 4.10.1.2 · State",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
@@ -468,33 +244,42 @@
       "specificationReference": "4.10.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "suitable",
+        "Sterilise",
+        "chlorine",
+        "ultraviolet"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-state",
-      "databaseId": "CHE-10.18"
+      "databaseId": "CHE-CHEM-T10-Q008"
     },
     {
-      "id": "T10-EX1",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Compare",
+      "id": "CHEM-T10-Q009",
+      "questionFamily": "T10 Using Resources · 4.10.1.2 · Explain",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
       "tier": "Both",
-      "question": "Compare producing potable water from fresh water and seawater.",
-      "marks": 6,
-      "modelAnswer": "Fresh water: choose source, filter and sterilise.\nGenerally lower energy/cost but supply may be limited/contaminated.\nSeawater desalination by distillation or reverse osmosis supplies arid areas but uses much energy, costs more and creates concentrated brine impacts.",
+      "question": "Explain why filtration alone cannot remove dissolved salts from water.",
+      "marks": 3,
+      "modelAnswer": "Dissolved ions/particles are much smaller than filter-paper pores and pass through with water.\nDistillation or another desalination method is required.",
       "markingPoints": [
-        "Fresh water: choose source, filter and sterilise.",
-        "Generally lower energy/cost but supply may be limited/contaminated.",
-        "Seawater desalination by distillation or reverse osmosis supplies arid areas but uses much energy, costs more and creates concentrated brine impacts."
+        "Dissolved ions/particles are much smaller than filter-paper pores and pass through with water.",
+        "Distillation or another desalination method is required."
       ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO3",
+      "commandWord": "Explain",
+      "assessmentObjective": "AO2",
       "specificationReference": "4.10.1.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-compare",
-      "databaseId": "CHE-T10-EX1"
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive + practical",
+      "hintKeywords": [
+        "ions",
+        "desalination"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-explain",
+      "databaseId": "CHE-CHEM-T10-Q009"
     },
     {
-      "id": "T10-PD01",
+      "id": "CHEM-T10-Q010",
       "questionFamily": "T10 Using Resources · 4.10.1.2 · Describe",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
@@ -514,32 +299,152 @@
       "specificationReference": "4.10.1.2",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Practical knowledge",
+      "hintKeywords": [
+        "pH"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-describe",
-      "databaseId": "CHE-T10-PD01"
+      "databaseId": "CHE-CHEM-T10-Q010"
     },
     {
-      "id": "T10-PD02",
+      "id": "CHEM-T10-Q011",
       "questionFamily": "T10 Using Resources · 4.10.1.2 · Explain",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Both",
-      "question": "Explain why filtration alone cannot remove dissolved salts from water.",
-      "marks": 3,
-      "modelAnswer": "Dissolved ions/particles are much smaller than filter-paper pores and pass through with water.\nDistillation or another desalination method is required.",
+      "tier": "All",
+      "question": "Explain why potable water is not necessarily pure water.",
+      "marks": 1,
+      "modelAnswer": "It can contain safe levels of dissolved minerals.",
       "markingPoints": [
-        "Dissolved ions/particles are much smaller than filter-paper pores and pass through with water.",
-        "Distillation or another desalination method is required."
+        "It can contain safe levels of dissolved minerals."
       ],
       "commandWord": "Explain",
-      "assessmentObjective": "AO2",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.10.1.2",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive + practical",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "contain",
+        "levels",
+        "dissolved",
+        "minerals"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-explain",
-      "databaseId": "CHE-T10-PD02"
+      "databaseId": "CHE-CHEM-T10-Q011"
     },
     {
-      "id": "T10-PD03",
+      "id": "CHEM-T10-Q012",
+      "questionFamily": "T10 Using Resources · 4.10.1.2 · Describe",
+      "subtopic": "T10 Using Resources · 4.10.1.2",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
+      "tier": "All",
+      "question": "Describe two stages in treating freshwater to make potable water.",
+      "marks": 2,
+      "modelAnswer": "Filter/sediment to remove solids\nSterilise by chlorine, ozone or UV to kill microbes.",
+      "markingPoints": [
+        "Filter/sediment to remove solids",
+        "Sterilise by chlorine, ozone or UV to kill microbes."
+      ],
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Filter",
+        "sediment",
+        "remove",
+        "solids",
+        "Sterilise",
+        "chlorine"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-describe",
+      "databaseId": "CHE-CHEM-T10-Q012"
+    },
+    {
+      "id": "CHEM-T10-Q013",
+      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
+      "subtopic": "T10 Using Resources · 4.10.1.2",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
+      "tier": "All",
+      "question": "A dish is 42.36 g empty and 42.61 g after evaporating 50.0 cm3 water. Calculate dissolved-solids concentration in g/dm3.",
+      "marks": 5,
+      "modelAnswer": "Solids=0.25 g.\nVolume=0.0500 dm3.\nConcentration=0.25/0.0500=5.0 g/dm3.",
+      "markingPoints": [
+        "Solids=0.25 g.",
+        "Volume=0.0500 dm3.",
+        "Concentration=0.25/0.0500=5.0 g/dm3."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Volume",
+        "Concentration"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
+      "databaseId": "CHE-CHEM-T10-Q013"
+    },
+    {
+      "id": "CHEM-T10-Q016",
+      "questionFamily": "T10 Using Resources · 4.10.1.2 · Compare",
+      "subtopic": "T10 Using Resources · 4.10.1.2",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
+      "tier": "All",
+      "question": "Compare distillation and reverse osmosis for desalination, including mechanism, energy/cost and environmental issue.",
+      "marks": 6,
+      "modelAnswer": "Distillation evaporates/condenses.\nHigh heat energy.\nRO high pressure through membrane.\nElectrical energy/membrane.\nBoth costly.\nConcentrated brine/ecosystem and carbon impacts.\nSuitability depends on energy/water scarcity.",
+      "markingPoints": [
+        "Distillation evaporates/condenses.",
+        "High heat energy.",
+        "RO high pressure through membrane.",
+        "Electrical energy/membrane.",
+        "Both costly.",
+        "Concentrated brine/ecosystem and carbon impacts.",
+        "Suitability depends on energy/water scarcity."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy",
+        "pressure"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-compare",
+      "databaseId": "CHE-CHEM-T10-Q016"
+    },
+    {
+      "id": "CHEM-T10-Q014",
+      "questionFamily": "T10 Using Resources · 4.10.1.2 · Compare",
+      "subtopic": "T10 Using Resources · 4.10.1.2",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
+      "tier": "Both",
+      "question": "Compare producing potable water from fresh water and seawater.",
+      "marks": 6,
+      "modelAnswer": "Fresh water: choose source, filter and sterilise.\nGenerally lower energy/cost but supply may be limited/contaminated.\nSeawater desalination by distillation or reverse osmosis supplies arid areas but uses much energy, costs more and creates concentrated brine impacts.",
+      "markingPoints": [
+        "Fresh water: choose source, filter and sterilise.",
+        "Generally lower energy/cost but supply may be limited/contaminated.",
+        "Seawater desalination by distillation or reverse osmosis supplies arid areas but uses much energy, costs more and creates concentrated brine impacts."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.1.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy",
+        "desalination",
+        "reverse osmosis"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-compare",
+      "databaseId": "CHE-CHEM-T10-Q014"
+    },
+    {
+      "id": "CHEM-T10-Q015",
       "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
@@ -562,276 +467,43 @@
       "specificationReference": "4.10.1.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Practical + disciplinary",
+      "hintKeywords": [
+        "mass",
+        "volume"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-T10-PD03"
+      "databaseId": "CHE-CHEM-T10-Q015"
     },
     {
-      "id": "T10-QUIZ009",
+      "id": "CHEM-T10-Q017",
       "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What is potable water?",
-      "marks": 1,
-      "modelAnswer": "Water that is safe to drink.",
-      "markingPoints": [
-        "Water that is safe to drink."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-T10-QUIZ009"
-    },
-    {
-      "id": "T10-QUIZ010",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What properties should drinking water have?",
-      "marks": 1,
-      "modelAnswer": "It should have only low levels of dissolved salts and microbes.",
-      "markingPoints": [
-        "It should have only low levels of dissolved salts and microbes."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-T10-QUIZ010"
-    },
-    {
-      "id": "T10-QUIZ011",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Explain whether potable water is a pure substance or a mixture?",
-      "marks": 1,
-      "modelAnswer": "Potable water contains dissolved substances so it is not pure.",
-      "markingPoints": [
-        "Potable water contains dissolved substances so it is not pure."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-explain",
-      "databaseId": "CHE-T10-QUIZ011"
-    },
-    {
-      "id": "T10-QUIZ012",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the source of most of the potable water used in the UK?",
-      "marks": 1,
-      "modelAnswer": "Rain is the source of most water in the UK. It collects in the ground and in lakes and rivers.",
-      "markingPoints": [
-        "Rain is the source of most water in the UK. It collects in the ground and in lakes and rivers."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-T10-QUIZ012"
-    },
-    {
-      "id": "T10-QUIZ013",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "How is most of the potable water produced in the UK?",
-      "marks": 1,
-      "modelAnswer": "Water from a suitable source (e.g. reservoir or ground water) is passed through filter beds and then sterilised.",
-      "markingPoints": [
-        "Water from a suitable source (e.g. reservoir or ground water) is passed through filter beds and then sterilised."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-T10-QUIZ013"
-    },
-    {
-      "id": "T10-QUIZ014",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Name three sterilising agents used to produce potable water?",
-      "marks": 1,
-      "modelAnswer": "Chlorine, ozone or ultraviolet light.",
-      "markingPoints": [
-        "Chlorine, ozone or ultraviolet light."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-state",
-      "databaseId": "CHE-T10-QUIZ014"
-    },
-    {
-      "id": "T10-QUIZ015",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the source of potable water, when fresh water supplies are limited?",
-      "marks": 1,
-      "modelAnswer": "Salt water or sea water.",
-      "markingPoints": [
-        "Salt water or sea water."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-T10-QUIZ015"
-    },
-    {
-      "id": "T10-QUIZ016",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Name two methods of desalination?",
-      "marks": 1,
-      "modelAnswer": "Distillation or reverse osmosis.",
-      "markingPoints": [
-        "Distillation or reverse osmosis."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-state",
-      "databaseId": "CHE-T10-QUIZ016"
-    },
-    {
-      "id": "T10-QUIZ017",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "What is a drawback to using either of these methods?",
-      "marks": 1,
-      "modelAnswer": "These processes require large amounts of energy.",
-      "markingPoints": [
-        "These processes require large amounts of energy."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
-      "databaseId": "CHE-T10-QUIZ017"
-    },
-    {
-      "id": "T10-QUIZ018",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe a method to analyse and purify water samples from different sources?",
-      "marks": 1,
-      "modelAnswer": "Take a sample of water and measure its pH. Filter the water using filter paper and a funnel to remove undissolved solid particles. Measure the mass of a round bottom flask. Place the water into a round bottom flask and attach to simple distillery. Collect the water that evaporates and condenses from the equipment. Retest the water for pH. Collect the round bottom flask and weigh it. Calculate the mass of dissolved solids remaining. Repeat the experiment with different samples of water.",
-      "markingPoints": [
-        "Take a sample of water and measure its pH. Filter the water using filter paper and a funnel to remove undissolved solid particles. Measure the mass of a round bottom flask. Place the water into a round bottom flask and attach to simple distillery. Collect the water that evaporates and condenses from the equipment. Retest the water for pH. Collect the round bottom flask and weigh it. Calculate the mass of dissolved solids remaining. Repeat the experiment with different samples of water."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-describe",
-      "databaseId": "CHE-T10-QUIZ018"
-    },
-    {
-      "id": "T10-QZ01",
-      "questionFamily": "T10 Using Resources · 4.10.1.2 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.2",
-      "tier": "Foundation and Higher",
-      "question": "Define potable water.",
-      "marks": 1,
-      "modelAnswer": "Water that is safe to drink; it does not need to be pure water.",
-      "markingPoints": [
-        "Water that is safe to drink; it does not need to be pure water."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Potable water",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-state",
-      "databaseId": "CHE-T10-QZ01"
-    },
-    {
-      "id": "10.4",
-      "questionFamily": "T10 Using Resources · 4.10.1.3 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.1.3",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
       "tier": "All",
-      "question": "Describe sewage treatment from screening to discharge, including sludge and effluent pathways.",
-      "marks": 7,
-      "modelAnswer": "Screen grit/large objects.\nSedimentation separates sludge/effluent.\nAnaerobic digestion of sludge produces biogas.\nAerobic microbes treat effluent/organic matter.\nDischarge after treatment.\nIndustrial toxins may need removal.",
+      "question": "Plan the required practical to compare samples of water by measuring pH, dissolved solids and purity after distillation. Include one safety precaution.",
+      "marks": 6,
+      "modelAnswer": "Measure pH consistently.\nEvaporate known volume in preweighed dish, dry/cool/reweigh for solids.\nDistil with anti-bumping, condenser water flow, collect distillate.\nEye protection/heat care.\nRepeats, same volumes, avoid contamination.",
       "markingPoints": [
-        "Screen grit/large objects.",
-        "Sedimentation separates sludge/effluent.",
-        "Anaerobic digestion of sludge produces biogas.",
-        "Aerobic microbes treat effluent/organic matter.",
-        "Discharge after treatment.",
-        "Industrial toxins may need removal."
+        "Measure pH consistently.",
+        "Evaporate known volume in preweighed dish, dry/cool/reweigh for solids.",
+        "Distil with anti-bumping, condenser water flow, collect distillate.",
+        "Eye protection/heat care.",
+        "Repeats, same volumes, avoid contamination."
       ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.3",
+      "commandWord": "Answer",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.1.2",
       "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-describe",
-      "databaseId": "CHE-10.4"
-    },
-    {
-      "id": "10.19",
-      "questionFamily": "T10 Using Resources · 4.10.1.3 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.3",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
-      "tier": "All",
-      "question": "What is the purpose of screening and grit removal during sewage treatment?",
-      "marks": 2,
-      "modelAnswer": "To remove large objects and solid grit before later treatment stages.",
-      "markingPoints": [
-        "To remove large objects and solid grit before later treatment stages."
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "pH",
+        "volume"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.3",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-answer",
-      "databaseId": "CHE-10.19"
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-2-answer",
+      "databaseId": "CHE-CHEM-T10-Q017"
     },
     {
-      "id": "10.20",
+      "id": "CHEM-T10-Q018",
       "questionFamily": "T10 Using Resources · 4.10.1.3 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.3",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
@@ -847,11 +519,17 @@
       "specificationReference": "4.10.1.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Aerobic",
+        "microorganisms",
+        "organic",
+        "presence"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-answer",
-      "databaseId": "CHE-10.20"
+      "databaseId": "CHE-CHEM-T10-Q018"
     },
     {
-      "id": "10.21",
+      "id": "CHEM-T10-Q019",
       "questionFamily": "T10 Using Resources · 4.10.1.3 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.3",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
@@ -867,111 +545,43 @@
       "specificationReference": "4.10.1.3",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Anaerobic",
+        "microorganisms",
+        "without",
+        "producing"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-answer",
-      "databaseId": "CHE-10.21"
+      "databaseId": "CHE-CHEM-T10-Q019"
     },
     {
-      "id": "T10-QUIZ019",
+      "id": "CHEM-T10-Q020",
       "questionFamily": "T10 Using Resources · 4.10.1.3 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.3",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
-      "tier": "Foundation and Higher",
-      "question": "What are the main sources of waste water?",
-      "marks": 1,
-      "modelAnswer": "Urban lifestyles, industrial processes and agriculture.",
+      "tier": "All",
+      "question": "What is the purpose of screening and grit removal during sewage treatment?",
+      "marks": 2,
+      "modelAnswer": "To remove large objects and solid grit before later treatment stages.",
       "markingPoints": [
-        "Urban lifestyles, industrial processes and agriculture."
+        "To remove large objects and solid grit before later treatment stages."
       ],
       "commandWord": "Answer",
       "assessmentObjective": "AO1",
       "specificationReference": "4.10.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "remove",
+        "objects",
+        "treatment",
+        "stages"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-answer",
-      "databaseId": "CHE-T10-QUIZ019"
+      "databaseId": "CHE-CHEM-T10-Q020"
     },
     {
-      "id": "T10-QUIZ020",
-      "questionFamily": "T10 Using Resources · 4.10.1.3 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.3",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Why does agricultural and sewage waste water require treatment?",
-      "marks": 1,
-      "modelAnswer": "These require treatment to remove organic matter and harmful microbes.",
-      "markingPoints": [
-        "These require treatment to remove organic matter and harmful microbes."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-answer",
-      "databaseId": "CHE-T10-QUIZ020"
-    },
-    {
-      "id": "T10-QUIZ021",
-      "questionFamily": "T10 Using Resources · 4.10.1.3 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.3",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Why does industrial waste water require treatment?",
-      "marks": 1,
-      "modelAnswer": "These require treatment for the removal of organic matter and harmful chemicals.",
-      "markingPoints": [
-        "These require treatment for the removal of organic matter and harmful chemicals."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-answer",
-      "databaseId": "CHE-T10-QUIZ021"
-    },
-    {
-      "id": "T10-QUIZ022",
-      "questionFamily": "T10 Using Resources · 4.10.1.3 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.1.3",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Describe the four stages of sewage treatment?",
-      "marks": 1,
-      "modelAnswer": "Screening and grit removal; sedimentation to produce sludge and effluent; anaerobic digestion of sludge; aerobic biological treatment of effluent.",
-      "markingPoints": [
-        "Screening and grit removal; sedimentation to produce sludge and effluent; anaerobic digestion of sludge; aerobic biological treatment of effluent."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-describe",
-      "databaseId": "CHE-T10-QUIZ022"
-    },
-    {
-      "id": "T10-QUIZ023",
-      "questionFamily": "T10 Using Resources · 4.10.1.3 · Compare",
-      "subtopic": "T10 Using Resources · 4.10.1.3",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
-      "tier": "Foundation and Higher",
-      "question": "Compare the relative ease of obtaining water from waste water, ground water and salt water?",
-      "marks": 1,
-      "modelAnswer": "Waste water requires expensive treatment to remove potentially toxic chemicals and microbes from the water. Ground water water just needs to be filtered and sterilised before it is potable. Saltwater can be purified but the processes require a lot of energy.",
-      "markingPoints": [
-        "Waste water requires expensive treatment to remove potentially toxic chemicals and microbes from the water. Ground water water just needs to be filtered and sterilised before it is potable. Saltwater can be purified but the processes require a lot of energy."
-      ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.3",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-compare",
-      "databaseId": "CHE-T10-QUIZ023"
-    },
-    {
-      "id": "T10-QZ02",
+      "id": "CHEM-T10-Q021",
       "questionFamily": "T10 Using Resources · 4.10.1.3 · State",
       "subtopic": "T10 Using Resources · 4.10.1.3",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
@@ -987,35 +597,48 @@
       "specificationReference": "4.10.1.3",
       "gradeDemand": "Medium",
       "knowledgeType": "Waste water treatment",
+      "hintKeywords": [
+        "Screening",
+        "sedimentation",
+        "anaerobic",
+        "biological"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-state",
-      "databaseId": "CHE-T10-QZ02"
+      "databaseId": "CHE-CHEM-T10-Q021"
     },
     {
-      "id": "10.14",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Compare",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "HT",
-      "question": "Compare phytomining and bioleaching for low-grade copper ores and state how copper can be recovered from the resulting material.",
-      "marks": 7,
-      "modelAnswer": "Plants absorb ions then harvested/burned, metal from ash.\nBacteria produce leachate.\nLower-grade/less landscape damage and energy than conventional mining but slow/land/process issues.\nRecover by displacement with iron or electrolysis.\nPurity differs.",
+      "id": "CHEM-T10-Q022",
+      "questionFamily": "T10 Using Resources · 4.10.1.3 · Describe",
+      "subtopic": "T10 Using Resources · 4.10.1.3",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.3",
+      "tier": "All",
+      "question": "Describe sewage treatment from screening to discharge, including sludge and effluent pathways.",
+      "marks": 6,
+      "modelAnswer": "Screen grit/large objects.\nSedimentation separates sludge/effluent.\nAnaerobic digestion of sludge produces biogas.\nAerobic microbes treat effluent/organic matter.\nDischarge after treatment.\nIndustrial toxins may need removal.",
       "markingPoints": [
-        "Plants absorb ions then harvested/burned, metal from ash.",
-        "Bacteria produce leachate.",
-        "Lower-grade/less landscape damage and energy than conventional mining but slow/land/process issues.",
-        "Recover by displacement with iron or electrolysis.",
-        "Purity differs."
+        "Screen grit/large objects.",
+        "Sedimentation separates sludge/effluent.",
+        "Anaerobic digestion of sludge produces biogas.",
+        "Aerobic microbes treat effluent/organic matter.",
+        "Discharge after treatment.",
+        "Industrial toxins may need removal."
       ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.10.1.4",
+      "commandWord": "Describe",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.10.1.3",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-compare",
-      "databaseId": "CHE-10.14"
+      "hintKeywords": [
+        "Sedimentation",
+        "separates",
+        "Anaerobic",
+        "Industrial"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-3-describe",
+      "databaseId": "CHE-CHEM-T10-Q022"
     },
     {
-      "id": "10.22",
+      "id": "CHEM-T10-Q023",
       "questionFamily": "T10 Using Resources · 4.10.1.4 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.4",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
@@ -1031,11 +654,37 @@
       "specificationReference": "4.10.1.4",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-answer",
-      "databaseId": "CHE-10.22"
+      "databaseId": "CHE-CHEM-T10-Q023"
     },
     {
-      "id": "10.23",
+      "id": "CHEM-T10-Q024",
+      "questionFamily": "T10 Using Resources · 4.10.1.4 · Answer",
+      "subtopic": "T10 Using Resources · 4.10.1.4",
+      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
+      "tier": "HT",
+      "question": "How does bioleaching extract metals from low-grade ores?",
+      "marks": 3,
+      "modelAnswer": "Bacteria convert metal compounds into soluble metal ions, producing a leachate from which the metal can be recovered.",
+      "markingPoints": [
+        "Bacteria convert metal compounds into soluble metal ions, producing a leachate from which the metal can be recovered."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.10.1.4",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ions"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-answer",
+      "databaseId": "CHE-CHEM-T10-Q024"
+    },
+    {
+      "id": "CHEM-T10-Q025",
       "questionFamily": "T10 Using Resources · 4.10.1.4 · Answer",
       "subtopic": "T10 Using Resources · 4.10.1.4",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
@@ -1053,236 +702,97 @@
       "specificationReference": "4.10.1.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "ions",
+        "concentration"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-answer",
-      "databaseId": "CHE-10.23"
+      "databaseId": "CHE-CHEM-T10-Q025"
     },
     {
-      "id": "10.24",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Answer",
+      "id": "CHEM-T10-Q026",
+      "questionFamily": "T10 Using Resources · 4.10.1.4 · Compare",
       "subtopic": "T10 Using Resources · 4.10.1.4",
       "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
       "tier": "HT",
-      "question": "How does bioleaching extract metals from low-grade ores?",
-      "marks": 3,
-      "modelAnswer": "Bacteria convert metal compounds into soluble metal ions, producing a leachate from which the metal can be recovered.",
+      "question": "Compare phytomining and bioleaching for low-grade copper ores and state how copper can be recovered from the resulting material.",
+      "marks": 6,
+      "modelAnswer": "Plants absorb ions then harvested/burned, metal from ash.\nBacteria produce leachate.\nLower-grade/less landscape damage and energy than conventional mining but slow/land/process issues.\nRecover by displacement with iron or electrolysis.\nPurity differs.",
       "markingPoints": [
-        "Bacteria convert metal compounds into soluble metal ions, producing a leachate from which the metal can be recovered."
+        "Plants absorb ions then harvested/burned, metal from ash.",
+        "Bacteria produce leachate.",
+        "Lower-grade/less landscape damage and energy than conventional mining but slow/land/process issues.",
+        "Recover by displacement with iron or electrolysis.",
+        "Purity differs."
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
       "specificationReference": "4.10.1.4",
-      "gradeDemand": "Grades 5–7",
+      "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-answer",
-      "databaseId": "CHE-10.24"
+      "hintKeywords": [
+        "ions",
+        "energy",
+        "displacement",
+        "electrolysis"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-compare",
+      "databaseId": "CHE-CHEM-T10-Q026"
     },
     {
-      "id": "T10-QUIZ024",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Why are alternative methods required for extracting metals from ores?",
-      "marks": 1,
-      "modelAnswer": "Copper ores are becoming scarce.",
+      "id": "CHEM-T10-Q027",
+      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
+      "subtopic": "T10 Using Resources · 4.10.2.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
+      "tier": "All",
+      "question": "Why can life-cycle assessments contain subjective judgements?",
+      "marks": 2,
+      "modelAnswer": "Environmental impacts may be difficult to quantify and different analysts may choose different boundaries or weight impacts differently.",
       "markingPoints": [
-        "Copper ores are becoming scarce."
+        "Environmental impacts may be difficult to quantify and different analysts may choose different boundaries or weight impacts differently."
       ],
       "commandWord": "Answer",
       "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-answer",
-      "databaseId": "CHE-T10-QUIZ024"
-    },
-    {
-      "id": "T10-QUIZ025",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · State",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Name two methods of extracting copper from low grade ores?",
-      "marks": 1,
-      "modelAnswer": "Phytomining and bioleaching.",
-      "markingPoints": [
-        "Phytomining and bioleaching."
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Environmental",
+        "difficult",
+        "boundaries",
+        "differently"
       ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-state",
-      "databaseId": "CHE-T10-QUIZ025"
+      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
+      "databaseId": "CHE-CHEM-T10-Q027"
     },
     {
-      "id": "T10-QUIZ026",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe how these new methods are different to traditional mining methods?",
-      "marks": 1,
-      "modelAnswer": "They do not involve digging, moving and disposing of large amounts of rocks.",
-      "markingPoints": [
-        "They do not involve digging, moving and disposing of large amounts of rocks."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-describe",
-      "databaseId": "CHE-T10-QUIZ026"
-    },
-    {
-      "id": "T10-QUIZ027",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe the process of phytomining?",
-      "marks": 1,
-      "modelAnswer": "Phytomining uses plants to absorb metal compounds. The plants are harvested and then burned to form ash that contain metal compounds.",
-      "markingPoints": [
-        "Phytomining uses plants to absorb metal compounds. The plants are harvested and then burned to form ash that contain metal compounds."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-describe",
-      "databaseId": "CHE-T10-QUIZ027"
-    },
-    {
-      "id": "T10-QUIZ028",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "Foundation and Higher",
-      "question": "Describe the process of bioleaching?",
-      "marks": 1,
-      "modelAnswer": "Bioleaching uses bacteria to produce leachate solutions that contain metal compounds.",
-      "markingPoints": [
-        "Bioleaching uses bacteria to produce leachate solutions that contain metal compounds."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-describe",
-      "databaseId": "CHE-T10-QUIZ028"
-    },
-    {
-      "id": "T10-QUIZ029",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "Foundation and Higher",
-      "question": "What is a leachate?",
-      "marks": 1,
-      "modelAnswer": "A liquid removed from the ground containing dissolved substances from the ground.",
-      "markingPoints": [
-        "A liquid removed from the ground containing dissolved substances from the ground."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-answer",
-      "databaseId": "CHE-T10-QUIZ029"
-    },
-    {
-      "id": "T10-QUIZ030",
-      "questionFamily": "T10 Using Resources · 4.10.1.4 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.1.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.1.4",
-      "tier": "Foundation and Higher",
-      "question": "How can the metal compounds extracted by alternative methods be processed to produce metal?",
-      "marks": 1,
-      "modelAnswer": "By displacement reactions with scrap iron or by electrolysis.",
-      "markingPoints": [
-        "By displacement reactions with scrap iron or by electrolysis."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.1.4",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-1-4-answer",
-      "databaseId": "CHE-T10-QUIZ030"
-    },
-    {
-      "id": "10.7-A",
+      "id": "CHEM-T10-Q028",
       "questionFamily": "T10 Using Resources · 4.10.2.1 · State",
       "subtopic": "T10 Using Resources · 4.10.2.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "All",
-      "question": "Name the four main stages of a life-cycle assessment.",
+      "tier": "Foundation and Higher",
+      "question": "Name the four stages considered in a life-cycle assessment.",
       "marks": 4,
-      "modelAnswer": "Raw-material extraction \nManufacture and packaging\nUse\nDisposal/end of life.",
+      "modelAnswer": "Extracting and processing raw materials; manufacturing and packaging; use; disposal at the end of life.",
       "markingPoints": [
-        "Raw-material extraction",
-        "Manufacture and packaging",
-        "Use",
-        "Disposal/end of life."
+        "Extracting and processing raw materials; manufacturing and packaging; use; disposal at the end of life."
       ],
       "commandWord": "State",
-      "assessmentObjective": "AO1/AO3",
+      "assessmentObjective": "AO1",
       "specificationReference": "4.10.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
+      "gradeDemand": "Medium",
+      "knowledgeType": "Life-cycle assessment",
+      "hintKeywords": [
+        "Extracting",
+        "processing",
+        "materials",
+        "manufacturing"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-state",
-      "databaseId": "CHE-10.7-A"
+      "databaseId": "CHE-CHEM-T10-Q028"
     },
     {
-      "id": "10.7-B",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "All",
-      "question": "Explain why two LCAs of the same product may give different results.",
-      "marks": 2,
-      "modelAnswer": "They can use different boundaries, data, assumptions and weighting of impacts.",
-      "markingPoints": [
-        "They can use different boundaries, data, assumptions and weighting of impacts."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-explain",
-      "databaseId": "CHE-10.7-B"
-    },
-    {
-      "id": "10.15",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Evaluate",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "All",
-      "question": "Evaluate replacing a metal car panel with a carbon-fibre composite using a life-cycle approach.",
-      "marks": 8,
-      "modelAnswer": "Compare raw materials, manufacture energy/emissions, mass/fuel savings during use, durability/repair, transport, recyclability/end of life and cost.\nLighter use phase may offset high manufacture.\nConclusion depends on lifetime, energy mix and reuse/recycling data.",
-      "markingPoints": [
-        "Compare raw materials, manufacture energy/emissions, mass/fuel savings during use, durability/repair, transport, recyclability/end of life and cost.",
-        "Lighter use phase may offset high manufacture.",
-        "Conclusion depends on lifetime, energy mix and reuse/recycling data."
-      ],
-      "commandWord": "Evaluate",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-evaluate",
-      "databaseId": "CHE-10.15"
-    },
-    {
-      "id": "10.25",
+      "id": "CHEM-T10-Q029",
       "questionFamily": "T10 Using Resources · 4.10.2.1 · State",
       "subtopic": "T10 Using Resources · 4.10.2.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
@@ -1301,31 +811,96 @@
       "specificationReference": "4.10.2.1",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "recycling"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-state",
-      "databaseId": "CHE-10.25"
+      "databaseId": "CHE-CHEM-T10-Q029"
     },
     {
-      "id": "10.26",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
+      "id": "CHEM-T10-Q030",
+      "questionFamily": "T10 Using Resources · 4.10.2.1 · Explain",
       "subtopic": "T10 Using Resources · 4.10.2.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
       "tier": "All",
-      "question": "Why can life-cycle assessments contain subjective judgements?",
+      "question": "Explain why two LCAs of the same product may give different results.",
       "marks": 2,
-      "modelAnswer": "Environmental impacts may be difficult to quantify and different analysts may choose different boundaries or weight impacts differently.",
+      "modelAnswer": "They can use different boundaries, data, assumptions and weighting of impacts.",
       "markingPoints": [
-        "Environmental impacts may be difficult to quantify and different analysts may choose different boundaries or weight impacts differently."
+        "They can use different boundaries, data, assumptions and weighting of impacts."
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
       "specificationReference": "4.10.2.1",
-      "gradeDemand": "Grades 3–5",
+      "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
-      "databaseId": "CHE-10.26"
+      "hintKeywords": [
+        "different",
+        "boundaries",
+        "assumptions",
+        "weighting"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-explain",
+      "databaseId": "CHE-CHEM-T10-Q030"
     },
     {
-      "id": "T10-EX2-S1",
+      "id": "CHEM-T10-Q031",
+      "questionFamily": "T10 Using Resources · 4.10.2.1 · State",
+      "subtopic": "T10 Using Resources · 4.10.2.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
+      "tier": "All",
+      "question": "Name the four main stages of a life-cycle assessment.",
+      "marks": 4,
+      "modelAnswer": "Raw-material extraction \nManufacture and packaging\nUse\nDisposal/end of life.",
+      "markingPoints": [
+        "Raw-material extraction",
+        "Manufacture and packaging",
+        "Use",
+        "Disposal/end of life."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "material",
+        "extraction",
+        "Manufacture",
+        "packaging"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-state",
+      "databaseId": "CHE-CHEM-T10-Q031"
+    },
+    {
+      "id": "CHEM-T10-Q032",
+      "questionFamily": "T10 Using Resources · 4.10.2.1 · Evaluate",
+      "subtopic": "T10 Using Resources · 4.10.2.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
+      "tier": "All",
+      "question": "Evaluate replacing a metal car panel with a carbon-fibre composite using a life-cycle approach.",
+      "marks": 6,
+      "modelAnswer": "Compare raw materials, manufacture energy/emissions, mass/fuel savings during use, durability/repair, transport, recyclability/end of life and cost.\nLighter use phase may offset high manufacture.\nConclusion depends on lifetime, energy mix and reuse/recycling data.",
+      "markingPoints": [
+        "Compare raw materials, manufacture energy/emissions, mass/fuel savings during use, durability/repair, transport, recyclability/end of life and cost.",
+        "Lighter use phase may offset high manufacture.",
+        "Conclusion depends on lifetime, energy mix and reuse/recycling data."
+      ],
+      "commandWord": "Evaluate",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.2.1",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "energy",
+        "mass",
+        "recycling"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-evaluate",
+      "databaseId": "CHE-CHEM-T10-Q032"
+    },
+    {
+      "id": "CHEM-T10-Q033",
       "questionFamily": "T10 Using Resources · 4.10.2.1 · Evaluate",
       "subtopic": "T10 Using Resources · 4.10.2.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
@@ -1341,11 +916,15 @@
       "specificationReference": "4.10.2.1",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "renewable",
+        "energy"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-evaluate",
-      "databaseId": "CHE-T10-EX2-S1"
+      "databaseId": "CHE-CHEM-T10-Q033"
     },
     {
-      "id": "T10-EX2-S2",
+      "id": "CHEM-T10-Q034",
       "questionFamily": "T10 Using Resources · 4.10.2.1 · Evaluate",
       "subtopic": "T10 Using Resources · 4.10.2.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
@@ -1361,11 +940,14 @@
       "specificationReference": "4.10.2.1",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "renewable"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-evaluate",
-      "databaseId": "CHE-T10-EX2-S2"
+      "databaseId": "CHE-CHEM-T10-Q034"
     },
     {
-      "id": "T10-PD05",
+      "id": "CHEM-T10-Q035",
       "questionFamily": "T10 Using Resources · 4.10.2.1 · Explain",
       "subtopic": "T10 Using Resources · 4.10.2.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
@@ -1382,174 +964,17 @@
       "specificationReference": "4.10.2.1",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "extraction",
+        "manufacture",
+        "assumptions",
+        "sensitivity"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-explain",
-      "databaseId": "CHE-T10-PD05"
+      "databaseId": "CHE-CHEM-T10-Q035"
     },
     {
-      "id": "T10-QUIZ031",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "Foundation and Higher",
-      "question": "What are life cycle assessments (LCAs)?",
-      "marks": 1,
-      "modelAnswer": "These are assessments of the environmental impact of a product at each stage of its life.",
-      "markingPoints": [
-        "These are assessments of the environmental impact of a product at each stage of its life."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
-      "databaseId": "CHE-T10-QUIZ031"
-    },
-    {
-      "id": "T10-QUIZ032",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "Foundation and Higher",
-      "question": "What are the four stages assessed by LCAs?",
-      "marks": 1,
-      "modelAnswer": "Extracting and processing raw materials; manufacturing and packaging of product; use and operation of product; disposal of product.",
-      "markingPoints": [
-        "Extracting and processing raw materials; manufacturing and packaging of product; use and operation of product; disposal of product."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
-      "databaseId": "CHE-T10-QUIZ032"
-    },
-    {
-      "id": "T10-QUIZ033",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "Foundation and Higher",
-      "question": "What are easy to quantify when carrying out LCAs?",
-      "marks": 1,
-      "modelAnswer": "Use of water, resources, energy resources and the production of some waste.",
-      "markingPoints": [
-        "Use of water, resources, energy resources and the production of some waste."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
-      "databaseId": "CHE-T10-QUIZ033"
-    },
-    {
-      "id": "T10-QUIZ034",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "Foundation and Higher",
-      "question": "What is difficult to quantify when carrying out LCAs?",
-      "marks": 1,
-      "modelAnswer": "Pollutant effects.",
-      "markingPoints": [
-        "Pollutant effects."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
-      "databaseId": "CHE-T10-QUIZ034"
-    },
-    {
-      "id": "T10-QUIZ035",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "Foundation and Higher",
-      "question": "How can LCAs be misused?",
-      "marks": 1,
-      "modelAnswer": "Selective or abbreviated LCAs can be misused to reach pre-determined conclusions (e.g. for advertising campaigns).",
-      "markingPoints": [
-        "Selective or abbreviated LCAs can be misused to reach pre-determined conclusions (e.g. for advertising campaigns)."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
-      "databaseId": "CHE-T10-QUIZ035"
-    },
-    {
-      "id": "T10-QUIZ036",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "Foundation and Higher",
-      "question": "Carry out an LCA for shopping bags made from plastic and paper LCA stage Plastic bag Paper bag Raw materials Manufacturing Use Disposal",
-      "marks": 1,
-      "modelAnswer": "Compare each bag at raw-material extraction, manufacture, use and disposal. Paper is renewable and biodegradable but takes energy and water to make; plastic uses finite resources but a reusable bag can have a lower impact if used many times. A justified conclusion depends on the assumptions used.",
-      "markingPoints": [
-        "Compare each bag at raw-material extraction, manufacture, use and disposal. Paper is renewable and biodegradable but takes energy and water to make; plastic uses finite resources but a reusable bag can have a lower impact if used many times. A justified conclusion depends on the assumptions used."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-answer",
-      "databaseId": "CHE-T10-QUIZ036"
-    },
-    {
-      "id": "T10-QZ03",
-      "questionFamily": "T10 Using Resources · 4.10.2.1 · State",
-      "subtopic": "T10 Using Resources · 4.10.2.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.1",
-      "tier": "Foundation and Higher",
-      "question": "Name the four stages considered in a life-cycle assessment.",
-      "marks": 4,
-      "modelAnswer": "Extracting and processing raw materials; manufacturing and packaging; use; disposal at the end of life.",
-      "markingPoints": [
-        "Extracting and processing raw materials; manufacturing and packaging; use; disposal at the end of life."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.1",
-      "gradeDemand": "Medium",
-      "knowledgeType": "Life-cycle assessment",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-1-state",
-      "databaseId": "CHE-T10-QZ03"
-    },
-    {
-      "id": "10.9",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Compare",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "All",
-      "question": "Compare reducing, reusing and recycling aluminium cans using energy, raw materials, transport and material quality.",
-      "marks": 7,
-      "modelAnswer": "Reduce avoids production.\nReuse avoids remelting but cleaning/transport/design.\nRecycle saves ore and usually energy but collection/sorting/remelting needed.\nAluminium recyclable with little quality loss.",
-      "markingPoints": [
-        "Reduce avoids production.",
-        "Reuse avoids remelting but cleaning/transport/design.",
-        "Recycle saves ore and usually energy but collection/sorting/remelting needed.",
-        "Aluminium recyclable with little quality loss."
-      ],
-      "commandWord": "Compare",
-      "assessmentObjective": "AO3",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-compare",
-      "databaseId": "CHE-10.9"
-    },
-    {
-      "id": "10.27",
+      "id": "CHEM-T10-Q036",
       "questionFamily": "T10 Using Resources · 4.10.2.2 · Answer",
       "subtopic": "T10 Using Resources · 4.10.2.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
@@ -1566,11 +991,15 @@
       "specificationReference": "4.10.2.2",
       "gradeDemand": "Grades 3–5",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy",
+        "Recycling"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-answer",
-      "databaseId": "CHE-10.27"
+      "databaseId": "CHE-CHEM-T10-Q036"
     },
     {
-      "id": "T10-EX5",
+      "id": "CHEM-T10-Q037",
       "questionFamily": "T10 Using Resources · 4.10.2.2 · Explain",
       "subtopic": "T10 Using Resources · 4.10.2.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
@@ -1584,15 +1013,44 @@
         "Contamination can reduce quality, and some material is lost."
       ],
       "commandWord": "Explain",
-      "assessmentObjective": "AO2/AO3",
+      "assessmentObjective": "AO3",
       "specificationReference": "4.10.2.2",
       "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-explain",
-      "databaseId": "CHE-T10-EX5"
+      "databaseId": "CHE-CHEM-T10-Q037"
     },
     {
-      "id": "T10-PD06",
+      "id": "CHEM-T10-Q038",
+      "questionFamily": "T10 Using Resources · 4.10.2.2 · Compare",
+      "subtopic": "T10 Using Resources · 4.10.2.2",
+      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
+      "tier": "All",
+      "question": "Compare reducing, reusing and recycling aluminium cans using energy, raw materials, transport and material quality.",
+      "marks": 6,
+      "modelAnswer": "Reduce avoids production.\nReuse avoids remelting but cleaning/transport/design.\nRecycle saves ore and usually energy but collection/sorting/remelting needed.\nAluminium recyclable with little quality loss.",
+      "markingPoints": [
+        "Reduce avoids production.",
+        "Reuse avoids remelting but cleaning/transport/design.",
+        "Recycle saves ore and usually energy but collection/sorting/remelting needed.",
+        "Aluminium recyclable with little quality loss."
+      ],
+      "commandWord": "Compare",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.2.2",
+      "gradeDemand": "Grades 7–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "energy"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-compare",
+      "databaseId": "CHE-CHEM-T10-Q038"
+    },
+    {
+      "id": "CHEM-T10-Q039",
       "questionFamily": "T10 Using Resources · 4.10.2.2 · Evaluate",
       "subtopic": "T10 Using Resources · 4.10.2.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
@@ -1610,297 +1068,16 @@
       "specificationReference": "4.10.2.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "Recycling",
+        "energy",
+        "product"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-evaluate",
-      "databaseId": "CHE-T10-PD06"
+      "databaseId": "CHE-CHEM-T10-Q039"
     },
     {
-      "id": "T10-QUIZ037",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "List three ways end users can sustainably use resources?",
-      "marks": 1,
-      "modelAnswer": "Reduction in use, reuse and recycling.",
-      "markingPoints": [
-        "Reduction in use, reuse and recycling."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-answer",
-      "databaseId": "CHE-T10-QUIZ037"
-    },
-    {
-      "id": "T10-QUIZ038",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · State",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Name four effects of reduction in the use of materials?",
-      "marks": 1,
-      "modelAnswer": "Reduce use of limited resources, reduce use of energy sources, reduction in waste and environmental impacts",
-      "markingPoints": [
-        "Reduce use of limited resources, reduce use of energy sources, reduction in waste and environmental impacts"
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-state",
-      "databaseId": "CHE-T10-QUIZ038"
-    },
-    {
-      "id": "T10-QUIZ039",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · State",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Name five materials which are produced from limited resources?",
-      "marks": 1,
-      "modelAnswer": "Metals, glass, building materials, clay ceramics and plastics.",
-      "markingPoints": [
-        "Metals, glass, building materials, clay ceramics and plastics."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-state",
-      "databaseId": "CHE-T10-QUIZ039"
-    },
-    {
-      "id": "T10-QUIZ040",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · State",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Name two methods of obtaining raw materials from the earth?",
-      "marks": 1,
-      "modelAnswer": "Quarrying and mining.",
-      "markingPoints": [
-        "Quarrying and mining."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-state",
-      "databaseId": "CHE-T10-QUIZ040"
-    },
-    {
-      "id": "T10-QUIZ041",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "What is the effect of obtaining materials by these methods?",
-      "marks": 1,
-      "modelAnswer": "Environmental impacts.",
-      "markingPoints": [
-        "Environmental impacts."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-answer",
-      "databaseId": "CHE-T10-QUIZ041"
-    },
-    {
-      "id": "T10-QUIZ042",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Explain how glass products can be reused?",
-      "marks": 1,
-      "modelAnswer": "Glass bottles can be crushed and melted to make different glass products.",
-      "markingPoints": [
-        "Glass bottles can be crushed and melted to make different glass products."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-explain",
-      "databaseId": "CHE-T10-QUIZ042"
-    },
-    {
-      "id": "T10-QUIZ043",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "What happens to other products which cannot be reused?",
-      "marks": 1,
-      "modelAnswer": "They are recycled for a different use.",
-      "markingPoints": [
-        "They are recycled for a different use."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-answer",
-      "databaseId": "CHE-T10-QUIZ043"
-    },
-    {
-      "id": "T10-QUIZ044",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Describe",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "Describe how metals can be recycled?",
-      "marks": 1,
-      "modelAnswer": "By melting, recasting or reforming into different products.",
-      "markingPoints": [
-        "By melting, recasting or reforming into different products."
-      ],
-      "commandWord": "Describe",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-describe",
-      "databaseId": "CHE-T10-QUIZ044"
-    },
-    {
-      "id": "T10-QUIZ045",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "What does the amount of separation required for recycling depend upon?",
-      "marks": 1,
-      "modelAnswer": "Depends on the material and the properties required of the final product.",
-      "markingPoints": [
-        "Depends on the material and the properties required of the final product."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-answer",
-      "databaseId": "CHE-T10-QUIZ045"
-    },
-    {
-      "id": "T10-QUIZ046",
-      "questionFamily": "T10 Using Resources · 4.10.2.2 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.2.2",
-      "sourceSubtopic": "T10 Using Resources · 4.10.2.2",
-      "tier": "Foundation and Higher",
-      "question": "How can scrap steel be recycled?",
-      "marks": 1,
-      "modelAnswer": "Scrap steel can be added to iron from a blast furnace to reduce the amount of iron that needs to be extracted from iron ore.",
-      "markingPoints": [
-        "Scrap steel can be added to iron from a blast furnace to reduce the amount of iron that needs to be extracted from iron ore."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.2.2",
-      "gradeDemand": "Low",
-      "knowledgeType": "Quiz recall",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-2-2-answer",
-      "databaseId": "CHE-T10-QUIZ046"
-    },
-    {
-      "id": "10.10",
-      "questionFamily": "T10 Using Resources · 4.10.3.1 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.3.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
-      "tier": "Chemistry only",
-      "question": "Explain rusting requirements and evaluate painting, galvanising and sacrificial protection when a coating is scratched.",
-      "marks": 7,
-      "modelAnswer": "Rust needs O2+water.\nPaint barrier fails at scratch.\nGalvanising zinc barrier and zinc oxidises preferentially if scratched.\nSacrificial metal must be more reactive and replaced.\nChoose for environment/cost.",
-      "markingPoints": [
-        "Rust needs O2+water.",
-        "Paint barrier fails at scratch.",
-        "Galvanising zinc barrier and zinc oxidises preferentially if scratched.",
-        "Sacrificial metal must be more reactive and replaced.",
-        "Choose for environment/cost."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.10.3.1",
-      "gradeDemand": "Grades 8–9",
-      "knowledgeType": "Disciplinary knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-explain",
-      "databaseId": "CHE-10.10"
-    },
-    {
-      "id": "10.28",
-      "questionFamily": "T10 Using Resources · 4.10.3.1 · State",
-      "subtopic": "T10 Using Resources · 4.10.3.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
-      "tier": "Chemistry only",
-      "question": "State the two conditions required for iron to rust.",
-      "marks": 2,
-      "modelAnswer": "Both oxygen and water must be present.",
-      "markingPoints": [
-        "Both oxygen and water must be present."
-      ],
-      "commandWord": "State",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.3.1",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-state",
-      "databaseId": "CHE-10.28"
-    },
-    {
-      "id": "10.29",
-      "questionFamily": "T10 Using Resources · 4.10.3.1 · Answer",
-      "subtopic": "T10 Using Resources · 4.10.3.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
-      "tier": "Chemistry only",
-      "question": "How does galvanising protect iron?",
-      "marks": 3,
-      "modelAnswer": "A zinc coating forms a barrier.\nIf scratched, the more reactive zinc oxidises preferentially and provides sacrificial protection.",
-      "markingPoints": [
-        "A zinc coating forms a barrier.",
-        "If scratched, the more reactive zinc oxidises preferentially and provides sacrificial protection."
-      ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "4.10.3.1",
-      "gradeDemand": "Grades 5–7",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-answer",
-      "databaseId": "CHE-10.29"
-    },
-    {
-      "id": "T10-EX3",
-      "questionFamily": "T10 Using Resources · 4.10.3.1 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.3.1",
-      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
-      "tier": "Chemistry only",
-      "question": "Explain sacrificial protection of iron using zinc, including electron transfer.",
-      "marks": 5,
-      "modelAnswer": "Zinc is more reactive and oxidises preferentially: Zn → Zn²⁺ + 2e⁻.\nElectrons supplied to iron prevent iron atoms oxidising, so iron does not rust even if coating is scratched, while zinc is consumed.",
-      "markingPoints": [
-        "Zinc is more reactive and oxidises preferentially: Zn → Zn²⁺ + 2e⁻.",
-        "Electrons supplied to iron prevent iron atoms oxidising, so iron does not rust even if coating is scratched, while zinc is consumed."
-      ],
-      "commandWord": "Explain",
-      "assessmentObjective": "AO2",
-      "specificationReference": "4.10.3.1",
-      "gradeDemand": "Grades 7–9",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-explain",
-      "databaseId": "CHE-T10-EX3"
-    },
-    {
-      "id": "T10-PD04",
+      "id": "CHEM-T10-Q040",
       "questionFamily": "T10 Using Resources · 4.10.3.1 · Describe",
       "subtopic": "T10 Using Resources · 4.10.3.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
@@ -1920,34 +1097,115 @@
       "specificationReference": "4.10.3.1",
       "gradeDemand": "Grades 6–8",
       "knowledgeType": "Practical + disciplinary",
+      "hintKeywords": [
+        "temperature"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-describe",
-      "databaseId": "CHE-T10-PD04"
+      "databaseId": "CHE-CHEM-T10-Q040"
     },
     {
-      "id": "10.11",
-      "questionFamily": "T10 Using Resources · 4.10.3.2–4.10.3.4 · Explain",
-      "subtopic": "T10 Using Resources · 4.10.3.2–4.10.3.4",
-      "sourceSubtopic": "T10 Using Resources · 4.10.3.2–4.10.3.4",
+      "id": "CHEM-T10-Q041",
+      "questionFamily": "T10 Using Resources · 4.10.3.1 · State",
+      "subtopic": "T10 Using Resources · 4.10.3.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
       "tier": "Chemistry only",
-      "question": "Explain why alloys are often harder than pure metals and select between ceramic, polymer and composite for a bicycle component.",
-      "marks": 6,
-      "modelAnswer": "Different-sized alloy atoms distort layers and stop sliding.\nSelection must use stated property: ceramic hard/heat-resistant but brittle.\nPolymer light/flexible but may soften.\nComposite high strength-to-mass/designable but costly/recycling difficult.",
+      "question": "State the two conditions required for iron to rust.",
+      "marks": 2,
+      "modelAnswer": "Both oxygen and water must be present.",
       "markingPoints": [
-        "Different-sized alloy atoms distort layers and stop sliding.",
-        "Selection must use stated property: ceramic hard/heat-resistant but brittle.",
-        "Polymer light/flexible but may soften.",
-        "Composite high strength-to-mass/designable but costly/recycling difficult."
+        "Both oxygen and water must be present."
+      ],
+      "commandWord": "State",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 3–5",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "oxygen",
+        "water",
+        "present"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-state",
+      "databaseId": "CHE-CHEM-T10-Q041"
+    },
+    {
+      "id": "CHEM-T10-Q042",
+      "questionFamily": "T10 Using Resources · 4.10.3.1 · Answer",
+      "subtopic": "T10 Using Resources · 4.10.3.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
+      "tier": "Chemistry only",
+      "question": "How does galvanising protect iron?",
+      "marks": 3,
+      "modelAnswer": "A zinc coating forms a barrier.\nIf scratched, the more reactive zinc oxidises preferentially and provides sacrificial protection.",
+      "markingPoints": [
+        "A zinc coating forms a barrier.",
+        "If scratched, the more reactive zinc oxidises preferentially and provides sacrificial protection."
+      ],
+      "commandWord": "Answer",
+      "assessmentObjective": "AO1",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 5–7",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "sacrificial protection"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-answer",
+      "databaseId": "CHE-CHEM-T10-Q042"
+    },
+    {
+      "id": "CHEM-T10-Q043",
+      "questionFamily": "T10 Using Resources · 4.10.3.1 · Explain",
+      "subtopic": "T10 Using Resources · 4.10.3.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
+      "tier": "Chemistry only",
+      "question": "Explain sacrificial protection of iron using zinc, including electron transfer.",
+      "marks": 5,
+      "modelAnswer": "Zinc is more reactive and oxidises preferentially: Zn → Zn²⁺ + 2e⁻.\nElectrons supplied to iron prevent iron atoms oxidising, so iron does not rust even if coating is scratched, while zinc is consumed.",
+      "markingPoints": [
+        "Zinc is more reactive and oxidises preferentially: Zn → Zn²⁺ + 2e⁻.",
+        "Electrons supplied to iron prevent iron atoms oxidising, so iron does not rust even if coating is scratched, while zinc is consumed."
       ],
       "commandWord": "Explain",
-      "assessmentObjective": "AO1/AO3",
-      "specificationReference": "4.10.3.2–4.10.3.4",
-      "gradeDemand": "Grades 8–9",
+      "assessmentObjective": "AO2",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 7–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-3-2-4-10-3-4-expl",
-      "databaseId": "CHE-10.11"
+      "hintKeywords": [
+        "Zn²"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-explain",
+      "databaseId": "CHE-CHEM-T10-Q043"
     },
     {
-      "id": "T10-EX4",
+      "id": "CHEM-T10-Q044",
+      "questionFamily": "T10 Using Resources · 4.10.3.1 · Explain",
+      "subtopic": "T10 Using Resources · 4.10.3.1",
+      "sourceSubtopic": "T10 Using Resources · 4.10.3.1",
+      "tier": "Chemistry only",
+      "question": "Explain rusting requirements and evaluate painting, galvanising and sacrificial protection when a coating is scratched.",
+      "marks": 6,
+      "modelAnswer": "Rust needs O2+water.\nPaint barrier fails at scratch.\nGalvanising zinc barrier and zinc oxidises preferentially if scratched.\nSacrificial metal must be more reactive and replaced.\nChoose for environment/cost.",
+      "markingPoints": [
+        "Rust needs O2+water.",
+        "Paint barrier fails at scratch.",
+        "Galvanising zinc barrier and zinc oxidises preferentially if scratched.",
+        "Sacrificial metal must be more reactive and replaced.",
+        "Choose for environment/cost."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.3.1",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Disciplinary knowledge",
+      "hintKeywords": [
+        "O2",
+        "Galvanising"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-3-1-explain",
+      "databaseId": "CHE-CHEM-T10-Q044"
+    },
+    {
+      "id": "CHEM-T10-Q045",
       "questionFamily": "T10 Using Resources · 4.10.3.2 · Compare",
       "subtopic": "T10 Using Resources · 4.10.3.2",
       "sourceSubtopic": "T10 Using Resources · 4.10.3.2",
@@ -1966,11 +1224,44 @@
       "specificationReference": "4.10.3.2",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Composite",
+        "mass"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-3-2-compare",
-      "databaseId": "CHE-T10-EX4"
+      "databaseId": "CHE-CHEM-T10-Q045"
     },
     {
-      "id": "10.30",
+      "id": "CHEM-T10-Q046",
+      "questionFamily": "T10 Using Resources · 4.10.3.2–4.10.3.4 · Explain",
+      "subtopic": "T10 Using Resources · 4.10.3.2–4.10.3.4",
+      "sourceSubtopic": "T10 Using Resources · 4.10.3.2–4.10.3.4",
+      "tier": "Chemistry only",
+      "question": "Explain why alloys are often harder than pure metals and select between ceramic, polymer and composite for a bicycle component.",
+      "marks": 6,
+      "modelAnswer": "Different-sized alloy atoms distort layers and stop sliding.\nSelection must use stated property: ceramic hard/heat-resistant but brittle.\nPolymer light/flexible but may soften.\nComposite high strength-to-mass/designable but costly/recycling difficult.",
+      "markingPoints": [
+        "Different-sized alloy atoms distort layers and stop sliding.",
+        "Selection must use stated property: ceramic hard/heat-resistant but brittle.",
+        "Polymer light/flexible but may soften.",
+        "Composite high strength-to-mass/designable but costly/recycling difficult."
+      ],
+      "commandWord": "Explain",
+      "assessmentObjective": "AO3",
+      "specificationReference": "4.10.3.2–4.10.3.4",
+      "gradeDemand": "Grades 8–9",
+      "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "alloy",
+        "Composite",
+        "mass",
+        "recycling"
+      ],
+      "questionFamilyId": "CHE-t10-using-resources-4-10-3-2-4-10-3-4-expl",
+      "databaseId": "CHE-CHEM-T10-Q046"
+    },
+    {
+      "id": "CHEM-T10-Q047",
       "questionFamily": "T10 Using Resources · 4.10.3.4 · Answer",
       "subtopic": "T10 Using Resources · 4.10.3.4",
       "sourceSubtopic": "T10 Using Resources · 4.10.3.4",
@@ -1986,17 +1277,20 @@
       "specificationReference": "4.10.3.4",
       "gradeDemand": "Grades 5–7",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "mass"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-3-4-answer",
-      "databaseId": "CHE-10.30"
+      "databaseId": "CHE-CHEM-T10-Q047"
     },
     {
-      "id": "10.12",
+      "id": "CHEM-T10-Q048",
       "questionFamily": "T10 Using Resources · 4.10.4.1 · Answer",
       "subtopic": "T10 Using Resources · 4.10.4.1",
       "sourceSubtopic": "T10 Using Resources · 4.10.4.1",
       "tier": "Chemistry only",
       "question": "For N2+3H2<=>2NH3, explain the Haber conditions and the function of the iron catalyst.",
-      "marks": 8,
+      "marks": 6,
       "modelAnswer": "~450 C compromise: lower favours exothermic yield, higher rate. ~200 atm: favours fewer gas moles and rate but costly/risky.\nIron lowers activation energy/speeds both directions, reaches equilibrium sooner, no yield-position change.\nUnreacted gases recycled.",
       "markingPoints": [
         "~450 C compromise: lower favours exothermic yield, higher rate. ~200 atm: favours fewer gas moles and rate but costly/risky.",
@@ -2004,15 +1298,21 @@
         "Unreacted gases recycled."
       ],
       "commandWord": "Answer",
-      "assessmentObjective": "AO1/AO2",
+      "assessmentObjective": "AO2",
       "specificationReference": "4.10.4.1",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "exothermic",
+        "yield",
+        "moles",
+        "activation energy"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-4-1-answer",
-      "databaseId": "CHE-10.12"
+      "databaseId": "CHE-CHEM-T10-Q048"
     },
     {
-      "id": "10.13-A",
+      "id": "CHEM-T10-Q049",
       "questionFamily": "T10 Using Resources · 4.10.4.2–4.10.4.3 · Explain",
       "subtopic": "T10 Using Resources · 4.10.4.2–4.10.4.3",
       "sourceSubtopic": "T10 Using Resources · 4.10.4.2–4.10.4.3",
@@ -2028,11 +1328,17 @@
       "specificationReference": "4.10.4.2–4.10.4.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
+      "hintKeywords": [
+        "Ammonia",
+        "reacts",
+        "ammonium",
+        "nitrate"
+      ],
       "questionFamilyId": "CHE-t10-using-resources-4-10-4-2-4-10-4-3-expl",
-      "databaseId": "CHE-10.13-A"
+      "databaseId": "CHE-CHEM-T10-Q049"
     },
     {
-      "id": "10.13-B",
+      "id": "CHEM-T10-Q050",
       "questionFamily": "T10 Using Resources · 4.10.4.2–4.10.4.3 · Explain",
       "subtopic": "T10 Using Resources · 4.10.4.2–4.10.4.3",
       "sourceSubtopic": "T10 Using Resources · 4.10.4.2–4.10.4.3",
@@ -2048,28 +1354,14 @@
       "specificationReference": "4.10.4.2–4.10.4.3",
       "gradeDemand": "Grades 8–9",
       "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-4-10-4-2-4-10-4-3-expl",
-      "databaseId": "CHE-10.13-B"
-    },
-    {
-      "id": "Total marks",
-      "questionFamily": "T10 Using Resources · AQA Chemistry · Answer",
-      "subtopic": "T10 Using Resources · AQA Chemistry",
-      "sourceSubtopic": "T10 Using Resources · AQA Chemistry",
-      "tier": "Foundation and Higher",
-      "question": "136",
-      "marks": 1,
-      "modelAnswer": "Student total.",
-      "markingPoints": [
-        "Student total."
+      "hintKeywords": [
+        "proportions",
+        "phosphorus",
+        "potassium",
+        "compounds"
       ],
-      "commandWord": "Answer",
-      "assessmentObjective": "AO1",
-      "specificationReference": "",
-      "gradeDemand": "Grades 3–5",
-      "knowledgeType": "Substantive knowledge",
-      "questionFamilyId": "CHE-t10-using-resources-answer",
-      "databaseId": "CHE-Total marks"
+      "questionFamilyId": "CHE-t10-using-resources-4-10-4-2-4-10-4-3-expl",
+      "databaseId": "CHE-CHEM-T10-Q050"
     }
   ]
 }
