@@ -68,7 +68,7 @@ function keywordHints(source: string, keywords: string[]): [string, string] {
   const structure = source.replace(pattern, "____");
   return [
     `Complete the answer structure:\n${structure}`,
-    `Use these key terms: ${approved.join(", ")}\n\nNow complete the answer structure:\n${structure}`,
+    `Complete the remaining key terms:\n${structure}`,
   ];
 }
 

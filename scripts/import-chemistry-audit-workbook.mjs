@@ -42,6 +42,27 @@ const fallbackKeywords = (answer) => {
     return (lower.length >= 3 || /[₀-₉0-9²³⁺⁻+\-]/.test(term)) && !hintStopWords.has(lower);
   }))].slice(0, 6);
 };
+const formattedKeywords = (sheet, rowNumber, columnNumber) => {
+  if (!Number.isInteger(rowNumber) || !Number.isInteger(columnNumber)) return [];
+  const cellAddress = XLSX.utils.encode_cell({ r: rowNumber, c: columnNumber });
+  const cell = sheet[cellAddress];
+  if (!cell) return [];
+  const keywords = [];
+  if (Array.isArray(cell.r)) {
+    for (const run of cell.r) {
+      if (run?.rPr?.b || run?.rPr?.bold) {
+        const value = text(run.t);
+        if (value) keywords.push(value);
+      }
+    }
+  }
+  const html = text(cell.h);
+  for (const match of html.matchAll(/<(?:b|strong)[^>]*>(.*?)<\/(?:b|strong)>/gi)) {
+    const value = text(match[1].replace(/<[^>]+>/g, ""));
+    if (value) keywords.push(value);
+  }
+  return [...new Set(keywords)];
+};
 const commandWordFor = (question) => {
   const first = text(question).match(/^(state|give|name|define|describe|explain|compare|calculate|determine|evaluate|suggest|write|draw|complete|predict|identify)/i)?.[1];
   const normalized = first?.toLowerCase();
@@ -94,11 +115,15 @@ const studentProgressionCompare = (left, right) =>
   aoRank(left.assessmentObjective) - aoRank(right.assessmentObjective) ||
   left.question.localeCompare(right.question);
 
-const workbook = XLSX.readFile(workbookPath, { cellDates: false });
+const workbook = XLSX.readFile(workbookPath, { cellDates: false, cellHTML: true, cellRichText: true });
 for (const [sheetName, outputName] of topics) {
   const sheet = workbook.Sheets[sheetName];
   if (!sheet) throw new Error(`Missing worksheet: ${sheetName}`);
   const rows = XLSX.utils.sheet_to_json(sheet, { defval: "", range: 3 });
+  const range = XLSX.utils.decode_range(sheet["!ref"]);
+  const headerRow = range.s.r + 3;
+  const answerColumn = Array.from({ length: range.e.c - range.s.c + 1 }, (_, offset) => range.s.c + offset)
+    .find((column) => text(sheet[XLSX.utils.encode_cell({ r: headerRow, c: column })]?.v) === "Model answer / marking points");
   const incomplete = [];
   const questions = rows.filter((row) => {
     const id = text(row["Website question ID"] || row.ID).toLowerCase();
@@ -114,7 +139,8 @@ for (const [sheetName, outputName] of topics) {
     const specificationReference = text(row["AQA specification reference"]);
     const commandWord = commandWordFor(question);
     const id = text(row["Website question ID"] || row.ID);
-    const hintKeywords = splitKeywords(row["Hint keywords"]);
+    const boldKeywords = formattedKeywords(sheet, row.__rowNum__, answerColumn);
+    const hintKeywords = boldKeywords.length ? boldKeywords : splitKeywords(row["Hint keywords"]);
     return [{
       id,
       questionFamily: `${sheetName} · ${specificationReference || "AQA Chemistry"} · ${commandWord}`,
