@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { AuthLayout, errorClass, fieldClass, primaryButtonClass } from "@/components/auth/AuthLayout";
+import { GoogleSignInButton } from "@/components/auth/GoogleSignInButton";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
 function passwordError(password: string) {
@@ -60,7 +61,7 @@ export default function SignUpPage() {
   }
 
   if (sent) {
-    return <AuthLayout eyebrow="One last step" title="Check your email" description={`We sent a verification link to ${email}. Click it to activate your BrainSoma account.`}>
+    return <AuthLayout eyebrow="One last step" title="Check your email" description={`We sent a verification link to ${email}. Click it to activate your SciMastery account.`}>
       <div className="rounded-2xl border-2 border-ink bg-moss-soft p-5 text-sm leading-6 text-moss-dark">The link may take a minute to arrive. Check your spam or junk folder if you cannot see it.</div>
       {error && <p className={`${errorClass} mt-4`}>{error}</p>}
       <button className={`${primaryButtonClass} mt-5`} disabled={busy} onClick={resend}>{busy ? "Sending…" : "Resend verification email"}</button>
@@ -69,14 +70,18 @@ export default function SignUpPage() {
   }
 
   return <AuthLayout eyebrow="Create your account" title="Start mastering science" description="Create a free account to keep your progress across Biology, Chemistry and Physics.">
+    <div className="space-y-4">
+      <GoogleSignInButton onError={setError} />
+      <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-[.16em] text-ink-soft"><span className="h-px flex-1 bg-ink/15" />or use email<span className="h-px flex-1 bg-ink/15" /></div>
+    </div>
     <form className="space-y-5" onSubmit={submit}>
       <label className="block text-sm font-bold">First name<input className={fieldClass} value={firstName} onChange={(event) => setFirstName(event.target.value)} autoComplete="given-name" placeholder="Your first name" required /></label>
       <label className="block text-sm font-bold">Email address<input className={fieldClass} type="email" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="email" placeholder="you@example.com" required /></label>
       <label className="block text-sm font-bold">Password<div className="relative"><input className={`${fieldClass} pr-16`} type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="new-password" placeholder="At least 8 characters" minLength={8} required /><button className="absolute right-4 top-[1.3rem] text-xs font-black text-orange-dark" type="button" onClick={() => setShowPassword((shown) => !shown)}>{showPassword ? "Hide" : "Show"}</button></div></label>
       <label className="block text-sm font-bold">Confirm password<input className={fieldClass} type={showPassword ? "text" : "password"} value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} autoComplete="new-password" placeholder="Type your password again" required /></label>
-      {error && <p className={errorClass} role="alert">{error}</p>}
       <button className={primaryButtonClass} disabled={busy} type="submit">{busy ? "Creating account…" : "Create free account"}</button>
     </form>
+    {error && <p className={`${errorClass} mt-5`} role="alert">{error}</p>}
     <p className="mt-6 text-center text-sm text-ink-soft">Already have an account? <Link className="font-extrabold text-orange-dark" href="/login">Sign in</Link></p>
   </AuthLayout>;
 }
