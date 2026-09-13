@@ -19,8 +19,8 @@ export default function Dashboard() {
   useEffect(() => setReady(true), []);
   useEffect(() => {
     const refresh = () => setDataVersion((value) => value + 1);
-    window.addEventListener("sciencemastery:learning-updated", refresh);
-    return () => window.removeEventListener("sciencemastery:learning-updated", refresh);
+    window.addEventListener("brainsoma:learning-updated", refresh);
+    return () => window.removeEventListener("brainsoma:learning-updated", refresh);
   }, []);
   useEffect(() => {
     const supabase = getSupabaseBrowserClient();

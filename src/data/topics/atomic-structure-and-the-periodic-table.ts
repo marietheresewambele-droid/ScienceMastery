@@ -35,6 +35,6 @@ export const atomicStructureAndThePeriodicTableQuestions=createChemistryQuestion
 );
 export const atomicStructureAndThePeriodicTableConfig: ChemistryTopicConfig={
   id:"atomic-structure-and-the-periodic-table", title:"Atomic Structure and the Periodic Table", description:"Review atoms, elements, mixtures, atomic models and periodic trends through structured mastery practice.",
-  route:"/chemistry/atomic-structure-and-the-periodic-table", storageNamespace:"sciencemastery_chemistry_atomic_structure_and_the_periodic_table",
+  route:"/chemistry/atomic-structure-and-the-periodic-table", storageNamespace:"brainsoma_chemistry_atomic_structure_and_the_periodic_table",
   questions:atomicStructureAndThePeriodicTableQuestions, subtopics:createChemistrySubtopics(data, atomicStructureSubtopicLabelMap), subject:"chemistry", examBoard:"AQA", topicNumber:"Topic 1"
 };

@@ -56,7 +56,7 @@ export const ecologyConfig: BiologyTopicConfig = {
   description:
     "Review ecosystems, biodiversity, adaptation and human impacts through structured mastery practice.",
   route: "/biology/ecology",
-  storageNamespace: "sciencemastery_ecology",
+  storageNamespace: "brainsoma_ecology",
   questions: ecologyQuestions,
   subtopics: ecologySubtopics,
   subject: "biology",

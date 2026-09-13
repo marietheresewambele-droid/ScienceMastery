@@ -56,7 +56,7 @@ export const inheritanceVariationAndEvolutionConfig: BiologyTopicConfig = {
   description:
     "Review inheritance, genetic variation and evolution through structured mastery practice.",
   route: "/biology/inheritance-variation-and-evolution",
-  storageNamespace: "sciencemastery_inheritancevariationevolution",
+  storageNamespace: "brainsoma_inheritancevariationevolution",
   questions: inheritanceVariationAndEvolutionQuestions,
   subtopics: inheritanceVariationAndEvolutionSubtopics,
   subject: "biology",

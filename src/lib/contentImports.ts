@@ -16,7 +16,7 @@ export interface ContentImportStore {
   save(contentImport: ContentImport): void;
 }
 
-const STORAGE_KEY = "sciencemastery_content_imports_v1";
+const STORAGE_KEY = "brainsoma_content_imports_v1";
 
 export class LocalContentImportStore implements ContentImportStore {
   list(): ContentImport[] {

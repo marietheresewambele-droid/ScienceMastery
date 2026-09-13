@@ -56,7 +56,7 @@ export const bioenergeticsConfig: BiologyTopicConfig = {
   description:
     "Review photosynthesis, respiration and the energy changes that support living systems.",
   route: "/biology/bioenergetics",
-  storageNamespace: "sciencemastery_bioenergetics",
+  storageNamespace: "brainsoma_bioenergetics",
   questions: bioenergeticsQuestions,
   subtopics: bioenergeticsSubtopics,
   subject: "biology",

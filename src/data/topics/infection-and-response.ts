@@ -56,7 +56,7 @@ export const infectionAndResponseConfig: BiologyTopicConfig = {
   description:
     "Review pathogens, immunity, drugs and disease prevention through structured mastery practice.",
   route: "/biology/infection-and-response",
-  storageNamespace: "sciencemastery_infectionresponse",
+  storageNamespace: "brainsoma_infectionresponse",
   questions: infectionAndResponseQuestions,
   subtopics: infectionAndResponseSubtopics,
   subject: "biology",

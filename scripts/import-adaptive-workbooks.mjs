@@ -3,8 +3,8 @@ import path from "node:path";
 import XLSX from "xlsx";
 
 const root = process.cwd();
-const workbookRoot = process.env.SCIENCEMASTERY_WORKBOOK_DIR ||
-  "C:\\Users\\marie\\OneDrive\\Desktop\\ScienceMastery\\Mastery Questions and Answers - Adaptive Engine format";
+const workbookRoot = process.env.BRAINSOMA_WORKBOOK_DIR ||
+  "C:\\Users\\marie\\OneDrive\\Desktop\\BrainSoma\\Mastery Questions and Answers - Adaptive Engine format";
 
 const sources = [
   { subject: "biology", prefix: "BIO", file: "AQA_GCSE_Biology_Mastery_Workbook_Adaptive_Ready.xlsx", version: "BIO-2026.1", topics: [

@@ -60,7 +60,7 @@ export default function SignUpPage() {
   }
 
   if (sent) {
-    return <AuthLayout eyebrow="One last step" title="Check your email" description={`We sent a verification link to ${email}. Click it to activate your SciMastery account.`}>
+    return <AuthLayout eyebrow="One last step" title="Check your email" description={`We sent a verification link to ${email}. Click it to activate your BrainSoma account.`}>
       <div className="rounded-2xl border-2 border-ink bg-moss-soft p-5 text-sm leading-6 text-moss-dark">The link may take a minute to arrive. Check your spam or junk folder if you cannot see it.</div>
       {error && <p className={`${errorClass} mt-4`}>{error}</p>}
       <button className={`${primaryButtonClass} mt-5`} disabled={busy} onClick={resend}>{busy ? "Sending…" : "Resend verification email"}</button>

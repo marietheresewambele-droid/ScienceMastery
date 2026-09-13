@@ -6,7 +6,7 @@
  * a bench line, each with a yellow callout label connected by a leader
  * line. Styled after exam-board apparatus diagrams (e.g. Save My Exams)
  * but built entirely from the site's own icon library and design tokens so
- * it stays visually consistent with the rest of ScienceMastery.
+ * it stays visually consistent with the rest of BrainSoma.
  */
 import { APPARATUS_ICONS, type ApparatusIconKey } from "./apparatusIcons";
 

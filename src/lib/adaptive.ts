@@ -42,7 +42,7 @@ export interface LearningStore {
   recordBookmark(key: string, bookmarked: boolean): void;
 }
 
-const STORAGE_KEY = "sciencemastery_adaptive_v1";
+const STORAGE_KEY = "brainsoma_adaptive_v1";
 const emptySnapshot = (): LearningSnapshot => ({ attempts: [], mastery: {} });
 
 export class LocalLearningStore implements LearningStore {
@@ -64,15 +64,15 @@ export class LocalLearningStore implements LearningStore {
   write(snapshot: LearningSnapshot) {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
-      window.dispatchEvent(new Event("sciencemastery:learning-updated"));
+      window.dispatchEvent(new Event("brainsoma:learning-updated"));
     } catch { /* storage unavailable */ }
   }
 
   recordBookmark(key: string, bookmarked: boolean) {
     try {
-      const bookmarks = new Set(JSON.parse(localStorage.getItem("sciencemastery_bookmarks") ?? "[]"));
+      const bookmarks = new Set(JSON.parse(localStorage.getItem("brainsoma_bookmarks") ?? "[]"));
       bookmarked ? bookmarks.add(key) : bookmarks.delete(key);
-      localStorage.setItem("sciencemastery_bookmarks", JSON.stringify([...bookmarks]));
+      localStorage.setItem("brainsoma_bookmarks", JSON.stringify([...bookmarks]));
     } catch { /* storage unavailable */ }
   }
 }

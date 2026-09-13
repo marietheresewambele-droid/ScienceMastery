@@ -56,7 +56,7 @@ export const organisationConfig: BiologyTopicConfig = {
   description:
     "Review organisation in animals and plants through structured mastery practice.",
   route: "/biology/organisation",
-  storageNamespace: "sciencemastery_organisation",
+  storageNamespace: "brainsoma_organisation",
   questions: organisationQuestions,
   subtopics: organisationSubtopics,
   subject: "biology",

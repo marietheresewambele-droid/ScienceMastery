@@ -1,4 +1,4 @@
--- ScienceMastery deterministic adaptive learning engine.
+-- BrainSoma deterministic adaptive learning engine.
 -- Approved curriculum content is readable by everyone; student evidence is private.
 
 create table if not exists public.content_versions (

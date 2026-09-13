@@ -1,4 +1,4 @@
-# ScienceMastery
+# BrainSoma
 
 AQA GCSE Biology, Chemistry and Physics mastery and revision platform.
 
@@ -27,13 +27,13 @@ With the supplied adaptive-ready workbooks in the default Desktop folder, import
 npm run content:import-workbooks
 ```
 
-The importer reads the topic sheets' self-contained questions and model answers, and uses the adaptive map for permanent relationships. To use another folder, set `SCIENCEMASTERY_WORKBOOK_DIR` before running the command.
+The importer reads the topic sheets' self-contained questions and model answers, and uses the adaptive map for permanent relationships. To use another folder, set `BRAINSOMA_WORKBOOK_DIR` before running the command.
 
 ```bash
 npm run adaptive:seed
 ```
 
-This creates `supabase/seed-adaptive-content.sql` and validates permanent IDs before publication. Apply the migration in `supabase/migrations`, then run the generated seed against the ScienceMastery Supabase project. Content versions are `BIO-2026.1`, `CHE-2026.1` and `PHY-2026.1`.
+This creates `supabase/seed-adaptive-content.sql` and validates permanent IDs before publication. Apply the migration in `supabase/migrations`, then run the generated seed against the BrainSoma Supabase project. Content versions are `BIO-2026.1`, `CHE-2026.1` and `PHY-2026.1`.
 
 ## Local development
 

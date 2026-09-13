@@ -6,6 +6,6 @@ const data=questionBank as RawChemistryQuestionBank;
 export const chemicalChangesQuestions=createChemistryQuestions(data,"chemical-changes","Chemical Changes");
 export const chemicalChangesConfig: ChemistryTopicConfig={
   id:"chemical-changes", title:"Chemical Changes", description:"Review reactivity, extraction, acids, salts, electrolysis and redox reactions.",
-  route:"/chemistry/chemical-changes", storageNamespace:"sciencemastery_chemistry_chemical_changes",
+  route:"/chemistry/chemical-changes", storageNamespace:"brainsoma_chemistry_chemical_changes",
   questions:chemicalChangesQuestions, subtopics:createChemistrySubtopics(data), subject:"chemistry", examBoard:"AQA", topicNumber:"Topic 4"
 };

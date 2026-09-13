@@ -34,7 +34,7 @@ export default function TopicHeader({ metadata }: TopicHeaderProps) {
         <Link
           href={homeHref}
           className="flex items-center gap-2.5"
-          aria-label="ScienceMastery Home"
+          aria-label="BrainSoma Home"
         >
           <span className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-ink bg-orange text-white shadow-[3px_3px_0_0_var(--color-ink)]">
             <FlaskIcon />

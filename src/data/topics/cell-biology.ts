@@ -200,7 +200,7 @@ export const cellBiologyConfig: BiologyTopicConfig = {
   description:
     "Master the fundamentals of cell biology through focused practice questions. Compare your answers with marking points and use active recall to build lasting understanding.",
   route: "/biology/cell-biology",
-  storageNamespace: "sciencemastery_cellbiology",
+  storageNamespace: "brainsoma_cellbiology",
   questions: cellBiologyQuestions,
   subtopics: cellBiologySubtopics,
   subject: "biology",

@@ -56,7 +56,7 @@ export const homeostasisAndResponseConfig: BiologyTopicConfig = {
   description:
     "Review homeostasis, the nervous system, hormonal control and plant responses through structured mastery practice.",
   route: "/biology/homeostasis-and-response",
-  storageNamespace: "sciencemastery_homeostasisresponse",
+  storageNamespace: "brainsoma_homeostasisresponse",
   questions: homeostasisAndResponseQuestions,
   subtopics: homeostasisAndResponseSubtopics,
   subject: "biology",

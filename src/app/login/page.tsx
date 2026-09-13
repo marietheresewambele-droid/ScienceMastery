@@ -25,7 +25,7 @@ export default function LoginPage() {
     router.refresh();
   }
 
-  return <AuthLayout eyebrow="Welcome back" title="Sign in to SciMastery" description="Continue from where you left off and keep building your GCSE science mastery.">
+  return <AuthLayout eyebrow="Welcome back" title="Sign in to BrainSoma" description="Continue from where you left off and keep building your GCSE science mastery.">
     <form className="space-y-5" onSubmit={submit}>
       <label className="block text-sm font-bold">Email address<input className={fieldClass} type="email" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="email" placeholder="you@example.com" required /></label>
       <label className="block text-sm font-bold">Password<div className="relative"><input className={`${fieldClass} pr-16`} type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="current-password" placeholder="Your password" required /><button className="absolute right-4 top-[1.3rem] text-xs font-black text-orange-dark" type="button" onClick={() => setShowPassword((shown) => !shown)}>{showPassword ? "Hide" : "Show"}</button></div></label>
@@ -33,6 +33,6 @@ export default function LoginPage() {
       {error && <p className={errorClass} role="alert">{error}</p>}
       <button className={primaryButtonClass} disabled={busy} type="submit">{busy ? "Signing in…" : "Sign in"}</button>
     </form>
-    <p className="mt-6 text-center text-sm text-ink-soft">New to SciMastery? <Link className="font-extrabold text-orange-dark" href="/signup">Create an account</Link></p>
+    <p className="mt-6 text-center text-sm text-ink-soft">New to BrainSoma? <Link className="font-extrabold text-orange-dark" href="/signup">Create an account</Link></p>
   </AuthLayout>;
 }

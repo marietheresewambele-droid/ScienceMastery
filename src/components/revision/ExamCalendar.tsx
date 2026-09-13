@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 type ExamEntry = { id: string; subject: string; title: string; date: string };
 
-const STORAGE_KEY = "sciencemastery_exam_calendar";
+const STORAGE_KEY = "brainsoma_exam_calendar";
 const SUBJECTS = ["Biology", "Chemistry", "Physics", "Other"];
 
 function loadExams(): ExamEntry[] {

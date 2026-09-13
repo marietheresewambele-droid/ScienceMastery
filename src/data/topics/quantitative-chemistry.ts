@@ -6,6 +6,6 @@ const data=questionBank as RawChemistryQuestionBank;
 export const quantitativeChemistryQuestions=createChemistryQuestions(data,"quantitative-chemistry","Quantitative Chemistry");
 export const quantitativeChemistryConfig: ChemistryTopicConfig={
   id:"quantitative-chemistry", title:"Quantitative Chemistry", description:"Practise chemical calculations, moles, reacting masses, yields, concentrations and uncertainty.",
-  route:"/chemistry/quantitative-chemistry", storageNamespace:"sciencemastery_chemistry_quantitative_chemistry",
+  route:"/chemistry/quantitative-chemistry", storageNamespace:"brainsoma_chemistry_quantitative_chemistry",
   questions:quantitativeChemistryQuestions, subtopics:createChemistrySubtopics(data), subject:"chemistry", examBoard:"AQA", topicNumber:"Topic 3"
 };
