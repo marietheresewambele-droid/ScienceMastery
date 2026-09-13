@@ -28,7 +28,7 @@ export default function Home() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5">
           <span className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-ink bg-orange text-white shadow-[3px_3px_0_0_var(--color-ink)]"><FlaskIcon/></span>
-          <span className="font-display text-xl font-bold tracking-tight">Sci<span className="text-orange">Mastery</span></span>
+          <span className="font-display text-xl font-bold tracking-tight">Brain<span className="text-orange">Soma</span></span>
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-bold text-ink-soft md:flex" aria-label="Main navigation">
           <a href="#subjects" className="hover:text-orange">Subjects</a>
@@ -101,6 +101,6 @@ export default function Home() {
       <div className="text-center"><p className="text-sm font-bold uppercase tracking-widest text-yellow">How it works</p><h2 className="mt-3 font-display text-3xl font-bold sm:text-4xl">A simple mastery cycle</h2></div>
       <div className="mt-12 grid gap-6 md:grid-cols-3">{[["01","Choose a topic","Start with the science and subtopic you need most."],["02","Answer from memory","Attempt each question before revealing the marking points."],["03","Check and improve","Rate your answer and return to difficult knowledge later."]].map(([n,title,copy])=><article key={n} className="rounded-2xl border-2 border-cream/20 bg-white/5 p-7"><span className="font-display text-2xl font-bold text-yellow">{n}</span><h3 className="mt-4 font-display text-xl font-semibold">{title}</h3><p className="mt-3 leading-7 text-cream/70">{copy}</p></article>)}</div>
     </div></section>
-    <footer className="border-t-2 border-cream/10 bg-ink py-10 text-cream/60"><div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 px-4 sm:flex-row sm:items-center sm:px-6"><div className="flex items-center gap-2.5 text-cream"><span className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-cream/30 bg-orange"><FlaskIcon/></span><span className="font-display text-xl font-bold">Sci<span className="text-yellow">Mastery</span></span></div><p className="text-sm">Free AQA GCSE Biology, Chemistry and Physics revision.</p></div></footer>
+    <footer className="border-t-2 border-cream/10 bg-ink py-10 text-cream/60"><div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 px-4 sm:flex-row sm:items-center sm:px-6"><div className="flex items-center gap-2.5 text-cream"><span className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-cream/30 bg-orange"><FlaskIcon/></span><span className="font-display text-xl font-bold">Brain<span className="text-yellow">Soma</span></span></div><p className="text-sm">Free AQA GCSE Biology, Chemistry and Physics revision.</p></div></footer>
   </main>;
 }
