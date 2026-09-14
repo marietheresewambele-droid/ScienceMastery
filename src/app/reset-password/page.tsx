@@ -16,24 +16,46 @@ export default function ResetPasswordPage() {
   const [updated, setUpdated] = useState(false);
 
   useEffect(() => {
-    const supabase = getSupabaseBrowserClient();
     let mounted = true;
-    const hasRecoveryMarker = new URLSearchParams(window.location.search).get("recovery") === "1";
+    let unsubscribe = () => {};
 
-    supabase.auth.getSession().then(({ data }) => {
-      if (!mounted) return;
-      setReady(Boolean(data.session && hasRecoveryMarker));
-      setChecking(false);
-    });
-
-    const { data: listener } = supabase.auth.onAuthStateChange((event, session) => {
-      if (event === "PASSWORD_RECOVERY" && session && mounted) {
-        setReady(true);
-        setChecking(false);
+    Promise.resolve().then(async () => {
+      let supabase;
+      try {
+        supabase = getSupabaseBrowserClient();
+      } catch {
+        if (mounted) {
+          setChecking(false);
+          setError("We could not reach the account recovery service. Please try again in a moment.");
+        }
+        return;
       }
+
+      const hasRecoveryMarker = new URLSearchParams(window.location.search).get("recovery") === "1";
+
+      try {
+        const { data } = await supabase.auth.getSession();
+        if (mounted) {
+          setReady(Boolean(data.session && hasRecoveryMarker));
+          setChecking(false);
+        }
+      } catch {
+        if (mounted) {
+          setChecking(false);
+          setError("We could not reach the account recovery service. Please try again in a moment.");
+        }
+      }
+
+      const { data: listener } = supabase.auth.onAuthStateChange((event, session) => {
+        if (event === "PASSWORD_RECOVERY" && session && mounted) {
+          setReady(true);
+          setChecking(false);
+        }
+      });
+      unsubscribe = () => listener.subscription.unsubscribe();
     });
 
-    return () => { mounted = false; listener.subscription.unsubscribe(); };
+    return () => { mounted = false; unsubscribe(); };
   }, []);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
@@ -43,18 +65,23 @@ export default function ResetPasswordPage() {
     if (password !== confirmPassword) return setError("The passwords do not match.");
 
     setBusy(true);
-    const supabase = getSupabaseBrowserClient();
-    const { error: updateError } = await supabase.auth.updateUser({ password });
-    if (!updateError) await supabase.auth.signOut();
-    setBusy(false);
-    if (updateError) return setError(updateError.message);
-    setUpdated(true);
-    window.history.replaceState({}, "", "/reset-password");
+    try {
+      const supabase = getSupabaseBrowserClient();
+      const { error: updateError } = await supabase.auth.updateUser({ password });
+      if (updateError) return setError(updateError.message);
+      await supabase.auth.signOut();
+      setUpdated(true);
+      window.history.replaceState({}, "", "/reset-password");
+    } catch {
+      setError("We could not reach the account recovery service. Please try again in a moment.");
+    } finally {
+      setBusy(false);
+    }
   }
 
   if (updated) return <AuthLayout eyebrow="Account secured" title="Password updated" description="Your new password has been saved. Sign in again to continue learning."><Link className={`${primaryButtonClass} block text-center`} href="/login">Sign in with your new password</Link></AuthLayout>;
   if (checking) return <AuthLayout eyebrow="Secure recovery" title="Checking your reset link" description="Please wait while we verify that this password-reset link is valid."><div className="h-2 overflow-hidden rounded-full border-2 border-ink bg-cream-soft"><div className="h-full w-1/2 animate-pulse rounded-full bg-orange" /></div></AuthLayout>;
-  if (!ready) return <AuthLayout eyebrow="Reset link unavailable" title="Request a new link" description="This password-reset link is invalid or has expired."><Link className={`${primaryButtonClass} block text-center`} href="/forgot-password">Send a new reset link</Link><p className="mt-5 text-center text-sm"><Link className="font-bold text-orange-dark" href="/login">Back to sign in</Link></p></AuthLayout>;
+  if (!ready) return <AuthLayout eyebrow="Reset link unavailable" title="Request a new link" description={error || "This password-reset link is invalid or has expired."}><Link className={`${primaryButtonClass} block text-center`} href="/forgot-password">Send a new reset link</Link><p className="mt-5 text-center text-sm"><Link className="font-bold text-orange-dark" href="/login">Back to sign in</Link></p></AuthLayout>;
 
   return <AuthLayout eyebrow="Secure your account" title="Choose a new password" description="Use a password you do not use elsewhere. It must contain at least 8 characters, a letter and a number.">
     <form className="space-y-5" onSubmit={submit}>

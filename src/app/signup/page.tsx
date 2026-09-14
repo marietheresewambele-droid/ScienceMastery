@@ -31,32 +31,41 @@ export default function SignUpPage() {
     if (password !== confirmPassword) return setError("The passwords do not match.");
 
     setBusy(true);
-    const supabase = getSupabaseBrowserClient();
-    const { data, error: signUpError } = await supabase.auth.signUp({
-      email: email.trim(),
-      password,
-      options: {
-        data: { first_name: firstName.trim() },
-        emailRedirectTo: `${window.location.origin}/auth/verified`,
-      },
-    });
-    setBusy(false);
-
-    if (signUpError) return setError(signUpError.message);
-    if (data.session) router.replace("/dashboard");
-    else setSent(true);
+    try {
+      const supabase = getSupabaseBrowserClient();
+      const { data, error: signUpError } = await supabase.auth.signUp({
+        email: email.trim(),
+        password,
+        options: {
+          data: { first_name: firstName.trim() },
+          emailRedirectTo: `${window.location.origin}/auth/verified`,
+        },
+      });
+      if (signUpError) return setError(signUpError.message);
+      if (data.session) router.replace("/dashboard");
+      else setSent(true);
+    } catch {
+      setError("We could not reach the sign-up service. Please try again in a moment.");
+    } finally {
+      setBusy(false);
+    }
   }
 
   async function resend() {
     setBusy(true);
     setError("");
-    const { error: resendError } = await getSupabaseBrowserClient().auth.resend({
-      type: "signup",
-      email: email.trim(),
-      options: { emailRedirectTo: `${window.location.origin}/auth/verified` },
-    });
-    setBusy(false);
-    if (resendError) setError(resendError.message);
+    try {
+      const { error: resendError } = await getSupabaseBrowserClient().auth.resend({
+        type: "signup",
+        email: email.trim(),
+        options: { emailRedirectTo: `${window.location.origin}/auth/verified` },
+      });
+      if (resendError) setError(resendError.message);
+    } catch {
+      setError("We could not reach the sign-up service. Please try again in a moment.");
+    } finally {
+      setBusy(false);
+    }
   }
 
   if (sent) {

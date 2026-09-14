@@ -18,11 +18,16 @@ export default function LoginPage() {
     event.preventDefault();
     setBusy(true);
     setError("");
-    const { error: loginError } = await getSupabaseBrowserClient().auth.signInWithPassword({ email: email.trim(), password });
-    setBusy(false);
-    if (loginError) return setError(loginError.message.toLowerCase().includes("invalid login") ? "The email or password is incorrect." : loginError.message);
-    router.replace("/dashboard");
-    router.refresh();
+    try {
+      const { error: loginError } = await getSupabaseBrowserClient().auth.signInWithPassword({ email: email.trim(), password });
+      if (loginError) return setError(loginError.message.toLowerCase().includes("invalid login") ? "The email or password is incorrect." : loginError.message);
+      router.replace("/dashboard");
+      router.refresh();
+    } catch {
+      setError("We could not reach the sign-in service. Please try again in a moment.");
+    } finally {
+      setBusy(false);
+    }
   }
 
   return <AuthLayout eyebrow="Welcome back" title="Sign in to SciMastery" description="Continue from where you left off and keep building your GCSE science mastery.">
