@@ -42,7 +42,10 @@ Create `.env.local` with:
 ```text
 NEXT_PUBLIC_SUPABASE_URL=your-project-url
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
+NEXT_PUBLIC_ADMIN_EMAILS=you@example.com,editor@example.com
 ```
+
+`NEXT_PUBLIC_ADMIN_EMAILS` is a comma-separated allowlist of Supabase account emails permitted to use `/admin/content`. Anyone signed in with an email outside this list is shown an access-denied screen.
 
 Then run:
 

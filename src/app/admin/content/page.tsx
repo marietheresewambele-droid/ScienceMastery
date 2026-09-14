@@ -4,8 +4,17 @@ import { useState } from "react";
 import { prepareContentImport, publishContentImport } from "@/lib/contentImports";
 import type { MasteryQuestion } from "@/types/questions";
 import type { WorkbookRelationship } from "@/lib/contentValidation";
+import RequireAdmin from "@/components/admin/RequireAdmin";
 
 export default function ContentAdminPage() {
+  return (
+    <RequireAdmin>
+      <ContentAdminForm />
+    </RequireAdmin>
+  );
+}
+
+function ContentAdminForm() {
   const [subject, setSubject] = useState<"biology" | "chemistry" | "physics">("biology");
   const [version, setVersion] = useState("");
   const [payload, setPayload] = useState("");

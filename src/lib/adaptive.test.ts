@@ -2,6 +2,7 @@ import { strict as assert } from "node:assert";
 import { test } from "node:test";
 import type { MasteryQuestion } from "@/types/questions";
 import { AdaptiveEngine, type LearningSnapshot, aggregateMastery } from "@/lib/adaptive";
+import { catalogQuestionId } from "@/lib/adaptive-engine";
 import { validateQuestionWorkbook } from "@/lib/contentValidation";
 
 class MemoryStore {
@@ -29,10 +30,21 @@ test("two independent attempts and delayed retrieval produce secure mastery", ()
   const store = new MemoryStore();
   const engine = new AdaptiveEngine(store);
   engine.evaluateAttempt({ question, score: 1, maxScore: 1, hintsUsed: 0, fullAnswerViewed: false, responseTimeMs: 100 });
-  store.snapshot.mastery[question.id].lastAttemptAt = new Date(Date.now() - 3 * 86400000).toISOString();
+  store.snapshot.mastery[catalogQuestionId(question)].lastAttemptAt = new Date(Date.now() - 3 * 86400000).toISOString();
   const result = engine.evaluateAttempt({ question, score: 1, maxScore: 1, hintsUsed: 0, fullAnswerViewed: false, responseTimeMs: 100 });
   assert.equal(result.level, "Secure");
   assert.equal(aggregateMastery(store.snapshot, [question])["family:Osmosis"].masteryPercent, 100);
+});
+
+test("questions that reuse the same raw id across topics do not share mastery state", () => {
+  const store = new MemoryStore();
+  const engine = new AdaptiveEngine(store);
+  const other: MasteryQuestion = { ...question, topicSlug: "ecology", topic: "Ecology" };
+  engine.evaluateAttempt({ question, score: 1, maxScore: 1, hintsUsed: 0, fullAnswerViewed: false, responseTimeMs: 100 });
+  const otherResult = engine.evaluateAttempt({ question: other, score: 0, maxScore: 1, hintsUsed: 0, fullAnswerViewed: false, responseTimeMs: 100 });
+  assert.notEqual(catalogQuestionId(question), catalogQuestionId(other));
+  assert.equal(store.snapshot.mastery[catalogQuestionId(question)].independentSuccesses, 1);
+  assert.equal(otherResult.independentSuccesses, 0);
 });
 
 test("validator rejects duplicates and broken relationships", () => {
