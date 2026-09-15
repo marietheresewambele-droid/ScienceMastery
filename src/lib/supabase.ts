@@ -1,25 +1,20 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-function requireEnv(name: string, value: string | undefined): string {
-  if (!value) {
-    throw new Error(`Missing ${name} environment variable`);
-  }
-  return value;
-}
+const productionSupabaseUrl = "https://ggpcxhsofgjmrwxzosjz.supabase.co";
+const productionPublishableKey = "sb_publishable_cxjLJWax1E8yY1ADTRb-Wg_OYsNkTJm";
 
 let browserClient: SupabaseClient | undefined;
 
 export function getSupabaseBrowserClient() {
   if (!browserClient) {
-    const supabaseUrl = requireEnv("NEXT_PUBLIC_SUPABASE_URL", process.env.NEXT_PUBLIC_SUPABASE_URL);
-    // Support the legacy anon-key name used by the first BrainSoma deployment.
-    // Both values are public browser keys; the publishable key is preferred.
-    const supabasePublishableKey = requireEnv(
-      "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY (or legacy NEXT_PUBLIC_SUPABASE_ANON_KEY)",
+    // Environment variables are preferred. The fallback is a publishable browser
+    // key for the live BrainSoma Supabase project, not a secret server key.
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? productionSupabaseUrl;
+    const supabasePublishableKey =
       process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ??
-        process.env["NEXT_PUBLIC_SUPABASE_PUBLISH-ABLE_KEY"],
-    );
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ??
+      process.env["NEXT_PUBLIC_SUPABASE_PUBLISH-ABLE_KEY"] ??
+      productionPublishableKey;
 
     browserClient = createClient(supabaseUrl, supabasePublishableKey, {
       auth: {
