@@ -31,32 +31,42 @@ export default function SignUpPage() {
     if (password !== confirmPassword) return setError("The passwords do not match.");
 
     setBusy(true);
-    const supabase = getSupabaseBrowserClient();
-    const { data, error: signUpError } = await supabase.auth.signUp({
-      email: email.trim(),
-      password,
-      options: {
-        data: { first_name: firstName.trim() },
-        emailRedirectTo: `${window.location.origin}/auth/verified`,
-      },
-    });
-    setBusy(false);
+    try {
+      const supabase = getSupabaseBrowserClient();
+      const { data, error: signUpError } = await supabase.auth.signUp({
+        email: email.trim(),
+        password,
+        options: {
+          data: { first_name: firstName.trim() },
+          emailRedirectTo: `${window.location.origin}/auth/verified`,
+        },
+      });
 
-    if (signUpError) return setError(signUpError.message);
-    if (data.session) router.replace("/dashboard");
-    else setSent(true);
+      if (signUpError) return setError(signUpError.message);
+      if (data.session) router.replace("/dashboard");
+      else setSent(true);
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : "We could not create your account. Please try again.");
+    } finally {
+      setBusy(false);
+    }
   }
 
   async function resend() {
     setBusy(true);
     setError("");
-    const { error: resendError } = await getSupabaseBrowserClient().auth.resend({
-      type: "signup",
-      email: email.trim(),
-      options: { emailRedirectTo: `${window.location.origin}/auth/verified` },
-    });
-    setBusy(false);
-    if (resendError) setError(resendError.message);
+    try {
+      const { error: resendError } = await getSupabaseBrowserClient().auth.resend({
+        type: "signup",
+        email: email.trim(),
+        options: { emailRedirectTo: `${window.location.origin}/auth/verified` },
+      });
+      if (resendError) setError(resendError.message);
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : "We could not resend the verification email.");
+    } finally {
+      setBusy(false);
+    }
   }
 
   if (sent) {
