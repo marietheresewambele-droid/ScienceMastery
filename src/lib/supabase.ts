@@ -16,7 +16,9 @@ export function getSupabaseBrowserClient() {
     // Both values are public browser keys; the publishable key is preferred.
     const supabasePublishableKey = requireEnv(
       "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY (or legacy NEXT_PUBLIC_SUPABASE_ANON_KEY)",
-      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??\n        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ??\n        process.env["NEXT_PUBLIC_SUPABASE_PUBLISH-ABLE_KEY"],
+      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
+        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ??
+        process.env["NEXT_PUBLIC_SUPABASE_PUBLISH-ABLE_KEY"],
     );
 
     browserClient = createClient(supabaseUrl, supabasePublishableKey, {
