@@ -15,12 +15,17 @@ export default function ForgotPasswordPage() {
     event.preventDefault();
     setBusy(true);
     setError("");
-    const { error: resetError } = await getSupabaseBrowserClient().auth.resetPasswordForEmail(email.trim(), {
-      redirectTo: `${window.location.origin}/reset-password?recovery=1`,
-    });
-    setBusy(false);
-    if (resetError) return setError(resetError.message);
-    setSent(true);
+    try {
+      const { error: resetError } = await getSupabaseBrowserClient().auth.resetPasswordForEmail(email.trim(), {
+        redirectTo: `${window.location.origin}/reset-password?recovery=1`,
+      });
+      if (resetError) return setError(resetError.message);
+      setSent(true);
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : "We could not send the reset link. Please try again.");
+    } finally {
+      setBusy(false);
+    }
   }
 
   if (sent) return <AuthLayout eyebrow="Recovery email sent" title="Check your email" description={`If an account exists for ${email}, we have sent a secure password-reset link.`}>
