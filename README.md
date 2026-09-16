@@ -43,9 +43,12 @@ Create `.env.local` with:
 NEXT_PUBLIC_SUPABASE_URL=your-project-url
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
 NEXT_PUBLIC_ADMIN_EMAILS=you@example.com,editor@example.com
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 ```
 
 `NEXT_PUBLIC_ADMIN_EMAILS` is a comma-separated allowlist of Supabase account emails permitted to use `/admin/content`. Anyone signed in with an email outside this list is shown an access-denied screen.
+
+`SUPABASE_SERVICE_ROLE_KEY` is the project's service-role key from the Supabase dashboard (Project Settings → API). It is **not** prefixed with `NEXT_PUBLIC_` and must never be exposed to the browser — it's only read by the `/api/admin/content/publish` route, which uses it to bypass RLS and write approved content. Set it in Vercel's Environment Variables for any deployment that needs `/admin/content` to actually publish, in addition to `.env.local` for local development.
 
 Then run:
 

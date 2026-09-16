@@ -3,13 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
-
-const adminEmails = new Set(
-  (process.env.NEXT_PUBLIC_ADMIN_EMAILS || "")
-    .split(",")
-    .map((email) => email.trim().toLowerCase())
-    .filter(Boolean),
-);
+import { isAdminEmail } from "@/lib/adminAccess";
 
 export default function RequireAdmin({ children }: { children: React.ReactNode }) {
   const [status, setStatus] = useState<"checking" | "authorized" | "denied">("checking");
@@ -20,8 +14,7 @@ export default function RequireAdmin({ children }: { children: React.ReactNode }
       .auth.getUser()
       .then(({ data }) => {
         if (cancelled) return;
-        const email = data.user?.email?.toLowerCase();
-        setStatus(email && adminEmails.has(email) ? "authorized" : "denied");
+        setStatus(isAdminEmail(data.user?.email) ? "authorized" : "denied");
       })
       .catch(() => {
         if (!cancelled) setStatus("denied");
