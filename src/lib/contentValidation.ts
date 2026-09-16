@@ -12,7 +12,10 @@ export function validateQuestionWorkbook(questions: MasteryQuestion[], relations
     ids.add(question.id);
     if (!question.question?.trim()) issues.push({ code: "MISSING_QUESTION", message: "Question text is missing", row: index + 1, id: question.id });
     if (!question.modelAnswer?.trim() && question.markingPoints.length === 0) issues.push({ code: "MISSING_ANSWER", message: "Model answer or marking points are required", row: index + 1, id: question.id });
-    if (question.marks !== question.markingPoints.length && question.markingPoints.length > 0) issues.push({ code: "MARK_MISMATCH", message: `Marks do not match marking points for ${question.id}`, row: index + 1, id: question.id });
+    // Marking points may be written one-per-mark or as compact prose (e.g. a single sentence
+    // covering a 4-mark recall list) - only flag more listed points than available marks, since
+    // that's the actual authoring error; fewer points than marks is a legitimate, common style.
+    if (question.markingPoints.length > question.marks) issues.push({ code: "MARK_MISMATCH", message: `More marking points than marks for ${question.id}`, row: index + 1, id: question.id });
     if (!/^AO[123](\/AO[123])*$/.test(question.assessmentObjective)) issues.push({ code: "INVALID_AO", message: `Invalid assessment objective for ${question.id}`, row: index + 1, id: question.id });
     if (question.hints && question.hints.length !== 2) issues.push({ code: "INVALID_HINTS", message: `Exactly two hints are required for ${question.id}`, row: index + 1, id: question.id });
   }

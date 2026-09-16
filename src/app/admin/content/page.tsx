@@ -15,6 +15,13 @@ type PublishResponse = {
   skippedRelationships: string[];
 };
 
+type ParseWorkbookResponse = {
+  questions: MasteryQuestion[];
+  relationships: WorkbookRelationship[];
+  topicsFound: { sheet: string; topicSlug: string; count: number; incomplete: number }[];
+  missingSheets: string[];
+};
+
 export default function ContentAdminPage() {
   return (
     <RequireAdmin>
@@ -30,6 +37,49 @@ function ContentAdminForm() {
   const [message, setMessage] = useState("");
   const [issues, setIssues] = useState<string[]>([]);
   const [publishing, setPublishing] = useState(false);
+  const [uploading, setUploading] = useState(false);
+
+  const uploadWorkbook = async (file: File) => {
+    setMessage("");
+    setIssues([]);
+    setUploading(true);
+    try {
+      const { data: sessionData } = await getSupabaseBrowserClient().auth.getSession();
+      const token = sessionData.session?.access_token;
+      if (!token) {
+        setMessage("Your session has expired. Sign in again to upload a workbook.");
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("file", file);
+      const response = await fetch("/api/admin/content/parse-workbook", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}` },
+        body: formData,
+      });
+      const result = await response.json();
+
+      if (!response.ok) {
+        setMessage(result.error || "The workbook could not be parsed.");
+        return;
+      }
+
+      const parsed = result as ParseWorkbookResponse;
+      setSubject("chemistry");
+      setPayload(JSON.stringify({ questions: parsed.questions, relationships: parsed.relationships }, null, 2));
+      const topicSummary = parsed.topicsFound.map((topic) => `${topic.sheet}: ${topic.count}${topic.incomplete ? ` (${topic.incomplete} incomplete, held back)` : ""}`).join("; ");
+      setMessage(
+        `Loaded ${parsed.questions.length} question(s) from ${parsed.topicsFound.length} topic sheet(s). ${topicSummary}.` +
+          (parsed.missingSheets.length ? ` Sheets not found in this workbook: ${parsed.missingSheets.join(", ")}.` : "") +
+          " Review below, then Validate and Publish.",
+      );
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "The workbook could not be parsed.");
+    } finally {
+      setUploading(false);
+    }
+  };
 
   const validate = () => {
     setMessage("");
@@ -103,8 +153,26 @@ function ContentAdminForm() {
       <div className="mx-auto max-w-4xl">
         <p className="text-sm font-bold uppercase tracking-widest text-orange-dark">Content administration</p>
         <h1 className="mt-2 font-display text-4xl font-bold">Validate and publish workbook content</h1>
-        <p className="mt-4 max-w-3xl text-ink-soft">Paste a normalized workbook export to validate it, then publish it live. Publishing writes directly to the question catalogue students see — there is no separate review step.</p>
+        <p className="mt-4 max-w-3xl text-ink-soft">Upload an approved Excel workbook, or paste a normalized workbook export, then validate and publish it live. Publishing writes directly to the question catalogue students see — there is no separate review step.</p>
+
         <section className="sm-panel mt-8 p-6">
+          <h2 className="font-display text-xl font-bold">Upload a Chemistry workbook</h2>
+          <p className="mt-2 text-sm text-ink-soft">Accepts the Chemistry Mastery Audit (Website Ready) format — one sheet per topic (T1–T10), with a &quot;Website question ID&quot;, &quot;Question&quot;, &quot;Model answer / marking points&quot; and related columns. Biology and Physics workbook upload isn&apos;t supported yet.</p>
+          <input
+            type="file"
+            accept=".xlsx"
+            disabled={uploading}
+            onChange={(event) => {
+              const file = event.target.files?.[0];
+              event.target.value = "";
+              if (file) void uploadWorkbook(file);
+            }}
+            className="mt-4 block w-full rounded-xl border-2 border-dashed border-ink bg-card p-3 text-sm file:mr-4 file:rounded-lg file:border-0 file:bg-ink file:px-4 file:py-2 file:font-bold file:text-cream disabled:opacity-40"
+          />
+          {uploading && <p className="mt-3 text-sm font-semibold text-ink-soft">Parsing workbook…</p>}
+        </section>
+
+        <section className="sm-panel mt-6 p-6">
           <div className="grid gap-4 sm:grid-cols-2">
             <label className="font-bold">Subject<select value={subject} onChange={(event) => setSubject(event.target.value as typeof subject)} className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3"><option value="biology">Biology</option><option value="chemistry">Chemistry</option><option value="physics">Physics</option></select></label>
             <label className="font-bold">Content version<input value={version} onChange={(event) => setVersion(event.target.value)} placeholder="2026.08" className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3" /></label>

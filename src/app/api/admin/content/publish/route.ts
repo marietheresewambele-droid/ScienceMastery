@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getSupabaseAdminClient } from "@/lib/supabase-admin";
 import { isAdminEmail } from "@/lib/adminAccess";
 import { validateQuestionWorkbook, type WorkbookRelationship } from "@/lib/contentValidation";
+import { getAdaptiveHints } from "@/lib/adaptive-engine";
 import type { MasteryQuestion } from "@/types/questions";
 
 const SUBJECT_PREFIX: Record<MasteryQuestion["subject"], string> = {
@@ -86,10 +87,13 @@ async function handlePublish(request: Request) {
     active: true,
   }));
 
+  // Every question gets two stored hints: author-provided ones when present, otherwise the
+  // same keyword/calculation/generic scaffolding the client would compute on the fly. Storing
+  // them means curated hintKeywords (e.g. from a workbook import) aren't silently dropped just
+  // because question_catalog has nowhere to persist the raw keyword list.
   const hintRows = questions.flatMap((question) => {
-    if (!question.hints || question.hints.length !== 2) return [];
     const questionId = idMap.get(question.id)!;
-    return question.hints.map((hint, index) => ({
+    return getAdaptiveHints(question).map((hint, index) => ({
       id: `${questionId}-hint-${index + 1}`,
       question_id: questionId,
       level: index + 1,
