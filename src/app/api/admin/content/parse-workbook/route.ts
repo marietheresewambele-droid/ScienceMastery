@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import { getSupabaseAdminClient } from "@/lib/supabase-admin";
-import { isAdminEmail } from "@/lib/adminAccess";
+import { requireAdmin } from "@/lib/adminApiAuth";
 import { parseChemistryWorkbook } from "@/lib/chemistryWorkbookImport";
 import { parseAdaptiveWorkbook, type AdaptiveWorkbookSubject } from "@/lib/adaptiveWorkbookImport";
 
@@ -14,15 +13,8 @@ export async function POST(request: Request) {
 }
 
 async function handleParse(request: Request) {
-  const authHeader = request.headers.get("authorization") ?? "";
-  const token = authHeader.startsWith("Bearer ") ? authHeader.slice("Bearer ".length) : "";
-  if (!token) return NextResponse.json({ error: "Missing authorization token." }, { status: 401 });
-
-  const admin = getSupabaseAdminClient();
-  const { data: userData, error: userError } = await admin.auth.getUser(token);
-  if (userError || !userData.user || !isAdminEmail(userData.user.email)) {
-    return NextResponse.json({ error: "You are not authorized to import workbooks." }, { status: 403 });
-  }
+  const auth = await requireAdmin(request);
+  if ("error" in auth) return auth.error;
 
   const formData = await request.formData();
   const file = formData.get("file");

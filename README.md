@@ -48,7 +48,7 @@ SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
 
 `NEXT_PUBLIC_ADMIN_EMAILS` is a comma-separated allowlist of Supabase account emails permitted to use `/admin/content`. Anyone signed in with an email outside this list is shown an access-denied screen.
 
-`SUPABASE_SERVICE_ROLE_KEY` is the project's service-role key from the Supabase dashboard (Project Settings → API). It is **not** prefixed with `NEXT_PUBLIC_` and must never be exposed to the browser — it's only read by the `/api/admin/content/publish` route, which uses it to bypass RLS and write approved content. Set it in Vercel's Environment Variables for any deployment that needs `/admin/content` to actually publish, in addition to `.env.local` for local development.
+`SUPABASE_SERVICE_ROLE_KEY` is the project's service-role key from the Supabase dashboard (Project Settings → API). It is **not** prefixed with `NEXT_PUBLIC_` and must never be exposed to the browser — it's only read server-side, by the `/api/admin/content/*` routes (publish, parse-workbook, questions, set-active), which use it to bypass RLS and read/write approved content. Set it in Vercel's Environment Variables for any deployment that needs `/admin/content` to actually work, in addition to `.env.local` for local development.
 
 Then run:
 

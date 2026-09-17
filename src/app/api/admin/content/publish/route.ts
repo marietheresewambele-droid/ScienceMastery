@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import { getSupabaseAdminClient } from "@/lib/supabase-admin";
-import { isAdminEmail } from "@/lib/adminAccess";
+import { requireAdmin } from "@/lib/adminApiAuth";
 import { validateQuestionWorkbook, hasBlockingIssues, type WorkbookRelationship } from "@/lib/contentValidation";
 import { getAdaptiveHints } from "@/lib/adaptive-engine";
 import type { MasteryQuestion } from "@/types/questions";
@@ -38,15 +37,9 @@ export async function POST(request: Request) {
 }
 
 async function handlePublish(request: Request) {
-  const authHeader = request.headers.get("authorization") ?? "";
-  const token = authHeader.startsWith("Bearer ") ? authHeader.slice("Bearer ".length) : "";
-  if (!token) return NextResponse.json({ error: "Missing authorization token." }, { status: 401 });
-
-  const admin = getSupabaseAdminClient();
-  const { data: userData, error: userError } = await admin.auth.getUser(token);
-  if (userError || !userData.user || !isAdminEmail(userData.user.email)) {
-    return NextResponse.json({ error: "You are not authorized to publish content." }, { status: 403 });
-  }
+  const auth = await requireAdmin(request);
+  if ("error" in auth) return auth.error;
+  const { admin } = auth;
 
   let body: PublishRequestBody;
   try {
