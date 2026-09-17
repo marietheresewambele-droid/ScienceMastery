@@ -6,9 +6,14 @@ export type ValidationIssue = { code: string; message: string; row?: number; id?
 export function validateQuestionWorkbook(questions: MasteryQuestion[], relationships: WorkbookRelationship[] = []): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
   const ids = new Set<string>();
+  // Raw question ids are only unique within a topic (e.g. "CD10" legitimately appears in
+  // multiple topic sheets of the same workbook) - dedupe on subject+topic+id, not id alone.
+  const topicScopedIds = new Set<string>();
   const allowedRelationships = new Set(["Prerequisite", "Diagnostic", "Remediation", "Easier", "Parallel", "Harder", "Retrieval", "Cross-topic"]);
   for (const [index, question] of questions.entries()) {
-    if (ids.has(question.id)) issues.push({ code: "DUPLICATE_ID", message: `Duplicate Question ID: ${question.id}`, row: index + 1, id: question.id });
+    const dedupeKey = `${question.subject}:${question.topicSlug}:${question.id}`;
+    if (topicScopedIds.has(dedupeKey)) issues.push({ code: "DUPLICATE_ID", message: `Duplicate Question ID: ${question.id}`, row: index + 1, id: question.id });
+    topicScopedIds.add(dedupeKey);
     ids.add(question.id);
     if (!question.question?.trim()) issues.push({ code: "MISSING_QUESTION", message: "Question text is missing", row: index + 1, id: question.id });
     if (!question.modelAnswer?.trim() && question.markingPoints.length === 0) issues.push({ code: "MISSING_ANSWER", message: "Model answer or marking points are required", row: index + 1, id: question.id });

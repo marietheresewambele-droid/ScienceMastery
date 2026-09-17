@@ -53,6 +53,7 @@ function ContentAdminForm() {
 
       const formData = new FormData();
       formData.append("file", file);
+      formData.append("subject", subject);
       const response = await fetch("/api/admin/content/parse-workbook", {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
@@ -66,7 +67,6 @@ function ContentAdminForm() {
       }
 
       const parsed = result as ParseWorkbookResponse;
-      setSubject("chemistry");
       setPayload(JSON.stringify({ questions: parsed.questions, relationships: parsed.relationships }, null, 2));
       const topicSummary = parsed.topicsFound.map((topic) => `${topic.sheet}: ${topic.count}${topic.incomplete ? ` (${topic.incomplete} incomplete, held back)` : ""}`).join("; ");
       setMessage(
@@ -156,8 +156,21 @@ function ContentAdminForm() {
         <p className="mt-4 max-w-3xl text-ink-soft">Upload an approved Excel workbook, or paste a normalized workbook export, then validate and publish it live. Publishing writes directly to the question catalogue students see — there is no separate review step.</p>
 
         <section className="sm-panel mt-8 p-6">
-          <h2 className="font-display text-xl font-bold">Upload a Chemistry workbook</h2>
-          <p className="mt-2 text-sm text-ink-soft">Accepts the Chemistry Mastery Audit (Website Ready) format — one sheet per topic (T1–T10), with a &quot;Website question ID&quot;, &quot;Question&quot;, &quot;Model answer / marking points&quot; and related columns. Biology and Physics workbook upload isn&apos;t supported yet.</p>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <label className="font-bold">Subject<select value={subject} onChange={(event) => setSubject(event.target.value as typeof subject)} className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3"><option value="biology">Biology</option><option value="chemistry">Chemistry</option><option value="physics">Physics</option></select></label>
+            <label className="font-bold">Content version<input value={version} onChange={(event) => setVersion(event.target.value)} placeholder="2026.08" className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3" /></label>
+          </div>
+        </section>
+
+        <section className="sm-panel mt-6 p-6">
+          <h2 className="font-display text-xl font-bold">Upload a {subject === "biology" ? "Biology" : subject === "physics" ? "Physics" : "Chemistry"} workbook</h2>
+          <p className="mt-2 text-sm text-ink-soft">
+            {subject === "chemistry"
+              ? "Accepts the Chemistry Mastery Audit (Website Ready) format — one sheet per topic (T1–T10), with a “Website question ID”, “Question”, “Model answer / marking points” and related columns."
+              : "Accepts the Mastery Audit format — one sheet per topic (e.g. “Topic 1 - Cell Biology”), with an “ID”, “Self-contained mastery question”, “Model answer / creditworthy marking points” and related columns."}
+            {" "}
+            {subject === "physics" && <strong>Not yet tested against a real Physics workbook — check the topic/question counts below carefully before publishing.</strong>}
+          </p>
           <input
             type="file"
             accept=".xlsx"
@@ -173,11 +186,7 @@ function ContentAdminForm() {
         </section>
 
         <section className="sm-panel mt-6 p-6">
-          <div className="grid gap-4 sm:grid-cols-2">
-            <label className="font-bold">Subject<select value={subject} onChange={(event) => setSubject(event.target.value as typeof subject)} className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3"><option value="biology">Biology</option><option value="chemistry">Chemistry</option><option value="physics">Physics</option></select></label>
-            <label className="font-bold">Content version<input value={version} onChange={(event) => setVersion(event.target.value)} placeholder="2026.08" className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3" /></label>
-          </div>
-          <label className="mt-5 block font-bold">Normalized workbook JSON<textarea value={payload} onChange={(event) => setPayload(event.target.value)} rows={16} placeholder='{"questions": [], "relationships": []}' className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3 font-mono text-sm" /></label>
+          <label className="block font-bold">Normalized workbook JSON<textarea value={payload} onChange={(event) => setPayload(event.target.value)} rows={16} placeholder='{"questions": [], "relationships": []}' className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3 font-mono text-sm" /></label>
           <div className="mt-5 flex flex-wrap gap-3"><button onClick={validate} className="sm-btn bg-ink px-5 py-3 text-cream">Validate</button><button onClick={publish} disabled={!payload || publishing} className="sm-btn bg-orange px-5 py-3 text-white disabled:opacity-40">{publishing ? "Publishing…" : "Publish live"}</button></div>
           {message && <p className="mt-5 rounded-xl border-2 border-ink bg-moss-soft p-4 font-semibold">{message}</p>}
           {issues.length > 0 && <ul className="mt-5 space-y-2 rounded-xl border-2 border-ink bg-orange-soft p-4 text-sm">{issues.map((issue) => <li key={issue}>{issue}</li>)}</ul>}
