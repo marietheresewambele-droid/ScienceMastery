@@ -23,6 +23,17 @@ type ParseWorkbookResponse = {
   missingSheets: string[];
 };
 
+type CatalogQuestion = {
+  id: string;
+  subject: string;
+  topic_slug: string;
+  subtopic: string;
+  question: string;
+  marks: number;
+  active: boolean;
+  content_version_id: string;
+};
+
 export default function ContentAdminPage() {
   return (
     <RequireAdmin>
@@ -46,26 +57,22 @@ function ContentAdminForm() {
     severity: "error",
   };
 
+  const authorizedFetch = async (input: string, init: RequestInit = {}) => {
+    const { data: sessionData } = await getSupabaseBrowserClient().auth.getSession();
+    const token = sessionData.session?.access_token;
+    if (!token) throw new Error("Your session has expired. Sign in again.");
+    return fetch(input, { ...init, headers: { ...init.headers, Authorization: `Bearer ${token}` } });
+  };
+
   const uploadWorkbook = async (file: File) => {
     setMessage("");
     setIssues([]);
     setUploading(true);
     try {
-      const { data: sessionData } = await getSupabaseBrowserClient().auth.getSession();
-      const token = sessionData.session?.access_token;
-      if (!token) {
-        setMessage("Your session has expired. Sign in again to upload a workbook.");
-        return;
-      }
-
       const formData = new FormData();
       formData.append("file", file);
       formData.append("subject", subject);
-      const response = await fetch("/api/admin/content/parse-workbook", {
-        method: "POST",
-        headers: { Authorization: `Bearer ${token}` },
-        body: formData,
-      });
+      const response = await authorizedFetch("/api/admin/content/parse-workbook", { method: "POST", body: formData });
       const result = await response.json();
 
       if (!response.ok) {
@@ -121,16 +128,9 @@ function ContentAdminForm() {
 
     setPublishing(true);
     try {
-      const { data: sessionData } = await getSupabaseBrowserClient().auth.getSession();
-      const token = sessionData.session?.access_token;
-      if (!token) {
-        setMessage("Your session has expired. Sign in again to publish.");
-        return;
-      }
-
-      const response = await fetch("/api/admin/content/publish", {
+      const response = await authorizedFetch("/api/admin/content/publish", {
         method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ subject, version: version || "draft", questions: parsed.questions ?? [], relationships: parsed.relationships ?? [] }),
       });
       const result = await response.json();
@@ -156,6 +156,72 @@ function ContentAdminForm() {
     } finally {
       setPublishing(false);
     }
+  };
+
+  const [manageTopicSlug, setManageTopicSlug] = useState("");
+  const [manageSearch, setManageSearch] = useState("");
+  const [foundQuestions, setFoundQuestions] = useState<CatalogQuestion[]>([]);
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+  const [searching, setSearching] = useState(false);
+  const [updatingActive, setUpdatingActive] = useState(false);
+  const [manageMessage, setManageMessage] = useState("");
+  const [truncatedResults, setTruncatedResults] = useState(false);
+
+  const searchQuestions = async () => {
+    setManageMessage("");
+    setSearching(true);
+    try {
+      const params = new URLSearchParams({ subject });
+      if (manageTopicSlug.trim()) params.set("topicSlug", manageTopicSlug.trim());
+      if (manageSearch.trim()) params.set("search", manageSearch.trim());
+      const response = await authorizedFetch(`/api/admin/content/questions?${params}`);
+      const result = await response.json();
+      if (!response.ok) {
+        setManageMessage(result.error || "Questions could not be loaded.");
+        return;
+      }
+      setFoundQuestions(result.questions);
+      setTruncatedResults(Boolean(result.truncated));
+      setSelectedIds(new Set());
+      if (!result.questions.length) setManageMessage("No matching questions found.");
+    } catch (error) {
+      setManageMessage(error instanceof Error ? error.message : "Questions could not be loaded.");
+    } finally {
+      setSearching(false);
+    }
+  };
+
+  const setActiveForSelected = async (active: boolean) => {
+    if (!selectedIds.size) return;
+    setManageMessage("");
+    setUpdatingActive(true);
+    try {
+      const response = await authorizedFetch("/api/admin/content/set-active", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ questionIds: [...selectedIds], active }),
+      });
+      const result = await response.json();
+      if (!response.ok) {
+        setManageMessage(result.error || "Content could not be updated.");
+        return;
+      }
+      setManageMessage(`${active ? "Reactivated" : "Retired"} ${result.updated} question(s). Students ${active ? "will see them again" : "will no longer be served these"} on their next session.`);
+      await searchQuestions();
+    } catch (error) {
+      setManageMessage(error instanceof Error ? error.message : "Content could not be updated.");
+    } finally {
+      setUpdatingActive(false);
+    }
+  };
+
+  const toggleSelected = (id: string) => {
+    setSelectedIds((current) => {
+      const next = new Set(current);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
   };
 
   return (
@@ -208,6 +274,52 @@ function ContentAdminForm() {
             <ul className="mt-5 space-y-2 rounded-xl border-2 border-ink bg-yellow-soft p-4 text-sm">
               {issues.filter((issue) => issue.severity === "warning").map((issue, index) => <li key={index}><strong>Warning</strong> — {issue.code}: {issue.message}</li>)}
             </ul>
+          )}
+        </section>
+
+        <section className="sm-panel mt-10 p-6">
+          <h2 className="font-display text-xl font-bold">Manage published questions</h2>
+          <p className="mt-2 text-sm text-ink-soft">
+            Search live {subject} questions to retire or reactivate. Retiring sets a question inactive — it stops being served to students, but any attempt history for it is kept. Nothing here permanently deletes a question.
+          </p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            <label className="font-bold">Topic slug (optional)<input value={manageTopicSlug} onChange={(event) => setManageTopicSlug(event.target.value)} placeholder="cell-biology" className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3 font-normal" /></label>
+            <label className="font-bold">Search (id or question text)<input value={manageSearch} onChange={(event) => setManageSearch(event.target.value)} placeholder="CS08" className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3 font-normal" /></label>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <button onClick={searchQuestions} disabled={searching} className="sm-btn bg-ink px-5 py-3 text-cream disabled:opacity-40">{searching ? "Searching…" : "Search"}</button>
+            <button onClick={() => setActiveForSelected(false)} disabled={!selectedIds.size || updatingActive} className="sm-btn bg-orange px-5 py-3 text-white disabled:opacity-40">{updatingActive ? "Updating…" : `Retire selected (${selectedIds.size})`}</button>
+            <button onClick={() => setActiveForSelected(true)} disabled={!selectedIds.size || updatingActive} className="sm-btn bg-moss px-5 py-3 text-white disabled:opacity-40">{updatingActive ? "Updating…" : `Reactivate selected (${selectedIds.size})`}</button>
+          </div>
+          {manageMessage && <p className="mt-4 rounded-xl border-2 border-ink bg-moss-soft p-4 font-semibold">{manageMessage}</p>}
+          {truncatedResults && <p className="mt-3 text-sm font-semibold text-orange-dark">More than 200 questions matched — narrow your search to see the rest.</p>}
+          {foundQuestions.length > 0 && (
+            <div className="mt-4 overflow-x-auto rounded-xl border-2 border-ink">
+              <table className="w-full min-w-[640px] text-left text-sm">
+                <thead className="bg-card font-bold">
+                  <tr>
+                    <th className="p-3"><span className="sr-only">Select</span></th>
+                    <th className="p-3">ID</th>
+                    <th className="p-3">Topic</th>
+                    <th className="p-3">Question</th>
+                    <th className="p-3">Marks</th>
+                    <th className="p-3">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {foundQuestions.map((question) => (
+                    <tr key={question.id} className="border-t-2 border-ink">
+                      <td className="p-3"><input type="checkbox" checked={selectedIds.has(question.id)} onChange={() => toggleSelected(question.id)} className="h-4 w-4 accent-[color:var(--color-orange)]" /></td>
+                      <td className="p-3 font-mono text-xs">{question.id}</td>
+                      <td className="p-3">{question.topic_slug}</td>
+                      <td className="max-w-xs truncate p-3" title={question.question}>{question.question}</td>
+                      <td className="p-3">{question.marks}</td>
+                      <td className="p-3">{question.active ? <span className="font-bold text-moss-dark">Active</span> : <span className="font-bold text-orange-dark">Retired</span>}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           )}
         </section>
       </div>
