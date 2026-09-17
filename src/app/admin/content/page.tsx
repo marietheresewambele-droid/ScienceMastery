@@ -4,7 +4,7 @@ import { useState } from "react";
 import { prepareContentImport } from "@/lib/contentImports";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 import type { MasteryQuestion } from "@/types/questions";
-import type { WorkbookRelationship } from "@/lib/contentValidation";
+import { hasBlockingIssues, type ValidationIssue, type WorkbookRelationship } from "@/lib/contentValidation";
 import RequireAdmin from "@/components/admin/RequireAdmin";
 
 type PublishResponse = {
@@ -13,6 +13,7 @@ type PublishResponse = {
   publishedHints: number;
   publishedRelationships: number;
   skippedRelationships: string[];
+  warnings: ValidationIssue[];
 };
 
 type ParseWorkbookResponse = {
@@ -35,9 +36,15 @@ function ContentAdminForm() {
   const [version, setVersion] = useState("");
   const [payload, setPayload] = useState("");
   const [message, setMessage] = useState("");
-  const [issues, setIssues] = useState<string[]>([]);
+  const [issues, setIssues] = useState<ValidationIssue[]>([]);
   const [publishing, setPublishing] = useState(false);
   const [uploading, setUploading] = useState(false);
+
+  const invalidJsonIssue: ValidationIssue = {
+    code: "INVALID_JSON",
+    message: "Upload or paste a normalized workbook export containing questions and relationships.",
+    severity: "error",
+  };
 
   const uploadWorkbook = async (file: File) => {
     setMessage("");
@@ -86,10 +93,11 @@ function ContentAdminForm() {
     try {
       const parsed = JSON.parse(payload) as { questions?: MasteryQuestion[]; relationships?: WorkbookRelationship[] };
       const contentImport = prepareContentImport(subject, version || "draft", parsed.questions ?? [], parsed.relationships ?? []);
-      setIssues(contentImport.issues.map((issue) => `${issue.code}: ${issue.message}`));
+      setIssues(contentImport.issues);
       if (contentImport.issues.length === 0) setMessage("Workbook content is valid and ready to publish.");
+      else if (!hasBlockingIssues(contentImport.issues)) setMessage(`Ready to publish, with ${contentImport.issues.length} warning(s) below worth reviewing.`);
     } catch {
-      setIssues(["INVALID_JSON: Upload or paste a normalized workbook export containing questions and relationships."]);
+      setIssues([invalidJsonIssue]);
     }
   };
 
@@ -101,13 +109,13 @@ function ContentAdminForm() {
     try {
       parsed = JSON.parse(payload);
     } catch {
-      setIssues(["INVALID_JSON: Upload or paste a normalized workbook export containing questions and relationships."]);
+      setIssues([invalidJsonIssue]);
       return;
     }
 
     const contentImport = prepareContentImport(subject, version || "draft", parsed.questions ?? [], parsed.relationships ?? []);
-    if (contentImport.issues.length > 0) {
-      setIssues(contentImport.issues.map((issue) => `${issue.code}: ${issue.message}`));
+    if (hasBlockingIssues(contentImport.issues)) {
+      setIssues(contentImport.issues);
       return;
     }
 
@@ -128,15 +136,17 @@ function ContentAdminForm() {
       const result = await response.json();
 
       if (!response.ok) {
-        if (Array.isArray(result.issues)) setIssues(result.issues.map((issue: { code: string; message: string }) => `${issue.code}: ${issue.message}`));
+        if (Array.isArray(result.issues)) setIssues(result.issues as ValidationIssue[]);
         setMessage(result.error || "Content could not be published.");
         return;
       }
 
       const published = result as PublishResponse;
+      setIssues(published.warnings ?? []);
       setMessage(
         `Published ${published.publishedQuestions} question(s) to ${published.contentVersionId} ` +
           `(${published.publishedHints} hint set(s), ${published.publishedRelationships} relationship(s)).` +
+          (published.warnings?.length ? ` ${published.warnings.length} warning(s) below worth reviewing.` : "") +
           (published.skippedRelationships.length
             ? ` Skipped unsupported relationship types: ${published.skippedRelationships.join(", ")}.`
             : ""),
@@ -189,7 +199,16 @@ function ContentAdminForm() {
           <label className="block font-bold">Normalized workbook JSON<textarea value={payload} onChange={(event) => setPayload(event.target.value)} rows={16} placeholder='{"questions": [], "relationships": []}' className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3 font-mono text-sm" /></label>
           <div className="mt-5 flex flex-wrap gap-3"><button onClick={validate} className="sm-btn bg-ink px-5 py-3 text-cream">Validate</button><button onClick={publish} disabled={!payload || publishing} className="sm-btn bg-orange px-5 py-3 text-white disabled:opacity-40">{publishing ? "Publishing…" : "Publish live"}</button></div>
           {message && <p className="mt-5 rounded-xl border-2 border-ink bg-moss-soft p-4 font-semibold">{message}</p>}
-          {issues.length > 0 && <ul className="mt-5 space-y-2 rounded-xl border-2 border-ink bg-orange-soft p-4 text-sm">{issues.map((issue, index) => <li key={index}>{issue}</li>)}</ul>}
+          {issues.some((issue) => issue.severity === "error") && (
+            <ul className="mt-5 space-y-2 rounded-xl border-2 border-ink bg-orange-soft p-4 text-sm">
+              {issues.filter((issue) => issue.severity === "error").map((issue, index) => <li key={index}><strong>Error</strong> — {issue.code}: {issue.message}</li>)}
+            </ul>
+          )}
+          {issues.some((issue) => issue.severity === "warning") && (
+            <ul className="mt-5 space-y-2 rounded-xl border-2 border-ink bg-yellow-soft p-4 text-sm">
+              {issues.filter((issue) => issue.severity === "warning").map((issue, index) => <li key={index}><strong>Warning</strong> — {issue.code}: {issue.message}</li>)}
+            </ul>
+          )}
         </section>
       </div>
     </main>
