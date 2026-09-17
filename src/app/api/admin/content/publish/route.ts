@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { getSupabaseAdminClient } from "@/lib/supabase-admin";
 import { isAdminEmail } from "@/lib/adminAccess";
-import { validateQuestionWorkbook, type WorkbookRelationship } from "@/lib/contentValidation";
+import { validateQuestionWorkbook, hasBlockingIssues, type WorkbookRelationship } from "@/lib/contentValidation";
 import { getAdaptiveHints } from "@/lib/adaptive-engine";
 import type { MasteryQuestion } from "@/types/questions";
 
@@ -61,7 +61,8 @@ async function handlePublish(request: Request) {
   if (!questions.length) return NextResponse.json({ error: "At least one question is required." }, { status: 400 });
 
   const issues = validateQuestionWorkbook(questions, relationships);
-  if (issues.length) return NextResponse.json({ error: "Content failed validation.", issues }, { status: 422 });
+  if (hasBlockingIssues(issues)) return NextResponse.json({ error: "Content failed validation.", issues }, { status: 422 });
+  const warnings = issues.filter((issue) => issue.severity === "warning");
 
   const prefix = SUBJECT_PREFIX[subject];
   const contentVersionId = `${prefix}-${version.trim()}`;
@@ -141,5 +142,6 @@ async function handlePublish(request: Request) {
     publishedHints: hintRows.length,
     publishedRelationships: relationshipRows.length,
     skippedRelationships,
+    warnings,
   });
 }
