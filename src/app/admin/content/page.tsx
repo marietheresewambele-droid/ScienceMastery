@@ -189,7 +189,7 @@ function ContentAdminForm() {
           <label className="block font-bold">Normalized workbook JSON<textarea value={payload} onChange={(event) => setPayload(event.target.value)} rows={16} placeholder='{"questions": [], "relationships": []}' className="mt-1 block w-full rounded-xl border-2 border-ink bg-card p-3 font-mono text-sm" /></label>
           <div className="mt-5 flex flex-wrap gap-3"><button onClick={validate} className="sm-btn bg-ink px-5 py-3 text-cream">Validate</button><button onClick={publish} disabled={!payload || publishing} className="sm-btn bg-orange px-5 py-3 text-white disabled:opacity-40">{publishing ? "Publishing…" : "Publish live"}</button></div>
           {message && <p className="mt-5 rounded-xl border-2 border-ink bg-moss-soft p-4 font-semibold">{message}</p>}
-          {issues.length > 0 && <ul className="mt-5 space-y-2 rounded-xl border-2 border-ink bg-orange-soft p-4 text-sm">{issues.map((issue) => <li key={issue}>{issue}</li>)}</ul>}
+          {issues.length > 0 && <ul className="mt-5 space-y-2 rounded-xl border-2 border-ink bg-orange-soft p-4 text-sm">{issues.map((issue, index) => <li key={index}>{issue}</li>)}</ul>}
         </section>
       </div>
     </main>
