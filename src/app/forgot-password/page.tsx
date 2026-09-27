@@ -23,12 +23,12 @@ export default function ForgotPasswordPage() {
     setSent(true);
   }
 
-  if (sent) return <AuthLayout eyebrow="Recovery email sent" title="Check your email" description={`If an account exists for ${email}, we have sent a secure password-reset link.`}>
-    <div className="rounded-2xl border-2 border-ink bg-moss-soft p-5 text-sm leading-6 text-moss-dark">For your security, the link can only be used once. Check your spam or junk folder if it does not arrive.</div>
+  if (sent) return <AuthLayout eyebrow="Recovery email sent" title="Check your email" description={`If an account exists for ${email}, Supabase has sent a secure password-reset email.`}>
+    <div className="rounded-2xl border-2 border-ink bg-moss-soft p-5 text-sm leading-6 text-moss-dark">Open the link in the email to choose a new password. For your security, the link can only be used once. Check your spam or junk folder if it does not arrive.</div>
     <Link className={`${primaryButtonClass} mt-6 block text-center`} href="/login">Return to sign in</Link>
   </AuthLayout>;
 
-  return <AuthLayout eyebrow="Account recovery" title="Forgot your password?" description="Enter the email address linked to your account and we will send you a secure reset link.">
+  return <AuthLayout eyebrow="Account recovery" title="Forgot your password?" description="Enter the email address linked to your account. You will receive a secure password-reset email from Supabase.">
     <form className="space-y-5" onSubmit={submit}>
       <label className="block text-sm font-bold">Email address<input className={fieldClass} type="email" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="email" placeholder="you@example.com" required /></label>
       {error && <p className={errorClass} role="alert">{error}</p>}
