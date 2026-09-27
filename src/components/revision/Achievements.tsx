@@ -3,7 +3,6 @@
 /* Client-only localStorage hydration is intentionally performed after mount. */
 /* eslint-disable react-hooks/set-state-in-effect */
 import { useEffect, useMemo, useState } from "react";
-import { challengeRegistry } from "@/data/challenges/registry";
 import { getPracticalQuestions, practicalRegistry } from "@/data/practicals/registry";
 
 interface DashboardTopic {
@@ -42,20 +41,7 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
 
   const workStats = useMemo(() => {
     if (!ready) {
-      return { challengesStarted: 0, challengesPerfect: 0, practicalsStarted: 0, practicalsPerfect: 0 };
-    }
-
-    let challengesStarted = 0;
-    let challengesPerfect = 0;
-    for (const challenge of challengeRegistry) {
-      try {
-        const stored = localStorage.getItem(`challenge_${challenge.id}_best`);
-        if (!stored) continue;
-        challengesStarted += 1;
-        if (Number(stored) >= challenge.possibleConnections) challengesPerfect += 1;
-      } catch {
-        /* localStorage unavailable */
-      }
+      return { practicalsStarted: 0, practicalsPerfect: 0 };
     }
 
     let practicalsStarted = 0;
@@ -72,7 +58,7 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
       }
     }
 
-    return { challengesStarted, challengesPerfect, practicalsStarted, practicalsPerfect };
+    return { practicalsStarted, practicalsPerfect };
   }, [ready]);
 
   const topicChampion = topics.some((t) => t.total > 0 && t.percent >= 100);
@@ -145,22 +131,6 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
       colour: "yellow",
     },
     {
-      id: "challenge-accepted",
-      badge: "C",
-      title: "Challenge Accepted",
-      description: "Complete a Challenge Me scenario.",
-      unlocked: workStats.challengesStarted >= 1,
-      colour: "teal",
-    },
-    {
-      id: "challenge-master",
-      badge: "C+",
-      title: "Challenge Master",
-      description: "Make every connection in a Challenge Me.",
-      unlocked: workStats.challengesPerfect >= 1,
-      colour: "teal",
-    },
-    {
       id: "lab-ready",
       badge: "P",
       title: "Lab Ready",
@@ -196,7 +166,7 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
         </span>
       </div>
       <p className="mt-2 text-sm text-ink-soft">
-        Badges unlock automatically as you complete practice questions, Challenge Me scenarios and required practicals.
+        Badges unlock automatically as you complete practice questions and required practicals.
       </p>
 
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
