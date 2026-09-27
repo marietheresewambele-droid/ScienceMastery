@@ -21,11 +21,13 @@ export default function SignUpPage() {
   const [showPassword, setShowPassword] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  const [existingAccount, setExistingAccount] = useState(false);
   const [sent, setSent] = useState(false);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError("");
+    setExistingAccount(false);
     const problem = passwordError(password);
     if (problem) return setError(problem);
     if (password !== confirmPassword) return setError("The passwords do not match.");
@@ -43,6 +45,12 @@ export default function SignUpPage() {
       });
 
       if (signUpError) return setError(signUpError.message);
+      // With email confirmation enabled, Supabase may return a user with no
+      // identities rather than an error when the email is already registered.
+      if (data.user?.identities?.length === 0) {
+        setExistingAccount(true);
+        return setError("An account already exists for this email address.");
+      }
       if (data.session) router.replace("/dashboard");
       else setSent(true);
     } catch (caught) {
@@ -85,6 +93,7 @@ export default function SignUpPage() {
       <label className="block text-sm font-bold">Password<div className="relative"><input className={`${fieldClass} pr-16`} type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="new-password" placeholder="At least 8 characters" minLength={8} required /><button className="absolute right-4 top-[1.3rem] text-xs font-black text-orange-dark" type="button" onClick={() => setShowPassword((shown) => !shown)}>{showPassword ? "Hide" : "Show"}</button></div></label>
       <label className="block text-sm font-bold">Confirm password<input className={fieldClass} type={showPassword ? "text" : "password"} value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} autoComplete="new-password" placeholder="Type your password again" required /></label>
       {error && <p className={errorClass} role="alert">{error}</p>}
+      {existingAccount && <p className="rounded-2xl border-2 border-ink bg-cream-soft p-4 text-sm leading-6">Already registered? <Link className="font-extrabold text-orange-dark" href="/login">Sign in</Link> or <Link className="font-extrabold text-orange-dark" href="/forgot-password">reset your password</Link>.</p>}
       <button className={primaryButtonClass} disabled={busy} type="submit">{busy ? "Creating account…" : "Create free account"}</button>
     </form>
     <p className="mt-6 text-center text-sm text-ink-soft">Already have an account? <Link className="font-extrabold text-orange-dark" href="/login">Sign in</Link></p>
