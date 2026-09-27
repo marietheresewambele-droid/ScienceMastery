@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { AuthLayout, errorClass, fieldClass, primaryButtonClass } from "@/components/auth/AuthLayout";
+import { readableAuthEmailError } from "@/lib/auth-error";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
 const PASSWORD_RESET_URL = "https://www.brainsoma.com/reset-password?recovery=1";
@@ -21,7 +22,7 @@ export default function ForgotPasswordPage() {
       redirectTo: PASSWORD_RESET_URL,
     });
     setBusy(false);
-    if (resetError) return setError(resetError.message);
+    if (resetError) return setError(readableAuthEmailError(resetError.message));
     setSent(true);
   }
 
