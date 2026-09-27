@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import SubtopicGrid from "@/components/topic/SubtopicGrid";
 import TopicHeader from "@/components/topic/TopicHeader";
-import { challengeRegistry } from "@/data/challenges/registry";
 import { practicalRegistry } from "@/data/practicals/registry";
 import type { BiologyTopicConfig } from "@/types/questions";
 
@@ -66,7 +65,6 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
     subtopics: config.subtopics.map((subtopic) => subtopic.title),
   };
 
-  const challenge = challengeRegistry.find((entry) => entry.topicRoute === config.route);
   const topicPracticals = practicalRegistry.filter((entry) => entry.topicRoute === config.route);
 
   return (
@@ -178,7 +176,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
           <p className="-mt-2 mb-5 max-w-2xl text-sm leading-6 text-cream/70">
             Choose a subtopic above for focused practice, or review the complete topic here.
           </p>
-          <div className={`grid gap-4 sm:grid-cols-3${challenge || topicPracticals.length ? " lg:grid-cols-4" : ""}`}>
+          <div className={`grid gap-4 sm:grid-cols-3${topicPracticals.length ? " lg:grid-cols-4" : ""}`}>
             <Link href={`/practice?mode=exam&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
               <div className="flex h-11 w-11 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display font-bold text-ink">E</div>
               <h3 className="mt-3 font-display text-lg font-semibold text-ink">Exam Mode</h3>
@@ -206,17 +204,6 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
               </p>
               <span className="mt-3 text-sm font-bold text-orange-dark">Review bookmarks →</span>
             </Link>
-
-            {challenge && (
-              <Link href={`/challenge-me/${challenge.id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display font-bold text-ink">C</div>
-                <h3 className="mt-3 font-display text-lg font-semibold text-ink">Challenge Me</h3>
-                <p className="mt-2 text-sm leading-6 text-ink-soft">
-                  Connect this whole topic to explain one real scenario, then reveal the connection map.
-                </p>
-                <span className="mt-3 text-sm font-bold text-orange-dark">Start the challenge →</span>
-              </Link>
-            )}
 
             {topicPracticals.length > 0 && (
               <Link href={`/practical-mode/${topicPracticals[0].id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
