@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { AuthLayout, errorClass, fieldClass, primaryButtonClass } from "@/components/auth/AuthLayout";
+import { readableAuthEmailError } from "@/lib/auth-error";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
 function passwordError(password: string) {
@@ -44,7 +45,7 @@ export default function SignUpPage() {
         },
       });
 
-      if (signUpError) return setError(signUpError.message);
+      if (signUpError) return setError(readableAuthEmailError(signUpError.message));
       // With email confirmation enabled, Supabase may return a user with no
       // identities rather than an error when the email is already registered.
       if (data.user?.identities?.length === 0) {
@@ -69,7 +70,7 @@ export default function SignUpPage() {
         email: email.trim(),
         options: { emailRedirectTo: `${window.location.origin}/auth/verified` },
       });
-      if (resendError) setError(resendError.message);
+      if (resendError) setError(readableAuthEmailError(resendError.message));
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "We could not resend the verification email.");
     } finally {
