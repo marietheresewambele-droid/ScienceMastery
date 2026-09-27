@@ -5,6 +5,8 @@ import { FormEvent, useState } from "react";
 import { AuthLayout, errorClass, fieldClass, primaryButtonClass } from "@/components/auth/AuthLayout";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
+const PASSWORD_RESET_URL = "https://www.brainsoma.com/reset-password?recovery=1";
+
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
   const [busy, setBusy] = useState(false);
@@ -16,7 +18,7 @@ export default function ForgotPasswordPage() {
     setBusy(true);
     setError("");
     const { error: resetError } = await getSupabaseBrowserClient().auth.resetPasswordForEmail(email.trim(), {
-      redirectTo: `${window.location.origin}/reset-password?recovery=1`,
+      redirectTo: PASSWORD_RESET_URL,
     });
     setBusy(false);
     if (resetError) return setError(resetError.message);
