@@ -173,7 +173,13 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
           <p className="-mt-2 mb-5 max-w-2xl text-sm leading-6 text-cream/70">
             Choose a subtopic above for focused practice, or review the complete topic here.
           </p>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <Link href={`/practice?mode=flashcards&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display font-bold text-ink">P</div>
+              <h3 className="mt-3 font-display text-lg font-semibold text-ink">Practice Mode</h3>
+              <p className="mt-2 text-sm leading-6 text-ink-soft">Start flashcards across all subtopics in this topic.</p>
+              <span className="mt-3 text-sm font-bold text-orange-dark">Start practice flashcards →</span>
+            </Link>
             <Link href={`/practice?mode=exam&subject=${subject}&topic=${config.id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
               <div className="flex h-11 w-11 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display font-bold text-ink">E</div>
               <h3 className="mt-3 font-display text-lg font-semibold text-ink">Exam Mode</h3>

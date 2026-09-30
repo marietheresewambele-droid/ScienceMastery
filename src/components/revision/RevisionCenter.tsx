@@ -34,6 +34,12 @@ const labels: Record<Mode, string> = {
   due: "Due for Review",
 };
 
+function assessmentObjectiveRank(assessmentObjective: string) {
+  if (assessmentObjective.includes("AO1")) return 1;
+  if (assessmentObjective.includes("AO2")) return 2;
+  return 3;
+}
+
 export default function RevisionCenter({
   initialMode = "mixed",
   initialSubject,
@@ -150,10 +156,13 @@ export default function RevisionCenter({
   );
 
   const start = useCallback(() => {
-    const next =
-      mode === "adaptive" || order === "weakest"
-        ? [...candidates].sort((a, b) => b.priority - a.priority)
-        : [...candidates].sort(() => Math.random() - 0.5);
+    const next = [...candidates].sort((left, right) => {
+      const objectiveOrder = assessmentObjectiveRank(left.question.assessmentObjective)
+        - assessmentObjectiveRank(right.question.assessmentObjective);
+      if (objectiveOrder !== 0) return objectiveOrder;
+      if (mode === "adaptive" || order === "weakest") return right.priority - left.priority;
+      return Math.random() - 0.5;
+    });
     setSession(next.slice(0, count));
     setIndex(0);
     setFlipped(false);
@@ -224,7 +233,9 @@ export default function RevisionCenter({
   }, [session, index, flipped, rate, hintLevel]);
 
   const current = session[index];
-  const showPicker = !session.length && (!skipSetup || (ready && candidates.length === 0));
+  const loadingScopedQuestions = skipSetup && ready && mode !== "adaptive" && publishedQuestions === null && !publishedError;
+  const loadingScopedAdaptiveQuestions = skipSetup && ready && mode === "adaptive" && adaptiveQuestions === null && !adaptiveError;
+  const showPicker = !session.length && (!skipSetup || (ready && candidates.length === 0 && (mode === "adaptive" ? adaptiveQuestions !== null || Boolean(adaptiveError) : publishedQuestions !== null || Boolean(publishedError))));
 
   return (
     <main className="min-h-screen bg-cream text-ink">
@@ -241,7 +252,7 @@ export default function RevisionCenter({
           <>
             <p className="text-sm font-bold uppercase tracking-widest text-orange-dark">Revision centre</p>
             <h1 className="mt-2 font-display text-4xl font-bold">{labels[mode]}</h1>
-            <div className="mt-6 flex flex-wrap gap-2">
+            {!skipSetup && <div className="mt-6 flex flex-wrap gap-2">
               {(Object.keys(labels) as Mode[]).map((nextMode) => (
                 <button
                   key={nextMode}
@@ -251,8 +262,15 @@ export default function RevisionCenter({
                   {labels[nextMode]}
                 </button>
               ))}
-            </div>
+            </div>}
           </>
+        )}
+
+        {(loadingScopedQuestions || loadingScopedAdaptiveQuestions) && !session.length && (
+          <section className="sm-panel mt-8 p-6" aria-live="polite">
+            <p className="font-display text-lg font-semibold">Loading questions…</p>
+            <p className="mt-2 text-sm text-ink-soft">Your flashcards will start as soon as the published questions are ready.</p>
+          </section>
         )}
 
         {showPicker && (
@@ -398,6 +416,9 @@ export default function RevisionCenter({
               bookmarked={current.bookmarked}
               onToggleBookmark={() => {
                 toggleBookmark(current.topic, current.question.id);
+                setSession((items) => items.map((item, itemIndex) =>
+                  itemIndex === index ? { ...item, bookmarked: !item.bookmarked } : item,
+                ));
                 setVersion((value) => value + 1);
               }}
               hintLevel={hintLevel}

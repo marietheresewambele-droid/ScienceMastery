@@ -78,7 +78,10 @@ export default function Flashcard({
           style={{ backfaceVisibility: "hidden" }}
         >
           <div className="flex items-start justify-between gap-4">
-            <p className="text-xs font-bold uppercase tracking-widest text-orange-dark">Question</p>
+            <div className="flex flex-wrap items-center gap-2">
+              <p className="text-xs font-bold uppercase tracking-widest text-orange-dark">Question</p>
+              {bookmarked && <span className="rounded-md border-2 border-ink bg-yellow-soft px-2 py-0.5 text-xs font-bold text-ink">Bookmarked</span>}
+            </div>
             <div className="flex shrink-0 gap-2">
               <button
                 type="button"
@@ -167,7 +170,10 @@ export default function Flashcard({
           style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
         >
           <div className="flex items-start justify-between gap-4">
-            <p className="text-xs font-bold uppercase tracking-widest text-orange-dark">Answer &amp; marking points</p>
+            <div className="flex flex-wrap items-center gap-2">
+              <p className="text-xs font-bold uppercase tracking-widest text-orange-dark">Answer &amp; marking points</p>
+              {bookmarked && <span className="rounded-md border-2 border-ink bg-yellow-soft px-2 py-0.5 text-xs font-bold text-ink">Bookmarked</span>}
+            </div>
             <button
               type="button"
               aria-label={bookmarked ? "Remove bookmark" : "Bookmark this question"}
