@@ -99,7 +99,6 @@ export default function Dashboard() {
             <Link href="/#subjects" className="hover:text-orange-dark">Subjects</Link>
             <Link href="/#features" className="hover:text-orange-dark">Features</Link>
             <Link href="/#how" className="hover:text-orange-dark">How it works</Link>
-            <Link href="/practical-mode" className="hover:text-orange-dark">Practical Lab</Link>
             <Link href="/practice" className="text-orange-dark">Revision centre</Link>
           </nav>
         </div>

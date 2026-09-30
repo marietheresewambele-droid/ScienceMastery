@@ -9,6 +9,7 @@ import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
 import { nextAdaptiveQuestion } from "@/lib/adaptive-engine";
 import { recordAdaptiveAttempt } from "@/lib/adaptive-progress";
 import { loadAdaptiveCatalog } from "@/lib/adaptive-catalog";
+import { loadPublishedQuestions } from "@/lib/publishedQuestions";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard from "@/components/flashcard/Flashcard";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
@@ -65,6 +66,8 @@ export default function RevisionCenter({
   const [startedAt, setStartedAt] = useState(Date.now());
   const [adaptiveQuestions, setAdaptiveQuestions] = useState<MasteryQuestion[] | null>(null);
   const [adaptiveError, setAdaptiveError] = useState("");
+  const [publishedQuestions, setPublishedQuestions] = useState<MasteryQuestion[] | null>(null);
+  const [publishedError, setPublishedError] = useState("");
 
   const autoStarted = useRef(false);
   const homeHref = useHomeHref();
@@ -82,17 +85,33 @@ export default function RevisionCenter({
     return () => { cancelled = true; };
   }, [ready, mode, subjects]);
 
+  // Every non-adaptive mode (mixed, flashcards, exam, bookmarks, due) now sources its
+  // question bank from the published `questions` table instead of local hard-coded arrays.
+  useEffect(() => {
+    if (!ready || mode === "adaptive") return;
+    let cancelled = false;
+    setPublishedError("");
+    loadPublishedQuestions(["biology", "chemistry", "physics"]).then(({ questions, error }) => {
+      if (cancelled) return;
+      if (error) setPublishedError(error);
+      else setPublishedQuestions(questions);
+    });
+    return () => { cancelled = true; };
+  }, [ready, mode]);
+
   const isExam = mode === "exam";
 
 
   const all = useMemo(() => {
-    if (!ready || (mode === "adaptive" && !adaptiveQuestions)) return [];
+    if (!ready) return [];
+    if (mode === "adaptive" && !adaptiveQuestions) return [];
+    if (mode !== "adaptive" && !publishedQuestions) return [];
     const now = Date.now();
     return topicRegistry.flatMap((topic) => {
       const progress = readProgress(topic);
       const questions = mode === "adaptive"
         ? (adaptiveQuestions || []).filter((question) => question.subject === topic.subject && question.topicSlug === topic.id)
-        : topic.questions;
+        : (publishedQuestions || []).filter((question) => question.subject === topic.subject && question.topicSlug === topic.id);
       return questions.map((question) => {
         const review = progress.reviews[question.id];
           return {
@@ -107,7 +126,7 @@ export default function RevisionCenter({
         };
       });
     });
-  }, [ready, version, mode, adaptiveQuestions]);
+  }, [ready, version, mode, adaptiveQuestions, publishedQuestions]);
 
   const selectedItems = useMemo(
     () =>
@@ -162,7 +181,10 @@ export default function RevisionCenter({
         responseTimeMs: Date.now() - startedAt,
       });
       if (mode === "adaptive") {
-        const next = nextAdaptiveQuestion(item.question, item.topic.questions, { rating, hintsUsed, answerRevealed: isExam || flipped });
+        const topicQuestions = (adaptiveQuestions || []).filter(
+          (question) => question.subject === item.topic.subject && question.topicSlug === item.topic.id,
+        );
+        const next = nextAdaptiveQuestion(item.question, topicQuestions, { rating, hintsUsed, answerRevealed: isExam || flipped });
         if (next) {
           const nextItem = all.find((candidate) => candidate.topic.id === item.topic.id && candidate.question.id === next.id);
           if (nextItem && !session.slice(index + 1).some((candidate) => candidate.key === nextItem.key)) {
@@ -177,7 +199,7 @@ export default function RevisionCenter({
       setIndex((value) => Math.min(value + 1, session.length));
       setStartedAt(Date.now());
     },
-    [session, index, isExam, flipped, mode, all, startedAt],
+    [session, index, isExam, flipped, mode, all, adaptiveQuestions, startedAt],
 
   );
 
@@ -331,6 +353,11 @@ export default function RevisionCenter({
             <p className="mt-5 text-sm text-ink-soft">{candidates.length} questions match.</p>
             {mode === "adaptive" && !adaptiveQuestions && !adaptiveError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the approved adaptive question map…</p>}
             {adaptiveError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{adaptiveError}</p>}
+            {mode !== "adaptive" && !publishedQuestions && !publishedError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading published questions…</p>}
+            {publishedError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{publishedError}</p>}
+            {mode !== "adaptive" && publishedQuestions && publishedQuestions.length === 0 && !publishedError && (
+              <p className="mt-3 rounded-xl border-2 border-ink bg-cream-soft p-3 text-sm font-semibold text-ink-soft">No published questions are available yet. Check back soon.</p>
+            )}
             <button onClick={start} disabled={!candidates.length} className="sm-btn mt-4 bg-orange px-6 py-3 text-white disabled:opacity-40">
               {isExam ? "Start exam" : "Start session"}
             </button>

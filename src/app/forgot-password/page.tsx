@@ -6,7 +6,7 @@ import { AuthLayout, errorClass, fieldClass, primaryButtonClass } from "@/compon
 import { readableAuthEmailError } from "@/lib/auth-error";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
-const PASSWORD_RESET_URL = "https://www.brainsoma.com/reset-password?recovery=1";
+const PASSWORD_RESET_URL = "https://www.brainsoma.com/reset-password";
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");

@@ -1,10 +1,5 @@
 "use client";
 
-/* Client-only localStorage hydration is intentionally performed after mount. */
-/* eslint-disable react-hooks/set-state-in-effect */
-import { useEffect, useMemo, useState } from "react";
-import { getPracticalQuestions, practicalRegistry } from "@/data/practicals/registry";
-
 interface DashboardTopic {
   topic: { title: string };
   completed: number;
@@ -32,35 +27,10 @@ interface Achievement {
   title: string;
   description: string;
   unlocked: boolean;
-  colour: "orange" | "moss" | "teal" | "yellow";
+  colour: "orange" | "moss" | "yellow";
 }
 
 export default function Achievements({ completed, total, bookmarks, subjects, topics }: AchievementsProps) {
-  const [ready, setReady] = useState(false);
-  useEffect(() => setReady(true), []);
-
-  const workStats = useMemo(() => {
-    if (!ready) {
-      return { practicalsStarted: 0, practicalsPerfect: 0 };
-    }
-
-    let practicalsStarted = 0;
-    let practicalsPerfect = 0;
-    for (const practical of practicalRegistry) {
-      try {
-        const stored = localStorage.getItem(`practical_${practical.id}_best`);
-        if (!stored) continue;
-        practicalsStarted += 1;
-        const totalQuestions = getPracticalQuestions(practical.id).length;
-        if (totalQuestions > 0 && Number(stored) >= totalQuestions) practicalsPerfect += 1;
-      } catch {
-        /* localStorage unavailable */
-      }
-    }
-
-    return { practicalsStarted, practicalsPerfect };
-  }, [ready]);
-
   const topicChampion = topics.some((t) => t.total > 0 && t.percent >= 100);
   const subjectSpecialist = subjects.some((s) => s.total > 0 && s.completed >= s.total);
   const allRounder = subjects.every((s) => s.completed > 0);
@@ -130,22 +100,6 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
       unlocked: bookmarks >= 10,
       colour: "yellow",
     },
-    {
-      id: "lab-ready",
-      badge: "P",
-      title: "Lab Ready",
-      description: "Complete a required practical.",
-      unlocked: workStats.practicalsStarted >= 1,
-      colour: "teal",
-    },
-    {
-      id: "practical-pro",
-      badge: "P+",
-      title: "Practical Pro",
-      description: "Score full marks on a required practical.",
-      unlocked: workStats.practicalsPerfect >= 1,
-      colour: "teal",
-    },
   ];
 
   const unlockedCount = achievements.filter((a) => a.unlocked).length;
@@ -153,7 +107,6 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
   const colourClasses: Record<Achievement["colour"], string> = {
     orange: "bg-orange text-white",
     moss: "bg-moss text-white",
-    teal: "bg-teal text-white",
     yellow: "bg-yellow text-ink",
   };
 
@@ -166,7 +119,7 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
         </span>
       </div>
       <p className="mt-2 text-sm text-ink-soft">
-        Badges unlock automatically as you complete practice questions and required practicals.
+        Badges unlock automatically as you complete practice questions.
       </p>
 
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">

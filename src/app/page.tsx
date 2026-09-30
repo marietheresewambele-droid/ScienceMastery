@@ -34,7 +34,6 @@ export default function Home() {
           <a href="#subjects" className="hover:text-orange">Subjects</a>
           <a href="#features" className="hover:text-orange">Features</a>
           <a href="#how" className="hover:text-orange">How it works</a>
-          <Link href="/practical-mode" className="hover:text-orange">Practical Lab</Link>
         </nav>
         <div className="flex items-center gap-2">
           <Link href="/login" className="hidden rounded-xl px-3 py-2.5 text-sm font-bold text-ink-soft hover:text-orange sm:block">Sign in</Link>
@@ -90,7 +89,6 @@ export default function Home() {
         ["Mix","Targeted practice","Combine subjects, topics, tiers and assessment objectives.","/practice?mode=mixed"],
         ["Review","Spaced review","Clear questions due today in one cross-science queue.","/practice?mode=due"],
         ["Save","Bookmarking","Save difficult questions and revisit them whenever needed.","/practice?mode=bookmarks"],
-        ["Lab","Practical Lab Mode","Run every AQA required practical and its commonly asked questions.","/practical-mode"],
         ["Track","Progress tracking","See completion, weak topics and your recommended next step.","/dashboard"]
       ].map(([value,title,copy,route])=><Link href={route} key={title} className="sm-panel-sm block p-6 transition hover:-translate-y-1"><p className="font-display text-xl font-bold text-orange-dark">{value}</p><h3 className="mt-3 font-display text-lg font-semibold">{title}</h3><p className="mt-2 text-sm leading-6 text-ink-soft">{copy}</p><span className="mt-4 inline-block text-sm font-bold text-orange-dark">Open →</span></Link>)}</div>
     </div></section>

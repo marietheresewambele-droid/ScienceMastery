@@ -4,6 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "BrainSoma",
   description: "Free AQA GCSE Science mastery practice",
+  icons: {
+    icon: "/brainsoma-logo.png",
+    shortcut: "/brainsoma-logo.png",
+    apple: "/brainsoma-logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
