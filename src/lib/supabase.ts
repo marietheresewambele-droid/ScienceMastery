@@ -7,11 +7,18 @@ const FALLBACK_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_cxjLJWax1E8yY1ADTRb-Wg
 
 export function getSupabaseBrowserClient() {
   if (!browserClient) {
+    const configuredUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
+    const configuredKey =
+      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY?.trim();
+
     const supabaseUrl =
-      process.env.NEXT_PUBLIC_SUPABASE_URL ?? FALLBACK_SUPABASE_URL;
+      configuredUrl && /^https:\/\/[^\s]+\.supabase\.co\/?$/.test(configuredUrl)
+        ? configuredUrl
+        : FALLBACK_SUPABASE_URL;
     const publishableKey =
-      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
-      FALLBACK_SUPABASE_PUBLISHABLE_KEY;
+      configuredKey?.startsWith("sb_publishable_")
+        ? configuredKey
+        : FALLBACK_SUPABASE_PUBLISHABLE_KEY;
 
     browserClient = createClient(supabaseUrl, publishableKey, {
       auth: {
