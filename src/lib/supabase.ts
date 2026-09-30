@@ -2,13 +2,16 @@ import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
 let browserClient: SupabaseClient | undefined;
 
+const FALLBACK_SUPABASE_URL = "https://ggpcxhsofgjmrwxzosjz.supabase.co";
+const FALLBACK_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_cxjLJWax1E8yY1ADTRb-Wg_OYsNkTJm";
+
 export function getSupabaseBrowserClient() {
   if (!browserClient) {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const publishableKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
-    if (!supabaseUrl || !publishableKey) {
-      throw new Error("Supabase is not configured. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY in your local environment.");
-    }
+    const supabaseUrl =
+      process.env.NEXT_PUBLIC_SUPABASE_URL ?? FALLBACK_SUPABASE_URL;
+    const publishableKey =
+      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
+      FALLBACK_SUPABASE_PUBLISHABLE_KEY;
 
     browserClient = createClient(supabaseUrl, publishableKey, {
       auth: {
