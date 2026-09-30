@@ -8,7 +8,6 @@ import { topicRegistry, questionKey } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
 import { nextAdaptiveQuestion } from "@/lib/adaptive-engine";
 import { recordAdaptiveAttempt } from "@/lib/adaptive-progress";
-import { loadAdaptiveCatalog } from "@/lib/adaptive-catalog";
 import { loadPublishedQuestions } from "@/lib/publishedQuestions";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard from "@/components/flashcard/Flashcard";
@@ -79,31 +78,23 @@ export default function RevisionCenter({
   const homeHref = useHomeHref();
 
   useEffect(() => setReady(true), []);
-  useEffect(() => {
-    if (!ready || mode !== "adaptive") return;
-    let cancelled = false;
-    setAdaptiveError("");
-    loadAdaptiveCatalog(subjects).then((questions) => {
-      if (!cancelled) setAdaptiveQuestions(questions);
-    }).catch(() => {
-      if (!cancelled) setAdaptiveError("The central question database could not be reached. Try again in a moment.");
-    });
-    return () => { cancelled = true; };
-  }, [ready, mode, subjects]);
 
-  // Every non-adaptive mode (mixed, flashcards, exam, bookmarks, due) now sources its
-  // question bank from the published `questions` table instead of local hard-coded arrays.
+  // All practice modes use the bundled workbook bank while the database importer is offline.
   useEffect(() => {
-    if (!ready || mode === "adaptive") return;
+    if (!ready) return;
     let cancelled = false;
-    setPublishedError("");
-    loadPublishedQuestions(["biology", "chemistry", "physics"]).then(({ questions, error }) => {
+    if (mode === "adaptive") setAdaptiveError("");
+    else setPublishedError("");
+    loadPublishedQuestions(mode === "adaptive" ? subjects : ["biology", "chemistry", "physics"]).then(({ questions, error }) => {
       if (cancelled) return;
-      if (error) setPublishedError(error);
+      if (mode === "adaptive") {
+        if (error) setAdaptiveError(error);
+        else setAdaptiveQuestions(questions);
+      } else if (error) setPublishedError(error);
       else setPublishedQuestions(questions);
     });
     return () => { cancelled = true; };
-  }, [ready, mode]);
+  }, [ready, mode, subjects]);
 
   const isExam = mode === "exam";
 
@@ -369,12 +360,12 @@ export default function RevisionCenter({
               </div>
             </div>
             <p className="mt-5 text-sm text-ink-soft">{candidates.length} questions match.</p>
-            {mode === "adaptive" && !adaptiveQuestions && !adaptiveError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the approved adaptive question map…</p>}
+            {mode === "adaptive" && !adaptiveQuestions && !adaptiveError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the question bank…</p>}
             {adaptiveError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{adaptiveError}</p>}
-            {mode !== "adaptive" && !publishedQuestions && !publishedError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading published questions…</p>}
+            {mode !== "adaptive" && !publishedQuestions && !publishedError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the question bank…</p>}
             {publishedError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{publishedError}</p>}
             {mode !== "adaptive" && publishedQuestions && publishedQuestions.length === 0 && !publishedError && (
-              <p className="mt-3 rounded-xl border-2 border-ink bg-cream-soft p-3 text-sm font-semibold text-ink-soft">No published questions are available yet. Check back soon.</p>
+              <p className="mt-3 rounded-xl border-2 border-ink bg-cream-soft p-3 text-sm font-semibold text-ink-soft">No workbook questions are available for this selection.</p>
             )}
             <button onClick={start} disabled={!candidates.length} className="sm-btn mt-4 bg-orange px-6 py-3 text-white disabled:opacity-40">
               {isExam ? "Start exam" : "Start session"}

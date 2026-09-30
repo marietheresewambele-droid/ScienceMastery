@@ -24,8 +24,11 @@ export interface MasteryQuestion {
   subject: "biology" | "chemistry" | "physics";
   topicSlug: string;
   topic?: string;
+  unit?: string;
   subtopic: string;
   question: string;
+  questionType?: "Short answer" | "Multiple choice" | "Calculation" | "Extended response";
+  imageFile?: string;
   marks: number;
   assessmentObjective: AssessmentObjective;
   difficulty?: "Foundation" | "Higher" | "Both";

@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const subjects = [
-  { name:"Biology", code:"AQA 8461", topics:7, questions:624, route:"/biology", colour:"var(--color-moss)", dark:"var(--color-moss-dark)", soft:"var(--color-moss-soft)", names:["Cell Biology","Organisation","Infection & Response","Bioenergetics","Homeostasis","Inheritance","Ecology"] },
-  { name:"Chemistry", code:"AQA 8462", topics:10, questions:410, route:"/chemistry", colour:"var(--color-teal)", dark:"var(--color-teal-dark)", soft:"var(--color-teal-soft)", names:["Atomic Structure","Bonding","Quantitative","Chemical Changes","Energy","Rates","Organic","Analysis","Atmosphere","Resources"] },
-  { name:"Physics", code:"AQA 8463", topics:8, questions:177, route:"/physics", colour:"var(--color-orange)", dark:"var(--color-orange-dark)", soft:"var(--color-orange-soft)", names:["Energy","Electricity","Particle Model","Atomic Structure","Forces","Waves","Magnetism","Space Physics"] },
+  { name:"Biology", code:"AQA 8461", topics:7, questions:595, route:"/biology", colour:"var(--color-moss)", dark:"var(--color-moss-dark)", soft:"var(--color-moss-soft)", names:["Cell Biology","Organisation","Infection & Response","Bioenergetics","Homeostasis","Inheritance","Ecology"] },
+  { name:"Chemistry", code:"AQA 8462", topics:10, questions:613, route:"/chemistry", colour:"var(--color-teal)", dark:"var(--color-teal-dark)", soft:"var(--color-teal-soft)", names:["Atomic Structure","Bonding","Quantitative","Chemical Changes","Energy","Rates","Organic","Analysis","Atmosphere","Resources"] },
+  { name:"Physics", code:"AQA 8463", topics:8, questions:182, route:"/physics", colour:"var(--color-orange)", dark:"var(--color-orange-dark)", soft:"var(--color-orange-soft)", names:["Energy","Electricity","Particle Model","Atomic Structure","Forces","Waves","Magnetism","Space Physics"] },
 ];
 
 const FlaskIcon = () => <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6.3L4.8 18a3 3 0 0 0 2.7 4.4h9a3 3 0 0 0 2.7-4.4L14 9.3V3M7.5 15h9"/></svg>;
@@ -49,12 +49,12 @@ export default function Home() {
         <div>
           <div className="sm-tag mb-6 px-3 py-1.5 text-xs">Free AQA GCSE Science revision</div>
           <h1 className="font-display text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl xl:text-6xl">No matter which science you&apos;re studying, <span className="text-orange">we have you covered.</span></h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-ink-soft">Master Biology, Chemistry and Physics with 1,211 mastery questions, clear marking points, spaced review and progress tracking.</p>
+          <p className="mt-6 max-w-xl text-lg leading-8 text-ink-soft">Master Biology, Chemistry and Physics with 1,390 workbook questions, model answers, spaced review and progress tracking.</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/signup" className="sm-btn bg-orange px-6 py-3.5 text-white">Get started — it&apos;s free</Link>
             <a href="#sample" className="sm-btn bg-card px-6 py-3.5 text-ink">See a sample question</a>
           </div>
-          <div className="mt-9 grid max-w-md grid-cols-3 gap-5">{[["1,211","questions"],["25","AQA topics"],["100%","free"]].map(([value,label])=><div key={label}><p className="font-display text-2xl font-bold">{value}</p><p className="mt-1 text-xs text-ink-soft">{label}</p></div>)}</div>
+          <div className="mt-9 grid max-w-md grid-cols-3 gap-5">{[["1,390","questions"],["25","AQA topics"],["100%","free"]].map(([value,label])=><div key={label}><p className="font-display text-2xl font-bold">{value}</p><p className="mt-1 text-xs text-ink-soft">{label}</p></div>)}</div>
         </div>
         <div id="sample" className="relative mx-auto w-full max-w-lg">
           <div className="absolute -inset-5 rotate-3 rounded-[2rem] border-2 border-ink bg-yellow-soft"/>

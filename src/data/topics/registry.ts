@@ -23,8 +23,12 @@ import { physicsForcesConfig } from "./physics-forces";
 import { physicsWavesConfig } from "./physics-waves";
 import { physicsMagnetismAndElectromagnetismConfig } from "./physics-magnetism-and-electromagnetism";
 import { physicsSpacePhysicsConfig } from "./physics-space-physics";
+import biologyWorkbookQuestions from "@/data/workbook-questions/biology.json";
+import chemistryWorkbookQuestions from "@/data/workbook-questions/chemistry.json";
+import physicsWorkbookQuestions from "@/data/workbook-questions/physics.json";
+import type { BiologyTopicConfig, MasteryQuestion } from "@/types/questions";
 
-export const topicRegistry = [
+const topicConfigs: BiologyTopicConfig[] = [
   cellBiologyConfig, organisationConfig, infectionAndResponseConfig, bioenergeticsConfig,
   homeostasisAndResponseConfig, inheritanceVariationAndEvolutionConfig, ecologyConfig,
   atomicStructureAndThePeriodicTableConfig, bondingStructureAndPropertiesOfMatterConfig,
@@ -35,6 +39,25 @@ export const topicRegistry = [
   physicsForcesConfig, physicsWavesConfig, physicsMagnetismAndElectromagnetismConfig,
   physicsSpacePhysicsConfig,
 ];
+
+const workbookQuestions = [
+  ...(biologyWorkbookQuestions as MasteryQuestion[]),
+  ...(chemistryWorkbookQuestions as MasteryQuestion[]),
+  ...(physicsWorkbookQuestions as MasteryQuestion[]),
+];
+
+export const topicRegistry = topicConfigs.map((config) => {
+  const questions = workbookQuestions.filter(
+    (question) => question.subject === (config.subject ?? "biology") && question.topicSlug === config.id,
+  );
+  const subtopics = [...new Set(questions.map((question) => question.subtopic))].map((title, index) => ({
+    id: `${title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-${index + 1}`,
+    title,
+    description: "Practice questions for this subtopic.",
+  }));
+
+  return { ...config, questions, subtopics };
+});
 
 export type RegisteredTopic = (typeof topicRegistry)[number];
 export const questionKey = (subject: string, topic: string, id: string) => `${subject}:${topic}:${id}`;

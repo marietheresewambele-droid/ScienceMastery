@@ -1,6 +1,6 @@
 "use client";
 
-import { loadAdaptiveCatalog } from "@/lib/adaptive-catalog";
+import { topicRegistry } from "@/data/topics/registry";
 import type { MasteryQuestion } from "@/types/questions";
 
 export interface LoadPublishedQuestionsResult {
@@ -8,15 +8,11 @@ export interface LoadPublishedQuestionsResult {
   error: string | null;
 }
 
-/** The catalog RLS policy exposes only active questions from published content versions. */
+/** Returns the workbook question bank bundled with the site while the importer is offline. */
 export async function loadPublishedQuestions(subjects: string[]): Promise<LoadPublishedQuestionsResult> {
-  try {
-    const questions = await loadAdaptiveCatalog(subjects.map((subject) => subject.toLowerCase()));
-    return { questions, error: null };
-  } catch {
-    return {
-      questions: [],
-      error: "Published questions could not be loaded. Please check your connection and try again.",
-    };
-  }
+  const selectedSubjects = new Set(subjects.map((subject) => subject.toLowerCase()));
+  const questions = topicRegistry
+    .filter((topic) => selectedSubjects.has(topic.subject ?? "biology"))
+    .flatMap((topic) => topic.questions);
+  return { questions, error: null };
 }

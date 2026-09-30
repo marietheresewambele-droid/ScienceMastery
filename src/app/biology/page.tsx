@@ -2,27 +2,19 @@
 
 import Link from "next/link";
 import { useHomeHref } from "@/hooks/useHomeHref";
-import { cellBiologyConfig } from "@/data/topics/cell-biology";
-import { organisationConfig } from "@/data/topics/organisation";
-import { infectionAndResponseConfig } from "@/data/topics/infection-and-response";
-import { bioenergeticsConfig } from "@/data/topics/bioenergetics";
-import { homeostasisAndResponseConfig } from "@/data/topics/homeostasis-and-response";
-import { inheritanceVariationAndEvolutionConfig } from "@/data/topics/inheritance-variation-and-evolution";
-import { ecologyConfig } from "@/data/topics/ecology";
-
-const topics = [cellBiologyConfig, organisationConfig, infectionAndResponseConfig,
-  bioenergeticsConfig, homeostasisAndResponseConfig,
-  inheritanceVariationAndEvolutionConfig, ecologyConfig];
+import { topicRegistry } from "@/data/topics/registry";
 
 export default function BiologyPage() {
   const homeHref = useHomeHref();
+  const topics = topicRegistry.filter((topic) => topic.subject === "biology");
+  const questionTotal = topics.reduce((total, topic) => total + topic.questions.length, 0);
 
   return <main className="min-h-screen bg-cream text-ink">
     <section className="border-b-2 border-ink bg-moss-soft"><div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
       <Link href={homeHref} className="text-sm font-bold text-orange-dark">← BrainSoma home</Link>
       <p className="mt-8 text-sm font-bold uppercase tracking-widest text-moss-dark">AQA GCSE Biology</p>
       <h1 className="mt-3 font-display text-4xl font-bold tracking-tight sm:text-5xl">Choose a Biology topic</h1>
-      <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">Practise all seven AQA Biology topics with 624 structured mastery questions, marking points and isolated progress tracking.</p>
+      <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">Practise all seven AQA Biology topics with {questionTotal} questions from the Biology workbook, complete with model answers and isolated progress tracking.</p>
     </div></section>
     <section className="mx-auto grid max-w-7xl gap-5 px-4 py-12 sm:px-6 md:grid-cols-2">
       {topics.map(topic => <article key={topic.id} className="sm-panel flex flex-col justify-between p-7">
