@@ -1,15 +1,16 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-// These are public browser values for the live BrainSoma Supabase project.
-// Keep them first so an outdated Vercel variable cannot break student sign-in.
-const liveSupabaseUrl = "https://ggpcxhsofgjmrwxzosjz.supabase.co";
-const livePublishableKey = "sb_publishable_cxjLJWax1E8yY1ADTRb-Wg_OYsNkTJm";
-
 let browserClient: SupabaseClient | undefined;
 
 export function getSupabaseBrowserClient() {
   if (!browserClient) {
-    browserClient = createClient(liveSupabaseUrl, livePublishableKey, {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const publishableKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+    if (!supabaseUrl || !publishableKey) {
+      throw new Error("Supabase is not configured. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY in your local environment.");
+    }
+
+    browserClient = createClient(supabaseUrl, publishableKey, {
       auth: {
         persistSession: true,
         autoRefreshToken: true,
