@@ -8,6 +8,19 @@ import { getSupabaseAdminClient } from "@/lib/supabase-admin";
  * user record; on failure returns the NextResponse to return directly from the route handler.
  */
 export async function requireAdmin(request: Request) {
+  try {
+    return await verifyAdmin(request);
+  } catch (error) {
+    // An unexpected throw (e.g. a malformed Supabase URL or key) used to surface as an opaque 500.
+    console.error("Admin access check crashed:", error);
+    const detail = error instanceof Error ? error.message : "unknown error";
+    return {
+      error: NextResponse.json({ error: `Could not check admin access: ${detail}` }, { status: 503 }),
+    } as const;
+  }
+}
+
+async function verifyAdmin(request: Request) {
   const missing = [
     ["NEXT_PUBLIC_SUPABASE_URL", process.env.NEXT_PUBLIC_SUPABASE_URL],
     ["SUPABASE_SERVICE_ROLE_KEY", process.env.SUPABASE_SERVICE_ROLE_KEY],
