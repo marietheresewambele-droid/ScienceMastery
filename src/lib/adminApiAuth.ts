@@ -38,7 +38,18 @@ export async function requireAdmin(request: Request) {
     .eq("active", true)
     .eq("role", "admin")
     .maybeSingle();
-  if (roleError || !role) {
+  if (roleError) {
+    // A failed lookup (wrong service-role key, missing table or grant) is a server problem, not
+    // proof the caller isn't an admin - surface it instead of silently denying access.
+    console.error("admin_users lookup failed:", roleError);
+    return {
+      error: NextResponse.json(
+        { error: "Could not check admin access. Verify SUPABASE_SERVICE_ROLE_KEY is the service-role key and the admin_users migration is applied." },
+        { status: 503 },
+      ),
+    } as const;
+  }
+  if (!role) {
     return { error: NextResponse.json({ error: "You are not authorized to manage content." }, { status: 403 }) } as const;
   }
 
