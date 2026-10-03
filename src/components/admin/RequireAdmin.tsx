@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
@@ -8,6 +8,7 @@ export default function RequireAdmin({ children }: { children: React.ReactNode }
   const [status, setStatus] = useState<"checking" | "authorized" | "configuration">("checking");
   const [configurationMessage, setConfigurationMessage] = useState("");
   const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     let cancelled = false;
@@ -16,7 +17,7 @@ export default function RequireAdmin({ children }: { children: React.ReactNode }
         const { data } = await getSupabaseBrowserClient().auth.getSession();
         const token = data.session?.access_token;
         if (!token) {
-          router.replace("/login");
+          router.replace(`/login?next=${encodeURIComponent(pathname)}`);
           return;
         }
 
@@ -45,7 +46,7 @@ export default function RequireAdmin({ children }: { children: React.ReactNode }
     return () => {
       cancelled = true;
     };
-  }, [router]);
+  }, [router, pathname]);
 
   if (status === "checking") {
     return <main className="min-h-screen bg-cream px-4 py-10 text-ink"><p className="mx-auto max-w-4xl text-ink-soft">Checking access…</p></main>;
