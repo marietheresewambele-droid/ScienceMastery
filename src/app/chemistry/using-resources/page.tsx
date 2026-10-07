@@ -1,3 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { usingResourcesConfig } from "@/data/topics/using-resources";
-export default function UsingResourcesPage(){ return <BiologyTopicPage config={usingResourcesConfig} />; }
+import TopicPage from "@/components/topic/TopicPage";
+
+export default function Page() {
+  return <TopicPage subject="chemistry" slug="using-resources" />;
+}

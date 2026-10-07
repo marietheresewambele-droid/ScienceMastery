@@ -1,3 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { physicsEnergyConfig } from "@/data/topics/physics-energy";
-export default function PhysicsTopicPage(){ return <BiologyTopicPage config={physicsEnergyConfig} />; }
+import TopicPage from "@/components/topic/TopicPage";
+
+export default function Page() {
+  return <TopicPage subject="physics" slug="energy" />;
+}

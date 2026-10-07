@@ -1,6 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { infectionAndResponseConfig } from "@/data/topics/infection-and-response";
+import TopicPage from "@/components/topic/TopicPage";
 
-export default function InfectionAndResponsePage() {
-  return <BiologyTopicPage config={infectionAndResponseConfig} />;
+export default function Page() {
+  return <TopicPage subject="biology" slug="infection-and-response" />;
 }

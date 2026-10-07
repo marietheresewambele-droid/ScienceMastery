@@ -4,11 +4,11 @@
 /* eslint-disable react-hooks/set-state-in-effect, react-hooks/purity, react-hooks/exhaustive-deps */
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { topicRegistry, questionKey } from "@/data/topics/registry";
+import { topicRegistry } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
 import { nextAdaptiveQuestion } from "@/lib/adaptive-engine";
 import { recordAdaptiveAttempt } from "@/lib/adaptive-progress";
-import { loadPublishedQuestions } from "@/lib/publishedQuestions";
+import { compareQuestions, loadQuestionBank } from "@/lib/questionBank";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard from "@/components/flashcard/Flashcard";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
@@ -39,6 +39,15 @@ function assessmentObjectiveRank(assessmentObjective: string) {
   return 3;
 }
 
+function shuffled<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swap = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[swap]] = [copy[swap], copy[index]];
+  }
+  return copy;
+}
+
 export default function RevisionCenter({
   initialMode = "mixed",
   initialSubject,
@@ -61,7 +70,8 @@ export default function RevisionCenter({
   );
   const [subtopic] = useState(initialSubtopic ?? "all");
   const [count, setCount] = useState(skipSetup ? 200 : 10);
-  const [order, setOrder] = useState("random");
+  // Sessions always run AO1 -> AO2 -> AO3; "ordered" then follows subtopic and workbook order.
+  const [order, setOrder] = useState(initialMode === "mixed" ? "random" : "ordered");
   const [session, setSession] = useState<Item[]>([]);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -69,46 +79,36 @@ export default function RevisionCenter({
   const [ready, setReady] = useState(false);
   const [hintLevel, setHintLevel] = useState(0);
   const [startedAt, setStartedAt] = useState(Date.now());
-  const [adaptiveQuestions, setAdaptiveQuestions] = useState<MasteryQuestion[] | null>(null);
-  const [adaptiveError, setAdaptiveError] = useState("");
-  const [publishedQuestions, setPublishedQuestions] = useState<MasteryQuestion[] | null>(null);
-  const [publishedError, setPublishedError] = useState("");
+  const [bankQuestions, setBankQuestions] = useState<MasteryQuestion[] | null>(null);
+  const [bankError, setBankError] = useState("");
 
   const autoStarted = useRef(false);
   const homeHref = useHomeHref();
 
   useEffect(() => setReady(true), []);
 
-  // All practice modes use the bundled workbook bank while the database importer is offline.
+  // Every mode reads the published Supabase question bank (loaded once and cached).
   useEffect(() => {
     if (!ready) return;
     let cancelled = false;
-    if (mode === "adaptive") setAdaptiveError("");
-    else setPublishedError("");
-    loadPublishedQuestions(mode === "adaptive" ? subjects : ["biology", "chemistry", "physics"]).then(({ questions, error }) => {
-      if (cancelled) return;
-      if (mode === "adaptive") {
-        if (error) setAdaptiveError(error);
-        else setAdaptiveQuestions(questions);
-      } else if (error) setPublishedError(error);
-      else setPublishedQuestions(questions);
-    });
+    setBankError("");
+    loadQuestionBank().then(
+      (questions) => { if (!cancelled) setBankQuestions(questions); },
+      (error: unknown) => { if (!cancelled) setBankError(error instanceof Error ? error.message : "The question bank could not be loaded."); },
+    );
     return () => { cancelled = true; };
-  }, [ready, mode, subjects]);
+  }, [ready]);
 
   const isExam = mode === "exam";
 
 
   const all = useMemo(() => {
     if (!ready) return [];
-    if (mode === "adaptive" && !adaptiveQuestions) return [];
-    if (mode !== "adaptive" && !publishedQuestions) return [];
+    if (!bankQuestions) return [];
     const now = Date.now();
     return topicRegistry.flatMap((topic) => {
       const progress = readProgress(topic);
-      const questions = mode === "adaptive"
-        ? (adaptiveQuestions || []).filter((question) => question.subject === topic.subject && question.topicSlug === topic.id)
-        : (publishedQuestions || []).filter((question) => question.subject === topic.subject && question.topicSlug === topic.id);
+      const questions = bankQuestions.filter((question) => question.subject === topic.subject && question.topicSlug === topic.id);
       return questions.map((question) => {
         const review = progress.reviews[question.id];
           return {
@@ -123,7 +123,7 @@ export default function RevisionCenter({
         };
       });
     });
-  }, [ready, version, mode, adaptiveQuestions, publishedQuestions]);
+  }, [ready, version, bankQuestions]);
 
   const selectedItems = useMemo(
     () =>
@@ -147,12 +147,16 @@ export default function RevisionCenter({
   );
 
   const start = useCallback(() => {
-    const next = [...candidates].sort((left, right) => {
+    const pool = order === "random" && mode !== "adaptive" ? shuffled(candidates) : candidates;
+    const next = [...pool].sort((left, right) => {
       const objectiveOrder = assessmentObjectiveRank(left.question.assessmentObjective)
         - assessmentObjectiveRank(right.question.assessmentObjective);
       if (objectiveOrder !== 0) return objectiveOrder;
-      if (mode === "adaptive" || order === "weakest") return right.priority - left.priority;
-      return Math.random() - 0.5;
+      if (mode === "adaptive" || order === "weakest") {
+        const priorityOrder = right.priority - left.priority;
+        if (priorityOrder !== 0) return priorityOrder;
+      }
+      return order === "random" && mode !== "adaptive" ? 0 : compareQuestions(left.question, right.question);
     });
     setSession(next.slice(0, count));
     setIndex(0);
@@ -181,7 +185,7 @@ export default function RevisionCenter({
         responseTimeMs: Date.now() - startedAt,
       });
       if (mode === "adaptive") {
-        const topicQuestions = (adaptiveQuestions || []).filter(
+        const topicQuestions = (bankQuestions || []).filter(
           (question) => question.subject === item.topic.subject && question.topicSlug === item.topic.id,
         );
         const next = nextAdaptiveQuestion(item.question, topicQuestions, { rating, hintsUsed, answerRevealed: isExam || flipped });
@@ -199,7 +203,7 @@ export default function RevisionCenter({
       setIndex((value) => Math.min(value + 1, session.length));
       setStartedAt(Date.now());
     },
-    [session, index, isExam, flipped, mode, all, adaptiveQuestions, startedAt],
+    [session, index, isExam, flipped, mode, all, bankQuestions, startedAt],
 
   );
 
@@ -224,9 +228,8 @@ export default function RevisionCenter({
   }, [session, index, flipped, rate, hintLevel]);
 
   const current = session[index];
-  const loadingScopedQuestions = skipSetup && ready && mode !== "adaptive" && publishedQuestions === null && !publishedError;
-  const loadingScopedAdaptiveQuestions = skipSetup && ready && mode === "adaptive" && adaptiveQuestions === null && !adaptiveError;
-  const showPicker = !session.length && (!skipSetup || (ready && candidates.length === 0 && (mode === "adaptive" ? adaptiveQuestions !== null || Boolean(adaptiveError) : publishedQuestions !== null || Boolean(publishedError))));
+  const loadingScopedQuestions = skipSetup && ready && bankQuestions === null && !bankError;
+  const showPicker = !session.length && (!skipSetup || (ready && candidates.length === 0 && (bankQuestions !== null || Boolean(bankError))));
 
   return (
     <main className="min-h-screen bg-cream text-ink">
@@ -257,7 +260,7 @@ export default function RevisionCenter({
           </>
         )}
 
-        {(loadingScopedQuestions || loadingScopedAdaptiveQuestions) && !session.length && (
+        {loadingScopedQuestions && !session.length && (
           <section className="sm-panel mt-8 p-6" aria-live="polite">
             <p className="font-display text-lg font-semibold">Loading questions…</p>
             <p className="mt-2 text-sm text-ink-soft">Your flashcards will start as soon as the published questions are ready.</p>
@@ -353,19 +356,18 @@ export default function RevisionCenter({
                     onChange={(event) => setOrder(event.target.value)}
                     className="mt-1 w-full rounded-xl border-2 border-ink bg-card p-2.5 font-normal"
                   >
-                    <option value="random">Random</option>
+                    <option value="ordered">In order (AO1 → AO3)</option>
+                    <option value="random">Random (AO1 → AO3)</option>
                     <option value="weakest">Weakest first</option>
                   </select>
                 </label>
               </div>
             </div>
             <p className="mt-5 text-sm text-ink-soft">{candidates.length} questions match.</p>
-            {mode === "adaptive" && !adaptiveQuestions && !adaptiveError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the question bank…</p>}
-            {adaptiveError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{adaptiveError}</p>}
-            {mode !== "adaptive" && !publishedQuestions && !publishedError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the question bank…</p>}
-            {publishedError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{publishedError}</p>}
-            {mode !== "adaptive" && publishedQuestions && publishedQuestions.length === 0 && !publishedError && (
-              <p className="mt-3 rounded-xl border-2 border-ink bg-cream-soft p-3 text-sm font-semibold text-ink-soft">No workbook questions are available for this selection.</p>
+            {!bankQuestions && !bankError && <p className="mt-3 text-sm font-semibold text-ink-soft">Loading the question bank…</p>}
+            {bankError && <p className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">The question bank could not be loaded ({bankError}).</p>}
+            {bankQuestions && bankQuestions.length === 0 && !bankError && (
+              <p className="mt-3 rounded-xl border-2 border-ink bg-cream-soft p-3 text-sm font-semibold text-ink-soft">No questions have been published yet.</p>
             )}
             <button onClick={start} disabled={!candidates.length} className="sm-btn mt-4 bg-orange px-6 py-3 text-white disabled:opacity-40">
               {isExam ? "Start exam" : "Start session"}

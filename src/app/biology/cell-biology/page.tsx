@@ -1,6 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { cellBiologyConfig } from "@/data/topics/cell-biology";
+import TopicPage from "@/components/topic/TopicPage";
 
-export default function CellBiologyPage() {
-  return <BiologyTopicPage config={cellBiologyConfig} />;
+export default function Page() {
+  return <TopicPage subject="biology" slug="cell-biology" />;
 }

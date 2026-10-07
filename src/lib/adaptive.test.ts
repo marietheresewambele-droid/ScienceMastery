@@ -2,8 +2,8 @@ import { strict as assert } from "node:assert";
 import { test } from "node:test";
 import type { MasteryQuestion } from "@/types/questions";
 import { AdaptiveEngine, type LearningSnapshot, aggregateMastery } from "@/lib/adaptive";
-import { catalogQuestionId } from "@/lib/adaptive-engine";
-import { validateQuestionWorkbook } from "@/lib/contentValidation";
+import { catalogQuestionId, getAdaptiveHints, keyTermHints } from "@/lib/adaptive-engine";
+import { compareQuestions } from "@/lib/questionBank";
 
 class MemoryStore {
   snapshot: LearningSnapshot = { attempts: [], mastery: {} };
@@ -15,7 +15,7 @@ class MemoryStore {
 const question: MasteryQuestion = {
   id: "BIO-TEST-001", subject: "biology", topicSlug: "cells", topic: "Cell Biology", subtopic: "Transport",
   question: "Explain osmosis", marks: 1, assessmentObjective: "AO2", markingPoints: ["Water moves through a partially permeable membrane"],
-  questionFamily: "Osmosis", hints: ["Name the process", "Identify the membrane"],
+  questionFamily: "Osmosis",
 };
 
 test("full answer view does not increase mastery", () => {
@@ -47,8 +47,32 @@ test("questions that reuse the same raw id across topics do not share mastery st
   assert.equal(otherResult.independentSuccesses, 0);
 });
 
-test("validator rejects duplicates and broken relationships", () => {
-  const issues = validateQuestionWorkbook([question, question], [{ sourceId: question.id, targetId: "missing", relationship: "Parallel" }]);
-  assert.ok(issues.some((issue) => issue.code === "DUPLICATE_ID"));
-  assert.ok(issues.some((issue) => issue.code === "BROKEN_RELATIONSHIP"));
+test("bank question IDs are used as-is for mastery", () => {
+  assert.equal(catalogQuestionId({ ...question, id: "CHEM-T01-Q001" }), "CHEM-T01-Q001");
+});
+
+test("hints hide the key terms from the model answer", () => {
+  const [hidden, firstLetters] = keyTermHints("Delocalised electrons carry charge.\nThe alloy is harder.", ["delocalised electrons", "alloy"])!;
+  assert.equal(hidden, "Fill in the missing key terms:\n____ ____ carry charge.\nThe ____ is harder.");
+  assert.equal(firstLetters, "Fill in the key terms (first letters shown):\nD__________ e________ carry charge.\nThe a____ is harder.");
+});
+
+test("key terms match whole terms, including chemical formulae and ions", () => {
+  const [hidden] = keyTermHints("K = Potassium, kinetic\nCl₂ + 2Br⁻ → 2Cl⁻ + Br₂\nCaCO₃", ["K", "Br⁻", "Cl⁻", "CaCO"])!;
+  assert.equal(hidden, "Fill in the missing key terms:\n____ = Potassium, kinetic\nCl₂ + 2____⁻ → 2____⁻ + Br₂\n____₃");
+});
+
+test("questions without usable key terms fall back to automatic hints", () => {
+  assert.equal(keyTermHints("Water moves by osmosis.", ["diffusion"]), null);
+  const [first] = getAdaptiveHints({ ...question, modelAnswer: "Water moves through a partially permeable membrane", keyTerms: ["diffusion"] });
+  assert.match(first, /^Complete the answer:/);
+});
+
+test("questions are ordered AO1 -> AO2 -> AO3, then subtopic, then workbook row", () => {
+  const make = (id: string, assessmentObjective: "AO1" | "AO2" | "AO3", subtopicOrder: number, sortOrder: number): MasteryQuestion =>
+    ({ ...question, id, assessmentObjective, subtopicOrder, sortOrder, topicNumber: 1 });
+  const ordered = [make("c", "AO3", 1, 0), make("b", "AO2", 2, 0), make("a2", "AO1", 2, 5), make("a1", "AO1", 1, 9), make("b0", "AO2", 1, 3)]
+    .sort(compareQuestions)
+    .map((item) => item.id);
+  assert.deepEqual(ordered, ["a1", "a2", "b0", "b", "c"]);
 });

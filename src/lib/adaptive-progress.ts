@@ -2,11 +2,8 @@ import { getSupabaseBrowserClient } from "@/lib/supabase";
 import { catalogQuestionId, classifyOutcome, retrievalDays, type AdaptiveEvidence } from "@/lib/adaptive-engine";
 import type { MasteryQuestion } from "@/types/questions";
 
-const CONTENT_VERSION: Record<MasteryQuestion["subject"], string> = {
-  biology: "BIO-2026.1",
-  chemistry: "CHE-2026.1",
-  physics: "PHY-2026.1",
-};
+// Only question bank questions have a public.question_catalog row to attach evidence to.
+const BANK_QUESTION_ID = /^(BIO|CHEM|PHYS)-T\d{2}-Q\d{3,}$/;
 
 export async function recordAdaptiveAttempt({
   question,
@@ -30,6 +27,7 @@ export async function recordAdaptiveAttempt({
 
   const outcome = classifyOutcome(evidence);
   const questionId = catalogQuestionId(question);
+  if (!BANK_QUESTION_ID.test(questionId)) return { synced: false as const, reason: "not_a_bank_question" as const };
   const { data: previous } = await supabase
     .from("student_question_state")
     .select("independent_successes,supported_successes,incorrect_attempts,interval_days,consecutive_independent_successes")
@@ -48,7 +46,6 @@ export async function recordAdaptiveAttempt({
   const attempt = await supabase.from("student_attempts").insert({
     user_id: user.id,
     question_id: questionId,
-    content_version_id: CONTENT_VERSION[question.subject],
     mode,
     rating: evidence.rating,
     outcome,

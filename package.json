@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "adaptive:seed": "node scripts/generate-adaptive-seed.mjs",
-    "content:import-workbooks": "node scripts/import-adaptive-workbooks.mjs"
+    "test": "node --no-warnings --experimental-transform-types --import ./scripts/register-test-loader.mjs --test src/lib/*.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "2.112.3",

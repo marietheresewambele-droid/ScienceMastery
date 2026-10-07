@@ -1,43 +1,29 @@
 import { NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/adminApiAuth";
-import { parseWebsiteUploadWorkbook } from "@/lib/websiteQuestionImport";
+import { hasBlockingIssues } from "@/lib/brainsomaWorkbook";
+import { readWorkbookUpload } from "@/lib/workbookUpload";
 
+/** Dry run: validates a BrainSoma workbook and returns a preview. Never writes to Supabase. */
 export async function POST(request: Request) {
   try {
-    return await handleParse(request);
+    const auth = await requireAdmin(request);
+    if ("error" in auth) return auth.error;
+
+    const upload = await readWorkbookUpload(request);
+    if ("error" in upload) return upload.error;
+    const { rows, issues, topics } = upload.result;
+
+    return NextResponse.json({
+      questionCount: rows.length,
+      errorCount: issues.filter((issue) => issue.severity === "error").length,
+      warningCount: issues.filter((issue) => issue.severity === "warning").length,
+      issues,
+      topics,
+      canPublish: rows.length > 0 && !hasBlockingIssues(issues),
+      preview: rows.slice(0, 20),
+    });
   } catch (error) {
     console.error("Question workbook parse failed:", error);
     return NextResponse.json({ error: "The workbook could not be read. Confirm it is a valid .xlsx file." }, { status: 500 });
   }
-}
-
-async function handleParse(request: Request) {
-  const auth = await requireAdmin(request);
-  if ("error" in auth) return auth.error;
-
-  const formData = await request.formData();
-  const file = formData.get("file");
-  if (!(file instanceof File)) return NextResponse.json({ error: "Attach a workbook to upload." }, { status: 400 });
-  if (!file.name.toLowerCase().endsWith(".xlsx")) {
-    return NextResponse.json({ error: "Only .xlsx files are accepted." }, { status: 400 });
-  }
-
-  const buffer = Buffer.from(await file.arrayBuffer());
-  const result = parseWebsiteUploadWorkbook(buffer);
-
-  if (!result.sheetFound) {
-    return NextResponse.json({ error: 'This workbook has no worksheet named exactly "Website Upload".' }, { status: 422 });
-  }
-  if (result.missingHeaders.length) {
-    return NextResponse.json({ error: `The "Website Upload" worksheet is missing required column(s): ${result.missingHeaders.join(", ")}.` }, { status: 422 });
-  }
-
-  return NextResponse.json({
-    totalRows: result.totalRows,
-    validCount: result.rows.length,
-    invalidCount: result.totalRows - result.rows.length,
-    issues: result.issues,
-    canPublish: result.issues.length === 0 && result.rows.length > 0,
-    rows: result.rows,
-  });
 }

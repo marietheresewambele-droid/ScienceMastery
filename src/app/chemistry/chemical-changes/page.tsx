@@ -1,3 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { chemicalChangesConfig } from "@/data/topics/chemical-changes";
-export default function ChemicalChangesPage(){ return <BiologyTopicPage config={chemicalChangesConfig} />; }
+import TopicPage from "@/components/topic/TopicPage";
+
+export default function Page() {
+  return <TopicPage subject="chemistry" slug="chemical-changes" />;
+}

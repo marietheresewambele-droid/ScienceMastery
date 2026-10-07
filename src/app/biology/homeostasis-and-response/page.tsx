@@ -1,6 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { homeostasisAndResponseConfig } from "@/data/topics/homeostasis-and-response";
+import TopicPage from "@/components/topic/TopicPage";
 
-export default function HomeostasisAndResponsePage() {
-  return <BiologyTopicPage config={homeostasisAndResponseConfig} />;
+export default function Page() {
+  return <TopicPage subject="biology" slug="homeostasis-and-response" />;
 }

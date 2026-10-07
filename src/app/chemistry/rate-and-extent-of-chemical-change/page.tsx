@@ -1,3 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { rateAndExtentOfChemicalChangeConfig } from "@/data/topics/rate-and-extent-of-chemical-change";
-export default function RateAndExtentOfChemicalChangePage(){ return <BiologyTopicPage config={rateAndExtentOfChemicalChangeConfig} />; }
+import TopicPage from "@/components/topic/TopicPage";
+
+export default function Page() {
+  return <TopicPage subject="chemistry" slug="rate-and-extent-of-chemical-change" />;
+}

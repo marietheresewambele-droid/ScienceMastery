@@ -1,6 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { inheritanceVariationAndEvolutionConfig } from "@/data/topics/inheritance-variation-and-evolution";
+import TopicPage from "@/components/topic/TopicPage";
 
-export default function InheritanceVariationAndEvolutionPage() {
-  return <BiologyTopicPage config={inheritanceVariationAndEvolutionConfig} />;
+export default function Page() {
+  return <TopicPage subject="biology" slug="inheritance-variation-and-evolution" />;
 }

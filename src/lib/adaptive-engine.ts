@@ -9,14 +9,17 @@ export type AdaptiveEvidence = {
   answerRevealed: boolean;
 };
 
+const CANONICAL_ID = /^(BIO|CHEM|PHYS)-T\d{2}-Q\d{3,}$/;
+
+/** Question bank IDs are already globally unique; other evidence (Challenge Me) is namespaced by topic. */
 export const catalogQuestionId = (question: Pick<MasteryQuestion, "subject" | "topicSlug" | "id">) =>
-  "databaseId" in question && typeof question.databaseId === "string"
-    ? question.databaseId
+  CANONICAL_ID.test(question.id)
+    ? question.id
     : `${question.subject === "biology" ? "BIO" : question.subject === "chemistry" ? "CHE" : "PHY"}-${question.topicSlug}-${question.id}`;
 
 const aoRank = (ao: string) => (ao.includes("AO3") ? 3 : ao.includes("AO2") ? 2 : 1);
 const demand = (q: MasteryQuestion) => aoRank(q.assessmentObjective) * 10 + q.marks;
-const family = (q: MasteryQuestion) => q.questionFamily || `${q.topicSlug}:${q.subtopic}:${q.commandWord || "question"}`;
+const family = (q: MasteryQuestion) => q.questionFamily || `${q.topicSlug}:${q.subtopic}:${q.questionType || q.commandWord || "question"}`;
 
 export function classifyOutcome({ rating, hintsUsed }: AdaptiveEvidence): AdaptiveOutcome {
   if (rating === "again") return "incorrect";
@@ -66,29 +69,41 @@ function wordHints(source: string): [string, string] {
   ];
 }
 
-function keywordHints(source: string, keywords: string[]): [string, string] {
-  const approved = [...new Set(keywords.map((keyword) => keyword.trim()).filter(Boolean))]
-    .sort((left, right) => right.length - left.length);
-  if (!approved.length) return wordHints(source);
+const WORD = /[\p{L}\p{N}]+/gu;
+const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-  const pattern = new RegExp(`(${approved.map((keyword) => keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "gi");
-  const structure = source.replace(pattern, "____");
-  const partial = source.replace(pattern, (_, match) => {
-    const matchLength = match.length;
-    return matchLength > 4 ? "____" : match;
-  });
+/** A letter edge may not touch another letter and a digit edge may not touch another digit,
+ * so "K" never blanks part of "Kinetic" while "Br⁻" still matches in "2Br⁻" and "CaCO" in "CaCO₃". */
+function termPattern(term: string) {
+  const edge = (char: string) => (/\p{L}/u.test(char) ? "\\p{L}" : /\p{N}/u.test(char) ? "\\p{N}" : "");
+  const before = edge(term[0]);
+  const after = edge(term[term.length - 1]);
+  return `${before ? `(?<!${before})` : ""}${escapeRegExp(term)}${after ? `(?!${after})` : ""}`;
+}
 
+/**
+ * Hides the workbook Key Terms inside the model answer. Terms match case-insensitively,
+ * longest first, so "cell membrane" wins over "cell". Returns null when no key term occurs
+ * in the answer.
+ */
+export function keyTermHints(source: string, keyTerms: string[]): [string, string] | null {
+  const terms = [...new Set(keyTerms.map((term) => term.trim()).filter(Boolean))].sort((left, right) => right.length - left.length);
+  if (!terms.length) return null;
+  const pattern = new RegExp(terms.map(termPattern).join("|"), "giu");
+  if (!source.match(pattern)) return null;
+  const hidden = source.replace(pattern, (match) => match.replace(WORD, "____"));
+  const firstLetters = source.replace(pattern, (match) => match.replace(WORD, (word) => word[0] + "_".repeat(word.length - 1)));
   return [
-    `Complete the answer structure:\n${partial}`,
-    `Complete the remaining key terms:\n${structure}`,
+    `Fill in the missing key terms:\n${hidden}`,
+    `Fill in the key terms (first letters shown):\n${firstLetters}`,
   ];
 }
 
 export function getAdaptiveHints(question: MasteryQuestion): [string, string] {
-  if (question.adaptiveHints?.length === 2) return question.adaptiveHints;
   const source = answerSource(question);
   if (!source) return ["Use the wording of the question to structure your answer.", "State the key point asked for in the question."];
-  if (question.hintKeywords?.length) return keywordHints(source, question.hintKeywords);
+  const fromKeyTerms = question.keyTerms?.length ? keyTermHints(source, question.keyTerms) : null;
+  if (fromKeyTerms) return fromKeyTerms;
   return isCalculation(question, source) ? [calculationHint(question, source, false), calculationHint(question, source, true)] : wordHints(source);
 }
 
@@ -97,11 +112,6 @@ export function relatedQuestion(
   questions: MasteryQuestion[],
   relationship: AdaptiveRelationship,
 ): MasteryQuestion | undefined {
-  const explicitTarget = current.adaptiveRelationships?.[relationship];
-  if (explicitTarget) {
-    const explicit = questions.find((question) => catalogQuestionId(question) === explicitTarget);
-    if (explicit) return explicit;
-  }
   const sameFamily = questions.filter((q) => q.id !== current.id && family(q) === family(current));
   const sameSubtopic = questions.filter((q) => q.id !== current.id && q.subtopic === current.subtopic);
   const pool = sameFamily.length ? sameFamily : sameSubtopic;

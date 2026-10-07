@@ -2,15 +2,18 @@
 
 /* Client-only localStorage hydration is intentionally performed after mount. */
 /* eslint-disable react-hooks/set-state-in-effect */
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import SubtopicGrid from "@/components/topic/SubtopicGrid";
 import TopicHeader from "@/components/topic/TopicHeader";
-import { topicRegistry } from "@/data/topics/registry";
-import type { BiologyTopicConfig } from "@/types/questions";
+import { findTopic } from "@/data/topics/registry";
+import { subtopicsFor, useQuestionBank } from "@/lib/questionBank";
+import type { Subject } from "@/types/questions";
 
-interface BiologyTopicPageProps {
-  config: BiologyTopicConfig;
+interface TopicPageProps {
+  subject: Subject;
+  slug: string;
 }
 
 function loadStoredStringArray(storageKey: string): string[] {
@@ -35,9 +38,15 @@ function loadStoredStringArray(storageKey: string): string[] {
   }
 }
 
-export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
-  const topicConfig = topicRegistry.find((topic) => topic.id === config.id) ?? config;
-  const questions = topicConfig.questions;
+export function TopicPage({ subject, slug }: TopicPageProps) {
+  const topicConfig = findTopic(subject, slug);
+  if (!topicConfig) notFound();
+  const bank = useQuestionBank();
+  const questions = useMemo(
+    () => (bank.questions ?? []).filter((question) => question.subject === subject && question.topicSlug === slug),
+    [bank.questions, subject, slug],
+  );
+  const subtopics = useMemo(() => subtopicsFor(questions), [questions]);
   const completedKey = `${topicConfig.storageNamespace}_completed`;
 
   const [completedIds, setCompletedIds] = useState<Set<string>>(new Set());
@@ -53,7 +62,6 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
   const progressPercentage =
     totalQuestions > 0 ? Math.round((completedCount / totalQuestions) * 100) : 0;
 
-  const subject = topicConfig.subject ?? "biology";
   const subjectLabel = subject.charAt(0).toUpperCase() + subject.slice(1);
 
   const topicMetadata = {
@@ -63,7 +71,7 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
     examBoard: topicConfig.examBoard ?? "AQA",
     topicNumber: topicConfig.topicNumber ?? "Topic",
     description: topicConfig.description ?? "",
-    subtopics: topicConfig.subtopics.map((subtopic) => subtopic.title),
+    subtopics: subtopics.map((subtopic) => subtopic.title),
   };
 
   return (
@@ -162,8 +170,23 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
           </div>
         </section>
 
+        {bank.error && (
+          <p role="alert" className="mb-6 rounded-xl border-2 border-ink bg-orange-soft p-4 text-sm font-semibold text-orange-dark">
+            The questions for this topic could not be loaded ({bank.error}). Please refresh to try again.
+          </p>
+        )}
+        {!bank.questions && !bank.error && (
+          <p className="mb-6 text-sm font-semibold text-ink-soft">Loading questions…</p>
+        )}
+        {bank.questions && !questions.length && (
+          <p className="mb-6 rounded-xl border-2 border-ink bg-card p-4 text-sm font-semibold text-ink-soft">
+            No questions have been published for this topic yet.
+          </p>
+        )}
+
         <SubtopicGrid
-          config={topicConfig}
+          topic={topicConfig}
+          subtopics={subtopics}
           questions={questions}
           completedQuestions={completedIds}
         />
@@ -216,4 +239,4 @@ export function BiologyTopicPage({ config }: BiologyTopicPageProps) {
   );
 }
 
-export default BiologyTopicPage;
+export default TopicPage;

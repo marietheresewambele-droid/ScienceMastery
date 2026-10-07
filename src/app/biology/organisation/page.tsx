@@ -1,6 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { organisationConfig } from "@/data/topics/organisation";
+import TopicPage from "@/components/topic/TopicPage";
 
-export default function OrganisationPage() {
-  return <BiologyTopicPage config={organisationConfig} />;
+export default function Page() {
+  return <TopicPage subject="biology" slug="organisation" />;
 }

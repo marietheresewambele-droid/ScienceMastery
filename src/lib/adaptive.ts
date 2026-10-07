@@ -42,7 +42,8 @@ export interface LearningStore {
   recordBookmark(key: string, bookmarked: boolean): void;
 }
 
-const STORAGE_KEY = "brainsoma_adaptive_v1";
+// v2: progress was reset when questions moved to the subject/topic/subtopic bank.
+const STORAGE_KEY = "brainsoma_adaptive_v2";
 const emptySnapshot = (): LearningSnapshot => ({ attempts: [], mastery: {} });
 
 export class LocalLearningStore implements LearningStore {

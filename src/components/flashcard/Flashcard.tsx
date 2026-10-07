@@ -135,7 +135,7 @@ export default function Flashcard({
             >
               <p className="text-xs font-bold uppercase tracking-widest text-ink-soft">Hint {Math.min(hintLevel, 2)} of 2</p>
               <div className="mt-2 space-y-2">
-                <p>{activeHint}</p>
+                <p className="whitespace-pre-line">{activeHint}</p>
               </div>
               {hintLevel < 2 && <p className="mt-2 text-xs font-semibold text-ink-soft">Tap the lightbulb again for more support.</p>}
             </div>

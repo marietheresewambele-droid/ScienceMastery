@@ -3,10 +3,13 @@
 import Link from "next/link";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import { topicRegistry } from "@/data/topics/registry";
+import { useQuestionBank } from "@/lib/questionBank";
 export default function ChemistryPage(){
   const homeHref = useHomeHref();
   const topics = topicRegistry.filter((topic) => topic.subject === "chemistry");
-  const questionTotal = topics.reduce((total, topic) => total + topic.questions.length, 0);
+  const { questions } = useQuestionBank();
+  const countFor = (slug: string) => questions?.filter((question) => question.subject === "chemistry" && question.topicSlug === slug).length;
+  const questionTotal = questions ? questions.filter((question) => question.subject === "chemistry").length : "…";
 
   return <main className="min-h-screen bg-cream text-ink">
   <section className="border-b-2 border-ink bg-teal-soft"><div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
@@ -16,6 +19,6 @@ export default function ChemistryPage(){
     <p className="mt-4 max-w-3xl text-lg leading-8 text-ink-soft">Practise all ten AQA Chemistry topics with {questionTotal} questions from the Chemistry workbook, complete with model answers and isolated progress tracking.</p>
   </div></section>
   <section className="mx-auto grid max-w-7xl gap-5 px-4 py-12 sm:px-6 md:grid-cols-2">{topics.map(topic=><article key={topic.id} className="sm-panel flex flex-col justify-between p-7">
-    <div><div className="flex gap-2"><span className="rounded-md border-2 border-ink bg-teal px-3 py-1 text-xs font-bold text-white">{topic.topicNumber}</span><span className="rounded-md border-2 border-ink bg-card px-3 py-1 text-xs font-bold text-ink-soft">{topic.questions.length} questions</span></div><h2 className="mt-4 font-display text-2xl font-bold">{topic.title}</h2><p className="mt-2 leading-7 text-ink-soft">{topic.description}</p></div>
+    <div><div className="flex gap-2"><span className="rounded-md border-2 border-ink bg-teal px-3 py-1 text-xs font-bold text-white">{topic.topicNumber}</span><span className="rounded-md border-2 border-ink bg-card px-3 py-1 text-xs font-bold text-ink-soft">{countFor(topic.id) ?? "…"} questions</span></div><h2 className="mt-4 font-display text-2xl font-bold">{topic.title}</h2><p className="mt-2 leading-7 text-ink-soft">{topic.description}</p></div>
     <Link href={topic.route} className="sm-btn mt-6 inline-flex w-fit bg-teal px-6 py-3 text-white">Start {topic.title}</Link>
   </article>)}</section></main>}
