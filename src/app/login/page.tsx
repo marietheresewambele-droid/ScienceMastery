@@ -21,7 +21,10 @@ export default function LoginPage() {
     try {
       const { error: loginError } = await getSupabaseBrowserClient().auth.signInWithPassword({ email: email.trim(), password });
       if (loginError) return setError(loginError.message.toLowerCase().includes("invalid login") ? "The email or password is incorrect." : loginError.message);
-      router.replace("/dashboard");
+      const next = new URLSearchParams(window.location.search).get("next");
+      // Only follow same-site paths ("/x", not "//host" or "/\host") so ?next= can't redirect off-site.
+      const safeNext = next && /^\/(?![/\\])/.test(next) ? next : "/dashboard";
+      router.replace(safeNext);
       router.refresh();
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "We could not sign you in. Please try again.");
