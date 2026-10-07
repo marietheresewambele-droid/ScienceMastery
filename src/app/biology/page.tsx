@@ -3,11 +3,14 @@
 import Link from "next/link";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import { topicRegistry } from "@/data/topics/registry";
+import { useQuestionBank } from "@/lib/questionBank";
 
 export default function BiologyPage() {
   const homeHref = useHomeHref();
   const topics = topicRegistry.filter((topic) => topic.subject === "biology");
-  const questionTotal = topics.reduce((total, topic) => total + topic.questions.length, 0);
+  const { questions } = useQuestionBank();
+  const countFor = (slug: string) => questions?.filter((question) => question.subject === "biology" && question.topicSlug === slug).length;
+  const questionTotal = questions ? questions.filter((question) => question.subject === "biology").length : "…";
 
   return <main className="min-h-screen bg-cream text-ink">
     <section className="border-b-2 border-ink bg-moss-soft"><div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
@@ -20,7 +23,7 @@ export default function BiologyPage() {
       {topics.map(topic => <article key={topic.id} className="sm-panel flex flex-col justify-between p-7">
         <div><div className="flex gap-2">
           <span className="rounded-md border-2 border-ink bg-moss px-3 py-1 text-xs font-bold text-white">{topic.topicNumber}</span>
-          <span className="rounded-md border-2 border-ink bg-card px-3 py-1 text-xs font-bold text-ink-soft">{topic.questions.length} questions</span>
+          <span className="rounded-md border-2 border-ink bg-card px-3 py-1 text-xs font-bold text-ink-soft">{countFor(topic.id) ?? "…"} questions</span>
         </div><h2 className="mt-4 font-display text-2xl font-bold">{topic.title}</h2><p className="mt-2 leading-7 text-ink-soft">{topic.description}</p></div>
         <Link href={topic.route} className="sm-btn mt-6 inline-flex w-fit bg-moss px-6 py-3 text-white">Start {topic.title}</Link>
       </article>)}

@@ -1,63 +1,74 @@
-import { cellBiologyConfig } from "./cell-biology";
-import { organisationConfig } from "./organisation";
-import { infectionAndResponseConfig } from "./infection-and-response";
-import { bioenergeticsConfig } from "./bioenergetics";
-import { homeostasisAndResponseConfig } from "./homeostasis-and-response";
-import { inheritanceVariationAndEvolutionConfig } from "./inheritance-variation-and-evolution";
-import { ecologyConfig } from "./ecology";
-import { atomicStructureAndThePeriodicTableConfig } from "./atomic-structure-and-the-periodic-table";
-import { bondingStructureAndPropertiesOfMatterConfig } from "./bonding-structure-and-properties-of-matter";
-import { quantitativeChemistryConfig } from "./quantitative-chemistry";
-import { chemicalChangesConfig } from "./chemical-changes";
-import { energyChangesConfig } from "./energy-changes";
-import { rateAndExtentOfChemicalChangeConfig } from "./rate-and-extent-of-chemical-change";
-import { organicChemistryConfig } from "./organic-chemistry";
-import { chemicalAnalysisConfig } from "./chemical-analysis";
-import { chemistryOfTheAtmosphereConfig } from "./chemistry-of-the-atmosphere";
-import { usingResourcesConfig } from "./using-resources";
-import { physicsEnergyConfig } from "./physics-energy";
-import { physicsElectricityConfig } from "./physics-electricity";
-import { physicsParticleModelOfMatterConfig } from "./physics-particle-model-of-matter";
-import { physicsAtomicStructureConfig } from "./physics-atomic-structure";
-import { physicsForcesConfig } from "./physics-forces";
-import { physicsWavesConfig } from "./physics-waves";
-import { physicsMagnetismAndElectromagnetismConfig } from "./physics-magnetism-and-electromagnetism";
-import { physicsSpacePhysicsConfig } from "./physics-space-physics";
-import biologyWorkbookQuestions from "@/data/workbook-questions/biology.json";
-import chemistryWorkbookQuestions from "@/data/workbook-questions/chemistry.json";
-import physicsWorkbookQuestions from "@/data/workbook-questions/physics.json";
-import type { BiologyTopicConfig, MasteryQuestion } from "@/types/questions";
+import type { Subject, TopicDefinition } from "@/types/questions";
 
-const topicConfigs: BiologyTopicConfig[] = [
-  cellBiologyConfig, organisationConfig, infectionAndResponseConfig, bioenergeticsConfig,
-  homeostasisAndResponseConfig, inheritanceVariationAndEvolutionConfig, ecologyConfig,
-  atomicStructureAndThePeriodicTableConfig, bondingStructureAndPropertiesOfMatterConfig,
-  quantitativeChemistryConfig, chemicalChangesConfig, energyChangesConfig,
-  rateAndExtentOfChemicalChangeConfig, organicChemistryConfig, chemicalAnalysisConfig,
-  chemistryOfTheAtmosphereConfig, usingResourcesConfig, physicsEnergyConfig,
-  physicsElectricityConfig, physicsParticleModelOfMatterConfig, physicsAtomicStructureConfig,
-  physicsForcesConfig, physicsWavesConfig, physicsMagnetismAndElectromagnetismConfig,
-  physicsSpacePhysicsConfig,
+/**
+ * Static site metadata for every AQA topic. Questions and subtopics are NOT defined here:
+ * they come from the Supabase question bank (subjects -> topics -> subtopics -> questions).
+ * `number` is the workbook "Unit" (T1 -> 1) and must match public.topics in
+ * supabase/migrations/20261007120000_question_hierarchy.sql.
+ */
+export const SUBJECTS: { id: Subject; code: "BIO" | "CHEM" | "PHYS"; name: string }[] = [
+  { id: "biology", code: "BIO", name: "Biology" },
+  { id: "chemistry", code: "CHEM", name: "Chemistry" },
+  { id: "physics", code: "PHYS", name: "Physics" },
 ];
 
-const workbookQuestions = [
-  ...(biologyWorkbookQuestions as MasteryQuestion[]),
-  ...(chemistryWorkbookQuestions as MasteryQuestion[]),
-  ...(physicsWorkbookQuestions as MasteryQuestion[]),
-];
+type TopicSeed = [number: number, slug: string, title: string, description: string];
 
-export const topicRegistry = topicConfigs.map((config) => {
-  const questions = workbookQuestions.filter(
-    (question) => question.subject === (config.subject ?? "biology") && question.topicSlug === config.id,
-  );
-  const subtopics = [...new Set(questions.map((question) => question.subtopic))].map((title, index) => ({
-    id: `${title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-${index + 1}`,
+const TOPICS: Record<Subject, TopicSeed[]> = {
+  biology: [
+    [1, "cell-biology", "Cell Biology", "Review cell structure, microscopy, cell division, stem cells and transport in cells."],
+    [2, "organisation", "Organisation", "Study tissues, organs and organ systems in animals and plants, from enzymes to the heart and leaves."],
+    [3, "infection-and-response", "Infection and Response", "Practise communicable diseases, the immune system, vaccination, antibiotics and plant disease."],
+    [4, "bioenergetics", "Bioenergetics", "Review photosynthesis, respiration and metabolism, including limiting factors and exercise."],
+    [5, "homeostasis-and-response", "Homeostasis and Response", "Master the nervous system, hormones, blood glucose, reproduction and plant hormones."],
+    [6, "inheritance-variation-and-evolution", "Inheritance, Variation and Evolution", "Practise reproduction, genetics, variation, evolution and classification."],
+    [7, "ecology", "Ecology", "Review adaptation, ecosystems, biodiversity, trophic levels and food production."],
+  ],
+  chemistry: [
+    [1, "atomic-structure-and-the-periodic-table", "Atomic Structure and the Periodic Table", "Review atoms, elements, mixtures, atomic models and periodic trends through structured mastery practice."],
+    [2, "bonding-structure-and-properties-of-matter", "Bonding, Structure and Properties of Matter", "Master ionic, covalent and metallic bonding, material properties and nanoscience."],
+    [3, "quantitative-chemistry", "Quantitative Chemistry", "Practise chemical calculations, moles, reacting masses, yields, concentrations and uncertainty."],
+    [4, "chemical-changes", "Chemical Changes", "Review reactivity, extraction, acids, salts, electrolysis and redox reactions."],
+    [5, "energy-changes", "Energy Changes", "Practise exothermic and endothermic reactions, reaction profiles, bond energies, cells and fuel cells."],
+    [6, "rate-and-extent-of-chemical-change", "Rate and Extent of Chemical Change", "Review reaction rates, collision theory, reversible reactions and equilibrium."],
+    [7, "organic-chemistry", "Organic Chemistry", "Practise hydrocarbons, cracking, organic reactions and polymers."],
+    [8, "chemical-analysis", "Chemical Analysis", "Review purity, formulations, chromatography, gas tests, ion tests and instrumental methods."],
+    [9, "chemistry-of-the-atmosphere", "Chemistry of the Atmosphere", "Study atmospheric evolution, greenhouse gases, climate change and pollutants."],
+    [10, "using-resources", "Using Resources", "Review sustainable resources, water treatment, life-cycle assessment, materials and fertilisers."],
+  ],
+  physics: [
+    [1, "energy", "Energy", "Review energy stores, transfers, conservation, power, efficiency and energy resources."],
+    [2, "electricity", "Electricity", "Practise current, potential difference, resistance, circuits, domestic electricity and electrical energy."],
+    [3, "particle-model-of-matter", "Particle Model of Matter", "Master density, particle behaviour, internal energy, changes of state and gas pressure."],
+    [4, "atomic-structure", "Atomic Structure", "Review atoms, isotopes, nuclear radiation, half-life, hazards, fission and fusion."],
+    [5, "forces", "Forces", "Practise interactions, elasticity, moments, pressure, motion, momentum and force calculations."],
+    [6, "waves", "Waves", "Master wave properties, required practicals, electromagnetic waves and black-body radiation."],
+    [7, "magnetism-and-electromagnetism", "Magnetism and Electromagnetism", "Review magnetic fields, the motor effect, induction, generators and transformers."],
+    [8, "space-physics", "Space Physics", "Practise the solar system, stellar evolution, orbital motion, red-shift and the expanding universe."],
+  ],
+};
+
+export const topicRegistry: TopicDefinition[] = SUBJECTS.flatMap(({ id: subject, code }) =>
+  TOPICS[subject].map(([number, slug, title, description]) => ({
+    id: slug,
+    topicId: `${code}-T${String(number).padStart(2, "0")}`,
+    subject,
+    number,
     title,
-    description: "Practice questions for this subtopic.",
-  }));
+    description,
+    route: `/${subject}/${slug}`,
+    // "v2" namespaces started with the subject/topic/subtopic question bank; earlier local
+    // progress referenced the previous question IDs and was reset on purpose.
+    storageNamespace: `brainsoma_v2_${subject}_${slug.replace(/-/g, "_")}`,
+    examBoard: "AQA",
+    topicNumber: `Topic ${number}`,
+  })),
+);
 
-  return { ...config, questions, subtopics };
-});
+export type RegisteredTopic = TopicDefinition;
 
-export type RegisteredTopic = (typeof topicRegistry)[number];
+export function findTopic(subject: string, slug: string): TopicDefinition | undefined {
+  return topicRegistry.find((topic) => topic.subject === subject && topic.id === slug);
+}
+
 export const questionKey = (subject: string, topic: string, id: string) => `${subject}:${topic}:${id}`;

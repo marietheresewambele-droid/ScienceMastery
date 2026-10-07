@@ -1,3 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { physicsForcesConfig } from "@/data/topics/physics-forces";
-export default function PhysicsTopicPage(){ return <BiologyTopicPage config={physicsForcesConfig} />; }
+import TopicPage from "@/components/topic/TopicPage";
+
+export default function Page() {
+  return <TopicPage subject="physics" slug="forces" />;
+}

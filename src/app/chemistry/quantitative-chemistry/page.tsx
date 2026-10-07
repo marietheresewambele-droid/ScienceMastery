@@ -1,3 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { quantitativeChemistryConfig } from "@/data/topics/quantitative-chemistry";
-export default function QuantitativeChemistryPage(){ return <BiologyTopicPage config={quantitativeChemistryConfig} />; }
+import TopicPage from "@/components/topic/TopicPage";
+
+export default function Page() {
+  return <TopicPage subject="chemistry" slug="quantitative-chemistry" />;
+}

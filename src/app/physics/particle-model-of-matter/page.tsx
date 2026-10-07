@@ -1,3 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { physicsParticleModelOfMatterConfig } from "@/data/topics/physics-particle-model-of-matter";
-export default function PhysicsTopicPage(){ return <BiologyTopicPage config={physicsParticleModelOfMatterConfig} />; }
+import TopicPage from "@/components/topic/TopicPage";
+
+export default function Page() {
+  return <TopicPage subject="physics" slug="particle-model-of-matter" />;
+}

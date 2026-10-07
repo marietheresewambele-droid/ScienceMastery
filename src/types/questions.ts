@@ -19,58 +19,68 @@ export type AssessmentObjective =
   | "AO2/AO3"
   | "AO1/AO2/AO3";
 
+export type Subject = "biology" | "chemistry" | "physics";
+
+/** Workbook "Qualification" values (BrainSoma standard). */
+export type Qualification = "Combined and Separate Science" | "Separate Science only";
+/** Workbook "Tier" values (BrainSoma standard). */
+export type WorkbookTier = "Foundation and Higher" | "Foundation only" | "Higher only";
+
 export interface MasteryQuestion {
+  /** Canonical question ID, e.g. CHEM-T01-Q001. Challenge Me evidence uses its own IDs. */
   id: string;
-  subject: "biology" | "chemistry" | "physics";
+  subject: Subject;
   topicSlug: string;
   topic?: string;
-  unit?: string;
+  topicNumber?: number;
   subtopic: string;
+  /** Position of the subtopic within its topic (from public.subtopics.sort_order). */
+  subtopicOrder?: number;
+  /** Row order within the topic sheet. */
+  sortOrder?: number;
   question: string;
-  questionType?: "Short answer" | "Multiple choice" | "Calculation" | "Extended response";
-  imageFile?: string;
+  /** Workbook "Question Type", usually the command word (State, Explain, Calculate…). */
+  questionType?: string;
   marks: number;
   assessmentObjective: AssessmentObjective;
-  difficulty?: "Foundation" | "Higher" | "Both";
   commandWord?: string;
   specificationReference?: string;
   markingPoints: string[];
   modelAnswer?: string;
   tier?: "Foundation" | "Higher" | "Both";
+  qualification?: Qualification;
   gradeDemand?: string;
   questionFamily?: string;
-  originalSubtopic?: string;
-  /** Approved answer terms used to build scaffolded, fill-the-gap hints. */
-  hintKeywords?: string[];
-  hints?: [string, string];
+  /** Workbook "Key Terms": hidden from the model answer to build the hints. */
+  keyTerms?: string[];
+  legacyId?: string;
   prerequisiteIds?: string[];
   easierQuestionIds?: string[];
   parallelQuestionIds?: string[];
   harderQuestionIds?: string[];
-  misconceptionIds?: string[];
-  databaseId?: string;
-  adaptiveHints?: [string, string];
-  adaptiveRelationships?: Partial<Record<"prerequisite" | "diagnostic" | "easier" | "parallel" | "harder", string>>;
-
 }
 
-export interface BiologySubtopicConfig {
+export interface TopicDefinition {
+  /** Route slug, e.g. "energy-changes". */
   id: string;
+  /** Database topic id, e.g. CHEM-T05. */
+  topicId: string;
+  subject: Subject;
+  /** Workbook "Unit" number (T5 -> 5). */
+  number: number;
   title: string;
-  description?: string;
-}
-
-export interface BiologyTopicConfig {
-  id: string;
-  title: string;
-  description?: string;
+  description: string;
   route: string;
   storageNamespace: string;
-  questions: MasteryQuestion[];
-  subtopics: BiologySubtopicConfig[];
-  subject?: "biology" | "chemistry" | "physics";
-  examBoard?: string;
-  topicNumber?: string;
+  examBoard: string;
+  topicNumber: string;
+}
+
+export interface SubtopicSummary {
+  id: string;
+  title: string;
+  order: number;
+  questionCount: number;
 }
 
 export interface TopicMetadata {

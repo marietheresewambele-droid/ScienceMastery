@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BiologyTopicConfig, MasteryQuestion } from "@/types/questions";
+import type { MasteryQuestion, SubtopicSummary, TopicDefinition } from "@/types/questions";
 
 interface SubtopicCardProps {
   title: string;
@@ -89,13 +89,15 @@ function SubtopicCard({
 }
 
 interface SubtopicGridProps {
-  config: BiologyTopicConfig;
+  topic: TopicDefinition;
+  subtopics: SubtopicSummary[];
   questions: MasteryQuestion[];
   completedQuestions?: Set<string> | string[];
 }
 
 export default function SubtopicGrid({
-  config,
+  topic,
+  subtopics,
   questions,
   completedQuestions,
 }: SubtopicGridProps) {
@@ -111,12 +113,6 @@ export default function SubtopicGrid({
     });
   }
 
-  const subtopicCounts = new Map<string, number>();
-  config.subtopics.forEach((subtopic) => {
-    const count = questions.filter((q) => q.subtopic === subtopic.title).length;
-    subtopicCounts.set(subtopic.title, count);
-  });
-
   const getSubtopicCompletion = (subtopic: string): boolean => {
     const subtopicQuestions = questions.filter((q) => q.subtopic === subtopic);
     if (subtopicQuestions.length === 0) return false;
@@ -126,18 +122,17 @@ export default function SubtopicGrid({
   return (
     <section aria-labelledby="subtopics-heading">
       <h2 id="subtopics-heading" className="sr-only">
-        {config.title} Subtopics
+        {topic.title} Subtopics
       </h2>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {config.subtopics.map((subtopic) => {
-          const subject = config.subject ?? "biology";
-          const params = `subject=${subject}&topic=${config.id}&subtopic=${encodeURIComponent(subtopic.title)}`;
+        {subtopics.map((subtopic) => {
+          const params = `subject=${topic.subject}&topic=${topic.id}&subtopic=${encodeURIComponent(subtopic.title)}`;
           return (
             <SubtopicCard
               key={subtopic.id}
               title={subtopic.title}
-              description={subtopic.description || "Practice questions for this subtopic."}
-              questionCount={subtopicCounts.get(subtopic.title) || 0}
+              description={`${subtopic.questionCount} question${subtopic.questionCount === 1 ? "" : "s"}, from recall (AO1) to analysis (AO3).`}
+              questionCount={subtopic.questionCount}
               practiceHref={`/practice?mode=flashcards&${params}`}
               examHref={`/practice?mode=exam&${params}`}
               isCompleted={getSubtopicCompletion(subtopic.title)}

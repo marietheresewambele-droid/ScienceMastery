@@ -1,6 +1,5 @@
-import BiologyTopicPage from "@/components/topic/BiologyTopicPage";
-import { bioenergeticsConfig } from "@/data/topics/bioenergetics";
+import TopicPage from "@/components/topic/TopicPage";
 
-export default function BioenergeticsPage() {
-  return <BiologyTopicPage config={bioenergeticsConfig} />;
+export default function Page() {
+  return <TopicPage subject="biology" slug="bioenergetics" />;
 }

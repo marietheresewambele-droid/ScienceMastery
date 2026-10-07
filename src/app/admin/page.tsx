@@ -18,7 +18,7 @@ export default function AdminHomePage() {
             </Link>
             <Link href="/admin/questions/upload" className="sm-panel block p-6 transition hover:-translate-y-1">
               <h2 className="font-display text-xl font-bold">Upload a workbook</h2>
-              <p className="mt-2 text-sm leading-6 text-ink-soft">Import an .xlsx file from the &quot;Website Upload&quot; worksheet, with a preview and validation before saving.</p>
+              <p className="mt-2 text-sm leading-6 text-ink-soft">Import a BrainSoma standard workbook (one sheet per topic), with a preview and validation before saving.</p>
               <span className="mt-4 inline-block text-sm font-bold text-orange-dark">Open →</span>
             </Link>
           </div>

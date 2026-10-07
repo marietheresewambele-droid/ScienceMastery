@@ -10,12 +10,14 @@ import Achievements from "@/components/revision/Achievements";
 import ExamCalendar from "@/components/revision/ExamCalendar";
 import { adaptiveEngine, aggregateMastery } from "@/lib/adaptive";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
+import { useQuestionBank } from "@/lib/questionBank";
 
 export default function Dashboard() {
   const [ready, setReady] = useState(false);
   const [dataVersion, setDataVersion] = useState(0);
   const [adaptive, setAdaptive] = useState<{ secure: number; supported: number; developing: number; due: number } | null>(null);
   const homeHref = useHomeHref();
+  const bank = useQuestionBank();
   useEffect(() => setReady(true), []);
   useEffect(() => {
     const refresh = () => setDataVersion((value) => value + 1);
@@ -43,12 +45,14 @@ export default function Dashboard() {
   }, []);
 
   const data = useMemo(() => {
-    if (!ready) return null;
+    if (!ready || !bank.questions) return null;
     const now = Date.now();
     const adaptive = adaptiveEngine.getSnapshot();
+    const bankQuestions = bank.questions;
     const topics = topicRegistry.map((topic) => {
       const p = readProgress(topic);
-      const valid = new Set(topic.questions.map((q) => q.id));
+      const questions = bankQuestions.filter((q) => q.subject === topic.subject && q.topicSlug === topic.id);
+      const valid = new Set(questions.map((q) => q.id));
       const completed = [...p.completed].filter((id) => valid.has(id)).length;
       const bookmarks = [...p.bookmarks].filter((id) => valid.has(id)).length;
       const due = Object.entries(p.reviews).filter(([id, r]) => valid.has(id) && new Date(r.dueAt).getTime() <= now).length;
@@ -56,10 +60,10 @@ export default function Dashboard() {
         topic,
         completed,
         bookmarks,
-        masteryPercent: aggregateMastery(adaptive, topic.questions)[`topic:${topic.id}`]?.masteryPercent ?? 0,
+        masteryPercent: aggregateMastery(adaptive, questions)[`topic:${topic.id}`]?.masteryPercent ?? 0,
         due,
-        total: topic.questions.length,
-        percent: Math.round((completed / topic.questions.length) * 100),
+        total: questions.length,
+        percent: questions.length ? Math.round((completed / questions.length) * 100) : 0,
       };
     });
     const subjects = ["biology", "chemistry", "physics"].map((subject) => {
@@ -84,8 +88,9 @@ export default function Dashboard() {
       weak: [...ranked].reverse()[0],
       next,
     };
-  }, [ready, dataVersion]);
+  }, [ready, dataVersion, bank.questions]);
 
+  if (bank.error) return <main className="p-10 font-display">Your learning could not be loaded ({bank.error}). Please refresh to try again.</main>;
   if (!data) return <main className="p-10 font-display">Loading your learning…</main>;
 
   return (
