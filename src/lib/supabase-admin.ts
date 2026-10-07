@@ -9,10 +9,13 @@ let adminClient: SupabaseClient | undefined;
  */
 export function getSupabaseAdminClient() {
   if (!adminClient) {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
+    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
     if (!supabaseUrl) throw new Error("Missing NEXT_PUBLIC_SUPABASE_URL environment variable");
     if (!serviceRoleKey) throw new Error("Missing SUPABASE_SERVICE_ROLE_KEY environment variable");
+    if (!/^https:\/\/[^\s"']+$/.test(supabaseUrl)) {
+      throw new Error("NEXT_PUBLIC_SUPABASE_URL is not a valid https URL - remove any quotes or spaces and use the bare project URL");
+    }
 
     adminClient = createClient(supabaseUrl, serviceRoleKey, {
       auth: { persistSession: false, autoRefreshToken: false },
