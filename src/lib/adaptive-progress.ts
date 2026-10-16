@@ -5,6 +5,30 @@ import type { MasteryQuestion } from "@/types/questions";
 // Only question bank questions have a public.question_catalog row to attach evidence to.
 const BANK_QUESTION_ID = /^(BIO|CHEM|PHYS)-T\d{2}-Q\d{3,}$/;
 
+/**
+ * Mirrors a bookmark into public.student_bookmarks so admins can see which questions students
+ * save. localStorage stays the source of truth for the UI; failures are silent and non-blocking.
+ */
+export async function syncBookmarks(questionIds: string[], bookmarked: boolean) {
+  const ids = [...new Set(questionIds)].filter((id) => BANK_QUESTION_ID.test(id));
+  if (!ids.length || !process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY) return;
+  try {
+    const supabase = getSupabaseBrowserClient();
+    const { data: auth } = await supabase.auth.getUser();
+    if (!auth.user) return;
+    if (bookmarked) {
+      await supabase.from("student_bookmarks").upsert(
+        ids.map((question_id) => ({ user_id: auth.user.id, question_id })),
+        { onConflict: "user_id,question_id", ignoreDuplicates: true },
+      );
+    } else {
+      await supabase.from("student_bookmarks").delete().eq("user_id", auth.user.id).in("question_id", ids);
+    }
+  } catch {
+    // Analytics only - never interrupt revision.
+  }
+}
+
 export async function recordAdaptiveAttempt({
   question,
   evidence,
