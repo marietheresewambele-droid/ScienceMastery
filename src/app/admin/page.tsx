@@ -21,6 +21,11 @@ export default function AdminHomePage() {
               <p className="mt-2 text-sm leading-6 text-ink-soft">Import a BrainSoma standard workbook (one sheet per topic), with a preview and validation before saving.</p>
               <span className="mt-4 inline-block text-sm font-bold text-orange-dark">Open →</span>
             </Link>
+            <Link href="/admin/analytics" className="sm-panel block p-6 transition hover:-translate-y-1">
+              <h2 className="font-display text-xl font-bold">Student learning</h2>
+              <p className="mt-2 text-sm leading-6 text-ink-soft">Accounts, hint use, incorrect answers, bookmarks and topic-level trends across all students.</p>
+              <span className="mt-4 inline-block text-sm font-bold text-orange-dark">Open →</span>
+            </Link>
           </div>
         </div>
       </main>

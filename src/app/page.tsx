@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AuthButtons } from "@/components/auth/AuthButtons";
 
 const subjects = [
   { name:"Biology", code:"AQA 8461", topics:7, questions:595, route:"/biology", colour:"var(--color-moss)", dark:"var(--color-moss-dark)", soft:"var(--color-moss-soft)", names:["Cell Biology","Organisation","Infection & Response","Bioenergetics","Homeostasis","Inheritance","Ecology"] },
@@ -35,10 +36,7 @@ export default function Home() {
           <a href="#features" className="hover:text-orange">Features</a>
           <a href="#how" className="hover:text-orange">How it works</a>
         </nav>
-        <div className="flex items-center gap-2">
-          <Link href="/login" className="hidden rounded-xl px-3 py-2.5 text-sm font-bold text-ink-soft hover:text-orange sm:block">Sign in</Link>
-          <Link href="/signup" className="sm-btn bg-orange px-4 py-2.5 text-sm text-white">Create account</Link>
-        </div>
+        <AuthButtons variant="landing" />
       </div>
     </header>
 

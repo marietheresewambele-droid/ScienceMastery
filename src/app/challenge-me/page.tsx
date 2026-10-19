@@ -4,6 +4,7 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { AuthButtons } from "@/components/auth/AuthButtons";
 import { challengeRegistry } from "@/data/challenges/registry";
 import { useHomeHref } from "@/hooks/useHomeHref";
 
@@ -39,7 +40,7 @@ export default function ChallengeMePage() {
           <Link href={homeHref} className="font-display font-bold">
             Sci<span className="text-orange">Mastery</span>
           </Link>
-          <Link href="/dashboard" className="font-bold text-orange-dark">My Learning</Link>
+          <AuthButtons />
         </div>
       </header>
 

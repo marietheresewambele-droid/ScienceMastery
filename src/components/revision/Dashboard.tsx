@@ -3,6 +3,7 @@
 /* eslint-disable react-hooks/set-state-in-effect, react-hooks/purity */
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { AuthButtons } from "@/components/auth/AuthButtons";
 import { topicRegistry } from "@/data/topics/registry";
 import { readProgress } from "@/lib/progress";
 import { useHomeHref } from "@/hooks/useHomeHref";
@@ -105,6 +106,7 @@ export default function Dashboard() {
             <Link href="/#features" className="hover:text-orange-dark">Features</Link>
             <Link href="/#how" className="hover:text-orange-dark">How it works</Link>
             <Link href="/practice" className="text-orange-dark">Revision centre</Link>
+            <AuthButtons showDashboard={false} />
           </nav>
         </div>
       </header>

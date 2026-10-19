@@ -3,11 +3,12 @@
 /* Client-only localStorage hydration is intentionally performed after mount. */
 /* eslint-disable react-hooks/set-state-in-effect, react-hooks/purity, react-hooks/exhaustive-deps */
 import Link from "next/link";
+import { AuthButtons } from "@/components/auth/AuthButtons";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { topicRegistry } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
 import { nextAdaptiveQuestion } from "@/lib/adaptive-engine";
-import { recordAdaptiveAttempt } from "@/lib/adaptive-progress";
+import { recordAdaptiveAttempt, syncBookmarks } from "@/lib/adaptive-progress";
 import { compareQuestions, loadQuestionBank } from "@/lib/questionBank";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard from "@/components/flashcard/Flashcard";
@@ -100,6 +101,13 @@ export default function RevisionCenter({
   }, [ready]);
 
   const isExam = mode === "exam";
+
+  // One-off backfill: bookmarks made before they were mirrored to Supabase only exist in localStorage.
+  useEffect(() => {
+    if (!ready) return;
+    const ids = topicRegistry.flatMap((topic) => [...readProgress(topic).bookmarks]);
+    void syncBookmarks(ids, true);
+  }, [ready]);
 
 
   const all = useMemo(() => {
@@ -238,7 +246,7 @@ export default function RevisionCenter({
           <Link href={homeHref} className="font-display font-bold">
             Sci<span className="text-orange">Mastery</span>
           </Link>
-          <Link href="/dashboard" className="font-bold text-orange-dark">My Learning</Link>
+          <AuthButtons />
         </div>
       </header>
       <div className="mx-auto max-w-7xl px-4 py-10">
@@ -408,7 +416,8 @@ export default function RevisionCenter({
               isExam={isExam}
               bookmarked={current.bookmarked}
               onToggleBookmark={() => {
-                toggleBookmark(current.topic, current.question.id);
+                const nowBookmarked = toggleBookmark(current.topic, current.question.id);
+                void syncBookmarks([current.question.id], nowBookmarked);
                 setSession((items) => items.map((item, itemIndex) =>
                   itemIndex === index ? { ...item, bookmarked: !item.bookmarked } : item,
                 ));
