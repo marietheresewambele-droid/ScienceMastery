@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { AuthButtons } from "@/components/auth/AuthButtons";
 import { TopicMetadata } from "@/types/questions";
 import { useHomeHref } from "@/hooks/useHomeHref";
 
@@ -54,6 +55,7 @@ export default function TopicHeader({ metadata }: TopicHeaderProps) {
           >
             Back to home
           </Link>
+          <AuthButtons />
         </nav>
 
         {/* Mobile view */}
@@ -67,6 +69,7 @@ export default function TopicHeader({ metadata }: TopicHeaderProps) {
           >
             Home
           </Link>
+          <AuthButtons showDashboard={false} />
         </div>
       </div>
     </header>

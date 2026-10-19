@@ -3,6 +3,7 @@
 /* Client-only localStorage hydration is intentionally performed after mount. */
 /* eslint-disable react-hooks/set-state-in-effect, react-hooks/purity, react-hooks/exhaustive-deps */
 import Link from "next/link";
+import { AuthButtons } from "@/components/auth/AuthButtons";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { topicRegistry } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
@@ -245,7 +246,7 @@ export default function RevisionCenter({
           <Link href={homeHref} className="font-display font-bold">
             Sci<span className="text-orange">Mastery</span>
           </Link>
-          <Link href="/dashboard" className="font-bold text-orange-dark">My Learning</Link>
+          <AuthButtons />
         </div>
       </header>
       <div className="mx-auto max-w-7xl px-4 py-10">

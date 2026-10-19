@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { AuthLayout, errorClass, fieldClass, primaryButtonClass } from "@/components/auth/AuthLayout";
+import { GoogleSignInButton } from "@/components/auth/GoogleSignInButton";
+import { safeNextPath } from "@/lib/safe-next";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
 export default function LoginPage() {
@@ -21,9 +23,7 @@ export default function LoginPage() {
     try {
       const { error: loginError } = await getSupabaseBrowserClient().auth.signInWithPassword({ email: email.trim(), password });
       if (loginError) return setError(loginError.message.toLowerCase().includes("invalid login") ? "The email or password is incorrect." : loginError.message);
-      const next = new URLSearchParams(window.location.search).get("next");
-      // Only follow same-site paths ("/x", not "//host" or "/\host") so ?next= can't redirect off-site.
-      const safeNext = next && /^\/(?![/\\])/.test(next) ? next : "/dashboard";
+      const safeNext = safeNextPath(new URLSearchParams(window.location.search).get("next"));
       router.replace(safeNext);
       router.refresh();
     } catch (caught) {
@@ -34,6 +34,7 @@ export default function LoginPage() {
   }
 
   return <AuthLayout eyebrow="Welcome back" title="Sign in to SciMastery" description="Continue from where you left off and keep building your GCSE science mastery.">
+    <GoogleSignInButton />
     <form className="space-y-5" onSubmit={submit}>
       <label className="block text-sm font-bold">Email address<input className={fieldClass} type="email" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="email" placeholder="you@example.com" required /></label>
       <label className="block text-sm font-bold">Password<div className="relative"><input className={`${fieldClass} pr-16`} type={showPassword ? "text" : "password"} value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="current-password" placeholder="Your password" required /><button className="absolute right-4 top-[1.3rem] text-xs font-black text-orange-dark" type="button" onClick={() => setShowPassword((shown) => !shown)}>{showPassword ? "Hide" : "Show"}</button></div></label>

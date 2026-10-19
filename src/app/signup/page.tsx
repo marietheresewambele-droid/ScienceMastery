@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { AuthLayout, errorClass, fieldClass, primaryButtonClass } from "@/components/auth/AuthLayout";
 import { readableAuthEmailError } from "@/lib/auth-error";
+import { GoogleSignInButton } from "@/components/auth/GoogleSignInButton";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
 
 function passwordError(password: string) {
@@ -88,6 +89,7 @@ export default function SignUpPage() {
   }
 
   return <AuthLayout eyebrow="Create your account" title="Start mastering science" description="Create a free account to keep your progress across Biology, Chemistry and Physics. Supabase will email you a verification link after signup.">
+    <GoogleSignInButton label="Sign up with Google" />
     <form className="space-y-5" onSubmit={submit}>
       <label className="block text-sm font-bold">First name<input className={fieldClass} value={firstName} onChange={(event) => setFirstName(event.target.value)} autoComplete="given-name" placeholder="Your first name" required /></label>
       <label className="block text-sm font-bold">Email address<input className={fieldClass} type="email" value={email} onChange={(event) => setEmail(event.target.value)} autoComplete="email" placeholder="you@example.com" required /></label>
