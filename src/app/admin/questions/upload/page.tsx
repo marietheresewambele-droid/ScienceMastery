@@ -30,10 +30,21 @@ interface PreviewRow {
   assessmentObjective: string;
   tier: string;
   qualification: string;
+  difficulty?: string;
   keyTerms: string[];
 }
 
+interface ImportDiff {
+  new: number;
+  updated: number;
+  unchanged: number;
+  newRows: { id: string; question: string }[];
+  updatedRows: { id: string; question: string; changes: string[] }[];
+}
+
 interface ParseResponse {
+  diff?: ImportDiff;
+  invalidTags?: WorkbookIssue[];
   questionCount: number;
   errorCount: number;
   warningCount: number;
@@ -180,6 +191,30 @@ function UploadForm() {
               <span className="rounded-md border-2 border-ink bg-yellow-soft px-3 py-1">{result.warningCount} warning(s)</span>
             </div>
 
+            {result.diff && (
+              <div className="mt-5" aria-label="Import preview">
+                <h3 className="font-display text-lg font-semibold">What this import will do</h3>
+                <div className="mt-3 grid gap-3 sm:grid-cols-4">
+                  {([["New questions", result.diff.new, "bg-moss-soft"], ["Updated questions", result.diff.updated, "bg-yellow-soft"], ["Unchanged", result.diff.unchanged, "bg-card"], ["Invalid tags", result.invalidTags?.length ?? 0, (result.invalidTags?.length ?? 0) ? "bg-orange-soft" : "bg-card"]] as const).map(([label, value, tone]) => (
+                    <div key={label} className={`rounded-xl border-2 border-ink p-4 ${tone}`}><p className="text-xs font-bold uppercase text-ink-soft">{label}</p><p className="mt-1 font-display text-3xl font-bold">{value}</p></div>
+                  ))}
+                </div>
+                {result.diff.newRows.length > 0 && (
+                  <details className="mt-3"><summary className="cursor-pointer font-semibold">New questions (showing {result.diff.newRows.length} of {result.diff.new})</summary>
+                    <ul className="mt-2 max-h-56 space-y-1 overflow-y-auto text-sm">{result.diff.newRows.map((row) => <li key={row.id} className="rounded-lg border-2 border-ink/20 bg-card p-2"><strong>{row.id}</strong> {row.question}</li>)}</ul>
+                  </details>
+                )}
+                {result.diff.updatedRows.length > 0 && (
+                  <details className="mt-3"><summary className="cursor-pointer font-semibold">Updated questions (showing {result.diff.updatedRows.length} of {result.diff.updated})</summary>
+                    <ul className="mt-2 max-h-56 space-y-1 overflow-y-auto text-sm">{result.diff.updatedRows.map((row) => <li key={row.id} className="rounded-lg border-2 border-ink/20 bg-card p-2"><strong>{row.id}</strong> changes: {row.changes.join(", ")}</li>)}</ul>
+                  </details>
+                )}
+                {(result.invalidTags?.length ?? 0) > 0 && (
+                  <ul className="mt-3 max-h-56 space-y-1 overflow-y-auto text-sm">{result.invalidTags!.map((issue, index) => <li key={index} className="rounded-lg border-2 border-ink bg-orange-soft p-2 text-orange-dark">{issueLabel(issue) && <strong>{issueLabel(issue)}: </strong>}{issue.message}</li>)}</ul>
+                )}
+              </div>
+            )}
+
             {errors.length > 0 && (
               <div className="mt-5">
                 <h3 className="font-display text-lg font-semibold">Errors ({errors.length})</h3>
@@ -233,7 +268,7 @@ function UploadForm() {
                   <table className="w-full min-w-[860px] text-left text-sm">
                     <thead className="bg-ink text-cream">
                       <tr>
-                        {["Question ID", "Subtopic", "Question", "Marks", "AO", "Tier", "Key terms"].map((header) => (
+                        {["Question ID", "Subtopic", "Question", "Marks", "AO", "Coverage", "Tier", "Difficulty", "Key terms"].map((header) => (
                           <th key={header} className="px-3 py-2 font-bold">{header}</th>
                         ))}
                       </tr>
@@ -246,7 +281,9 @@ function UploadForm() {
                           <td className="max-w-xs px-3 py-2">{row.question}</td>
                           <td className="px-3 py-2">{row.marks}</td>
                           <td className="px-3 py-2">{row.assessmentObjective}</td>
+                          <td className="px-3 py-2">{row.qualification === "Separate Science only" ? "Separate only" : "Shared"}</td>
                           <td className="px-3 py-2">{row.tier}</td>
+                          <td className="px-3 py-2">{row.difficulty || "—"}</td>
                           <td className="px-3 py-2">{row.keyTerms.join("; ") || "—"}</td>
                         </tr>
                       ))}
