@@ -18,7 +18,7 @@ const TIERS: CourseTier[] = ["Higher", "Foundation"];
 
 const selectClass = "mt-1 w-full rounded-xl border-2 border-ink bg-card p-2.5 font-normal outline-none focus:border-orange";
 const choiceClass = (active: boolean) =>
-  `rounded-xl border-2 border-ink px-5 py-3 font-display font-semibold transition hover:-translate-y-0.5 ${active ? "bg-ink text-cream" : "bg-card text-ink"}`;
+  `rounded-lg border-2 border-ink px-3.5 py-1.5 font-display text-sm font-semibold transition hover:-translate-y-0.5 ${active ? "bg-ink text-cream" : "bg-card text-ink"}`;
 
 /**
  * Qualification -> subject -> (science, for Combined) -> exam board -> tier.
@@ -104,25 +104,25 @@ export default function CourseSelector({
   }
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-5">
       {showTier && (
-        <div className="flex flex-wrap items-center gap-3 rounded-2xl border-2 border-ink bg-yellow-soft p-4" role="group" aria-label="Tier">
-          <span className="text-sm font-extrabold uppercase tracking-wide">Tier</span>
+        <div className="flex flex-wrap items-center gap-2.5 rounded-xl border-2 border-ink bg-yellow-soft px-3 py-2.5" role="group" aria-label="Tier">
+          <span className="text-xs font-extrabold uppercase tracking-wide">Tier</span>
           {TIERS.map((value) => (
             <button key={value} type="button" aria-pressed={tier === value} onClick={() => update({ tier: value })} className={choiceClass(tier === value)}>{value}</button>
           ))}
         </div>
       )}
       <section>
-        <h2 className="font-display text-xl font-bold">1. Qualification</h2>
-        <div className="mt-3 flex flex-wrap gap-3">
+        <h2 className="font-display text-base font-bold">1. Qualification</h2>
+        <div className="mt-2 flex flex-wrap gap-2">
           <button type="button" aria-pressed={qualification === "GCSE"} onClick={() => update({ qualification: "GCSE", group: "", science: "", board: "" })} className={choiceClass(qualification === "GCSE")}>GCSE</button>
         </div>
       </section>
       {showSubjects && (
         <section>
-          <h2 className="font-display text-xl font-bold">2. Subject</h2>
-          <div className="mt-3 flex flex-wrap gap-3">
+          <h2 className="font-display text-base font-bold">2. Subject</h2>
+          <div className="mt-2 flex flex-wrap gap-2">
             {GROUPS.map((item) => (
               <button key={item.id} type="button" aria-pressed={group === item.id} onClick={() => update({ group: item.id, science: "", board: "" })} className={choiceClass(group === item.id)}>{item.label}</button>
             ))}
@@ -131,8 +131,8 @@ export default function CourseSelector({
       )}
       {showScience && (
         <section>
-          <h2 className="font-display text-xl font-bold">Which Combined Science?</h2>
-          <div className="mt-3 flex flex-wrap gap-3">
+          <h2 className="font-display text-base font-bold">Which Combined Science?</h2>
+          <div className="mt-2 flex flex-wrap gap-2">
             {SCIENCES.map((id) => (
               <button key={id} type="button" aria-pressed={science === id} onClick={() => update({ science: id, board: "" })} className={choiceClass(science === id)}>{SUBJECT_NAMES[id]}</button>
             ))}
@@ -141,8 +141,8 @@ export default function CourseSelector({
       )}
       {showBoard && (
         <section>
-          <h2 className="font-display text-xl font-bold">3. Exam board</h2>
-          <div className="mt-3 flex flex-wrap gap-3">
+          <h2 className="font-display text-base font-bold">3. Exam board</h2>
+          <div className="mt-2 flex flex-wrap gap-2">
             <button type="button" aria-pressed={board === "AQA"} onClick={() => update({ board: "AQA" })} className={choiceClass(board === "AQA")}>AQA</button>
           </div>
         </section>

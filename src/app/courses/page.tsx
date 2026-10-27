@@ -16,6 +16,9 @@ export default function CoursesPage() {
   const { courses } = useCourses();
   const bank = useQuestionBank({ unfiltered: true });
   const [draft, setDraft] = useState<Draft | null>(null);
+  // Remounting the selector clears it, so another course can be picked right after one is added.
+  const [selectorKey, setSelectorKey] = useState(0);
+  const [justAdded, setJustAdded] = useState("");
 
   const topics = draft ? topicRegistry.filter((topic) => topic.subject === draft.subject) : [];
   const alreadyAdded = draft ? courses.some((course) => course.id === courseId(draft)) : false;
@@ -55,7 +58,8 @@ export default function CoursesPage() {
           </section>
         )}
 
-        <div className="mt-10"><CourseSelector variant="cards" onSelect={setDraft} /></div>
+        {justAdded && <p role="status" className="mt-8 rounded-xl border-2 border-ink bg-moss-soft p-3 text-sm font-semibold text-moss-dark">{justAdded} added to your dashboard. Choose another course below to add more, or <Link href="/dashboard" className="underline">go to your dashboard</Link>.</p>}
+        <div className="mt-8"><CourseSelector key={selectorKey} variant="cards" onSelect={(next) => { setDraft(next); if (next) setJustAdded(""); }} /></div>
 
         {draft && (
           <section className="mt-12">
@@ -64,8 +68,13 @@ export default function CoursesPage() {
                 <h2 className="font-display text-2xl font-bold">{SUBJECT_NAMES[draft.subject]} topics</h2>
                 <p className="mt-1 text-sm font-semibold text-ink-soft">{SUBJECT_NAMES[draft.subject]} · {courseLabel({ ...draft, id: "" })}</p>
               </div>
-              <button type="button" disabled={alreadyAdded} onClick={() => addCourse(draft)} className="sm-btn bg-orange px-6 py-3 text-white disabled:opacity-50">
-                {alreadyAdded ? "Added to dashboard ✓" : "Add course to dashboard"}
+              <button type="button" disabled={alreadyAdded} onClick={() => {
+                  addCourse(draft);
+                  setJustAdded(`${SUBJECT_NAMES[draft.subject]} · ${courseLabel({ ...draft, id: "" })}`);
+                  setDraft(null);
+                  setSelectorKey((value) => value + 1);
+                }} className="sm-btn bg-orange px-5 py-2.5 text-sm text-white disabled:opacity-50">
+                {alreadyAdded ? "Already on your dashboard ✓" : "Add course to dashboard"}
               </button>
             </div>
             <div className="mt-6 grid gap-5 md:grid-cols-2">
