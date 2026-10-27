@@ -31,16 +31,14 @@ const COLUMNS = {
   questionType: "Question Type",
   keyTerms: "Key Terms",
   sourceNotes: "Source / Notes",
-  difficulty: "Difficulty",
 } as const;
 type Column = keyof typeof COLUMNS;
 
-const OPTIONAL_COLUMNS: Column[] = ["legacyId", "sourceNotes", "difficulty"];
+const OPTIONAL_COLUMNS: Column[] = ["legacyId", "sourceNotes"];
 export const REQUIRED_HEADERS = (Object.keys(COLUMNS) as Column[]).filter((key) => !OPTIONAL_COLUMNS.includes(key)).map((key) => COLUMNS[key]);
 
 const QUALIFICATIONS: Qualification[] = ["Combined and Separate Science", "Separate Science only"];
 const TIERS: WorkbookTier[] = ["Foundation and Higher", "Foundation only", "Higher only"];
-const DIFFICULTIES = ["Core", "Standard", "Stretch"] as const;
 const OBJECTIVES = ["AO1", "AO2", "AO3"] as const;
 const ID_PATTERN = /^(BIO|CHEM|PHYS)-T(\d{2})-Q(\d{3,})$/;
 const NUMBERED_SUBTOPIC = /^(\d+)\.(\d+)\s/;
@@ -63,7 +61,6 @@ export interface WorkbookQuestionRow {
   questionType: string;
   keyTerms: string[];
   sourceNotes: string;
-  difficulty: string;
   /** Position within its topic sheet, used to keep the workbook's question order. */
   sortOrder: number;
   sheet: string;
@@ -205,9 +202,6 @@ export function parseBrainsomaWorkbook(buffer: Buffer | ArrayBuffer): WorkbookPa
       const tier = matchOption(cell("tier"), TIERS);
       if (cell("tier") && !tier) fail(`Tier must be "${TIERS.join('", "')}" (found "${cell("tier")}").`);
 
-      const difficulty = matchOption(cell("difficulty"), DIFFICULTIES);
-      if (cell("difficulty") && !difficulty) fail(`Difficulty must be "${DIFFICULTIES.join('", "')}" (found "${cell("difficulty")}").`);
-
       if (issues.length > errorsBefore) return;
       if (tier === "Foundation only") warn('Tier "Foundation only" is no longer a valid tag (Foundation content stays available to Higher students). Retag it as "Foundation and Higher" or "Higher only".');
 
@@ -238,7 +232,6 @@ export function parseBrainsomaWorkbook(buffer: Buffer | ArrayBuffer): WorkbookPa
         questionType: cell("questionType"),
         keyTerms,
         sourceNotes: cell("sourceNotes"),
-        difficulty: difficulty ?? "",
         sortOrder: sortOrder++,
         sheet: sheetName,
         row: rowNumber,

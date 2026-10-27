@@ -30,7 +30,6 @@ interface PreviewRow {
   assessmentObjective: string;
   tier: string;
   qualification: string;
-  difficulty?: string;
   keyTerms: string[];
 }
 
@@ -268,7 +267,7 @@ function UploadForm() {
                   <table className="w-full min-w-[860px] text-left text-sm">
                     <thead className="bg-ink text-cream">
                       <tr>
-                        {["Question ID", "Subtopic", "Question", "Marks", "AO", "Coverage", "Tier", "Difficulty", "Key terms"].map((header) => (
+                        {["Question ID", "Subtopic", "Question", "Marks", "AO", "Coverage", "Tier", "Key terms"].map((header) => (
                           <th key={header} className="px-3 py-2 font-bold">{header}</th>
                         ))}
                       </tr>
@@ -283,7 +282,6 @@ function UploadForm() {
                           <td className="px-3 py-2">{row.assessmentObjective}</td>
                           <td className="px-3 py-2">{row.qualification === "Separate Science only" ? "Separate only" : "Shared"}</td>
                           <td className="px-3 py-2">{row.tier}</td>
-                          <td className="px-3 py-2">{row.difficulty || "—"}</td>
                           <td className="px-3 py-2">{row.keyTerms.join("; ") || "—"}</td>
                         </tr>
                       ))}
