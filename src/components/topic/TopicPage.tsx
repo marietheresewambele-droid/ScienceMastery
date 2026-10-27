@@ -136,38 +136,6 @@ export function TopicPage({ subject, slug }: TopicPageProps) {
               </div>
             </div>
           </div>
-
-          <div className="mt-6 sm-panel-sm p-5">
-            <h2 className="font-display text-lg font-semibold text-ink">
-              How flashcard practice works
-            </h2>
-            <div className="mt-3 grid gap-4 sm:grid-cols-3">
-              <div>
-                <p className="text-sm font-semibold text-ink">
-                  1. Answer from memory
-                </p>
-                <p className="mt-1 text-sm leading-6 text-ink-soft">
-                  Attempt each question without looking at the marking points first.
-                </p>
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-ink">
-                  2. Flip the card
-                </p>
-                <p className="mt-1 text-sm leading-6 text-ink-soft">
-                  Reveal the verified marking points and compare with your answer.
-                </p>
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-ink">
-                  3. Self-assess
-                </p>
-                <p className="mt-1 text-sm leading-6 text-ink-soft">
-                  Rate yourself Again, Hard, Good or Easy to schedule your next review.
-                </p>
-              </div>
-            </div>
-          </div>
         </section>
 
         {bank.error && (
@@ -184,45 +152,42 @@ export function TopicPage({ subject, slug }: TopicPageProps) {
           </p>
         )}
 
+        <section aria-labelledby="whole-topic-heading" className="mb-10 rounded-3xl border-2 border-ink bg-ink p-5 text-cream shadow-[5px_5px_0_0_var(--color-orange)] sm:p-7">
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 id="whole-topic-heading" className="font-display text-2xl font-bold">Study the whole topic</h2>
+              <p className="mt-1 max-w-xl text-sm leading-6 text-cream/70">
+                Every subtopic in {topicConfig.title} in order{totalQuestions > 0 ? `, ${totalQuestions} questions` : ""}. Or pick a single subtopic below.
+              </p>
+            </div>
+            <Link href={`/practice?mode=bookmarks&subject=${subject}&topic=${topicConfig.id}`} className="text-sm font-bold text-yellow underline-offset-4 hover:underline">
+              Review bookmarked cards →
+            </Link>
+          </div>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            <Link href={`/practice?mode=flashcards&subject=${subject}&topic=${topicConfig.id}`} className="flex items-center gap-4 rounded-2xl border-2 border-ink bg-card p-4 text-ink transition hover:-translate-y-1">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display text-lg font-bold">P</span>
+              <span>
+                <span className="block font-display text-lg font-semibold">Practice mode</span>
+                <span className="block text-sm leading-5 text-ink-soft">Flashcards for the whole topic, scheduled by spaced repetition.</span>
+              </span>
+            </Link>
+            <Link href={`/practice?mode=exam&subject=${subject}&topic=${topicConfig.id}`} className="flex items-center gap-4 rounded-2xl border-2 border-ink bg-card p-4 text-ink transition hover:-translate-y-1">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border-2 border-ink bg-orange font-display text-lg font-bold text-white">E</span>
+              <span>
+                <span className="block font-display text-lg font-semibold">Exam mode</span>
+                <span className="block text-sm leading-5 text-ink-soft">Answer the whole topic, mark yourself, and get a final score.</span>
+              </span>
+            </Link>
+          </div>
+        </section>
+
         <SubtopicGrid
           topic={topicConfig}
           subtopics={subtopics}
           questions={questions}
           completedQuestions={completedIds}
         />
-
-        <section className="mt-12 rounded-3xl border-2 border-ink bg-ink p-6 text-cream sm:p-8">
-          <h2 className="mb-4 font-display text-2xl font-bold text-cream">
-            Whole-topic review
-          </h2>
-          <p className="-mt-2 mb-5 max-w-2xl text-sm leading-6 text-cream/70">
-            Choose a subtopic above for focused practice, or review the complete topic here.
-          </p>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <Link href={`/practice?mode=flashcards&subject=${subject}&topic=${topicConfig.id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display font-bold text-ink">P</div>
-              <h3 className="mt-3 font-display text-lg font-semibold text-ink">Practice Mode</h3>
-              <p className="mt-2 text-sm leading-6 text-ink-soft">Spaced-repetition flashcards: cards that are due or new in this topic.</p>
-              <span className="mt-3 text-sm font-bold text-orange-dark">Start practice flashcards →</span>
-            </Link>
-            <Link href={`/practice?mode=exam&subject=${subject}&topic=${topicConfig.id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display font-bold text-ink">E</div>
-              <h3 className="mt-3 font-display text-lg font-semibold text-ink">Exam Mode</h3>
-              <p className="mt-2 text-sm leading-6 text-ink-soft">Reveal the answer, mark yourself correct or wrong and get a final score.</p>
-              <span className="mt-3 text-sm font-bold text-orange-dark">Start exam practice →</span>
-            </Link>
-            <Link href={`/practice?mode=bookmarks&subject=${subject}&topic=${topicConfig.id}`} className="flex flex-col items-start rounded-2xl border-2 border-ink bg-card p-5 text-ink transition hover:-translate-y-1">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl border-2 border-ink bg-yellow font-display font-bold text-ink">B</div>
-              <h3 id="bookmarked-title" className="mt-3 font-display text-lg font-semibold text-ink">
-                Review Bookmarked
-              </h3>
-              <p className="mt-2 text-sm leading-6 text-ink-soft">
-                Revisit questions you have bookmarked for later review.
-              </p>
-              <span className="mt-3 text-sm font-bold text-orange-dark">Review bookmarks →</span>
-            </Link>
-          </div>
-        </section>
       </main>
     </div>
   );
