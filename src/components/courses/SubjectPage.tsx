@@ -8,7 +8,7 @@ import { AuthButtons } from "@/components/auth/AuthButtons";
 import { topicRegistry } from "@/data/topics/registry";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import { SUBJECT_NAMES, addCourse, courseId, removeCourse, useCourses, type CoursePathway, type CourseTier } from "@/lib/courses";
-import { useQuestionBank } from "@/lib/questionBank";
+import { useQuestionBank, visibleForCourse } from "@/lib/questionBank";
 import type { Subject } from "@/types/questions";
 
 const THEME: Record<Subject, { soft: string; solid: string; dark: string }> = {
@@ -28,15 +28,16 @@ const optionLabel = (option: { pathway: CoursePathway; tier: CourseTier }) =>
 
 export default function SubjectPage({ subject }: { subject: Subject }) {
   const homeHref = useHomeHref();
-  const { questions } = useQuestionBank();
+  // Counts follow the course selected in the dropdown, whether or not it is saved yet.
+  const { questions: allQuestions } = useQuestionBank({ unfiltered: true });
   const { courses, ready } = useCourses();
   const theme = THEME[subject];
   const name = SUBJECT_NAMES[subject];
   const topics = topicRegistry.filter((topic) => topic.subject === subject);
-  const countFor = (slug: string) => questions?.filter((q) => q.subject === subject && q.topicSlug === slug).length;
-  const questionTotal = questions ? questions.filter((q) => q.subject === subject).length : "…";
-
   const [selected, setSelected] = useState(OPTIONS[0]);
+  const questions = allQuestions?.filter((q) => q.subject === subject && visibleForCourse(q, selected.pathway, selected.tier));
+  const countFor = (slug: string) => questions?.filter((q) => q.topicSlug === slug).length;
+  const questionTotal = questions ? questions.length : "…";
   const [seeded, setSeeded] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -114,7 +115,7 @@ export default function SubjectPage({ subject }: { subject: Subject }) {
           </div>
           <Link href={`/practice?mode=flashcards&subject=${subject}`} className="sm-btn bg-card px-6 py-3.5 text-ink">Study multiple subtopics →</Link>
         </div>
-        <p className="mt-6 max-w-3xl leading-7 text-ink-soft">Practise all {topics.length} AQA {name} topics with {questionTotal} questions, complete with model answers and progress tracking.</p>
+        <p className="mt-6 max-w-3xl leading-7 text-ink-soft">Practise all {topics.length} AQA {name} topics with {questionTotal} questions for {optionLabel(selected)}, complete with model answers and progress tracking.{!saved && " Save this course (the tick) to practise only its questions."}</p>
       </section>
     </div>
 

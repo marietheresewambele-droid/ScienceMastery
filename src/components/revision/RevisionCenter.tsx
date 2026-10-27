@@ -8,7 +8,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { topicRegistry } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
 import { recordAdaptiveAttempt, syncBookmarks } from "@/lib/adaptive-progress";
-import { compareQuestions, loadQuestionBank } from "@/lib/questionBank";
+import { compareQuestions, useQuestionBank } from "@/lib/questionBank";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard, { HINTS_HIDDEN } from "@/components/flashcard/Flashcard";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
@@ -83,25 +83,14 @@ export default function RevisionCenter({
   const [restored, setRestored] = useState(false);
   const [hintLevel, setHintLevel] = useState(0);
   const [startedAt, setStartedAt] = useState(Date.now());
-  const [bankQuestions, setBankQuestions] = useState<MasteryQuestion[] | null>(null);
-  const [bankError, setBankError] = useState("");
 
   const autoStarted = useRef(false);
   const homeHref = useHomeHref();
 
   useEffect(() => setReady(true), []);
 
-  // Every mode reads the published Supabase question bank (loaded once and cached).
-  useEffect(() => {
-    if (!ready) return;
-    let cancelled = false;
-    setBankError("");
-    loadQuestionBank().then(
-      (questions) => { if (!cancelled) setBankQuestions(questions); },
-      (error: unknown) => { if (!cancelled) setBankError(error instanceof Error ? error.message : "The question bank could not be loaded."); },
-    );
-    return () => { cancelled = true; };
-  }, [ready]);
+  // Every mode reads the published question bank, narrowed to the student's saved courses.
+  const { questions: bankQuestions, error: bankError } = useQuestionBank();
 
   const isExam = mode === "exam";
 

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { COMBINATIONS, reviewReasons, visibleTo } from "@/lib/courseVisibility";
+import { COMBINATIONS, reviewReasons, toggleCombination, visibleTo } from "@/lib/courseVisibility";
 
 const SHARED = "Combined and Separate Science";
 const SEPARATE = "Separate Science only";
@@ -25,4 +25,23 @@ test("legacy and missing tags are flagged for review", () => {
   assert.deepEqual(reviewReasons({ qualification: SHARED, tier: BOTH }), []);
   assert.equal(reviewReasons({ qualification: SHARED, tier: "Foundation only" }).length, 1);
   assert.equal(reviewReasons({ qualification: null, tier: null }).length, 2);
+});
+
+test("clicking a course picks the nearest valid setting", () => {
+  const tripleHigher = COMBINATIONS[3];
+  const combinedFoundation = COMBINATIONS[0];
+  const combinedHigher = COMBINATIONS[1];
+  const everywhere = { qualification: SHARED, tier: BOTH };
+  // Triple Higher always shows every question, so it cannot be removed.
+  assert.equal(toggleCombination(everywhere, tripleHigher), null);
+  // Removing Combined Foundation also drops Triple Foundation (it shares the tier tag); coverage stays shared.
+  const noCombinedFoundation = toggleCombination(everywhere, combinedFoundation);
+  assert.deepEqual([noCombinedFoundation?.qualification, noCombinedFoundation?.tier], [SHARED, HIGHER]);
+  assert.deepEqual(noCombinedFoundation?.alsoChanged, ["Triple · Foundation"]);
+  // Removing Combined Higher leaves it Triple-only, so Combined Foundation goes too.
+  const noCombinedHigher = toggleCombination(everywhere, combinedHigher);
+  assert.deepEqual([noCombinedHigher?.qualification, noCombinedHigher?.tier], [SEPARATE, BOTH]);
+  // Adding Combined Foundation to a Triple-Higher-only question makes it appear everywhere.
+  const added = toggleCombination({ qualification: SEPARATE, tier: HIGHER }, combinedFoundation);
+  assert.deepEqual([added?.qualification, added?.tier], [SHARED, BOTH]);
 });

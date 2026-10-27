@@ -7,20 +7,20 @@ import CourseSelector from "@/components/courses/CourseSelector";
 import { topicRegistry } from "@/data/topics/registry";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import { SUBJECT_NAMES, addCourse, courseLabel, courseId, removeCourse, useCourses, type Course } from "@/lib/courses";
-import { useQuestionBank } from "@/lib/questionBank";
+import { useQuestionBank, visibleForCourse } from "@/lib/questionBank";
 
 type Draft = Omit<Course, "id">;
 
 export default function CoursesPage() {
   const homeHref = useHomeHref();
   const { courses } = useCourses();
-  const bank = useQuestionBank();
+  const bank = useQuestionBank({ unfiltered: true });
   const [draft, setDraft] = useState<Draft | null>(null);
 
   const topics = draft ? topicRegistry.filter((topic) => topic.subject === draft.subject) : [];
   const alreadyAdded = draft ? courses.some((course) => course.id === courseId(draft)) : false;
   const countFor = (subject: string, slug: string) =>
-    bank.questions?.filter((question) => question.subject === subject && question.topicSlug === slug).length;
+    bank.questions?.filter((question) => question.subject === subject && question.topicSlug === slug && (!draft || visibleForCourse(question, draft.pathway, draft.tier))).length;
 
   return (
     <main className="min-h-screen bg-cream text-ink">
