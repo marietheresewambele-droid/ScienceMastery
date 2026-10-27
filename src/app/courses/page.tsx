@@ -88,7 +88,11 @@ export default function CoursesPage() {
                     <h3 className="mt-2 font-display text-base font-bold">{topic.title}</h3>
                     <p className="mt-1 text-xs leading-5 text-ink-soft">{topic.description}</p>
                   </div>
-                  <Link href={topic.route} className="mt-3 inline-flex w-fit rounded-lg border-2 border-ink bg-moss px-3 py-1 text-xs font-bold text-white">Open topic</Link>
+                  <div className="mt-3 flex flex-wrap items-center gap-1.5">
+                    <Link href={`/practice?mode=flashcards&subject=${topic.subject}&topic=${topic.id}`} className="rounded-lg border-2 border-ink bg-moss px-3 py-1 text-xs font-bold text-white">Practice</Link>
+                    <Link href={`/practice?mode=exam&subject=${topic.subject}&topic=${topic.id}`} className="rounded-lg border-2 border-ink bg-card px-3 py-1 text-xs font-bold text-ink">Exam</Link>
+                    <Link href={topic.route} className="ml-1 text-xs font-bold text-orange-dark hover:underline">Subtopics →</Link>
+                  </div>
                 </article>
               ))}
             </div>
