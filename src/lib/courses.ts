@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { markDirty } from "@/lib/sync";
 import type { Subject } from "@/types/questions";
 
 export type CourseTier = "Higher" | "Foundation";
@@ -44,6 +45,7 @@ export function readCourses(): Course[] {
 function writeCourses(courses: Course[]) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(courses));
+    markDirty(STORAGE_KEY);
     window.dispatchEvent(new Event(EVENT));
   } catch { /* storage unavailable */ }
 }

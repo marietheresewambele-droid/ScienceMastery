@@ -9,6 +9,7 @@ import { topicRegistry } from "@/data/topics/registry";
 import { readProgress, saveRating, toggleBookmark } from "@/lib/progress";
 import { recordAdaptiveAttempt, syncBookmarks } from "@/lib/adaptive-progress";
 import { compareQuestions, useQuestionBank } from "@/lib/questionBank";
+import { useActivity } from "@/lib/activity";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Flashcard, { HINTS_HIDDEN } from "@/components/flashcard/Flashcard";
 import type { MasteryQuestion, ReviewRating } from "@/types/questions";
@@ -84,6 +85,7 @@ export default function RevisionCenter({
   const [hintLevel, setHintLevel] = useState(0);
   const [startedAt, setStartedAt] = useState(Date.now());
 
+  const activity = useActivity();
   const autoStarted = useRef(false);
   const homeHref = useHomeHref();
 
@@ -446,6 +448,7 @@ export default function RevisionCenter({
               </div>
             )}
             {!isExam && <p className="mt-3 text-ink-soft">You reviewed {session.length} card{session.length === 1 ? "" : "s"}. Your due counts are up to date.</p>}
+            <p className="mt-3 text-sm font-bold">{activity.goalMet ? `Daily goal reached: ${activity.today}/${activity.goal} cards today.` : `${activity.today}/${activity.goal} cards today. ${activity.goal - activity.today} more to hit your daily goal.`}{activity.streak > 0 && ` ${activity.streak}-day streak.`}</p>
             <div className="mt-6 flex flex-wrap justify-center gap-3">
               <button onClick={restart} className="sm-btn bg-orange px-6 py-3 text-white">{isExam ? "Retake exam" : "Start another"}</button>
               <Link href="/dashboard" className="sm-btn bg-card px-6 py-3 text-ink">Back to dashboard</Link>
@@ -459,6 +462,7 @@ export default function RevisionCenter({
               <Link href={current.topic.route} className="sm-btn bg-card px-4 py-2 text-sm text-ink">← Back to topic: {current.topic.title}</Link>
               <span className="text-sm font-bold">
                 {labels[mode]} · {index + 1} of {session.length}{isExam && ` · Score ${correct}/${index}`}
+                <span className={`ml-2 rounded-md border-2 border-ink px-2 py-0.5 text-xs ${activity.goalMet ? "bg-moss-soft text-moss-dark" : "bg-yellow-soft"}`}>Today {activity.today}/{activity.goal}{activity.streak > 0 && ` · ${activity.streak}-day streak`}</span>
               </span>
             </div>
             <div className="mb-3 text-sm font-bold">{current.topic.title} · {current.question.subtopic}</div>

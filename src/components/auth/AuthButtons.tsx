@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
+import { flushSync } from "@/lib/sync";
 
 type Variant = "landing" | "compact";
 
@@ -27,6 +28,8 @@ export function AuthButtons({ variant = "compact", showDashboard = true }: { var
 
   async function signOut() {
     setBusy(true);
+    // Upload any pending progress first: signing out clears this device's copy.
+    try { await flushSync(); } catch { /* sync is best-effort */ }
     await getSupabaseBrowserClient().auth.signOut();
     setBusy(false);
     router.replace("/");
