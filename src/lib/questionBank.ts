@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/supabase";
+import { useCourses, type Course, type CoursePathway, type CourseTier } from "@/lib/courses";
 import type { MasteryQuestion, Qualification, Subject, SubtopicSummary, WorkbookTier } from "@/types/questions";
 
 /** One row of the public.question_bank view (subjects -> topics -> subtopics -> questions). */
@@ -114,8 +115,32 @@ export function loadQuestionBank(): Promise<MasteryQuestion[]> {
   return cache;
 }
 
-export function useQuestionBank(): { questions: MasteryQuestion[] | null; error: string } {
+/** Same rules as the admin matrix: Separate-only hides from Combined, Higher-only hides from Foundation. */
+export function visibleForCourse(question: MasteryQuestion, pathway: CoursePathway, tier: CourseTier): boolean {
+  if (question.qualification === "Separate Science only" && pathway === "combined") return false;
+  if (question.tier === "Higher" && tier === "Foundation") return false;
+  return true;
+}
+
+/**
+ * Narrows a deck to the student's saved courses. A subject with no saved course is left whole, and a
+ * subject with several saved courses shows anything visible to at least one of them.
+ */
+export function filterForCourses(questions: MasteryQuestion[], courses: Pick<Course, "subject" | "pathway" | "tier">[]): MasteryQuestion[] {
+  if (!courses.length) return questions;
+  return questions.filter((question) => {
+    const mine = courses.filter((course) => course.subject === question.subject);
+    return !mine.length || mine.some((course) => visibleForCourse(question, course.pathway, course.tier));
+  });
+}
+
+/**
+ * The published question bank. By default it is filtered to the student's saved courses; pass
+ * `unfiltered` to get every question (used to show counts for a course before it is saved).
+ */
+export function useQuestionBank({ unfiltered = false }: { unfiltered?: boolean } = {}): { questions: MasteryQuestion[] | null; error: string } {
   const [state, setState] = useState<{ questions: MasteryQuestion[] | null; error: string }>({ questions: null, error: "" });
+  const { courses, ready } = useCourses();
   useEffect(() => {
     let cancelled = false;
     loadQuestionBank().then(
@@ -126,5 +151,9 @@ export function useQuestionBank(): { questions: MasteryQuestion[] | null; error:
     );
     return () => { cancelled = true; };
   }, []);
-  return state;
+  const questions = useMemo(
+    () => (state.questions && (unfiltered || ready) ? (unfiltered ? state.questions : filterForCourses(state.questions, courses)) : null),
+    [state.questions, courses, ready, unfiltered],
+  );
+  return { questions, error: state.error };
 }

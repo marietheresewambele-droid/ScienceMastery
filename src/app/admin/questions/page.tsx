@@ -15,6 +15,7 @@ import {
   TIER_LABEL,
   TIER_VALUES,
   reviewReasons,
+  toggleCombination,
   visibleTo,
   type Combination,
 } from "@/lib/courseVisibility";
@@ -204,6 +205,10 @@ function ManageQuestionsView() {
   const [selected, setSelected] = useState<Map<string, BankQuestion>>(new Map());
   const [bulk, setBulk] = useState({ qualification: "", tier: "", subtopic: "" });
   const [bulkMessage, setBulkMessage] = useState("");
+  const [chipNote, setChipNote] = useState("");
+  // "Select all matching": bulk tagging applies to every question the current filters match, across all pages.
+  const [allMatching, setAllMatching] = useState(false);
+  useEffect(() => { setAllMatching(false); }, [filters, search]);
 
   const setFilter = (patch: Record<string, string>) => {
     setFilters((current) => ({ ...current, ...patch }));
@@ -338,6 +343,7 @@ function ManageQuestionsView() {
     setSaveError("");
     setEditorMode("new");
     setNewSubtopic(false);
+    setChipNote("");
     setEditor({ ...emptyForm });
   }
 
@@ -390,37 +396,46 @@ function ManageQuestionsView() {
     }
   }
 
-  const toggleSelected = (row: BankQuestion) =>
+  const toggleSelected = (row: BankQuestion) => {
+    setAllMatching(false);
     setSelected((current) => {
       const next = new Map(current);
       if (next.has(row.id)) next.delete(row.id); else next.set(row.id, row);
       return next;
     });
+  };
   const pageSelected = !!data?.rows.length && data.rows.every((row) => selected.has(row.id));
-  const togglePage = () =>
+  const togglePage = () => {
+    setAllMatching(false);
     setSelected((current) => {
       const next = new Map(current);
       for (const row of data?.rows ?? []) { if (pageSelected) next.delete(row.id); else next.set(row.id, row); }
       return next;
     });
+  };
 
   // Subtopics can only be reassigned within one unit.
   const selectedTopics = [...new Set([...selected.values()].map((row) => row.topic_id))];
-  const bulkTopic = selectedTopics.length === 1 ? taxonomy.find((topic) => topic.id === selectedTopics[0]) : undefined;
+  const bulkTopic = allMatching
+    ? filterTopic
+    : selectedTopics.length === 1 ? taxonomy.find((topic) => topic.id === selectedTopics[0]) : undefined;
+  const bulkCount = allMatching ? data?.total ?? 0 : selected.size;
 
   async function applyBulk() {
+    if (allMatching && !window.confirm(`Apply these tags to all ${bulkCount} matching questions, including those on other pages?`)) return;
     setBulkMessage("");
     setActionError("");
     try {
       const response = await authorizedFetch("/api/admin/questions/bulk", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ids: [...selected.keys()], ...Object.fromEntries(Object.entries(bulk).filter(([, value]) => value)) }),
+        body: JSON.stringify({ ...(allMatching ? { filters: { ...filters, ...(search.trim() ? { search: search.trim() } : {}) } } : { ids: [...selected.keys()] }), ...Object.fromEntries(Object.entries(bulk).filter(([, value]) => value)) }),
       });
       const body = await response.json();
       if (!response.ok) { setActionError(body.error || "The tags could not be applied."); return; }
       setBulkMessage(`Updated ${body.updated} question${body.updated === 1 ? "" : "s"}.`);
       setSelected(new Map());
+      setAllMatching(false);
       setBulk({ qualification: "", tier: "", subtopic: "" });
       refreshAll();
     } catch (caught) {
@@ -467,8 +482,7 @@ function ManageQuestionsView() {
 
   const pages = data ? Math.max(1, Math.ceil(data.total / data.pageSize)) : 1;
   const editingExisting = editorMode === "edit";
-  const tierOptions = editor?.tier === LEGACY_TIER ? [...TIER_VALUES, LEGACY_TIER] : TIER_VALUES;
-
+  
   return (
     <main className="min-h-screen bg-cream px-4 py-10 text-ink sm:px-6">
       <div className="mx-auto max-w-7xl">
@@ -572,9 +586,17 @@ function ManageQuestionsView() {
           ))}
         </div>}
 
-        {selected.size > 0 && <section className="sticky top-2 z-30 mt-4 rounded-2xl border-2 border-ink bg-yellow-soft p-4 shadow-[4px_4px_0_0_var(--color-ink)]" aria-label="Bulk tagging">
+        {data && data.total > 0 && !allMatching && (
+          <p className="mt-3 text-sm font-semibold text-ink-soft">
+            Tick rows to tag them, or{" "}
+            <button type="button" onClick={() => { setSelected(new Map()); setAllMatching(true); }} className="font-bold text-orange-dark underline">select all {data.total} matching the filters</button>
+            {" "}(every page) to retag a whole unit or subtopic in one go.
+          </p>
+        )}
+
+        {(selected.size > 0 || allMatching) && <section className="sticky top-2 z-30 mt-4 rounded-2xl border-2 border-ink bg-yellow-soft p-4 shadow-[4px_4px_0_0_var(--color-ink)]" aria-label="Bulk tagging">
           <div className="flex flex-wrap items-end gap-3">
-            <p className="font-display text-lg font-bold">{selected.size} selected</p>
+            <p className="font-display text-lg font-bold">{allMatching ? `All ${bulkCount} matching` : `${selected.size} selected`}</p>
             <label className="text-xs font-bold">Coverage
               <select value={bulk.qualification} onChange={(event) => setBulk({ ...bulk, qualification: event.target.value })} className={`${fieldClass} !mt-0.5 !p-2`}>
                 <option value="">No change</option>
@@ -593,10 +615,10 @@ function ManageQuestionsView() {
                 {(bulkTopic?.subtopics ?? []).map((name) => <option key={name} value={name}>{name}</option>)}
               </select>
             </label>
-            <button onClick={() => void applyBulk()} disabled={!Object.values(bulk).some(Boolean)} className="sm-btn bg-orange px-5 py-2 text-sm text-white disabled:opacity-40">Apply to {selected.size}</button>
-            <button onClick={() => setSelected(new Map())} className="rounded-xl border-2 border-ink bg-card px-4 py-2 text-sm font-bold">Clear selection</button>
+            <button onClick={() => void applyBulk()} disabled={!Object.values(bulk).some(Boolean)} className="sm-btn bg-orange px-5 py-2 text-sm text-white disabled:opacity-40">Apply to {bulkCount}</button>
+            <button onClick={() => { setSelected(new Map()); setAllMatching(false); }} className="rounded-xl border-2 border-ink bg-card px-4 py-2 text-sm font-bold">Clear selection</button>
           </div>
-          {!bulkTopic && <p className="mt-2 text-xs font-semibold text-ink-soft">Subtopic can be changed only when every selected question is in the same unit.</p>}
+          {!bulkTopic && <p className="mt-2 text-xs font-semibold text-ink-soft">Subtopic can be changed only when every selected question is in the same unit (pick a Unit filter to move a whole unit).</p>}
         </section>}
         {bulkMessage && <p role="status" className="mt-4 rounded-xl border-2 border-ink bg-moss-soft p-3 text-sm font-semibold text-moss-dark">{bulkMessage}</p>}
 
@@ -754,24 +776,40 @@ function ManageQuestionsView() {
               <fieldset className="rounded-xl border-2 border-ink bg-cream-soft p-4 sm:col-span-2">
                 <legend className="px-2 text-sm font-extrabold uppercase tracking-wide">Where this question appears</legend>
                 <div className="grid gap-4 sm:grid-cols-2">
-                  <label className="text-sm font-bold">Content coverage
-                    <select value={editor.qualification} onChange={(event) => setEditor({ ...editor, qualification: event.target.value })} className={fieldClass}>
-                      <option value="Combined and Separate Science">Combined and Separate</option>
-                      <option value="Separate Science only">Separate only</option>
-                    </select>
-                  </label>
-                  <label className="text-sm font-bold">Tier availability
-                    <select value={editor.tier} onChange={(event) => setEditor({ ...editor, tier: event.target.value })} className={fieldClass}>
-                      {tierOptions.map((value) => <option key={value} value={value}>{value === LEGACY_TIER ? "Foundation only (legacy, retag)" : value}</option>)}
-                    </select>
-                  </label>
+                  <div role="group" aria-label="Content coverage">
+                    <p className="text-sm font-bold">Content coverage</p>
+                    <div className="mt-1 flex flex-wrap gap-2">
+                      {([["Combined and Separate Science", "Shared", "Combined + Triple"], ["Separate Science only", "Separate only", "Triple only"]] as const).map(([value, label, hint]) => (
+                        <button key={value} type="button" aria-pressed={editor.qualification === value} onClick={() => setEditor({ ...editor, qualification: value })} className={`rounded-xl border-2 border-ink px-4 py-2 text-left text-sm font-bold transition ${editor.qualification === value ? "bg-ink text-cream" : "bg-card hover:bg-yellow-soft"}`}>
+                          {label}<span className="block text-xs font-semibold opacity-70">{hint}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                  <div role="group" aria-label="Tier availability">
+                    <p className="text-sm font-bold">Tier availability</p>
+                    <div className="mt-1 flex flex-wrap gap-2">
+                      {([["Foundation and Higher", "FT + HT", "Foundation and Higher"], ["Higher only", "HT only", "Higher only"], ...(editor.tier === LEGACY_TIER ? [[LEGACY_TIER, "FT only", "Legacy: retag this"]] : [])] as const).map(([value, label, hint]) => (
+                        <button key={value} type="button" aria-pressed={editor.tier === value} onClick={() => setEditor({ ...editor, tier: value })} className={`rounded-xl border-2 border-ink px-4 py-2 text-left text-sm font-bold transition ${editor.tier === value ? "bg-ink text-cream" : "bg-card hover:bg-yellow-soft"}`}>
+                          {label}<span className="block text-xs font-semibold opacity-70">{hint}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-                <p className="mt-3 flex flex-wrap gap-2 text-xs font-bold">
+                <p className="mt-3 text-xs font-semibold text-ink-soft">Click a course to add or remove this question from it.</p>
+                <div className="mt-2 flex flex-wrap gap-2 text-xs font-bold">
                   {COMBINATIONS.map((combination) => {
                     const shown = visibleTo(editor, combination.pathway, combination.tier);
-                    return <span key={combination.label} className={`rounded-md border-2 border-ink px-2 py-1 ${shown ? "bg-moss-soft text-moss-dark" : "bg-card text-ink-soft line-through"}`}>{shown ? "✓" : "—"} {combination.label}</span>;
+                    const change = toggleCombination(editor, combination);
+                    return <button key={combination.label} type="button" aria-pressed={shown} disabled={!change} title={change ? (shown ? "Remove from this course" : "Add to this course") : "Triple · Higher always shows every question"} onClick={() => {
+                      if (!change) return;
+                      setEditor({ ...editor, qualification: change.qualification, tier: change.tier });
+                      setChipNote(change.alsoChanged.length ? `${combination.label} ${shown ? "removed" : "added"}; ${change.alsoChanged.join(" and ")} also ${shown ? "removed or changed" : "changed"} because they share the same tag.` : "");
+                    }} className={`rounded-md border-2 border-ink px-2 py-1 transition ${shown ? "bg-moss-soft text-moss-dark" : "bg-card text-ink-soft line-through"} ${change ? "hover:-translate-y-0.5" : "cursor-not-allowed opacity-80"}`}>{shown ? "✓" : "—"} {combination.label}</button>;
                   })}
-                </p>
+                </div>
+                {chipNote && <p role="status" className="mt-2 text-xs font-semibold text-orange-dark">{chipNote}</p>}
               </fieldset>
 
               <label className="text-sm font-bold">Marks<input type="number" min={1} max={6} value={editor.marks} onChange={(event) => setEditor({ ...editor, marks: Number(event.target.value) })} className={fieldClass} /></label>

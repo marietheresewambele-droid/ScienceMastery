@@ -46,3 +46,35 @@ export function reviewReasons(question: { qualification?: string | null; tier?: 
   if (!question.tier || !(TIER_VALUES as readonly string[]).includes(question.tier)) reasons.push("Tier tag missing or invalid");
   return reasons;
 }
+
+const SETTINGS = COVERAGE_VALUES.flatMap((qualification) => TIER_VALUES.map((tier) => ({ qualification: qualification as string, tier: tier as string })));
+const visibleLabels = (question: { qualification: string; tier: string }) =>
+  COMBINATIONS.filter((combination) => visibleTo(question, combination.pathway, combination.tier)).map((combination) => combination.label);
+
+/**
+ * Clicking a course in the editor adds or removes the question from it. Only four coverage x tier
+ * combinations exist, so this picks the nearest valid one: adding takes the smallest setting that
+ * keeps everything already shown, removing keeps as much else as possible (preferring to leave
+ * coverage alone). Returns null when the change is impossible: Triple Higher always shows every question.
+ */
+export function toggleCombination(
+  current: { qualification: string; tier: string },
+  combination: Combination,
+): { qualification: string; tier: string; alsoChanged: string[] } | null {
+  const now = new Set(visibleLabels(current));
+  const adding = !now.has(combination.label);
+  const options = SETTINGS.map((setting) => ({ setting, shown: new Set(visibleLabels(setting)) }));
+  let pick: (typeof options)[number] | undefined;
+  if (adding) {
+    pick = options
+      .filter((option) => option.shown.has(combination.label) && [...now].every((label) => option.shown.has(label)))
+      .sort((left, right) => left.shown.size - right.shown.size)[0];
+  } else {
+    pick = options
+      .filter((option) => !option.shown.has(combination.label) && option.shown.size > 0 && [...option.shown].every((label) => now.has(label)))
+      .sort((left, right) => right.shown.size - left.shown.size || Number(right.setting.qualification === current.qualification) - Number(left.setting.qualification === current.qualification))[0];
+  }
+  if (!pick) return null;
+  const alsoChanged = [...new Set([...now, ...pick.shown])].filter((label) => label !== combination.label && now.has(label) !== pick.shown.has(label));
+  return { ...pick.setting, alsoChanged };
+}

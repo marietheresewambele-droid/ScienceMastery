@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { requireAdmin } from "@/lib/adminApiAuth";
+import { applyQuestionFilters } from "@/lib/questionFilters";
 import { catalogColumns, parseQuestionInput, resolveSubtopicId, topicIdFromQuestionId } from "@/lib/questionBankAdmin";
 
 const PAGE_SIZE_MAX = 100;
@@ -13,35 +14,7 @@ export async function GET(request: Request) {
     const params = new URL(request.url).searchParams;
     const page = Math.max(1, Number(params.get("page") || "1") || 1);
     const pageSize = Math.min(PAGE_SIZE_MAX, Math.max(1, Number(params.get("pageSize") || "50") || 50));
-    const search = params.get("search")?.trim() || "";
-    const filters = [
-      ["subject", "subject"],
-      ["topic", "topic_slug"],
-      ["subtopic", "subtopic"],
-      ["tier", "tier"],
-      ["qualification", "qualification"],
-      ["grade", "grade"],
-      ["assessmentObjective", "assessment_objective"],
-    ] as const;
-
-    let query = auth.admin.from("question_bank").select(BANK_FIELDS, { count: "exact" });
-    for (const [param, column] of filters) {
-      const value = params.get(param)?.trim();
-      if (value) query = query.eq(column, value);
-    }
-    // Course / tier filters show what a student on that course sees (Triple sees everything; Foundation never sees Higher-only).
-    if (params.get("course") === "combined") query = query.eq("qualification", "Combined and Separate Science");
-    if (params.get("level") === "Foundation") query = query.neq("tier", "Higher only");
-    // Questions whose coverage/tier tag is missing or no longer part of the scheme.
-    if (params.get("needsReview") === "true") {
-      query = query.or("qualification.is.null,tier.is.null,tier.eq.Foundation only,qualification.not.in.(Combined and Separate Science,Separate Science only),tier.not.in.(Foundation and Higher,Higher only,Foundation only)");
-    }
-    const active = params.get("active");
-    if (active === "true" || active === "false") query = query.eq("active", active === "true");
-    if (search) {
-      const escaped = search.replace(/[%_,()]/g, (match) => `\\${match}`);
-      query = query.or(`id.ilike.%${escaped}%,question.ilike.%${escaped}%,model_answer.ilike.%${escaped}%`);
-    }
+    const query = applyQuestionFilters(auth.admin.from("question_bank").select(BANK_FIELDS, { count: "exact" }), params);
 
     const from = (page - 1) * pageSize;
     const [{ data: rows, error, count }, { count: allCount, error: totalError }, { count: activeCount, error: activeError }, { data: facets, error: facetError }] = await Promise.all([
