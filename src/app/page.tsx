@@ -84,7 +84,7 @@ export default function Home() {
       <div className="mx-auto max-w-2xl text-center"><p className="text-sm font-bold uppercase tracking-widest text-orange-dark">What we offer</p><h2 className="mt-3 font-display text-3xl font-bold sm:text-4xl">Everything you need to master GCSE Science</h2></div>
       <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{[
         ["Recall","Active recall","Flip questions into flashcards and rate every answer.","/practice?mode=flashcards"],
-        ["Mix","Targeted practice","Combine subjects, topics, tiers and assessment objectives.","/practice?mode=mixed"],
+        ["Exam","Exam mode","Choose subjects and topics, then sit a scored exam-mode session.","/practice?mode=exam"],
         ["Review","Spaced review","Clear questions due today in one cross-science queue.","/practice?mode=due"],
         ["Save","Bookmarking","Save difficult questions and revisit them whenever needed.","/practice?mode=bookmarks"],
         ["Track","Progress tracking","See completion, weak topics and your recommended next step.","/dashboard"]

@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import RequireAdmin from "@/components/admin/RequireAdmin";
 import { authorizedFetch } from "@/lib/adminFetch";
+import Flashcard from "@/components/flashcard/Flashcard";
+import type { MasteryQuestion } from "@/types/questions";
 
 type Subject = "biology" | "chemistry" | "physics";
 type AssessmentObjective = "AO1" | "AO2" | "AO3";
@@ -37,6 +39,8 @@ interface BankQuestion {
 
 interface QuestionForm {
   id: string;
+  subject: string;
+  topicId: string;
   subtopic: string;
   question: string;
   modelAnswer: string;
@@ -69,11 +73,50 @@ interface ListResponse {
   };
 }
 
+interface TaxonomyTopic {
+  id: string;
+  subject: string;
+  number: number;
+  name: string;
+  slug: string;
+  subtopics: string[];
+  nextNumber: number;
+}
+
+const NEW_SUBTOPIC = "__new__";
+const TIER_VALUES: Record<string, NonNullable<MasteryQuestion["tier"]>> = {
+  "Foundation and Higher": "Both",
+  "Foundation only": "Foundation",
+  "Higher only": "Higher",
+};
+
+/** Adapts a catalog row to the shape the student flashcard expects, so previews match the live deck. */
+function toFlashcardQuestion(row: BankQuestion): MasteryQuestion {
+  return {
+    id: row.id,
+    subject: row.subject,
+    topicSlug: row.topic_slug,
+    topic: row.topic,
+    topicNumber: row.topic_number,
+    subtopic: row.subtopic,
+    question: row.question,
+    questionType: row.question_type || undefined,
+    marks: row.marks,
+    assessmentObjective: row.assessment_objective,
+    modelAnswer: row.model_answer,
+    markingPoints: row.model_answer.split(/\n+/).map((point) => point.trim()).filter(Boolean),
+    tier: TIER_VALUES[row.tier],
+    keyTerms: row.key_terms?.length ? row.key_terms : undefined,
+  };
+}
+
 const QUALIFICATIONS = ["Combined and Separate Science", "Separate Science only"];
 const TIERS = ["Foundation and Higher", "Foundation only", "Higher only"];
 
 const emptyForm: QuestionForm = {
   id: "",
+  subject: "",
+  topicId: "",
   subtopic: "",
   question: "",
   modelAnswer: "",
@@ -95,6 +138,8 @@ const objectives: AssessmentObjective[] = ["AO1", "AO2", "AO3"];
 function formFromRecord(row: BankQuestion): QuestionForm {
   return {
     id: row.id,
+    subject: row.subject,
+    topicId: row.topic_id,
     subtopic: row.subtopic,
     question: row.question,
     modelAnswer: row.model_answer,
@@ -112,8 +157,10 @@ function formFromRecord(row: BankQuestion): QuestionForm {
 }
 
 function requestFromForm(form: QuestionForm) {
+  const { subject: _subject, topicId: _topicId, ...rest } = form;
+  void _subject; void _topicId;
   return {
-    ...form,
+    ...rest,
     id: form.id.trim(),
     marks: Number(form.marks),
     // Same convention as the workbook "Key Terms" column: semicolon separated.
@@ -137,6 +184,11 @@ function ManageQuestionsView() {
   const [saving, setSaving] = useState(false);
   const [saveError, setSaveError] = useState("");
   const [actionError, setActionError] = useState("");
+  const [taxonomy, setTaxonomy] = useState<TaxonomyTopic[]>([]);
+  const [previewId, setPreviewId] = useState<string | null>(null);
+  const [previewFlipped, setPreviewFlipped] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [newSubtopic, setNewSubtopic] = useState(false);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -161,9 +213,71 @@ function ManageQuestionsView() {
 
   useEffect(() => { void load(); }, [load]);
 
+  const loadTaxonomy = useCallback(async () => {
+    try {
+      const response = await authorizedFetch("/api/admin/questions/taxonomy");
+      if (response.ok) setTaxonomy((await response.json()).topics as TaxonomyTopic[]);
+    } catch { /* the editor falls back to typing a subtopic */ }
+  }, []);
+  useEffect(() => { void loadTaxonomy(); }, [loadTaxonomy]);
+
+  const topicsForSubject = (subject: string) => taxonomy.filter((topic) => topic.subject === subject);
+  const selectedTopic = editor ? taxonomy.find((topic) => topic.id === editor.topicId) : undefined;
+
+  function chooseTopic(topicId: string) {
+    if (!editor) return;
+    const topic = taxonomy.find((entry) => entry.id === topicId);
+    setNewSubtopic(false);
+    setEditor({
+      ...editor,
+      topicId,
+      subtopic: "",
+      id: topic ? `${topic.id}-Q${String(topic.nextNumber).padStart(3, "0")}` : "",
+    });
+  }
+
+  /** Uploads a pasted/chosen image and inserts it into the text field as ![image](url) at the cursor. */
+  async function insertImage(file: File, field: "question" | "modelAnswer", textarea: HTMLTextAreaElement | null) {
+    if (!editor) return;
+    setUploading(true);
+    setSaveError("");
+    try {
+      const body = new FormData();
+      body.append("file", file);
+      const response = await authorizedFetch("/api/admin/images", { method: "POST", body });
+      const result = await response.json();
+      if (!response.ok) { setSaveError(result.error || "The image could not be uploaded."); return; }
+      const markdown = `![image](${result.url})`;
+      const text = editor[field];
+      const at = textarea?.selectionStart ?? text.length;
+      const to = textarea?.selectionEnd ?? at;
+      setEditor((current) => current && ({ ...current, [field]: `${text.slice(0, at)}${at > 0 && !text.slice(0, at).endsWith("\n") ? "\n" : ""}${markdown}\n${text.slice(to)}` }));
+    } catch (caught) {
+      setSaveError(caught instanceof Error ? caught.message : "The image could not be uploaded.");
+    } finally {
+      setUploading(false);
+    }
+  }
+
+  function pasteImage(event: React.ClipboardEvent<HTMLTextAreaElement>, field: "question" | "modelAnswer") {
+    const file = [...event.clipboardData.files].find((item) => item.type.startsWith("image/"));
+    if (!file) return;
+    event.preventDefault();
+    void insertImage(file, field, event.currentTarget);
+  }
+
+  const imageControls = (field: "question" | "modelAnswer") => (
+    <span className="mt-1 flex flex-wrap items-center gap-3 text-xs font-normal text-ink-soft">
+      Paste an image (Ctrl/Cmd+V) into the box, or
+      <input type="file" accept="image/png,image/jpeg,image/gif,image/webp" disabled={uploading} onChange={(event) => { const file = event.target.files?.[0]; if (file) void insertImage(file, field, null); event.target.value = ""; }} className="max-w-[16rem] text-xs" />
+      {uploading && <strong>Uploading…</strong>}
+    </span>
+  );
+
   function startNew() {
     setSaveError("");
     setEditorMode("new");
+    setNewSubtopic(false);
     setEditor({ ...emptyForm });
   }
 
@@ -190,6 +304,7 @@ function ManageQuestionsView() {
       }
       setEditor(null);
       void load();
+      void loadTaxonomy();
     } catch (caught) {
       setSaveError(caught instanceof Error ? caught.message : "The question could not be saved.");
     } finally {
@@ -216,6 +331,13 @@ function ManageQuestionsView() {
     }
   }
 
+  const previewIndex = data && previewId ? data.rows.findIndex((row) => row.id === previewId) : -1;
+  const previewRow = previewIndex >= 0 ? data?.rows[previewIndex] : undefined;
+  function stepPreview(direction: 1 | -1) {
+    const next = data?.rows[previewIndex + direction];
+    if (next) { setPreviewFlipped(false); setPreviewId(next.id); }
+  }
+
   const pages = data ? Math.max(1, Math.ceil(data.total / data.pageSize)) : 1;
   const editingExisting = editorMode === "edit";
 
@@ -228,19 +350,29 @@ function ManageQuestionsView() {
             <p className="text-sm font-bold uppercase tracking-widest text-orange-dark">Question catalog</p>
             <h1 className="mt-2 font-display text-4xl font-bold">Manage questions</h1>
           </div>
-          <button onClick={startNew} className="sm-btn bg-orange px-5 py-3 text-white">Add question</button>
+          <div className="flex flex-wrap gap-3">
+            <button onClick={() => { if (data?.rows.length) { setPreviewFlipped(false); setPreviewId(data.rows[0].id); } }} disabled={!data?.rows.length} className="sm-btn bg-card px-5 py-3 text-ink disabled:opacity-40">Preview flashcards</button>
+            <button onClick={startNew} className="sm-btn bg-orange px-5 py-3 text-white">Add question</button>
+          </div>
         </div>
 
         {data && <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold">
-          <span className="rounded-md border-2 border-ink bg-card px-3 py-1">{data.totals.all} total</span>
-          <span className="rounded-md border-2 border-ink bg-moss-soft px-3 py-1 text-moss-dark">{data.totals.active} active</span>
-          <span className="rounded-md border-2 border-ink bg-cream-soft px-3 py-1 text-ink-soft">{data.totals.inactive} inactive</span>
+          {([["", "total", data.totals.all, "bg-card"], ["true", "active", data.totals.active, "bg-moss-soft text-moss-dark"], ["false", "inactive (unpublished)", data.totals.inactive, "bg-cream-soft text-ink-soft"]] as const).map(([value, label, number, tone]) => (
+            <button key={label} type="button" aria-pressed={(filters.active || "") === value} onClick={() => { setFilters((current) => ({ ...current, active: value })); setPage(1); }} className={`rounded-md border-2 border-ink px-3 py-1 ${tone} ${(filters.active || "") === value ? "ring-2 ring-orange" : ""}`}>{number} {label}</button>
+          ))}
         </div>}
 
         <section className="sm-panel mt-6 p-5">
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             <label className="text-sm font-bold sm:col-span-2">Search ID or question
               <input value={search} onChange={(event) => { setSearch(event.target.value); setPage(1); }} placeholder="Search catalog" className={fieldClass} />
+            </label>
+            <label className="text-sm font-bold">Status
+              <select value={filters.active || ""} onChange={(event) => { setFilters((current) => ({ ...current, active: event.target.value })); setPage(1); }} className={fieldClass}>
+                <option value="">All</option>
+                <option value="true">Active (live)</option>
+                <option value="false">Inactive (unpublished)</option>
+              </select>
             </label>
             {data && ([
               ["subject", "Subject", data.facets.subjects],
@@ -274,7 +406,7 @@ function ManageQuestionsView() {
                   <td className="px-3 py-2 font-bold">{row.id}</td><td className="px-3 py-2 capitalize">{row.subject}</td><td className="px-3 py-2">T{row.topic_number} {row.topic}</td><td className="px-3 py-2">{row.subtopic}</td>
                   <td className="max-w-sm px-3 py-2">{row.question}</td><td className="px-3 py-2">{row.marks}</td><td className="px-3 py-2">{row.assessment_objective}</td><td className="px-3 py-2">{row.tier}</td>
                   <td className="px-3 py-2"><span className={`rounded-md border-2 border-ink px-2 py-0.5 text-xs font-bold ${row.active ? "bg-moss-soft text-moss-dark" : "bg-cream-soft text-ink-soft"}`}>{row.active ? "Active" : "Inactive"}</span></td>
-                  <td className="px-3 py-2"><div className="flex gap-2"><button onClick={() => { setSaveError(""); setEditorMode("edit"); setEditor(formFromRecord(row)); }} className="rounded-md border-2 border-ink bg-card px-2 py-1 text-xs font-bold">Edit</button><button onClick={() => void toggleActive(row)} className="rounded-md border-2 border-ink bg-card px-2 py-1 text-xs font-bold">{row.active ? "Unpublish" : "Publish"}</button></div></td>
+                  <td className="px-3 py-2"><div className="flex gap-2"><button onClick={() => { setPreviewFlipped(false); setPreviewId(row.id); }} className="rounded-md border-2 border-ink bg-card px-2 py-1 text-xs font-bold">Preview</button><button onClick={() => { setSaveError(""); setEditorMode("edit"); setEditor(formFromRecord(row)); }} className="rounded-md border-2 border-ink bg-card px-2 py-1 text-xs font-bold">Edit</button><button onClick={() => void toggleActive(row)} className="rounded-md border-2 border-ink bg-card px-2 py-1 text-xs font-bold">{row.active ? "Mark inactive" : "Publish"}</button></div></td>
                 </tr>)}
               </tbody>
             </table>
@@ -287,14 +419,82 @@ function ManageQuestionsView() {
           </div>
         </>}
 
-        {editor && <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink/50 p-4">
+        {previewRow && <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-ink/60 p-4">
+          <section role="dialog" aria-modal="true" aria-label="Flashcard preview" className="w-full max-w-3xl py-6">
+            <div className="mb-3 flex flex-wrap items-center justify-between gap-3 rounded-2xl border-2 border-ink bg-card p-3">
+              <div className="text-sm font-bold">
+                <span className="capitalize">{previewRow.subject}</span> · {previewRow.id} · card {previewIndex + 1} of {data?.rows.length}
+                <span className={`ml-2 rounded-md border-2 border-ink px-2 py-0.5 text-xs ${previewRow.active ? "bg-moss-soft text-moss-dark" : "bg-cream-soft text-ink-soft"}`}>{previewRow.active ? "Active · live" : "Inactive · hidden from students"}</span>
+              </div>
+              <button onClick={() => setPreviewId(null)} className="rounded-xl border-2 border-ink bg-card px-4 py-1.5 text-sm font-bold">Close</button>
+            </div>
+            <Flashcard
+              key={previewRow.id + previewRow.question + previewRow.model_answer}
+              question={toFlashcardQuestion(previewRow)}
+              flipped={previewFlipped}
+              onFlip={() => setPreviewFlipped((value) => !value)}
+              isExam={false}
+              bookmarked={false}
+              onToggleBookmark={() => {}}
+              hintLevel={0}
+              onHintLevelChange={() => {}}
+              onRate={() => {}}
+              readOnly
+            />
+            <div className="mt-4 flex flex-wrap items-center gap-3 rounded-2xl border-2 border-ink bg-card p-3">
+              <button onClick={() => stepPreview(-1)} disabled={previewIndex <= 0} className="rounded-xl border-2 border-ink bg-card px-4 py-2 text-sm font-bold disabled:opacity-40">← Previous</button>
+              <button onClick={() => setPreviewFlipped((value) => !value)} className="rounded-xl border-2 border-ink bg-ink px-4 py-2 text-sm font-bold text-cream">{previewFlipped ? "Show question" : "Show answer"}</button>
+              <button onClick={() => stepPreview(1)} disabled={previewIndex >= (data?.rows.length ?? 0) - 1} className="rounded-xl border-2 border-ink bg-card px-4 py-2 text-sm font-bold disabled:opacity-40">Next →</button>
+              <span className="mx-1 hidden h-6 border-l-2 border-ink/20 sm:block" />
+              <button onClick={() => { setSaveError(""); setEditorMode("edit"); setEditor(formFromRecord(previewRow)); }} className="rounded-xl border-2 border-ink bg-yellow px-4 py-2 text-sm font-bold">Edit this card</button>
+              <button onClick={() => void toggleActive(previewRow)} className="rounded-xl border-2 border-ink bg-orange px-4 py-2 text-sm font-bold text-white">{previewRow.active ? "Mark inactive" : "Mark active (publish)"}</button>
+            </div>
+            {actionError && <p role="alert" className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{actionError}</p>}
+          </section>
+        </div>}
+
+        {editor && <div className="fixed inset-0 z-[60] flex items-center justify-center bg-ink/50 p-4">
           <section role="dialog" aria-modal="true" aria-labelledby="question-editor-title" className="sm-panel max-h-[92vh] w-full max-w-3xl overflow-y-auto p-6">
             <h2 id="question-editor-title" className="font-display text-2xl font-bold">{editingExisting ? `Edit ${editor.id}` : "Add question"}</h2>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
-              {!editingExisting && <label className="text-sm font-bold">Question ID<input value={editor.id} onChange={(event) => setEditor({ ...editor, id: event.target.value })} className={fieldClass} placeholder="CHEM-T05-Q060" /><span className="mt-1 block text-xs font-normal text-ink-soft">The subject and topic come from the ID (CHEM-T05 = Chemistry topic 5).</span></label>}
-              <label className="text-sm font-bold">Subtopic<input value={editor.subtopic} onChange={(event) => setEditor({ ...editor, subtopic: event.target.value })} className={fieldClass} /><span className="mt-1 block text-xs font-normal text-ink-soft">Use an existing subtopic name exactly, or type a new one.</span></label>
-              <label className="text-sm font-bold sm:col-span-2">Question<textarea rows={4} value={editor.question} onChange={(event) => setEditor({ ...editor, question: event.target.value })} className={fieldClass} /></label>
-              <label className="text-sm font-bold sm:col-span-2">Model answer (one marking point per line)<textarea rows={5} value={editor.modelAnswer} onChange={(event) => setEditor({ ...editor, modelAnswer: event.target.value })} className={fieldClass} /></label>
+              {!editingExisting ? <>
+                <label className="text-sm font-bold">Subject
+                  <select value={editor.subject} onChange={(event) => { setNewSubtopic(false); setEditor({ ...editor, subject: event.target.value, topicId: "", subtopic: "", id: "" }); }} className={fieldClass}>
+                    <option value="">Select a subject…</option>
+                    {["biology", "chemistry", "physics"].map((value) => <option key={value} value={value} className="capitalize">{value[0].toUpperCase() + value.slice(1)}</option>)}
+                  </select>
+                </label>
+                <label className="text-sm font-bold">Topic
+                  <select value={editor.topicId} disabled={!editor.subject} onChange={(event) => chooseTopic(event.target.value)} className={`${fieldClass} disabled:opacity-40`}>
+                    <option value="">Select a topic…</option>
+                    {topicsForSubject(editor.subject).map((topic) => <option key={topic.id} value={topic.id}>T{topic.number} {topic.name}</option>)}
+                  </select>
+                </label>
+                <label className="text-sm font-bold">Subtopic
+                  <select value={newSubtopic ? NEW_SUBTOPIC : editor.subtopic} disabled={!editor.topicId} onChange={(event) => {
+                    if (event.target.value === NEW_SUBTOPIC) { setNewSubtopic(true); setEditor({ ...editor, subtopic: "" }); }
+                    else { setNewSubtopic(false); setEditor({ ...editor, subtopic: event.target.value }); }
+                  }} className={`${fieldClass} disabled:opacity-40`}>
+                    <option value="">Select a subtopic…</option>
+                    {(selectedTopic?.subtopics ?? []).map((name) => <option key={name} value={name}>{name}</option>)}
+                    <option value={NEW_SUBTOPIC}>+ New subtopic…</option>
+                  </select>
+                  {newSubtopic && <input value={editor.subtopic} onChange={(event) => setEditor({ ...editor, subtopic: event.target.value })} placeholder="New subtopic name" className={fieldClass} />}
+                </label>
+                <label className="text-sm font-bold">Question ID
+                  <input value={editor.id} readOnly className={`${fieldClass} bg-cream-soft`} placeholder="Chosen from the topic" />
+                  <span className="mt-1 block text-xs font-normal text-ink-soft">The next free number in the topic is filled in for you.</span>
+                </label>
+              </> : (
+                <label className="text-sm font-bold">Subtopic
+                  <select value={editor.subtopic} onChange={(event) => setEditor({ ...editor, subtopic: event.target.value })} className={fieldClass}>
+                    {!(taxonomy.find((topic) => topic.id === editor.topicId)?.subtopics ?? []).includes(editor.subtopic) && <option value={editor.subtopic}>{editor.subtopic}</option>}
+                    {(taxonomy.find((topic) => topic.id === editor.topicId)?.subtopics ?? []).map((name) => <option key={name} value={name}>{name}</option>)}
+                  </select>
+                </label>
+              )}
+              <label className="text-sm font-bold sm:col-span-2">Question<textarea rows={4} value={editor.question} onPaste={(event) => pasteImage(event, "question")} onChange={(event) => setEditor({ ...editor, question: event.target.value })} className={fieldClass} />{imageControls("question")}</label>
+              <label className="text-sm font-bold sm:col-span-2">Model answer (one marking point per line)<textarea rows={5} value={editor.modelAnswer} onPaste={(event) => pasteImage(event, "modelAnswer")} onChange={(event) => setEditor({ ...editor, modelAnswer: event.target.value })} className={fieldClass} />{imageControls("modelAnswer")}</label>
               <label className="text-sm font-bold sm:col-span-2">Key terms, separated by semicolons (hidden from the model answer in hints)<input value={editor.keyTerms} onChange={(event) => setEditor({ ...editor, keyTerms: event.target.value })} className={fieldClass} /></label>
               <label className="text-sm font-bold">Marks<input type="number" min={1} max={6} value={editor.marks} onChange={(event) => setEditor({ ...editor, marks: Number(event.target.value) })} className={fieldClass} /></label>
               <label className="text-sm font-bold">Assessment objective<select value={editor.assessmentObjective} onChange={(event) => setEditor({ ...editor, assessmentObjective: event.target.value as AssessmentObjective })} className={fieldClass}>{objectives.map((value) => <option key={value}>{value}</option>)}</select></label>
