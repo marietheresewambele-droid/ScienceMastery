@@ -129,7 +129,11 @@ export default function SubjectPage({ subject }: { subject: Subject }) {
           <h2 className="mt-4 font-display text-2xl font-bold">{topic.title}</h2>
           <p className="mt-2 leading-7 text-ink-soft">{topic.description}</p>
         </div>
-        <Link href={topic.route} className={`sm-btn mt-6 inline-flex w-fit ${theme.solid} px-6 py-3 text-white`}>Start {topic.title}</Link>
+        <div className="mt-6 flex flex-wrap items-center gap-2">
+          <Link href={`/practice?mode=flashcards&subject=${subject}&topic=${topic.id}`} className={`sm-btn ${theme.solid} px-4 py-2 text-sm text-white`}>Practice</Link>
+          <Link href={`/practice?mode=exam&subject=${subject}&topic=${topic.id}`} className="sm-btn bg-card px-4 py-2 text-sm text-ink">Exam</Link>
+          <Link href={topic.route} className={`ml-1 text-sm font-bold ${theme.dark} hover:underline`}>Subtopics →</Link>
+        </div>
       </article>)}
     </section>
   </main>;
