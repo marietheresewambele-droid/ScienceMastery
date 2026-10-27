@@ -65,11 +65,14 @@ function toQuestion(row: QuestionBankRow): MasteryQuestion {
 
 const aoRank = (ao: string) => (ao.includes("AO1") ? 1 : ao.includes("AO2") ? 2 : 3);
 
-/** Syllabus order inside a topic: AO1 -> AO2 -> AO3, then subtopic order, then the workbook row order. */
+/**
+ * Study order: topic, then numbered subtopic (1.1, 1.2, ...), then AO1 -> AO2 -> AO3 within each
+ * subtopic so recall comes before analysis, then the workbook row order.
+ */
 export function compareQuestions(left: MasteryQuestion, right: MasteryQuestion) {
-  return aoRank(left.assessmentObjective) - aoRank(right.assessmentObjective)
-    || (left.topicNumber ?? 0) - (right.topicNumber ?? 0)
+  return (left.topicNumber ?? 0) - (right.topicNumber ?? 0)
     || (left.subtopicOrder ?? 0) - (right.subtopicOrder ?? 0)
+    || aoRank(left.assessmentObjective) - aoRank(right.assessmentObjective)
     || (left.sortOrder ?? 0) - (right.sortOrder ?? 0)
     || left.id.localeCompare(right.id);
 }
