@@ -68,11 +68,11 @@ test("questions without usable key terms fall back to automatic hints", () => {
   assert.match(first, /^Complete the answer:/);
 });
 
-test("questions are ordered AO1 -> AO2 -> AO3, then subtopic, then workbook row", () => {
+test("questions are ordered by numbered subtopic, then AO1 -> AO2 -> AO3 within it, then workbook row", () => {
   const make = (id: string, assessmentObjective: "AO1" | "AO2" | "AO3", subtopicOrder: number, sortOrder: number): MasteryQuestion =>
     ({ ...question, id, assessmentObjective, subtopicOrder, sortOrder, topicNumber: 1 });
   const ordered = [make("c", "AO3", 1, 0), make("b", "AO2", 2, 0), make("a2", "AO1", 2, 5), make("a1", "AO1", 1, 9), make("b0", "AO2", 1, 3)]
     .sort(compareQuestions)
     .map((item) => item.id);
-  assert.deepEqual(ordered, ["a1", "a2", "b0", "b", "c"]);
+  assert.deepEqual(ordered, ["a1", "b0", "c", "a2", "b"]);
 });

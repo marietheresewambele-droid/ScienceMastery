@@ -36,12 +36,6 @@ const labels: Record<Mode, string> = {
 
 const SUBJECTS = ["biology", "chemistry", "physics"];
 
-function assessmentObjectiveRank(assessmentObjective: string) {
-  if (assessmentObjective.includes("AO1")) return 1;
-  if (assessmentObjective.includes("AO2")) return 2;
-  return 3;
-}
-
 function shuffled<T>(items: T[]): T[] {
   const copy = [...items];
   for (let index = copy.length - 1; index > 0; index -= 1) {
@@ -166,13 +160,9 @@ export default function RevisionCenter({
         return compareQuestions(left.question, right.question);
       });
     } else {
-      const pool = order === "random" ? shuffled(candidates) : candidates;
-      next = [...pool].sort((left, right) => {
-        const objectiveOrder = assessmentObjectiveRank(left.question.assessmentObjective)
-          - assessmentObjectiveRank(right.question.assessmentObjective);
-        if (objectiveOrder !== 0) return objectiveOrder;
-        return order === "random" ? 0 : compareQuestions(left.question, right.question);
-      });
+      next = order === "random"
+        ? shuffled(candidates)
+        : [...candidates].sort((left, right) => compareQuestions(left.question, right.question));
     }
     setSession(mode === "due" ? next : next.slice(0, count));
     setIndex(0);
@@ -406,8 +396,8 @@ export default function RevisionCenter({
                     onChange={(event) => setOrder(event.target.value)}
                     className="mt-1 w-full rounded-xl border-2 border-ink bg-card p-2.5 font-normal"
                   >
-                    <option value="ordered">In order (AO1 → AO3)</option>
-                    <option value="random">Random (AO1 → AO3)</option>
+                    <option value="ordered">In order (by numbered subtopic)</option>
+                    <option value="random">Random</option>
                   </select>
                 </label>}
               </div>}
