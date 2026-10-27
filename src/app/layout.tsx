@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ProgressSync from "@/components/auth/ProgressSync";
 
 export const metadata: Metadata = {
   title: "BrainSoma",
@@ -22,7 +23,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap"
         />
       </head>
-      <body className="min-h-full flex flex-col bg-cream text-ink">{children}</body>
+      <body className="min-h-full flex flex-col bg-cream text-ink"><ProgressSync />
+        {children}
+      </body>
     </html>
   );
 }

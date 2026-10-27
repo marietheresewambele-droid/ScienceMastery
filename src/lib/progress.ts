@@ -1,3 +1,5 @@
+import { recordReview } from "@/lib/activity";
+import { markDirty } from "@/lib/sync";
 import type { ReviewMap, ReviewRating, ReviewRecord, TopicDefinition } from "@/types/questions";
 
 type ProgressTopic = Pick<TopicDefinition, "storageNamespace">;
@@ -26,6 +28,13 @@ export function schedule(previous: ReviewRecord|undefined,rating: ReviewRating,h
   const delay=rating==="again"?10*60*1000:days*DAY;
   return {rating,reviewedAt:now.toISOString(),dueAt:new Date(now.getTime()+delay).toISOString(),intervalDays:days,repetitions:rating==="again"?0:(previous?.repetitions??0)+1};
 }
-export function saveRating(topic: ProgressTopic,id:string,rating:ReviewRating,hintsUsed=0){ const p=readProgress(topic); p.completed.add(id); if(rating==="again"||rating==="hard")p.needs.add(id); else p.needs.delete(id); p.reviews[id]=schedule(p.reviews[id],rating,hintsUsed); const n=topic.storageNamespace; localStorage.setItem(`${n}_completed`,JSON.stringify([...p.completed])); localStorage.setItem(`${n}_needspractice`,JSON.stringify([...p.needs])); localStorage.setItem(`${n}_reviews`,JSON.stringify(Object.entries(p.reviews).map(([qid,r])=>({id:qid,...r}))));
-  window.dispatchEvent(new Event("brainsoma:learning-updated")); }
-export function toggleBookmark(topic: ProgressTopic,id:string){const p=readProgress(topic); if(p.bookmarks.has(id)){p.bookmarks.delete(id);}else{p.bookmarks.add(id);} localStorage.setItem(`${topic.storageNamespace}_bookmarks`,JSON.stringify([...p.bookmarks])); return p.bookmarks.has(id);}
+export function saveRating(topic: ProgressTopic,id:string,rating:ReviewRating,hintsUsed=0){
+  const p=readProgress(topic); p.completed.add(id); if(rating==="again"||rating==="hard")p.needs.add(id); else p.needs.delete(id);
+  p.reviews[id]=schedule(p.reviews[id],rating,hintsUsed);
+  const n=topic.storageNamespace;
+  const writes:[string,unknown][]=[[`${n}_completed`,[...p.completed]],[`${n}_needspractice`,[...p.needs]],[`${n}_reviews`,Object.entries(p.reviews).map(([qid,r])=>({id:qid,...r}))]];
+  for(const [key,value] of writes){ localStorage.setItem(key,JSON.stringify(value)); markDirty(key); }
+  recordReview();
+  window.dispatchEvent(new Event("brainsoma:learning-updated"));
+}
+export function toggleBookmark(topic: ProgressTopic,id:string){const p=readProgress(topic); if(p.bookmarks.has(id)){p.bookmarks.delete(id);}else{p.bookmarks.add(id);} localStorage.setItem(`${topic.storageNamespace}_bookmarks`,JSON.stringify([...p.bookmarks])); markDirty(`${topic.storageNamespace}_bookmarks`); return p.bookmarks.has(id);}

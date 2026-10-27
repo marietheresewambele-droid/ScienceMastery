@@ -10,6 +10,8 @@ import { readProgress } from "@/lib/progress";
 import { useHomeHref } from "@/hooks/useHomeHref";
 import Achievements from "@/components/revision/Achievements";
 import ExamCalendar from "@/components/revision/ExamCalendar";
+import StreakCard from "@/components/revision/StreakCard";
+import { useActivity } from "@/lib/activity";
 import { SUBJECT_NAMES, addCourse, courseLabel, removeCourse, useCourses, type Course } from "@/lib/courses";
 import { subtopicsFor, useQuestionBank } from "@/lib/questionBank";
 import type { Subject } from "@/types/questions";
@@ -37,6 +39,7 @@ export default function Dashboard() {
   const homeHref = useHomeHref();
   const bank = useQuestionBank();
   const { courses, ready: coursesReady } = useCourses();
+  const activity = useActivity();
 
   useEffect(() => setReady(true), []);
   useEffect(() => {
@@ -194,7 +197,9 @@ export default function Dashboard() {
           </div>
         </section>
 
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <div className="mt-8"><StreakCard /></div>
+
+        <div className="mt-6 grid gap-4 sm:grid-cols-3">
           {[
             ["Secure mastery", `${view.mastery}%`],
             ["Attempted", String(view.subjects.reduce((n, s) => n + s.completed, 0))],
@@ -281,6 +286,9 @@ export default function Dashboard() {
             topics={view.topics}
             courses={courses.length}
             mastery={view.mastery}
+            streak={activity.streak}
+            bestStreak={activity.best}
+            goalDays={activity.goalDays}
           />
         </section>
 

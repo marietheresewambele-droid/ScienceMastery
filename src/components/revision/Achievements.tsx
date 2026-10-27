@@ -23,6 +23,10 @@ interface AchievementsProps {
   courses?: number;
   /** Average secure-mastery percentage across subjects. */
   mastery?: number;
+  /** Consecutive study days, best ever, and days the daily goal was met. */
+  streak?: number;
+  bestStreak?: number;
+  goalDays?: number;
 }
 
 interface Achievement {
@@ -34,7 +38,7 @@ interface Achievement {
   colour: "orange" | "moss" | "yellow";
 }
 
-export default function Achievements({ completed, total, bookmarks, subjects, topics, courses = 0, mastery = 0 }: AchievementsProps) {
+export default function Achievements({ completed, total, bookmarks, subjects, topics, courses = 0, mastery = 0, streak = 0, bestStreak = 0, goalDays = 0 }: AchievementsProps) {
   const topicsFinished = topics.filter((t) => t.total > 0 && t.percent >= 100).length;
   const topicsStarted = topics.filter((t) => t.completed > 0).length;
   const subjectSpecialist = subjects.some((s) => s.total > 0 && s.completed >= s.total);
@@ -74,6 +78,12 @@ export default function Achievements({ completed, total, bookmarks, subjects, to
     milestone("archivist", "★★", "Archivist", "Bookmark 25 questions to revisit.", bookmarks >= 25, "yellow"),
     milestone("first-course", "C1", "Course Chosen", "Add your first course to the dashboard.", courses >= 1, "yellow"),
     milestone("course-collector", "C3", "Course Collector", "Add 3 courses to the dashboard.", courses >= 3, "yellow"),
+    milestone("streak-3", "3d", "On a Roll", "Study 3 days in a row.", Math.max(streak, bestStreak) >= 3, "yellow"),
+    milestone("streak-7", "7d", "Week Warrior", "Study 7 days in a row.", Math.max(streak, bestStreak) >= 7, "yellow"),
+    milestone("streak-14", "14d", "Fortnight Focus", "Study 14 days in a row.", Math.max(streak, bestStreak) >= 14, "yellow"),
+    milestone("streak-30", "30d", "Unbreakable", "Study 30 days in a row.", Math.max(streak, bestStreak) >= 30, "yellow"),
+    milestone("goal-1", "G1", "Goal Getter", "Hit your daily goal once.", goalDays >= 1, "orange"),
+    milestone("goal-7", "G7", "Habit Builder", "Hit your daily goal on 7 days.", goalDays >= 7, "orange"),
     milestone("completionist", "✓", "Completionist", "Complete 90% of every question available.", total > 0 && completed / total >= 0.9, "yellow"),
   ];
 

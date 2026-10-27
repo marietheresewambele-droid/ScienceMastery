@@ -3,6 +3,7 @@
 /* Client-only localStorage hydration/persistence is intentionally performed after mount. */
 /* eslint-disable react-hooks/set-state-in-effect */
 import { useEffect, useState } from "react";
+import { markDirty } from "@/lib/sync";
 
 type ExamEntry = { id: string; subject: string; title: string; date: string };
 
@@ -31,6 +32,7 @@ function loadExams(): ExamEntry[] {
 function saveExams(exams: ExamEntry[]) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(exams));
+    markDirty(STORAGE_KEY);
   } catch {
     /* localStorage unavailable */
   }
