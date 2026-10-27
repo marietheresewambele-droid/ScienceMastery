@@ -11,7 +11,6 @@ import {
   COMBINATIONS,
   COVERAGE_LABEL,
   COVERAGE_VALUES,
-  DIFFICULTIES,
   LEGACY_TIER,
   TIER_LABEL,
   TIER_VALUES,
@@ -46,7 +45,6 @@ interface BankQuestion {
   key_terms: string[];
   source_notes: string | null;
   active: boolean;
-  difficulty: string | null;
   created_at: string;
 }
 
@@ -61,7 +59,6 @@ interface QuestionForm {
   assessmentObjective: AssessmentObjective;
   qualification: string;
   tier: string;
-  difficulty: string;
   grade: string;
   questionType: string;
   keyTerms: string;
@@ -132,7 +129,6 @@ const emptyForm: QuestionForm = {
   assessmentObjective: "AO1",
   qualification: COVERAGE_VALUES[0],
   tier: TIER_VALUES[0],
-  difficulty: "",
   grade: "",
   questionType: "",
   keyTerms: "",
@@ -156,7 +152,6 @@ function formFromRecord(row: BankQuestion): QuestionForm {
     assessmentObjective: row.assessment_objective,
     qualification: row.qualification,
     tier: row.tier,
-    difficulty: row.difficulty || "",
     grade: row.grade || "",
     questionType: row.question_type || "",
     keyTerms: (row.key_terms || []).join("; "),
@@ -200,10 +195,14 @@ function ManageQuestionsView() {
   const [previewId, setPreviewId] = useState<string | null>(null);
   const [previewFlipped, setPreviewFlipped] = useState(false);
   const [studentView, setStudentView] = useState<Combination | null>(null);
+  // A "deck" preview loads every matching question (all pages), so it can be browsed across subjects and units.
+  const [deckMode, setDeckMode] = useState<{ base: Record<string, string>; subject: string; topic: string } | null>(null);
+  const [deck, setDeck] = useState<BankQuestion[] | null>(null);
+  const [deckVersion, setDeckVersion] = useState(0);
   const [uploading, setUploading] = useState(false);
   const [newSubtopic, setNewSubtopic] = useState(false);
   const [selected, setSelected] = useState<Map<string, BankQuestion>>(new Map());
-  const [bulk, setBulk] = useState({ qualification: "", tier: "", difficulty: "", subtopic: "" });
+  const [bulk, setBulk] = useState({ qualification: "", tier: "", subtopic: "" });
   const [bulkMessage, setBulkMessage] = useState("");
 
   const setFilter = (patch: Record<string, string>) => {
@@ -255,7 +254,31 @@ function ManageQuestionsView() {
   }, []);
   useEffect(() => { void loadCoverage(); }, [loadCoverage]);
 
-  const refreshAll = () => { void load(); void loadCoverage(); void loadTaxonomy(); };
+  const refreshAll = () => { void load(); void loadCoverage(); void loadTaxonomy(); setDeckVersion((value) => value + 1); };
+
+  useEffect(() => {
+    if (!deckMode) { setDeck(null); return; }
+    let cancelled = false;
+    (async () => {
+      const rows: BankQuestion[] = [];
+      for (let pageNumber = 1; ; pageNumber += 1) {
+        const params = new URLSearchParams({ page: String(pageNumber), pageSize: "100", ...deckMode.base });
+        if (deckMode.subject) params.set("subject", deckMode.subject);
+        if (deckMode.topic) params.set("topic", deckMode.topic);
+        const response = await authorizedFetch(`/api/admin/questions?${params.toString()}`);
+        const body = await response.json();
+        if (!response.ok) throw new Error(body.error || "The preview could not be loaded.");
+        rows.push(...(body.rows as BankQuestion[]));
+        if (rows.length >= body.total || !body.rows.length) break;
+      }
+      if (!cancelled) {
+        setDeck(rows);
+        setPreviewFlipped(false);
+        setPreviewId((current) => (current && rows.some((row) => row.id === current) ? current : rows[0]?.id ?? null));
+      }
+    })().catch((caught) => { if (!cancelled) { setDeck([]); setActionError(caught instanceof Error ? caught.message : "The preview could not be loaded."); } });
+    return () => { cancelled = true; };
+  }, [deckMode, deckVersion]);
 
   const topicsForSubject = (subject: string) => taxonomy.filter((topic) => topic.subject === subject);
   const filterTopic = taxonomy.find((topic) => topic.slug === filters.topic && (!filters.subject || topic.subject === filters.subject));
@@ -398,39 +421,49 @@ function ManageQuestionsView() {
       if (!response.ok) { setActionError(body.error || "The tags could not be applied."); return; }
       setBulkMessage(`Updated ${body.updated} question${body.updated === 1 ? "" : "s"}.`);
       setSelected(new Map());
-      setBulk({ qualification: "", tier: "", difficulty: "", subtopic: "" });
+      setBulk({ qualification: "", tier: "", subtopic: "" });
       refreshAll();
     } catch (caught) {
       setActionError(caught instanceof Error ? caught.message : "The tags could not be applied.");
     }
   }
 
-  /** Student preview: filter to what one course combination sees (published only) and open the flashcards. */
+  /** Student preview: what one course combination sees (published only), across every subject and unit. */
   function previewAsStudent(combination: Combination) {
     setStudentView(combination);
     setSearch("");
     setFilters({ course: combination.pathway, level: combination.tier, active: "true" });
     setPage(1);
     setPreviewFlipped(false);
-    setPreviewId("__first__");
+    setDeckMode({ base: { course: combination.pathway, level: combination.tier, active: "true" }, subject: "", topic: "" });
   }
   function clearStudentView() {
     setStudentView(null);
     setFilters({});
     setPage(1);
   }
+  function openFilteredDeck() {
+    setStudentView(null);
+    setPreviewFlipped(false);
+    setDeckMode({
+      base: Object.fromEntries(Object.entries({ ...filters, ...(search.trim() ? { search: search.trim() } : {}) }).filter(([key, value]) => value && key !== "subject" && key !== "topic")),
+      subject: filters.subject || "",
+      topic: filters.topic || "",
+    });
+  }
+  function closePreview() {
+    setPreviewId(null);
+    setDeckMode(null);
+  }
 
-  // The first card opens once the student-preview list has loaded.
-  useEffect(() => {
-    if (previewId === "__first__" && data && !loading) setPreviewId(data.rows[0]?.id ?? null);
-  }, [previewId, data, loading]);
-
-  const previewIndex = data && previewId ? data.rows.findIndex((row) => row.id === previewId) : -1;
-  const previewRow = previewIndex >= 0 ? data?.rows[previewIndex] : undefined;
+  const previewRows = deckMode ? deck ?? [] : data?.rows ?? [];
+  const previewIndex = previewId ? previewRows.findIndex((row) => row.id === previewId) : -1;
+  const previewRow = previewIndex >= 0 ? previewRows[previewIndex] : undefined;
   function stepPreview(direction: 1 | -1) {
-    const next = data?.rows[previewIndex + direction];
+    const next = previewRows[previewIndex + direction];
     if (next) { setPreviewFlipped(false); setPreviewId(next.id); }
   }
+  const deckTopic = deckMode ? taxonomy.find((topic) => topic.slug === deckMode.topic && (!deckMode.subject || topic.subject === deckMode.subject)) : undefined;
 
   const pages = data ? Math.max(1, Math.ceil(data.total / data.pageSize)) : 1;
   const editingExisting = editorMode === "edit";
@@ -447,7 +480,7 @@ function ManageQuestionsView() {
           </div>
           <div className="flex flex-wrap gap-3">
             <Link href="/admin/questions/upload" className="sm-btn bg-card px-5 py-3 text-ink">Import Excel</Link>
-            <button onClick={() => { setStudentView(null); setPreviewFlipped(false); setPreviewId("__first__"); }} disabled={!data?.rows.length} className="sm-btn bg-card px-5 py-3 text-ink disabled:opacity-40">Preview flashcards</button>
+            <button onClick={openFilteredDeck} disabled={!data?.rows.length} className="sm-btn bg-card px-5 py-3 text-ink disabled:opacity-40">Preview flashcards</button>
             <button onClick={startNew} className="sm-btn bg-orange px-5 py-3 text-white">Add question</button>
           </div>
         </div>
@@ -525,13 +558,6 @@ function ManageQuestionsView() {
             <label className="text-sm font-bold sm:col-span-2">Search ID or question
               <input value={search} onChange={(event) => { setSearch(event.target.value); setPage(1); }} placeholder="Search the bank" className={fieldClass} />
             </label>
-            <label className="text-sm font-bold">Difficulty
-              <select value={filters.difficulty || ""} onChange={(event) => setFilter({ difficulty: event.target.value })} className={fieldClass}>
-                <option value="">All</option>
-                {DIFFICULTIES.map((value) => <option key={value} value={value}>{value}</option>)}
-                <option value="none">Not set</option>
-              </select>
-            </label>
             <label className="flex items-end gap-2 pb-3 text-sm font-bold sm:col-span-2">
               <input type="checkbox" checked={filters.needsReview === "true"} onChange={(event) => setFilter({ needsReview: event.target.checked ? "true" : "" })} className="h-4 w-4 accent-[color:var(--color-orange)]" />
               Needs review (course or tier tag missing or invalid)
@@ -561,13 +587,6 @@ function ManageQuestionsView() {
                 {TIER_VALUES.map((value) => <option key={value} value={value}>{TIER_LABEL[value]}</option>)}
               </select>
             </label>
-            <label className="text-xs font-bold">Difficulty
-              <select value={bulk.difficulty} onChange={(event) => setBulk({ ...bulk, difficulty: event.target.value })} className={`${fieldClass} !mt-0.5 !p-2`}>
-                <option value="">No change</option>
-                {DIFFICULTIES.map((value) => <option key={value} value={value}>{value}</option>)}
-                <option value="none">Clear</option>
-              </select>
-            </label>
             <label className="text-xs font-bold">Subtopic
               <select value={bulk.subtopic} disabled={!bulkTopic} onChange={(event) => setBulk({ ...bulk, subtopic: event.target.value })} title={bulkTopic ? "" : "Select questions from a single unit to move subtopic"} className={`${fieldClass} !mt-0.5 !p-2 disabled:opacity-40`}>
                 <option value="">No change</option>
@@ -590,7 +609,7 @@ function ManageQuestionsView() {
             <table className="w-full min-w-[1020px] text-left text-sm">
               <thead className="bg-ink text-cream"><tr>
                 <th className="px-3 py-2"><input type="checkbox" aria-label="Select all on this page" checked={pageSelected} onChange={togglePage} className="h-4 w-4" /></th>
-                {["ID", "Question", "Unit · subtopic", "Coverage", "Tier", "Difficulty", "Status", "Actions"].map((label) => <th key={label} className="px-3 py-2">{label}</th>)}
+                {["ID", "Question", "Unit · subtopic", "Coverage", "Tier", "Status", "Actions"].map((label) => <th key={label} className="px-3 py-2">{label}</th>)}
               </tr></thead>
               <tbody>
                 {data.rows.map((row) => {
@@ -603,7 +622,6 @@ function ManageQuestionsView() {
                     <td className="px-3 py-2 text-xs"><span className="font-bold capitalize">{row.subject}</span> · T{row.topic_number}<br />{row.subtopic}</td>
                     <td className="px-3 py-2">{COVERAGE_LABEL[row.qualification] ?? <Flag text={row.qualification || "Missing"} />}</td>
                     <td className="px-3 py-2">{TIER_LABEL[row.tier] ?? <Flag text={row.tier || "Missing"} />}{legacy && <Flag text="Needs review" />}</td>
-                    <td className="px-3 py-2">{row.difficulty ?? <span className="text-ink-soft">—</span>}</td>
                     <td className="px-3 py-2"><span className={`rounded-md border-2 border-ink px-2 py-0.5 text-xs font-bold ${row.active ? "bg-moss-soft text-moss-dark" : "bg-cream-soft text-ink-soft"}`}>{row.active ? "Published" : "Draft"}</span>{reasons.length > 0 && <Flag text="Needs review" />}</td>
                     <td className="px-3 py-2"><div className="flex gap-2">
                       <button onClick={() => { setPreviewFlipped(false); setPreviewId(row.id); }} className="rounded-md border-2 border-ink bg-card px-2 py-1 text-xs font-bold">Preview</button>
@@ -623,15 +641,45 @@ function ManageQuestionsView() {
           </div>
         </>}
 
-        {previewRow && <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-ink/60 p-4">
+        {(previewRow || deckMode) && <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-ink/60 p-4">
           <section role="dialog" aria-modal="true" aria-label="Flashcard preview" className="w-full max-w-3xl py-6">
+            {deckMode && (
+              <div className="mb-3 flex flex-wrap items-end gap-3 rounded-2xl border-2 border-ink bg-yellow-soft p-3">
+                <label className="text-xs font-bold">Subject
+                  <select value={deckMode.subject} onChange={(event) => setDeckMode({ ...deckMode, subject: event.target.value, topic: "" })} className={`${fieldClass} !mt-0.5 !p-2`}>
+                    <option value="">All subjects</option>
+                    {SUBJECTS.map((subject) => <option key={subject} value={subject}>{subject[0].toUpperCase() + subject.slice(1)}</option>)}
+                  </select>
+                </label>
+                <label className="text-xs font-bold">Unit
+                  <select value={deckMode.topic} onChange={(event) => setDeckMode({ ...deckMode, topic: event.target.value })} className={`${fieldClass} !mt-0.5 !p-2`}>
+                    <option value="">All units</option>
+                    {taxonomy.filter((topic) => !deckMode.subject || topic.subject === deckMode.subject).map((topic) => <option key={topic.id} value={topic.slug}>{deckMode.subject ? "" : `${topic.subject[0].toUpperCase()}${topic.subject.slice(1, 4)} · `}T{topic.number} {topic.name}</option>)}
+                  </select>
+                </label>
+                <label className="text-xs font-bold">Jump to subtopic
+                  <select value="" disabled={!deckTopic} onChange={(event) => { const hit = previewRows.find((row) => row.topic_slug === deckTopic?.slug && row.subtopic === event.target.value); if (hit) { setPreviewFlipped(false); setPreviewId(hit.id); } }} className={`${fieldClass} !mt-0.5 !p-2 disabled:opacity-40`}>
+                    <option value="">{deckTopic ? "Choose…" : "Pick a unit first"}</option>
+                    {(deckTopic?.subtopics ?? []).filter((name) => previewRows.some((row) => row.topic_slug === deckTopic?.slug && row.subtopic === name)).map((name) => <option key={name} value={name}>{name}</option>)}
+                  </select>
+                </label>
+                <p className="pb-2 text-xs font-semibold text-ink-soft">{deck === null ? "Loading every question…" : `${deck.length} question${deck.length === 1 ? "" : "s"} in this view`}</p>
+              </div>
+            )}
+            {deckMode && !previewRow && (
+              <div className="rounded-2xl border-2 border-ink bg-card p-8 text-center font-semibold text-ink-soft">
+                {deck === null ? "Loading questions…" : "No questions match this view."}
+                <div className="mt-4"><button onClick={closePreview} className="rounded-xl border-2 border-ink bg-card px-4 py-1.5 text-sm font-bold">Close</button></div>
+              </div>
+            )}
+            {previewRow && <>
             <div className="mb-3 flex flex-wrap items-center justify-between gap-3 rounded-2xl border-2 border-ink bg-card p-3">
               <div className="text-sm font-bold">
                 {studentView && <span className="mr-2 rounded-md border-2 border-ink bg-yellow px-2 py-0.5 text-xs">Student view: {studentView.label}</span>}
-                <span className="capitalize">{previewRow.subject}</span> · {previewRow.id} · card {previewIndex + 1} of {data?.rows.length}
+                <span className="capitalize">{previewRow.subject}</span> · {previewRow.id} · card {previewIndex + 1} of {previewRows.length}
                 <span className={`ml-2 rounded-md border-2 border-ink px-2 py-0.5 text-xs ${previewRow.active ? "bg-moss-soft text-moss-dark" : "bg-cream-soft text-ink-soft"}`}>{previewRow.active ? "Published · live" : "Draft · hidden from students"}</span>
               </div>
-              <button onClick={() => setPreviewId(null)} className="rounded-xl border-2 border-ink bg-card px-4 py-1.5 text-sm font-bold">Close</button>
+              <button onClick={closePreview} className="rounded-xl border-2 border-ink bg-card px-4 py-1.5 text-sm font-bold">Close</button>
             </div>
             <Flashcard
               key={previewRow.id + previewRow.question + previewRow.model_answer}
@@ -649,12 +697,13 @@ function ManageQuestionsView() {
             <div className="mt-4 flex flex-wrap items-center gap-3 rounded-2xl border-2 border-ink bg-card p-3">
               <button onClick={() => stepPreview(-1)} disabled={previewIndex <= 0} className="rounded-xl border-2 border-ink bg-card px-4 py-2 text-sm font-bold disabled:opacity-40">← Previous</button>
               <button onClick={() => setPreviewFlipped((value) => !value)} className="rounded-xl border-2 border-ink bg-ink px-4 py-2 text-sm font-bold text-cream">{previewFlipped ? "Show question" : "Show answer"}</button>
-              <button onClick={() => stepPreview(1)} disabled={previewIndex >= (data?.rows.length ?? 0) - 1} className="rounded-xl border-2 border-ink bg-card px-4 py-2 text-sm font-bold disabled:opacity-40">Next →</button>
+              <button onClick={() => stepPreview(1)} disabled={previewIndex >= previewRows.length - 1} className="rounded-xl border-2 border-ink bg-card px-4 py-2 text-sm font-bold disabled:opacity-40">Next →</button>
               <span className="mx-1 hidden h-6 border-l-2 border-ink/20 sm:block" />
               <button onClick={() => { setSaveError(""); setEditorMode("edit"); setEditor(formFromRecord(previewRow)); }} className="rounded-xl border-2 border-ink bg-yellow px-4 py-2 text-sm font-bold">Edit this card</button>
               <button onClick={() => void toggleActive(previewRow)} className="rounded-xl border-2 border-ink bg-orange px-4 py-2 text-sm font-bold text-white">{previewRow.active ? "Unpublish (make draft)" : "Publish"}</button>
             </div>
             {actionError && <p role="alert" className="mt-3 rounded-xl border-2 border-ink bg-orange-soft p-3 text-sm font-semibold text-orange-dark">{actionError}</p>}
+            </>}
           </section>
         </div>}
 
@@ -704,7 +753,7 @@ function ManageQuestionsView() {
 
               <fieldset className="rounded-xl border-2 border-ink bg-cream-soft p-4 sm:col-span-2">
                 <legend className="px-2 text-sm font-extrabold uppercase tracking-wide">Where this question appears</legend>
-                <div className="grid gap-4 sm:grid-cols-3">
+                <div className="grid gap-4 sm:grid-cols-2">
                   <label className="text-sm font-bold">Content coverage
                     <select value={editor.qualification} onChange={(event) => setEditor({ ...editor, qualification: event.target.value })} className={fieldClass}>
                       <option value="Combined and Separate Science">Combined and Separate</option>
@@ -714,12 +763,6 @@ function ManageQuestionsView() {
                   <label className="text-sm font-bold">Tier availability
                     <select value={editor.tier} onChange={(event) => setEditor({ ...editor, tier: event.target.value })} className={fieldClass}>
                       {tierOptions.map((value) => <option key={value} value={value}>{value === LEGACY_TIER ? "Foundation only (legacy, retag)" : value}</option>)}
-                    </select>
-                  </label>
-                  <label className="text-sm font-bold">Difficulty
-                    <select value={editor.difficulty} onChange={(event) => setEditor({ ...editor, difficulty: event.target.value })} className={fieldClass}>
-                      <option value="">Not set</option>
-                      {DIFFICULTIES.map((value) => <option key={value} value={value}>{value}</option>)}
                     </select>
                   </label>
                 </div>

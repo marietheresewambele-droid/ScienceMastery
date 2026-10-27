@@ -3,7 +3,7 @@ import { requireAdmin } from "@/lib/adminApiAuth";
 import { catalogColumns, parseQuestionInput, resolveSubtopicId, topicIdFromQuestionId } from "@/lib/questionBankAdmin";
 
 const PAGE_SIZE_MAX = 100;
-const BANK_FIELDS = "id,legacy_id,subject,topic_id,topic_number,topic,topic_slug,subtopic,subtopic_order,specification_reference,question,model_answer,marks,assessment_objective,qualification,tier,grade,question_type,key_terms,source_notes,sort_order,active,created_at,difficulty";
+const BANK_FIELDS = "id,legacy_id,subject,topic_id,topic_number,topic,topic_slug,subtopic,subtopic_order,specification_reference,question,model_answer,marks,assessment_objective,qualification,tier,grade,question_type,key_terms,source_notes,sort_order,active,created_at";
 
 export async function GET(request: Request) {
   try {
@@ -32,9 +32,6 @@ export async function GET(request: Request) {
     // Course / tier filters show what a student on that course sees (Triple sees everything; Foundation never sees Higher-only).
     if (params.get("course") === "combined") query = query.eq("qualification", "Combined and Separate Science");
     if (params.get("level") === "Foundation") query = query.neq("tier", "Higher only");
-    const difficulty = params.get("difficulty");
-    if (difficulty === "none") query = query.is("difficulty", null);
-    else if (difficulty) query = query.eq("difficulty", difficulty);
     // Questions whose coverage/tier tag is missing or no longer part of the scheme.
     if (params.get("needsReview") === "true") {
       query = query.or("qualification.is.null,tier.is.null,tier.eq.Foundation only,qualification.not.in.(Combined and Separate Science,Separate Science only),tier.not.in.(Foundation and Higher,Higher only,Foundation only)");

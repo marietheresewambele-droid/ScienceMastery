@@ -6,7 +6,7 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import type { WorkbookQuestionRow } from "@/lib/brainsomaWorkbook";
 
 const CHUNK = 500;
-const FIELDS = "id,question,model_answer,marks,assessment_objective,qualification,tier,difficulty,grade,question_type,specification_reference,subtopic_id";
+const FIELDS = "id,question,model_answer,marks,assessment_objective,qualification,tier,grade,question_type,specification_reference,subtopic_id";
 
 /** Compares the workbook with what is saved, so the admin sees new / updated / unchanged questions before importing. */
 async function diffAgainstCatalog(admin: SupabaseClient, rows: WorkbookQuestionRow[]) {
@@ -29,8 +29,6 @@ async function diffAgainstCatalog(admin: SupabaseClient, rows: WorkbookQuestionR
       ["assessment objective", row.assessmentObjective, existing.assessment_objective],
       ["coverage", row.qualification, existing.qualification],
       ["tier", row.tier, existing.tier],
-      // A workbook with no Difficulty value leaves the saved one alone.
-      ["difficulty", row.difficulty || (existing.difficulty ?? ""), existing.difficulty ?? ""],
       ["grade", row.grade || "", existing.grade ?? ""],
       ["question type", row.questionType || "", existing.question_type ?? ""],
     ] as const).filter(([, next, current]) => String(next) !== String(current)).map(([label]) => label);
@@ -50,7 +48,7 @@ export async function POST(request: Request) {
     const { rows, issues, topics } = upload.result;
 
     const diff = await diffAgainstCatalog(auth.admin, rows);
-    const tagIssues = issues.filter((issue) => /^(Qualification|Tier|Difficulty) must be|no longer a valid tag/.test(issue.message));
+    const tagIssues = issues.filter((issue) => /^(Qualification|Tier) must be|no longer a valid tag/.test(issue.message));
 
     return NextResponse.json({
       diff,

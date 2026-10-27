@@ -10,7 +10,6 @@ export const COVERAGE_VALUES = ["Combined and Separate Science", "Separate Scien
 export const TIER_VALUES = ["Foundation and Higher", "Higher only"] as const;
 /** Older workbooks used "Foundation only". It is no longer a valid tag and is flagged for review. */
 export const LEGACY_TIER = "Foundation only";
-export const DIFFICULTIES = ["Core", "Standard", "Stretch"] as const;
 
 export const COVERAGE_LABEL: Record<string, string> = {
   "Combined and Separate Science": "Shared",
