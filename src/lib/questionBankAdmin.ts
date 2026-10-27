@@ -38,11 +38,12 @@ export async function publishWorkbookRows(admin: SupabaseClient, rows: WorkbookQ
   const subtopicId = new Map((savedSubtopics ?? []).map((subtopic) => [`${subtopic.topic_id}|${subtopic.name}`, subtopic.id as string]));
 
   const existing = new Map<string, boolean>();
+  const existingDifficulty = new Map<string, string | null>();
   for (let start = 0; start < rows.length; start += CHUNK) {
     const ids = rows.slice(start, start + CHUNK).map((row) => row.questionId);
-    const { data, error } = await admin.from("question_catalog").select("id,active").in("id", ids);
+    const { data, error } = await admin.from("question_catalog").select("id,active,difficulty").in("id", ids);
     if (error) throw error;
-    for (const row of data ?? []) existing.set(row.id, row.active);
+    for (const row of data ?? []) { existing.set(row.id, row.active); existingDifficulty.set(row.id, row.difficulty); }
   }
 
   const catalogRows = rows.map((row) => {
@@ -65,6 +66,8 @@ export async function publishWorkbookRows(admin: SupabaseClient, rows: WorkbookQ
       key_terms: row.keyTerms,
       source_notes: row.sourceNotes || null,
       sort_order: row.sortOrder,
+      // A workbook without a Difficulty column keeps whatever an admin already set.
+      difficulty: row.difficulty || existingDifficulty.get(row.questionId) || null,
       active: existing.get(row.questionId) ?? activateNew,
     };
   });
@@ -105,6 +108,7 @@ export interface QuestionInput {
   specificationReference: string;
   legacyId: string;
   sourceNotes: string;
+  difficulty: string;
 }
 
 const str = (value: unknown) => (typeof value === "string" ? value.trim() : "");
@@ -127,6 +131,7 @@ export function parseQuestionInput(raw: unknown): { input: QuestionInput } | { e
     specificationReference: str(value.specificationReference),
     legacyId: str(value.legacyId),
     sourceNotes: str(value.sourceNotes),
+    difficulty: str(value.difficulty),
   };
   if (!QUESTION_ID.test(input.id)) return { error: "Question ID must look like CHEM-T01-Q001." };
   for (const [label, field] of [["Subtopic", input.subtopic], ["Question", input.question], ["Model answer", input.modelAnswer]] as const) {
@@ -136,6 +141,7 @@ export function parseQuestionInput(raw: unknown): { input: QuestionInput } | { e
   if (!["AO1", "AO2", "AO3"].includes(input.assessmentObjective)) return { error: "Assessment objective must be AO1, AO2 or AO3." };
   if (!QUALIFICATIONS.includes(input.qualification)) return { error: "Choose a valid qualification." };
   if (!TIERS.includes(input.tier)) return { error: "Choose a valid tier." };
+  if (input.difficulty && !["Core", "Standard", "Stretch"].includes(input.difficulty)) return { error: "Difficulty must be Core, Standard or Stretch." };
   return { input };
 }
 
@@ -172,5 +178,6 @@ export function catalogColumns(input: QuestionInput) {
     question_type: input.questionType || null,
     key_terms: input.keyTerms,
     source_notes: input.sourceNotes || null,
+    difficulty: input.difficulty || null,
   };
 }
