@@ -21,7 +21,6 @@ export async function POST(request: Request) {
     return NextResponse.json(summary);
   } catch (error) {
     console.error("Question import failed:", error);
-    const detail = error instanceof Error ? error.message : (error as { message?: string })?.message;
-    return NextResponse.json({ error: `The questions could not be saved${detail ? `: ${detail}` : "."}` }, { status: 500 });
+    return NextResponse.json({ error: "The questions could not be saved. Check the server logs for details." }, { status: 500 });
   }
 }

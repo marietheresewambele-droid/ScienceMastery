@@ -2,6 +2,10 @@
 # Dependencies
 node_modules/
 
+# Build-check archives (may contain env files)
+_to_delete/
+*.tar.gz
+
 # Build outputs
 dist/
 build/

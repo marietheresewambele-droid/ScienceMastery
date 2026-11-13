@@ -13,9 +13,8 @@ export async function requireAdmin(request: Request) {
   } catch (error) {
     // An unexpected throw (e.g. a malformed Supabase URL or key) used to surface as an opaque 500.
     console.error("Admin access check crashed:", error);
-    const detail = error instanceof Error ? error.message : "unknown error";
     return {
-      error: NextResponse.json({ error: `Could not check admin access: ${detail}` }, { status: 503 }),
+      error: NextResponse.json({ error: "Could not check admin access. Check the server logs and Supabase configuration." }, { status: 503 }),
     } as const;
   }
 }

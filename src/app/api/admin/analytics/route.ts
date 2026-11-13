@@ -12,9 +12,8 @@ export async function GET(request: Request) {
     return NextResponse.json(data);
   } catch (error) {
     console.error("Student analytics failed:", error);
-    const detail = error instanceof Error ? error.message : (error as { message?: string })?.message || "unknown error";
     return NextResponse.json(
-      { error: `Could not load student analytics: ${detail}. Make sure the admin_student_analytics migration has been applied.` },
+      { error: "Could not load student analytics. Make sure the admin_student_analytics migration has been applied." },
       { status: 500 },
     );
   }
