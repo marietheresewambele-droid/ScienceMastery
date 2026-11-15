@@ -390,6 +390,14 @@ function ManageQuestionsView() {
         setActionError(body.error || "The question status could not be changed.");
         return;
       }
+      // If the change drops this card from the deck being previewed (e.g. unpublishing inside a
+      // published-only view), step back to the previous card instead of restarting at card 1.
+      const activeFilter = deckMode ? deckMode.base.active : filters.active;
+      if (row.id === previewId && activeFilter === String(row.active)) {
+        const neighbour = previewRows[previewIndex - 1] ?? previewRows[previewIndex + 1];
+        setPreviewFlipped(false);
+        setPreviewId(neighbour?.id ?? null);
+      }
       refreshAll();
     } catch (caught) {
       setActionError(caught instanceof Error ? caught.message : "The question status could not be changed.");
